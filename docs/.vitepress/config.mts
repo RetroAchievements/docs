@@ -100,8 +100,8 @@ export default defineConfig({
               link: "/guidelines/content/unwelcome-concepts",
             },
             {
-              text: "Progression and Win Condition Typing",
-              link: "/guidelines/content/progression-and-win-condition-typing",
+              text: "Progression and Win Condition Guidelines",
+              link: "/guidelines/content/progression-and-win-condition-guidelines",
             },
             {
               text: "Set Plagiarism",
