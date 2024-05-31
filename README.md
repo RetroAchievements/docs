@@ -32,7 +32,41 @@ TODO
 
 ### I want to create pages or work on multiple pages
 
-TODO
+First, fork the repository on GitHub. You can do this by clicking the "Fork" button on the [repository's page](https://github.com/RetroAchievements/docs-vitepress):
+
+![fork button](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/fork-button.png)
+
+A form will appear when clicking this button. Press "Create fork".
+
+After you've forked the repository, you should automatically be viewing your fork. Once it's visible, press the period (".") key on your keyboard. This will open VSCode inside your browser. You can use the file tree on the left to explore the docs, specifically by expanding the "docs" folder. You can search for files by using the Ctrl+P hotkey, for example, you can search for "README":
+
+![readme search](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/readme-search.png)
+
+Once a document is opened, it's extremely helpful to also open VSCode's built-in Markdown preview. First, open the command palette with the Ctrl+Shift+P hotkey, then search for "markdown preview", then select the "Markdown: Open Preview to the Side" option. This will let you preview your changes as you write them.
+
+![markdown preview](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/markdown-preview.png)
+
+Another helpful VSCode hotkey is Ctrl+Shift+F. This lets you search for some text throughout the entire project in the event you don't know where the file is you're looking for.
+
+Use Ctrl+S to save files as you work in them.
+
+When you're ready to propose a pull request for your changes, follow these steps:
+
+1. Click the Source Control icon on the left, right click the files you've changed and click "Stage Changes". Write some message describing your commit, then click the "Commit & Push" button.
+
+![commit changes](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/commit-changes.png)
+
+2. Open the command palette with Ctrl+Shift+P and use the "Create Pull Request" command.
+
+![create pull request](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/create-pull-request.png)
+
+3. You'll see the following form appear:
+
+![pr form](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/pr-form.png)
+
+Enter a title and description for your pull request. Then click the Create button.
+
+Your pull request is now created and ready for review.
 
 ### I want to run the whole docs site on my computer
 
