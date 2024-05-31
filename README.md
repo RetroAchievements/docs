@@ -28,7 +28,14 @@ RADocs is a [VitePress](https://vitepress.dev/) app. There are multiple ways you
 
 ### I just want to edit a page
 
-TODO
+1. Visit any page in the docs, scroll to the bottom, and click the "Edit this page" link.
+2. Click the "Fork this repository" button.
+3. Make and preview your changes in the Markdown editor on the screen.
+4. Click the "Commit changes" button.
+5. Write a title and description for your changes if you want, then submit.
+6. Click the "Create pull request" button.
+7. Write a title and description for your pull request. This is more important.
+8. Click the "Create pull request" button. You're done.
 
 ### I want to create pages or work on multiple pages
 
