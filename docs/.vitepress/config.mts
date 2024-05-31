@@ -52,6 +52,12 @@ export default defineConfig({
     //   },
     // ],
 
+    editLink: {
+      pattern:
+        "https://pr.new/RetroAchievements/docs-vitepress/edit/main/docs/:path",
+      text: "Edit this page",
+    },
+
     nav: [
       {
         text: "Guidelines",

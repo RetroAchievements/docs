@@ -28,7 +28,9 @@ RADocs is a [VitePress](https://vitepress.dev/) app. There are multiple ways you
 
 ### I just want to edit a page
 
-TODO
+No problem! At the bottom of every page you'll find an "Edit this page" link:
+
+![edit this page link](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/edit-this-page.png)
 
 ### I want to create pages or work on multiple pages
 
