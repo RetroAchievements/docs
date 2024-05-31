@@ -1,11 +1,9 @@
----
-**Estas são as páginas que todos os desenvolvedores novatos deveriam ler e entender primeiro**:
+Estaas são as páginas que todos os desenvolvedores novatos deveriam ler e entender primeiro:
 
 1. [Começando como um desenvolvedor de conquistas](Getting-Started-as-an-Achievement-Developer-pt_BR)
 2. [Características de Lógicas de Conquistas](Achievement-Logic-Features-pt_BR)
 3. [Exemplos Reais](Real-Examples-pt_BR)
 4. [Modelos de Conquistas](Achievement-Templates-pt_BR)
----
 
 Agora uma breve descrição de cada página que você verá nesta seção:
 

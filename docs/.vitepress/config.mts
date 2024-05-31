@@ -5,6 +5,9 @@ export default defineConfig({
   title: "RetroAchievements Docs",
   description: "The official documentation for RetroAchievements.",
 
+  // TODO delete this setting
+  ignoreDeadLinks: true,
+
   locales: {
     root: {
       label: "English",
@@ -65,6 +68,182 @@ export default defineConfig({
     ],
 
     sidebar: {
+      "/general/": [
+        {
+          text: "General",
+          collapsed: false,
+          items: [
+            {
+              text: "Index",
+              link: "/general/index",
+            },
+            {
+              text: "FAQ",
+              link: "/general/faq",
+            },
+            {
+              text: "Setup Guide",
+              link: "/general/setup-guide",
+            },
+            {
+              text: "Emulator Support and Issues",
+              link: "/general/emulator-support-and-issues",
+            },
+            {
+              text: "Ways to Contribute",
+              link: "/general/ways-to-contribute",
+            },
+            {
+              text: "RABot, the RA Discord Robot",
+              link: "/general/rabot",
+            },
+            {
+              text: "Events",
+              link: "/general/events",
+            },
+            {
+              text: "Overlay Themes",
+              link: "/general/overlay-themes",
+            },
+            {
+              text: "Useful Links",
+              link: "/general/useful-links",
+            },
+            {
+              text: "Contributing to the Docs",
+              link: "/general/contributing-to-the-docs",
+            },
+            {
+              text: "About Us",
+              link: "/general/about-us",
+            },
+          ],
+        },
+        {
+          text: "Tutorials",
+          collapsed: false,
+          items: [
+            {
+              text: "How to configure OBS Studio to see the popups",
+              link: "/general/tutorials/how-to-configure-obs-studio",
+            },
+            {
+              text: "Multi-Disc Games",
+              link: "/general/tutorials/multi-disc-games",
+            },
+            {
+              text: "Working with DLC for the PlayStation Portable",
+              link: "/general/tutorials/working-with-dlc-for-the-psp",
+            },
+          ],
+        },
+      ],
+
+      "/guidelines/": [
+        {
+          text: "User Guidelines",
+          collapsed: false,
+          items: [
+            {
+              text: "RetroAchievements Manifesto",
+              link: "/guidelines/users/retroachievements-manifesto",
+            },
+            {
+              text: "Users Code of Conduct",
+              link: "/guidelines/users/code-of-conduct",
+            },
+            {
+              text: "Global Leaderboard and Achievement Hunting Rules",
+              link: "/guidelines/users/global-leaderboard-and-achievement-hunting-rules",
+            },
+          ],
+        },
+        {
+          text: "Developer Guidelines",
+          collapsed: false,
+          items: [
+            {
+              text: "Developers Code of Conduct",
+              link: "/guidelines/developers/code-of-conduct",
+            },
+            {
+              text: "Creating Entries",
+              link: "/guidelines/developers/creating-entries",
+            },
+            {
+              text: "Claims System",
+              link: "/guidelines/developers/claims-system",
+            },
+            {
+              text: "Handling Tickets",
+              link: "/guidelines/developers/handling-tickets",
+            },
+          ],
+        },
+        {
+          text: "Content Guidelines",
+          collapsed: false,
+          items: [
+            {
+              text: "Achievement Set Requirements",
+              link: "/guidelines/content/achievement-set-requirements",
+            },
+            {
+              text: "Unwelcome Concepts",
+              link: "/guidelines/content/unwelcome-concepts",
+            },
+            {
+              text: "Progression and Win Condition Guidelines",
+              link: "/guidelines/content/progression-and-win-condition-guidelines",
+            },
+            {
+              text: "Set Plagiarism",
+              link: "/guidelines/content/set-plagiarism",
+            },
+            {
+              text: "Naming Conventions",
+              link: "/guidelines/content/naming-conventions",
+            },
+            {
+              text: "Writing Policy",
+              link: "/guidelines/content/writing-policy",
+            },
+            {
+              text: "Badge and Icon Guidelines",
+              link: "/guidelines/content/badge-and-icon-guidelines",
+            },
+            {
+              text: "Code Notes",
+              link: "/guidelines/content/code-notes",
+            },
+            {
+              text: "Editing Leaderboards",
+              link: "/guidelines/content/editing-leaderboards",
+            },
+            {
+              text: "Achievement Set Revisions",
+              link: "/guidelines/content/achievement-set-revisions",
+            },
+            {
+              text: "Achievements for ROM Hacks",
+              link: "/guidelines/content/achievements-for-rom-hacks",
+            },
+            {
+              text: "Subsets",
+              link: "/guidelines/content/subsets",
+            },
+            {
+              text: "Working with the Right ROM",
+              link: "/guidelines/content/working-with-the-right-rom",
+            },
+            {
+              text: "Hash Labels",
+              link: "/guidelines/content/hash-labels",
+            },
+          ],
+        },
+      ],
+
       "/developer-docs": [
         {
           text: "Development",
@@ -237,184 +416,6 @@ export default defineConfig({
             {
               text: "Condition Syntax",
               link: "/developer-docs/condition-syntax",
-            },
-          ],
-        },
-      ],
-
-      "/general/": [
-        {
-          text: "General",
-          collapsed: false,
-          items: [
-            {
-              text: "Index",
-              link: "/general/index",
-            },
-            {
-              text: "FAQ",
-              link: "/general/faq",
-            },
-            {
-              text: "Setup Guide",
-              link: "/general/setup-guide",
-            },
-            {
-              text: "Emulator Support and Issues",
-              link: "/general/emulator-support-and-issues",
-            },
-            {
-              text: "Ways to Contribute",
-              link: "/general/ways-to-contribute",
-            },
-            {
-              text: "RABot, the RA Discord Robot",
-              link: "/general/rabot",
-            },
-            {
-              text: "Events",
-              link: "/general/events",
-            },
-            {
-              text: "Overlay Themes",
-              link: "/general/overlay-themes",
-            },
-            {
-              text: "Useful Links",
-              link: "/general/useful-links",
-            },
-            {
-              text: "Contributing to the Docs",
-              link: "/general/contributing-to-the-docs",
-            },
-            {
-              text: "About Us",
-              link: "/general/about-us",
-            },
-          ],
-        },
-        {
-          text: "Tutorials",
-          collapsed: false,
-          items: [
-            {
-              text: "How to configure OBS Studio to see the popups",
-              link: "/general/tutorials/how-to-configure-obs-studio",
-            },
-            {
-              text: "Multi-Disc Games",
-              link: "/general/tutorials/multi-disc-games",
-            },
-            {
-              text: "Working with DLC for the PlayStation Portable",
-              link: "/general/tutorials/working-with-dlc-for-the-psp",
-            },
-          ],
-        },
-      ],
-
-      // This sidebar gets displayed when a user
-      // is on `guide` directory.
-      "/guidelines/": [
-        {
-          text: "User Guidelines",
-          collapsed: false,
-          items: [
-            {
-              text: "RetroAchievements Manifesto",
-              link: "/guidelines/users/retroachievements-manifesto",
-            },
-            {
-              text: "Users Code of Conduct",
-              link: "/guidelines/users/code-of-conduct",
-            },
-            {
-              text: "Global Leaderboard and Achievement Hunting Rules",
-              link: "/guidelines/users/global-leaderboard-and-achievement-hunting-rules",
-            },
-          ],
-        },
-        {
-          text: "Developer Guidelines",
-          collapsed: false,
-          items: [
-            {
-              text: "Developers Code of Conduct",
-              link: "/guidelines/developers/code-of-conduct",
-            },
-            {
-              text: "Creating Entries",
-              link: "/guidelines/developers/creating-entries",
-            },
-            {
-              text: "Claims System",
-              link: "/guidelines/developers/claims-system",
-            },
-            {
-              text: "Handling Tickets",
-              link: "/guidelines/developers/handling-tickets",
-            },
-          ],
-        },
-        {
-          text: "Content Guidelines",
-          collapsed: false,
-          items: [
-            {
-              text: "Achievement Set Requirements",
-              link: "/guidelines/content/achievement-set-requirements",
-            },
-            {
-              text: "Unwelcome Concepts",
-              link: "/guidelines/content/unwelcome-concepts",
-            },
-            {
-              text: "Progression and Win Condition Guidelines",
-              link: "/guidelines/content/progression-and-win-condition-guidelines",
-            },
-            {
-              text: "Set Plagiarism",
-              link: "/guidelines/content/set-plagiarism",
-            },
-            {
-              text: "Naming Conventions",
-              link: "/guidelines/content/naming-conventions",
-            },
-            {
-              text: "Writing Policy",
-              link: "/guidelines/content/writing-policy",
-            },
-            {
-              text: "Badge and Icon Guidelines",
-              link: "/guidelines/content/badge-and-icon-guidelines",
-            },
-            {
-              text: "Code Notes",
-              link: "/guidelines/content/code-notes",
-            },
-            {
-              text: "Editing Leaderboards",
-              link: "/guidelines/content/editing-leaderboards",
-            },
-            {
-              text: "Achievement Set Revisions",
-              link: "/guidelines/content/achievement-set-revisions",
-            },
-            {
-              text: "Achievements for ROM Hacks",
-              link: "/guidelines/content/achievements-for-rom-hacks",
-            },
-            {
-              text: "Subsets",
-              link: "/guidelines/content/subsets",
-            },
-            {
-              text: "Working with the Right ROM",
-              link: "/guidelines/content/working-with-the-right-rom",
-            },
-            {
-              text: "Hash Labels",
-              link: "/guidelines/content/hash-labels",
             },
           ],
         },
