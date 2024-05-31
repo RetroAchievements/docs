@@ -104,16 +104,18 @@ sidebar: {
 
 First, [download and install Node.js v20](https://nodejs.org/en/download/prebuilt-installer).
 
-Next, clone this repository to somewhere on your computer.
+You'll also need to have Git installed. If you're a Windows user, [download and install Git](https://git-scm.com/download/win).
 
-Navigate to the root directory of the repository and install all dependencies:
+Next, open a command prompt/terminal and clone this repository to somewhere on your computer:
 
-```bash
-npm install
+```
+C:\My Documents\> git clone https://github.com/RetroAchievements/docs-vitepress.git
 ```
 
-Now, you can run the docs site:
+Navigate into the cloned repository and run a few more commands to install dependencies and run the local dev server:
 
-```bash
-npm run dev
+```
+C:\My Documents\> cd docs-vitepress
+C:\My Documents\docs-vitepress> npm install
+C:\My Documents\docs-vitepress> npm run dev
 ```
