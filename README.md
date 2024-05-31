@@ -28,16 +28,26 @@ RADocs is a [VitePress](https://vitepress.dev/) app. There are multiple ways you
 
 ### I just want to edit a page
 
-No problem! At the bottom of every page you'll find an "Edit this page" link:
-
-![edit this page link](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/edit-this-page.png)
-
-Clicking this will open Stackblitz Web Publisher, a tech that allows you to work on that specific page and see your updates in real-time. When you're ready to contribute your changes, click the "Propose changes" button to open a pull request in the project.
+TODO
 
 ### I want to create pages or work on multiple pages
 
 TODO
 
-### I want to run the whole site on my computer
+### I want to run the whole docs site on my computer
 
-TODO
+First, [download and install Node.js v20](https://nodejs.org/en/download/prebuilt-installer).
+
+Next, clone this repository to somewhere on your computer.
+
+Navigate to the root directory of the repository and install all dependencies:
+
+```bash
+npm install
+```
+
+Now, you can run the docs site:
+
+```bash
+npm run dev
+```
