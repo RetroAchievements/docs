@@ -8,11 +8,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "format": "prettier --write . '**/*.{json,md,js,ts,tsx}'",
-    "format:write": "prettier --write . '**/*.{json,md,js,ts,tsx}'",
-    "format:check": "prettier --check . '**/*.{json,md,js,ts,tsx}'",
-    "prepare": "husky install"
+    "preview": "vitepress preview docs"
   },
   "license": "MIT",
   "dependencies": {
@@ -20,15 +16,9 @@
     "vue": "3.3.13"
   },
   "devDependencies": {
-    "husky": "8.0.3",
-    "lint-staged": "15.2.0",
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-preset-env": "7.7.2",
-    "prettier": "3.1.1",
     "tailwindcss": "3.4.0"
-  },
-  "lint-staged": {
-    "*.{json,md,js,ts,tsx}": "prettier --write"
   },
   "packageManager": "pnpm@9.1.2+sha256.19c17528f9ca20bd442e4ca42f00f1b9808a9cb419383cd04ba32ef19322aba7"
 }

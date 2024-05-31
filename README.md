@@ -32,6 +32,8 @@ No problem! At the bottom of every page you'll find an "Edit this page" link:
 
 ![edit this page link](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/edit-this-page.png)
 
+Clicking this will open Stackblitz Web Publisher, a tech that allows you to work on that specific page and see your updates in real-time. When you're ready to contribute your changes, click the "Propose changes" button to open a pull request in the project.
+
 ### I want to create pages or work on multiple pages
 
 TODO
