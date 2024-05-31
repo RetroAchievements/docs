@@ -53,8 +53,11 @@ export default defineConfig({
     // ],
 
     editLink: {
-      pattern:
-        "https://pr.new/RetroAchievements/docs-vitepress/edit/main/docs/:path",
+      pattern: ({ filePath }) => {
+        const withoutMd = filePath.replace(/.md/g, "");
+
+        return `https://pr.new/RetroAchievements/docs-vitepress/edit/main/docs/${filePath}?initialPath=${withoutMd}`;
+      },
       text: "Edit this page",
     },
 
