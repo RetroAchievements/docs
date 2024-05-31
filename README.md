@@ -3,21 +3,37 @@
 <h1 align="center">RetroAchievements Docs</h1>
 
 <p align="center">
-  <i>TODO some tagline here</i>
+  <i>Adding achievements to retro games since 2012.</i>
   <br /><br />
 </p>
 
 <p align="center">
-  <a href="https://api-docs.retroachievements.org/getting-started.html"><strong>TODO: some url here</strong></a>
+  <a href="https://docs.retroachievements.org"><strong>View Docs</strong></a>
   <br />
 </p>
 
 <hr />
 
-## Documentation
+## About
 
-TODO toc
+RetroAchievements is a community-driven project dedicated to enhancing the experience of retro gaming by adding achievements to classic games. Since its inception in 2012, RetroAchievements has brought a new layer of challenge and excitement to vintage titles, allowing players to revisit their favorite games with fresh objectives and a competitive edge.
 
-## How to Contribute
+Our mission is to celebrate and preserve the legacy of retro gaming by integrating modern achievement systems into classic games. We strive to create a welcoming and enthusiastic community where players and developers alike can share their passion for retro gaming and contribute to the project's growth.
+
+This repository holds all the files for the official RetroAchievements documentation. Anyone may propose a revision to this documentation at any time, and if the proposed revision is accepted, it will go live instantly.
+
+## How to Contribute to the Documentation
+
+RADocs is a [VitePress](https://vitepress.dev/) app. There are multiple ways you can contribute to the docs, depending on your level of technical proficiency.
+
+### I just want to edit a page
+
+TODO
+
+### I want to create pages or work on multiple pages
+
+TODO
+
+### I want to run the whole site on my computer
 
 TODO
