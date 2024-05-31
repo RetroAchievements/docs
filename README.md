@@ -75,6 +75,31 @@ Enter a title and description for your pull request. Then click the Create butto
 
 Your pull request is now created and ready for review.
 
+### I want to add a new page
+
+New pages need to be hooked up to the project's [config.mts file](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/.vitepress/config.mts). Nearly all site navigation lives in the `sidebar` config in this file.
+
+If your new Markdown file lives in _docs/general/my-file.md_, you'd add this to the configuration:
+
+```js
+sidebar: {
+  "/general/": [
+    {
+      text: "General",
+      collapsed: false,
+      items: [
+        // ... existing items ...
+        {
+          text: "My New Page", // whatever label you want the nav item to have
+          link: "/general/my-file" // exclude the .md file extension
+        }
+        // ... existing items ...
+      ]
+    }
+  ]
+}
+```
+
 ### I want to run the whole docs site on my computer
 
 First, [download and install Node.js v20](https://nodejs.org/en/download/prebuilt-installer).
