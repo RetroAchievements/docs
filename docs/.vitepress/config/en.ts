@@ -2,7 +2,7 @@ import { createRequire } from "module";
 import { defineConfig, type DefaultTheme } from "vitepress";
 
 export const en = defineConfig({
-  lang: "en-US",
+  lang: "en",
   description: "Access comprehensive guides, tutorials, and developer resources for RetroAchievements. Learn how to enhance your retro gaming experience with custom achievements.",
 
   themeConfig: {
