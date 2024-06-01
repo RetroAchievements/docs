@@ -84,6 +84,7 @@ const redirects = {
   "/RALibretro/": "/orphaned/ralibretro.html",
   "/Free-Games/": "/orphaned/free-games.html",
   "/System-X-wen/": "/orphaned/system-x-wen.html",
+  "/My-game-is-not-loading-achievements/": "/orphaned/my-game-is-not-loading-achievements.html",
 };
 
 function handleRedirects() {

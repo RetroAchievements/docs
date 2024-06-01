@@ -23,11 +23,11 @@ AddSource 8-bit 0xfe22 * Value 3600
 
 The addresses represent frames, seconds, and minutes respectively, and are individually multiplied and then added together to create a total number of frames that can be submitted to the database.
 
-### Value from HitCount
+### Value from `HitCount`
 
 Sometimes you want to count the number of times something happens and submit that as the value. You can also do this using `Measured` syntax. Just add a comparison to your final condition. Do not include an explicit Hit target, or that will be the maximum value that can be submitted.
 
-The [HitCount](/developer-docs/hit-counts) on the condition will automatically be set to 0 when the leaderboard starts, and the HitCount will be submitted as the Value when the leaderboard submit trigger activates. You can use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif) within the Value conditions to further control the behavior.
+The [`HitCount`](/developer-docs/hit-counts) on the condition will automatically be set to 0 when the leaderboard starts, and the `HitCount` will be submitted as the Value when the leaderboard submit trigger activates. You can use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif) within the Value conditions to further control the behavior.
 
 For example:
 

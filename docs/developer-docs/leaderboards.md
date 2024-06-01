@@ -78,7 +78,7 @@ This might seem daunting, because we don't know what these addresses mean. That'
 
 **Tip**: the most common mistake when creating leaderboards through the site editor is forgetting the `h` when trying to reference an 8-bit memory address.
 
-**Note**: You can use HitCounts in the Start/Submit/Cancel triggers, but you are responsible for resetting them. These triggers are evaluated every frame, and the state of the leaderboard is dependent on which ones are true. As such, the HitCount will increment even when the leaderboard is not active unless you have an explicit ResetIf condition.
+**Note**: You can use `HitCount`s in the Start/Submit/Cancel triggers, but you are responsible for resetting them. These triggers are evaluated every frame, and the state of the leaderboard is dependent on which ones are true. As such, the `HitCount` will increment even when the leaderboard is not active unless you have an explicit ResetIf condition.
 
 ### Cancel Conditions
 

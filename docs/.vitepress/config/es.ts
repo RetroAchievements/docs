@@ -71,62 +71,62 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Preguntas Frecuentes",
           link: "/es/general/faq",
         },
-        {
-          text: "Guía de Configuración",
-          link: "/es/general/setup-guide",
-        },
+        // {
+        //   text: "Guía de Configuración",
+        //   link: "/es/general/setup-guide",
+        // },
         {
           text: "Soporte e Incidentes del Emulador",
           link: "/es/general/emulator-support-and-issues",
         },
         {
           text: "Maneras de Contribuir",
-          link: "/general/ways-to-contribute",
+          link: "/es/general/ways-to-contribute",
         },
-        {
-          text: "RABot, el Robot de Discord de RA",
-          link: "/general/rabot",
-        },
-        {
-          text: "Eventos",
-          link: "/general/events",
-        },
-        {
-          text: "Temas de Superposición",
-          link: "/general/overlay-themes",
-        },
-        {
-          text: "Enlaces Útiles",
-          link: "/general/useful-links",
-        },
+        // {
+        //   text: "RABot, el Robot de Discord de RA",
+        //   link: "/es/general/rabot",
+        // },
+        // {
+        //   text: "Eventos",
+        //   link: "/es/general/events",
+        // },
+        // {
+        //   text: "Temas de Superposición",
+        //   link: "/es/general/overlay-themes",
+        // },
+        // {
+        //   text: "Enlaces Útiles",
+        //   link: "/es/general/useful-links",
+        // },
         {
           text: "Contribuir a la Documentación",
-          link: "/general/contributing-to-the-docs",
+          link: "/es/general/contributing-to-the-docs",
         },
-        {
-          text: "Sobre Nosotros",
-          link: "/general/about-us",
-        },
+        // {
+        //   text: "Sobre Nosotros",
+        //   link: "/es/general/about-us",
+        // },
       ],
     },
-    {
-      text: "Tutoriales",
-      collapsed: false,
-      items: [
-        {
-          text: "Cómo configurar OBS Studio para ver las ventanas emergentes",
-          link: "/general/tutorials/how-to-configure-obs-studio",
-        },
-        {
-          text: "Juegos de Múltiples Discos",
-          link: "/general/tutorials/multi-disc-games",
-        },
-        {
-          text: "Trabajando con DLC para PlayStation Portable",
-          link: "/general/tutorials/working-with-dlc-for-the-psp",
-        },
-      ],
-    },
+    // {
+    //   text: "Tutoriales",
+    //   collapsed: false,
+    //   items: [
+    //     {
+    //       text: "Cómo configurar OBS Studio para ver las ventanas emergentes",
+    //       link: "/es/general/tutorials/how-to-configure-obs-studio",
+    //     },
+    //     {
+    //       text: "Juegos de Múltiples Discos",
+    //       link: "/es/general/tutorials/multi-disc-games",
+    //     },
+    //     {
+    //       text: "Trabajando con DLC para PlayStation Portable",
+    //       link: "/es/general/tutorials/working-with-dlc-for-the-psp",
+    //     },
+    //   ],
+    // },
   ];
 }
 
@@ -138,15 +138,15 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Manifiesto de RetroAchievements",
-          link: "/guidelines/users/retroachievements-manifesto",
+          link: "/es/guidelines/users/retroachievements-manifesto",
         },
         {
           text: "Código de Conducta de los Usuarios",
-          link: "/guidelines/users/code-of-conduct",
+          link: "/es/guidelines/users/code-of-conduct",
         },
         {
           text: "Reglas de la Tabla de Clasificación Global y Caza de Logros",
-          link: "/guidelines/users/global-leaderboard-and-achievement-hunting-rules",
+          link: "/es/guidelines/users/global-leaderboard-and-achievement-hunting-rules",
         },
       ],
     },
@@ -156,82 +156,82 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Código de Conducta de los Desarrolladores",
-          link: "/guidelines/developers/code-of-conduct",
+          link: "/es/guidelines/developers/code-of-conduct",
         },
-        {
-          text: "Creación de Entradas",
-          link: "/guidelines/developers/creating-entries",
-        },
-        {
-          text: "Sistema de Reclamaciones",
-          link: "/guidelines/developers/claims-system",
-        },
-        {
-          text: "Manejo de Tickets",
-          link: "/guidelines/developers/handling-tickets",
-        },
+        // {
+        //   text: "Creación de Entradas",
+        //   link: "/es/guidelines/developers/creating-entries",
+        // },
+        // {
+        //   text: "Sistema de Reclamaciones",
+        //   link: "/es/guidelines/developers/claims-system",
+        // },
+        // {
+        //   text: "Manejo de Tickets",
+        //   link: "/es/guidelines/developers/handling-tickets",
+        // },
       ],
     },
     {
       text: "Directrices de Contenido",
       collapsed: false,
       items: [
-        {
-          text: "Requisitos del Conjunto de Logros",
-          link: "/guidelines/content/achievement-set-requirements",
-        },
-        {
-          text: "Conceptos No Deseados",
-          link: "/guidelines/content/unwelcome-concepts",
-        },
-        {
-          text: "Directrices de Progresión y Condición de Victoria",
-          link: "/guidelines/content/progression-and-win-condition-guidelines",
-        },
-        {
-          text: "Plagio de Conjuntos",
-          link: "/guidelines/content/set-plagiarism",
-        },
-        {
-          text: "Convenciones de Nombres",
-          link: "/guidelines/content/naming-conventions",
-        },
-        {
-          text: "Política de Escritura",
-          link: "/guidelines/content/writing-policy",
-        },
-        {
-          text: "Directrices para Insignias e Íconos",
-          link: "/guidelines/content/badge-and-icon-guidelines",
-        },
-        {
-          text: "Notas de Código",
-          link: "/guidelines/content/code-notes",
-        },
-        {
-          text: "Editando Tablas de Clasificación",
-          link: "/guidelines/content/editing-leaderboards",
-        },
+        // {
+        //   text: "Requisitos del Conjunto de Logros",
+        //   link: "/es/guidelines/content/achievement-set-requirements",
+        // },
+        // {
+        //   text: "Conceptos No Deseados",
+        //   link: "/es/guidelines/content/unwelcome-concepts",
+        // },
+        // {
+        //   text: "Directrices de Progresión y Condición de Victoria",
+        //   link: "/es/guidelines/content/progression-and-win-condition-guidelines",
+        // },
+        // {
+        //   text: "Plagio de Conjuntos",
+        //   link: "/es/guidelines/content/set-plagiarism",
+        // },
+        // {
+        //   text: "Convenciones de Nombres",
+        //   link: "/es/guidelines/content/naming-conventions",
+        // },
+        // {
+        //   text: "Política de Escritura",
+        //   link: "/es/guidelines/content/writing-policy",
+        // },
+        // {
+        //   text: "Directrices para Insignias e Íconos",
+        //   link: "/es/guidelines/content/badge-and-icon-guidelines",
+        // },
+        // {
+        //   text: "Notas de Código",
+        //   link: "/es/guidelines/content/code-notes",
+        // },
+        // {
+        //   text: "Editando Tablas de Clasificación",
+        //   link: "/es/guidelines/content/editing-leaderboards",
+        // },
         {
           text: "Revisiones del Conjunto de Logros",
-          link: "/guidelines/content/achievement-set-revisions",
+          link: "/es/guidelines/content/achievement-set-revisions",
         },
         {
           text: "Logros para ROM Hacks",
-          link: "/guidelines/content/achievements-for-rom-hacks",
+          link: "/es/guidelines/content/achievements-for-rom-hacks",
         },
         {
           text: "Subconjuntos",
-          link: "/guidelines/content/subsets",
+          link: "/es/guidelines/content/subsets",
         },
         {
           text: "Trabajando con la ROM Correcta",
-          link: "/guidelines/content/working-with-the-right-rom",
+          link: "/es/guidelines/content/working-with-the-right-rom",
         },
-        {
-          text: "Etiquetas de Hash",
-          link: "/guidelines/content/hash-labels",
-        },
+        // {
+        //   text: "Etiquetas de Hash",
+        //   link: "/es/guidelines/content/hash-labels",
+        // },
       ],
     },
   ];
@@ -245,172 +245,172 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Índice",
-          link: "/developer-docs/index",
+          link: "/es/developer-docs/index",
         },
         {
           text: "Cómo Convertirse en un Desarrollador de Logros",
-          link: "/developer-docs/how-to-become-an-achievement-developer",
+          link: "/es/developer-docs/how-to-become-an-achievement-developer",
         },
         {
           text: "Comenzando como Desarrollador de Logros",
-          link: "/developer-docs/getting-started-as-an-achievement-developer",
+          link: "/es/developer-docs/getting-started-as-an-achievement-developer",
         },
         {
           text: "Identificación del Juego",
-          link: "/developer-docs/game-identification",
+          link: "/es/developer-docs/game-identification",
         },
         {
           text: "Diseño de Logros",
-          link: "/developer-docs/achievement-design",
+          link: "/es/developer-docs/achievement-design",
         },
-        {
-          text: "Puntuación de Logros",
-          link: "/developer-docs/achievement-scoring",
-        },
+        // {
+        //   text: "Puntuación de Logros",
+        //   link: "/es/developer-docs/achievement-scoring",
+        // },
         {
           text: "Escala de Dificultad y Equilibrio",
-          link: "/developer-docs/difficulty-scale-and-balance",
+          link: "/es/developer-docs/difficulty-scale-and-balance",
         },
-        {
-          text: "Directrices de Progresión y Condición de Victoria",
-          link: "/guidelines/content/progression-and-win-condition-guidelines",
-        },
+        // {
+        //   text: "Directrices de Progresión y Condición de Victoria",
+        //   link: "/es/guidelines/content/progression-and-win-condition-guidelines",
+        // },
         {
           text: "Creación de Insignias e Íconos",
-          link: "/developer-docs/badge-and-icon-creation",
+          link: "/es/developer-docs/badge-and-icon-creation",
         },
-        {
-          text: "Descripción General del Desarrollo de Logros",
-          link: "/developer-docs/achievement-development-overview",
-        },
+        // {
+        //   text: "Descripción General del Desarrollo de Logros",
+        //   link: "/es/developer-docs/achievement-development-overview",
+        // },
         {
           text: "Versiones Mínimas Requeridas para Funciones de Lógica",
-          link: "/developer-docs/minimum-required-versions-for-logic-features",
+          link: "/es/developer-docs/minimum-required-versions-for-logic-features",
         },
         {
           text: "Inspector de Memoria",
-          link: "/developer-docs/memory-inspector",
+          link: "/es/developer-docs/memory-inspector",
         },
         {
           text: "Ejemplos Reales",
-          link: "/developer-docs/real-examples",
+          link: "/es/developer-docs/real-examples",
         },
         {
           text: "Hoja de Ruta del Desarrollo del Conjunto",
-          link: "/developer-docs/set-development-roadmap",
+          link: "/es/developer-docs/set-development-roadmap",
         },
         {
           text: "Plantillas de Logros",
-          link: "/developer-docs/achievement-templates",
+          link: "/es/developer-docs/achievement-templates",
         },
         {
           text: "Consejos y Trucos",
-          link: "/developer-docs/tips-and-tricks",
+          link: "/es/developer-docs/tips-and-tricks",
         },
         {
           text: "Tablas de Clasificación",
-          link: "/developer-docs/leaderboards",
+          link: "/es/developer-docs/leaderboards",
         },
         {
           text: "Rich Presence",
-          link: "/developer-docs/rich-presence",
+          link: "/es/developer-docs/rich-presence",
         },
-        {
-          text: "RATools",
-          link: "/developer-docs/ratools",
-        },
+        // {
+        //   text: "RATools",
+        //   link: "/es/developer-docs/ratools",
+        // },
         {
           text: "Consejos Específicos para Consolas",
-          link: "/developer-docs/console-specific-tips",
+          link: "/es/developer-docs/console-specific-tips",
         },
-        {
-          text: "Atajos del Emulador para Desarrolladores",
-          link: "/developer-docs/emulator-hotkeys-for-developers",
-        },
-        {
-          text: "Soporte del Núcleo de libretro",
-          link: "/developer-docs/libretro-core-support",
-        },
+        // {
+        //   text: "Atajos del Emulador para Desarrolladores",
+        //   link: "/es/developer-docs/emulator-hotkeys-for-developers",
+        // },
+        // {
+        //   text: "Soporte del Núcleo de libretro",
+        //   link: "/es/developer-docs/libretro-core-support",
+        // },
       ],
     },
     {
-      text: "Banderas",
+      text: "Flags",
       collapsed: false,
       items: [
         {
           text: "ResetIf",
-          link: "/developer-docs/flags/resetif",
+          link: "/es/developer-docs/flags/resetif",
         },
-        {
-          text: "ResetNextIf",
-          link: "/developer-docs/flags/resetnextif",
-        },
+        // {
+        //   text: "ResetNextIf",
+        //   link: "/es/developer-docs/flags/resetnextif",
+        // },
         {
           text: "PauseIf",
-          link: "/developer-docs/flags/pauseif",
+          link: "/es/developer-docs/flags/pauseif",
         },
-        {
-          text: "AndNext y OrNext",
-          link: "/developer-docs/flags/andnext-ornext",
-        },
+        // {
+        //   text: "AndNext y OrNext",
+        //   link: "/es/developer-docs/flags/andnext-ornext",
+        // },
         {
           text: "AddSource",
-          link: "/developer-docs/flags/addsource",
+          link: "/es/developer-docs/flags/addsource",
         },
         {
           text: "SubSource",
-          link: "/developer-docs/flags/subsource",
+          link: "/es/developer-docs/flags/subsource",
         },
         {
           text: "AddHits y SubHits",
-          link: "/developer-docs/flags/addhits-subhits",
+          link: "/es/developer-docs/flags/addhits-subhits",
         },
-        {
-          text: "AddAddress",
-          link: "/developer-docs/flags/addaddress",
-        },
-        {
-          text: "Measured",
-          link: "/developer-docs/flags/measured",
-        },
-        {
-          text: "Trigger",
-          link: "/developer-docs/flags/trigger",
-        },
+        // {
+        //   text: "AddAddress",
+        //   link: "/es/developer-docs/flags/addaddress",
+        // },
+        // {
+        //   text: "Measured",
+        //   link: "/es/developer-docs/flags/measured",
+        // },
+        // {
+        //   text: "Trigger",
+        //   link: "/es/developer-docs/flags/trigger",
+        // },
       ],
     },
     {
       text: "Funcionalidad Adicional",
       collapsed: false,
       items: [
-        {
-          text: "Tamaño de BitCount",
-          link: "/developer-docs/bitcount-size",
-        },
+        // {
+        //   text: "Tamaño de BitCount",
+        //   link: "/es/developer-docs/bitcount-size",
+        // },
         {
           text: "Grupos Alternativos",
-          link: "/developer-docs/alt-groups",
+          link: "/es/developer-docs/alt-groups",
         },
         {
           text: "Contadores de Golpes",
-          link: "/developer-docs/hit-counts",
+          link: "/es/developer-docs/hit-counts",
         },
         {
           text: "Valores Delta",
-          link: "/developer-docs/delta-values",
+          link: "/es/developer-docs/delta-values",
         },
-        {
-          text: "Valores Previos",
-          link: "/developer-docs/prior-values",
-        },
-        {
-          text: "Definición de Valor",
-          link: "/developer-docs/value-definition",
-        },
-        {
-          text: "Sintaxis de Condición",
-          link: "/developer-docs/condition-syntax",
-        },
+        // {
+        //   text: "Valores Previos",
+        //   link: "/es/developer-docs/prior-values",
+        // },
+        // {
+        //   text: "Definición de Valor",
+        //   link: "/es/developer-docs/value-definition",
+        // },
+        // {
+        //   text: "Sintaxis de Condición",
+        //   link: "/es/developer-docs/condition-syntax",
+        // },
       ],
     },
   ];

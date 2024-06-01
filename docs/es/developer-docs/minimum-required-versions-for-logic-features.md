@@ -2,7 +2,7 @@ A veces es útil saber cuando una función fue agregada/modificada y las implica
 
 | Función                                                                                              |     RA_Integration     |        RetroArch        |
 | ---------------------------------------------------------------------------------------------------- | :--------------------: | :---------------------: |
-| ResetIf/PauseIf HitCount                                                                             | 0.073<br>(31-Ago-2018) | 1.7.4<br>(30-Ago-2018)  |
+| ResetIf/PauseIf `HitCount`                                                                           | 0.073<br>(31-Ago-2018) | 1.7.4<br>(30-Ago-2018)  |
 | Tablas de Clasificación Cancelar Y (Leaderboard Cancel AND)                                          | 0.073<br>(31-Ago-2018) | 1.7.0<br>(25-Dic-2017)  |
 | Tablas de Clasificación Ó (Leaderboard OR)                                                           | 0.073<br>(31-Ago-2018) | 1.7.4<br>(30-Ago-2018)  |
 | Soporte para valores Completos de 32-bit                                                             | 0.073<br>(31-Ago-2018) | 1.7.0<br>(25-Dic-2017)  |

@@ -6,7 +6,7 @@ Sometimes it's useful to know when a feature was added/changed and the implicati
 | --------------------------------------------------------- | :--------------------: | :---------------------: | :--------------------: |
 | Leaderboard Cancel AND                                    | 0.073<br>(31 Aug 2018) | 1.7.0<br>(25 Dec 2017)  |          n/a           |
 | Full 32-bit value support                                 | 0.073<br>(31 Aug 2018) | 1.7.0<br>(25 Dec 2017)  |          n/a           |
-| `ResetIf`/`PauseIf` HitCount                              | 0.073<br>(31 Aug 2018) | 1.7.4<br>(30 Aug 2018)  |          n/a           |
+| `ResetIf`/`PauseIf` `HitCount`                            | 0.073<br>(31 Aug 2018) | 1.7.4<br>(30 Aug 2018)  |          n/a           |
 | Leaderboard OR                                            | 0.073<br>(31 Aug 2018) | 1.7.4<br>(30 Aug 2018)  |          n/a           |
 | Delay achievement processing for 100 frames on load       | 0.073<br>(31 Aug 2018) |           n/a           |          n/a           |
 | Replace 100 frame delay with delayed activation logic     | 0.075<br>(04 Feb 2019) | 1.6.3<br>(28 Jul 2017)  |          n/a           |
