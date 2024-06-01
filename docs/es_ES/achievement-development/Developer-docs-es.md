@@ -22,7 +22,7 @@ Ahora una breve descripcion de algunas de las paginas que encontraras en esta se
 
 9. [Tablas de Clasificación](Leaderboards): instrucciones en como crear tablas de clasificacion para un juego.
 
-10. [Rich Presence](Rich-Presence): como escribir Scripts para Rich Presence.
+10. [Rich Presence](/developer-docs/rich-presence): como escribir Scripts para Rich Presence.
 
 11. [Mapa de desarrollo de un Set](Set-Development-Roadmap): pasos a considerar para crear realmente un gran set de logros.
 

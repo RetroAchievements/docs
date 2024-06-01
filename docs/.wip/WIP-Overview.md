@@ -5,14 +5,14 @@ The docs are currently under heavy construction. For starters, the following pag
 - [RetroAchievements Manifesto](RetroAchievements-Manifesto)
 - [Users Code of Conduct](Users-Code-of-Conduct)
 - [Global Leaderboard and Achievement Hunting Rules](Global-Leaderboard-and-Achievement-Hunting-Rules)
-- [Developer's Code of Conduct](Developers-Code-of-Conduct)
+- [Developer's Code of Conduct](/guidelines/developers/code-of-conduct)
 - [Set Plagiarism](Set-Plagiarism)
-- [Achievement Scoring](Achievement-Scoring)
-- [Achievement Set Revisions](Achievement-Set-Revisions)
-- [Achievements for ROM hacks](Achievements-for-ROM-hacks)
-- [Subsets](Subsets)
-- [Working with the Right ROM](Working-with-the-Right-ROM)
-- [FAQ](FAQ)
+- [Achievement Scoring](/developer-docs/achievement-scoring)
+- [Achievement Set Revisions](/guidelines/content/achievement-set-revisions)
+- [Achievements for ROM hacks](/guidelines/content/achievements-for-rom-hacks)
+- [Subsets](/guidelines/content/subsets)
+- [Working with the Right ROM](/guidelines/content/working-with-the-right-rom)
+- [FAQ](/general/faq)
 
 The plan is to have any documentation involving guidelines/policy as well as a general FAQ be in plain sight on [retroachievements.org](https://retroachievements.org). Some of the pages will be merged and will result in the following categories:
 

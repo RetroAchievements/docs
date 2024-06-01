@@ -69,11 +69,11 @@ Achievement badges should refer in some way to what the achievement is about - i
     ![change game icon 1](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67) - Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
     ![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
 
-If a game has existing achievements, game icon changes need to go through [revision process](Achievement-Set-Revisions).
+If a game has existing achievements, game icon changes need to go through [revision process](/guidelines/content/achievement-set-revisions).
 
 **Non-Developers:**
 
-- Yes, you absolutely can, but they are subject to [revisions](Achievement-Set-Revisions). It will also be good to review the guidelines for [designing new game icons](#designing-new-game-icons---styling-guide).
+- Yes, you absolutely can, but they are subject to [revisions](/guidelines/content/achievement-set-revisions). It will also be good to review the guidelines for [designing new game icons](#designing-new-game-icons---styling-guide).
 
 ### Uploading Badges
 
@@ -94,7 +94,7 @@ Or you can select a prefabricated image or find other images you've uploaded in 
 
 ## Making New Badges for Existing Achievements
 
-If you'd like to make improved badges for existing achievements, you can. Your images will go through the [revision process](Achievement-Set-Revisions), which will put your creations to a community vote.
+If you'd like to make improved badges for existing achievements, you can. Your images will go through the [revision process](/guidelines/content/achievement-set-revisions), which will put your creations to a community vote.
 
 Post all the new images you'd like to replace current ones in the [Icon Gauntlet Forum Topic](http://retroachievements.org/viewtopic.php?t=8064&o=0). Also post all the badges that the new images are meant to replace. They will be placed for a community review by as a single vote. After a community vote is complete if you are a dev you can replace the Badges or if you are not, ask for help in the #help-me channel on Discord or in the [Icon Gauntlet Forum Topic](http://retroachievements.org/viewtopic.php?t=8064&o=0).
 

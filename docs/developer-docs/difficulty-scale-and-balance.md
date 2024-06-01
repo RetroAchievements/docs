@@ -2,7 +2,7 @@
 
 This doc has some suggestions about difficulty, set balance and on keeping a set fun, approachable, and challenging. What you're going to see here are not rules, just suggestions.
 
-**Note**: be aware of [Developers Code of Conduct](Developers-Code-of-Conduct)
+**Note**: be aware of [Developers Code of Conduct](/guidelines/developers/code-of-conduct)
 
 ## Difficulty Scale:
 

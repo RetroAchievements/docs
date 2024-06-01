@@ -38,7 +38,7 @@ If the **Submit** (**SUB**) condition is true, then the leaderboard score will b
 
 Finally, the **Value** (**VAL**) is a special case, and will be taken from memory using the formula stated in the memory box. This is the score that gets displayed while the leaderboard is active, and the value that's submitted if **SUB** is true.
 
-Memory addresses for STA/CAN/SUB/VAL have the format defined [here](Condition-Syntax).
+Memory addresses for STA/CAN/SUB/VAL have the format defined [here](/developer-docs/condition-syntax).
 
 NOTE: Once an active leaderboard is cancelled or submitted, it cannot be reactivated until the **Start** condition becomes false, then true again. This prevents the leaderboard from immediately reactivating after submission/cancel.
 
@@ -106,13 +106,13 @@ The submit section checks if the current frame has the 'endlevel' flag set to tr
 
 Finally, value. Once the player has reached the start condition, they will be shown a popup which remains on-screen, showing their progress so far. If it's a time leaderboard, it will be a clock, and if it's a score, it will just be the value. If they fulfill the cancel condition, they will be told that they have failed, and the popup will be removed. If they successfully reach the submit condition, the current value will be taken and submitted as their score, and on successful submission, an in game popup will inform the player of the leaderboard so far, and their position in the leaderboard.
 
-For more information on the value format, see [Value Definition](Value-Definition).
+For more information on the value format, see [Value Definition](/developer-docs/value-definition).
 
 **NOTE**: The value calculation is performed using 32-bit signed integers. As such, the maximum value is 2147483647 and the minimum value is -2147483648. Values above the maximum will wrap around and register as very negative numbers.
 
 ### Value Format
 
-'Format' can be any of the available [formats](Rich-Presence#format), but the editor currently only provides **Score**, **Time (Frames)**, **Time (Milliseconds)** and **Value**. **Time (Frames)** is the most common one, and represents a time derived from a value that increments every frame. It does this by multiplying by 100 (to convert to hundredths of a second) and dividing by 60 (the number of frames per second).
+'Format' can be any of the available [formats](/developer-docs/rich-presence#format), but the editor currently only provides **Score**, **Time (Frames)**, **Time (Milliseconds)** and **Value**. **Time (Frames)** is the most common one, and represents a time derived from a value that increments every frame. It does this by multiplying by 100 (to convert to hundredths of a second) and dividing by 60 (the number of frames per second).
 
 **NOTE**: If you're using a system that doesn't run at 60Hz, you have to use "Time (millisecs)" and multiply by some value to do the conversion yourself (50Hz = `*2` [100/50], 60Hz = `*1.666666` [100/60], 75Hz =`*1.333333` [100/75]).
 

@@ -4,7 +4,7 @@
 
 `AddHits` and `SubHits` can be chosen in the Flag column of the Achievement Editor.
 
-The `AddHits`/`SubHits` conditions do not have to be true for the achievement to trigger. They modify the [hit count](Hit-Counts) of another condition, which does have to be true for the achievement to trigger. The sequence of conditions is referred to as a `AddHits` chain (even if it contains `SubHits`).
+The `AddHits`/`SubHits` conditions do not have to be true for the achievement to trigger. They modify the [hit count](/developer-docs/hit-counts) of another condition, which does have to be true for the achievement to trigger. The sequence of conditions is referred to as a `AddHits` chain (even if it contains `SubHits`).
 
 When a condition with the `AddHits`/`SubHits` flag is true, the hit count for that condition is incremented. A hit target may be placed on the condition to keep it from tallying too many times.
 

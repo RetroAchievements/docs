@@ -10,7 +10,7 @@ If you want to have a one-to-one replication of how you used to play retro games
 
 While you will still be able to get achievements in Softcore, playing on HARDCORE mode is the only way to earn a Mastery for a game, displaying your skill- and prowess to your fellow retro achievers and competitors by showing up on the game's page as a master of the game, as well as on the main leaderboard. Playing on HARDCORE will also allow you to set times, scores or participate in miscellaneous challenges on game-specific leaderboards.
 
-**Note**: If you want to play with the HARDCORE mode disabled (also known as "Softcore"), expect to have some issues. Read in [this link Why you shouldn't use the load state feature](Why-you-shouldn't-use-the-load-state-feature).
+**Note**: If you want to play with the HARDCORE mode disabled (also known as "Softcore"), expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
 ### What are the white points?
 
@@ -55,7 +55,7 @@ The number of requests available to a user is determined as follows:
 
 ### Where can I find ROMs?
 
-Not here. It is illegal to host or distribute copyrighted ROMs. However we have a page about [Free Games](Free-Games) where you can find some really cool homebrews.
+Not here. It is illegal to host or distribute copyrighted ROMs. However we have a page about [Free Games](/orphaned/free-games) where you can find some really cool homebrews.
 
 ### Why do I get a message that some achievements are unsupported?
 

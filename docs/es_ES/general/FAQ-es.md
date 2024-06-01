@@ -121,7 +121,7 @@ Una buena práctica es verificar el tema oficial del foro del juego. Si aún no 
 
 El modo Hardcore es una característica adicional para separar a los buenos jugadores de los grandes jugadores: el modo Hardcore desactiva **toda** forma de salvado y cargado (savestates) en el emulador: no podrás guardar y volver a cargar en cualquier momento. Tendrás que completar el juego y obtener los logros la primera vez, al igual que en la consola original. En recompensa por esto, ganarás tanto el logro estándar como el logro en modo Hardcore, en efecto, ¡ganando el doble de puntos! ¡Un juego que normalmente vale 400 puntos, vale 800 puntos si lo completas exitosamente en el modo Hardcore! Por ejemplo: si completas el juego por completo con 400 puntos, entonces tienes la oportunidad de ganar otros 400 en el modo Hardcore.
 
-Si quieres jugar con el modo Hardcore desactivado (también conocido como "softcore"), podrás tener algunos problemas. Más detalles aquí: [Why you shouldn't use the load state feature](Why-you-shouldn't-use-the-load-state-feature)
+Si quieres jugar con el modo Hardcore desactivado (también conocido como "softcore"), podrás tener algunos problemas. Más detalles aquí: [Why you shouldn't use the load state feature](/orphaned/load-state-feature)
 
 ## ¡No obtuve este logro! (o lo obtuve en un momento equivocado)
 

@@ -41,7 +41,7 @@ The Memory Inspector can be used to find addresses in RAM for us to use. Essenti
 **NOTE: If you want a step-by-step video explanation on finding memory addresses, you can [view this updated video](https://www.youtube.com/watch?v=7ZMlBVyHl5M).**
 **For another video resource, you can [view this older video](https://www.youtube.com/watch?v=8nYb_5cgQHY)**.
 
-**See also**: [Memory Inspector Overview](Memory-Inspector-Overview) and [Memory Digging Tips](Tips-and-Tricks#memory-digging-tips).
+**See also**: [Memory Inspector Overview](/developer-docs/memory-inspector) and [Memory Digging Tips](/developer-docs/tips-and-tricks#memory-digging-tips).
 
 To start or restart a test, click **Reset** near the top left.
 
@@ -67,7 +67,7 @@ Each time you perform 4 then 5, the number of possibilities or 'candidates' will
 
 When you've found an address you're happy with, you can write a short note for what it is and hit **Save Note**, this will store it on database, and will be automatically restored next time you load up the memory viewer for this game, wherever you are! Note that after clicking 'Save Note', the note will be automatically stored on the database, and shared so all developers will share access to these memory notes. They will all be downloaded afresh when you load a ROM. If you try to overwrite a note, it will check with you first before submitting.
 
-You can find more useful [Memory Digging Tips here](Tips-and-Tricks#memory-digging-tips).
+You can find more useful [Memory Digging Tips here](/developer-docs/tips-and-tricks#memory-digging-tips).
 
 ## Achievement Sets
 
@@ -111,7 +111,7 @@ Next we will change these values to the following:
 
 With that set, we don't have any more conditions to add, so we return to the **Achievements Dialog**. To be safe, we should save our progress by hitting **Save Local**! This saves everything to file locally to ensure that we won't lose any progress.
 
-- **Note**: An achievement should have more than one requirement to avoid it triggering at the wrong time (i.e. playing demo mode). In this example, we are using only one requirement to simplify the explanation. See more [Achievement Creation Tips here](Tips-and-Tricks#achivement-creation-tips).
+- **Note**: An achievement should have more than one requirement to avoid it triggering at the wrong time (i.e. playing demo mode). In this example, we are using only one requirement to simplify the explanation. See more [Achievement Creation Tips here](/developer-docs/tips-and-tricks#achivement-creation-tips).
 
 ## Testing the Achievement
 
@@ -133,34 +133,34 @@ Here are some tips you have to keep in mind when creating your achievements:
 
 - **~~Never~~ Avoid making achievements with only one condition as much as you can**. Otherwise it will most likely pop at the wrong time. This is the **most common error by a developer**
 
-- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to [find the address for it](Tips-and-Tricks#finding-the-address-for-demo-mode) and add a condition so your achievements don't trigger in demo mode. You'll also need to know how to use [PauseIf](Achievement-Logic-Features#pauseif) and [ResetIf](Achievement-Logic-Features#resetif).
+- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to [find the address for it](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) and add a condition so your achievements don't trigger in demo mode. You'll also need to know how to use [PauseIf](/orphaned/achievement-logic-features#pauseif) and [ResetIf](/orphaned/achievement-logic-features#resetif).
 
-- **[PauseIf](Achievement-Logic-Features#pauseif) cheat codes**: If the game has a cheat code to increase lives, select stages, etc., make sure to find the addresses for it and add some kind of protection in your achievements. OK, maybe it's not a very basic topic, but you have to keep it in mind when creating an official achievement set.
+- **[PauseIf](/orphaned/achievement-logic-features#pauseif) cheat codes**: If the game has a cheat code to increase lives, select stages, etc., make sure to find the addresses for it and add some kind of protection in your achievements. OK, maybe it's not a very basic topic, but you have to keep it in mind when creating an official achievement set.
 
-- **Avoid creating achievements for just entering a stage.** As it can be earned by a password or a stage select cheat code. It is preferred to make achievements for finishing stages, [like in this template here](Achievement-Templates#finish-level-n). Also, **do not create achievements for just starting a game or "starting a game with character X"**.
+- **Avoid creating achievements for just entering a stage.** As it can be earned by a password or a stage select cheat code. It is preferred to make achievements for finishing stages, [like in this template here](/developer-docs/achievement-templates#finish-level-n). Also, **do not create achievements for just starting a game or "starting a game with character X"**.
 
-- If you want to create an achievement for getting a unique item in the game, add some conditions to make sure the player obtained the item where it is supposed to be obtained, [like in this template here](Achievement-Templates#collect-an-item-in-a-specific-level). Otherwise the achievement can be earned by using password or loading a saved game.
+- If you want to create an achievement for getting a unique item in the game, add some conditions to make sure the player obtained the item where it is supposed to be obtained, [like in this template here](/developer-docs/achievement-templates#collect-an-item-in-a-specific-level). Otherwise the achievement can be earned by using password or loading a saved game.
 
 - **Avoid making too many achievements about simple things that require minimal effort**. Examples of what **NOT** to do: get one coin or one mushroom on Super Mario Bros.
 
-- Be aware of the [unwelcome achievement's design concepts](Developers-Code-of-Conduct#unwelcome-concepts).
+- Be aware of the [unwelcome achievement's design concepts](/guidelines/developers/code-of-conduct#unwelcome-concepts).
 
 - **Be creative with your achievements**. Those covering unique features and details of the game are the most welcome. The players love when that little detail of a game they love is supported on an achievement. Reading a walkthrough on [GameFAQs](https://gamefaqs.gamespot.com/) can give some inspiration too.
 
 - It can take a while to understand how the memory works in a game, so try spending as much time with it as you can, especially if it's your first attempt at developing achievements.
 
-You can find more in the [Tips and Tricks page](Tips-and-Tricks).
+You can find more in the [Tips and Tricks page](/developer-docs/tips-and-tricks).
 
 ## Next Steps
 
 Now that you know how to use the Memory Inspector, and the Achievement Editor. It's time to learn new techniques and practice:
 
-- In order to refine your achievement logic, you can see what features you have in the [Achievement Logic Features](Achievement-Logic-Features) page.
+- In order to refine your achievement logic, you can see what features you have in the [Achievement Logic Features](/orphaned/achievement-logic-features) page.
 
-- Another way to learn is by looking at existing achievements that other devs made with an extra explanation in the [Real Examples](Real-Examples) page.
+- Another way to learn is by looking at existing achievements that other devs made with an extra explanation in the [Real Examples](/developer-docs/real-examples) page.
 
-- You can also see some generic examples in the [Achievement Templates](Achievement-Templates) page.
+- You can also see some generic examples in the [Achievement Templates](/developer-docs/achievement-templates) page.
 
-- Once you have learned the basic techniques, you can continue your quest to become an achievement developer by following the steps explained here: [How to Become an Achievement Developer](How-to-Become-an-Achievement-Developer)
+- Once you have learned the basic techniques, you can continue your quest to become an achievement developer by following the steps explained here: [How to Become an Achievement Developer](/developer-docs/how-to-become-an-achievement-developer)
 
 Have fun!

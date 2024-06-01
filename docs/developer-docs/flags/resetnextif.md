@@ -1,6 +1,6 @@
 # `ResetNextIf`
 
-The `ResetNextIf` Flag is a special version of the [[ResetIf Flag]] that only resets the [hit count](Hit-Counts) of the following condition.
+The `ResetNextIf` Flag is a special version of the [[ResetIf Flag]] that only resets the [hit count](/developer-docs/hit-counts) of the following condition.
 
 `ResetNextIf` has the same priority as the condition that it's attached to. If followed by a `PauseIf`, it can be used to reset that specific `PauseIf` without needing an alt. If attached to a standard condition, it will not be processed if the achievement is paused.
 

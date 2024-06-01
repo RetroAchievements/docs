@@ -95,7 +95,7 @@ If you are one of or _the_ original set developer(s) for a set that is currently
 
 ## Rescores
 
-Up until June 2019, RetroAchievements sets had a cap of 400 points, with no restrictions on individual achievements. The set cap was removed to focus less on overall set totals and more on the achievements themselves. This initiative was also meant to eliminate the misconception that a set worth 400 points is a "complete" set, but is also an ongoing community effort to promote fairness across the board. Information on the scoring process can be found [here](https://docs.retroachievements.org/Achievement-Scoring/).
+Up until June 2019, RetroAchievements sets had a cap of 400 points, with no restrictions on individual achievements. The set cap was removed to focus less on overall set totals and more on the achievements themselves. This initiative was also meant to eliminate the misconception that a set worth 400 points is a "complete" set, but is also an ongoing community effort to promote fairness across the board. Information on the scoring process can be found [here](/developer-docs/achievement-scoring).
 
 Anyone wanting to rescore a set needs to:
 

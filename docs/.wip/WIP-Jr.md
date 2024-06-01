@@ -52,7 +52,7 @@ Once you have chosen your game and have claimed it for development, you need to 
 ### Conceptual Design
 
 - Start brainstorming your achievement list. How will you split up the progression achievements? What are the notable events in the game? Are there collectibles? Are there score benchmarks? What secrets/easter eggs are notable enough? Does the game have an internal reward system?
-- Check our guide about [Achievement Design](Achievement-Design)
+- Check our guide about [Achievement Design](/developer-docs/achievement-design)
 - Check and test if your designs are possible.
 - Figure out what data you will need to make the achievements. For example: achievements for collectibles will require the RAM addresses where their data is stored.
 

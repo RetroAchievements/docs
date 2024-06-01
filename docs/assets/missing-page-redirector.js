@@ -77,6 +77,13 @@ const redirects = {
   "/Console-Specific-Tips/": "/developer-docs/console-specific-tips.html",
   "/Emulator-Hotkeys-for-Developers/": "/developer-docs/emulator-hotkeys-for-developers.html",
   "/libretro-core-support/": "/developer-docs/libretro-core-support.html",
+  "/Achievement-Logic-Features/": "/orphaned/achievement-logic-features.html",
+  "/Combining-Flags/": "/orphaned/combining-flags.html",
+  "/DevQuests/": "/orphaned/devquests.html",
+  "/Rollouts/": "/orphaned/rollouts.html",
+  "/Why-you-shouldn%27t-use-the-load-state-feature/": "/orphaned/load-state-feature.html",
+  "/RALibretro/": "/orphaned/ralibretro.html",
+  "/Free-Games/": "/orphaned/free-games.html",
 };
 
 function handleRedirects() {

@@ -4,7 +4,7 @@ _**Note**: most likely this technique is not needed for simple games. So, it's n
 
 The `SubSource` can be chosen in the Flag column of the Achievement Editor
 
-Works similarly to [`Add Source`](AddSource-Flag), but the `Sub Source` flag subtracts the calculated value from the accumulator.
+Works similarly to [`Add Source`](/developer-docs/flags/addsource), but the `Sub Source` flag subtracts the calculated value from the accumulator.
 
 Because it subtracts from the accumulator, `SubSource A, B` is actually `B - A`.
 

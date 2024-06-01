@@ -39,7 +39,7 @@ When you need to label specific values or bit meanings in a note, here are some 
 - If values are in decimal, consider putting a note in the description to this effect: `(Values below are decimal)`
 - Put each value on a separate line - This is usually the easiest way to visually distinguish each value. You should usually use this when there are more than two values to label.
 - If there are only two values (Example: Yes/No), consider placing them inline with the description, if the description and labels are short.
-- Put a separator between the value and its label. This can be an equals sign, a colon, or a dash, and you may put whitespace as needed. Tip: Using an equals sign without spaces lets you easily copy the value list into a [Rich Presence](Rich-Presence) lookup.
+- Put a separator between the value and its label. This can be an equals sign, a colon, or a dash, and you may put whitespace as needed. Tip: Using an equals sign without spaces lets you easily copy the value list into a [Rich Presence](/developer-docs/rich-presence) lookup.
 
 ## Examples
 

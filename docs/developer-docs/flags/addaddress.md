@@ -1,6 +1,6 @@
 # `AddAddress`
 
-`AddAddress` modifies the memory address(es) of the following condition by the calculated value. It works similar to [`AddSource`](AddSource-Flag), but modifies the address, not the resulting value. Additionally, it affects addresses on both sides of the condition.
+`AddAddress` modifies the memory address(es) of the following condition by the calculated value. It works similar to [`AddSource`](/developer-docs/flags/addsource), but modifies the address, not the resulting value. Additionally, it affects addresses on both sides of the condition.
 
 `AddAddress` only affects the next condition. If multiple `AddAddress` lines are chained together, each lookup in the chain will be altered; the values won't all be added to the final lookup.
 

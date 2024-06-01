@@ -4,7 +4,7 @@
 
 ## Memory Digging Tips
 
-See also: [Memory Inspector Overview](Memory-Inspector-Overview).
+See also: [Memory Inspector Overview](/developer-docs/memory-inspector).
 
 - Start with 8-bit view in the Memory Viewer. Looking at larger chunks of memory will complicate things, but it will make a seasoned developer's job easier. If you're just starting out and unaware of terms like **endianess** and **bit ordering** (or when the eyes are tired), its best to make your observations in 8-bit view. Its just easier!
 
@@ -26,33 +26,33 @@ See also: [Memory Inspector Overview](Memory-Inspector-Overview).
 
 ## Achievement Creation Tips
 
-See also: [Unwelcome Concepts](Developers-Code-of-Conduct#unwelcome-concepts) and [Achievement Design](Achievement-Design).
+See also: [Unwelcome Concepts](/guidelines/developers/code-of-conduct#unwelcome-concepts) and [Achievement Design](/developer-docs/achievement-design).
 
 - **~~Never~~ Avoid using only one condition as much as you can**. When using only one condition the achievement will most likely pop at the wrong time. This is the **most common error by a developer**.
 
-- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to find the address for it and add a condition so your achievements don't trigger in demo mode. You'll probably need to know how to use [PauseIf](Achievement-Logic-Features#pauseif) and [ResetIf](Achievement-Logic-Features#resetif).
+- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to find the address for it and add a condition so your achievements don't trigger in demo mode. You'll probably need to know how to use [PauseIf](/orphaned/achievement-logic-features#pauseif) and [ResetIf](/orphaned/achievement-logic-features#resetif).
 
 - **`PauseIf` cheat codes**: If the game has a cheat code to increase lives, select stages, etc. Make sure to find the addresses for it and add some kind of protection in your achievements.
 
-- If you wanna create an achievement for **collecting a specific and unique item** in the game, add some conditions to make sure the player got the item where it is supposed to be obtained, [like in this template here](Achievement-Templates#collect-an-item-in-a-specific-level). Otherwise the achievement may trigger by using password, loading a save game, etc.
+- If you wanna create an achievement for **collecting a specific and unique item** in the game, add some conditions to make sure the player got the item where it is supposed to be obtained, [like in this template here](/developer-docs/achievement-templates#collect-an-item-in-a-specific-level). Otherwise the achievement may trigger by using password, loading a save game, etc.
 
-- **OR conditions**: if you need OR conditions, you'll need [Alt groups](Achievement-Logic-Features#alt-groups).
+- **OR conditions**: if you need OR conditions, you'll need [Alt groups](/orphaned/achievement-logic-features#alt-groups).
 
 - **Avoid Achievement Spam**. If a game has 100 levels, do not make an achievement for each level. Do every 25 or so. Consider the time segment a casual player would unlock these progressive Achievements in. If generally you could unlock all in a progressive set of Achievements of this nature in under half an hour as a casual player, that's filler design, and not recommended.
 
-- **Be Creative and Fun**: Get as creative as possible with achievements. "Beat X without using/doing Y", "Beat X in 5 seconds", "3 heart run". Be sure casual players can still get these with their best effort. It isn't fun if its way too difficult for a casual player! (See: **Bonus Set Tips** below for the real challenges!). There is a whole page about [Achievement Design](Achievement-Design) that can give good advices on how to think about good achievements.
+- **Be Creative and Fun**: Get as creative as possible with achievements. "Beat X without using/doing Y", "Beat X in 5 seconds", "3 heart run". Be sure casual players can still get these with their best effort. It isn't fun if its way too difficult for a casual player! (See: **Bonus Set Tips** below for the real challenges!). There is a whole page about [Achievement Design](/developer-docs/achievement-design) that can give good advices on how to think about good achievements.
 
 - **Glitchless, please!**: Do not make achievements requiring glitches. Glitches, in most cases, corrupt and destabilize game memory and RAM. They break the rest of the set to include. It is however, wise to code block walls stopping players from using them to get easy mastery.
 
 - **Avoid relying on text and graphics**: Most of the time, an achievement that requires triggering a special event can be tied to an event flag (usually a single bit or byte), or to an item received by the player. It is better practice to use these values than to check the ID of text being displayed in a text box, or, even worse, video RAM (memory tied to the actual graphics displaying on the screen) as they are often less stable. Especially between different versions of a single game, and they are more difficult to debug.
 
-- **We love Art**: Pretty badges are rewarding badges! It should visually represent the achievement itself, or hint at the location in the game for secrets. Matching to the game's art style works well. Google Image searches for "Sprite Sheets" is an useful tip to include some game art. If you're a good graphics artist, updating badges is your time to shine! More info can be found at the [Badge and Icon Creation page](Badge-and-Icon-Creation).
+- **We love Art**: Pretty badges are rewarding badges! It should visually represent the achievement itself, or hint at the location in the game for secrets. Matching to the game's art style works well. Google Image searches for "Sprite Sheets" is an useful tip to include some game art. If you're a good graphics artist, updating badges is your time to shine! More info can be found at the [Badge and Icon Creation page](/guidelines/content/badge-and-icon-guidelines).
 
 - **Regional Consideration**: For games with text-triggered achievements (especially RPGs) it's recommend to find an event flag instead of hooking onto text or text ID. Text presentation varies between regional versions making multi-region support difficult.
 
 ## Naming Convention Tips
 
-- **No Symbols**: Do not use accented/special characters like the `é` in Pokemon, as they currently break a few things (like feed). They are also not visible in search without the special character. Same for UTF-8 Universal Emoji codes. **Allowed exception**: [Rich Presence Scripts](Rich-Presence).
+- **No Symbols**: Do not use accented/special characters like the `é` in Pokemon, as they currently break a few things (like feed). They are also not visible in search without the special character. Same for UTF-8 Universal Emoji codes. **Allowed exception**: [Rich Presence Scripts](/developer-docs/rich-presence).
 
 - **Mind your English**: avoid grammar mistakes. As RetroAchievements is an international community, using English for Code Notes is a good practice, as another developer can use your notes in the future.
 

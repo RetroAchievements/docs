@@ -8,7 +8,7 @@ This document describes all the steps that any aspiring achievement developer mu
 
 ## Finding a Game to Work on
 
-Follow the [guidelines on the Developer's Code of Conduct](Developers-Code-of-Conduct#working-on-empty-sets) to find a game to work on achievements for it. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server. Feel free to declare your plans to work on the game in the topic, and post updates as you proceed.
+Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developers/code-of-conduct#working-on-empty-sets) to find a game to work on achievements for it. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server. Feel free to declare your plans to work on the game in the topic, and post updates as you proceed.
 
 **Tip**: for your first achievement set it's recommended to choose a game that doesn't yet have achievements **and** is not very popular.
 
@@ -16,36 +16,36 @@ Follow the [guidelines on the Developer's Code of Conduct](Developers-Code-of-Co
 
 Once you find a game to work on you need to plan your Achievement Set.
 
-Be sure you know enough about the game to make a good set. Check the GameFAQs or something, try to learn more about the game, its secrets and details. Here is a good guide to help you with this: [Set Development Roadmap](Set-Development-Roadmap).
+Be sure you know enough about the game to make a good set. Check the GameFAQs or something, try to learn more about the game, its secrets and details. Here is a good guide to help you with this: [Set Development Roadmap](/developer-docs/set-development-roadmap).
 
 It's recommended that you post your plans on the official game's forum topic, so the community can leave suggestions and provide feedback.
 
 **IMPORTANT!: be open to receive feedback and suggestions.**
 
-**See also**: [Achievement Design](Achievement-Design), it's an extensive guide on how to design good and interesting achievements. It's not about the technical side but the conceptual.
+**See also**: [Achievement Design](/developer-docs/achievement-design), it's an extensive guide on how to design good and interesting achievements. It's not about the technical side but the conceptual.
 
 ## Required Knowledge
 
 Every developer must know at least the basic concepts and techniques shown in these two docs:
 
-1. [Getting Started as an Achievement Developer](Getting-Started-as-an-Achievement-Developer)
-2. [Achievement Logic Features](Achievement-Logic-Features)
+1. [Getting Started as an Achievement Developer](/developer-docs/getting-started-as-an-achievement-developer)
+2. [Achievement Logic Features](/orphaned/achievement-logic-features)
 
 Any aspiring dev must demonstrate understanding of the following concepts:
 
-- Basic RAM digging (be familiar with the [Memory Inspector](Memory-Inspector-Overview))
-- [Hexadecimal notation](Memory-Inspector-Overview#decimal-binary-and-hexadecimal-notations)
-- [Delta values](Delta-Values)
-- [Hit counts](Hit-Counts)
-- [Pause If](PauseIf-Flag)
-- [Reset If](ResetIf-Flag)
-- [Alt Groups](Alt-Groups)
-- Memory sizes: [8-bit](Memory-Inspector-Overview#8-bit-mode) and [single bit](Memory-Inspector-Overview#single-bits)
+- Basic RAM digging (be familiar with the [Memory Inspector](/developer-docs/memory-inspector))
+- [Hexadecimal notation](/developer-docs/memory-inspector#decimal-binary-and-hexadecimal-notations)
+- [Delta values](/developer-docs/delta-values)
+- [Hit counts](/developer-docs/hit-counts)
+- [Pause If](/developer-docs/flags/pauseif)
+- [Reset If](/developer-docs/flags/resetif)
+- [Alt Groups](/developer-docs/alt-groups)
+- Memory sizes: [8-bit](/developer-docs/memory-inspector#8-bit-mode) and [single bit](/developer-docs/memory-inspector#single-bits)
 - Achievement logic comparisons besides `=`, such as `>`, `<`, `!=`
-- [Adding badges to an achievment](Ways-to-Contribute)
-- [Creating accurate descriptions for achievements](Developers-Code-of-Conduct#basic-achievement-design-guidelines)
-- Add appropriate [protections](Getting-Started-as-an-Achievement-Developer#important-tips)
-- Make a [stable achievement set](Getting-Started-as-an-Achievement-Developer#important-tips)
+- [Adding badges to an achievment](/general/ways-to-contribute)
+- [Creating accurate descriptions for achievements](/guidelines/developers/code-of-conduct#basic-achievement-design-guidelines)
+- Add appropriate [protections](/developer-docs/getting-started-as-an-achievement-developer#important-tips)
+- Make a [stable achievement set](/developer-docs/getting-started-as-an-achievement-developer#important-tips)
 
 **Note**: You do not need mastery of all these concepts to have a set published, but you do need them to have the full Developer role.
 
@@ -53,22 +53,22 @@ Any aspiring dev must demonstrate understanding of the following concepts:
 
 Here is a list of some advanced concepts/techniques. **They are not required to become a Developer**, but are listed here to let the jr-dev know the possibilities of the Achievement's logic.
 
-- Hit count as timer (like in [this example](Using-Hit-Counts-as-a-Timer) and [this one](Creating-a-Timer-with-Reset-If-Hits-based-on-the-Speed-of-the-Game))
-- [ResetIf Checkpoints](Achievement-Templates#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
-- [ResetIf with Hitcount](ResetIf-Flag#resetif-with-hit-counts)
-- [PauseIf with Hitcount](PauseIf-Flag#pauseif-with-hit-counts)
-- [AddSource](AddSource-Flag) and [SubSource](SubSource-Flag) Flags
-- [AddHits and SubHits Flag](AddHits-and-SubHits-Flag)
-- [Increment counter (`Mem > Delta` Counter)](Using-Delta-Values-and-Hit-Counts-to-Detect-an-Increment)
-- [Delta Hit Counter, pause technique](Achievement-Templates#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
-- [Little endianness](Memory-Inspector-Overview#endianness)
-- Memory size: [Lower4, Upper4](Memory-Inspector-Overview#upper4-and-lower4), and [16-bit, 32-bit](Memory-Inspector-Overview#1632-bit-mode)
-- Dynamic [Rich Presence](Rich-Presence)
-- [Leaderboards](Leaderboards)
-- [Pausable Resets](Achievement-Templates#conditional-resets)
-- [SubSource increment counter](SubSource-Flag#using-subsource-to-count-increments)
+- Hit count as timer (like in [this example](/developer-docs/real-examples/using-hit-counts-as-a-timer) and [this one](/developer-docs/real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game))
+- [ResetIf Checkpoints](/developer-docs/achievement-templates#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
+- [ResetIf with Hitcount](/developer-docs/flags/resetif#resetif-with-hit-counts)
+- [PauseIf with Hitcount](/developer-docs/flags/pauseif#pauseif-with-hit-counts)
+- [AddSource](/developer-docs/flags/addsource) and [SubSource](/developer-docs/flags/subsource) Flags
+- [AddHits and SubHits Flag](/developer-docs/flags/addhits-subhits)
+- [Increment counter (`Mem > Delta` Counter)](/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment)
+- [Delta Hit Counter, pause technique](/developer-docs/achievement-templates#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
+- [Little endianness](/developer-docs/memory-inspector#endianness)
+- Memory size: [Lower4, Upper4](/developer-docs/memory-inspector#upper4-and-lower4), and [16-bit, 32-bit](/developer-docs/memory-inspector#1632-bit-mode)
+- Dynamic [Rich Presence](/developer-docs/rich-presence)
+- [Leaderboards](/developer-docs/leaderboards)
+- [Pausable Resets](/developer-docs/achievement-templates#conditional-resets)
+- [SubSource increment counter](/developer-docs/flags/subsource#using-subsource-to-count-increments)
 
-The [Real Examples](Real-Examples) and [Achievement Templates](Achievement-Templates) pages are useful resources to see how those techniques work.
+The [Real Examples](/developer-docs/real-examples) and [Achievement Templates](/developer-docs/achievement-templates) pages are useful resources to see how those techniques work.
 
 ## Code Notes
 
@@ -96,7 +96,7 @@ Once the Code Reviewers have inspected your achievement's code and concepts, the
 
 The merit of a jr-dev receiving developer status depends on:
 
-- their ability to publish work that meets the standards of the [Developer's Code of Conduct](Developers-Code-of-Conduct);
+- their ability to publish work that meets the standards of the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct);
 - demonstration of [required knowledge](#required-knowledge) and [advanced concepts](#advanced-techniques);
 - the quality and complexity of their work;
 - the time and thought they put into planning and working on achievements;
@@ -105,4 +105,4 @@ The merit of a jr-dev receiving developer status depends on:
 
 ## Developer's Code of Conduct
 
-Once you get your Developer status, you **MUST** adhere to the [Developer's Code of Conduct](Developers-Code-of-Conduct). That is extremely important to create a fair environment between the Achievement Developers.
+Once you get your Developer status, you **MUST** adhere to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct). That is extremely important to create a fair environment between the Achievement Developers.

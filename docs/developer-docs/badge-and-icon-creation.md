@@ -63,11 +63,11 @@ To change a game icon first go to the game page and click on the Dev tools:
 Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
 ![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
 
-If a game has existing achievements, game icon changes need to go through [revision process](Achievement-Set-Revisions).
+If a game has existing achievements, game icon changes need to go through [revision process](/guidelines/content/achievement-set-revisions).
 
 ### Uploading game icons (non-Developer)
 
-Yes, you absolutely can, but they are subject to [revisions](Achievement-Set-Revisions). It will also be good to review the guidelines for [designing new game icons](#designing-new-game-icons---styling-guide).
+Yes, you absolutely can, but they are subject to [revisions](/guidelines/content/achievement-set-revisions). It will also be good to review the guidelines for [designing new game icons](#designing-new-game-icons---styling-guide).
 
 ### What happens to the image when you upload a game Icon
 
@@ -145,7 +145,7 @@ If the game has existing badges review and follow the procedure for [Uploading B
 
 ### Making new Badges for existing achievements
 
-If you'd like to make improved badges for existing achievements, you can. Your images will go through the [revision process](Achievement-Set-Revisions), which will put your creations to a community vote.
+If you'd like to make improved badges for existing achievements, you can. Your images will go through the [revision process](/guidelines/content/achievement-set-revisions), which will put your creations to a community vote.
 
 Post all the new images you'd like to replace current ones in the [Icon Gauntlet Forum Topic](http://retroachievements.org/viewtopic.php?t=8064&o=0). Also post all the badges that the new images are meant to replace. They will be placed for a community review by as a single vote. After a community vote is complete if you are a dev you can replace the Badges or if you are not, ask for help in the #help-me channel on Discord or in the [Icon Gauntlet Forum Topic](http://retroachievements.org/viewtopic.php?t=8064&o=0).
 

@@ -44,7 +44,7 @@ Imagine you had two versions of the same set, with the same difficulty:
 
 Up until June 2019, RetroAchievements had a 400-point cap per set, with no restrictions on individual achievements. The set cap was removed to put less focus on set totals and more on the achievements themselves. This initiative was also meant to eliminate the misconception that a set worth 400 points is a "complete" set.
 
-As with revisions and aesthetic changes, a rescore typically requires community approval. You can find more information on rescores [here](https://docs.retroachievements.org/Achievement-Set-Revisions/).
+As with revisions and aesthetic changes, a rescore typically requires community approval. You can find more information on rescores [here](/guidelines/content/achievement-set-revisions).
 
 ## Exceptions
 

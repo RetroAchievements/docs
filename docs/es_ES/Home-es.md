@@ -18,7 +18,7 @@ La lista completa de páginas se encuentran en la barra lateral, pero aquí hay 
 
 - [Mi juego no esta cargando logros](My-game-is-not-loading-achievements-es): qué hacer cuando tu juego no está cargando logros.
 
-- [Por qué no deberías de utilizar la opción de salvar estados (load state)](Why-you-shouldn't-use-the-load-state-feature): porque deberías esperar tener problemas si salvas/cargas estados mientras juegas.
+- [Por qué no deberías de utilizar la opción de salvar estados (load state)](/orphaned/load-state-feature): porque deberías esperar tener problemas si salvas/cargas estados mientras juegas.
 
 - [Un mensaje para los cazadores de logros y completistas sobre las revisiones](A-message-for-Achievement-Hunters-and-Completionists-about-revisions): por qué no deberías de frustrarte cuando una revisión en un set de logros es publicada.
 

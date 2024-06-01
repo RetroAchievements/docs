@@ -11,7 +11,7 @@ Estos no contienen temas para la Interfaz (Overlay), puedes descargar el estánd
 - [RAP64](http://bit.ly/RAP64_) - Nintendo 64
 - [Project64 Plugin Pack](http://bit.ly/RAP64PluginRApositoryPack) - Paquete de complementos actualizado, necesario para que Project64 funcione.
 - [RAMeka](http://bit.ly/RAMeka__) - Master System
-- [RALibretro](http://bit.ly/RALibRetro) - (**Trabajo en Progreso**) una interfaz de libetro que soporta varios sistemas. Mas informacion en [RALibretro page](RALibretro).
+- [RALibretro](http://bit.ly/RALibRetro) - (**Trabajo en Progreso**) una interfaz de libetro que soporta varios sistemas. Mas informacion en [RALibretro page](/orphaned/ralibretro).
 - [RetroArch](http://retroarch.com/?page=platforms) - **NOTA:** se usa solo para jugar, no para el desarrollo de logros.
 
 ## Temas para la Interfaz (Overlay)

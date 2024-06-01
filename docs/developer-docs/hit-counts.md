@@ -8,14 +8,14 @@ The default is Zero, which means the condition must be true for the achievement 
 
 If you set a target hit count, like 5, it means the condition must be true for at least that many frames, and once that hit count target is met, it doesn't need to be met again at any other time.
 
-**PLEASE NOTE**: if a condition has a non-zero hit count, and reaches the number required, this condition is no longer tested. It remains true, **UNLESS** you have a [`ResetIf`](ResetIf-Flag), which we will discuss below.
+**PLEASE NOTE**: if a condition has a non-zero hit count, and reaches the number required, this condition is no longer tested. It remains true, **UNLESS** you have a [`ResetIf`](/developer-docs/flags/resetif), which we will discuss below.
 
-Conditions with [`Reset If`](ResetIf-Flag) and [`PauseIf`](PauseIf-Flag) flags can also have hits. Follow the links for details.
+Conditions with [`Reset If`](/developer-docs/flags/resetif) and [`PauseIf`](/developer-docs/flags/pauseif) flags can also have hits. Follow the links for details.
 
-In the [Real Examples](Real-Examples) section there are two examples good examples:
+In the [Real Examples](/developer-docs/real-examples) section there are two examples good examples:
 
-- [Using Hit Counts as a Timer](Using-Hit-Counts-as-a-Timer)
-- [Using Delta Values and Hit Counts to Detect an Increment](Using-Delta-Values-and-Hit-Counts-to-Detect-an-Increment)
+- [Using Hit Counts as a Timer](/developer-docs/real-examples/using-hit-counts-as-a-timer)
+- [Using Delta Values and Hit Counts to Detect an Increment](/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment)
 
 ### Effect of Resetting the Emulator
 

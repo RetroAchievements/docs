@@ -1,14 +1,14 @@
 # Value Definition
 
-Value definitions are used for [leaderboards](Leaderboards#value) and [rich presence](Rich-Presence#value-properties).
+Value definitions are used for [leaderboards](/developer-docs/leaderboards#value) and [rich presence](/developer-docs/rich-presence#value-properties).
 
-A value is calculated by evaluating one or more [memory reads](Condition-Syntax). Read values can be scaled (multiplication) or summed (addition) to arrive at the final value.
+A value is calculated by evaluating one or more [memory reads](/developer-docs/condition-syntax). Read values can be scaled (multiplication) or summed (addition) to arrive at the final value.
 
 **NOTE**: Value calculations are performed using 32-bit signed integers. As such, the maximum value is 2147483647 and the minimum value is -2147483648. Values above the maximum will wrap around and register as very negative numbers.
 
 ### Value from Measured
 
-Starting with the 0.77 DLL (and RetroArch 1.8.2), you can use the [Measured](Measured-Flag) flag to generate a Value. This supports all logic supported by the achievement editor, but every condition must have a flag that somehow influences the Measured value (i.e. [AddSource](AddSource-Flag), [AddAddress](AddAddress-Flag)). Note that the Measured condition cannot have a multiplier directly on it. If the final clause needs to be multiplied, use an additional AddSource and Measure 0.
+Starting with the 0.77 DLL (and RetroArch 1.8.2), you can use the [Measured](/developer-docs/flags/measured) flag to generate a Value. This supports all logic supported by the achievement editor, but every condition must have a flag that somehow influences the Measured value (i.e. [AddSource](/developer-docs/flags/addsource), [AddAddress](/developer-docs/flags/addaddress)). Note that the Measured condition cannot have a multiplier directly on it. If the final clause needs to be multiplied, use an additional AddSource and Measure 0.
 
 **VAL**: `A:0xhfe24_A:0xhfe25*60_A:0xhfe22*3600_M:0`
 
@@ -27,7 +27,7 @@ The addresses represent frames, seconds, and minutes respectively, and are indiv
 
 Sometimes you want to count the number of times something happens and submit that as the value. You can also do this using Measured syntax. Just add a comparison to your final condition. Do not include an explicit Hit target, or that will be the maximum value that can be submitted.
 
-The [HitCount](Hit-Counts) on the condition will automatically be set to 0 when the leaderboard starts, and the HitCount will be submitted as the Value when the leaderboard submit trigger activates. You can use [PauseIf](PauseIf-Flag) and [ResetIf](ResetIf-Flag) within the Value conditions to further control the behavior.
+The [HitCount](/developer-docs/hit-counts) on the condition will automatically be set to 0 when the leaderboard starts, and the HitCount will be submitted as the Value when the leaderboard submit trigger activates. You can use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif) within the Value conditions to further control the behavior.
 
 For example:
 

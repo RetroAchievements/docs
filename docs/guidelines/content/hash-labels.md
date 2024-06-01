@@ -6,7 +6,7 @@ Every ROM that is linked to an achievement set should be clearly identified and 
 
 ## Info for Linked Hashes
 
-- RA Hash: Check [Game Identification](Game-Identification) to learn more about these. These appear in `Manage Hashes` automatically.
+- RA Hash: Check [Game Identification](/developer-docs/game-identification) to learn more about these. These appear in `Manage Hashes` automatically.
 - Filename - Filename should be entered as the description. These are typically automatic, but may need some adjustments.
 - Labels - You can use the labels listed below by using the filename of the image (no extension).
 

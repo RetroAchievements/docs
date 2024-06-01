@@ -22,31 +22,31 @@ There are several tools and options available to a developer. Knowing how to pro
 
 ### Flags
 
-- <a name="pauseif"></a>[`PauseIf` Flag](PauseIf-Flag)
+- <a name="pauseif"></a>[`PauseIf` Flag](/developer-docs/flags/pauseif)
 
-  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` with hit counts](PauseIf-Flag#pauseif-with-hit-counts)
+  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` with hit counts](/developer-docs/flags/pauseif#pauseif-with-hit-counts)
 
-- <a name="resetif"></a>[`ResetIf` Flag](ResetIf-Flag)
+- <a name="resetif"></a>[`ResetIf` Flag](/developer-docs/flags/resetif)
 
-  - <a name="resetif-with-hit-counts"></a>[`ResetIf` with hit counts](ResetIf-Flag#resetif-with-hit-counts)
+  - <a name="resetif-with-hit-counts"></a>[`ResetIf` with hit counts](/developer-docs/flags/resetif#resetif-with-hit-counts)
 
-- <a name="resetnextif"></a>[`ResetNextIf` Flag](ResetNextIf-Flag)
+- <a name="resetnextif"></a>[`ResetNextIf` Flag](/developer-docs/flags/resetnextif)
 
-- <a name="addsource"></a>[`AddSource` Flag](AddSource-Flag)
+- <a name="addsource"></a>[`AddSource` Flag](/developer-docs/flags/addsource)
 
-- <a name="subsource"></a>[`SubSource` Flag](SubSource-Flag)
+- <a name="subsource"></a>[`SubSource` Flag](/developer-docs/flags/subsource)
 
-  - <a name="checking-for-a-negative-result"></a>[Checking for a negative result](SubSource-Flag#checking-for-a-negative-result)
+  - <a name="checking-for-a-negative-result"></a>[Checking for a negative result](/developer-docs/flags/subsource#checking-for-a-negative-result)
 
-- <a name="addhits"></a>[`AddHits` and `SubHits` Flag](AddHits-and-SubHits-Flag)
+- <a name="addhits"></a>[`AddHits` and `SubHits` Flag](/developer-docs/flags/addhits-subhits)
 
-- <a name="addaddress"></a>[`AddAddress` Flag](AddAddress-Flag)
+- <a name="addaddress"></a>[`AddAddress` Flag](/developer-docs/flags/addaddress)
 
-- <a name="andnext"></a>[`AndNext` and `OrNext` Flags](AndNext-and-OrNext-Flags)
+- <a name="andnext"></a>[`AndNext` and `OrNext` Flags](/developer-docs/flags/andnext-ornext)
 
-- <a name="measured"></a>[`Measured` and `MeasuredIf` Flags](Measured-Flag)
+- <a name="measured"></a>[`Measured` and `MeasuredIf` Flags](/developer-docs/flags/measured)
 
-- <a name="trigger"></a>[`Trigger` Flag](Trigger-Flag)
+- <a name="trigger"></a>[`Trigger` Flag](/developer-docs/flags/trigger)
 
 ### Types
 

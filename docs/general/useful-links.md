@@ -14,7 +14,7 @@ It is a site dedicated to unearthing and researching unused and cut content from
 
 ## [Cumulative Probability Calculator](https://www.danielsoper.com/statcalc/calculator.aspx?id=71)
 
-When working with achievements with an RNG factor you will often want to know the probability of success for players given a number of attempts. (see [unwelcome concepts, achievements with low odds](Developers-Code-of-Conduct#unwelcome-concepts)). Use it to calculate P(X>=1), assuming the player needs to succeed only once across several attempts, to estimate how many attempts an might require for less lucky players.
+When working with achievements with an RNG factor you will often want to know the probability of success for players given a number of attempts. (see [unwelcome concepts, achievements with low odds](/guidelines/developers/code-of-conduct#unwelcome-concepts)). Use it to calculate P(X>=1), assuming the player needs to succeed only once across several attempts, to estimate how many attempts an might require for less lucky players.
 
 ## https://www.zapstudio.net/framecalc/
 

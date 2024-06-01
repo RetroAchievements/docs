@@ -192,8 +192,8 @@ In the [Collecting an Item N times](#collecting-an-item-n-times) we are counting
 
 The technique used here relies on two other ones:
 
-- [Using `SubSource` to count specific increments](SubSource-Flag#using-subsource-to-count-increments)
-- [`AddHits` Flag](AddHits-and-SubHits-Flag)
+- [Using `SubSource` to count specific increments](/developer-docs/flags/subsource#using-subsource-to-count-increments)
+- [`AddHits` Flag](/developer-docs/flags/addhits-subhits)
 
 Here's the trick:
 
@@ -204,7 +204,7 @@ Here's the trick:
 | 3   |            | Mem   | 0xCOUNT | >   | Delta | 0xCOUNT | (N)  |
 | 4   | Reset If   | Mem   | 0xLIVES | <   | Delta | 0xLIVES |
 
-It can look a bit confusing at a first sight, but maybe using a real example it can be more clear. Check the [Circumvent the Problem of a Counter Incrementing Twice in the Same Frame](Circumvent-the-Problem-of-a-Counter-Incrementing-Twice-in-the-Same-Frame).
+It can look a bit confusing at a first sight, but maybe using a real example it can be more clear. Check the [Circumvent the Problem of a Counter Incrementing Twice in the Same Frame](/developer-docs/real-examples/circumvent-the-problem-of-a-counter-incrementing-twice-in-the-same-frame).
 
 ## Check for a Specific Value Changing to Another Specific Value Ten Times
 

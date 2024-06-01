@@ -92,7 +92,7 @@ A macro converts a value into a user-friendly string. Macros are placed within a
 
 `@Macro(0xh1234)` says read the byte at $1234, transform it using the `Macro` macro, and place the result in the display string where the macro had been.
 
-Parameters for each macro are constructed using a [value definition](Value-Definition).
+Parameters for each macro are constructed using a [value definition](/developer-docs/value-definition).
 
 ### Lookups
 
@@ -209,7 +209,7 @@ Looking at this example, if the 16-bit value at $0085 is 0, the display string i
 
 Display strings associated with a conditional clause support all of the same syntax as the default display string. In this example, you can see the `@Landscape` lookup is used in both the conditional display string and the default display string. The lookup itself only has to be defined once.
 
-The conditional phrase supports all of the previously mentioned address accessors as well as AND (\_) and OR (S) logic. Note that OR clauses still require a 'core' group, [just like achievements](Alt-Groups).
+The conditional phrase supports all of the previously mentioned address accessors as well as AND (\_) and OR (S) logic. Note that OR clauses still require a 'core' group, [just like achievements](/developer-docs/alt-groups).
 
 - `?0xH1234=32_0xH2345=0?and example`
 
@@ -223,7 +223,7 @@ The conditional phrase supports all of the previously mentioned address accessor
 
   if the 8-bit value at $1234 is 32 _and_ the 8-bit value at $5678 is 33 _and_ the 8-bit value at $2345 is 1 _or_ 2, display `and/or example`
 
-**Pro-tip:** Conditions can be created using the [achievement editor](Achievement-Logic-Features). Once you have your condition defined, use the `Copy Def` button to copy the achievement definition to the clipboard so you can paste it into the rich presence script.
+**Pro-tip:** Conditions can be created using the [achievement editor](/orphaned/achievement-logic-features). Once you have your condition defined, use the `Copy Def` button to copy the achievement definition to the clipboard so you can paste it into the rich presence script.
 
 ## Limits
 
@@ -249,7 +249,7 @@ This restriction helps in preventing inappropriate or offensive content from sho
 
 ### Value Properties
 
-When using lookup and format objects `@object()` it's possible to combine and perform calculations. Macro parameters are [value definitions](Value-Definition), so you can use multiplication, addition, and even some logic to generate values that aren't directly available in memory.
+When using lookup and format objects `@object()` it's possible to combine and perform calculations. Macro parameters are [value definitions](/developer-docs/value-definition), so you can use multiplication, addition, and even some logic to generate values that aren't directly available in memory.
 
 **Example**
 `@Score(0xh28*10_0xh29*1000_0xh26*100000) points`
@@ -291,7 +291,7 @@ If you make changes to the `XXX-Rich.txt` file, and reselect the menu option, it
 
 **NOTE**: The `XXX-Rich.txt` file is overwritten with the current server data each time the game is opened. As long as you still have the file open in an editor, you can always save your changes over the updated file after reopening the game.
 
-Rich Presence files utilize Condition Syntax for [Memory Sizes](https://docs.retroachievements.org/Condition-Syntax/#memory-sizes), [Prefixes](https://docs.retroachievements.org/Condition-Syntax/#prefixes) and [Logical Flags](https://docs.retroachievements.org/Condition-Syntax/#logical-flags). These are also represented if you copy and paste achievement logic from the [Achievement Editor](https://docs.retroachievements.org/Achievement-Development-Overview/#achievement-editor).
+Rich Presence files utilize Condition Syntax for [Memory Sizes](/developer-docs/condition-syntax#memory-sizes), [Prefixes](/developer-docs/condition-syntax#prefixes) and [Logical Flags](/developer-docs/condition-syntax#logical-flags). These are also represented if you copy and paste achievement logic from the [Achievement Editor](https://docs.retroachievements.org/Achievement-Development-Overview/#achievement-editor).
 
 ### Parse Errors
 

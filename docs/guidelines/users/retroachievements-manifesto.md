@@ -44,7 +44,7 @@ We make achievement set revisions with quality in mind, and to show actual respe
 
 Also, if you're not able to master an achievement set it doesn't automatically mean that it needs to be nerfed/demoted/turned into a bonus set. If other players got that, it's probable you can get that too. But if you can't, it's OK too. You don't need to unlock every achievement to keep having fun with old games.
 
-If you still think the achievement set has [unwelcome concepts](https://docs.retroachievements.org/Developers-Code-of-Conduct/#unwelcome-concepts), you can post your arguments in the game's forum topic. Just be sure to be respectful in your words. Which brings us to the next point...
+If you still think the achievement set has [unwelcome concepts](/guidelines/developers/code-of-conduct#unwelcome-concepts), you can post your arguments in the game's forum topic. Just be sure to be respectful in your words. Which brings us to the next point...
 
 ### The most important people we have here are the achievement creators.
 

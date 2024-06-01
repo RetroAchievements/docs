@@ -2,9 +2,9 @@
 
 This document covers developers' rights, responsibilities, and rules for fair play.
 
-**If you are not a dev, check [how to become a developer](How-to-Become-an-Achievement-Developer).**
+**If you are not a dev, check [how to become a developer](/developer-docs/how-to-become-an-achievement-developer).**
 
-**See Also**: [Users Code of Conduct](Users-Code-of-Conduct).
+**See Also**: [Users Code of Conduct](/guidelines/users/code-of-conduct).
 
 - [Golden Rules](#golden-rules)
 - [Developers must do the following to keep in good standing](#developers-must-do-the-following-to-keep-in-good-standing)
@@ -22,16 +22,16 @@ This document covers developers' rights, responsibilities, and rules for fair pl
 
 ## Developers must do the following to keep in good standing:
 
-- Keep your work free from [unwelcome concepts](Unwelcome-Concepts).
-- Use [protective code](Achievement-Set-Requirements), preventing potential cheating and exploits.
-- Leave accurate [code notes](Code-Notes) for each achievement condition you use.
-- For set revisions, follow the [revision policy](Achievement-Set-Revisions).
-- [Resolve tickets](Handling-Tickets) and leave notes each time you do.
+- Keep your work free from [unwelcome concepts](/guidelines/content/unwelcome-concepts).
+- Use [protective code](/guidelines/content/achievement-set-requirements), preventing potential cheating and exploits.
+- Leave accurate [code notes](/guidelines/content/code-notes) for each achievement condition you use.
+- For set revisions, follow the [revision policy](/guidelines/content/achievement-set-revisions).
+- [Resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time you do.
 - Like a wiki, once you publish your work, you are giving it over to the community to be [reviewed and reworked over time](#achievementset-ownership).
 
 ## Revisions - Working on Sets with Existing Achievements
 
-Revisions, as in working on a set that has existing achievements typically requires community approval by presenting your plan in the forum and in the **#revision-voting** channel in Discord. Not all changes need approval. See [Achievement Set Revisions](Achievement-Set-Revisions) for details.
+Revisions, as in working on a set that has existing achievements typically requires community approval by presenting your plan in the forum and in the **#revision-voting** channel in Discord. Not all changes need approval. See [Achievement Set Revisions](/guidelines/content/achievement-set-revisions) for details.
 
 ## Expiration of Developer Status
 
@@ -72,7 +72,7 @@ _Note: Achievements edited by other developers will not count against a user see
 
 ## Achievement Ownership
 
-**When you publish your work you are giving it over to the community** to be reviewed and reworked over time - see [Achievement Set Revisions](Achievement-Set-Revisions).
+**When you publish your work you are giving it over to the community** to be reviewed and reworked over time - see [Achievement Set Revisions](/guidelines/content/achievement-set-revisions).
 
 While the original developer does not own published achievements, they are still the caretaker in terms of bug fixing and maintenance. If another developer revises the achievement, they are the new caretaker of that achievement.
 

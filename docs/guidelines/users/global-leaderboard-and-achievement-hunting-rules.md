@@ -62,7 +62,7 @@ If you notice a player has become untracked: do not harass them, accuse them of 
 
 Even if you "should have" unlocked the achievement. Even if the game is bugged. Even if the achievement is removed or broken entirely. When it's detected, it will lead the account to be **[Untracked](#untracked)**.
 
-In the cases where you should have unlocked the achievement but it didn't trigger or it didn't get registered in the site due to a network problem, you should [follow the steps described in FAQ to request a manual unlock](FAQ#i-completed-a-hard-cheevo-but-it-didnt-trigger-can-it-be-manually-awarded-to-me).
+In the cases where you should have unlocked the achievement but it didn't trigger or it didn't get registered in the site due to a network problem, you should [follow the steps described in FAQ to request a manual unlock](/general/faq#i-completed-a-hard-cheevo-but-it-didnt-trigger-can-it-be-manually-awarded-to-me).
 
 **NOTE**: make sure you are using the latest release version of an approved supported emulator.
 
@@ -160,13 +160,13 @@ The other side of the coin for [allowed 2](#allowed-2). Cheat codes and debug mo
 
 Even in hardcore mode fast-forward is allowed, as a modern convenience. It's ~~almost~~ a consensus that fast-forward offers no risk to the fairplay and then it's available for everyone to use it.
 
-**NOTE**: in _softcore_ mode savestates, rewind and slow motion are also allowed, but expect to have some issues. Read in [this link Why you shouldn't use the load state feature](Why-you-shouldn't-use-the-load-state-feature).
+**NOTE**: in _softcore_ mode savestates, rewind and slow motion are also allowed, but expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
 ### <a name="allowed-2"></a>2. _When explicitly said in achievement's description_, in-game cheat codes/modes and in-game debug tools are allowed.
 
 This is a complement to the [not allowed rule 2](#not-allowed-2).
 
-The achievement developers are instructed to [protect their work so the achievements can't be unlocked easily by simply using a cheat code](Developers-Code-of-Conduct#every-achievement-set-must-have). However, some cool and fun challenges can be created taking advantage of some cheats. In these specific cases, using in-game cheats are allowed.
+The achievement developers are instructed to [protect their work so the achievements can't be unlocked easily by simply using a cheat code](/guidelines/developers/code-of-conduct#every-achievement-set-must-have). However, some cool and fun challenges can be created taking advantage of some cheats. In these specific cases, using in-game cheats are allowed.
 
 **NOTE**: if you find achievements unlockable by using in-game cheats with no pertinent description, consider opening a ticket and reporting it.
 

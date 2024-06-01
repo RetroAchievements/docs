@@ -2,11 +2,11 @@
 
 The `ResetIf` can be chosen in the Flag column of the Achievement Editor
 
-If the associated condition is true, **all** [hit counts](Hit-Counts) in the achievement will be reset to 0. This includes hit counts in other groups (more about it in [Alt Groups](Alt-Groups) below).
+If the associated condition is true, **all** [hit counts](/developer-docs/hit-counts) in the achievement will be reset to 0. This includes hit counts in other groups (more about it in [Alt Groups](/developer-docs/alt-groups) below).
 
 The achievement will not trigger if one or more `ResetIf` conditions is true, even if there are no conditions with hit count targets.
 
-You can see many examples of `ResetIf` in the [Real Examples page](Real-Examples).
+You can see many examples of `ResetIf` in the [Real Examples page](/developer-docs/real-examples).
 
 ## `ResetIf` with hit counts
 

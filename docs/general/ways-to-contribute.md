@@ -30,7 +30,7 @@ On every achievement's page you see a link saying `Report an issue for this achi
 
 If you know a game very well, you probably can have some cool ideas of challenges for the game. Post your ideas on the forum topic related to the game.
 
-We have [a guide on how to think about and design good achievements](Achievement-Design), not the technical side but the conceptual. Then even non-developers can get some inspiration from that info.
+We have [a guide on how to think about and design good achievements](/developer-docs/achievement-design), not the technical side but the conceptual. Then even non-developers can get some inspiration from that info.
 
 ## Give Feedback
 
@@ -40,13 +40,13 @@ Give feedback in the forums about what you like or dislike about the achievement
 
 If you like to play with graphics you can create some art for the achievements badges or icons for the games. Using the screenshot feature from the emulator itself can help with this, and then you can edit to make something cool.
 
-You can see more info about it on the [Badge and Icon Creation page](Badge-and-Icon-Creation).
+You can see more info about it on the [Badge and Icon Creation page](/guidelines/content/badge-and-icon-guidelines).
 
 ## Help with the Documentation
 
 If you have a github account and know the basics of Markdown, you can help with the documentation. Fixing typos, grammar or inaccurate information.
 
-Take a look at this page to know the details: [Contributing with the docs](Contributing-with-the-docs)
+Take a look at this page to know the details: [Contributing with the docs](/general/contributing-to-the-docs)
 
 ## Participate in Events
 

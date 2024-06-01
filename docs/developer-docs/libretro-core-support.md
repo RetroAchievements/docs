@@ -60,7 +60,7 @@ The GameBoy Color has 32KB of RAM broken into eight 4KB banks. Normally, the fir
 
 The other important thing for a core to consider is that the game files should not be modified.
 
-RetroAchievements [hashes a portion of the game data](Game-Identification) (usually most or all of it) to ensure the player is using a compatible version of the game. If the hash doesn't match exactly, we don't enable achievements. This ensures that regional variants are only allowed if their memory lines up correctly. It also ensures players aren't playing on a hacked version where they have infinite health or some other cheat applied.
+RetroAchievements [hashes a portion of the game data](/developer-docs/game-identification) (usually most or all of it) to ensure the player is using a compatible version of the game. If the hash doesn't match exactly, we don't enable achievements. This ensures that regional variants are only allowed if their memory lines up correctly. It also ensures players aren't playing on a hacked version where they have infinite health or some other cheat applied.
 
 If the game files are modified by the core, the hash may change and the game will no longer be identified.
 
