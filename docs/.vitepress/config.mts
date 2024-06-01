@@ -1,18 +1,50 @@
-import { defineConfig } from "vitepress";
+import { HeadConfig, defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "RetroAchievements Docs",
-  description: "The official documentation for RetroAchievements.",
-
-  head: [["script", { src: "/assets/missing-page-redirector.js" }]],
-
-  // TODO delete this setting
+  // TODO set this to false
   ignoreDeadLinks: true,
 
-  appearance: "dark",
-  lastUpdated: true,
+  // Metadata
+  lang: "en-US",
+  title: "RetroAchievements Docs",
+  description: "Access comprehensive guides, tutorials, and developer resources for RetroAchievements. Learn how to enhance your retro gaming experience with custom achievements.",
+  head: [["script", { src: "/assets/missing-page-redirector.js" }]],
 
+  // Sitemap
+  lastUpdated: true,
+  sitemap: {
+    hostname: "https://docs.retroachievements.org",
+  },
+
+  /**
+   * Generate social media metadata tags at build time.
+   * Note: this does not run when using the development server,
+   * so it must be tested by doing a full build with `npm run build`.
+   */
+  transformHead({ pageData, page }) {
+    const { title, description } = pageData;
+
+    const ogType = page === "index.md" ? "website" : "article";
+
+    // Add these meta tags to the <head>.
+    const tags: HeadConfig[] = [];
+
+    // Add OpenGraph tags.
+    tags.push(["meta", { property: "og:site_name", content: "RetroAchievements Docs" }]);
+    tags.push(["meta", { property: "og:type", content: ogType }]);
+    tags.push(["meta", { property: "og:title", content: title }]);
+
+    // Add Twitter tags.
+    tags.push(["meta", { name: "twitter:site", content: "@RetroAchievements" }]);
+    tags.push(["meta", { name: "twitter:card", content: "summary_large_image" }]);
+    tags.push(["meta", { name: "twitter:title", content: title }]);
+    if (description) {
+      tags.push(["meta", { name: "twitter:description", content: description }]);
+    }
+  },
+
+  // i18n
   locales: {
     root: {
       label: "English",
@@ -28,6 +60,8 @@ export default defineConfig({
     },
   },
 
+  // Theme and Navigation
+  appearance: "dark",
   themeConfig: {
     siteTitle: "RetroAchievements",
     logo: "/logo.webp",
@@ -431,13 +465,6 @@ export default defineConfig({
         },
       ],
     },
-
-    // TODO
-    // editLink: {
-    //   pattern:
-    //     "https://github.com/RetroAchievements/api-docs/edit/main/docs/:path",
-    //   text: "Edit this page on GitHub",
-    // },
 
     footer: {
       message: "Released under the GPL-3 License. There are no copyright-protected ROMs available for download on RetroAchievements.",

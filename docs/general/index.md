@@ -12,7 +12,5 @@ We encourage all community members to join our [Discord Server](https://discord.
 
 Translations
 
-FIXME!!!!!
-
 - [Portuguese](Home-pt_BR)
 - [Spanish](Home-es)
