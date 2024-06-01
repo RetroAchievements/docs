@@ -67,7 +67,7 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 
 ### Moderators
 
-The team responsible to keep the this community a healthy place (at least for those who adhere to the [User's Code of Conduct](https://docs.retroachievements.org/Users-Code-of-Conduct) and agree with the [RetroAchievements Manifesto](https://docs.retroachievements.org/RetroAchievements-Manifesto)):
+The team responsible to keep the this community a healthy place (at least for those who adhere to the [User's Code of Conduct](/guidelines/users/code-of-conduct) and agree with the [RetroAchievements Manifesto](/guidelines/users/retroachievements-manifesto)):
 
 - [AuburnRDM](https://retroachievements.org/user/AuburnRDM)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
@@ -181,7 +181,7 @@ As the site slowly grew, so did the bandwidth costs, so in late 2016, Scott reac
 
 Mid 2017 the **[RetroAchievements Discord server](https://discord.gg/dq2E4hE)** was started and it made communication across the community much easier. Since then, many knowledgeable members (coders, web developers, etc.) joined the scene volunteering to contribute to the project.
 
-Up to this point all the achievement creation knowledge was scattered in several forum posts, making it very tough for a newbie to learn how to create achievements. Then in the late 2017 **[meleu](https://github.com/meleu)** started the [RADocs project](https://docs.retroachievements.org/) and thanks to contributions from many experienced achievement creators it is now a reasonably solid resource of information. Helping dozens of Jr. Developers (and even the experienced ones) to create content for our community.
+Up to this point all the achievement creation knowledge was scattered in several forum posts, making it very tough for a newbie to learn how to create achievements. Then in the late 2017 **[meleu](https://github.com/meleu)** started the RADocs project and thanks to contributions from many experienced achievement creators it is now a reasonably solid resource of information. Helping dozens of Jr. Developers (and even the experienced ones) to create content for our community.
 
 In the early 2018 Scott opened the source of the back-end/website, which was a turning point in the history of the development of the whole RetroAchievements project ([see us at github](https://github.com/RetroAchievements/)).
 

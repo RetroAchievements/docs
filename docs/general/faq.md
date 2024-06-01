@@ -23,7 +23,7 @@ White points, known as Retro Ratio points, are secondary points based on how har
 **Long answer:** The only correct answer to this question is "Whenever someone with the skills and desire to code support, does just that." - Everyone here is a volunteer so additional support and features happen when they happen. In many cases support for a console is dictated by the emulator(core) developer and is outside of Retroachievement's control.
 
 For more information on specific consoles you can check here:
-[System X When?](https://docs.retroachievements.org/System-X-wen/)
+[System X When?](/orphaned/system-x-wen)
 
 ### How do I request an achievement set?
 

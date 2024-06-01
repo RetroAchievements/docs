@@ -2,7 +2,7 @@
 
 **This is the RetroAchievements Manifesto and every member of this community should be aware of this.**
 
-Since the early days of RetroAchievements, this is what we have in our [FAQ](https://docs.retroachievements.org/FAQ/) as the answer for [What is RetroAchievements.org?](https://docs.retroachievements.org/FAQ/#what-is-retroachievementsorg)
+Since the early days of RetroAchievements, this is what we have in our [FAQ](/general/faq) as the answer for [What is RetroAchievements.org?](/general/faq#what-is-retroachievementsorg)
 
 > RetroAchievements.org is a zero profit community who collaborate and compete to earn custom-made achievements in classic games through emulation. Achievements are made by and for the community. (...)
 

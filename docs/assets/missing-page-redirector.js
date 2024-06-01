@@ -41,7 +41,6 @@ const redirects = {
   "/Achievement-Design/": "/developer-docs/achievement-design.html",
   "/Achievement-Scoring/": "/developer-docs/achievement-scoring.html",
   "/Difficulty-Scale-and-Balance/": "/developer-docs/difficulty-scale-and-balance.html",
-  "/Achievement-Development-Overview/": "/developer-docs/achievement-development-overview.html",
   "/ResetIf-Flag/": "/developer-docs/flags/resetif.html",
   "/ResetNextIf-Flag/": "/developer-docs/flags/resetnextif.html",
   "/PauseIf-Flag/": "/developer-docs/flags/pauseif.html",
@@ -84,6 +83,7 @@ const redirects = {
   "/Why-you-shouldn%27t-use-the-load-state-feature/": "/orphaned/load-state-feature.html",
   "/RALibretro/": "/orphaned/ralibretro.html",
   "/Free-Games/": "/orphaned/free-games.html",
+  "/System-X-wen/": "/orphaned/system-x-wen.html",
 };
 
 function handleRedirects() {

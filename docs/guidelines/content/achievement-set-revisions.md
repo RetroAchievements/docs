@@ -136,7 +136,7 @@ Any user wanting to change the game icon or badges of a set need to:
 - Ideally Both parties should work together to come to a satisfactory proposal.
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of this revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
-2. **Create** the game icon or new badges. For more info, see [Badge and Icon Creation](http://docs.retroachievements.org/Badge-and-Icon-Creation/).
+2. **Create** the game icon or new badges. For more info, see [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines).
 
 3. **Upload** the work on an image sharing site.
 

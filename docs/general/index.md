@@ -1,6 +1,6 @@
 # Index
 
-Welcome to the [RetroAchievements documentation](https://docs.retroachievements.org/)!
+Welcome to the RetroAchievements documentation!
 
 The docs are currently under heavy construction so be sure to check back often! Each section appears in the sidebar, but here is a brief explanation of the categories:
 

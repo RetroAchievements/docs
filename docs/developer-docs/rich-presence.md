@@ -291,7 +291,7 @@ If you make changes to the `XXX-Rich.txt` file, and reselect the menu option, it
 
 **NOTE**: The `XXX-Rich.txt` file is overwritten with the current server data each time the game is opened. As long as you still have the file open in an editor, you can always save your changes over the updated file after reopening the game.
 
-Rich Presence files utilize Condition Syntax for [Memory Sizes](/developer-docs/condition-syntax#memory-sizes), [Prefixes](/developer-docs/condition-syntax#prefixes) and [Logical Flags](/developer-docs/condition-syntax#logical-flags). These are also represented if you copy and paste achievement logic from the [Achievement Editor](https://docs.retroachievements.org/Achievement-Development-Overview/#achievement-editor).
+Rich Presence files utilize Condition Syntax for [Memory Sizes](/developer-docs/condition-syntax#memory-sizes), [Prefixes](/developer-docs/condition-syntax#prefixes) and [Logical Flags](/developer-docs/condition-syntax#logical-flags). These are also represented if you copy and paste achievement logic from the [Achievement Editor](/developer-docs/achievement-development-overview#achievement-editor).
 
 ### Parse Errors
 
