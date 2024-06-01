@@ -126,7 +126,7 @@ export default defineConfig({
             },
             {
               text: "Test Page",
-              link: "/general/testpage",
+              link: "/general/test",
             },
           ],
         },
