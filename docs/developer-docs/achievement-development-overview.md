@@ -91,8 +91,8 @@ There are several tools and options available to a developer. Knowing how to pro
 ### Other Toolkit Features
 
 - Hit Counts
-  - Using with Reset If
-  - Using with Pause If
+  - Using with `ResetIf`
+  - Using with `PauseIf`
 - Alt Groups
 
 ## Protections
@@ -119,11 +119,11 @@ There are several tools and options available to a developer. Knowing how to pro
 - Circumvent the Problem of a Counter Incrementing Twice in the Same Frame
   - `note: need to add something about how the toolkit still uses hex even if the value is in BCD`
 - Various types of chains
-- When to use Reset If or Pause If
+- When to use `ResetIf` or `PauseIf`
 - When to use Delta or Prior
 - Using BitCount for collectables
-- Using Add Source with `Mem / Mem` comparisons
-- Creating a Timer with Reset If hits based on the speed of the game
+- Using `AddSource` with `Mem / Mem` comparisons
+- Creating a Timer with `ResetIf` hits based on the speed of the game
 - Using `bit0` to include or exclude odd-numbered values
 
 ## Lesser-Known Features
@@ -139,7 +139,7 @@ There are several tools and options available to a developer. Knowing how to pro
 
 ## Things to Avoid and Why
 
-- Redundant Reset Ifs
+- Redundant `ResetIf`s
 - Single-Condition achievements
 - Text-Based addresses
 

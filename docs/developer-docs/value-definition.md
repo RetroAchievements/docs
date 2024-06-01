@@ -6,9 +6,9 @@ A value is calculated by evaluating one or more [memory reads](/developer-docs/c
 
 **NOTE**: Value calculations are performed using 32-bit signed integers. As such, the maximum value is 2147483647 and the minimum value is -2147483648. Values above the maximum will wrap around and register as very negative numbers.
 
-### Value from Measured
+### Value from `Measured`
 
-Starting with the 0.77 DLL (and RetroArch 1.8.2), you can use the [Measured](/developer-docs/flags/measured) flag to generate a Value. This supports all logic supported by the achievement editor, but every condition must have a flag that somehow influences the Measured value (i.e. [AddSource](/developer-docs/flags/addsource), [AddAddress](/developer-docs/flags/addaddress)). Note that the Measured condition cannot have a multiplier directly on it. If the final clause needs to be multiplied, use an additional AddSource and Measure 0.
+Starting with the 0.77 DLL (and RetroArch 1.8.2), you can use the [`Measured`](/developer-docs/flags/measured) flag to generate a Value. This supports all logic supported by the achievement editor, but every condition must have a flag that somehow influences the `Measured` value (i.e. [AddSource](/developer-docs/flags/addsource), [AddAddress](/developer-docs/flags/addaddress)). Note that the `Measured` condition cannot have a multiplier directly on it. If the final clause needs to be multiplied, use an additional AddSource and Measure 0.
 
 **VAL**: `A:0xhfe24_A:0xhfe25*60_A:0xhfe22*3600_M:0`
 
@@ -18,14 +18,14 @@ The example provided above reads:
 AddSource 8-bit 0xfe24
 AddSource 8-bit 0xfe25 * Value 60
 AddSource 8-bit 0xfe22 * Value 3600
-Measured  Value 0
+`Measured`  Value 0
 ```
 
 The addresses represent frames, seconds, and minutes respectively, and are individually multiplied and then added together to create a total number of frames that can be submitted to the database.
 
 ### Value from HitCount
 
-Sometimes you want to count the number of times something happens and submit that as the value. You can also do this using Measured syntax. Just add a comparison to your final condition. Do not include an explicit Hit target, or that will be the maximum value that can be submitted.
+Sometimes you want to count the number of times something happens and submit that as the value. You can also do this using `Measured` syntax. Just add a comparison to your final condition. Do not include an explicit Hit target, or that will be the maximum value that can be submitted.
 
 The [HitCount](/developer-docs/hit-counts) on the condition will automatically be set to 0 when the leaderboard starts, and the HitCount will be submitted as the Value when the leaderboard submit trigger activates. You can use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif) within the Value conditions to further control the behavior.
 
@@ -47,7 +47,7 @@ Would submit the number of times the byte at $1234 changed to something other th
 
 **VAL**: `0xhfe24*1_0xhfe25*60_0xhfe22*3600`
 
-Before the introduction of the Measured flag, Values were written using their own syntax. Some people still prefer this syntax as it's generally easier to do by hand. A legacy value is the sum of a collection of memory values multiplied by modifiers.
+Before the introduction of the `Measured` flag, Values were written using their own syntax. Some people still prefer this syntax as it's generally easier to do by hand. A legacy value is the sum of a collection of memory values multiplied by modifiers.
 
 `address*modifier` (address times modifier)
 

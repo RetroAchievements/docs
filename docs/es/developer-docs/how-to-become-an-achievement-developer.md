@@ -19,8 +19,8 @@ Cualquier aspirante a desarrollador tiene que demostrar seguir y entender los si
 - [Notaciones Hexadecimales](Memory-Inspector-Overview-es#decimal-binary-and-hexadecimal-notations)
 - [Valores Delta](Delta-Values-es)
 - [Hit counts](Hit-Counts-es)
-- [Pause If](PauseIf-Flag-es)
-- [Reset If](ResetIf-Flag-es)
+- [`PauseIf`](PauseIf-Flag-es)
+- [`ResetIf`](ResetIf-Flag-es)
 - [Alt Groups](Alt-Groups-es)
 - Tamaño de la Memoria: [8-bit](Memory-Inspector-Overview-es#8-bit-mode) y [single bit](Memory-Inspector-Overview-es#single-bits)
 - Comparadores en la logica de los Logros mas allá de `=`, por ejemplo `>`, `<`, `!=`

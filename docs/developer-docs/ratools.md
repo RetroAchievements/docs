@@ -17,7 +17,7 @@ The user [Etron](https://retroachievements.org/user/Etron) writes an ongoing ser
 
 - [**Getting Started**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/00_Getting_Started#tutorial-0---getting-started): Introduction to using RATools
 - [**Memory**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/01_Memory#tutorial-1---memory-basics): Examples of variables and functions - Example Game: Sonic the Hedgehog
-- [**Add Hits**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/02_Add_Hits#tutorial-2---add-hits): Examples of counting with tally - Example Game: Streets of Rage 2
+- [**`AddHits`**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/02_Add_Hits#tutorial-2---add-hits): Examples of counting with tally - Example Game: Streets of Rage 2
 - [**Bitflags**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/03_Bitflags#tutorial-3--bit-flags): Examples of counting bit flags with For Loops - Example Game: Pokémon Red | Blue
 - [**Arithmetic Operations**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/04_Arithmetic_Operations#tutorial-4--arithmetic-operations): Examples of using arithmetic functions to convert values from Binary-Coded Decimal (BCD) - Example Game: Pitfall!
 - [**Pointers**](https://github.com/Etron-RA/RetroAchievements/tree/main/Tutorials/05_Pointers#tutorial-5--pointers): Examples of pointer use and data structures - Example Game: Spider-Man

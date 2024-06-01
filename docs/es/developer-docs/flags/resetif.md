@@ -8,7 +8,7 @@ Puedes encontrar muchos ejemplos de `ResetIf` en la [pagina de Ejemplos Reales](
 
 ## `ResetIf` con hit counts
 
-Una condicion `Reset If` con un contador de golpes (hit count) solo se va a cumplir cuando el numero de hits necesarios se cumpla.
+Una condicion `ResetIf` con un contador de golpes (hit count) solo se va a cumplir cuando el numero de hits necesarios se cumpla.
 
 **Nota**: Si otra condicion `ResetIf` se cumple, todas las condiciones, incluido el `ResetIf` con su hit count se van a reinisiar sus contadores de golpes (hit count) a 0.
 

@@ -2,13 +2,13 @@
 
 El `SubSource` puede ser seleccionado en la columba de Bandera (Flag) en el Editor de Logros (Achievement Editor)
 
-Funciona similarmente a `Add Source`, pero una bandera `Sub Source` convierte el valor en memoria en un valor negativo.
+Funciona similarmente a `AddSource`, pero una bandera `SubSource` convierte el valor en memoria en un valor negativo.
 
-**Nota 1**: `Sub Source` **NO** es una bandera de subtraccion. Solo convierte el valor en negativo.
+**Nota 1**: `SubSource` **NO** es una bandera de subtraccion. Solo convierte el valor en negativo.
 
-**Nota 2**: La ultima linea (sin el `Add Source` o `Sub Source`) aun se **agrega** a la comparativa final (Es una condicion que se tiene que cumplir).
+**Nota 2**: La ultima linea (sin el `AddSource` o `SubSource`) aun se **agrega** a la comparativa final (Es una condicion que se tiene que cumplir).
 
-Utlizando este [ejemplo de uso de un `AddSource`](AddSource-Flag-es), si lo remplazamos con un `Sub Source` y con los mismos valores (`valor(0x8010) = 1` and `valor(0x8020) = 2`), la comparacion seria `-1 + 2 > 0`, o `1 > 0`.
+Utlizando este [ejemplo de uso de un `AddSource`](AddSource-Flag-es), si lo remplazamos con un `SubSource` y con los mismos valores (`valor(0x8010) = 1` and `valor(0x8020) = 2`), la comparacion seria `-1 + 2 > 0`, o `1 > 0`.
 
 ## Utilizando SubSource para Contar Incrementos Especificos
 
@@ -18,7 +18,7 @@ Utlizando este [ejemplo de uso de un `AddSource`](AddSource-Flag-es), si lo remp
 
 ## Buscando un resultado negativo
 
-Si el resultado en tu operacion con Sub Source es un numero negativo, es posible buscarlo. A si es como se representan los numeros negativos:
+Si el resultado en tu operacion con `SubSource` es un numero negativo, es posible buscarlo. A si es como se representan los numeros negativos:
 
 - `-1` es `0xFFFFFFFF`
 - `-2` es `0xFFFFFFFE`
@@ -31,18 +31,18 @@ Si el resultado en tu operacion con Sub Source es un numero negativo, es posible
 
 A si que, vamos a decir que quieres buscar si el `valor(0x8010) = 1` menos el `valor(0x8020) = 2` es igual a `-1`. Asi es como le harias:
 
-![Sub Source negative numbers](https://i.imgur.com/MbRcoIN.png)
+![`SubSource` negative numbers](https://i.imgur.com/MbRcoIN.png)
 
 Esto significa `-2 + 1 = -1`, que es verdad.
 
-**Avanzado**: tambien es posible utilizar directamente numeros negativos en la columna de la izquierda con tus operaciones Sub/Add Source. Para hacerlo, recuerda cambiar el Tipo (Type) de `Mem` a `Value`, y utilizar los valores explicados arriba, como `0xFFFFFFE5` para `-27`, y `0xFFFFFFE3` para `-29`, por ejemplo:
+**Avanzado**: tambien es posible utilizar directamente numeros negativos en la columna de la izquierda con tus operaciones Sub/`AddSource`. Para hacerlo, recuerda cambiar el Tipo (Type) de `Mem` a `Value`, y utilizar los valores explicados arriba, como `0xFFFFFFE5` para `-27`, y `0xFFFFFFE3` para `-29`, por ejemplo:
 
-![Sub Source negative numbers 2](https://i.imgur.com/JKOnNal.png)
+![`SubSource` negative numbers 2](https://i.imgur.com/JKOnNal.png)
 
 Esto significa `-2 + (-27) = -29`, que es `-2 - 27 = -29`, el cual es cierto.
 
-De todos modos ten cuidado, si utilizas numeros negativos en una bandera con Sub Source, va a resultar en un doble negativo, convirtiendo los numeros de nuevo a positivos. Hecha un vistazo:
+De todos modos ten cuidado, si utilizas numeros negativos en una bandera con `SubSource`, va a resultar en un doble negativo, convirtiendo los numeros de nuevo a positivos. Hecha un vistazo:
 
-![Sub Source negative numbers 3](https://i.imgur.com/KFjS0c7.png)
+![`SubSource` negative numbers 3](https://i.imgur.com/KFjS0c7.png)
 
 Esto significa `- (-2) + (-27) = -29`, que es `2 - 27 = -29`, que es `-25 = -29`, el cual es falso.

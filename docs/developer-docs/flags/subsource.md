@@ -4,7 +4,7 @@ _**Note**: most likely this technique is not needed for simple games. So, it's n
 
 The `SubSource` can be chosen in the Flag column of the Achievement Editor
 
-Works similarly to [`Add Source`](/developer-docs/flags/addsource), but the `Sub Source` flag subtracts the calculated value from the accumulator.
+Works similarly to [`AddSource`](/developer-docs/flags/addsource), but the `SubSource` flag subtracts the calculated value from the accumulator.
 
 Because it subtracts from the accumulator, `SubSource A, B` is actually `B - A`.
 
@@ -61,7 +61,7 @@ This evaluates `-1 + 2 = 1`, which is true.
 
 #### Subtracting negative constants
 
-It is also possible to use straight negative numbers in the left section of your Sub/Add Source operations. To do so, remember to change the Type from `Mem` to `Value`, and use the values as explained above, such as `0xFFFFFFE5` for `-27`, and `0xFFFFFFE3` for `-29`, for example:
+It is also possible to use straight negative numbers in the left section of your Sub/`AddSource` operations. To do so, remember to change the Type from `Mem` to `Value`, and use the values as explained above, such as `0xFFFFFFE5` for `-27`, and `0xFFFFFFE3` for `-29`, for example:
 
 | ID  | Flag      | Type  | Size   | Memory     | Cmp | Type  | Size | Mem/Val    | Hits  |
 | --- | --------- | ----- | ------ | ---------- | --- | ----- | ---- | ---------- | ----- |

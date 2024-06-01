@@ -50,6 +50,6 @@ Despite being a very unlikely possibility, we should treat this case too. So we'
 
 ![](https://i.imgur.com/6wePK8N.png)
 
-It is the same as before, with the only changes being lines 3 and 4, which represents an extra `SubSource + Add Hits` to check if `0xCANDIES - Delta 0xCANDIES = -98`, only to take care of this very minor exception just mentioned.
+It is the same as before, with the only changes being lines 3 and 4, which represents an extra `SubSource + `AddHits``to check if`0xCANDIES - Delta 0xCANDIES = -98`, only to take care of this very minor exception just mentioned.
 
 And now it is solved!

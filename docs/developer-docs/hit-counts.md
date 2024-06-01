@@ -10,7 +10,7 @@ If you set a target hit count, like 5, it means the condition must be true for a
 
 **PLEASE NOTE**: if a condition has a non-zero hit count, and reaches the number required, this condition is no longer tested. It remains true, **UNLESS** you have a [`ResetIf`](/developer-docs/flags/resetif), which we will discuss below.
 
-Conditions with [`Reset If`](/developer-docs/flags/resetif) and [`PauseIf`](/developer-docs/flags/pauseif) flags can also have hits. Follow the links for details.
+Conditions with [`ResetIf`](/developer-docs/flags/resetif) and [`PauseIf`](/developer-docs/flags/pauseif) flags can also have hits. Follow the links for details.
 
 In the [Real Examples](/developer-docs/real-examples) section there are two examples good examples:
 

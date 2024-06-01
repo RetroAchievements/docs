@@ -1,4 +1,4 @@
-# Creating a Timer with Reset If Hits based on the Speed of the Game
+# Creating a Timer with `ResetIf` Hits based on the Speed of the Game
 
 In this example you will learn how to create an ingame Timer based on the framerate speed of the game.
 

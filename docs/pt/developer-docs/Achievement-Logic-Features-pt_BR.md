@@ -26,7 +26,7 @@ Zero é o valor padrão. Isso significa que a condição deve ser verdadeira qua
 
 Se você definir manualmente uma contagem (hit), por exemplo 1, significa que a condição deve ser verdadeira por pelo menos 1 frame e, uma vez que a contagem de _hits_ seja atendida, ela não precisa ser atendida novamente em outro momento.
 
-**ATENÇÃO**: se uma condição tiver uma contagem de hits e atingir o número necessário, esta condição não é mais testada. Ela é verdadeira e permanece verdadeira, **A MENOS** que você tenha um `Reset If`, o qual discutiremos abaixo.
+**ATENÇÃO**: se uma condição tiver uma contagem de hits e atingir o número necessário, esta condição não é mais testada. Ela é verdadeira e permanece verdadeira, **A MENOS** que você tenha um `ResetIf`, o qual discutiremos abaixo.
 
 Você pode ver como isso funciona no [Exemplos Reais](Real-Examples-pt_BR)
 
@@ -52,45 +52,45 @@ Isso irá zerar a contagem de hits para todas condições em que você definiu u
 
 Você pode ver como isso funciona no [Real Examples](Real-Examples-pt_BR)
 
-### `Add Source`
+### `AddSource`
 
-Quando uma condição tem a flag `Add Source` o valor daquele endereço de memória é adicionado ao valor do endereço na condição logo abaixo, e a comparação é feita na condição abaixo daquela com o `Add Source`. Isso pode soar um pouco confuso, mas o exemplo a seguir vai esclarecer como funciona:
+Quando uma condição tem a flag `AddSource` o valor daquele endereço de memória é adicionado ao valor do endereço na condição logo abaixo, e a comparação é feita na condição abaixo daquela com o `AddSource`. Isso pode soar um pouco confuso, mas o exemplo a seguir vai esclarecer como funciona:
 
-![Add Source Example](https://user-images.githubusercontent.com/8508804/42702176-169aaf44-869f-11e8-979c-487a040e0145.png)
+![`AddSource` Example](https://user-images.githubusercontent.com/8508804/42702176-169aaf44-869f-11e8-979c-487a040e0145.png)
 
 Neste exemplo o valor em `0x8010` será adicionado ao valor em `0x8020` e a comparação é se esta soma é maior ou igual a zero.
 
 Se o valor em `0x8010` é `1` e o valor em `0x8020` é `2`, a comparação será `1 + 2 > 0`, ou `3 > 0`.
 
-**Nota**: todos os campos de comparação na condição com a flag `Add Source` são ignorados.
+**Nota**: todos os campos de comparação na condição com a flag `AddSource` são ignorados.
 
 Tentando resumir esta explicação com uma imagem:
 
-![Add Source Explained](https://user-images.githubusercontent.com/8508804/42702180-1712bca0-869f-11e8-9949-11021fa891bb.png)
+![`AddSource` Explained](https://user-images.githubusercontent.com/8508804/42702180-1712bca0-869f-11e8-9949-11021fa891bb.png)
 
-**Nota**: você pode usar `Add Source` para somar mais endereços, como no exempo abaixo:
+**Nota**: você pode usar `AddSource` para somar mais endereços, como no exempo abaixo:
 
 ![addsource1](https://user-images.githubusercontent.com/8508804/42702178-16c6d97a-869f-11e8-9c0d-84ef42ec4867.png)
 
-### `Sub Source`
+### `SubSource`
 
-Funciona muito semelhante ao `Add Source`, porém o `Sub Source` faz o valor naquele endereço de memória ser negativo.
+Funciona muito semelhante ao `AddSource`, porém o `SubSource` faz o valor naquele endereço de memória ser negativo.
 
-**Nota 1**: `Sub Source` **NÃO** é um flag de subtração. Ele apenas torna o valor negativo.
+**Nota 1**: `SubSource` **NÃO** é um flag de subtração. Ele apenas torna o valor negativo.
 
-**Nota 2**: A linha final (sem `Add Source` ou `Sub Source`) ainda é **adicionada** para a comparação final.
+**Nota 2**: A linha final (sem `AddSource` ou `SubSource`) ainda é **adicionada** para a comparação final.
 
-Usando aquele [exemplo de uso de `Add Source` example](#add-source), se nós o substituíssemos por `Sub Source` e com os mesmos valores (`valor(0x8010) = 1` e `valor(0x8020) = 2`), a comparação seria `-1 + 2 > 0`, or `1 > 0`.
+Usando aquele [exemplo de uso de `AddSource` example](#add-source), se nós o substituíssemos por `SubSource` e com os mesmos valores (`valor(0x8010) = 1` e `valor(0x8020) = 2`), a comparação seria `-1 + 2 > 0`, or `1 > 0`.
 
-### `Add Hits`
+### `AddHits`
 
-Também funciona de maneira de similar ao `Add Source`, porém relacionado aos hitcounts.
+Também funciona de maneira de similar ao `AddSource`, porém relacionado aos hitcounts.
 
-O `Add Hits` adiciona o hitcount da condição atual à próxima condição. O hitcount total a ser checado será aquele definido na condição logo após a última condição com `Add Hits`. Se a condição logo após o último `Add Hits` não tiver um hitcount definido, todas as condições com `Add Hits` serão ignoradas.
+O `AddHits` adiciona o hitcount da condição atual à próxima condição. O hitcount total a ser checado será aquele definido na condição logo após a última condição com `AddHits`. Se a condição logo após o último `AddHits` não tiver um hitcount definido, todas as condições com `AddHits` serão ignoradas.
 
-Diferentemente do `Add Source`, todos os campos são usados numa condição `Add Hits`, inclusive os campos de comparação. Se uma condição é verdadeira, o hitcount para esta condição é incrementada (e parará de incrementar se assim que o número de hitcount definido for atingido).
+Diferentemente do `AddSource`, todos os campos são usados numa condição `AddHits`, inclusive os campos de comparação. Se uma condição é verdadeira, o hitcount para esta condição é incrementada (e parará de incrementar se assim que o número de hitcount definido for atingido).
 
-As condições com `Add Hits` não precisam ser verdadeiras para a conquista disparar. Porém primeira condição após o último `Add Hits`, sim, precisa ser verdadeira.
+As condições com `AddHits` não precisam ser verdadeiras para a conquista disparar. Porém primeira condição após o último `AddHits`, sim, precisa ser verdadeira.
 
 ## Groups
 

@@ -1,6 +1,6 @@
-# Using Add Source and Deltas for Collectibles and Similar Achievements
+# Using `AddSource` and Deltas for Collectibles and Similar Achievements
 
-In this example is a simple way one can utilize the Add Source flag in their achievement logic.
+In this example is a simple way one can utilize the `AddSource` flag in their achievement logic.
 
 We'll look at an achievement from [Suikoden (PlayStation)](https://retroachievements.org/game/11255) entitled [Treasure Hunter - Dragon Knights' Domain](http://retroachievements.org/Achievement/80100):
 
@@ -16,14 +16,14 @@ This particular achievement only requires treasures from Dragon Knights' Fortres
 
 **Logic Breakdown**
 
-- There are two groups of ten conditions with the main differences being the Delta type and the total. This is to ensure that the player goes from nine of these treasures obtained to having all ten of these treasures obtained. _Note: Remember to use hexadecimal for Add Source totals!_
+- There are two groups of ten conditions with the main differences being the Delta type and the total. This is to ensure that the player goes from nine of these treasures obtained to having all ten of these treasures obtained. _Note: Remember to use hexadecimal for `AddSource` totals!_
 - Since we're using bitflags here, the totals for individual conditions will only ever be 0x00 or 0x01. Obviously, we want them all to be 0x01 for the trigger, but we don't want someone to get the achievement simply by loading a save with all ten treasures already found.
 - The trigger is the first frame that the player goes from nine to ten treasures obtained. This is to help prevent the achievement from triggering when it's not supposed to.
-- The Measured flag is on the last condition so the player can check how far they are from their goal. If they have eight out of ten treasures, the achievement will show that it is 80% complete in the overlay (RAEmus) or achievement menu (RetroArch).
+- The `Measured` flag is on the last condition so the player can check how far they are from their goal. If they have eight out of ten treasures, the achievement will show that it is 80% complete in the overlay (RAEmus) or achievement menu (RetroArch).
 
 This method is mostly handy for when the totals between the Delta-type and Mem-type only have a difference of 0x01, but it can be used in various types of achievements: collectibles that are only obtainable one-at-a-time, map completion (such as dungeon-crawlers with viewable maps that get revealed as you enter new areas), learnable skills, bestiaries, completing a certain number of side missions, and many others.
 
-If you run into a situation where more than one bitflag in an Add Source chain toggles at the same time, you can still utilize this template. However, you'll want to clone the Delta conditions and make it so both totals create a range. Still using the above achievement as an example, the existing total could be changed to `<= 0x09` and the total for the second group could be `>= 0x05`. This would make it so the achievement would trigger if the total goes from 5-9 treasures to 10 treasures.
+If you run into a situation where more than one bitflag in an `AddSource` chain toggles at the same time, you can still utilize this template. However, you'll want to clone the Delta conditions and make it so both totals create a range. Still using the above achievement as an example, the existing total could be changed to `<= 0x09` and the total for the second group could be `>= 0x05`. This would make it so the achievement would trigger if the total goes from 5-9 treasures to 10 treasures.
 
 ---
 

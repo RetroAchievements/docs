@@ -7,7 +7,7 @@ Si agregas un contador de golpes (hit count), por ejemplo 5, significa que la co
 
 **PORFAVOR, NOTA**: si una condicion tiene cero hit count, y llega al numero requirido, esta condicion ya no esta siendo buscada. Sigue permaneciendo como verdadera, **ALMENOS** que tengas un [`ResetIf`](ResetIf-Flag), que discutiremos mas abajo.
 
-Condiciones con [`Reset If`](ResetIf-Flag-es) y [`PauseIf`](PauseIf-Flag-es) tambien pueden tener hits. Sigue los links para mas informacion.
+Condiciones con [`ResetIf`](ResetIf-Flag-es) y [`PauseIf`](PauseIf-Flag-es) tambien pueden tener hits. Sigue los links para mas informacion.
 
 En la seccion de [Ejemplos de Verdad](Real-Examples-es) hay dos buenos ejemplos:
 
