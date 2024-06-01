@@ -124,6 +124,10 @@ export default defineConfig({
               text: "About Us",
               link: "/general/about-us",
             },
+            {
+              text: "Test Page",
+              link: "/general/testpage",
+            },
           ],
         },
         {
