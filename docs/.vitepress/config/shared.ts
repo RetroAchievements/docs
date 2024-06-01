@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+// TODO search configs
 
 export const shared = defineConfig({
   // Metadata

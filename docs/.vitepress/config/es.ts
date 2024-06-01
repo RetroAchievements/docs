@@ -1,27 +1,42 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
 
-export const en = defineConfig({
-  lang: "en",
-  description: "Access comprehensive guides, tutorials, and developer resources for RetroAchievements. Learn how to enhance your retro gaming experience with custom achievements.",
+export const es = defineConfig({
+  lang: "es",
+  description: "Acceda a guías completas, tutoriales y recursos para desarrolladores en RetroAchievements. Aprenda cómo mejorar su experiencia de juego retro con logros personalizados.",
 
   themeConfig: {
     nav: nav(),
 
     sidebar: {
-      "/general/": sidebarGeneral(),
-      "/guidelines/": sidebarGuidelines(),
-      "/developer-docs": sidebarDeveloperDocs(),
+      "/es/general/": sidebarGeneral(),
+      "/es/guidelines/": sidebarGuidelines(),
+      "/es/developer-docs": sidebarDeveloperDocs(),
     },
 
     editLink: {
       pattern: "https://github.com/RetroAchievements/docs-vitepress/edit/main/docs/:path",
-      text: "Edit this page",
+      text: "Editar esta página",
     },
 
     footer: {
-      message: "Released under the GPL-3 License. There are no copyright-protected ROMs available for download on RetroAchievements.",
-      copyright: `Copyright © 2012–${new Date().getFullYear()} RetroAchievements. All rights reserved.`,
+      message: "Publicado bajo la Licencia GPL-3. No hay ROMs protegidas por derechos de autor disponibles para descargar en RetroAchievements.",
+      copyright: `Copyright © 2012–${new Date().getFullYear()} RetroAchievements. Todos los derechos reservados.`,
     },
+
+    lastUpdated: {
+      text: "Actualizado en",
+      formatOptions: {
+        dateStyle: "short",
+        timeStyle: "medium",
+      },
+    },
+
+    langMenuLabel: "Cambiar Idioma",
+    returnToTopLabel: "Volver al Inicio",
+    sidebarMenuLabel: "Menú Lateral",
+    darkModeSwitchLabel: "Modo Oscuro",
+    lightModeSwitchTitle: "Cambiar a Modo Claro",
+    darkModeSwitchTitle: "Cambiar a Modo Oscuro",
   },
 });
 
@@ -29,15 +44,15 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: "General",
-      link: "/general/index",
+      link: "/es/general/index",
     },
     {
-      text: "Guidelines",
-      link: "/guidelines/users/retroachievements-manifesto",
+      text: "Directrices",
+      link: "/es/guidelines/users/retroachievements-manifesto",
     },
     {
-      text: "Achievement Development",
-      link: "/developer-docs/index",
+      text: "Desarrollo de Logros",
+      link: "/es/developer-docs/index",
     },
   ];
 }
@@ -49,65 +64,65 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         {
-          text: "Index",
-          link: "/general/index",
+          text: "Índice",
+          link: "/es/general/index",
         },
         {
-          text: "FAQ",
-          link: "/general/faq",
+          text: "Preguntas Frecuentes",
+          link: "/es/general/faq",
         },
         {
-          text: "Setup Guide",
-          link: "/general/setup-guide",
+          text: "Guía de Configuración",
+          link: "/es/general/setup-guide",
         },
         {
-          text: "Emulator Support and Issues",
-          link: "/general/emulator-support-and-issues",
+          text: "Soporte e Incidentes del Emulador",
+          link: "/es/general/emulator-support-and-issues",
         },
         {
-          text: "Ways to Contribute",
+          text: "Maneras de Contribuir",
           link: "/general/ways-to-contribute",
         },
         {
-          text: "RABot, the RA Discord Robot",
+          text: "RABot, el Robot de Discord de RA",
           link: "/general/rabot",
         },
         {
-          text: "Events",
+          text: "Eventos",
           link: "/general/events",
         },
         {
-          text: "Overlay Themes",
+          text: "Temas de Superposición",
           link: "/general/overlay-themes",
         },
         {
-          text: "Useful Links",
+          text: "Enlaces Útiles",
           link: "/general/useful-links",
         },
         {
-          text: "Contributing to the Docs",
+          text: "Contribuir a la Documentación",
           link: "/general/contributing-to-the-docs",
         },
         {
-          text: "About Us",
+          text: "Sobre Nosotros",
           link: "/general/about-us",
         },
       ],
     },
     {
-      text: "Tutorials",
+      text: "Tutoriales",
       collapsed: false,
       items: [
         {
-          text: "How to configure OBS Studio to see the popups",
+          text: "Cómo configurar OBS Studio para ver las ventanas emergentes",
           link: "/general/tutorials/how-to-configure-obs-studio",
         },
         {
-          text: "Multi-Disc Games",
+          text: "Juegos de Múltiples Discos",
           link: "/general/tutorials/multi-disc-games",
         },
         {
-          text: "Working with DLC for the PlayStation Portable",
+          text: "Trabajando con DLC para PlayStation Portable",
           link: "/general/tutorials/working-with-dlc-for-the-psp",
         },
       ],
@@ -118,103 +133,103 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
 function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "User Guidelines",
+      text: "Directrices para Usuarios",
       collapsed: false,
       items: [
         {
-          text: "RetroAchievements Manifesto",
+          text: "Manifiesto de RetroAchievements",
           link: "/guidelines/users/retroachievements-manifesto",
         },
         {
-          text: "Users Code of Conduct",
+          text: "Código de Conducta de los Usuarios",
           link: "/guidelines/users/code-of-conduct",
         },
         {
-          text: "Global Leaderboard and Achievement Hunting Rules",
+          text: "Reglas de la Tabla de Clasificación Global y Caza de Logros",
           link: "/guidelines/users/global-leaderboard-and-achievement-hunting-rules",
         },
       ],
     },
     {
-      text: "Developer Guidelines",
+      text: "Directrices para Desarrolladores",
       collapsed: false,
       items: [
         {
-          text: "Developers Code of Conduct",
+          text: "Código de Conducta de los Desarrolladores",
           link: "/guidelines/developers/code-of-conduct",
         },
         {
-          text: "Creating Entries",
+          text: "Creación de Entradas",
           link: "/guidelines/developers/creating-entries",
         },
         {
-          text: "Claims System",
+          text: "Sistema de Reclamaciones",
           link: "/guidelines/developers/claims-system",
         },
         {
-          text: "Handling Tickets",
+          text: "Manejo de Tickets",
           link: "/guidelines/developers/handling-tickets",
         },
       ],
     },
     {
-      text: "Content Guidelines",
+      text: "Directrices de Contenido",
       collapsed: false,
       items: [
         {
-          text: "Achievement Set Requirements",
+          text: "Requisitos del Conjunto de Logros",
           link: "/guidelines/content/achievement-set-requirements",
         },
         {
-          text: "Unwelcome Concepts",
+          text: "Conceptos No Deseados",
           link: "/guidelines/content/unwelcome-concepts",
         },
         {
-          text: "Progression and Win Condition Guidelines",
+          text: "Directrices de Progresión y Condición de Victoria",
           link: "/guidelines/content/progression-and-win-condition-guidelines",
         },
         {
-          text: "Set Plagiarism",
+          text: "Plagio de Conjuntos",
           link: "/guidelines/content/set-plagiarism",
         },
         {
-          text: "Naming Conventions",
+          text: "Convenciones de Nombres",
           link: "/guidelines/content/naming-conventions",
         },
         {
-          text: "Writing Policy",
+          text: "Política de Escritura",
           link: "/guidelines/content/writing-policy",
         },
         {
-          text: "Badge and Icon Guidelines",
+          text: "Directrices para Insignias e Íconos",
           link: "/guidelines/content/badge-and-icon-guidelines",
         },
         {
-          text: "Code Notes",
+          text: "Notas de Código",
           link: "/guidelines/content/code-notes",
         },
         {
-          text: "Editing Leaderboards",
+          text: "Editando Tablas de Clasificación",
           link: "/guidelines/content/editing-leaderboards",
         },
         {
-          text: "Achievement Set Revisions",
+          text: "Revisiones del Conjunto de Logros",
           link: "/guidelines/content/achievement-set-revisions",
         },
         {
-          text: "Achievements for ROM Hacks",
+          text: "Logros para ROM Hacks",
           link: "/guidelines/content/achievements-for-rom-hacks",
         },
         {
-          text: "Subsets",
+          text: "Subconjuntos",
           link: "/guidelines/content/subsets",
         },
         {
-          text: "Working with the Right ROM",
+          text: "Trabajando con la ROM Correcta",
           link: "/guidelines/content/working-with-the-right-rom",
         },
         {
-          text: "Hash Labels",
+          text: "Etiquetas de Hash",
           link: "/guidelines/content/hash-labels",
         },
       ],
@@ -225,75 +240,75 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
 function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Development",
+      text: "Desarrollo",
       collapsed: false,
       items: [
         {
-          text: "Index",
+          text: "Índice",
           link: "/developer-docs/index",
         },
         {
-          text: "How to Become an Achievement Developer",
+          text: "Cómo Convertirse en un Desarrollador de Logros",
           link: "/developer-docs/how-to-become-an-achievement-developer",
         },
         {
-          text: "Getting Started as an Achievement Developer",
+          text: "Comenzando como Desarrollador de Logros",
           link: "/developer-docs/getting-started-as-an-achievement-developer",
         },
         {
-          text: "Game Identification",
+          text: "Identificación del Juego",
           link: "/developer-docs/game-identification",
         },
         {
-          text: "Achievement Design",
+          text: "Diseño de Logros",
           link: "/developer-docs/achievement-design",
         },
         {
-          text: "Achievement Scoring",
+          text: "Puntuación de Logros",
           link: "/developer-docs/achievement-scoring",
         },
         {
-          text: "Difficulty Scale and Balance",
+          text: "Escala de Dificultad y Equilibrio",
           link: "/developer-docs/difficulty-scale-and-balance",
         },
         {
-          text: "Progression and Win Condition Typing",
+          text: "Directrices de Progresión y Condición de Victoria",
           link: "/guidelines/content/progression-and-win-condition-guidelines",
         },
         {
-          text: "Badge and Icon Creation",
+          text: "Creación de Insignias e Íconos",
           link: "/developer-docs/badge-and-icon-creation",
         },
         {
-          text: "Achievement Development Overview",
+          text: "Descripción General del Desarrollo de Logros",
           link: "/developer-docs/achievement-development-overview",
         },
         {
-          text: "Minimum Required Versions for Logic Features",
+          text: "Versiones Mínimas Requeridas para Funciones de Lógica",
           link: "/developer-docs/minimum-required-versions-for-logic-features",
         },
         {
-          text: "Memory Inspector",
+          text: "Inspector de Memoria",
           link: "/developer-docs/memory-inspector",
         },
         {
-          text: "Real Examples",
+          text: "Ejemplos Reales",
           link: "/developer-docs/real-examples",
         },
         {
-          text: "Set Development Roadmap",
+          text: "Hoja de Ruta del Desarrollo del Conjunto",
           link: "/developer-docs/set-development-roadmap",
         },
         {
-          text: "Achievement Templates",
+          text: "Plantillas de Logros",
           link: "/developer-docs/achievement-templates",
         },
         {
-          text: "Tips and Tricks",
+          text: "Consejos y Trucos",
           link: "/developer-docs/tips-and-tricks",
         },
         {
-          text: "Leaderboards",
+          text: "Tablas de Clasificación",
           link: "/developer-docs/leaderboards",
         },
         {
@@ -305,21 +320,21 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/ratools",
         },
         {
-          text: "Console Specific Tips",
+          text: "Consejos Específicos para Consolas",
           link: "/developer-docs/console-specific-tips",
         },
         {
-          text: "Emulator Hotkeys for Developers",
+          text: "Atajos del Emulador para Desarrolladores",
           link: "/developer-docs/emulator-hotkeys-for-developers",
         },
         {
-          text: "libretro core support",
+          text: "Soporte del Núcleo de libretro",
           link: "/developer-docs/libretro-core-support",
         },
       ],
     },
     {
-      text: "Flags",
+      text: "Banderas",
       collapsed: false,
       items: [
         {
@@ -335,7 +350,7 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/flags/pauseif",
         },
         {
-          text: "AndNext and OrNext",
+          text: "AndNext y OrNext",
           link: "/developer-docs/flags/andnext-ornext",
         },
         {
@@ -347,7 +362,7 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/flags/subsource",
         },
         {
-          text: "AddHits and SubHits",
+          text: "AddHits y SubHits",
           link: "/developer-docs/flags/addhits-subhits",
         },
         {
@@ -365,35 +380,35 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "Additional Functionality",
+      text: "Funcionalidad Adicional",
       collapsed: false,
       items: [
         {
-          text: "BitCount Size",
+          text: "Tamaño de BitCount",
           link: "/developer-docs/bitcount-size",
         },
         {
-          text: "Alt Groups",
+          text: "Grupos Alternativos",
           link: "/developer-docs/alt-groups",
         },
         {
-          text: "Hit Counts",
+          text: "Contadores de Golpes",
           link: "/developer-docs/hit-counts",
         },
         {
-          text: "Delta Values",
+          text: "Valores Delta",
           link: "/developer-docs/delta-values",
         },
         {
-          text: "Prior Values",
+          text: "Valores Previos",
           link: "/developer-docs/prior-values",
         },
         {
-          text: "Value Definition",
+          text: "Definición de Valor",
           link: "/developer-docs/value-definition",
         },
         {
-          text: "Condition Syntax",
+          text: "Sintaxis de Condición",
           link: "/developer-docs/condition-syntax",
         },
       ],

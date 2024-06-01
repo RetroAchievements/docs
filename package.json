@@ -11,7 +11,8 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "lunaria:build": "lunaria build",
-    "lunaria:preview": "lunaria preview"
+    "lunaria:preview": "lunaria preview",
+    "lunaria:sync": "lunaria sync"
   },
   "license": "MIT",
   "dependencies": {
