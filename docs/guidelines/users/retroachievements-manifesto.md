@@ -54,6 +54,6 @@ Achievement creation is a very time consuming activity. The people doing it dedi
 
 Anyways, even if you're not able to/interested in creating achievements and just want to play, you're also important to us. In fact **we have countless players that are very valuable members**. The key point here is: get involved and be nice.
 
-The more you get involved, the more valuable you are to the community.
+The more you get involved, the more value you add to the community.
 
 Last but not least, if you have criticism about achievement creators' work, be respectful. Showing bitterness towards them is strongly frowned upon. Be disrespectful with them and you're definitely not welcome here.
