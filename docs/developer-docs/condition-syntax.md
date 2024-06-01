@@ -40,19 +40,19 @@
 
 ### Logical Flags
 
-|                       Flag                       | Prefix |    Example    |
-| :----------------------------------------------: | :----: | :-----------: |
-|     [ResetIf](/developer-docs/flags/resetif)     |  `R:`  | `R:0xH1234=1` |
-| [ResetNextIf](/developer-docs/flags/resetnextif) |  `Z:`  | `Z:0xH1234=1` |
-|     [PauseIf](/developer-docs/flags/pauseif)     |  `P:`  | `P:0xH1234=1` |
-| [AndNext](/developer-docs/flags/andnext-ornext)  |  `N:`  | `N:0xH1234=1` |
-|  [OrNext](/developer-docs/flags/andnext-ornext)  |  `O:`  | `O:0xH1234=1` |
-|   [AddSource](/developer-docs/flags/addsource)   |  `A:`  | `A:0xH1234=1` |
-|   [SubSource](/developer-docs/flags/subsource)   |  `B:`  | `B:0xH1234=1` |
-| [AddHits](/developer-docs/flags/addhits-subhits) |  `C:`  | `C:0xH1234=1` |
-| [SubHits](/developer-docs/flags/addhits-subhits) |  `D:`  | `D:0xH1234=1` |
-|  [AddAddress](/developer-docs/flags/addaddress)  |  `I:`  | `I:0xH1234=1` |
-|    [Measured](/developer-docs/flags/measured)    |  `M:`  | `M:0xH1234=1` |
-|   [Measured%](/developer-docs/flags/measured)    |  `G:`  | `G:0xH1234=1` |
-|   [MeasuredIf](/developer-docs/flags/measured)   |  `Q:`  | `Q:0xH1234=1` |
-|     [Trigger](/developer-docs/flags/trigger)     |  `T:`  | `T:0xH1234=1` |
+|                        Flag                        | Prefix |    Example    |
+| :------------------------------------------------: | :----: | :-----------: |
+|     [`ResetIf`](/developer-docs/flags/resetif)     |  `R:`  | `R:0xH1234=1` |
+| [`ResetNextIf`](/developer-docs/flags/resetnextif) |  `Z:`  | `Z:0xH1234=1` |
+|     [`PauseIf`](/developer-docs/flags/pauseif)     |  `P:`  | `P:0xH1234=1` |
+| [`AndNext`](/developer-docs/flags/andnext-ornext)  |  `N:`  | `N:0xH1234=1` |
+|  [`OrNext`](/developer-docs/flags/andnext-ornext)  |  `O:`  | `O:0xH1234=1` |
+|   [`AddSource`](/developer-docs/flags/addsource)   |  `A:`  | `A:0xH1234=1` |
+|   [`SubSource`](/developer-docs/flags/subsource)   |  `B:`  | `B:0xH1234=1` |
+| [`AddHits`](/developer-docs/flags/addhits-subhits) |  `C:`  | `C:0xH1234=1` |
+| [`SubHits`](/developer-docs/flags/addhits-subhits) |  `D:`  | `D:0xH1234=1` |
+|  [`AddAddress`](/developer-docs/flags/addaddress)  |  `I:`  | `I:0xH1234=1` |
+|    [`Measured`](/developer-docs/flags/measured)    |  `M:`  | `M:0xH1234=1` |
+|   [`Measured`%](/developer-docs/flags/measured)    |  `G:`  | `G:0xH1234=1` |
+|   [`MeasuredIf`](/developer-docs/flags/measured)   |  `Q:`  | `Q:0xH1234=1` |
+|     [`Trigger`](/developer-docs/flags/trigger)     |  `T:`  | `T:0xH1234=1` |

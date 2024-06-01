@@ -61,15 +61,15 @@ In this example we consider a game where the time decreases (e.g.: Super Mario B
 
 We want to award if the player finishes the level `N` while time is greater than `T`.
 
-| ID  | Flag    | Type  | Memory  | Cmp | Type  | Mem/Val | Hits |
-| --- | ------- | ----- | ------- | --- | ----- | ------- | ---- |
-| 1   |         | Delta | 0xLEVEL | =   | Value | N       |
-| 2   | Trigger | Mem   | 0xLEVEL | =   | Value | N+1     |
-| 3   |         | Mem   | 0xTIME  | >   | Value | T       |
+| ID  | Flag      | Type  | Memory  | Cmp | Type  | Mem/Val | Hits |
+| --- | --------- | ----- | ------- | --- | ----- | ------- | ---- |
+| 1   |           | Delta | 0xLEVEL | =   | Value | N       |
+| 2   | `Trigger` | Mem   | 0xLEVEL | =   | Value | N+1     |
+| 3   |           | Mem   | 0xTIME  | >   | Value | T       |
 
 **Requirements**
 
-- 1-2: Functionally the same as conditions 1-2 from the [Finish Level N](#finish-level-n) template, but with a Trigger on the final line so that the challenge icon shows to the player while the challenge is active.
+- 1-2: Functionally the same as conditions 1-2 from the [Finish Level N](#finish-level-n) template, but with a `Trigger` on the final line so that the challenge icon shows to the player while the challenge is active.
 - 3: Ensure the `TIME` address has a value greater than the failure time. When the time is at or below this value, a non-Trigger-flagged condition is now false and the challenge icon will disappear, indicating a failure to the user.
 
 **Notes**
@@ -82,35 +82,35 @@ In this example we consider a game where there is no in-game timer to use for a 
 
 We want to award if the player finishes the level `N` before a a time `T` in the level, calculated as number of frames, has passed.
 
-| ID  | Flag     | Type  | Memory  | Cmp | Type  | Mem/Val | Hits           |
-| --- | -------- | ----- | ------- | --- | ----- | ------- | -------------- |
-| 1   |          | Delta | 0xLEVEL | =   | Value | N       |
-| 2   | Trigger  | Mem   | 0xLEVEL | =   | Value | N+1     |
-| 3   | Pause If | Mem   | 0xLEVEL | =   | Value | N       | (T\*FRAMERATE) |
+| ID  | Flag      | Type  | Memory  | Cmp | Type  | Mem/Val | Hits           |
+| --- | --------- | ----- | ------- | --- | ----- | ------- | -------------- |
+| 1   |           | Delta | 0xLEVEL | =   | Value | N       |
+| 2   | `Trigger` | Mem   | 0xLEVEL | =   | Value | N+1     |
+| 3   | `PauseIf` | Mem   | 0xLEVEL | =   | Value | N       | (T\*FRAMERATE) |
 
 **Requirements**
 
-- 1-2: Functionally the same as conditions 1-2 from the [Finish Level N](#finish-level-n) template, but with a Trigger on the final line so that the challenge icon shows to the player while the challenge is active.
-- 3: The hit target `T*FRAMERATE` should be set equal to the number of frames that equal the time at which the challenge fails. For a system that runs at 60 frames per second, `T*FRAMERATE = TimeInSeconds x 60`. When the player is in the level for that many frames, the Pause If will become true and locked achievement processing in the core group until a Reset occurs (see Notes, below).
+- 1-2: Functionally the same as conditions 1-2 from the [Finish Level N](#finish-level-n) template, but with a `Trigger` on the final line so that the challenge icon shows to the player while the challenge is active.
+- 3: The hit target `T*FRAMERATE` should be set equal to the number of frames that equal the time at which the challenge fails. For a system that runs at 60 frames per second, `T*FRAMERATE = TimeInSeconds x 60`. When the player is in the level for that many frames, the `PauseIf` will become true and locked achievement processing in the core group until a Reset occurs (see Notes, below).
 
 **Notes**
 
-- A player should be able to re-try this challenge. You will need a Reset to clear the pause lock at an appropriate time, such as dying. You can use a `Reset If` in an alt group (an active `Pause If` will prevent a reset in the core group from working), or you can attach a Reset Next If right before the Pause If.
-- You may want some other conditions on the `Pause If`. You can link more using `And Next` flag. If a game has a flag that indicates the player has control of the character, this may be a good choice. Experiment!
+- A player should be able to re-try this challenge. You will need a Reset to clear the pause lock at an appropriate time, such as dying. You can use a `ResetIf` in an alt group (an active `PauseIf` will prevent a reset in the core group from working), or you can attach a `ResetNextIf` right before the `PauseIf`.
+- You may want some other conditions on the `PauseIf`. You can link more using `AndNext` flag. If a game has a flag that indicates the player has control of the character, this may be a good choice. Experiment!
 
 ## Finish Level N without Dying
 
 (or getting hit, using a weapon, etc.)
 
-| ID  | Flag     | Type  | Memory      | Cmp | Type  | Mem/Val     | Hits |
-| --- | -------- | ----- | ----------- | --- | ----- | ----------- | ---- |
-| 1   | And Next | Mem   | 0xLEVEL     | =   | Value | N           |
-| 2   |          | Mem   | 0xLVL_STATE | =   | Value | LVL_N_INTRO | (1)  |
-| 3   |          | Delta | 0xLEVEL     | =   | Value | N           |
-| 4   | Trigger  | Mem   | 0xLEVEL     | =   | Value | N+1         |
-| 5   | Reset If | Mem   | 0xLEVEL     | =   | Value | TITLE       |
-| 6   | And Next | Mem   | 0xLEVEL     | =   | Value | N           |
-| 7   | Reset If | Mem   | 0xLIVES     | <   | Delta | 0xLIVES     |
+| ID  | Flag      | Type  | Memory      | Cmp | Type  | Mem/Val     | Hits |
+| --- | --------- | ----- | ----------- | --- | ----- | ----------- | ---- |
+| 1   | `AndNext` | Mem   | 0xLEVEL     | =   | Value | N           |
+| 2   |           | Mem   | 0xLVL_STATE | =   | Value | LVL_N_INTRO | (1)  |
+| 3   |           | Delta | 0xLEVEL     | =   | Value | N           |
+| 4   | `Trigger` | Mem   | 0xLEVEL     | =   | Value | N+1         |
+| 5   | `ResetIf` | Mem   | 0xLEVEL     | =   | Value | TITLE       |
+| 6   | `AndNext` | Mem   | 0xLEVEL     | =   | Value | N           |
+| 7   | `ResetIf` | Mem   | 0xLIVES     | <   | Delta | 0xLIVES     |
 
 **Requirements**
 
@@ -126,16 +126,16 @@ We want to award if the player finishes the level `N` before a a time `T` in the
 
 ## Finish Level N with Item
 
-| ID  | Flag    | Type  | Memory  | Cmp | Type  | Mem/Val | Hits |
-| --- | ------- | ----- | ------- | --- | ----- | ------- | ---- |
-| 1   |         | Delta | 0xLEVEL | =   | Value | N       | (0)  |
-| 2   | Trigger | Mem   | 0xLEVEL | =   | Value | N+1     | (0)  |
-| 3   |         | Mem   | 0xITEM  | =   | Value | TRUE    | (0)  |
+| ID  | Flag      | Type  | Memory  | Cmp | Type  | Mem/Val | Hits |
+| --- | --------- | ----- | ------- | --- | ----- | ------- | ---- |
+| 1   |           | Delta | 0xLEVEL | =   | Value | N       | (0)  |
+| 2   | `Trigger` | Mem   | 0xLEVEL | =   | Value | N+1     | (0)  |
+| 3   |           | Mem   | 0xITEM  | =   | Value | TRUE    | (0)  |
 
 **Requirements**
 
-- 1-2: Functionally the same as conditions 1-2 from the [Finish Level N](#finish-level-n) template, but with a Trigger on the final line so that the challenge icon shows to the player while the challenge is active.
-- 3: Value that is true when the player has the correct item. The lack of a Trigger flag here allows the icon to appear while the player has the item, and disappear when the player does not have it.
+- 1-2: Functionally the same as conditions 1-2 from the [Finish Level N](#finish-level-n) template, but with a `Trigger` on the final line so that the challenge icon shows to the player while the challenge is active.
+- 3: Value that is true when the player has the correct item. The lack of a `Trigger` flag here allows the icon to appear while the player has the item, and disappear when the player does not have it.
 
 ## Collect an Item In a Specific Level
 
@@ -197,12 +197,12 @@ The technique used here relies on two other ones:
 
 Here's the trick:
 
-| ID  | Flag       | Type  | Memory  | Cmp | Type  | Mem/Val | Hits |
-| --- | ---------- | ----- | ------- | --- | ----- | ------- | ---- |
-| 1   | Sub Source | Delta | 0xCOUNT |     |       |         |
-| 2   | Add Hits   | Mem   | 0xCOUNT | =   | Value | 0x02    |
-| 3   |            | Mem   | 0xCOUNT | >   | Delta | 0xCOUNT | (N)  |
-| 4   | Reset If   | Mem   | 0xLIVES | <   | Delta | 0xLIVES |
+| ID  | Flag        | Type  | Memory  | Cmp | Type  | Mem/Val | Hits |
+| --- | ----------- | ----- | ------- | --- | ----- | ------- | ---- |
+| 1   | `SubSource` | Delta | 0xCOUNT |     |       |         |
+| 2   | `AddHits`   | Mem   | 0xCOUNT | =   | Value | 0x02    |
+| 3   |             | Mem   | 0xCOUNT | >   | Delta | 0xCOUNT | (N)  |
+| 4   | `ResetIf`   | Mem   | 0xLIVES | <   | Delta | 0xLIVES |
 
 It can look a bit confusing at a first sight, but maybe using a real example it can be more clear. Check the [Circumvent the Problem of a Counter Incrementing Twice in the Same Frame](/developer-docs/real-examples/circumvent-the-problem-of-a-counter-incrementing-twice-in-the-same-frame).
 
@@ -210,10 +210,10 @@ It can look a bit confusing at a first sight, but maybe using a real example it 
 
 In this example we want to detect a value changing from `V1` to `V2` ten times:
 
-| ID  | Flag     | Type  | Memory    | Cmp | Type  | Mem/Val | Hits |
-| --- | -------- | ----- | --------- | --- | ----- | ------- | ---- |
-| 1   | And Next | Delta | 0xADDRESS | =   | Value | 0xV1    |
-| 2   |          | Mem   | 0xADDRESS | =   | Value | 0xV2    | (10) |
+| ID  | Flag      | Type  | Memory    | Cmp | Type  | Mem/Val | Hits |
+| --- | --------- | ----- | --------- | --- | ----- | ------- | ---- |
+| 1   | `AndNext` | Delta | 0xADDRESS | =   | Value | 0xV1    |
+| 2   |           | Mem   | 0xADDRESS | =   | Value | 0xV2    | (10) |
 
 **Requirements**
 
@@ -232,15 +232,15 @@ Lets say you want to have a reset if a player enters a certain X and Y zone of a
 
 **ALT1**
 
-| ID  | Flag     | Type | Memory     | Cmp | Type  | Mem/Val      |
-| --- | -------- | ---- | ---------- | --- | ----- | ------------ |
-| 1   | Reset If | Mem  | 0xLEVEL    | =   | Value | LEVELID      |
-| 2   | Pause If | Mem  | 0xX-COORDS | >   | Value | RESET-X-ZONE |
-| 3   | Pause If | Mem  | 0xX-COORDS | <   | Value | RESET-X-ZONE |
-| 4   | Pause If | Mem  | 0xY-COORDS | >   | Value | RESET-Y-ZONE |
-| 5   | Pause If | Mem  | 0xY-COORDS | <   | Value | RESET-Y-ZONE |
+| ID  | Flag      | Type | Memory     | Cmp | Type  | Mem/Val      |
+| --- | --------- | ---- | ---------- | --- | ----- | ------------ |
+| 1   | `ResetIf` | Mem  | 0xLEVEL    | =   | Value | LEVELID      |
+| 2   | `PauseIf` | Mem  | 0xX-COORDS | >   | Value | RESET-X-ZONE |
+| 3   | `PauseIf` | Mem  | 0xX-COORDS | <   | Value | RESET-X-ZONE |
+| 4   | `PauseIf` | Mem  | 0xY-COORDS | >   | Value | RESET-Y-ZONE |
+| 5   | `PauseIf` | Mem  | 0xY-COORDS | <   | Value | RESET-Y-ZONE |
 
-- The reset will only happen if all of the Pause If conditions are not true.
+- The reset will only happen if all of the `PauseIf` conditions are not true.
 - The pause is local to the alt but the reset resets the entire achievement.
 
 **ALT2**

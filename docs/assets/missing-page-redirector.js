@@ -18,6 +18,7 @@ const redirects = {
   "/Editing-Leaderboards/": "/guidelines/content/editing-leaderboards.html",
   "/Achievement-Set-Revisions/": "/guidelines/content/achievement-set-revisions.html",
   "/Achievements-for-ROM-hacks/": "/guidelines/content/achievements-for-rom-hacks.html",
+  "/Bonus-Sets/": "/guidelines/content/subsets.html",
   "/Subsets/": "/guidelines/content/subsets.html",
   "/Working-with-the-Right-ROM/": "/guidelines/content/working-with-the-right-rom.html",
   "/Hash-Labels/": "/guidelines/content/hash-labels.html",
@@ -84,6 +85,7 @@ const redirects = {
   "/RALibretro/": "/orphaned/ralibretro.html",
   "/Free-Games/": "/orphaned/free-games.html",
   "/System-X-wen/": "/orphaned/system-x-wen.html",
+  "/My-game-is-not-loading-achievements/": "/orphaned/my-game-is-not-loading-achievements.html",
 };
 
 function handleRedirects() {

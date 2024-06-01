@@ -78,7 +78,7 @@ This might seem daunting, because we don't know what these addresses mean. That'
 
 **Tip**: the most common mistake when creating leaderboards through the site editor is forgetting the `h` when trying to reference an 8-bit memory address.
 
-**Note**: You can use HitCounts in the Start/Submit/Cancel triggers, but you are responsible for resetting them. These triggers are evaluated every frame, and the state of the leaderboard is dependent on which ones are true. As such, the HitCount will increment even when the leaderboard is not active unless you have an explicit ResetIf condition.
+**Note**: You can use `HitCount`s in the Start/Submit/Cancel triggers, but you are responsible for resetting them. These triggers are evaluated every frame, and the state of the leaderboard is dependent on which ones are true. As such, the `HitCount` will increment even when the leaderboard is not active unless you have an explicit ResetIf condition.
 
 ### Cancel Conditions
 
@@ -128,14 +128,14 @@ In games where levels are short and retries are quick you really don't want to h
 
 ## Score Wrapping
 
-In games where the high score wraps around back to 0 it is actually possible to account for this and keep your leaderboard tracking the score! You can do this by using Alt Groups combined with MeasuredIf to track which loop you are on and will use one Alt per loop.
+In games where the high score wraps around back to 0 it is actually possible to account for this and keep your leaderboard tracking the score! You can do this by using Alt Groups combined with `MeasuredIf` to track which loop you are on and will use one Alt per loop.
 
 As an example lets take a look at Balloon Fight on NES where the score wraps around after 999,990. Here is the original leaderboard:
 
 ![image](https://user-images.githubusercontent.com/4047771/171064242-361165b4-cb69-4e3a-afac-8f5644146e4e.png)
 
 And an updated version which will continue tracking after each loop:
-Core needs to have a Measured statement in it so just put something that is never true and also a ResetIf for resetting the MeasuredIf statements in the Alt Groups when needed (in this case on the title screen)
+Core needs to have a `Measured` statement in it so just put something that is never true and also a ResetIf for resetting the `MeasuredIf` statements in the Alt Groups when needed (in this case on the title screen)
 
 ![image](https://user-images.githubusercontent.com/4047771/171063958-dc6ffa27-ed0f-4005-8b76-3e8708b5629f.png)
 
@@ -143,7 +143,7 @@ The first Alt will contain the normal logic for high score
 
 ![image](https://user-images.githubusercontent.com/4047771/171063915-b0216659-c441-4b43-8577-37161213a2d3.png)
 
-The next Alt will contain a MeasuredIf that is true after the first loop which will allow this value to be used. You will also add an extra condition to AddSource in the total score from the first loop which will be 1,000,000 in this case. This value will now be used since MeasuredIf is true and the value is the highest of the Alt Groups
+The next Alt will contain a `MeasuredIf` that is true after the first loop which will allow this value to be used. You will also add an extra condition to AddSource in the total score from the first loop which will be 1,000,000 in this case. This value will now be used since `MeasuredIf` is true and the value is the highest of the Alt Groups
 
 ![image](https://user-images.githubusercontent.com/4047771/171063993-04267eec-c4db-47cd-b15a-e8255b1c3f50.png)
 

@@ -4,9 +4,9 @@
 
 `Measured` should not be used to track things that are clearly visible to the user. If you have an achievement for getting 500,000 points, you don't need to Measure it if the score is displayed on the screen. Similarly, there's no need to use `Measured` in an achievement for having 100 of something in the inventory if the player can see a count of how many they have just by opening the inventory.
 
-If placed on a condition with a required [HitCount](/developer-docs/hit-counts), the target value is the required HitCount and the current value is the current HitCount. [`AddHits`](/developer-docs/flags/addhits-subhits) can be used.
+If placed on a condition with a required [`HitCount`](/developer-docs/hit-counts), the target value is the required `HitCount` and the current value is the current `HitCount`. [`AddHits`](/developer-docs/flags/addhits-subhits) can be used.
 
-If placed on a condition without a HitCount, the target value is the constant on the right side of the condition and the current value is the evaluation of the left side of the condition. [`AddSource`](/developer-docs/flags/addsource) and [`SubSource`](/developer-docs/flags/subsource) can be used.
+If placed on a condition without a `HitCount`, the target value is the constant on the right side of the condition and the current value is the evaluation of the left side of the condition. [`AddSource`](/developer-docs/flags/addsource) and [`SubSource`](/developer-docs/flags/subsource) can be used.
 
 If multiple conditions are marked as `Measured` and have the same target value, the current value will be the maximum of all the `Measured` conditions.
 

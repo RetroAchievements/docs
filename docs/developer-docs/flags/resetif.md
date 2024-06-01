@@ -10,7 +10,7 @@ You can see many examples of `ResetIf` in the [Real Examples page](/developer-do
 
 ## `ResetIf` with hit counts
 
-A `Reset If` condition with a hit count will only trigger when the hit count target is met.
+A `ResetIf` condition with a hit count will only trigger when the hit count target is met.
 
 **Note**: If another `ResetIf` condition is met, all conditions, including the `ResetIf` with the hit count will have their hit counts reset to 0.
 
