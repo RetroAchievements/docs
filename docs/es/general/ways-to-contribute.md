@@ -26,7 +26,7 @@ En la pagina de cada logro podrás ver un link que dice `Report an issue for thi
 
 Si conoces un juego bastante bien, probablemente tal vez tengas algunas ideas muy cool sobre retos para el juego. Postea tus ideas en el foro del juego.
 
-Tenemos [una guía en como pensar y diseñar buenos logros](Achievement-Design-es), no el lado técnico sino el conceptual. Que incluso los que no son desarrolladores pueden llegar a conseguir un poco de inspiración de ese documento.
+Tenemos [una guía en como pensar y diseñar buenos logros](/es/developer-docs/achievement-design.html), no el lado técnico sino el conceptual. Que incluso los que no son desarrolladores pueden llegar a conseguir un poco de inspiración de ese documento.
 
 ## La retro-alimentación es siempre bienvenida
 
@@ -36,13 +36,13 @@ Deja retro-alimentación en los foros sobre que te gusta o que te disgusta sobre
 
 Si te gusta jugar con gráficos puedes crear algún arte para los emblemas o iconos de juegos. Utilizando la opción de captura de pantalla del emulador puede llegar a ser útil para esto, y entonces puedes editarlo para hacer llegar a hacer algo muy cool.
 
-Puedes encontrar mas información en la [pagina de creación de Badges e Iconos](Badge-and-Icon-Creation-es).
+Puedes encontrar mas información en la [pagina de creación de Badges e Iconos](/es/developer-docs/badge-and-icon-creation.html).
 
 ## Ayuda con la documentación
 
 Si cuentas con una cuenta de github y conoces lo básico del Markdown, puedes ayudar con la documentación. Corregir errores ortográficos, gramaticales o información errónea.
 
-Hecha un vistazo a esta pagina para conocer los detalles: [Contribuyendo con los documentos](Contributing-with-the-docs-es)
+Hecha un vistazo a esta pagina para conocer los detalles: [Contribuyendo con los documentos](/es/general/contributing-to-the-docs.html)
 
 ## Participa en los eventos de la comunidad
 

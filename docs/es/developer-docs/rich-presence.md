@@ -185,7 +185,7 @@ Observando este ejemplo, si el valor de 16-bit en $0085 es igual a 0, el string 
 
 Strings de Display asociados con una clausula condicional soportan todo la misma sintaxis que el string de display predeterminado. En este ejemplo, puedes ver que el lookup `@Zona` se utiliza en los dos strings condicionales y en el string predeterminado.
 
-La frase condicional soporta todos los asesores de direcciones previamente mencionados así como la lógica de los AND (\_) y OR (S). Nota: las clausulas OR aun requieren un grupo 'core', [así como en los logros](Alt-Groups-es).
+La frase condicional soporta todos los asesores de direcciones previamente mencionados así como la lógica de los AND (\_) y OR (S). Nota: las clausulas OR aun requieren un grupo 'core', [así como en los logros](/es/developer-docs/alt-groups.html).
 
 - `?0xH1234=32_0xH2345=0?ejemplo y`
 
@@ -205,7 +205,7 @@ BCD es cuando cuando los valores son almacenados en una dirección del 0-9 (un d
 
 BCD decodifica cada carácter hexadecimal como un dígito decimal. Si el inspector de memoria muestra un 86 (en hex), el resulta de BCD decodificando el valor seria un 86 (en decimal).
 
-Para objectos con estos valores puedes utilizar le prefijo BCD, como aquí `b0xh1234`. Esto también funciona con [valores en tablas de clasificación](Leaderboards-es#interpretador-de-valores).
+Para objectos con estos valores puedes utilizar le prefijo BCD, como aquí `b0xh1234`. Esto también funciona con [valores en tablas de clasificación](/es/developer-docs/leaderboards.html#interpretador-de-valores).
 Ten en cuenta que también vas a necesitar especificar el tamaño de la dirección BCD en memoria. `b0x1234` lee un valor de 16-bit. `b0xh1234` lee un valor de 8-bit y `b0xX1234` lee un valor de 32-bit.
 _NOTA_: Soporte para decodificacion BCD de 16-bit y 32-bit es una función para el kit de desarrollo 0.075.
 

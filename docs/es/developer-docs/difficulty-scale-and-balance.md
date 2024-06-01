@@ -1,6 +1,6 @@
 Este documento tiene algunas sugerencias sobre dificultad, balance de un set y sobre mantener un set divertido, amigable, y retador. Lo que estas apunto de ver no son reglas, solamente sugerencias.
 
-**Nota**: ten encenta el [Código de Conducta del Desarrollador](Developers-Code-of-Conduct-es)
+**Nota**: ten encenta el [Código de Conducta del Desarrollador](/es/guidelines/developers/code-of-conduct.html)
 
 ## Escala de Dificultad:
 

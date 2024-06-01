@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 
 export const shared = defineConfig({
   // Metadata
-  title: "RetroAchievements Docs",
+  title: "RetroAchievements",
   head: [["script", { src: "/assets/missing-page-redirector.js" }]],
 
   // Sitemap

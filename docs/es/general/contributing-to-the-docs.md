@@ -4,8 +4,6 @@ Resumiendo las cosas:
 2. Edita una pagina (o crea una nueva) en la [RAwiki](https://github.com/RetroAchievements/docs/wiki/). Tienes que utilizar el lenguaje de marcado Markdown (mas información mas abajo).
 3. Tarde o temprano un moderador va a generar las paginas para [RAdocs](https://docs.retroachievements.org).
 
-La diferencia entre RAwiki y RAdocs es explicada en [Como funciona la documentación de RA](How-RA-Documentation-Works-es).
-
 ## Markdown
 
 Markdown es un lenguaje de marcado extremadamente ligero y fácil de aprender con una sintaxis de formateado de texto simple. Para contribuir en nuestro proyecto tienes que mínimo conocer los básicos de markdown. Aqui hay una buena pagina de referencia: [http://commonmark.org/help/](http://commonmark.org/help/), y [aquí puedes probar 10 minutos del tutorial](http://commonmark.org/help/tutorial/).
@@ -39,13 +37,13 @@ Los enlaces tienen que seguir la siguiente sintaxis
 **Nota**: Si este es un enlace a otra pagina de la wiki esto se hace con una ruta relativa:
 
 ```
-[Tips y Trucos](Tips-and-Tricks-es)
+[Tips y Trucos](/es/developer-docs/tips-and-tricks.html)
 ```
 
 **NO** utilices el URL completo cuando estés linkeando a otra pagina de la wiki, como esto (**si, este es un ejemplo de lo que NO tienes que llegar a hacer**):
 
 ```
-[Tips y Trucos](https://github.com/RetroAchievements/docs/wiki/Tips-and-Tricks-es)
+[Tips y Trucos](/es/developer-docs/tips-and-tricks.html)
 ```
 
 ### Imágenes

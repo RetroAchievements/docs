@@ -6,28 +6,28 @@ Para mas ayuda relacionada con esto, nuestro [servidor de Discord](https://disco
 
 Aqui hay una lista de funciones disponibles:
 
-- <a name="hit-counts"></a>[Hit Counts](Hit-Counts-es) (contador de golpes)
+- <a name="hit-counts"></a>[Hit Counts](/es/developer-docs/hit-counts.html) (contador de golpes)
 
-- <a name="delta-values"></a>[Valores Delta](Delta-Values-es)
+- <a name="delta-values"></a>[Valores Delta](/es/developer-docs/delta-values.html)
 
-- <a name="resetif"></a>[Bandera `ResetIf`](ResetIf-Flag-es)
+- <a name="resetif"></a>[Bandera `ResetIf`](/es/developer-docs/flags/resetif.html)
 
-  - <a name="resetif-with-hit-counts"></a>[`ResetIf` con hit counts](ResetIf-Flag-es#resetif-with-hit-counts) (contador de golpes)
+  - <a name="resetif-with-hit-counts"></a>[`ResetIf` con hit counts](/es/developer-docs/flags/resetif.html#resetif-with-hit-counts) (contador de golpes)
 
-- <a name="pauseif"></a>[Bandera `PauseIf`](PauseIf-Flag-es)
+- <a name="pauseif"></a>[Bandera `PauseIf`](/es/developer-docs/flags/pauseif.html)
 
-  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` con hit counts](PauseIf-Flag-es#pauseif-with-hit-counts) (contador de golpes)
+  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` con hit counts](/es/developer-docs/flags/pauseif.html#pauseif-with-hit-counts) (contador de golpes)
 
-- <a name="addsource"></a>[Bandera `AddSource`](AddSource-Flag-es)
+- <a name="addsource"></a>[Bandera `AddSource`](/es/developer-docs/flags/addsource.html)
 
-- <a name="subsource"></a>[Bandera `SubSource`](SubSource-Flag-es)
+- <a name="subsource"></a>[Bandera `SubSource`](/es/developer-docs/flags/subsource.html)
 
-  - <a name="checking-for-a-negative-result"></a>[Buscando un resultado negativo](SubSource-Flag-es#checking-for-a-negative-result)
+  - <a name="checking-for-a-negative-result"></a>[Buscando un resultado negativo](/es/developer-docs/flags/subsource.html#checking-for-a-negative-result)
 
-- <a name="addhits"></a>[Bandera `AddHits`](AddHits-Flag-es)
+- <a name="addhits"></a>[Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits.html)
 
-- <a name="combining-flags"></a>[Combinando Banderas](Combining-Flags-es)
+- <a name="combining-flags"></a>[Combinando Banderas](/es/orphaned/combining-flags.html)
 
-- <a name="alt-groups"></a>[Alt Groups](Alt-Groups-es) (Grupos Alternos)
+- <a name="alt-groups"></a>[Alt Groups](/es/developer-docs/alt-groups.html) (Grupos Alternos)
 
-- <a name="minimum-required-versions"></a>[Versiones Minimas para Funciones de Logica](Minimum-Required-Versions-for-Logic-Features-es)
+- <a name="minimum-required-versions"></a>[Versiones Minimas para Funciones de Logica](/es/developer-docs/minimum-required-versions-for-logic-features.html)

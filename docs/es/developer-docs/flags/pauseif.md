@@ -1,6 +1,6 @@
 Un `PauseIf` (PausarSi) puede ser seleccionado en la columna de Bandera (Flag) en el Editor de Logros (Achievement Editor)
 
-Mientras sea verdadero, el `PauseIf` pausa la actividad de todas las condiciones **en el mismo grupo**. _No_ pausa condiciones en otros grupos (mas sobre [Grupos Alternos (Alt Groups)](Alt-Groups) abajo).
+Mientras sea verdadero, el `PauseIf` pausa la actividad de todas las condiciones **en el mismo grupo**. _No_ pausa condiciones en otros grupos (mas sobre [Grupos Alternos (Alt Groups)](/es/developer-docs/alt-groups.html) abajo).
 
 **Nota**: ten en menta que _todas las condiciones_ en la oracion anterior incluye condiciones `ResetIf`! En otras palabras **Un `ResetIf` no va a funcionar si un `PauseIf` esta activo**.
 

@@ -1,6 +1,6 @@
 # Roteiro de Desenvolvimento de um Set de Conquistas
 
-**Link para o texto em inglês:** [Set Development Roadmap](Set-Development-Roadmap)
+**Link para o texto em inglês:** [Set Development Roadmap](/developer-docs/set-development-roadmap.html)
 
 O texto seguinte é um roteiro detalhado da maioria das coisas que você deveria considerar ao fazer um conjunto de conquistas. Não é necessário seguir exatamente isso, mas serve como um guia.
 

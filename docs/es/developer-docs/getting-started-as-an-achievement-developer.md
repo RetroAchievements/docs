@@ -38,7 +38,7 @@ El inspector de memoria se puede utilizar para encontrar variables en la RAM que
 
 **NOTA: Si deseas un video paso por paso explicando como encontra valores en la memoria, [este viejo video](https://www.youtube.com/watch?v=8nYb_5cgQHY) puede llegar a ser util**.
 
-**Tambien mira**: [Un vistaso al Inspector de Memoria](Memory-Inspector-Overview-es) y [Tips en la busqueda de Memoria](Tips-and-Tricks-es#memory-digging-tips).
+**Tambien mira**: [Un vistaso al Inspector de Memoria](/es/developer-docs/memory-inspector.html) y [Tips en la busqueda de Memoria](/es/developer-docs/tips-and-tricks.html#memory-digging-tips).
 
 Para empezar o reiniciar una prueba, haz click en **New 8-bit Test** en la parte casi superior del medio.
 
@@ -62,7 +62,7 @@ Cuando ya estes haciendo esto por una 3ra y 4ta vez, el numero de posibilidades 
 
 Cuando encuentres un valor del que te sientes feliz con el, puedes escriber una pequeña nota de lo que es haciendo click en **Save Note**, esto lo va a guardar en la base de datos, y va a ser automaticamente cargado la siguiente vez que cargues el visor de memoria para ese juego, donde sea que te encuentres! Nota despues que haces click en 'Save Note', la nota va a ser automaticamente guardada en la base de datos y compartida, la cual todos los desarrolladores tendran acceso a ella. Todos van a descargar esa nota cuando carguen su ROM. Si intentas sobre-escribir una nota, te va a salir una ventana de confirmacion antes de guardarla.
 
-Puedes encontrar mas utiles [Tips en Busqueda de Memoria aqui](Tips-and-Tricks-es#Tips-en-Busqueda-de-Memoria).
+Puedes encontrar mas utiles [Tips en Busqueda de Memoria aqui](/es/developer-docs/tips-and-tricks.html#Tips-en-Busqueda-de-Memoria).
 
 ## Sets de Logros
 
@@ -106,7 +106,7 @@ Lo siguiente seria cambiar estos valores a los siguientes:
 
 Con esto establecido, no necesitamos ninguna otra condicion que agregar, asi que podemos regresar a **Achievements Dialog** (Ventana de Logros). Para estar seguros, tenemos que guardar nuestro progreso presionando **Save Local**! Esto guarda todo localmente para asegurar que no perdamos ningun progreso.
 
-- **Nota**: usualmente un logro tiene mas de un requisito para evadir que salte en un momento equivocado (por ejemplo: jugando en modo demo). En este ejemplo estamos utilizando solamente un requisito para simplificar la explicacion. Mira mas [Tips en la Creacion de Logros aqui](Tips-and-Tricks-es#Tips-en-la-Creacion-de-Logros).
+- **Nota**: usualmente un logro tiene mas de un requisito para evadir que salte en un momento equivocado (por ejemplo: jugando en modo demo). En este ejemplo estamos utilizando solamente un requisito para simplificar la explicacion. Mira mas [Tips en la Creacion de Logros aqui](/es/developer-docs/tips-and-tricks.html#Tips-en-la-Creacion-de-Logros).
 
 ## Probando el logro
 
@@ -128,34 +128,34 @@ Aqui estan algunos tips que tienes que tener en mente cuando te encuentres crean
 
 - **~~Nunca~~ Evade hacer logros con una sola condicion lo mas que puedas**. De otra manera es muy probable que el logro se dispare en una parte no deseada. Este es el **error mas comun por un desarrollador**
 
-- Si el juego tiene un **modo demo** (El CPU juega despues que esperas un tiempo en la pantalla de titulo), percatate de [encontrar el valor para eso](Tips-and-Tricks-es#finding-the-address-for-demo-mode) y agrega una condicion para que tus logros no se disparen en modo demo. Tambien necesitas saber como utilizar [PauseIf](Achievement-Logic-Features-es#pauseif) y [ResetIf](Achievement-Logic-Features-es#resetif).
+- Si el juego tiene un **modo demo** (El CPU juega despues que esperas un tiempo en la pantalla de titulo), percatate de [encontrar el valor para eso](/es/developer-docs/tips-and-tricks.html#finding-the-address-for-demo-mode) y agrega una condicion para que tus logros no se disparen en modo demo. Tambien necesitas saber como utilizar [PauseIf](/es/orphaned/achievement-logic-features.html#pauseif) y [ResetIf](/es/orphaned/achievement-logic-features.html#resetif).
 
-- **[PauseIf](Achievement-Logic-Features-es#pauseif) cheat codes**: Si el juego tiene un cheat para aumentar vidas, seleccionar niveles, etc. Percatate de encontrar el valor para eso y agregar algo de proteccion en tus logros. OK, talvez no es un tema muy sencillo, pero es algo que tienes que tener en cuenta cuando estes creando un set oficial de logros.
+- **[PauseIf](/es/orphaned/achievement-logic-features.html#pauseif) cheat codes**: Si el juego tiene un cheat para aumentar vidas, seleccionar niveles, etc. Percatate de encontrar el valor para eso y agregar algo de proteccion en tus logros. OK, talvez no es un tema muy sencillo, pero es algo que tienes que tener en cuenta cuando estes creando un set oficial de logros.
 
-- **Evita crear logros de simplemente llegar a un nivel.** Esto puede ser conseguido por medio de un password o un cheat. Mejor haz logros por terminar un nivel, [como en la plantilla de aqui](Achievement-Templates-es#finish-level-n). Tambie, **no hagas logros por simplemente empezar un juego o "empieza el juego con X personaje"**.
+- **Evita crear logros de simplemente llegar a un nivel.** Esto puede ser conseguido por medio de un password o un cheat. Mejor haz logros por terminar un nivel, [como en la plantilla de aqui](/es/developer-docs/achievement-templates.html#finish-level-n). Tambie, **no hagas logros por simplemente empezar un juego o "empieza el juego con X personaje"**.
 
-- Si quieres crear un logro por conseguir un item especifico y unico, agrega algunas condiciones para estar seguro que el jugador obtuvo el item donde se suponia que se tenga que obtener, [como en esta plantilla de aqui](Achievement-Templates-es#collect-an-item-in-a-specific-level). De otra manera el logro podra ser conseguible utilizando un codigo o cargando una partida de cargado.
+- Si quieres crear un logro por conseguir un item especifico y unico, agrega algunas condiciones para estar seguro que el jugador obtuvo el item donde se suponia que se tenga que obtener, [como en esta plantilla de aqui](/es/developer-docs/achievement-templates.html#collect-an-item-in-a-specific-level). De otra manera el logro podra ser conseguible utilizando un codigo o cargando una partida de cargado.
 
 - **Evita hacer muchos logros sobre simples cosas que necesitan casi cero esfuerzo**. Ejemplos de que **NO** tienes que hacer: obten una moneda o un hongo en Super Mario Bros.
 
-- Ten encuenta los [conceptos no-bienvenidos en el diseño de logros](Developers-Code-of-Conduct-es#unwelcome-concepts).
+- Ten encuenta los [conceptos no-bienvenidos en el diseño de logros](/es/guidelines/developers/code-of-conduct.html#unwelcome-concepts).
 
 - **Se creativo con tus logros**. Esos que abarcan caracteristicas y detalles unicos son los mas bienvenidos. Los jugadores aman cuando un pequeño detalle de un juego que aman es apoyado por un logro. Leer un Walkthrough en [GameFAQs](https://gamefaqs.gamespot.com/) te puede dar un poco de inspiracion tambien.
 
 - Intentar pasar la mayor cantidad de tiempo posible con el juego, especialmente si es la primera vez que desarrollas logros. Toma mas tiempo conocer el juego por dentro, trabajar con la memoria funciona ya que es la mejor fuente de ideas para logros unicos.
 
-Puedes encontrar mas en la [pagina de Tips y Trucos](Tips-and-Tricks-es).
+Puedes encontrar mas en la [pagina de Tips y Trucos](/es/developer-docs/tips-and-tricks.html).
 
 ## Siguientes pasos
 
 Ahora que ya sabes como utilizar el Inspector de Memoria, y el Editor de Logros. Llego la hora de que aprendas nuevas tecnicas y practiques:
 
-- En orden que refines la logica de tus logros, puedes ver con que funciones cuentas en la pagina de [Funciones en la Logica de los Logros](Achievement-Logic-Features-es).
+- En orden que refines la logica de tus logros, puedes ver con que funciones cuentas en la pagina de [Funciones en la Logica de los Logros](/es/orphaned/achievement-logic-features.html).
 
-- Puedes aprender viendo logros existentes que otros desarrolladores han hecho con una explicacion extra en la pagina de [Ejemplos Reales](Real-Examples-es).
+- Puedes aprender viendo logros existentes que otros desarrolladores han hecho con una explicacion extra en la pagina de [Ejemplos Reales](/es/developer-docs/real-examples.html).
 
-- Tambien puedes ver algunos ejemplos genericos en la pagina de [Plantillas para Logros](Achievement-Templates-es).
+- Tambien puedes ver algunos ejemplos genericos en la pagina de [Plantillas para Logros](/es/developer-docs/achievement-templates.html).
 
-- Una vez que hubieras aprendido todas las tecnicas basicas, si quieres obtener el estatus de Desarrollador tienes que seguir los pasos explicados aqui: [Como convertirme en un desarrollador de logros](How-to-Become-an-Achievement-Developer-es).
+- Una vez que hubieras aprendido todas las tecnicas basicas, si quieres obtener el estatus de Desarrollador tienes que seguir los pasos explicados aqui: [Como convertirme en un desarrollador de logros](/es/developer-docs/how-to-become-an-achievement-developer.html).
 
 Que te diviertas!

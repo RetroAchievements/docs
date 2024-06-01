@@ -1,8 +1,8 @@
 Este documento expone los derechos, responsabilidades y reglas para desarrolladores.
 
-**Si tu no eres un desarrollador deberias checar [aqui, como me convierto en un desarrollador](How-to-Become-an-Achievement-Developer).**
+**Si tu no eres un desarrollador deberias checar [aqui, como me convierto en un desarrollador](/es/developer-docs/how-to-become-an-achievement-developer.html).**
 
-**Checa tambien**: [Codigo de conducta del usuario](Users-Code-of-Conduct-es).
+**Checa tambien**: [Codigo de conducta del usuario](/es/guidelines/users/code-of-conduct.html).
 
 ## Reglas de Oro
 
@@ -19,7 +19,7 @@ Este documento expone los derechos, responsabilidades y reglas para desarrollado
 - Manten tu trabajo libre de [conceptos-no bienvenidos](#unwelcome-concepts).
 - Usa [codigo protectivo](#every-achievement-set-must-have) para prevenir cheating y exploits potenciales.
 - Deja [notas de codigo](#code-notes) precisas para cada condicion de logro que utilices.
-- Para revisiones de set, sigue la [politica de revision](Achievement-Set-Revisions).
+- Para revisiones de set, sigue la [politica de revision](/es/guidelines/content/achievement-set-revisions.html).
 - [Resuelve tickets](#handling-tickets), y deja notas cada vez que lo hagas.
 - **Una vez que publiques tu trabajo, estas dejando que la comunidad [reseñe y lo retrabaje a traves del tiempo](#achievementset-ownership).**
 
@@ -33,7 +33,7 @@ Antes que trabajes en nuevos juegos tienes que resolver todos los tickets con lo
 
 #### No
 
-Entonces pregunta para que sea agregado por medio de Discord **#help-me** o en nuestros foros para que algun desarrollador lo agregue por ti. Es esencial que tu [elijas el ROM(s) correcto para trabajar](Working-with-the-Right-ROM). Si quieres trabajar en un hack, checa [logros para hacks de ROM](Achievements-for-ROM-hacks) doc first.
+Entonces pregunta para que sea agregado por medio de Discord **#help-me** o en nuestros foros para que algun desarrollador lo agregue por ti. Es esencial que tu [elijas el ROM(s) correcto para trabajar](/es/guidelines/content/working-with-the-right-rom.html). Si quieres trabajar en un hack, checa [logros para hacks de ROM](/es/guidelines/content/achievements-for-rom-hacks.html) doc first.
 
 #### Si
 
@@ -43,13 +43,13 @@ Bien! adelante.
 
 #### Yes
 
-Si existe un set, no te rindas. Aun lo puede mejorar, agregando/removiendo/re-trabajando logros, o haz cambios a titulos e imagenes, etc. Sin embargo tendras que pasar por el [proceso de revision de tu set](Achievement-Set-Revisions).
+Si existe un set, no te rindas. Aun lo puede mejorar, agregando/removiendo/re-trabajando logros, o haz cambios a titulos e imagenes, etc. Sin embargo tendras que pasar por el [proceso de revision de tu set](/es/guidelines/content/achievement-set-revisions.html).
 
 #### No
 
 Busca delicadamente. Algunas veces hay multiples entradas en la base de datos para el mismo juego con diferente titulos. Una vez que este seguro, ahora necesitas checar si hay otro desarrollador trabajando en el juego.
 
-**Nota:** Solo un set de logros es permitido por el mismo juego y consola. Para detalles mira [trabajando con el ROM correcto](Working-with-the-Right-ROM).
+**Nota:** Solo un set de logros es permitido por el mismo juego y consola. Para detalles mira [trabajando con el ROM correcto](/es/guidelines/content/working-with-the-right-rom.html).
 
 ### Hay otros desarrollor trabajando en el juego?
 
@@ -78,7 +78,7 @@ Postear tus planes es tu manera de reservar oficialmente un juego, sin embargo h
   - Tienes que aderirte al [Reglamento de Diseño Basico de Logros](#basic-achievement-design-guidelines), de otra manera tu set no sera aprovado.
   - **Cuando tu publicas tu trabajo estas dejando a la comunidad para que sea reseñado y re-trabajado sobre el paso del tiempo.**
 
-- Si alguien escogio un juego del cual tu estas interesado antes que tu, no te desesperes. Te animamos a solicitar una colaboración. Puedes publicar tu deseos de colaborar en el foro o mandar un mensaje al desarrollador para obtener permiso para que publique tus contribuciones. Tambien puedes esperar e ir por una [Revision de Set](Achievement-Set-Revisions) after the set is published.
+- Si alguien escogio un juego del cual tu estas interesado antes que tu, no te desesperes. Te animamos a solicitar una colaboración. Puedes publicar tu deseos de colaborar en el foro o mandar un mensaje al desarrollador para obtener permiso para que publique tus contribuciones. Tambien puedes esperar e ir por una [Revision de Set](/es/guidelines/content/achievement-set-revisions.html) after the set is published.
 
 ### Reglas para reservar juegos para desarrollo
 
@@ -114,14 +114,14 @@ Las siguientes reglas existen para saber facilmente quien esta trabajando en que
 
 Tu puedes (y deberias) se lo mas creativo que puedas, pero hay algunos conceptos que **NO** estan bienvenidos para logros, como:
 
-- Requirir el uso de glitches (aceptable en [Sets Bonus](Bonus-Sets)).
+- Requirir el uso de glitches (aceptable en [Sets Bonus](/es/guidelines/content/subsets.html)).
 - Requieren dos jugadores.
-- Requiere perfeccion por todo el juego (**talvez** aceptable in [Sets Bonus](Bonus-Sets)).
+- Requiere perfeccion por todo el juego (**talvez** aceptable in [Sets Bonus](/es/guidelines/content/subsets.html)).
 - Morir (simplemente), o juega mal sin ningun proposito.
 - Contenido no apropiado (NSFW) en la imagen o texto.
 - Logros saltando frecuentemente con poco esfuerzo del jugador (incluyendo multiples logros por hacer la misma tarea, como vencer al jefe y otro por conseguir el item que dejo el jefe , etc.)
 - Logros obtenibles con zero esfuerzo sin razon alguna (ejemplo: empieza el juego con x personaje, colecciona una moneda). Es acceptable si hay algo divertido/historico/interesante que quieres tocar.
-- Se requiere grinding repetitivo y excesivo, asi como llega a level 99 en un RPG, sin razon alguna (**talvez** aceptable en [Sets Bonus](Bonus-Sets)).
+- Se requiere grinding repetitivo y excesivo, asi como llega a level 99 en un RPG, sin razon alguna (**talvez** aceptable en [Sets Bonus](/es/guidelines/content/subsets.html)).
 - Se basa completamente en suerte, especialmente cuando hay probabilidades realmente bajas. Sin embargo, para juegos que el factor aleatorio es un aspecto importante, podria ser apropiado.
 - "Logros Secretos", cuando los jugadores no tiene indicacion de que es lo que tienen que hacer. Si quieres prevenir spoilers da minimo una pista en el titulo o descripcion. De otra manera los jugadores van a empezar a buscar en la web o van a moverle al editor de Logros/Inspector de Memoria, y en el proceso pueden incluso toparse con peores spoilers.
 
@@ -136,11 +136,11 @@ Con cada regla, hay un excepcion. Esta es especialmente verdad con conceptos no-
 - Archivos de guardado;
 - Passwords.
 
-**Tambien mira**: [Plantillas para logros](Achievement-Templates) y [Ejemplos reales](Real-Examples) para algunas tecnicas de proteccion bien conocidas.
+**Tambien mira**: [Plantillas para logros](/es/developer-docs/achievement-templates.html) y [Ejemplos reales](/es/developer-docs/real-examples.html) para algunas tecnicas de proteccion bien conocidas.
 
 ### Cada Set de logros DEBERIA tener
 
-- Minimo [Rich Presence](Rich-Presence) basico;
+- Minimo [Rich Presence](/es/developer-docs/rich-presence.html) basico;
 - Medallas (Badges) para cada Logro;
 - Todo la informacion del juego llena, e imagenes del juego subidas.
 
@@ -155,14 +155,14 @@ Con cada regla, hay un excepcion. Esta es especialmente verdad con conceptos no-
 
 ### Herramientas para ayudarle a tener éxito
 
-Tenemos un We have a [mapa](Set-Development-Roadmap) que puedes utilizar como guia para crear un buen set de logros.
-Tambien tenemos una [guia de diseño de logros](Achievement-Design) en como diseñar buenos logros, no el lado tecnico pero si el conceptual. Crear un set balanceado es uno de los aspectos mas dificiles de desarrollo, tenemos una [guia de balance de dificultad](Difficulty-Scale-and-Balance) que te podria ayudar en pensar como crear un set que fluya.
+Tenemos un We have a [mapa](/es/developer-docs/set-development-roadmap.html) que puedes utilizar como guia para crear un buen set de logros.
+Tambien tenemos una [guia de diseño de logros](/es/developer-docs/achievement-design.html) en como diseñar buenos logros, no el lado tecnico pero si el conceptual. Crear un set balanceado es uno de los aspectos mas dificiles de desarrollo, tenemos una [guia de balance de dificultad](/es/developer-docs/difficulty-scale-and-balance.html) que te podria ayudar en pensar como crear un set que fluya.
 
 Es preferible y recomendado trabajar en un set a la vez. Pero si tienes mas, ten abiertas posibilidades para trabajar en equipo o incluso delegar la creacion de un set si otro desarrollador te contacta.
 
 ## Revisiones - Trabajando en Sets que ya cuentan con logros
 
-Revisiones, si estas trabajando en un set que ya cuenta con logros tipicamente requiere aprovacion por la comunidad, presentando tu plan en el foro y en el canal de **#revision-voting** en Discord. No todos los cambios requieren aprovacion. Mira [Revisiones de Sets de Logros](Achievement-Set-Revisions) para mas detalles.
+Revisiones, si estas trabajando en un set que ya cuenta con logros tipicamente requiere aprovacion por la comunidad, presentando tu plan en el foro y en el canal de **#revision-voting** en Discord. No todos los cambios requieren aprovacion. Mira [Revisiones de Sets de Logros](/es/guidelines/content/achievement-set-revisions.html) para mas detalles.
 
 ## Notas de Codigo
 
@@ -188,7 +188,7 @@ Si el desarrollador esta inactivo puedes libremente resolverle sus tickets. Sin 
 
 ## Propiedad de los logros
 
-**Cuando tu publicas tu trabajo tu se lo estas dando a la comunidad** para que sea reseñado y re-trabajado con el paso del tiempo - mira [Revisiones en un Set](Achievement-Set-Revisions).
+**Cuando tu publicas tu trabajo tu se lo estas dando a la comunidad** para que sea reseñado y re-trabajado con el paso del tiempo - mira [Revisiones en un Set](/es/guidelines/content/achievement-set-revisions.html).
 
 Aunque los logros publicados por un desarrollador no son propiedad de el, el aun es el encargado en terminos de arreglar y dar mantenimiento. Si otro jugador corrige el logro el es el nuevo encargado de ese logro.
 

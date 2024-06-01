@@ -1,6 +1,6 @@
 ## Dicas Específicas do Console
 
-**Link para texto em inglês:** [Console Specific Tips](https://github.com/RetroAchievements/docs/wiki/Console-Specific-Tips)
+**Link para texto em inglês:** [Console Specific Tips](/developer-docs/console-specific-tips.html)
 
 ---
 

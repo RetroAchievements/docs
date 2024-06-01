@@ -1,8 +1,8 @@
-**Relacionado:** [Logros para hacks de ROM](Achievements-for-ROM-hacks-es), [Sets Bonus](Bonus-Sets-es)
+**Relacionado:** [Logros para hacks de ROM](/es/guidelines/content/achievements-for-rom-hacks.html), [Sets Bonus](/es/guidelines/content/subsets.html)
 
 Solamente un set es permitido por juego y por consola. Esto es aplica en casos de existente revisiones oficiales (ex. Rev A), parches oficiales, no-oficiales, y otras regiones.
 
-[Sets Bonus](Bonus-Sets-es) son una excepción de esta esta regla, pero son considerado como una extensión del set estándar y estos siguen reglas diferentes sobre el tipo de logros que son permitidos.
+[Sets Bonus](/es/guidelines/content/subsets.html) son una excepción de esta esta regla, pero son considerado como una extensión del set estándar y estos siguen reglas diferentes sobre el tipo de logros que son permitidos.
 
 ## Selección de ROM
 

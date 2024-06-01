@@ -1,6 +1,6 @@
 Aqui un vistazo del **Inspector de Memoria** y sus caracteristicas. Esta herramienta se puede encontrar en la pestaña de "RetroAchievements" en cualquier emulador integrado con RA.
 
-**Tambien mira**: [Tips en la Busqueda de Memoria](Tips-and-Tricks-es#tips-en-la-búsqueda-de-memoria).
+**Tambien mira**: [Tips en la Busqueda de Memoria](/es/developer-docs/tips-and-tricks.html#tips-en-la-búsqueda-de-memoria).
 
 ## Ventana del Inspector de Memoria
 

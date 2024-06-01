@@ -2,7 +2,7 @@
 
 **Este é o Manifesto RetroAchievements e todo membro desta comunidade DEVE estar ciente disso.**
 
-Desde os primórdios do RetroAchievements, isto é o que temos no nosso [FAQ](FAQ-pt_BR) como resposta para [O que é o RetroAchievements.org?](FAQ-pt_BR#o-que-e-o-retroachievementsorg)
+Desde os primórdios do RetroAchievements, isto é o que temos no nosso [FAQ](/pt/general/faq.html) como resposta para [O que é o RetroAchievements.org?](/pt/general/faq.html#o-que-e-o-retroachievementsorg)
 
 > RetroAchievements.org é uma comunidade sem fins lucrativos que colabora e compete para ganhar conquistas personalizadas em jogos clássicos através de emulação. As conquistas são criadas pela e para a comunidade. (...)
 
@@ -44,7 +44,7 @@ Nós fazemos revisões nas conquistas tendo em mente a qualidade e para mostrar 
 
 Além disso, se você não for capaz de obter todas as conquistas de um jogo, isso não significa automaticamente que elas precisão ser suavizadas/removidas/se tornarem conquistas bônus. Se outros jogadores obtiveram aquelas conquistas, é provável que você também consiga. Contudo, se você não consegue, está tudo bem também. Você não precisa desbloquear todas as conquistas para continuar se divertindo com jogos antigos.
 
-Se ainda assim você acha que a coleção de conquistas possui [conceitos indesejáveis](https://docs.retroachievements.org/Developers-Code-of-Conduct/#unwelcome-concepts), você pode postar seus argumentos no fórum no tópico do jogo. Apenas certifique-se de ser respeitoso em suas palavras. O que nos leva ao próximo ponto...
+Se ainda assim você acha que a coleção de conquistas possui [conceitos indesejáveis](/guidelines/developers/code-of-conduct.html#unwelcome-concepts), você pode postar seus argumentos no fórum no tópico do jogo. Apenas certifique-se de ser respeitoso em suas palavras. O que nos leva ao próximo ponto...
 
 ### As pessoas mais importantes que nós temos aqui são os criadores de conquistas
 

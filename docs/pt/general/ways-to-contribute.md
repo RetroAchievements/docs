@@ -1,6 +1,6 @@
 # Como contribuir se Você não for um Desenvolvedor
 
-**Link para o texto em inglês:** [How to contribute if you're not a developer](How-to-contribute-if-you-are-not-a-developer)
+**Link para o texto em inglês:** [How to contribute if you're not a developer](/general/ways-to-contribute.html)
 
 Mesmo que você não saiba como criar conquistas existem muitas formas de contribuir com a comunidade RetroAchievements. Aqui estão alguns exemplos.
 
@@ -22,7 +22,7 @@ Detalhes adicionais do estado do seu jogo, quando ativa/não ativa, que modo de 
 
 Se voce conhece um jogo muito bem, você provavelmente pode ter algumas ideias interessantes de desafios para o jogo. Poste suas ideias no forum relacionado ao jogo.
 
-Nos temos [um guia sobre como pensar e projetar boas conquistas](Achievement-Design-pt_BR), não o lado técnico, mas o conceitual. Entao até os não-desenvolvedores podem ter alguma inspiração a partir daquela informação.
+Nos temos [um guia sobre como pensar e projetar boas conquistas](/pt/developer-docs/achievement-design.html), não o lado técnico, mas o conceitual. Entao até os não-desenvolvedores podem ter alguma inspiração a partir daquela informação.
 
 ## Feedback é sempre bem-vindo
 
@@ -32,7 +32,7 @@ Dar Feedback (comentários) nos foruns sobre qual você gosta ou não gosta sobr
 
 Se você gosta de brincar com gráficos, você pode criar algumas artes para os ícones das conquistas ou os ícones para os jogos. Usando o recurso de screenshot (captura de tela) do emulador em si pode ajudar com isso, e entao você pode editar para fazer algo legal.
 
-Você pode ver mais informações sobre a [Página de Criação de Icones](Badge-and-Icon-Creation-pt_BR).
+Você pode ver mais informações sobre a [Página de Criação de Icones](/pt/developer-docs/badge-and-icon-creation.html).
 
 ## Participe em eventos da comunidade
 

@@ -1,6 +1,6 @@
 ## Tips en la Búsqueda de Memoria
 
-También mira: [Un vistazo al Inspector de Memoria](Memory-Inspector-Overview-es).
+También mira: [Un vistazo al Inspector de Memoria](/es/developer-docs/memory-inspector.html).
 
 - Empieza con la vista de 8-bit en el Visor de Memoria. Buscar pedazos grandes de memoria solo complica las cosas, pero haría un trabajo mas fácil para un desarrollador experimentado. Si tu estas empezando y no estas consciente de términos como **endianess** y **bit ordering** (o cuando los ojos están cansados), es mejor hacer observaciones usando la vista de 8-bit. Es simplemente mas fácil!
 
@@ -22,31 +22,31 @@ También mira: [Un vistazo al Inspector de Memoria](Memory-Inspector-Overview-es
 
 ## Tips en la Creación de Logros
 
-También mira: [Conceptos No-Bievenidos](Developers-Code-of-Conduct-es#conceptos-no-bienvenidos) y [Diseño de Logros](Achievement-Design-es).
+También mira: [Conceptos No-Bievenidos](/es/guidelines/developers/code-of-conduct.html#conceptos-no-bienvenidos) y [Diseño de Logros](/es/developer-docs/achievement-design.html).
 
 - **~~Nunca~~ Evita utilizar solo una condición lo mas que puedas**. Cuando utilizas solo una condición el logro es muy probable que salga en el momento equivocado. Este es el **error mas común de un desarrollador**.
 
-- Si el juego tiene un **modo demo** (El CPU juega después que hubieras esperado un tiempo en la pantalla de titulo), percatate de buscar la variable para ello y agrega la condicion para que tus logros no salgan en modo demo. Tal vez necesites saber como se utiliza un [PauseIf](Achievement-Logic-Features-es#pauseif) y [ResetIf](Achievement-Logic-Features-es#resetif).
+- Si el juego tiene un **modo demo** (El CPU juega después que hubieras esperado un tiempo en la pantalla de titulo), percatate de buscar la variable para ello y agrega la condicion para que tus logros no salgan en modo demo. Tal vez necesites saber como se utiliza un [PauseIf](/es/orphaned/achievement-logic-features.html#pauseif) y [ResetIf](/es/orphaned/achievement-logic-features.html#resetif).
 
 - **`PauseIf` cheat codes**: Si el juego tiene un cheat code para incrementar vidas, seleccionar stages, etc. Percatate de encontrar las variables para ello y agregar alguna especie de protección a tus logros.
 
-- Si quieres crear un logro para **colecciona un ítem único y especifico** en el juego, agrega algunas condiciones para asegurarte que el jugador consiguió el ítem donde se supone que se tiene que conseguir, [como en este ejemplo de aquí](Achievement-Templates-es#colecciona-un-item-en-un-nivel-en-especifico). De otra manera podría saltar utilizando un password, cargando un archivo de guardado, etc.
+- Si quieres crear un logro para **colecciona un ítem único y especifico** en el juego, agrega algunas condiciones para asegurarte que el jugador consiguió el ítem donde se supone que se tiene que conseguir, [como en este ejemplo de aquí](/es/developer-docs/achievement-templates.html#colecciona-un-item-en-un-nivel-en-especifico). De otra manera podría saltar utilizando un password, cargando un archivo de guardado, etc.
 
-- **Condiciones Ó**: si necesitas condiciones Ó, vas a necesitar [Alt groups](Achievement-Logic-Features-es#alt-groups).
+- **Condiciones Ó**: si necesitas condiciones Ó, vas a necesitar [Alt groups](/es/orphaned/achievement-logic-features.html#alt-groups).
 
 - **Evita el exceso de Logros**. Si un juego tiene 100 levels, no hagas un logro por cada nivel. Haz cada 25 o parecido. Considera el tiempo en el que un jugador casual podría desbloquear esos logros. Si generalmente puedes desbloquear todos los logros de un set de progreso en medio hora y siendo un jugador casual, eso es diseño de puro relleno, y no es recomendable.
 
-- **Se Creativo y Divertido**: Se lo mas creativo posible con tus logros. "Vence a X sin utilizar/hacer Y", "Vence a X en 5 segundos", "pásate el juego con solo 3 corazones". Ten en mente que incluso el jugador casual puede sacarse todos los logros si pone su mejor esfuerzo. No es divertido para un jugador casual si es demasiado difícil! (Mira: **Tips para Sets Bonus** mas abajo para retos de verdad!). Hay una pagina completa sobre [Diseño de Logros](Achievement-Design-es) hay puedes conseguir buenas ideas para pensar en como hacer buenos logros.
+- **Se Creativo y Divertido**: Se lo mas creativo posible con tus logros. "Vence a X sin utilizar/hacer Y", "Vence a X en 5 segundos", "pásate el juego con solo 3 corazones". Ten en mente que incluso el jugador casual puede sacarse todos los logros si pone su mejor esfuerzo. No es divertido para un jugador casual si es demasiado difícil! (Mira: **Tips para Sets Bonus** mas abajo para retos de verdad!). Hay una pagina completa sobre [Diseño de Logros](/es/developer-docs/achievement-design.html) hay puedes conseguir buenas ideas para pensar en como hacer buenos logros.
 
 - **Glitchless, por favor!**: No hagas logros donde requieras el uso de glitches. Glitches, en la mayoría de los casos, corrompen y destabilizan la RAM y memoria del juego. Para agregar básicamente rompen todo el set de logros. Por eso es, sabio agregar protección a esto para así detener a los jugadores de utilizarlos y conseguir los logros fácilmente.
 
 - **Evita utilizar solamente texto y gráficas**: La mayoría de las veces, un logro que requiere que pase cierto evento especial puede estar atado a una event flag (usualmente un single bit or byte), o a un objeto recibido por el jugador. Es mucho mejor utilizar estos valores que utilizar el ID de texto que se muestra en la caja de texto, o, mucho peor, RAM de vídeo (memoria atada a los gráficos que se muestran en pantalla) ya que muchas veces son menos estables. Especialmente en versiones diferentes del juego, y son mas difíciles de trabajar.
 
-- **Amamos el Arte**: Badges bonitos son badges que dan gusto conseguir! Tiene que representar visualmente el logro en si, o una pista de acuerdo a la ubicación en el juego para evadir secretos. Que estén a la par con el estilo de arte del juego funciona muy bien. Buscar en Google Imágenes "Sprite Sheets" es un tip muy útil para incluir arte del juego. Si eres un buen artista gráfico, sera tu tiempo de brillar actualizando badges! Puedes encontrar mas información en la [Pagina de Creación de Badges e Iconos](Badge-and-Icon-Creation-es).
+- **Amamos el Arte**: Badges bonitos son badges que dan gusto conseguir! Tiene que representar visualmente el logro en si, o una pista de acuerdo a la ubicación en el juego para evadir secretos. Que estén a la par con el estilo de arte del juego funciona muy bien. Buscar en Google Imágenes "Sprite Sheets" es un tip muy útil para incluir arte del juego. Si eres un buen artista gráfico, sera tu tiempo de brillar actualizando badges! Puedes encontrar mas información en la [Pagina de Creación de Badges e Iconos](/es/guidelines/content/badge-and-icon-guidelines.html).
 
 ## Tips en tu estructura gramatical
 
-- **No Símbolos**: No utilizas caracteres de acentos/especiales como la `é` en Pokemon, ya que actualmente rompen algunas cosas (como el feed). Cambien no son visibles en la búsqueda si no se introduce el carácter especial. Lo mismo para códigos universales de Emoji UTF-8. **Excepción Permitida**: [Scripts de Rich Presence](Rich-Presence-es).
+- **No Símbolos**: No utilizas caracteres de acentos/especiales como la `é` en Pokemon, ya que actualmente rompen algunas cosas (como el feed). Cambien no son visibles en la búsqueda si no se introduce el carácter especial. Lo mismo para códigos universales de Emoji UTF-8. **Excepción Permitida**: [Scripts de Rich Presence](/es/developer-docs/rich-presence.html).
 
 - **Cuida tu Ingles**: evita errores ortográficos. Como RetroAchievements es una comunidad internacional, utilizar el Ingles para las Notas de Código es una buena practica, ya que otro desarrollador puede utilizar tus notas en un futuro.
 

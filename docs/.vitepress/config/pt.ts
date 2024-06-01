@@ -291,10 +291,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Inspetor de Memória",
         //   link: "/pt/developer-docs/memory-inspector",
         // },
-        // {
-        //   text: "Exemplos Reais",
-        //   link: "/pt/developer-docs/real-examples",
-        // },
+        {
+          text: "Exemplos Reais",
+          link: "/pt/developer-docs/real-examples",
+        },
         {
           text: "Roteiro de Desenvolvimento de Conjuntos",
           link: "/pt/developer-docs/set-development-roadmap",

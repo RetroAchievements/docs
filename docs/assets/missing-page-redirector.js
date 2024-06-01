@@ -18,6 +18,7 @@ const redirects = {
   "/Editing-Leaderboards/": "/guidelines/content/editing-leaderboards.html",
   "/Achievement-Set-Revisions/": "/guidelines/content/achievement-set-revisions.html",
   "/Achievements-for-ROM-hacks/": "/guidelines/content/achievements-for-rom-hacks.html",
+  "/Bonus-Sets/": "/guidelines/content/subsets.html",
   "/Subsets/": "/guidelines/content/subsets.html",
   "/Working-with-the-Right-ROM/": "/guidelines/content/working-with-the-right-rom.html",
   "/Hash-Labels/": "/guidelines/content/hash-labels.html",

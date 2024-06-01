@@ -115,7 +115,7 @@ Ya sea:
 1. No tiene logros.
 2. Es la ROM incorrecta.
 
-Una buena práctica es verificar el tema oficial del foro del juego. Si aún no tienes una respuesta, consulta esta página aquí para más detalles: [Mi juego no esta cargando los logros](My-game-is-not-loading-achievements-es).
+Una buena práctica es verificar el tema oficial del foro del juego. Si aún no tienes una respuesta, consulta esta página aquí para más detalles: [Mi juego no esta cargando los logros](/es/orphaned/my-game-is-not-loading-achievements.html).
 
 ## ¿Qué es el modo "Hardcore"?
 
@@ -154,7 +154,7 @@ Sí. Pero debes seguir los siguientes pasos:
 
 ## ¡Yo también quiero hacer logros!
 
-**¡Es bueno escuchar eso!** El mejor lugar para empezar es aqui: [Getting Started as an Achievement Developer](Getting-Started-as-an-Achievement-Developer). Una vez que estés familiarizado con el Memory Inspector y otros diálogos relacionados con los logros, puedes ir al resto de los [Developer Docs](Developer-docs).
+**¡Es bueno escuchar eso!** El mejor lugar para empezar es aqui: [Getting Started as an Achievement Developer](/es/developer-docs/getting-started-as-an-achievement-developer.html). Una vez que estés familiarizado con el Memory Inspector y otros diálogos relacionados con los logros, puedes ir al resto de los [Developer Docs](/es/developer-docs/).
 
 Por favor, no dudes en preguntar si necesitas ayuda, ¡no luches! Lo más importante es asegurarte de que estás disfrutando lo que sea que estés haciendo. Si no te estás divirtiendo, no lo hagas. Pero si te sientes frustrado y quieres persistir, simplemente deja caer un mensaje en los [foros](https://retroachievements.org/forum.php?c=7) o en el [Servidor de Discord](https://discord.gg/dq2E4hE) y alguien se comunicará contigo en breve.
 

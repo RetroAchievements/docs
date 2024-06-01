@@ -1,6 +1,6 @@
 # Design de Conquistas
 
-**Link para o texto em inglês:** [Achievement Design](Achievement-Design)
+**Link para o texto em inglês:** [Achievement Design](/developer-docs/achievement-design.html)
 
 Este é um guia de como pensar sobre e desenvolver boas conquistas. Não o lado técnico, mas o lado conceitual.
 
@@ -69,7 +69,7 @@ Conquistas em Progresso são garantidos ao jogador em uma jogada normal. Então,
 
 - Algumas cenas são tão memoráveis que merecem conquistas próprias! As pessoas que cresceram com esses jogos e os amam, tem o costume de procurar essas cenas em listas de conquistas, e isso pode apenas aquecer seu coração quando elas perceberem que isso foi reconhecido.
 
-- Conquistas de progresso ajudam outras pessoas no site a avaliar a distância de um jogador em um jogo, parecido com o [Estado de Presença](https://github.com/RetroAchievements/docs/wiki/Rich-Presence-pt_BR). Nós podemos "soltar uma linha" para o jogador e dizer: "Boa sorte!" porque sabemos que a próxima parte é bem complicada. Encoraja a comunidade a interagir.
+- Conquistas de progresso ajudam outras pessoas no site a avaliar a distância de um jogador em um jogo, parecido com o [Estado de Presença](/pt/developer-docs/rich-presence.html). Nós podemos "soltar uma linha" para o jogador e dizer: "Boa sorte!" porque sabemos que a próxima parte é bem complicada. Encoraja a comunidade a interagir.
 
 - A ordem importa! Conquistas em Progresso podem nos dizer muito sobre o progresso apenas pela ordem que elas ocorram. Se você ativar aquela conquista de boss opcional e conseguiu um milhão de dolares, então você está fazendo todas as sidequests, isso é muito menos impressionante do que se você conseguir tirá-lo bem antes do meio do jogo. Em outras palavras, conquistas em progresso nos permite mostrar um pouco! Podemos mostrar ao mundo que podemos vencer o chefe final antes de chegarmos ao nível 10, ou que podemos finalizar o Expert Mode antes de ir primeiro no Facil e Normal. **Pode até revelar se usamos falhas ou truques para pular certas partes do jogo**. Então, como você pode ver, conquistas em progresso tem grande SINERGIA com outros tipos de conquistas.
 

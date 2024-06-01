@@ -1,6 +1,6 @@
 # Usando o Contador de Hits e o ResetIf
 
-**Link para o texto em inglês:** [Using Hit Counts as a Timer](Using-Hit-Counts-as-a-Timer)
+**Link para o texto em inglês:** [Using Hit Counts as a Timer](/developer-docs/real-examples/using-hit-counts-as-a-timer.html)
 
 Vamos ver como o achievement [Super Hang-On (Mega Drive)](http://retroachievements.org/Game/16) [Speed Freak - Maintain at least 300kph for 10 seconds](http://retroachievements.org/Achievement/71) aparece no Achievement Editor dialog:
 

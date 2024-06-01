@@ -2,7 +2,7 @@
 
 **Este es el Manifiesto de RetroAchievements del cual todo miembro de la comunidad debería ser consciente**
 
-Desde los primeros días de RetroAchievements, esto es lo que tenemos en nuestro [FAQ](https://github.com/RetroAchievements/docs/wiki/FAQ-es) como la respuesta de [¿Que es RetroAchievements.org?](https://github.com/RetroAchievements/docs/wiki/FAQ-es#qu%C3%A9-es-retroachievementsorg)
+Desde los primeros días de RetroAchievements, esto es lo que tenemos en nuestro [FAQ](/es/general/faq.html) como la respuesta de [¿Que es RetroAchievements.org?](/es/general/faq.html#qu%C3%A9-es-retroachievementsorg)
 
 > RetroAchievements.org es una comunidad sin animo de lucros que colabora y compite para ganar logros personalizados en juegos clásicos a través de la emulación. Los logros son hechos por y para la comunidad. (...)
 
@@ -44,7 +44,7 @@ Hacemos revisiones de sets de logros con la calidad en mente, y para demostrar q
 
 Otra cosa, sino eres capaz de hacerle "mastered" a un set de logros, eso no automáticamente significa que el set necesita ser hecho mas fácil/degradado/convertirse en bonus. Si otros jugadores lo han obtenido, es muy probable que tu también puedas. Pero incluso si no puedes, no pasa nada. No necesitas desbloquear todos los logros para divertirte con juegos antiguos
 
-Si aun así piensas que algún logro en el set tiene [conceptos no bienvenidos](https://docs.retroachievements.org/Developers-Code-of-Conduct-es/#unwelcome-concepts), puedes hacer un post de tus argumentos en el foro del juego en cuestión. Simplemente asegúrate de ser respetuoso. Lo que nos lleva al siguiente punto...
+Si aun así piensas que algún logro en el set tiene [conceptos no bienvenidos](/es/guidelines/developers/code-of-conduct.html#unwelcome-concepts), puedes hacer un post de tus argumentos en el foro del juego en cuestión. Simplemente asegúrate de ser respetuoso. Lo que nos lleva al siguiente punto...
 
 ### Las personas mas importantes que tenemos son los creadores de logros.
 

@@ -1,6 +1,6 @@
 # Primeiros Passos como um Desenvolvedor de Conquistas
 
-**Link para o texto em inglês:** [Getting Started as an Achievement Developer](Getting-Started-as-an-Achievement-Developer)
+**Link para o texto em inglês:** [Getting Started as an Achievement Developer](/developer-docs/getting-started-as-an-achievement-developer.html)
 
 ---
 
@@ -68,7 +68,7 @@ Cada vez que você executa 3 e 4, o número de possibilidades ou 'candidatos' di
 
 Quando você encontrou um endereço com o qual você está feliz, você pode escrever uma nota curta para o que é e clicar em Salvar nota, isso irá armazená-lo no banco de dados e será restaurado automaticamente na próxima vez que você carregar o visor de memória para isso jogo onde quer que esteja! Note que depois de clicar em "Salvar nota", a nota será armazenada automaticamente no banco de dados, e compartilhada para que todos os desenvolvedores compartilhem o acesso a essas notas de memória. Todos serão baixados de novo quando você carregar uma ROM. Se você tentar substituir uma nota, verificará com você primeiro antes de enviar.
 
-Você pode encontrar [Dicas de Escavação de Memória aqui](Tips-and-Tricks#memory-digging-tips).
+Você pode encontrar [Dicas de Escavação de Memória aqui](/pt/developer-docs/tips-and-tricks.html#memory-digging-tips).
 
 ## Achievement Sets
 
@@ -118,7 +118,7 @@ Em seguida, alteraremos esses valores para o seguinte:
 
 Com esse conjunto, não temos mais condições para adicionar, então retornamos à caixa de diálogo **Achievements**. Para estar seguro, devemos salvar nosso progresso ao clicar em **Save Local**! Isso salva tudo para arquivar localmente para garantir que não perderemos nenhum progresso.
 
-- **Nota**: geralmente as conquistas têm mais de um requisito para evitar que ele acione em um momento errado (ou seja, jogando o modo de demonstração). Neste exemplo, estamos usando apenas um requisito apenas para simplificar a explicação. Veja mais dicas de [criação de conquistas aqui](Tips-and-Tricks#achivement-creation-tips).
+- **Nota**: geralmente as conquistas têm mais de um requisito para evitar que ele acione em um momento errado (ou seja, jogando o modo de demonstração). Neste exemplo, estamos usando apenas um requisito apenas para simplificar a explicação. Veja mais dicas de [criação de conquistas aqui](/pt/developer-docs/tips-and-tricks.html#achivement-creation-tips).
 
 ## Testando a conquista
 
@@ -156,10 +156,10 @@ Naturalmente, é melhor enviar apenas conquistas únicas e interessantes no grup
 
 Agora que você sabe como usar o Memory Inspector e o Editor de Conquistas. É hora de aprender novas técnicas e práticas:
 
-- Para refinar a lógica de sua conquista, você pode ver quais recursos você possui na página [Achievement Logic Features](Achievement-Logic-Features-pt_BR).
+- Para refinar a lógica de sua conquista, você pode ver quais recursos você possui na página [Achievement Logic Features](/pt/orphaned/achievement-logic-features.html).
 
-- Você pode aprender observando as conquistas existentes que outros desenvolvedores fizeram com uma explicação extra na página [Real Examples](Real-Examples-pt_BR).
+- Você pode aprender observando as conquistas existentes que outros desenvolvedores fizeram com uma explicação extra na página [Real Examples](/pt/developer-docs/real-examples.html).
 
-- Você também pode ver alguns exemplos genéricos na página [Achievement Templates](Achievement-Templates-pt_BR).
+- Você também pode ver alguns exemplos genéricos na página [Achievement Templates](/pt/developer-docs/achievement-templates.html).
 
 Diverta-se! Obrigado pela leitura!

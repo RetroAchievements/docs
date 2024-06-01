@@ -16,7 +16,7 @@ Sets diseñados para probar la maestría en un juego y proveer nuevos y divertid
 
 ## ¿Como creo un Set Bonus?
 
-Tu obviamente deberías [comentar la idea primero](Achievements-for-ROM-hacks-es#consultacion) . Es tu trabajo y una regla que se tiene que cumplir.
+Tu obviamente deberías [comentar la idea primero](/es/guidelines/content/achievements-for-rom-hacks.html#consultacion) . Es tu trabajo y una regla que se tiene que cumplir.
 
 Actualmente, crear un set Bonus no es fácil. Tienes que básicamente aplicar un hack que no destruya el ROM a una copia de la ROM original y lanzar el parche IPS que incluye las diferencias para que la gente lo pueda disfrutar. Parchear un ROM con el parcheador IPS es relativamente fácil. Un jugador que disfrute de muchos ROM hacks para probar retos adicionales a de estar bastante acostumbrado. Sin embargo es algo que tienes que aceptar para lanzar tu Set Bonus, crear un parche no-destructivo.
 
@@ -47,7 +47,7 @@ Aquí hay algunas búsquedas que te podrían resultar útiles:
 
 ### **Paso 4** - Siguiendo las Reglas y Editando!
 
-Por favor échale a la sesión de [Parches Cosméticos para Sets Bonus](Achievements-for-ROM-hacks-es#parches-para-sets-bonus) de los lineamientos del Linkeado de ROMs para mas información.
+Por favor échale a la sesión de [Parches Cosméticos para Sets Bonus](/es/guidelines/content/achievements-for-rom-hacks.html#parches-para-sets-bonus) de los lineamientos del Linkeado de ROMs para mas información.
 
 **ESTE PASO REQUIERE PEDIR APROBACIÓN ANTES DE SEGUIR AVANZANDO**
 
