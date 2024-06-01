@@ -8,7 +8,7 @@ export default defineConfig({
   head: [["script", { src: "/assets/missing-page-redirector.js" }]],
 
   // TODO delete this setting
-  // ignoreDeadLinks: true,
+  ignoreDeadLinks: true,
 
   locales: {
     root: {
@@ -55,8 +55,7 @@ export default defineConfig({
     // ],
 
     editLink: {
-      pattern:
-        "https://github.com/RetroAchievements/docs-vitepress/edit/main/docs/:path",
+      pattern: "https://github.com/RetroAchievements/docs-vitepress/edit/main/docs/:path",
       text: "Edit this page",
     },
 
