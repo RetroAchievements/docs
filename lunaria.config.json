@@ -1,8 +1,7 @@
 {
   "$schema": "./node_modules/@lunariajs/core/config.schema.json",
   "repository": {
-    "name": "RetroAchievements/docs-vitepress",
-    "rootDir": "docs"
+    "name": "RetroAchievements/docs-vitepress"
   },
   "files": [
     {
