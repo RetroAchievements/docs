@@ -28,7 +28,7 @@ RADocs is a [VitePress](https://vitepress.dev/) app. There are multiple ways you
 
 ### I just want to edit a page
 
-1. Visit any page in the docs, scroll to the bottom, and click the "Edit this page" link.
+1. Visit any page on the docs site, scroll to the bottom, and click the "Edit this page" link.
 2. Click the "Fork this repository" button.
 3. Make and preview your changes in the Markdown editor on the screen.
 4. Click the "Commit changes" button.
@@ -49,11 +49,19 @@ After you've forked the repository, you should automatically be viewing your for
 
 ![readme search](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/readme-search.png)
 
-Once a document is opened, it's extremely helpful to also open VSCode's built-in Markdown preview. First, open the command palette with the Ctrl+Shift+P hotkey, then search for "markdown preview", then select the "Markdown: Open Preview to the Side" option. This will let you preview your changes as you write them.
+Once a document is opened, it's extremely helpful to also open VSCode's built-in Markdown preview. First, open the command palette with the Ctrl+Shift+P hotkey (in Firefox, use F1), then search for "markdown preview", then select the "Markdown: Open Preview to the Side" option. This will let you preview your changes as you write them.
 
 ![markdown preview](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/markdown-preview.png)
 
 Another helpful VSCode hotkey is Ctrl+Shift+F. This lets you search for some text throughout the entire project in the event you don't know where the file is you're looking for.
+
+Before saving any changes, you'll want to make sure you're on a new branch. The default branch is `main`, and it can only receive changes from pull requests. On the bottom left, VSCode will show you what branch you're on. Go ahead and click this to see some options appear:
+
+![current branch](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/current-branch.png)
+
+Click "Create branch", give your branch whatever name you want, press Enter, and then click "Switch to Branch". You're now ready to save your changes.
+
+![current branch](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/switch-to-branch.png)
 
 Use Ctrl+S to save files as you work in them.
 
@@ -63,7 +71,7 @@ When you're ready to propose a pull request for your changes, follow these steps
 
 ![commit changes](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/commit-changes.png)
 
-2. Open the command palette with Ctrl+Shift+P and use the "Create Pull Request" command.
+2. Open the command palette with Ctrl+Shift+P (in Firefox, use F1) and use the "Create Pull Request" command.
 
 ![create pull request](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/create-pull-request.png)
 
