@@ -5,8 +5,10 @@ export default defineConfig({
   title: "RetroAchievements Docs",
   description: "The official documentation for RetroAchievements.",
 
+  head: [["script", { src: "/assets/missing-page-redirector.js" }]],
+
   // TODO delete this setting
-  ignoreDeadLinks: true,
+  // ignoreDeadLinks: true,
 
   locales: {
     root: {
