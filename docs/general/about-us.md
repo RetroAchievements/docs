@@ -63,6 +63,7 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 - [Snow](https://retroachievements.org/user/Snow)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [televandalist](https://retroachievements.org/user/televandalist)
+- [WCopeland](https://retroachievements.org/user/WCopeland)
 
 ### Moderators
 
@@ -72,7 +73,7 @@ The team responsible to keep the this community a healthy place (at least for th
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
-- [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
+- [LordAndrew](https://retroachievements.org/user/LordAndrew)
 - [Searo](https://retroachievements.org/user/Searo)
 - [Snow](https://retroachievements.org/user/Snow)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
