@@ -8,7 +8,7 @@ export default defineConfig({
   head: [["script", { src: "/assets/missing-page-redirector.js" }]],
 
   // TODO delete this setting
-  // ignoreDeadLinks: true,
+  ignoreDeadLinks: true,
 
   locales: {
     root: {
