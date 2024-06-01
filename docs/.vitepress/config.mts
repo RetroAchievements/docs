@@ -10,6 +10,9 @@ export default defineConfig({
   // TODO delete this setting
   ignoreDeadLinks: true,
 
+  appearance: "dark",
+  lastUpdated: true,
+
   locales: {
     root: {
       label: "English",
@@ -26,8 +29,9 @@ export default defineConfig({
   },
 
   themeConfig: {
-    siteTitle: "Docs",
+    siteTitle: "RetroAchievements",
     logo: "/logo.webp",
+
     outline: {
       level: [2, 4],
     },
@@ -60,12 +64,12 @@ export default defineConfig({
 
     nav: [
       {
-        text: "Guidelines",
-        link: "/guidelines/users/retroachievements-manifesto",
-      },
-      {
         text: "General",
         link: "/general/index",
+      },
+      {
+        text: "Guidelines",
+        link: "/guidelines/users/retroachievements-manifesto",
       },
       {
         text: "Achievement Development",
@@ -436,8 +440,8 @@ export default defineConfig({
     // },
 
     footer: {
-      message: "Released under the MIT license.",
-      copyright: "Copyright © 2024–Present RetroAchievements.",
+      message: "Released under the GPL-3 License. There are no copyright-protected ROMs available for download on RetroAchievements.",
+      copyright: "Copyright © 2012–present RetroAchievements. All rights reserved.",
     },
   },
 });
