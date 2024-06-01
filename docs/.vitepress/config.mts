@@ -42,17 +42,16 @@ export default defineConfig({
     //   },
     // },
 
-    // TODO
-    // socialLinks: [
-    //   {
-    //     icon: "github",
-    //     link: "https://github.com/RetroAchievements/api-docs",
-    //   },
-    //   {
-    //     icon: "discord",
-    //     link: "https://discord.gg/dq2E4hE",
-    //   },
-    // ],
+    socialLinks: [
+      {
+        icon: "github",
+        link: "https://github.com/RetroAchievements/docs-vitepress",
+      },
+      {
+        icon: "discord",
+        link: "https://discord.gg/dq2E4hE",
+      },
+    ],
 
     editLink: {
       pattern: "https://github.com/RetroAchievements/docs-vitepress/edit/main/docs/:path",
