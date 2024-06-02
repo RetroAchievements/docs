@@ -9,13 +9,10 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "lunaria:build": "lunaria build",
-    "lunaria:preview": "lunaria preview"
+    "preview": "vitepress preview docs"
   },
   "license": "MIT",
   "dependencies": {
-    "@lunariajs/core": "^0.1.0",
     "vitepress": "^1.2.2",
     "vue": "3.3.13"
   },

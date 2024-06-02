@@ -52,13 +52,13 @@ Links should follow this syntax
 **Note**: If it is a link to another wiki page it should be a relative path:
 
 ```
-[Tips and Tricks](Tips-and-Tricks)
+[Tips and Tricks](/developer-docs/tips-and-tricks.html)
 ```
 
 Do **NOT** use complete a full URL when linking to another wiki page, like this (**yeah, this is an example of you should NOT do**):
 
 ```
-[Tips and Tricks](https://github.com/RetroAchievements/docs/wiki/Tips-and-Tricks)
+[Tips and Tricks](/developer-docs/tips-and-tricks.html)
 ```
 
 ### Images

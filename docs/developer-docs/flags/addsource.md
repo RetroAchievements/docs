@@ -4,7 +4,7 @@ _**Note**: most likely this technique is not needed for simple games. So, it's n
 
 The `AddSource` can be chosen in the Flag column of the Achievement Editor
 
-When a condition has the `Add Source` flag, the value on that memory address is added to the accumulator. When a condition is reached that does not modify the accumulator, the accumulator is added to value of the address on that condition before the comparison is made, and the accumulator will be reset to 0. It may sound a bit confusing, but the example below will clarify how this works:
+When a condition has the `AddSource` flag, the value on that memory address is added to the accumulator. When a condition is reached that does not modify the accumulator, the accumulator is added to value of the address on that condition before the comparison is made, and the accumulator will be reset to 0. It may sound a bit confusing, but the example below will clarify how this works:
 
 #### Simple example
 
@@ -19,11 +19,11 @@ If the value in `0x8010` is `1` and the value in `0x8020` is `2`, the comparison
 
 Trying to summarize the explanation in an image:
 
-![Add Source Explained](https://user-images.githubusercontent.com/8508804/42702180-1712bca0-869f-11e8-9949-11021fa891bb.png)
+![`AddSource` Explained](https://user-images.githubusercontent.com/8508804/42702180-1712bca0-869f-11e8-9949-11021fa891bb.png)
 
 #### Chaining
 
-You can use the `Add Source` flag to sum more addresses, like in the example below:
+You can use the `AddSource` flag to sum more addresses, like in the example below:
 
 | ID  | Flag      | Type | Size  | Memory | Cmp | Type  | Size | Mem/Val | Hits  |
 | --- | --------- | ---- | ----- | ------ | --- | ----- | ---- | ------- | ----- |

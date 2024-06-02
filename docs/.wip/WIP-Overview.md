@@ -2,9 +2,9 @@
 
 The docs are currently under heavy construction. For starters, the following pages are going to be moved to the site:
 
-- [RetroAchievements Manifesto](RetroAchievements-Manifesto)
+- [RetroAchievements Manifesto](/guidelines/users/retroachievements-manifesto.html)
 - [Users Code of Conduct](Users-Code-of-Conduct)
-- [Global Leaderboard and Achievement Hunting Rules](Global-Leaderboard-and-Achievement-Hunting-Rules)
+- [Global Leaderboard and Achievement Hunting Rules](/guidelines/users/global-leaderboard-and-achievement-hunting-rules.html)
 - [Developer's Code of Conduct](/guidelines/developers/code-of-conduct)
 - [Set Plagiarism](Set-Plagiarism)
 - [Achievement Scoring](/developer-docs/achievement-scoring)

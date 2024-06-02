@@ -37,8 +37,8 @@ Any aspiring dev must demonstrate understanding of the following concepts:
 - [Hexadecimal notation](/developer-docs/memory-inspector#decimal-binary-and-hexadecimal-notations)
 - [Delta values](/developer-docs/delta-values)
 - [Hit counts](/developer-docs/hit-counts)
-- [Pause If](/developer-docs/flags/pauseif)
-- [Reset If](/developer-docs/flags/resetif)
+- [`PauseIf`](/developer-docs/flags/pauseif)
+- [`ResetIf`](/developer-docs/flags/resetif)
 - [Alt Groups](/developer-docs/alt-groups)
 - Memory sizes: [8-bit](/developer-docs/memory-inspector#8-bit-mode) and [single bit](/developer-docs/memory-inspector#single-bits)
 - Achievement logic comparisons besides `=`, such as `>`, `<`, `!=`
