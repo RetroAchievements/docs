@@ -71,7 +71,7 @@ In most cases updating to the latest version of RetroArch will correct the probl
 
 When problems with achievements occur, either where the achievement wasn't awarded to you or it was awarded at the wrong time, there are solutions to get the problems fixed and for proper credit to be given to you! First you'll want to [report the broken achievement](#how-do-i-report-a-broken-achievement). (This is an excellent way to contribute to the betterment of the community!) It creates a ticket report for the achievement developers who will then review the problem and look for a solution.
 
-If the achievement wasn't awarded, you can request a [manual-unlock](#how-can-i-get-credit-for-an-achievement-i-earned-but-wasnt-awarded). You'll need to [report the broken achievement](#how-do-i-report-a-broken-achievement) and provide [proof of completion](#in-detail-how-to-request-a-manual-unlock).
+If the achievement wasn't awarded, you can request a [manual-unlock](#how-do-i-request-a-manual-unlock). You'll need to [report the broken achievement](#how-do-i-report-a-broken-achievement) and provide [proof of completion](#in-detail-how-to-request-a-manual-unlock).
 
 ### How do I report a broken achievement?
 
@@ -119,20 +119,16 @@ RA hash is an unique string of 32 hexadecimal numbers, to distinguish different 
 - For Retroarch - Quick Menu ⇒ Information, then at the bottom there is "RetroAchievements Hash" which is, in fact an RA hash
 - For Standalones/RaLibretro - RetroAchievement tab at the top ⇒ Get ROM Checksum, and it shows the RA hash
 
-#### In short how to request a manual unlock
+### How do I request a manual unlock?
 
-- If you use [Discord](https://discord.gg/dq2E4hE)  
-  Post in the [#manual-unlock](https://discord.gg/FswPDnu) channel a request that looks similar to one of these:
+- If you use [Discord](https://discord.gg/dq2E4hE), post in the [#manual-unlock](https://discord.com/channels/310192285306454017/1029858289221116104) channel a request that follows the format of [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
 
-      @manual-unlock http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo
-
-      @manual-unlock http://retroachievements.org/ticketmanager.php?i=16705 softcore Proof: https://i.imgur.com/83bJE43.png
-
-- If you don't use [Discord](https://discord.gg/dq2E4hE)  
-  While signed into **RetroAchievments.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
+- If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievments.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
   and a description that looks similar to this:
 
-      Hi. I'm requesting a manual unlock. http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo
+  ```
+  Hi. I'm requesting a manual unlock. http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo
+  ```
 
 #### In detail how to request a manual unlock
 
