@@ -102,10 +102,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   text: "Links Úteis",
         //   link: "/pt/general/useful-links",
         // },
-        // {
-        //   text: "Contribuindo para os Documentos",
-        //   link: "/pt/general/contributing-to-the-docs",
-        // },
+        {
+          text: "Contribuindo para os Documentos",
+          link: "/pt/general/contributing-to-the-docs",
+        },
         // {
         //   text: "Sobre Nós",
         //   link: "/pt/general/about-us",
