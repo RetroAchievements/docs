@@ -1,3 +1,5 @@
+// Preferably, nginx gets updated too.
+
 const redirects = {
   "/RetroAchievements-Manifesto": "/guidelines/users/retroachievements-manifesto.html",
   "/Users-Code-of-Conduct/": "/guidelines/users/code-of-conduct.html",
