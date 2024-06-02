@@ -59,10 +59,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "FAQ",
           link: "/general/faq",
         },
-        {
-          text: "Setup Guide",
-          link: "/general/setup-guide",
-        },
+        // {
+        //   text: "Setup Guide",
+        //   link: "/general/setup-guide",
+        // },
         {
           text: "Emulator Support and Issues",
           link: "/general/emulator-support-and-issues",
