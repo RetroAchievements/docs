@@ -14,7 +14,7 @@ export const es = defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/RetroAchievements/docs-vitepress/edit/main/docs/:path",
+      pattern: "https://github.com/RetroAchievements/docs/edit/main/docs/:path",
       text: "Editar esta página",
     },
 

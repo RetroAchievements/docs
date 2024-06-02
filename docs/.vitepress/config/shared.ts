@@ -35,7 +35,7 @@ export const shared = defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/RetroAchievements/docs-vitepress",
+        link: "https://github.com/RetroAchievements/docs",
       },
       {
         icon: "discord",

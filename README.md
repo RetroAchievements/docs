@@ -39,29 +39,29 @@ RADocs is a [VitePress](https://vitepress.dev/) app. There are multiple ways you
 
 ### I want to create pages or work on multiple pages
 
-First, fork the repository on GitHub. You can do this by clicking the "Fork" button on the [repository's page](https://github.com/RetroAchievements/docs-vitepress):
+First, fork the repository on GitHub. You can do this by clicking the "Fork" button on the [repository's page](https://github.com/RetroAchievements/docs):
 
-![fork button](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/fork-button.png)
+![fork button](https://github.com/RetroAchievements/docs/blob/main/docs/public/fork-button.png)
 
 A form will appear when clicking this button. Press "Create fork".
 
 After you've forked the repository, you should automatically be viewing your fork. Once it's visible, press the period (".") key on your keyboard. This will open VSCode inside your browser. You can use the file tree on the left to explore the docs, specifically by expanding the "docs" folder. You can search for files by using the Ctrl+P hotkey, for example, you can search for "README":
 
-![readme search](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/readme-search.png)
+![readme search](https://github.com/RetroAchievements/docs/blob/main/docs/public/readme-search.png)
 
 Once a document is opened, it's extremely helpful to also open VSCode's built-in Markdown preview. First, open the command palette with the Ctrl+Shift+P hotkey (in Firefox, use F1), then search for "markdown preview", then select the "Markdown: Open Preview to the Side" option. This will let you preview your changes as you write them.
 
-![markdown preview](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/markdown-preview.png)
+![markdown preview](https://github.com/RetroAchievements/docs/blob/main/docs/public/markdown-preview.png)
 
 Another helpful VSCode hotkey is Ctrl+Shift+F. This lets you search for some text throughout the entire project in the event you don't know where the file is you're looking for.
 
 Before saving any changes, you'll want to make sure you're on a new branch. The default branch is `main`, and it can only receive changes from pull requests. On the bottom left, VSCode will show you what branch you're on. Go ahead and click this to see some options appear:
 
-![current branch](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/current-branch.png)
+![current branch](https://github.com/RetroAchievements/docs/blob/main/docs/public/current-branch.png)
 
 Click "Create branch", give your branch whatever name you want, press Enter, and then click "Switch to Branch". You're now ready to save your changes.
 
-![current branch](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/switch-to-branch.png)
+![current branch](https://github.com/RetroAchievements/docs/blob/main/docs/public/switch-to-branch.png)
 
 Use Ctrl+S to save files as you work in them.
 
@@ -69,15 +69,15 @@ When you're ready to propose a pull request for your changes, follow these steps
 
 1. Click the Source Control icon on the left, right click the files you've changed and click "Stage Changes". Write some message describing your commit, then click the "Commit & Push" button.
 
-![commit changes](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/commit-changes.png)
+![commit changes](https://github.com/RetroAchievements/docs/blob/main/docs/public/commit-changes.png)
 
 2. Open the command palette with Ctrl+Shift+P (in Firefox, use F1) and use the "Create Pull Request" command.
 
-![create pull request](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/create-pull-request.png)
+![create pull request](https://github.com/RetroAchievements/docs/blob/main/docs/public/create-pull-request.png)
 
 3. You'll see the following form appear:
 
-![pr form](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/public/pr-form.png)
+![pr form](https://github.com/RetroAchievements/docs/blob/main/docs/public/pr-form.png)
 
 Enter a title and description for your pull request. Then click the Create button.
 
@@ -85,7 +85,7 @@ Your pull request is now created and ready for review.
 
 ### I want to add a new page
 
-New pages need to be hooked up to the project's [config.mts file](https://github.com/RetroAchievements/docs-vitepress/blob/main/docs/.vitepress/config.mts). Nearly all site navigation lives in the `sidebar` config in this file.
+New pages need to be hooked up to the project's [config.mts file](https://github.com/RetroAchievements/docs/blob/main/docs/.vitepress/config.mts). Nearly all site navigation lives in the `sidebar` config in this file.
 
 If your new Markdown file lives in _docs/general/my-file.md_, you'd add this to the configuration:
 
@@ -117,13 +117,13 @@ You'll also need to have Git installed. If you're a Windows user, [download and 
 Next, open a command prompt/terminal and clone this repository to somewhere on your computer:
 
 ```
-C:\My Documents\> git clone https://github.com/RetroAchievements/docs-vitepress.git
+C:\My Documents\> git clone https://github.com/RetroAchievements/docs.git
 ```
 
 Navigate into the cloned repository and run a few more commands to install dependencies and run the local dev server:
 
 ```
-C:\My Documents\> cd docs-vitepress
-C:\My Documents\docs-vitepress> npm install
-C:\My Documents\docs-vitepress> npm run dev
+C:\My Documents\> cd docs
+C:\My Documents\docs> npm install
+C:\My Documents\docs> npm run dev
 ```
