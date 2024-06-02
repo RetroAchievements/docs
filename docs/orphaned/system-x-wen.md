@@ -33,7 +33,7 @@ Another big advantage is that libretro cores also function in [RetroArch](https:
 As achievement triggers are a series of conditions that watch for things that happen in the emulated RAM,
 another requirement is access to the system's RAM.
 
-Without exposed memory, the [Memory Inspector](https://docs.retroachievements.org/Memory-Inspector-Overview/) appears blank and achievement creators are unable to create achievements.
+Without exposed memory, the [Memory Inspector](/developer-docs/memory-inspector.html) appears blank and achievement creators are unable to create achievements.
 
 Additionally, as RetroAchievements only reads the memory once per frame, some systems which heavily leverage [paged memory](https://en.wikipedia.org/wiki/Paging) have to provide some way to access the entire memory, not just the current page of memory.
 
@@ -45,7 +45,7 @@ The core must function in RALibretro, as that is where the achievement developer
 
 This is usually only an issue if the core relies on some functionality not yet implemented in RALibretro (like the recently added keyboard and OpenGL 3D support), but some issues are caused by the RALibretro implementation being sufficiently different from the RetroArch implementation. Unless the core can be modified to not require the missing functionality, it cannot be supported until RALibretro is updated.
 
-[This page](http://docs.retroachievements.org/Emulator-Support-and-Issues/) lists the status of each core the last time they were tested.
+[This page](/general/emulator-support-and-issues.html) lists the status of each core the last time they were tested.
 
 **Managed by**: RetroAchievements
 
@@ -55,7 +55,7 @@ We must be able to uniquely identify the games for the system.
 
 We use a method called [MD5](https://en.wikipedia.org/wiki/MD5), which scans the game's file and generates a number that we usually call as "hash". With this number it's possible to confirm if two copies of a file are identical, which makes it possible to ensure the player is using a ROM that the achievements were designed or tested against.
 
-For most systems, we are able to just hash the entire ROM file, minus any header information. For larger games (particularly those on CD or DVD) we only hash what we consider to be the most important data to minimize load times. More information on how we identify games can be found [here](https://docs.retroachievements.org/Game-Identification/).
+For most systems, we are able to just hash the entire ROM file, minus any header information. For larger games (particularly those on CD or DVD) we only hash what we consider to be the most important data to minimize load times. More information on how we identify games can be found [here](/developer-docs/game-identification.html).
 
 For systems with writable media (mostly home computers), we have to make sure that we don't hash any files that may be modified by the game itself. Systems that write to the game file must treat the original disk file as readonly and only write changes to a copy of the disk. If the core/emulator modifies the disk file, it can no longer be identified and cannot be considered viable for achievements.
 
@@ -69,4 +69,4 @@ In order to support a new system, the RetroAchievements web server must be prope
 
 ### When will RA support System X?
 
-[This page](http://docs.retroachievements.org/Emulator-Support-and-Issues/) lists the status of each core the last time they were tested.
+[This page](/general/emulator-support-and-issues.html) lists the status of each core the last time they were tested.

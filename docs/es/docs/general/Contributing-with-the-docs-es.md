@@ -1,8 +1,8 @@
 Resumiendo las cosas:
 
 1. Inicia sesión en tu cuenta de github (o [crea una cuenta](https://github.com/join) si no cuentas con una).
-2. Edita una pagina (o crea una nueva) en la [RAwiki](https://github.com/RetroAchievements/docs/wiki/). Tienes que utilizar el lenguaje de marcado Markdown (mas información mas abajo).
-3. Tarde o temprano un moderador va a generar las paginas para [RAdocs](https://docs.retroachievements.org).
+2. Edita una pagina (o crea una nueva) en la [RAWiki](https://github.com/RetroAchievements/docs/wiki/). Tienes que utilizar el lenguaje de marcado Markdown (mas información mas abajo).
+3. Tarde o temprano un moderador va a generar las paginas para [RADocs](https://docs.retroachievements.org).
 
 La diferencia entre RAwiki y RAdocs es explicada en [Como funciona la documentación de RA](How-RA-Documentation-Works-es).
 
