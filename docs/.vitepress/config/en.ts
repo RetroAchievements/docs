@@ -30,14 +30,17 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: "General",
       link: "/general/index",
+      activeMatch: "/general/",
     },
     {
       text: "Guidelines",
       link: "/guidelines/users/retroachievements-manifesto",
+      activeMatch: "/guidelines/",
     },
     {
       text: "Achievement Development",
       link: "/developer-docs/index",
+      activeMatch: "/developer-docs/",
     },
   ];
 }

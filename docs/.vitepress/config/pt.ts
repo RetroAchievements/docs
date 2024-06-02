@@ -45,14 +45,17 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: "Geral",
       link: "/pt/general/index",
+      activeMatch: "/pt/general/",
     },
     {
       text: "Diretrizes",
       link: "/pt/guidelines/users/retroachievements-manifesto",
+      activeMatch: "/pt/guidelines/",
     },
     {
       text: "Desenvolvimento de Conquistas",
-      link: "/pt/developer-docs/index",
+      link: "/pt/developer-docs/indexo",
+      activeMatch: "/pt/developer-docs/",
     },
   ];
 }

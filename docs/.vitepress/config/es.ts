@@ -45,14 +45,17 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: "General",
       link: "/es/general/index",
+      activeMatch: "/es/general/",
     },
     {
       text: "Directrices",
       link: "/es/guidelines/users/retroachievements-manifesto",
+      activeMatch: "/es/guidelines/",
     },
     {
       text: "Desarrollo de Logros",
       link: "/es/developer-docs/index",
+      activeMatch: "/es/developer-docs/",
     },
   ];
 }
