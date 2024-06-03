@@ -4,7 +4,7 @@ description: Learn how to effectively use the Remember flag to store values for 
 ---
 # `Remember`
 
-*This feature will be available at the RA_Integration version 1.4 milestone for developers. with support to be added for rcheevos version 11.4 milestone.*
+*This feature will be available at the RA_Integration version 1.4 milestone for developers, with support to be added for rcheevos version 11.4 milestone.*
 
 The `Remember` condition is chosen in the Flag column of the Asset Editor. Since many of the use cases tend to be fairly complex, it is recommended you be familiar with the rest of the tool kit before studying some of the more complicated examples below.
 
