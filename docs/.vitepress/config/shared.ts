@@ -1,5 +1,7 @@
 import { type HeadConfig, defineConfig } from "vitepress";
-// TODO search configs
+
+import { search as esSearch } from "./es";
+import { search as ptSearch } from "./pt";
 
 export const shared = defineConfig({
   // Metadata
@@ -53,15 +55,15 @@ export const shared = defineConfig({
       level: [2, 4],
     },
 
-    // TODO
-    // search: {
-    //   provider: "algolia",
-    //   options: {
-    //     appId: "3QMK5TQHQC",
-    //     apiKey: "a5d33ec313db5c671171ca35d3de3cea",
-    //     indexName: "retroachievements-api-js",
-    //   },
-    // },
+    search: {
+      provider: "algolia",
+      options: {
+        appId: "ZZXWI82V1J",
+        apiKey: "2b510f2ef4d79811fe1f6dd437c595e1",
+        indexName: "retroachievements",
+        locales: { ...esSearch, ...ptSearch },
+      },
+    },
 
     socialLinks: [
       {
