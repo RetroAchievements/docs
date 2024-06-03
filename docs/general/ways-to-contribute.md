@@ -12,19 +12,19 @@ Another important situation that needs to be reported is a cheevo triggering by 
 
 There are two ways to report a broken cheevo: directly in the emulator or via website. On both cases, add details of the state of your game, when it triggered/didn't trigger, what game mode, where you were when it happened/didn't happen, if you had reset the game recently, anything else you think may be relevant to the achievement. This is necessary for our system so the devs know where there is a problem.
 
-### Reporting Via emulator
-
-Go to RetroAchievements -> Report Broken Achievements, this feature is only available on official emulators (not on RetroArch).
-
-See this example:
-
-![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
-
 ### Report Via Website
 
 On every achievement's page you see a link saying `Report an issue for this achievement`, like in the image below:
 
 ![open-ticket-on-site](https://user-images.githubusercontent.com/8508804/38785449-9c8abffc-40f6-11e8-8d9b-d9bac5b0d5d4.png)
+
+### Reporting Via emulator
+
+Go to RetroAchievements -> Report Broken Achievements, this feature is only available on first-party emulators such as RALibretro (not on RetroArch).
+
+See this example:
+
+![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
 
 ## Suggest Achievement Ideas
 
