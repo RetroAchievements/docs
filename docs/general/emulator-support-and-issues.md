@@ -63,7 +63,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ BizHawk core: **Atari2600Hawk**
   - Achievements that require emulator resets do not work - if you see one, please open a ticket so the achievement can be fixed.
 
-#### Atari 5200
+### Atari 5200
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **atari800**
@@ -74,40 +74,40 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ libretro core: **a5200**
   - Does not expose memory
 
-#### Atari 7800
+### Atari 7800
 
 - ✅ libretro core: **ProSystem**
 - ✅ BizHawk core: **A7800Hawk**
 
-#### Atari Jaguar
+### Atari Jaguar
 
 - ✅ libretro core: **Virtual Jaguar**
   - No save state support
   - [Many issues with emulation](https://github.com/libretro/virtualjaguar-libretro/issues/38)
 - ✅ BizHawk core: **Virtual Jaguar**
 
-#### Atari Jaguar CD
+### Atari Jaguar CD
 
 - ✅ BizHawk core: **Virtual Jaguar**
 
-#### Atari Lynx
+### Atari Lynx
 
 - ✅ libretro core: **Handy**
   - Most recommended
 - ✅ libretro core: **Beetle Lynx**
 - ✅ BizHawk core: **Handy** (Mednafen's fork)
 
-#### Atari ST
+### Atari ST
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **Hatari**
   - Memory not exposed
 
-#### Cassette Vision
+### Cassette Vision
 
 - ❌ _Not supported_ - needs hashing method and memory map
 
-#### CHIP-8
+### CHIP-8
 
 - ❌ _Not supported_ - needs console ID, hashing method and memory map
 - ❌ libretro core: **Emux CHIP-8**
@@ -115,12 +115,12 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - 16 Apr 22 - Seems ready when we are
   - May need settings blacklist to prevent lowering speed
 
-#### Commodore 128
+### Commodore 128
 
 - ❌ _Not supported_
 - ❌ libretro core: **VICE x128**
 
-#### Commodore 64
+### Commodore 64
 
 - ❌ libretro core: **vice_x64**
   - NOTE: Joystick is in port 2 by default. Use JOY button on virtual keyboard (select) to switch it to port 1.
@@ -129,49 +129,49 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Testing
 - ❓ libretro core: **Frodo**
 
-#### ColecoVision
+### ColecoVision
 
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **blueMSX**
 - ✅ BizHawk core: **ColecoHawk**
 - ❌ libretro core: **Gearcoleco**
 
-#### Elektronika BK-0010/0011
+### Elektronika BK-0010/0011
 
 - ❌ _Not supported_
 - ❌ libretro core: **M**
 
-#### Elektor TV Games Computer
+### Elektor TV Games Computer
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
 
-#### Enterprise 128
+### Enterprise 128
 
 - ❌ _Not supported_
 - ❌ libretro core: **ep128emu**
 
-#### Fairchild Channel-F
+### Fairchild Channel-F
 
 - ✅ libretro core: **FreeChaF**
 - ❓ BizHawk core: **ChannelFHawk**
 
-#### Famicom Disk System
+### Famicom Disk System
 
 - ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
 - ✅ libretro core: **Mesen**
 
-#### FM Towns
+### FM Towns
 
 - ❌ _Not supported_ - needs hashing method and memory map
 
-#### Game & Watch
+### Game & Watch
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **gw**
   - Does not expose memory
 
-#### Game Boy
+### Game Boy
 
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ libretro core: **Gambatte**
@@ -185,7 +185,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ libretro core: **SameBoy**
 - ❓ libretro core: **TGB Dual**
 
-#### Game Boy Color
+### Game Boy Color
 
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ Standalone emulator: **[Pizza Boy GBC](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy)**
@@ -204,7 +204,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ libretro core: **SameBoy**
 - ❓ libretro core: **TGB Dual**
 
-#### Game Boy Advance
+### Game Boy Advance
 
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ Standalone emulator: **[Pizza Boy GBA](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygba)**
@@ -220,20 +220,20 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
 
-#### GameCube
+### GameCube
 
 - ⌛ Standalone emulator: **Dolphin**
   - Testing
 - ⌛ libretro core: **Dolphin**
   - Testing
 
-#### Game Gear
+### Game Gear
 
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **Genesis Plus GX**
 - ✅ libretro core: **GearSystem**
 
-#### Genesis / Mega Drive
+### Genesis / Mega Drive
 
 - ✅ libretro core: **Genesis Plus GX**
   - Most recommended
@@ -242,28 +242,28 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - While some achievements may work, the core has issues with the Game RAM portion of memory.
 - ✅ BizHawk core: **Genplus-gx** (Genesis Plus GX)
 
-#### Intellivision
+### Intellivision
 
 - ✅ libretro core: **FreeIntV**
   - Crashes when game is reset
   - Some crashes which might be related to Intellivoice
 - ✅ BizHawk core: **IntelliHawk**
 
-#### Interton VC 4000
+### Interton VC 4000
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
 
-#### J2ME
+### J2ME
 
 - ❌ _Not supported_ - needs console ID, hashing method and memory map
 - ❌ libretro core: **freej2me**
 
-#### Magnavox Odyssey 2
+### Magnavox Odyssey 2
 
 - ✅ libretro core: **O2EM**
 - ❓ BizHawk core: **O2Hawk**
 
-#### Master System | Mark III
+### Master System | Mark III
 
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **Gearsystem**
@@ -272,16 +272,16 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ BizHawk core: **SMSHawk**
 - ❓ libretro core: **Emux SMS**
 
-#### Mega Duck
+### Mega Duck
 
 - ✅ libretro core: **SameDuck**
 
-#### MicroW8
+### MicroW8
 
 - ❌ _Not supported_
 - ❌ libretro core: **MicroW8**
 
-#### MS-DOS
+### MS-DOS
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **dosbox-core**
@@ -291,30 +291,30 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Needs a way to prevent TSRs
   - Needs a way to deactivate achievements if game drops to command prompt
 
-#### MSX
+### MSX
 
 - ✅ libretro core: **blueMSX**
   - Hash relies on .DSK file not being modified
   - .DSK files appear to be unsupported if they also require a cartridge. There is a core option for this, but it doesn't seem to function properly. See "SD Snatcher", which used a 'sound' cartridge.
 - ❓ libretro core: **fMSX**
 
-#### Neo Geo CD
+### Neo Geo CD
 
 - ✅ libretro core: **NeoCD**
 
-#### Neo Geo Pocket
+### Neo Geo Pocket
 
 - ✅ libretro core: **Beetle NeoPop**
 - ❓ libretro core: **RACE**
 - ✅ BizHawk core: **NeoPop** (Mednafen)
 
-#### Neo Geo Pocket Color
+### Neo Geo Pocket Color
 
 - ✅ libretro core: **Beetle NeoPop**
 - ❓ libretro core: **RACE**
 - ✅ BizHawk core: **NeoPop** (Mednafen)
 
-#### NES / Famicom
+### NES / Famicom
 
 - ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
@@ -327,7 +327,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ libretro core: **Emux NES**
 - ❓ libretro core: **fixNES**
 
-#### Nintendo 3DS
+### Nintendo 3DS
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **Citra**
@@ -336,7 +336,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ libretro core: **Citra 2018**
 - ❌ libretro core: **Citra Canary**
 
-#### Nintendo 64
+### Nintendo 64
 
 - ✅ Standalone emulator: **[RAProject64](https://retroachievements.org/download.php#rap64)**
 - ✅ libretro core: **ParaLLEl N64**
@@ -345,7 +345,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ⌛ BizHawk core: **Mupen64Plus**
   - Testing (there are some graphical issues that can be fixed using the angrylion plugin)
 
-#### Nintendo DS
+### Nintendo DS
 
 - Limited microphone support
 - ✅ libretro core: **DeSmuME**
@@ -354,7 +354,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **melonDS DS**
 - ✅ BizHawk core: **melonDS**
 
-#### Nintendo DSi
+### Nintendo DSi
 
 - ✅ libretro core: **melonDS DS**
   - Does not support save states at this time
@@ -362,20 +362,20 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ libretro core: **DeSmuME**
 - ❌ libretro core: **melonDS**
 
-#### Nokia N-Gage
+### Nokia N-Gage
 
 - ❌ _Not supported_ - needs hashing method and memory map
 
-#### Oric
+### Oric
 
 - ❌ _Not supported_
 
-#### Palm OS
+### Palm OS
 
 - ❌ _Not supported_
 - ❌ libretro core: **Mu**
 
-#### PC Engine | TurboGrafx-16 | SuperGrafx
+### PC Engine | TurboGrafx-16 | SuperGrafx
 
 - ✅ libretro core: **Beetle PCE Fast**
   - SuperGrafx games do not work on the Beetle PCE Fast core
@@ -383,7 +383,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Most recommended
 - ✅ BizHawk core: **PCEHawk**
 
-#### PC Engine CD | TurboGrafx-CD
+### PC Engine CD | TurboGrafx-CD
 
 - ✅ libretro core: **Beetle PCE Fast**
 - ✅ libretro core: **Beetle SuperGrafx**
@@ -392,11 +392,11 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ libretro core: **Beetle PCE**
   - Does not expose RAM needed for PC Engine CD
 
-#### PC-6001
+### PC-6001
 
 - ❌ _Not supported_ - needs hashing method and memory map
 
-#### PC-8800
+### PC-8800
 
 - ✅ Standalone emulator: **[RAQuasi88](https://retroachievements.org/download.php#raquasi88)**
   - Most recommended
@@ -407,7 +407,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - 16 Apr 2022 - Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch
   - 16 Apr 2022 - RALibretro does not provide subsystem interface for loading multi-disk games
 
-#### PC-9800
+### PC-9800
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **Neko Project II Kai**
@@ -415,29 +415,29 @@ description: Comprehensive guide to emulator support and compatibility for Retro
     - It appears to be exposed in some games depending on the RAM size selected, but it seems like the machine RAM and not actually related to the game.
 - ❌ libretro core: **Neko Project II**
 
-#### PC-FX
+### PC-FX
 
 - ✅ libretro core: **Beetle PC-FX**
 - ✅ BizHawk core: **T.S.T.** (Mednafen)
 
-#### Philips CD-I
+### Philips CD-I
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **CDi 2015**
 - ❌ libretro core: **SAME CDi**
 
-#### Philips P2000
+### Philips P2000
 
 - ❌ _Not supported_
 - ❌ libretro core: **M2000**
 
-#### Pico-8
+### Pico-8
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **FAKE-08**
 - ❌ libretro core: **Retro8**
 
-#### PlayStation
+### PlayStation
 
 - ✅ Standalone emulator: **[DuckStation](https://www.duckstation.org/wiki/Main_Page)**
   - There may be memory leak and/or burn-in when using save states. Softcore players beware!
@@ -452,7 +452,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ BizHawk core: **Nymashock** (Mednafen)
 - ❓ libretro core: **Rustation**
 
-#### PlayStation 2
+### PlayStation 2
 
 - ✅ Standalone emulator: **[PCSX2](https://pcsx2.net/)**
   - PCSX2 is currently **the only officially supported** option for earning achievements.
@@ -466,7 +466,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Low compatibility with most commerical games
   - Black screen with stuttering sound
 
-#### PlayStation Portable
+### PlayStation Portable
 
 - ✅ Standalone emulator: **[PPSSPP](https://www.ppsspp.org/download/)**
   - Does not support RAIntegration at this time, so achievement developers are unable to troubleshoot potential issues.
@@ -474,23 +474,23 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Loading save states too fast can cause it to crash
   - Some games have graphical issues
 
-#### PocketStation
+### PocketStation
 
 - ❌ _Not supported_ - needs console ID, hashing method and memory map
 - ❌ libretro core: **pockystation**
   - Core doesn't seem functional, even in RetroArch
 
-#### Pokemon Mini
+### Pokemon Mini
 
 - ✅ libretro core: **PokeMini**
 
-#### SAM Coupé
+### SAM Coupé
 
 - ❌ _Not supported_
 - ❌ libretro core: **SimCoupe**
   - Still in alpha state
 
-#### Sega 32X
+### Sega 32X
 
 - ✅ libretro core: **PicoDrive**
   - Several games are problematic, use BizHawk if an achievement shows as Unsupported
@@ -498,25 +498,25 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ BizHawk core: **PicoDrive**
   - Most recommended
 
-#### Sega CD
+### Sega CD
 
 - Appears to still have unmapped RAM
 - ✅ libretro core: **Genesis Plus GX**
 - ✅ libretro core: **Picodrive**
 
-#### Sega Dreamcast
+### Sega Dreamcast
 
 - ✅ libretro core: **flycast**
   - Must disable threaded rendering to use save states
 - ❓ libretro core: **Flycast GLES2**
 
-#### Sega Pico
+### Sega Pico
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **picodrive**
   - Needs controls related to turning pages in the attached books
 
-#### Sega Saturn
+### Sega Saturn
 
 - ✅ libretro core: **Beetle Saturn**
   - The only _recommended_ core
@@ -529,7 +529,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ⌛ BizHawk core: **Saturnus** (Mednafen)
   - Testing
 
-#### SG-1000
+### SG-1000
 
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **Genesis Plus GX**
@@ -538,19 +538,19 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ libretro core: **Gearsystem**
   - Has significant unexposed memory
 
-#### Sharp X1
+### Sharp X1
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **X1 Millennium**
   - 16 Apr 2022 - Disk writes modify source media, which breaks hashing
 
-#### Sharp X68K
+### Sharp X68K
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **px68k**
   - Crashes RALibretro upon loading a game
 
-#### SNES | Super Famicom | Satellaview | Sufami Turbo
+### SNES | Super Famicom | Satellaview | Sufami Turbo
 
 - ✅ Standalone emulator: **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)**
 - ✅ libretro core: **Snes9x (Current)**
@@ -577,107 +577,107 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ BizHawk core: **BSNES**
 - ❓ BizHawk core: **BSNESv115+**
 
-#### SpectraVideo SVI 318/328
+### SpectraVideo SVI 318/328
 
 - ❌ _Not supported_
 - ❌ libretro core: **blueMSX**
 
-#### Super Cassette Vision
+### Super Cassette Vision
 
 - ❌ libretro core: **EmuSCV**
   - Unfinished according to [libretro docs](https://docs.libretro.com/library/emuscv/).
   - Does not expose memory. Appears to [export a save state](https://gitlab.com/MaaaX-EmuSCV/libretro-emuscv/-/blob/master/src/libretro.cpp#L223-229) via the RETRO_MEMORY_SAVE_RAM interface, which we try to shoehorn into $E000 as that's what's flagged as Cartridge RAM for the system.
 
-#### Thomson TO8/TO8D
+### Thomson TO8/TO8D
 
 - ❌ _Not supported_ - needs hashing method
 - ❌ libretro core: **Theodore**
   - Seems to work
   - Uncertain how core handles writing to disk/tape. May affect hashing.
 
-#### TI-83
+### TI-83
 
 - ⌛ libretro core: **Numero**
   - Testing
 - ⌛ BizHawk core: **TI83Hawk**
   - Testing
 
-#### TIC-80
+### TIC-80
 
 - ❌ _Not supported_ - needs hashing method
 - ❌ libretro core: **TIC-80**
   - Doesn't export memory correctly. Can only see 8 bytes.
 
-#### Uzebox
+### Uzebox
 
 - ✅ BizHawk core: **Uzem**
 - ✅ libretro core: **Uzebox**
 
-#### Vectrex
+### Vectrex
 
 - ✅ libretro core: **VecX**
 
-#### VIC-20
+### VIC-20
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **VICE xvic**
 
-#### Virtual Boy
+### Virtual Boy
 
 - ✅ libretro core: **Beetle VB**
 - ✅ BizHawk core: **Virtual Boyee** (Mednafen)
 
-#### VMU
+### VMU
 
 - ❌ _Not supported_ - needs console ID, hashing method, and memory map
 - ❌ libretro core: **VeMUlator**
 
-#### WASM-4
+### WASM-4
 
 - ✅ libretro core: **wasm4**
 
-#### Watara Supervision
+### Watara Supervision
 
 - ✅ libretro core: **potator**
 
-#### Wii
+### Wii
 
 - ⌛ Standalone emulator: **Dolphin**
   - Testing
 - ⌛ libretro core: **Dolphin**
   - Testing
 
-#### Wii U
+### Wii U
 
 - ❌ _Not supported_ - needs hashing method and memory map
 
-#### WonderSwan
+### WonderSwan
 
 - ✅ libretro core: **Beetle Cygne**
 - ✅ BizHawk core: **Cygne** (Mednafen)
 
-#### WonderSwan Color
+### WonderSwan Color
 
 - ✅ libretro core: **Beetle Cygne**
 - ✅ BizHawk core: **Cygne** (Mednafen)
 
-#### XBOX
+### XBOX
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **DirectXbox**
   - Still in alpha state
 
-#### Zeebo
+### Zeebo
 
 - ❌ _Not supported_ - needs hashing method and memory map
 
-#### ZX81
+### ZX81
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **EightyOne**
   - Memory not exposed
 
-#### ZX Spectrum
+### ZX Spectrum
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **FUSE**
