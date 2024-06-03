@@ -1,3 +1,7 @@
+---
+title: Understanding and Using Remember
+description: Learn how to effectively use the Remember flag to store values for use later in logic, along with several use cases where this is particularly helpful.
+---
 # `Remember`
 
 *This feature will be available at the RA_Integration version 1.4 milestone for developers. with support to be added for rcheevos version 11.4 milestone.*
