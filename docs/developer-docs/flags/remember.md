@@ -58,7 +58,7 @@ In this example, we are using the stored value in multiple chains within an Add 
 
 ## Interaction with Pause If
 
-Because `Pause If` logic is processed before other logic, `Pause If` logic can only recall values that have been remembered by pause logic. Values remembered during `Pause If` logic continue to me remembered during the remaining logic processing. 
+Because `Pause If` logic is processed before other logic, `Pause If` logic can only recall values that have been remembered by pause logic. Values remembered during `Pause If` logic continue to be remembered during the remaining logic processing. 
 
 See the [`Pause If`](/developer-docs/flags/pauseif) document for more information about how that condition works.
 
@@ -110,10 +110,10 @@ You can perform math on a remembered value and remember the result:
 |  4 | Remember  | Recall |        |        |  %  | Value |        | 0x05    |       |
 |  5 |           | Recall |        |        |  =  | Value |        | 0x00    |       |
 
-In this example, let's say you need to calculate the value of `0x1000` + (`0x1002` + `0x1004`) \* 3 and check to see if that is a multiple of 5. You can use `Recall` in a `Remember` condition it keep operating on the remembered value and store the new result.
+In this example, let's say you need to calculate the value of `0x1000` + (`0x1002` + `0x1004`) \* 3 and check to see if that is a multiple of 5. You can use `Recall` in a `Remember` condition to operate on the last remembered value and store the new result.
 
 Notes:
-- If the value of the modulus (`%`) operation is 0, that means there is no remainder from the division by 5, meaning the value is a multiple of 5)
+- If the value of the modulus (`%`) operation is 0, that means there is no remainder from the division by 5, meaning the value is a multiple of 5.
 
 ## Using `Remember` for Calculated Pointer Offsets
 
@@ -128,9 +128,9 @@ In this example, let's say you have an address that points to a table of data, b
 See the [`Add Address`](/developer-docs/flags/addaddress) document for more information about how that condition works.
 
 Breakdown of Conditions:
-1. Scales the index by the size of the data structure.  Now it represents how far from the beginning of the table.
-2. Uses the address for the start of the table and adds to it the stored value.  Now this Add Address points to the start of the "Player Data"
-3. Offsets from the Address by `0x08`, the and reads the current memory value for the Player's Health with 16-bit size, then uses a comparison to check if it is greater than zero.
+1. Scales the index by the size of the data structure.  Now it represents how far from the beginning of the table the data is located.
+2. Uses the address for the start of the table and adds to it the stored value.  Now this Add Address points to the start of the "Player Data" in the table.
+3. Offsets from the Address by `0x08`, where it reads the current memory value for the Player's Health with 16-bit size, then uses a comparison to check if it is greater than zero.
 
 ## Deeper Chaining of `Remember` Conditions
 
@@ -151,13 +151,13 @@ This example shows how using `Remember` continues the chain of And Next conditio
 In this example, we build on the previous `Add Address` example by chaining it with other conditions. Pretend this is a challenge that fails if the player loses health while holding a certain object. Suppose the player data stores the index of the object at offset `0x24` (the value of which is `0xff` if no object is held). Suppose that index is an index into the same table that holds the player data. This example shows the reset chain that accomplishes this. Suppose that offset `0x00` of object data holds the 8-bit ID of the object.
 
 Breakdown of Conditions:
-1. Scales the index by the size of the data structure.  Now it represents how far from the beginning of the table.
-2. Uses the address for the start of the table and adds to it the stored value.  Now this Add Address points to the start of the "Player Data"
+1. Scales the index by the size of the data structure.  Now it represents how far from the beginning of the table the data is located.
+2. Uses the address for the start of the table and adds to it the stored value.  Now this Add Address points to the start of the "Player Data" in the table.
 3. Checks if the player lost health, using the offset for health established in the previous example.
 4. Re-uses the address for the start of the player data
 5. Checks the offset of the held object and makes sure it's not 0xff.
 6. Re-uses the address for the start of the player data
-7. Stores the index of the helf object times the size of the object data and now the stored value is the location of the table where the object is located.
+7. Stores the index of the held object times the size of the object data and now the stored value is the location in the table where the object's data is located.
 8. Uses the object table pointer + location in table of object
 9. Reads the ID of the object and resets if holding the specific object while the other two core conditions in the chain are true (Player lost health and an object is held.
 
