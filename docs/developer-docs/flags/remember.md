@@ -8,7 +8,7 @@ description: Learn how to effectively use the Remember flag to store values for 
 
 The `Remember` condition is chosen in the Flag column of the Asset Editor. Since many of the use cases tend to be fairly complex, it is recommended you be familiar with the rest of the tool kit before studying some of the more complicated examples below.
 
-When a condition has the `Remember Flag`, the value of the condition is stored in the `Recall` accumulator. This value may be used in later logic by using the `Recall` operand found in the Type column of either side.
+When a condition has the `Remember Flag`, the value of the condition is stored in the `Recall` accumulator. This value may be used in later logic by using the [`Recall`](/developer-docs/recall) operand found in the Type column of either side.
 
 There is one remembered value per *group* (Core, Alt1, Alt2, etc). This value is initialized at the beginning of an evaluation as a unsigned integer with value 0. If you Remember a new value, it will overwrite the previously remembered value. If you remember a Float value, the remembered value will be a floating point value instead of an unsigned integer.  Using `Recall` before a value is remembered using the `Remember` condition will generate a warning in the asset editor.
 
