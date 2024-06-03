@@ -4,7 +4,6 @@ import { type HeadConfig, defineConfig } from "vitepress";
 export const shared = defineConfig({
   // Metadata
   title: "RetroAchievements",
-  head: [["script", { src: "/assets/missing-page-redirector.js" }]],
 
   // SEO
   /**
