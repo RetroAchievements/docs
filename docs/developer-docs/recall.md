@@ -11,7 +11,7 @@ A `Recall` value is the the last value stored by the [`Remember` Flag](/develope
 Examples of how it can be used:
 
 - Recall a calculated value for multiple uses in logic.
-- Continuous operation on remembered values to perform maore complicated math than `Add Source` and `Sub Source` can accomplish.
+- Continuous operation on remembered values to perform more complicated math than `Add Source` and `Sub Source` can accomplish.
 - Recall a calculated address+offset for use in `Add Address`
 
 To use a remembered value, specify the `Recall` operator as the Type of operand:

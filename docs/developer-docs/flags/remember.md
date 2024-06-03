@@ -31,7 +31,7 @@ In this example, the `Delta` value of `0x1234`, the value from the previous fram
 | -- | --------- | ----- | ------ | ------ | --- | ----- | ------ | ------- | ----- |
 |  1 | Remember  | Mem   | 16-bit | 0x1234 |  -  | Delta | 16-Bit | 0x1224  |       |
 
-The Remember condition can optionally take two operand and process a value based on an operator such as multiplication, division, addition, subtraction, and others. In this example, we used the subtraction operator to store the equivalent value as in the first example, but we do it in a single line.
+The Remember condition can optionally take two operands and process a value based on an operator such as multiplication, division, addition, subtraction, and others. In this example, we used the subtraction operator to store the equivalent value as in the first example, but we do it in a single line.
 
 ### Using the Stored Value
 
@@ -67,7 +67,7 @@ See the [`Pause If`](/developer-docs/flags/pauseif) document for more informatio
 | ID | Flag      | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val    | Hits  |
 | -- | --------- | ------ | ------ | ------ | --- | ----- | ------ | ---------- | ----- |
 |  1 | Remember  | Mem    | 16-bit | 0x1234 |  -  | Delta | 16-Bit | 0x1224     |       |
-|  2 | Pause If  | Recall |        |        |  >= | Value |        | 0x8000000  | 1 (0) |
+|  2 | Pause If  | Recall |        |        |  >= | Value |        | 0x80000000 | 1 (0) |
 |  3 | And Next  | Recall |        |        |  =  | Value |        | 0x05       |       |
 |  4 | Add Hits  | Mem    | 8-Bit  | 0x1000 |  =  | Value |        | 0x03       | 1 (0) |
 |  5 | And Next  | Recall |        |        |  =  | Value |        | 0x14       |       |
@@ -123,7 +123,7 @@ Notes:
 |  2 | AddAddress | Mem    | 32-bit | 0x1234 |  +  | Recall |        |         |       |
 |  3 |            | Mem    | 16-bit | 0x08   |  >  | Value  |        | 0x00    |       |
 
-In this example, let's say you have an address that points to a table of data, but in order to know where in the table you want to go, you have to calculate the offset from another source.  `0x1234` will be used as the pointer to the table of data. `0x0789` will be the index in the table. The size of data for table entries is `0x60` bytes. And finally, the data we care about is `0x08` bytes into the data's structure Perhaps this is "Player Health" and the index we are calculating is the index in the table where the "Player Data" exists and we need to check if this value is greater than 0.
+In this example, let's say you have an address that points to a table of data, but in order to know where in the table you want to go, you have to calculate the offset from another source.  `0x1234` will be used as the pointer to the table of data. `0x0789` will be the index in the table. The size of data for table entries is `0x60` bytes. And finally, the data we care about is `0x08` bytes into the data's structure. Perhaps this is "Player Health" and the index we are calculating is the index in the table where the "Player Data" exists and we need to check if this value is greater than 0.
 
 See the [`Add Address`](/developer-docs/flags/addaddress) document for more information about how that condition works.
 
