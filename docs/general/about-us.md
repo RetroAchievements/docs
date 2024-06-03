@@ -19,7 +19,6 @@ As the community continues to grow, the amount of work, time, and energy require
 These roles are not really visible in the website, but they are on discord and here in this page we list the roles and their responsibilities.
 
 - [Team Accounts](#team-accounts)
-- [Root](#root)
 - [Administrators](#administrators)
 - [Moderators](#moderators)
 - [Developer Compliance Team](#developer-compliance-team)
@@ -39,15 +38,6 @@ Shared accounts used by their respective team members:
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
-
-### Root
-
-Members who have direct access to the webserver.
-
-- [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
-- [luchaos](https://retroachievements.org/user/luchaos)
-- [MrOwnership](https://retroachievements.org/user/MrOwnership)
-- [Scott](https://retroachievements.org/user/Scott)
 
 ### Administrators
 
