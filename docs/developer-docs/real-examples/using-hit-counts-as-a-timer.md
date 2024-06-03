@@ -1,3 +1,8 @@
+---
+title: Using Hit Counts as a Timer for Achievements
+description: Learn how to use hit counts as a timer to create achievements that require maintaining conditions for a specific duration, illustrated with an example from Super Hang-On.
+---
+
 # Using Hit Counts as a Timer
 
 In this example, you'll see how hit counts can be used as a timer and award an achievement if a condition is true for 10 seconds.

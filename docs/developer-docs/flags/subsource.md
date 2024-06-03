@@ -1,3 +1,8 @@
+---
+title: Utilizing `SubSource` for Advanced Achievement Logic
+description: Learn how to effectively use the `SubSource` flag to subtract values from the accumulator, track specific increments, handle negative results, and optimize complex achievement conditions.
+---
+
 # `SubSource`
 
 _**Note**: most likely this technique is not needed for simple games. So, it's not mandatory for jr-devs._

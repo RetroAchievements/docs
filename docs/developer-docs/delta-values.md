@@ -1,3 +1,8 @@
+---
+title: Using Delta Values for Achievement Development
+description: Learn how to use Delta values in achievement development to detect changes between frames, such as level increases and damage detection.
+---
+
 # `Delta` Values
 
 A `Delta` value is the previous frame's value. **Note**: when you use `Delta` it is implicit that you are referring to an address and not a value.

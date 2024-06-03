@@ -1,3 +1,8 @@
+---
+title: Hit Counts
+description: Learn how to use Hit Counts in the Achievement Editor to create conditions that must be met multiple times before triggering an achievement.
+---
+
 # Hit Counts
 
 In the Achievement Editor, the field on the far right side is Hit Count.

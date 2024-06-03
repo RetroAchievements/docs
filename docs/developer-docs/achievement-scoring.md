@@ -1,3 +1,8 @@
+---
+title: Achievement Scoring Guidelines
+description: Learn how to score achievements effectively, considering factors like difficulty, game length, and achievement spread. Understand the point tiers and guidelines for rescoring and exceptions.
+---
+
 # Achievement Scoring
 
 ## Scoring

@@ -1,3 +1,8 @@
+---
+title: Minimum Required Versions for Logic Features
+description: Detailed overview of the minimum required versions for various logic features of RetroAchievements.
+---
+
 # Minimum Required Versions for Logic Features
 
 Sometimes it's useful to know when a feature was added/changed and the implications of these changes, specially if you are working on a ticket. Compare the ticket timestamp to the toolkit releases to determine which behavior the player would have been subject to.
@@ -36,4 +41,4 @@ Sometimes it's useful to know when a feature was added/changed and the implicati
 | Float BE memory reads                                     |  1.3<br>(17 Apr 2024)  | 1.17.0<br>(3 Feb 2024)  |  11.0<br>(2 Nov 2023)  |
 | FixedN leaderboard/RP sizes                               |  1.3<br>(17 Apr 2024)  | 1.17.0<br>(3 Feb 2024)  | 11.1<br>(21 Jan 2024)  |
 | Double32 memory reads                                     |  1.3<br>(17 Apr 2024)  | 1.19.0<br>(30 May 2024) | 11.2<br>(31 Mar 2024)  |
-| Remember/recall                                           |  1.4<br>(TBD)          | TBD                     | 11.4<br>(TBD)          |
+| Remember/recall                                           |      1.4<br>(TBD)      |           TBD           |     11.4<br>(TBD)      |

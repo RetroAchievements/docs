@@ -1,3 +1,8 @@
+---
+title: Achievement Templates for Various Scenarios
+description: Explore a collection of templates for creating achievements, including examples for collecting items, finishing levels, conditional resets, and more. Learn how to adapt these templates for different games.
+---
+
 # Achievement Templates
 
 ## **WARNING: EVERY GAME IS DIFFERENT!**

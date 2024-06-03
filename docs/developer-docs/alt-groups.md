@@ -1,3 +1,8 @@
+---
+title: Utilizing Alt Groups for Achievement Requirements
+description: Learn how to use Alt Groups to create alternative requirements for unlocking achievements, including examples, facts, and advanced techniques for conditional resets.
+---
+
 # Alt Groups
 
 Achievements can have groups added to them that allow for alternative requirements to unlock an achievement. These are called _Alt Groups_,

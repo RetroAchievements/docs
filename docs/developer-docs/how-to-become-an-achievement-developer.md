@@ -1,3 +1,8 @@
+---
+title: How to Become an Achievement Developer
+description: A step-by-step guide on how to become a RetroAchievements developer, including required knowledge, planning, and best practices.
+---
+
 # How to Become an Achievement Developer
 
 This document describes all the steps that any aspiring achievement developer must follow before getting Developer status. These requirement are also a checklist for Code Reviewers (developers who inspect the code of new developers).

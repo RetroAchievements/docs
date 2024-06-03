@@ -1,3 +1,8 @@
+---
+title: Game Identification Methods by Console
+description: Detailed guide on the hashing methods used for game identification across various gaming consoles, including Nintendo, Sega, Sony, and more.
+---
+
 # Game Identification
 
 This page details the hashing method used for each supported system.

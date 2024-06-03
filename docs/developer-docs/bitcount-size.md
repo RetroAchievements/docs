@@ -1,3 +1,8 @@
+---
+title: Using BitCount Size in Achievement Development
+description: Learn how to use the BitCount size for counting set bits in a byte to create efficient and effective achievement conditions.
+---
+
 # `BitCount` Size
 
 `BitCount` is a shortcut for counting the number of bits set in a byte.

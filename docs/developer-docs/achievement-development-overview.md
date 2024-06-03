@@ -1,3 +1,8 @@
+---
+title: Comprehensive Achievement Development Guide
+description: Dive deep into the craft of achievement creation with this detailed guide covering basic concepts, editor tools, protection methods, logic tips, lesser-known features, and more.
+---
+
 # Achievement Development Overview
 
 ## Intro
