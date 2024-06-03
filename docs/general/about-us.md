@@ -10,7 +10,7 @@ The RetroAchievements project started as a personal project of [Scott Breen](htt
 - review the work of new achievement creators
 - get rid of trolls
 - get rid of cheaters
-- avoid legal problems related to piracy
+- ensure no one is sharing pirated or copyrighted content
 - sometimes host gaming events
 - besides all those chores, RAdmins also have interest in playing old games, you know...
 
@@ -80,7 +80,6 @@ The team responsible for the adherance and driving updates to the [Developer's C
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [malasdair](https://retroachievements.org/user/malasdair)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
-- [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [televandalist](https://retroachievements.org/user/televandalist)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
@@ -97,7 +96,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [Searo](https://retroachievements.org/user/Searo)
-- [Soulsderfuchs](https://retroachievements.org/user/Soulsderfuchs)
 - [StingX2](https://retroachievements.org/user/StingX2)
 - [televandalist](https://retroachievements.org/user/televandalist)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
@@ -111,7 +109,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [Bryan1150](https://retroachievements.org/user/Bryan1150)
 - [DarkyAndreas](https://retroachievements.org/user/DarkyAndreas)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Etron](https://retroachievements.org/user/Etron)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [Fridge](https://retroachievements.org/user/Fridge)
 - [gollawiz](https://retroachievements.org/user/gollawiz)
