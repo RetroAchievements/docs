@@ -365,6 +365,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Trigger",
           link: "/developer-docs/flags/trigger",
         },
+        {
+          text: "Remember",
+          link: "/developer-docs/flags/remember",
+        },
       ],
     },
     {
@@ -390,6 +394,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         {
           text: "Prior Values",
           link: "/developer-docs/prior-values",
+        },
+        {
+          text: "Recall",
+          link: "/developer-docs/recall",
         },
         {
           text: "Value Definition",
