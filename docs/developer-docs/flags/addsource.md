@@ -1,3 +1,8 @@
+---
+title: Understanding and Utilizing AddSource for Accumulator Logic
+description: Learn how to effectively use the AddSource flag to manage accumulators in achievement conditions, including chaining, modifiers, overflow handling, and interactions with float values.
+---
+
 # `AddSource`
 
 _**Note**: most likely this technique is not needed for simple games. So, it's not mandatory for jr-devs._

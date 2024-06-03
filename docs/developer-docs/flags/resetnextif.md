@@ -1,3 +1,8 @@
+---
+title: Effectively Using ResetNextIf to Manage Specific Hit Counts
+description: Learn how to utilize the ResetNextIf flag to selectively reset hit counts of specific conditions, ensuring precise control over achievement progression and avoiding unwanted resets.
+---
+
 # `ResetNextIf`
 
 The `ResetNextIf` Flag is a special version of the [[ResetIf Flag]] that only resets the [hit count](/developer-docs/hit-counts) of the following condition.

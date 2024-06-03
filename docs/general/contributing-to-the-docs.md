@@ -1,3 +1,8 @@
+---
+title: How to Contribute to RetroAchievements Documentation
+description: Learn how to contribute to the RetroAchievements documentation with this comprehensive guide, including how to make quick edits, detailed contributions, and best practices.
+---
+
 # Contributing to the Docs
 
 **All contributions to the docs are welcome.**

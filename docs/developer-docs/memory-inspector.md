@@ -1,3 +1,8 @@
+---
+title: Memory Inspector Overview
+description: Learn how to use the Memory Inspector tool for RetroAchievements to find and analyze game memory addresses.
+---
+
 # Memory Inspector Overview
 
 Here is an overview of the **Memory Inspector** and its features. This tool can be found on "RetroAchievements" menu on any emulator integrated with RA.

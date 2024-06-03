@@ -1,3 +1,8 @@
+---
+title: Multi-Disc Games
+description: A comprehensive guide on handling multi-disc PlayStation games in RetroArch, including instructions for changing discs.
+---
+
 # Multi-Disc Games
 
 ## m3u files

@@ -1,3 +1,8 @@
+---
+title: Detecting Increments with Delta Values and Hit Counts
+description: Learn how to use Delta values and hit counts to accurately detect increments for achievements, with a detailed example from Streets of Rage 2.
+---
+
 # Using Delta Values and Hit Counts to Detect an Increment
 
 Let's take [Streets of Rage 2 (Mega Drive)](http://retroachievements.org/Game/3)

@@ -1,3 +1,8 @@
+---
+title: Emulator Support
+description: Comprehensive guide to emulator support and compatibility for RetroAchievements, including console-specific issues and recommendations for various cores and emulators.
+---
+
 # Emulator Support and Issues
 
 ## Console Support

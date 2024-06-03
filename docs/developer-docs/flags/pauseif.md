@@ -1,3 +1,8 @@
+---
+title: Utilizing PauseIf to Control Achievement Hit Counts
+description: Learn how to effectively use the PauseIf flag to manage hit counts in achievements, prevent unwanted increments during specific scenarios, and understand the interaction with other conditions for optimal achievement tracking.
+---
+
 # `PauseIf`
 
 The `PauseIf` flag can be chosen in the Flag column of the Achievement Editor.

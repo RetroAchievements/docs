@@ -1,3 +1,8 @@
+---
+title: Solving Counter Increment Issues in the Same Frame for Achievements
+description: Learn how to handle the problem of a counter incrementing twice in the same frame using SubSource and AddHits flags, ensuring accurate achievement logic in games with simultaneous item collection.
+---
+
 # Circumvent the Problem of a Counter Incrementing Twice in the Same Frame
 
 In this example you'll see how to circumvent the problem of a counter incrementing twice in the same frame by combining [SubSource](/developer-docs/flags/subsource) and [AddHits](/developer-docs/flags/addhits-subhits).

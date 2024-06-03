@@ -1,3 +1,8 @@
+---
+title: Effectively Using Measured for Tracking Progress in Achievements
+description: Discover how to use the Measured flag to track progress in achievement conditions, manage progress bars, and optimize user experience by providing real-time feedback on achievement completion.
+---
+
 # `Measured`
 
 `Measured` marks a condition for tracking progress. It adds a progress bar to the achievement overlay to inform the user how close they are to completing an achievement. As the user expects an achievement to trigger when the progress bar is full, it is expected that any other conditions in the achievement should be true most of the time.

@@ -1,3 +1,8 @@
+---
+title: Using PauseIf to Control Achievement Processing
+description: Learn how to use the PauseIf flag to prevent achievement processing until specific conditions are met, ensuring accurate tracking and avoiding convoluted logic in complex scenarios.
+---
+
 # Pause Until-Using `PauseIf` to Prevent Achievement Processing Until Some Condition is Met
 
 Sometimes it will be very difficult to identify an on-going timing for when to processing hit counts or other hit-related events. Or, there are a lot of conditions for when something might look valid, but not be valid. This situation may lead to convoluted logic in order to guard against invalid hit counts. One method to mitigate this is a `Pause Until`:

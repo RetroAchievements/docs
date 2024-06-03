@@ -1,3 +1,8 @@
+---
+title: Mastering AndNext and OrNext for Complex Achievement Conditions
+description: Learn how to use the AndNext and OrNext flags to create complex conditional logic for ResetIf, PauseIf, and hit counts in achievement conditions, enabling intricate and flexible achievement requirements.
+---
+
 # `AndNext` and `OrNext`
 
 `AndNext` and `OrNext` are used to associate more than one condition to a [ResetIf](/developer-docs/flags/resetif), [PauseIf](/developer-docs/flags/pauseif), or [Hit Count](/developer-docs/hit-counts).

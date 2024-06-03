@@ -1,3 +1,8 @@
+---
+title: Troubleshooting Achievement Loading Issues
+description: Learn how to resolve issues with achievements not loading for RetroAchievements, including checking ROM compatibility and finding ROM hashes.
+---
+
 # My game is not loading achievements
 
 Maybe you loaded up your game but you see a popup:  

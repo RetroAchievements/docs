@@ -1,3 +1,8 @@
+---
+title: Leveraging the Trigger Flag for Achievement Indicators
+description: Discover how to use the Trigger flag to mark conditions that prime achievements, display challenge indicators, and enhance player experience by signaling active challenges and their statuses.
+---
+
 # `Trigger`
 
 `Trigger` marks one or more conditions in an achievement as the logic that is expected to be the final logic to become true which causes the achievement to trigger. This allows the runtime to know when an achievement is about to trigger, so a challenge indicator can be shown on the screen.

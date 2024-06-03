@@ -1,3 +1,8 @@
+---
+title: Difficulty Scale and Balance for Achievements
+description: Learn how to create a balanced achievement set that is fun, approachable, and challenging using a detailed difficulty scale and best practices.
+---
+
 # Difficulty Scale and Balance
 
 This doc has some suggestions about difficulty, set balance and on keeping a set fun, approachable, and challenging. What you're going to see here are not rules, just suggestions.

@@ -1,3 +1,8 @@
+---
+title: Badge and Icon Creation for Achievements
+description: Learn how to design and upload game icons and achievement badges, including guidelines, styling tips, and file specifications for creating visually appealing and recognizable badges.
+---
+
 # Badge and Icon Creation
 
 ## Game Icons

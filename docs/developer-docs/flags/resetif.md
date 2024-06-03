@@ -1,3 +1,8 @@
+---
+title: Mastering ResetIf to Manage Achievement Hit Counts
+description: Discover how to effectively use the ResetIf flag to reset hit counts and prevent unwanted achievement triggers, ensuring precise control over achievement conditions and progression.
+---
+
 # `ResetIf`
 
 The `ResetIf` can be chosen in the Flag column of the Achievement Editor

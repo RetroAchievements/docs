@@ -1,3 +1,8 @@
+---
+title: Designing Memorable Achievements - A Comprehensive Guide
+description: Learn the conceptual principles behind creating engaging and memorable achievements, including progression-based, sidequests, optional, collectible, and challenge achievements.
+---
+
 # Achievement Design
 
 This is a guide on how to think about and design good achievements. Not the technical side, but the conceptual.

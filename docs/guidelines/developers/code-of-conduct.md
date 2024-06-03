@@ -1,3 +1,8 @@
+---
+title: Developers Code of Conduct
+description: Essential guidelines for RetroAchievements developers, including responsibilities, rules for fair play, and steps to maintain good standing in the community.
+---
+
 # Developers Code of Conduct
 
 This document covers developers' rights, responsibilities, and rules for fair play.

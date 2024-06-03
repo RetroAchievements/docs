@@ -1,3 +1,8 @@
+---
+title: Leaderboards
+description: Learn how to create and manage leaderboards for RetroAchievements, including start, cancel, and submit conditions.
+---
+
 # Leaderboards
 
 [[toc]]

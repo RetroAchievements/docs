@@ -1,3 +1,8 @@
+---
+title: Understanding and Using AddAddress
+description: Learn how to effectively use the AddAddress flag to modify memory addresses for conditions, understand pointer types, calculate offsets, and chain pointers for advanced achievement creation.
+---
+
 # `AddAddress`
 
 `AddAddress` modifies the memory address(es) of the following condition by the calculated value. It works similar to [`AddSource`](/developer-docs/flags/addsource), but modifies the address, not the resulting value. Additionally, it affects addresses on both sides of the condition.

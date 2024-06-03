@@ -1,3 +1,8 @@
+---
+title: Getting Started as an Achievement Developer
+description: Learn the basics of creating achievements for games, including finding memory addresses, creating conditions, and testing your achievements.
+---
+
 # Getting Started as an Achievement Developer
 
 **Welcome to the world of Achievement Creation!**

@@ -1,3 +1,8 @@
+---
+title: Global Leaderboard and Achievement Hunting Rules
+description: Comprehensive rules and guidelines for participating in the RetroAchievements global leaderboard, including acceptable behaviors and special considerations for fair play.
+---
+
 # Global Leaderboard and Achievement Hunting Rules
 
 ## TL;DR - Golden Rules

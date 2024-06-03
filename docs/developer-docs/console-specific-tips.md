@@ -1,3 +1,8 @@
+---
+title: Console-specific Tips for Achievement Development
+description: Essential tips and guidelines for memory inspection and achievement development across various retro consoles including NES, Game Boy, GBA, N64, DS, Neo Geo, PlayStation, and PSP.
+---
+
 # Console-specific Tips
 
 When excavating the memory of these old consoles it helps to know what the original creators of the games were working with in the first place. If you familiarize yourself with the quirks of your favorite console then set making will be easier and more accurate.

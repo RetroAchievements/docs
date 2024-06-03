@@ -1,3 +1,8 @@
+---
+title: Emulator Hotkeys for Achievement Developers
+description: A comprehensive guide to configuring and using emulator hotkeys for developers, including RALibRetro, BizHawk, PCSX2, RAMeka, and more.
+---
+
 # Emulator Hotkeys for Developers
 
 ### BizHawk
