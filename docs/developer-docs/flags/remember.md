@@ -50,7 +50,7 @@ In this example it uses the stored value and compares it to a constant value of 
 |  7 | Add Hits  | Mem    | 8-Bit  | 0x1000 |  =  | Value |        | 0x03    | 1 (0) |
 |  8 | Measured  | Value  |        | 0x00   |  =  | Value |        | 0x00    | 3 (0) |
 
-In this example, we are using the stored value in multiple chains within an Add Hits chain without having to recalculate the value each time. Here we are looking for specific increases of `0x1234` to occur while the value of `0x1000` is equal to 3.  Perhaps `0x1234` is money, `0x1000` is the current level, and you want to make sure the player collects a gem worth 5 units of money, one worth 20, and one worth 100 in level 3. `Recall` is used here to check all these values of the difference between Mem and Delta without having to recalculate it each time. See the [`Add Hits`](/developer-docs/flags/addhits-and-subhits) document for more information about how that condition works.
+In this example, we are using the stored value in multiple chains within an Add Hits chain without having to recalculate the value each time. Here we are looking for specific increases of `0x1234` to occur while the value of `0x1000` is equal to 3.  Perhaps `0x1234` is money, `0x1000` is the current level, and you want to make sure the player collects a gem worth 5 units of money, one worth 20, and one worth 100 in level 3. `Recall` is used here to check all these values of the difference between Mem and Delta without having to recalculate it each time. See the [`Add Hits`](/developer-docs/flags/addhits-subhits) document for more information about how that condition works.
 
 ## Interaction with Pause If
 
