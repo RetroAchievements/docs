@@ -8,6 +8,8 @@ description: Learn how to use the Recall operand type to represent a previously 
 
 A `Recall` value is the the last value stored by the [`Remember` Flag](/developer-docs/flags/remember)
 
+The `Recall` accumulator's value is for the current frame's evaluation of logic.  It does not persist between evaluations and does not maintain its value for use in a later evaluation.  Each group (Core, Alt1, Alt2, etc) has its own separate `Recall` accumulator; a value remembered in one group therefore cannot be recalled in another group.  Using `Recall` before a value is remembered in using the `Remember` condition will generate a warning in the asset editor.
+
 Examples of how it can be used:
 
 - Recall a calculated value for multiple uses in logic.
