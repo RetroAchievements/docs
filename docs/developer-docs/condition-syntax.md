@@ -52,8 +52,8 @@ description: Comprehensive guide to understanding and using condition syntax in 
 |     [`PauseIf`](/developer-docs/flags/pauseif)     |  `P:`  | `P:0xH1234=1` |
 | [`AndNext`](/developer-docs/flags/andnext-ornext)  |  `N:`  | `N:0xH1234=1` |
 |  [`OrNext`](/developer-docs/flags/andnext-ornext)  |  `O:`  | `O:0xH1234=1` |
-|   [`AddSource`](/developer-docs/flags/addsource)   |  `A:`  | `A:0xH1234=1` |
-|   [`SubSource`](/developer-docs/flags/subsource)   |  `B:`  | `B:0xH1234=1` |
+|   [`AddSource`](/developer-docs/flags/addsource)   |  `A:`  | `A:0xH1234/2` |
+|   [`SubSource`](/developer-docs/flags/subsource)   |  `B:`  | `B:0xH1234/2` |
 | [`AddHits`](/developer-docs/flags/addhits-subhits) |  `C:`  | `C:0xH1234=1` |
 | [`SubHits`](/developer-docs/flags/addhits-subhits) |  `D:`  | `D:0xH1234=1` |
 |  [`AddAddress`](/developer-docs/flags/addaddress)  |  `I:`  | `I:0xH1234=1` |
