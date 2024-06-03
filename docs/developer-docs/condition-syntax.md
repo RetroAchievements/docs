@@ -44,9 +44,10 @@ description: Comprehensive guide to understanding and using condition syntax in 
 | [Invert](/developer-docs/value-definition#binary-inversion)  |  `~`   | `~0xH1234` |
 
 ### Special Operands
-|                           Modifier                           | Representation |  Example   |
-| :----------------------------------------------------------: | :------------: | :--------: |
-|              [Recall](/developer-docs/recall)                |   `{recall}`   | `{recall}` |
+
+|             Modifier             | Representation |  Example   |
+| :------------------------------: | :------------: | :--------: |
+| [Recall](/developer-docs/recall) |   `{recall}`   | `{recall}` |
 
 ### Logical Flags
 

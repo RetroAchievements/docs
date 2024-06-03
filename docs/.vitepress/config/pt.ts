@@ -380,6 +380,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Trigger",
     //       link: "/pt/developer-docs/flags/trigger",
     //     },
+    //     {
+    //       text: "Remember",
+    //       link: "/developer-docs/flags/remember",
+    //     },
     //   ],
     // },
     // {
@@ -405,6 +409,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //     {
     //       text: "Valores Anteriores",
     //       link: "/pt/developer-docs/prior-values",
+    //     },
+    //     {
+    //       text: "Recall",
+    //       link: "/developer-docs/recall",
     //     },
     //     {
     //       text: "Definição de Valores",
