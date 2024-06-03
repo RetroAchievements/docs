@@ -55,6 +55,8 @@ export const shared = defineConfig({
       level: [2, 4],
     },
 
+    // It's okay for these keys to be publicly exposed.
+    // As reference, see the official VitePress docs config: https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config/shared.ts#L57
     search: {
       provider: "algolia",
       options: {
