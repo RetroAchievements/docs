@@ -1,6 +1,6 @@
 ---
-title: Using `PauseIf` to Control Achievement Processing
-description: Learn how to use the `PauseIf` flag to prevent achievement processing until specific conditions are met, ensuring accurate tracking and avoiding convoluted logic in complex scenarios.
+title: Using PauseIf to Control Achievement Processing
+description: Learn how to use the PauseIf flag to prevent achievement processing until specific conditions are met, ensuring accurate tracking and avoiding convoluted logic in complex scenarios.
 ---
 
 # Pause Until-Using `PauseIf` to Prevent Achievement Processing Until Some Condition is Met

@@ -1,6 +1,6 @@
 ---
-title: Using `AddSource` and Deltas for Collectible Achievements
-description: Learn how to effectively use the `AddSource` flag and Deltas to create achievements for collectibles, ensuring accurate tracking and preventing premature triggers in games.
+title: Using AddSource and Deltas for Collectible Achievements
+description: Learn how to effectively use the AddSource flag and Deltas to create achievements for collectibles, ensuring accurate tracking and preventing premature triggers in games.
 ---
 
 # Using `AddSource` and Deltas for Collectibles and Similar Achievements

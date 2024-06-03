@@ -1,6 +1,6 @@
 ---
-title: Effectively Using `Measured` for Tracking Progress in Achievements
-description: Discover how to use the `Measured` flag to track progress in achievement conditions, manage progress bars, and optimize user experience by providing real-time feedback on achievement completion.
+title: Effectively Using Measured for Tracking Progress in Achievements
+description: Discover how to use the Measured flag to track progress in achievement conditions, manage progress bars, and optimize user experience by providing real-time feedback on achievement completion.
 ---
 
 # `Measured`

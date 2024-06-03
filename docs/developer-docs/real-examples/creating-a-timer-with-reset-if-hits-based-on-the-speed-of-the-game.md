@@ -1,6 +1,6 @@
 ---
-title: Creating In-Game Timers with `ResetIf` Hits Based on Game Speed
-description: Learn how to create precise in-game timers using the `ResetIf` flag to account for game framerate, enabling accurate timing mechanisms for achievements in various game scenarios.
+title: Creating In-Game Timers with ResetIf Hits Based on Game Speed
+description: Learn how to create precise in-game timers using the ResetIf flag to account for game framerate, enabling accurate timing mechanisms for achievements in various game scenarios.
 ---
 
 # Creating a Timer with `ResetIf` Hits based on the Speed of the Game

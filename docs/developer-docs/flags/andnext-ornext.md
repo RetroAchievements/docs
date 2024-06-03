@@ -1,6 +1,6 @@
 ---
-title: Mastering `AndNext` and `OrNext` for Complex Achievement Conditions
-description: Learn how to use the `AndNext` and `OrNext` flags to create complex conditional logic for `ResetIf`, `PauseIf`, and `Hit Count` in achievement conditions, enabling intricate and flexible achievement requirements.
+title: Mastering AndNext and OrNext for Complex Achievement Conditions
+description: Learn how to use the AndNext and OrNext flags to create complex conditional logic for ResetIf, PauseIf, and hit counts in achievement conditions, enabling intricate and flexible achievement requirements.
 ---
 
 # `AndNext` and `OrNext`

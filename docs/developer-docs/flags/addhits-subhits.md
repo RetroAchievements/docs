@@ -1,6 +1,6 @@
 ---
-title: Utilizing `AddHits` and `SubHits` for Achievement Conditions
-description: Master the use of `AddHits` and `SubHits` flags to manage hit counts in achievement conditions, understand their chaining effects, and optimize achievement logic for complex scenarios.
+title: Utilizing AddHits and SubHits for Achievement Conditions
+description: Master the use of AddHits and SubHits flags to manage hit counts in achievement conditions, understand their chaining effects, and optimize achievement logic for complex scenarios.
 ---
 
 # `AddHits` and `SubHits`

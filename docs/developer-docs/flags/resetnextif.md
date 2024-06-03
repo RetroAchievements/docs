@@ -1,6 +1,6 @@
 ---
-title: Effectively Using `ResetNextIf` to Manage Specific Hit Counts
-description: Learn how to utilize the `ResetNextIf` flag to selectively reset hit counts of specific conditions, ensuring precise control over achievement progression and avoiding unwanted resets.
+title: Effectively Using ResetNextIf to Manage Specific Hit Counts
+description: Learn how to utilize the ResetNextIf flag to selectively reset hit counts of specific conditions, ensuring precise control over achievement progression and avoiding unwanted resets.
 ---
 
 # `ResetNextIf`

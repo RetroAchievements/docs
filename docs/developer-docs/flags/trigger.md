@@ -1,6 +1,6 @@
 ---
-title: Leveraging the `Trigger` Flag for Achievement Indicators
-description: Discover how to use the `Trigger` flag to mark conditions that prime achievements, display challenge indicators, and enhance player experience by signaling active challenges and their statuses.
+title: Leveraging the Trigger Flag for Achievement Indicators
+description: Discover how to use the Trigger flag to mark conditions that prime achievements, display challenge indicators, and enhance player experience by signaling active challenges and their statuses.
 ---
 
 # `Trigger`
