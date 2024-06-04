@@ -1,8 +1,8 @@
 # RABot, the RA Discord Robot
 
-RABot is the the official RetroAchievements Discord robot. Therefore, to interact with him, you need to be a member of the [RA Discord server](https://discord.gg/dq2E4hE).
+RABot is the official RetroAchievements Discord robot. Therefore, to interact with him, you need to be a member of the [RA Discord server](https://discord.gg/dq2E4hE).
 
-RABot has many cool and useful commands and in this page you'll see some examples of how some of them can be used.
+RABot has many cool and useful commands, and in this page you'll see some examples of how some of them can be used.
 
 RABot is powered by [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [Node.js](https://nodejs.org/), [discord.js](https://discord.js.org/) and [Commando](https://discord.js.org/#/docs/commando/master/general/welcome).
 
