@@ -79,11 +79,11 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/es/general/setup-guide",
         // },
         {
-          text: "Soporte e Incidentes del Emulador",
+          text: "Soporte y problemas de los emuladores",
           link: "/es/general/emulator-support-and-issues",
         },
         {
-          text: "Maneras de Contribuir",
+          text: "Maneras de contribuir",
           link: "/es/general/ways-to-contribute",
         },
         // {
@@ -111,7 +111,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/es/general/useful-links",
         // },
         {
-          text: "Contribuir a la Documentación",
+          text: "Contribuir a la documentación",
           link: "/es/general/contributing-to-the-docs",
         },
         // {
