@@ -16,13 +16,14 @@ The RetroAchievements project started as a personal project of [Scott Breen](htt
 
 As the community continues to grow, the amount of work, time, and energy required to keep it running also grows. In order to assure the project thrives, without administrators having burnouts and ragequitting the project, various roles with specific tasks were created.
 
-These roles are not really visible in the website, but they are on discord and here in this page we list the roles and their responsibilities.
+These roles are not visible in the website, but most are on discord and here in this page we list the roles and their responsibilities.
 
 - [Team Accounts](#team-accounts)
 - [Administrators](#administrators)
 - [Moderators](#moderators)
 - [Developer Compliance Team](#developer-compliance-team)
 - [Quality Assurance Team](#quality-assurance-team)
+- [Cheat Prevention Team](#cheat-prevention-team)
 - [Code Reviewer Team](#code-reviewer-team)
 - [Tech Team](#tech-team)
 - [Sub-Team Leads](#sub-team-leads)
@@ -35,6 +36,7 @@ Shared accounts used by their respective team members:
 - [DevQuest](https://retroachievements.org/user/DevQuest)
 - [QATeam](https://retroachievements.org/user/QATeam)
 - [RAdmin](https://retroachievements.org/user/RAdmin)
+- [RACheats](https://retroachievements.org/user/RCheats)
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
@@ -68,6 +70,7 @@ The team responsible to keep the this community a healthy place (at least for th
 - [Snow](https://retroachievements.org/user/Snow)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [Suffa28](https://retroachievements.org/user/Suffa28)
+- [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
 ### Developer Compliance Team
 
@@ -75,53 +78,68 @@ The team responsible for the adherance and driving updates to the [Developer's C
 
 - [Bryan1150](https://retroachievements.org/user/Bryan1150)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Etron](https://retroachievements.org/user/Etron)
+- [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
+- [Fridge](https://retroachievements.org/user/Fridge)
 - [GalacticSpear](https://retroachievements.org/user/GalacticSpear)
+- [Gollawiz](https://retroachievements.org/user/Gollawiz)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
+- [Layton](https://retroachievements.org/user/Layton)
 - [malasdair](https://retroachievements.org/user/malasdair)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [televandalist](https://retroachievements.org/user/televandalist)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
-- [timenoe](https://retroachievements.org/user/timenoe)
 
 ### Quality Assurance Team
 
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
-- [Bartis1989](https://retroachievements.org/user/Bartis1989)
+- [BoomEX](https://retroachievements.org/user/BoomEX)
+- [DanielARP](https://retroachievements.org/user/DanielARP)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [Searo](https://retroachievements.org/user/Searo)
+- [Sines](https://retroachievements.org/user/Sines)
 - [StingX2](https://retroachievements.org/user/StingX2)
+- [suspect15](https://retroachievements.org/user/suspect15)
+- [Sutarion](https://retroachievements.org/user/Sutarion)
 - [televandalist](https://retroachievements.org/user/televandalist)
+- [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
+
+### Cheat Prevention Team
+
+The team responsible for investigating cheating reports.
 
 ### Code Reviewer Team
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
+- [authorblues](https://retroachievements.org/user/authorblues)
+- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
+- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
 - [blendedsea](https://retroachievements.org/user/blendedsea)
-- [Brandovsky](https://retroachievements.org/user/Brandovsky)
-- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [BoomEX](https://retroachievements.org/user/BoomEX)
 - [DarkyAndreas](https://retroachievements.org/user/DarkyAndreas)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Falcus](https://retroachievements.org/user/Falcus)
 - [Fridge](https://retroachievements.org/user/Fridge)
-- [gollawiz](https://retroachievements.org/user/gollawiz)
+- [Gollawiz](https://retroachievements.org/user/gollawiz)
+- [kmpers](https://retroachievements.org/user/kmpers)
+- [Layton](https://retroachievements.org/user/Layton)
+- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [Ryudo](https://retroachievements.org/user/Ryudo)
-- [Searo](https://retroachievements.org/user/Searo)
 - [Shmelyoff](https://retroachievements.org/user/Shmelyoff)
 - [SlashTangent](https://retroachievements.org/user/SlashTangent)
+- [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [thegotoguyy](https://retroachievements.org/user/thegotoguyy)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
+- [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
 ### Tech Team
@@ -153,8 +171,10 @@ The team that is more involved with the tech side of things, whether it be the w
 
 Users who oversee one of the QA sub-teams:
 
+- [Gollawiz](https://retroachievements.org/user/Gollawiz) - Art Team lead
 - [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Events Team lead
-- [Nydaxn](https://retroachievements.org/user/Nydaxn) - Art Team lead
+- [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
+- [Nepiki](https://retroachievements.org/user/Nepiki) - Writing Team lead
 
 ## Short History
 
