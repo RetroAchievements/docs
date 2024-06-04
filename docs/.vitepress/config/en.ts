@@ -80,6 +80,14 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/events",
         },
         {
+          text: "Rollouts",
+          link: "/general/rollouts"
+        },
+        {
+          text: "DevQuests",
+          link: "/general/devquests"
+        },
+        {
           text: "Overlay Themes",
           link: "/general/overlay-themes",
         },
