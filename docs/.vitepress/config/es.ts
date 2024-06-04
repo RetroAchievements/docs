@@ -86,10 +86,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Maneras de contribuir",
           link: "/es/general/ways-to-contribute",
         },
-        // {
-        //   text: "RABot, el Robot de Discord de RA",
-        //   link: "/es/general/rabot",
-        // },
+        {
+          text: "RABot, el bot de RA para Discord",
+          link: "/es/general/rabot",
+        },
         // {
         //   text: "Eventos",
         //   link: "/es/general/events",
