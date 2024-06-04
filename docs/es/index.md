@@ -10,13 +10,13 @@ hero:
   tagline: Agregando logros a los juegos retro desde 2012.
   actions:
     - theme: brand
-      text: Soporte de Emulador
+      text: Soporte de emuladores
       link: /es/general/emulator-support-and-issues
     - theme: alt
-      text: Código de Conducta
+      text: Código de conducta
       link: /es/guidelines/users/code-of-conduct
     - theme: alt
-      text: Conviértete en Desarrollador
+      text: Conviértete en desarrollador
       link: /developer-docs/how-to-become-an-achievement-developer
   image:
     src: /ra-logo-big-shadow.png
@@ -29,17 +29,17 @@ features:
     link: https://retroachievements.org/createaccount.php
 
   - icon: 🕹️
-    title: Descarga un Emulador
-    details: Instala un emulador compatible y comienza a ganar logros.
+    title: Descarga un emulador
+    details: Instala un emulador compatible y comienza a conseguir logros.
     link: https://retroachievements.org/download.php
 
   - icon: 📡
     title: Documentación de la API
-    details: Integra RetroAchievements en tu aplicación, sitio web o front-end.
+    details: Integra RetroAchievements en tu aplicación, sitio web o interfaz de usuario.
     link: https://api-docs.retroachievements.org
 
   - icon: 🔧
-    title: Documentación de Integración del Emulador
+    title: Documentación sobre la integración en emuladores
     details: Integra RetroAchievements en tu emulador.
     link: https://github.com/RetroAchievements/rcheevos/wiki/rc_client-integration
 ---
