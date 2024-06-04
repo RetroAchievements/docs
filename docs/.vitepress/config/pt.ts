@@ -94,12 +94,13 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   text: "Eventos",
         //   link: "/pt/general/events",
         // },
-        //  text: "Rollouts",
-        //  link: "/pt/general/rollouts"
+        // {
+        //   text: "Rollouts",
+        //   link: "/pt/general/rollouts"
         // },
         // {
-        // text: "DevQuests",
-        // link: "/pt/general/devquests"
+        //   text: "DevQuests",
+        //   link: "/pt/general/devquests"
         // },
         // {
         //   text: "Temas de Overlay",

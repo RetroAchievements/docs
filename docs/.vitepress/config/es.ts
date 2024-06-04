@@ -95,12 +95,12 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/es/general/events",
         // },
         // {
-        //  text: "Rollouts",
-        //  link: "/es/general/rollouts"
+        //   text: "Rollouts",
+        //   link: "/es/general/rollouts"
         // },
         // {
-        // text: "DevQuests",
-        // link: "/es/general/devquests"
+        //   text: "DevQuests",
+        //   link: "/es/general/devquests"
         // },
         // {
         //   text: "Temas de Superposición",
