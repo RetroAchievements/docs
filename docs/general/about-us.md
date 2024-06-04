@@ -16,7 +16,7 @@ The RetroAchievements project started as a personal project of [Scott Breen](htt
 
 As the community continues to grow, the amount of work, time, and energy required to keep it running also grows. In order to assure the project thrives, without administrators having burnouts and ragequitting the project, various roles with specific tasks were created.
 
-These roles are not visible in the website, but most are on discord and here in this page we list the roles and their responsibilities.
+These roles are not yet visible on the website, but most are on Discord. On this page we list the roles and their responsibilities.
 
 - [Team Accounts](#team-accounts)
 - [Administrators](#administrators)
