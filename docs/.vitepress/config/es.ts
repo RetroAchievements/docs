@@ -107,6 +107,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/es/general/devquests"
         // },
         {
+          text: "Enlaces útiles",
+          link: "/es/general/useful-links",
+        },
+        {
           text: "Contribuir a la documentación",
           link: "/es/general/contributing-to-the-docs",
         },
