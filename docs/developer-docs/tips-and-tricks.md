@@ -22,7 +22,7 @@ See also: [Memory Inspector Overview](/developer-docs/memory-inspector).
 
 - **Bit fields**: Use single bits for things that only change a single bit. In the Memory Inspector, when an address is selected, there will be `Bits: 7 6 5 4 3 2 1 0` above the addresses. And below those numbers will be either `0` or `1`, like `0 0 1 0 0 0 1 1` in the image below. If `bit5` has `1` under it, then `bit5=1` for that address. Single bit usage is very common for game items/events/unlocks/etc. This may be confusing, but it's very important to understand. Some games with limited memory space use bit fields a lot! Its an important technique to learn.
 
-![memsizes](https://user-images.githubusercontent.com/32680403/45276439-8cbf6580-b47f-11e8-803c-7e7e391a9e55.png)
+![memsizes](/public/mem-inspector-size-diagram.png)
 
 ## Achievement Creation Tips
 
