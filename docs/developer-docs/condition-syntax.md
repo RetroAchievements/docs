@@ -43,6 +43,12 @@ description: Comprehensive guide to understanding and using condition syntax in 
 | [BCD](/developer-docs/value-definition#binary-coded-decimal) |  `b`   | `b0xH1234` |
 | [Invert](/developer-docs/value-definition#binary-inversion)  |  `~`   | `~0xH1234` |
 
+### Special Operands
+
+|             Modifier             | Representation |  Example   |
+| :------------------------------: | :------------: | :--------: |
+| [Recall](/developer-docs/recall) |   `{recall}`   | `{recall}` |
+
 ### Logical Flags
 
 |                        Flag                        | Prefix |    Example    |
@@ -61,3 +67,4 @@ description: Comprehensive guide to understanding and using condition syntax in 
 |   [`Measured`%](/developer-docs/flags/measured)    |  `G:`  | `G:0xH1234=1` |
 |   [`MeasuredIf`](/developer-docs/flags/measured)   |  `Q:`  | `Q:0xH1234=1` |
 |     [`Trigger`](/developer-docs/flags/trigger)     |  `T:`  | `T:0xH1234=1` |
+|    [`Remember`](/developer-docs/flags/remember)    |  `K:`  | `K:0xH1234*2` |
