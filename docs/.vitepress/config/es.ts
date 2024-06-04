@@ -114,10 +114,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Contribuir a la documentación",
           link: "/es/general/contributing-to-the-docs",
         },
-        // {
-        //   text: "Sobre Nosotros",
-        //   link: "/es/general/about-us",
-        // },
+        {
+          text: "Sobre nosotros",
+          link: "/es/general/about-us",
+        },
       ],
     },
     // {
