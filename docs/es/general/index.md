@@ -6,7 +6,7 @@ La documentación se encuentra actualmente en una profunda revisión. ¡Revísal
 
 - **Directrices**: Detalles de la comunidad, usuario/jugador, desarrollo y políticas de contenido.
 - **General**: Preguntas frecuentes, cómo empezar, soporte/solución de problemas e información que puede ser útil a todos los miembros de la comunidad.
-- **Desarollo de logros**: Amplia información en ambos aspectos, conceptual y técnico, sobre cómo hacer logros.
+- **Desarrollo de logros**: Amplia información en ambos aspectos, conceptual y técnico, sobre cómo hacer logros.
 
 Animamos a todos los miembros de la comunidad a unirse a nuestro [servidor de Discord](https://discord.gg/dq2E4hE). Lo usamos para la mayoría de comunicaciones.
 

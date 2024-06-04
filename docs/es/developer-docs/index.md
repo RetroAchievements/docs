@@ -8,9 +8,9 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 1. [Cómo convertirse en desarrollador de logros](/es/developer-docs/how-to-become-an-achievement-developer): resumen de los pasos necesarios para conseguir la condición de desarrollador.
 
-2. [Empezando como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer): el primer contacto con las herramientas de desarrollo de logros (Inspector de memoria y otros diálogos de los logros). **SI ERES NOVATO, EMPIEZA AQUI!**
+2. [Empezando como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer): el primer contacto con las herramientas de desarrollo de logros (Inspector de memoria y otros diálogos de los logros). **SI ERES NOVATO, EMPIEZA AQUÍ!**
 
-3. [Puntuación de los logros](/es/developer-docs/achievement-scoring): una guía en la que se ve cómo se deciden los puntos totales de los logros.
+3. [Puntuación de los logros (EN)](/developer-docs/achievement-scoring): una guía en la que se ve cómo se deciden los puntos totales de los logros.
 
 4. [Resumen el inspector de memoria](/es/developer-docs/memory-inspector): visión detallada de una de las herramientas más usadas por los desarrolladores.
 
@@ -20,7 +20,7 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 7. [Plantillas de logros](/es/developer-docs/achievement-templates): algunas plantillas genéricas para inspirarse.
 
-8. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inpseccionar la memoria y crear logros.
+8. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inspeccionar la memoria y crear logros.
 
 9. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un set de logros.
 
@@ -38,7 +38,7 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 16. [Estados de la actividad](/es/developer-docs/rich-presence): cómo crear scripts sobre estados de la actividad.
  
-17. [Trabajando con la ROM correcta](/es/guidelines/content/working-with-the-right-rom): informacion sobre el uso correcto de ROM y hashes.
+17. [Trabajando con la ROM correcta](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
  
 18. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema. 
 
@@ -46,4 +46,4 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 21. [Logros para ROM con hacks](/es/guidelines/content/achievements-for-rom-hacks): una guía detallada para desarrolladores en la inclusion apropiada (y la aprobación) para ROM con hacks.
 
-22. [Consejos especificos por consola](/es/developer-docs/console-specific-tips): conociendo las peculiaridades de tu consola favorita puede ayudar a inspeccionar la memoria.
+22. [Consejos específicos por consola](/es/developer-docs/console-specific-tips): conociendo las peculiaridades de tu consola favorita puede ayudar a inspeccionar la memoria.
