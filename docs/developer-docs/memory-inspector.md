@@ -224,4 +224,4 @@ Occasionally you will only be interested working with a single hexadecimal digit
 
 ### Memory Sizes Diagram
 
-![memsizes](https://user-images.githubusercontent.com/32680403/45276439-8cbf6580-b47f-11e8-803c-7e7e391a9e55.png)
+![memsizes](/public/mem-inspector-size-diagram.png)
