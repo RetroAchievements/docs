@@ -175,6 +175,7 @@ Users who oversee one of the QA sub-teams:
 - [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Events Team lead
 - [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
 - [Nepiki](https://retroachievements.org/user/Nepiki) - Writing Team lead
+- [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Clean Up Team lead
 
 ## Short History
 
