@@ -5,7 +5,9 @@ description: Learn how to use the Recall operand type to represent a previously 
 
 # `Recall`
 
-_This feature will be available at the RA_Integration version 1.4 milestone for developers, with support to be added for rcheevos version 11.4 milestone._
+::: warning
+This feature will be available at the RA_Integration version 1.4 milestone for developers, with support to be added for rcheevos version 11.4 milestone.
+:::
 
 A `Recall` value is the the last value stored by the [`Remember` Flag](/developer-docs/flags/remember)
 
