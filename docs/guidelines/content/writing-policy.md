@@ -230,19 +230,25 @@ However, more people have an issue with the usage of the unspecific articles, �
 
 ---
 
-### Possessive/Contraction
+### Plural/Possessive/Contraction
 
-Another common mistake is with words that use an apostrophe, such as "you’re" and "it’s". These are very commonly used in the English language, but removing the apostrophe
-changes the entire meaning of the word. Therefore, it is good to check beforehand if you are using it as a possessive form, or as a contraction of multiple words.
+Another common mistake is with words that use an apostrophe, such as “you’re” and “it’s”, or plurals. These are very commonly used in the English language, but removing the apostrophe
+can change the entire meaning of the word. Therefore, it is good to check beforehand if you are using it as a plural, a possessive form, or as a contraction of multiple words.
 
-- When you are not using the apostrophe, you are using the word in a possessive form. The word you are describing afterwards belongs to something- or someone.
+- Words that are *pluralized* (i.e. denoting more than one of something) do not use an apostrophe, and usually end in “s” or “es”. Note that there are [several examples of irregular plurals in English](https://en.wikipedia.org/wiki/English_plurals#Irregular_plurals). Check a dictionary if you aren't sure!
+  - Example 1: Destroy 20 boxes in Level 1. (Not “boxs” or “box’s”)
+  - Example 2: Defeat five mice with flame spells. (Not “mouses” or “mouse’s”, or “spell’s”)
 
-  - Example 1: Use your sword to defeat the enemy. The sword is in your possession.
-  - Example 2: The magic book has its pages torn out. The pages belong to the book.
-
-- When you are using the apostrophe, you are combining two words into one as a contraction. The rule of thumb is always that when you are using an apostrophe, it is not a singular word. Note that it is always allowed (and sometimes even preferred!) to separate the words in writing rather than using them as a contraction.
-  - Example 1: You’re the hero of this story. It combines the words “you” and “are”.
-  - Example 2: It’s super effective. It combines the words “it” and “is”.
+- Words that are *possessive* (i.e. denoting the owner of something) almost always use an apostrophe, and end in “’s”. **Note:** the possessive “its” is spelled without an apostrophe, with “it’s” being short for “it is”. This is an exception to this rule.
+  - Example 1: Return the knight’s sword to the castle. (Not “knights”)
+  - Example 2: Return the sword to its rightful owner. (Not “it’s”)
+ 
+- Words that are *both possessive and pluralized* (i.e. denoting multiple owners of something) add an apostrophe to the end if the plural already ends in “s”.
+  - Example: Sell all of your party members’ equipment for gold. (Not “members” or “member’s”)
+ 
+- Words that are *contractions* (i.e. two or more words combined together into one) always use an apostrophe, and the apostrophe usually replaces the omitted letters.
+  - Example 1: You’re the hero of this story. (It combines the words “you” and “are”)
+  - Example 2: It’s super effective. (It combines the words “it” and “is”)
 
 ---
 
