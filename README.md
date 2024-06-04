@@ -27,3 +27,9 @@ This repository holds all the files for the official RetroAchievements documenta
 All contributions to the docs are welcome.
 
 We appreciate your interest in contributing. Whether you're new to Git or a seasoned developer, we've got you covered. [Visit the Contributing to the Docs page](https://docs.retroachievements.org/general/contributing-to-the-docs.html) page to get started.
+
+## DocSearch
+
+Search is powered by Algolia DocSearch and is only specific to your currently-selected language.
+
+New pages and content may take some time to appear in the search results. Algolia only crawls the site once a week, usually on weekends.
