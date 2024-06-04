@@ -426,3 +426,47 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     // },
   ];
 }
+
+export const search: DefaultTheme.AlgoliaSearchOptions["locales"] = {
+  pt: {
+    placeholder: "Pesquisar documentos",
+    translations: {
+      button: {
+        buttonText: "Pesquisar",
+        buttonAriaLabel: "Pesquisar",
+      },
+      modal: {
+        searchBox: {
+          resetButtonTitle: "Limpar pesquisa",
+          resetButtonAriaLabel: "Limpar pesquisa",
+          cancelButtonText: "Cancelar",
+          cancelButtonAriaLabel: "Cancelar",
+        },
+        startScreen: {
+          recentSearchesTitle: "Histórico de Pesquisa",
+          noRecentSearchesText: "Nenhuma pesquisa recente",
+          saveRecentSearchButtonTitle: "Salvar no histórico de pesquisas",
+          removeRecentSearchButtonTitle: "Remover do histórico de pesquisas",
+          favoriteSearchesTitle: "Favoritos",
+          removeFavoriteSearchButtonTitle: "Remover dos favoritos",
+        },
+        errorScreen: {
+          titleText: "Não foi possível obter resultados",
+          helpText: "Verifique a sua conexão de rede",
+        },
+        footer: {
+          selectText: "Selecionar",
+          navigateText: "Navegar",
+          closeText: "Fechar",
+          searchByText: "Pesquisa por",
+        },
+        noResultsScreen: {
+          noResultsText: "Não foi possível encontrar resultados",
+          suggestedQueryText: "Você pode tentar uma nova consulta",
+          reportMissingResultsText: "Deveriam haver resultados para essa consulta?",
+          reportMissingResultsLinkText: "Clique para enviar feedback",
+        },
+      },
+    },
+  },
+};
