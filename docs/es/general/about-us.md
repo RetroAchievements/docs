@@ -16,13 +16,14 @@ El proyecto RetroAchievements comenzó como un proyecto personal de [Scott Breen
 
 A medida que la comunidad continúa creciendo, la cantidad de trabajo, tiempo y energía requerida para mantenerla en funcionamiento también crece. Para asegurar que el proyecto prospere, sin que los administradores tengan burnouts y se retiren del proyecto, se crearon varios roles con tareas específicas.
 
-Estos roles no son realmente visibles en el sitio web, pero sí en discord y aquí en esta página listamos los roles y sus responsabilidades.
+Estos roles no son realmente visibles en el sitio web, pero sí en discord y en esta página listamos los roles y sus responsabilidades.
 
 - [Cuentas del equipo](#team-accounts)
 - [Administradores](#administrators)
 - [Moderadores](#moderators)
 - [Equipo de cumplimiento de los desarrolladores](#developer-compliance-team)
 - [Equipo de control de calidad](#quality-assurance-team)
+- [Equipo de prevención de trampas](#cheat-prevention-team)
 - [Equipo de revisores de código](#code-reviewer-team)
 - [Equipo técnico](#tech-team)
 - [Líderes de sub-equipos](#sub-team-leads)
@@ -35,6 +36,7 @@ Cuentas compartidas utilizadas por los miembros de sus respectivos equipos:
 - [DevQuest](https://retroachievements.org/user/DevQuest)
 - [QATeam](https://retroachievements.org/user/QATeam)
 - [RAdmin](https://retroachievements.org/user/RAdmin)
+- [RACheats](https://retroachievements.org/user/RCheats)
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
@@ -68,6 +70,7 @@ El equipo responsable de mantener esta comunidad un lugar saludable (al menos pa
 - [Snow](https://retroachievements.org/user/Snow)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [Suffa28](https://retroachievements.org/user/Suffa28)
+- [RACheats](https://retroachievements.org/user/RCheats)
 
 ### Equipo de cumplimiento de los desarrolladores
 
@@ -89,40 +92,55 @@ El equipo responsable de la adhesión y actualización del [Código de conducta 
 
 El equipo responsable de garantizar la calidad general de los sets de logros: incluyendo la lógica, los títulos y descripciones correctos, las clasificaciones de líderes de trabajo, una rica presencia de trabajo y la compatibilidad de los hash:
 
-- [Bartis1989](https://retroachievements.org/user/Bartis1989)
+- [BoomEX](https://retroachievements.org/user/BoomEX)
+- [DanielARP](https://retroachievements.org/user/DanielARP)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [Searo](https://retroachievements.org/user/Searo)
+- [Sines](https://retroachievements.org/user/Sines)
 - [StingX2](https://retroachievements.org/user/StingX2)
+- [suspect15](https://retroachievements.org/user/suspect15)
+- [Sutarion](https://retroachievements.org/user/Sutarion)
 - [televandalist](https://retroachievements.org/user/televandalist)
+- [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
+
+### Cheat Prevention Team
+
+El equipo responsable de investigar informes de trampas.
+
 
 ### Equipo de revisores de código
 
 El equipo responsable de ayudar a los Jr. Devs a aprender a hacer sets y revisar su trabajo para asegurar que su comprensión sea suficiente para hacer sets por su cuenta:
 
+- [authorblues](https://retroachievements.org/user/authorblues)
+- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
+- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
 - [blendedsea](https://retroachievements.org/user/blendedsea)
-- [Brandovsky](https://retroachievements.org/user/Brandovsky)
-- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [BoomEX](https://retroachievements.org/user/BoomEX)
 - [DarkyAndreas](https://retroachievements.org/user/DarkyAndreas)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Falcus](https://retroachievements.org/user/Falcus)
 - [Fridge](https://retroachievements.org/user/Fridge)
-- [gollawiz](https://retroachievements.org/user/gollawiz)
+- [Gollawiz](https://retroachievements.org/user/gollawiz)
+- [kmpers](https://retroachievements.org/user/kmpers)
+- [Layton](https://retroachievements.org/user/Layton)
+- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [Ryudo](https://retroachievements.org/user/Ryudo)
-- [Searo](https://retroachievements.org/user/Searo)
 - [Shmelyoff](https://retroachievements.org/user/Shmelyoff)
 - [SlashTangent](https://retroachievements.org/user/SlashTangent)
+- [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [thegotoguyy](https://retroachievements.org/user/thegotoguyy)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
+- [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
+
 
 ### Equipo técnico
 
@@ -153,8 +171,13 @@ El equipo más involucrado con el lado técnico de las cosas, ya sea el sitio we
 
 Usuarios que supervisan uno de los sub-equipos de QA:
 
-- [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Líder del equipo de eventos
-- [Nydaxn](https://retroachievements.org/user/Nydaxn) - Líder del equipo de arte
+- [Gollawiz](https://retroachievements.org/user/Gollawiz) - Responsable del equipo de arte
+- [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Responsable del equipo de eventos
+- [TimeCrush](https://retroachievements.org/user/TimeCrush) - Responsable del equipo de pruebas
+- [Neerrm](https://retroachievements.org/user/Neerrm) - Responsable del equipo de limpieza
+- [Nepiki](https://retroachievements.org/user/Nepiki) - Responsable del equipo de redacción
+- [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Responsable del equipo de limpieza
+
 
 ## Pequeña historia
 
