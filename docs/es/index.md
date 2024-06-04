@@ -16,7 +16,7 @@ hero:
       text: Código de conducta
       link: /es/guidelines/users/code-of-conduct
     - theme: alt
-      text: Conviértete en desarrollador
+      text: Hazte desarrollador
       link: /developer-docs/how-to-become-an-achievement-developer
   image:
     src: /ra-logo-big-shadow.png
