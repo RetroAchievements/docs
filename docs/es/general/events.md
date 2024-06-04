@@ -1,5 +1,3 @@
-Tradúcemelo al español
-
 # Eventos
 
 ## Eventos actuales
