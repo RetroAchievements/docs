@@ -94,6 +94,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Eventos",
           link: "/es/general/events",
         },
+        {
+          text: "Temas superpuestos",
+          link: "/es/general/overlay-themes",
+        },
         // {
         //   text: "Rollouts",
         //   link: "/es/general/rollouts"
@@ -101,14 +105,6 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         // {
         //   text: "DevQuests",
         //   link: "/es/general/devquests"
-        // },
-        // {
-        //   text: "Temas de Superposición",
-        //   link: "/es/general/overlay-themes",
-        // },
-        // {
-        //   text: "Enlaces Útiles",
-        //   link: "/es/general/useful-links",
         // },
         {
           text: "Contribuir a la documentación",
