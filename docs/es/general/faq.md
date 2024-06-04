@@ -202,6 +202,6 @@ En la página principal, sin estar conectado:
 
 ### ¿Tendré algún privilegio si me hago mecenas?
 
-En el sitio web tendrás una insignia que pondrá "¡He ayudado a financiar RA!". En el servidor de discord tendrás acceso a un canal dedicado. Aunque **todos estamos inmensamente agradecidos por las contribuciones de los mecenas**, no hay ninguna otra bonificación aparte de esas.
+En el sitio web tendrás una insignia que pondrá "I helped fund RA!" (¡He ayudado a financiar RA!). En el servidor de discord tendrás acceso a un canal dedicado. Aunque **todos estamos inmensamente agradecidos por las contribuciones de los mecenas**, no hay ninguna otra bonificación aparte de esas.
 
 Gracias a las [contribuciones de Patreon](https://www.patreon.com/bePatron?u=5403777) el proyecto RetroAchievements puede pagar un servidor decente para hacer funcionar el sitio web, hacer funcionar el bot de discord y también tener copias de seguridad periódicas (para recuperar los datos en caso de desastre), y todo ello con una experiencia sin publicidad. Toda la comunidad ha de darle un gran reconocimiento a los mecenas.
