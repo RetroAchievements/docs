@@ -90,10 +90,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "RABot, el bot de RA para Discord",
           link: "/es/general/rabot",
         },
-        // {
-        //   text: "Eventos",
-        //   link: "/es/general/events",
-        // },
+        {
+          text: "Eventos",
+          link: "/es/general/events",
+        },
         // {
         //   text: "Rollouts",
         //   link: "/es/general/rollouts"
