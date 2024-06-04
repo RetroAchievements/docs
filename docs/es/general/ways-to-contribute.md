@@ -70,12 +70,13 @@ Sección en progreso
 
 ## Escribe para RANews (RANoticias)
 
-Sección en progreso. Por ahora, véase: [RANews Repository](https://github.com/RetroAchievements/RANews).
+Sección en progreso. Por ahora, véase: [Repositorio de RANews](https://github.com/RetroAchievements/RANews).
 
 ## Crea RAGuides (RAGuías)
 
-Sección en progreso. Por ahora, véase: [RAGuides Repository](https://github.com/RetroAchievements/guides).
+Sección en progreso. Por ahora, véase:
+[Repositorio de RAGuides](https://github.com/RetroAchievements/guides).
 
 ## Ayuda con RAPatches (RAParches)
 
-Sección en progreso. Por ahora, véase: [RAPatches Repository](https://github.com/RetroAchievements/RAPatches).
+Sección en progreso. Por ahora, véase: [Repositorio de RAPatches](https://github.com/RetroAchievements/RAPatches).
