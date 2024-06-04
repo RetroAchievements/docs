@@ -22,15 +22,15 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 8. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inpseccionar la memoria y crear logros.
 
-9. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un conjunto de logros.
+9. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un set de logros.
 
 10. [Diseño de logros](/es/developer-docs/achievement-design): una guía sobre cómo pensar y diseñar buenos logros, no en el lado técnico, sino el conceptual.
 
-11. [Mapa de desarrollo de un conjunto](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un conjunto realmente cuidado de logros.
+11. [Mapa de desarrollo de un set](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
 
-12. [Revisión de los conjuntos de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
+12. [Revisión de los sets de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
 
-13. [Subconjuntos](/es/guidelines/content/subsets): tema avanzado acerca de la creación de conjuntos de desafíos especiales y cómo lanzarlos.
+13. [Subsets](/es/guidelines/content/subsets): tema avanzado acerca de la creación de sets de desafíos especiales y cómo lanzarlos.
 
 14. [Creacion de medallas e iconos](/es/guidelines/content/badge-and-icon-guidelines): algunas guías y consejos sobre la creación de medallas/iconos.
 
