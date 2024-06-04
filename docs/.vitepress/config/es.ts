@@ -19,24 +19,24 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: "Publicado bajo la Licencia GPL-3. No hay ROMs protegidas por derechos de autor disponibles para descargar en RetroAchievements.",
+      message: "Publicado bajo la Licencia GPL-3. No hay ROM protegidas por derechos de autor disponibles para descargar en RetroAchievements.",
       copyright: `Copyright © 2012–${new Date().getFullYear()} RetroAchievements. Todos los derechos reservados.`,
     },
 
     lastUpdated: {
-      text: "Actualizado en",
+      text: "Actualizado el",
       formatOptions: {
         dateStyle: "short",
         timeStyle: "medium",
       },
     },
 
-    langMenuLabel: "Cambiar Idioma",
-    returnToTopLabel: "Volver al Inicio",
-    sidebarMenuLabel: "Menú Lateral",
-    darkModeSwitchLabel: "Modo Oscuro",
-    lightModeSwitchTitle: "Cambiar a Modo Claro",
-    darkModeSwitchTitle: "Cambiar a Modo Oscuro",
+    langMenuLabel: "Cambiar idioma",
+    returnToTopLabel: "Volver al inicio",
+    sidebarMenuLabel: "Menú lateral",
+    darkModeSwitchLabel: "Modo oscuro",
+    lightModeSwitchTitle: "Cambiar a modo claro",
+    darkModeSwitchTitle: "Cambiar a modo oscuro",
   },
 });
 
@@ -53,7 +53,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: "/es/guidelines/",
     },
     {
-      text: "Desarrollo de Logros",
+      text: "Desarrollo de logros",
       link: "/es/developer-docs/index",
       activeMatch: "/es/developer-docs/",
     },
@@ -71,7 +71,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/es/general/index",
         },
         {
-          text: "Preguntas Frecuentes",
+          text: "Preguntas frecuentes",
           link: "/es/general/faq",
         },
         // {
@@ -471,7 +471,7 @@ export const search: DefaultTheme.AlgoliaSearchOptions["locales"] = {
         noResultsScreen: {
           noResultsText: "No se pudieron encontrar resultados",
           suggestedQueryText: "Puedes intentar una nueva consulta",
-          reportMissingResultsText: "¿Deberían haber resultados para esta consulta?",
+          reportMissingResultsText: "¿Debería haber resultados para esta consulta?",
           reportMissingResultsLinkText: "Haz clic para enviar comentarios",
         },
       },
