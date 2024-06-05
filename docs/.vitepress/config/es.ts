@@ -306,6 +306,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Plantillas de Logros",
           link: "/es/developer-docs/achievement-templates",
         },
+        // {
+        //   text: "Save and Password Protection",
+        //   link: "/developer-docs/save-and-password-protection",
+        // },
         {
           text: "Consejos y Trucos",
           link: "/es/developer-docs/tips-and-tricks",

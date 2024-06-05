@@ -11,7 +11,7 @@ Save and password protection is something that needs to be implemented on any se
 
 ## What Is It?
 
-Save and password protection is using conditions to prevent an achivement from unlocking upon loading a save or loading from a password. Since memory will initialize upon loading a save, many achivements could trigger at this time if it isn't present. This is to ensure that players can't go download a save from a website and use it to unlock most of the set.
+Save and password protection is using conditions to prevent an achievement from unlocking upon loading a save or loading from a password. Since memory will initialize upon loading a save, many achivements could trigger at this time if it isn't present. This is to ensure that players can't go download a save from a website and use it to unlock most of the set.
 
 What save and password protection does not do is prevent players from using their own saves or passwords. It does not mean doing something like blocking the achievement if the player visits the save or load screen (unless the achievement specifically forbids using saves).
 
@@ -46,7 +46,7 @@ Now on to the different types. Keep in mind that this isn't an all inclusive lis
 
 ### Location ID Checks 
 
-This is a simple condition checking that the player is in the location where the achievemnt would trigger during normal conditions of play. For example if the achievement is beating a boss, then a check that the player is at the location the boss is found in would be a good addition.
+This is a simple condition checking that the player is in the location where the achievement would trigger during normal conditions of play. For example if the achievement is beating a boss, then a check that the player is at the location the boss is found in would be a good addition.
 
 | ID  | Flag | Type  | Memory       | Cmp | Type  | Mem/Val    | Hits |
 | ---:|:---- |:----- |:------------ |:---:|:----- |:---------- |:----:|
@@ -152,7 +152,7 @@ Be cautious when using this!  It won't work well if the event flag used is actua
 
 Generally, you should combine this with any other form of save protection.
 
-Another great use of event flags for save protection is to check that the delta of a very early event or the event before the achivement = 1 (or 0 with reverse bitflags).
+Another great use of event flags for save protection is to check that the delta of a very early event or the event before the achievement = 1 (or 0 with reverse bitflags).
 
 | ID  | Flag | Type  | Memory         | Cmp | Type  | Mem/Val     | Hits |
 | ---:|:---- |:----- |:-------------- |:---:|:----- |:----------- |:----:|
@@ -219,4 +219,4 @@ The only time there is too much save protection is if the save protection preven
 
 ## Save Protection and Save States
 
-It is very common for new jr devs to ask about save states and if those should be protected against. Keep in mind that save states are a snapshot of the memory at the moment the state was created so most save protection will not protect from loading a state where the acheivement would trigger. Also since states are only allowed in softcore where the rules are less strict this isn't as essential. Most forms of save protection will protect against when you need to protect against with states as well. So overall, don't be too concerned about protecting specifically against loading a state. The purpose of save protection is to ensure that when a battery or memory card save is loaded that no achievements trigger.
+It is very common for new jr devs to ask about save states and if those should be protected against. Keep in mind that save states are a snapshot of the memory at the moment the state was created so most save protection will not protect from loading a state where the achievement would trigger. Also since states are only allowed in softcore where the rules are less strict this isn't as essential. Most forms of save protection will protect against when you need to protect against with states as well. So overall, don't be too concerned about protecting specifically against loading a state. The purpose of save protection is to ensure that when a battery or memory card save is loaded that no achievements trigger.
