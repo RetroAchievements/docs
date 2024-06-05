@@ -1,201 +1,207 @@
-# Preguntas Frecuentes
+# Preguntas frecuentes
 
-- [¿Qué es RetroAchievements.org?](#qué-es-retroachievementsorg)
-- [¿Qué emulador necesito usar?](#qué-emulador-necesito-usar)
-  - [Emuladores oficiales de RetroAchievements.org](#emuladores-oficiales-de-retroachievementsorg)
-    - [¿Cómo accedo a la interfaz (Overlay) de logros?](#cómo-accedo-a-la-interfaz-overlay-de-logros)
-  - [Emulador RetroArch](#emulador-retroarch)
-    - [¿Qué núcleos (Core) RetroArch debería usar?](#qué-núcleos-core-retroarch-debería-usar)
-    - [¿Cómo puedo ver la insignia (Badge) cuando gano un logro en RetroArch?](#cómo-puedo-ver-la-insignia-badge-cuando-gano-un-logro-en-retroarch)
-- [RetroArch/RALibretro no corre mi juego de arcade. ¿Que tengo que hacer?](#retroarchralibretro-no-corre-mi-juego-de-arcade-que-tengo-que-hacer)
-- [¿Será RetroAchievements compatible con PlayStation?](#será-retroachievements-compatible-con-playstation)
-- [¡Mi correo electrónico de bienvenida se ha perdido!](#mi-correo-electrónico-de-bienvenida-se-ha-perdido)
-- [¿Donde puedo encontrar ROMs?](#donde-puedo-encontrar-roms)
-- [¿Por qué mi juego no está cargando sus logros?](#por-qué-mi-juego-no-está-cargando-sus-logros)
-- [¿Qué es el modo "Hardcore"?](#qué-es-el-modo-hardcore)
-- [¡No obtuve este logro! (o lo obtuve en un momento equivocado)](#no-obtuve-este-logro-o-lo-obtuve-en-un-momento-equivocado)
-- [Completé un logro difícil pero no se activó, ¿se me puede desbloquear manualmente?](#completé-un-logro-difícil-pero-no-se-activó-se-me-puede-desbloquear-manualmente)
-- [¡Yo también quiero hacer logros!](#yo-también-quiero-hacer-logros)
-- [¿Que son los Puntos Blancos (White points)?](#que-son-los-puntos-blancos-white-points)
-- [¿Qué se considera hacer trampa (para el Hardcore)? ¿Qué pasa si encuentro evidencia de un tramposo?](#qué-se-considera-hacer-trampa-para-el-hardcore-qué-pasa-si-encuentro-evidencia-de-un-tramposo)
-- [¿Qué pasa si obtengo un logro que no gané?](#qué-pasa-si-obtengo-un-logro-que-no-gané)
-- [¿Cómo puedo restablecer mi contraseña? (Si no la recuerdo)](#cómo-puedo-restablecer-mi-contraseña-si-no-la-recuerdo)
-- [¿Porque no puedo ver mi nueva foto de perfil?](#porque-no-puedo-ver-mi-nueva-foto-de-perfil)
-- [¿Voy obtener algún privilegio si me convierto en Patreon?](#voy-a-obtener-algún-privilegio-si-me-convierto-en-patreon)
-- [¿RetroAchievements esta haciendo dinero por medio de la emulación?](#retroAchievements-esta-haciendo-dinero-por-medio-de-la-emulación)
+[[toc]]
 
-## ¿Qué es RetroAchievements.org?
+## Preguntas frecuentes de RetroAchievements
 
-**RetroAchievements.org** es una comunidad que colabora y compite para ganar logros personalizados en juegos clásicos a través de la emulación. Los logros son hechos por y para la comunidad. Ofrecemos varios emuladores personalizados para su uso, que detectarán cuando hayas completado varios desafíos. Una vez que hayas iniciado sesión, los emuladores publicarán los logros que hayas completado en el sitio, para que puedas verificar y comparar tu progreso con el de tus amigos.
+### ¿Qué es el modo HARDCORE?
 
-Aquí hay un ejemplo de RAGens, jugando Streets of Rage 2. Verás dos contadores de intentos de tabla de clasificación (abajo a la derecha), un logro desbloqueándose y finalmente la interfaz (Overlay, presionando ESC):
+Si lo que quieres es una experiencia exacta de cómo jugabas a los juegos retro en el pasado, el modo HARDCORE es lo que estás buscando. Esta función impide al jugador cargar partidas guardadas, usar trucos y cualquier función que altere la velocidad, como el rebobinado, la cámara lenta y el avance del juego fotograma a fotograma mediante las funciones integradas del emulador. Hay que tener en cuenta que la única función permitida para alterar la velocidad es el avance rápido. Básicamente, se trata de jugar sin las mejoras de alteración de juego que tienen los emuladores. Estas funciones pueden ser utilizadas si no se utiliza el modo HARDCORE.
 
-![sor2-cheevos](https://user-images.githubusercontent.com/8508804/32685494-854ad72a-c679-11e7-9bef-6717a5bad046.gif)
+Aunque podrás conseguir logros en Softcore, jugar en modo HARDCORE es la única manera de masterizar/plantinear un juego. Además, de este modo, podrás demostrar tu habilidad y destreza a tus competidores al aparecer como maestro/platino en la página del juego, y en la tabla de clasificación principal. Jugando en HARDCORE también te permitirá establecer tiempos, puntuaciones o participar y aparecer en tablas de clasificación de diversos desafíos específicos.
 
-## ¿Qué emulador necesito usar?
+**Nota**: Si quieres jugar con el modo HARDCORE desactivado (también conocido como "Softcore"), es posible que tengas algunos problemas. Más detalles aquí: [Por qué no debería usar la carga de partidas guardadas](/orphaned/load-state-feature).
 
-Los emuladores oficiales de RetroAchievements.org son todos basados en Windows. Para otros sistemas operativos, puedes usar RetroArch. Más información a continuación:
+### ¿Qué son los puntos blancos?
 
-### Emuladores oficiales de RetroAchievements.org
+Puntos blancos, conocidos como RetroPoints, son puntos secundarios basados en la rareza de un logro, **sin embargo, esta caracterísitica actualmente no es muy precisa**. Explicado [aquí en detalle (En)](https://retroachievements.org/viewtopic.php?t=1015) .
 
-Descarga el emulador de tu elección en [la página de descargas](https://retroachievements.org/download.php), inicia sesión con tu nombre de usuario y contraseña (sí, primero debes crearte una cuenta), luego carga una ROM ¡y juega!
+### ¿Será RetroAchievements compatible con una u otra consola?
 
-#### ¿Cómo accedo a la interfaz (Overlay) de logros?
+**Respuesta corta:** Sí, lo será.
 
-Normalmente, esto se configurará en la tecla de teclado 'ESC' o en la función de pausa del juego. En la mayoría de los emuladores, un juego debe estar activo para que funcione.
+**Respuesta larga:** La única respuesta correcta a esta pregunta es: "Siempre que alguien con la habilidad y el deseo de darle soporte lo haga." Todo el mundo aquí es voluntario, así que el soporte y las novedades ocurren cuando ocurren. En muchos casos el soporte para una consola viene dado por el desarrollo del emulador (núcleo) y está fuera del control de Retroachievement.
 
-Algunos de los emuladores ya deberían estar configurados asignando un botón de controlador para ver la interfaz de logros. Generalmente 'ESC' en el teclado debe activarlo, pero si deseas asignarlo a un control, aquí hay algunos trucos para algunos de los emuladores oficiales:
+Para más información de una consola específica, puedes echarle un vistazo a:
+[¿Para cuándo X sistema? (EN)](/orphaned/system-x-wen)
 
-- Para RAVBA, ir a _Tools > Customize_ y asignar _FilePause_ a un botón.
+### ¿Cómo puedo solicitar un set de logros?
 
-- Para RASNES, ir a _Input > Customize Hotkeys_ y cambiar _Pause/Overlay_ en la página 1.
+En la página de cada juego hay un enlace a "Request Set" (Solicitar set).
 
-- Para RANES, ir a _Config > Map Hotkeys_ y cambiar _Pause_ a un botón (**Nota**: esto puede bloquear el emulador, es mejor hacerlo sin una ROM cargada para tener mejores oportunidades).
+![request1](https://user-images.githubusercontent.com/45054151/233339422-299490ba-58bc-45bb-a424-734d66030666.png)
 
-### Emulador RetroArch
+Al hacer clic, tu nombre se añadirá a la lista de usuarios que han solicitado un set para el juego. Si vuelves a hacer clic, retirarás la solicitud. Para ver otros usuarios que han solicitado el juego, haz clic en el enlace "Set Requestors" (Solicitantes del juego) que aparece debajo de la carátula del juego.
 
-Para sistemas operativos que no sean Windows, debes usar el emulador [RetroArch](https://retroarch.com/).
+![request2](https://user-images.githubusercontent.com/45054151/233339469-eeefcb42-12d7-40b2-80d3-cd4bd9b37568.png)
 
-Actualmente se pueden obtener logros a través de RetroArch en las siguientes plataformas:
+![request3](https://user-images.githubusercontent.com/45054151/233339567-3df2606a-9407-4d24-beff-1d1ad2aa035c.PNG)
 
-- Windows
-- Linux
-- Mac
-- Android (¡sí, puedes conseguir logros mientras viajas con tu teléfono Android!)
-- PlayStation Vita (necesita estar pirateado con [HENkaku](https://henkaku.xyz/))
-- PlayStation 3
-- Wii U
-- Raspberry Pi (Sistemas recomendados: [RetroPie](https://retropie.org.uk/), [lakka](http://lakka.tv/) y [RecalBox](https://www.recalbox.com/))
+El número total de solicitudes se cuenta y se muestra en la página [sets más solicitados](https://retroachievements.org/setRequestList.php), que también puede ordenarse por consola. Cuando se crea un juego, la solicitud del usuario se devuelve automáticamente para poder ser utilizada en otro juego.
 
-**Se puede obtener RetroArch en los siguientes enlaces:**
+El número de solicitudes disponibles para un usuario se determina de la siguiente manera:
 
-- [stable](https://buildbot.libretro.com/stable/)
-- [nightly](https://buildbot.libretro.com/nightly/)
+- 1 por cada año que hayas tenido tu cuenta.
+- 1 por cada insignia de evento que hayas ganado.
+- 1 por alcanzar 1250, 2500, 5000, 7500, 10 000 puntos.
+- 1 por cada 5000 puntos a partir de 10 000-100 000 puntos.
+- 1 por cada 10 000 puntos a partir de entonces.
 
-Una vez que lo hayas instalado y hecho la configuración inicial, sigue esta guía para configurar los logros: [https://libretro.readthedocs.io/en/latest/guides/retroachievements/](https://libretro.readthedocs.io/en/latest/guides/retroachievements/)
+**Nota**: Todos los desarrolladores de logros son voluntarios, solicitar un set no da ninguna garantía de que los logros se hagan. El objetivo de la función de solicitud es que los desarrolladores sepan qué es lo que más desean los jugadores. También puedes sugerir logros en la página del foro de un juego para ayudar a que se cree un set.
 
-#### ¿Qué núcleo (Core) RetroArch debería usar?
+---
 
-Hay que tener en cuenta que no todos los núcleos (Core) de RetroArch son compatibles con RetroAchievements. [Consulta esta lista para ver cuál elegir](https://libretro.readthedocs.io/en/latest/guides/retroachievements/#cores-compatibility).
+## Preguntas frecuentes de emulación
 
-#### ¿Cómo puedo ver la insignia (Badge) cuando gano un logro en RetroArch?
+### ¿Dónde puedo encontrar ROM?
 
-Esta función fue implementada en RetroArch 1.7.7 (May/2019), aunque aun hay algunas plataformas en las que aun no funciona (como en el PS Vita). Simplemente necesitas percatarte que la opción de Menu Widget este habilitada (que usualmente lo esta por default).
+Aquí no. Es ilegal almacenar o distribuir ROM con derechos de autor. Sin embargo, tenemos una página sobre [juegos gratis (EN)](/orphaned/free-games) donde puedes encontrar algunos homebrew bastante molones.
 
-## RetroArch/RALibretro no corre mi juego de arcade. ¿Que tengo que hacer?
+### ¿Por qué aparece un mensaje que indica que algunos logros no son compatibles?
 
-**Primero lo primero**: percatate de estar utilizando el núcleo de RetroArch correcto. Checa aqui cual nucleo deberias de utilizar para poder utilizar la función de RetroAchievements en juegos de arcade: https://libretro.readthedocs.io/en/latest/guides/retroachievements/#arcade
+![RetroArch no compatible](https://user-images.githubusercontent.com/42773860/105667518-60b6aa80-5ea9-11eb-84a7-f024985c1b5a.png)
 
-**Segundo punto**: Los ROMs de Arcade son mas complicados que los de consolas. Hay algunos conceptos y terminologias que necesitas entender y asi todo va a empezar a tener sentido. Aquí hay un buen texto en ingles sobre este tema: [Demystifying MAME ROMs](https://web.archive.org/web/20161116054839/http://choccyhobnob.com/articles/demystifying-mame-roms/).
+![RALibretro no compatible](https://user-images.githubusercontent.com/32680403/105637785-72a63800-5e2c-11eb-9b88-5df51986075b.png)
 
-**Tip Pro**: utiliza tu motor de búsqueda preferido para buscar un "set de referencia" (utilizar ROMs de manera aleatoria de diferentes fuentes es un método de "prueba y error" y lo mas probable es que te frustres demasiado).
+Este mensaje informa al usuario de que algunos logros no pueden activarse porque su versión de RetroArch y/o el núcleo que está utilizando no son compatibles con algunas características lógicas más recientes, o porque las áreas necesarias de la RAM no están expuestas para el procesamiento de logros.
 
-## ¿Será RetroAchievements compatible con PlayStation?
+En la mayoría de los casos, la actualización a la última versión de RetroArch corregirá el problema, o bien la actualización, o el uso de un núcleo compatible diferente resolverá el problema.
 
-**Respuesta memética:** Cada vez que alguien pregunta sobre los logros de PSX, el desarrollo se retrasa un mes más. Asi que por favor, **¡DEJA DE PREGUNTAR!**
+### ¿Qué hago cuando el logro no funciona bien?
 
-**Respuesta corta:** Si, lo será, pero aun no hay una fecha estimada para su llegada.
+Cuando surgen problemas con los logros, ya sea porque no se te ha concedido o porque se te ha concedido en el momento equivocado, existen algunas formas de solucionarlo y que se te reconozca el mérito. En primer lugar, deberás [informar de un logro roto](#¿como-informo-de-un-logro-roto). (¡Es una forma excelente de contribuir a la mejora de la comunidad!). Crea una solicitud para que los desarrolladores de logros, revisen el problema y busquen una solución.
 
-**Respuesta larga:** El método actual de creación de logros tiene limitaciones que influyen directamente en la calidad de los logros. Los juegos de PlayStation son un poco más complejos que los de las consolas que ya son compatibles aquí (excepto quizás, los de Nintendo 64). Y en consecuencia, los logros de los juegos de PS merecen una mayor elaboración y cuidado. Todos tenemos un gran respeto por la consola de PlayStation, y esa es exactamente la razón por la que queremos implementar mejoras en el kit de herramientas utilizado para crear logros antes de agregar este soporte.
+Si el logro no se ha conseguido, puedes solicitar un [desbloqueo manual](#como-solicitar-un-desbloqueo-manual). Necesitarás [informar de un logro roto](#¿como-informo-de-un-logro-roto) y proporcionar [una prueba de que lo has completado](#como-solicitar-un-desbloqueo-manual).
 
-**Nota:** si encuentras cualquier otro sitio con logros para PlayStation, ten en cuenta que no esta asociado con RetroAchievements.
 
-## ¡Mi correo electrónico de bienvenida se ha perdido!
+### ¿Cómo informo de un logro roto?
 
-Lamentablemente, es sabido que algunas veces se pierde el correo electrónico de bienvenida. Si esto sucede, inicia sesión con tu nombre de usuario/contraseña con el que te registraste, luego visita tu página de configuración. En la parte superior, encontrarás la opción de volver a enviar tu correo electrónico de registro.
+Hay dos formas de informar de logros rotos. En la barra de título del emulador, ve a **RetroAchievements** ⇒ **Report Broken Achievements (Informar de logros rotos)**:
 
-## ¿Donde puedo encontrar ROMs?
+1. Para emuladores oficiales de RetroAchievements solamente:
 
-Aquí no. Lamentablemente, es ilegal alojar o distribuir ROMs con derechos de autor.
+![cómo informar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
 
-## ¿Por qué mi juego no está cargando sus logros?
+2. Los usuarios de RetroArch pueden enviar un informe directamente a través de su sitio web. En la página de cada logro verás un enlace que dice `Report an issue for this achievement ("Informar de un problema para este logro")` , como en la imagen de abajo:
+ 
+<!-- Todo: Change this image to a good one -->
+![abrir-un-reporte-en-el-sitio](https://cdn.discordapp.com/attachments/484977989470126081/533009389490012171/unknown.png)
 
-Ya sea:
+Si usas los emuladores oficiales de RetroAchievements también puedes informar de los problemas desde la página de logros del sitio web, pero es preferible que utilices el método integrado en los emuladores.
 
-1. No tiene logros.
-2. Es la ROM incorrecta.
+#### ¿Qué detalles _tengo que añadir_ a un informe de logros rotos?
 
-Una buena práctica es verificar el tema oficial del foro del juego. Si aún no tienes una respuesta, consulta esta página aquí para más detalles: [Mi juego no esta cargando los logros](/es/orphaned/my-game-is-not-loading-achievements.html).
+Tienes que añadir la siguiente información para que un desarrollador reconozca un problema:
 
-## ¿Qué es el modo "Hardcore"?
+- Tipo de problema (no se activa o se activa en el momento equivocado)
+- Emulador que estabas usando (y núcleo si usas RALib/Retroarch)
+- Hash de RA (checksum) para reconocer la versión del juego
 
-El modo Hardcore es una característica adicional para separar a los buenos jugadores de los grandes jugadores: el modo Hardcore desactiva **toda** forma de salvado y cargado (savestates) en el emulador: no podrás guardar y volver a cargar en cualquier momento. Tendrás que completar el juego y obtener los logros la primera vez, al igual que en la consola original. En recompensa por esto, ganarás tanto el logro estándar como el logro en modo Hardcore, en efecto, ¡ganando el doble de puntos! ¡Un juego que normalmente vale 400 puntos, vale 800 puntos si lo completas exitosamente en el modo Hardcore! Por ejemplo: si completas el juego por completo con 400 puntos, entonces tienes la oportunidad de ganar otros 400 en el modo Hardcore.
+#### ¿Qué detalles debo añadir a un informe de logro roto?
 
-Si quieres jugar con el modo Hardcore desactivado (también conocido como "softcore"), podrás tener algunos problemas. Más detalles aquí: [Why you shouldn't use the load state feature](/orphaned/load-state-feature)
+Si es posible, en el informe de logro roto, pega un enlace a una captura de pantalla o un vídeo (aún mejor) de dónde se ha producido el problema. Se recomienda publicar capturas de pantalla en [imgur](https://imgur.com/) y vídeos en [YouTube](https://www.youtube.com).
 
-## ¡No obtuve este logro! (o lo obtuve en un momento equivocado)
+Añade también detalles como:
 
-Hay una característica incorporada solo en los emuladores oficiales (no en RetroArch) que permite informar sobre logros rotos que se obtienen en el momento equivocado, o que no se obtienen del todo. Ir a _RetroAchievements -> Report Broken Achievements_.
+- Cuándo fue/no fue logrado.
+- En qué modo de juego (HARDCORE/softcore).
+- Qué nivel de dificultad u otros ajustes seleccionaste.
+- Cuánto tiempo estuviste jugando.
+- Cuándo fue la última vez que moriste o continuaste.
+- Cuál crees que puede ser el problema o cualquier otro detalle que consideres útil.
 
-Ejemplo:
+Esto es necesario para que los desarrolladores de logros sepan dónde está el problema.
 
-![how to report](https://media.giphy.com/media/xUA7aZDdbSvB0hctpe/giphy.gif).
+### ¿Qué es un hash de RA?
 
-También hay una forma de informar sobre logros rotos directamente a través del sitio web. En la página de cada logro, hay un enlace que dice `Report an issue for this achievement`, como en la imagen a continuación:
+El hash de RA es una cadena única de 32 números hexadecimales, para distinguir diferentes juegos y versiones de ellos, todos tienen uno.
 
-![open-ticket-on-site](https://user-images.githubusercontent.com/8508804/38785449-9c8abffc-40f6-11e8-8d9b-d9bac5b0d5d4.png)
+#### ¿Cómo puedo comprobar el hash de RA del juego al que estoy jugando?
 
-Agrega detalles del estado de tu juego, cuándo se activó/no se activó el logro, en qué modo de juego ocurrió, dónde estabas cuando sucedió/no sucedió, si reseteaste el juego recientemente, o cualquier otra cosa que creas que pueda ser relevante para el logro. Esto es necesario para nuestro sistema, para que los desarrolladores sepan dónde esta el problema.
+- Para Retroarch: Menú rápido ⇒ Información, a continuación, en la parte inferior "Hash de RetroAchievements".
+- Para emulador independiente o RaLibretro - Pestaña RetroAchievement en la parte superior ⇒ Obtener ROM Checksum, y mostrará el hash de RA
 
-### Completé un logro difícil pero no se activó, ¿se me puede desbloquear manualmente?
+###  ¿Cómo solicito un desbloqueo manual?
 
-Sí. Pero debes seguir los siguientes pasos:
+- Si usas [Discord](https://discord.gg/dq2E4hE), escribe una solicitud en el canal [#manual-unlock (desbloqueo manual)](https://discord.com/channels/310192285306454017/1029858289221116104) siguiendo el formato que hay en el [mensaje fijado de este hilo](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
 
-1. Envia un ticket describiendo con detalles el problema que tuvo con el logro. **[`Mira la pregunta/respuesta anterior para saber cómo enviar un ticket.`](#no-obtuve-este-logro-o-lo-obtuve-en-un-momento-equivocado)**
-   1. Si el logro no se registró en el sitio debido a un problema de red, no es necesario que envie un ticket.
-2. Obtén una prueba/evidencia de que completaste el logro ([ejemplo perfecto de evidencia proporcionado por gr1nya](https://youtu.be/uqD-GTkZbLo)). **Pruebas aceptables**:
-   1. Capturas de pantalla que muestran que estas jugando en Hardcore y has completado el logro.
-   2. **Un video de aquello (mucho mejor)**.
-   3. Ejemplos de logros que has obtenido que reemplazan o superan este logro, por ejemplo, obtuviste el logro de 10.000 puntos, pero no el de 5.000 puntos.
-3. Publícalo en el canal `#help-me` de nuestro [Servidor de Discord](https://discord.gg/dq2E4hE), mencionando a algún @admin u otro usuario con el rol de admin, proporcionando la siguiente información:
-   1. En enlace a la página del logro
-   2. En que modo estabas jugando (hardcore/softcore)
-   3. El enlace a la evidencia (captura de pantalla, video, etc.)
+- Si no usas [Discord](https://discord.gg/dq2E4hE). Estando logueado en **RetroAchievements.org** [envía un mensaje privado](https://retroachievements.org/createmessage.php?t=RAdmin) al usuario [RAdmin](https://retroachievements.org/user/RAdmin) con el título: **Manual Unlock Request (Petición de desbloqueo manual)**
+  y una descripción que sea similar a esta:
 
-## ¡Yo también quiero hacer logros!
+  ```
+  Hi. I'm requesting a manual unlock. http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo
+  ```
 
-**¡Es bueno escuchar eso!** El mejor lugar para empezar es aqui: [Getting Started as an Achievement Developer](/es/developer-docs/getting-started-as-an-achievement-developer.html). Una vez que estés familiarizado con el Memory Inspector y otros diálogos relacionados con los logros, puedes ir al resto de los [Developer Docs](/es/developer-docs/).
+  Traducción:
+    ```
+  Hola. Me gustaría solicitar un desbloqueo manual. http://retroachievements.org/ticketmanager.php?i=9577 Prueba HARDCORE: https://youtu.be/uqD-GTkZbLo
+  ```
 
-Por favor, no dudes en preguntar si necesitas ayuda, ¡no luches! Lo más importante es asegurarte de que estás disfrutando lo que sea que estés haciendo. Si no te estás divirtiendo, no lo hagas. Pero si te sientes frustrado y quieres persistir, simplemente deja caer un mensaje en los [foros](https://retroachievements.org/forum.php?c=7) o en el [Servidor de Discord](https://discord.gg/dq2E4hE) y alguien se comunicará contigo en breve.
+#### Cómo solicitar un desbloqueo manual
+1. Abre un ticket describiendo con detalle el problema que has tenido con el logro. ([¿Cómo informo de un logro roto?](#¿como-informo-de-un-logro-roto))
+   1. Si el logro no se registró en el sitio debido a un problema de red, no necesitas abrir un ticket.
+2. <a name="qualified-proof"></a>Consigue una prueba/evidencia de que has completado el logro. **Pruebas admitidas**:
+   1. Capturas de pantalla que muestren que se está jugando en HARDCORE y se ha completado el logro.
+   2. **Video (aún mejor)** ([ejemplo perfecto de prueba proporcionada por gr1nya](https://youtu.be/uqD-GTkZbLo)).
+   3. Ejemplos de logros que hayas conseguido que demuestren que has ganado el logro. Por ejemplo: Has conseguido el logro de 10 000 puntos, pero el de 5000 puntos no se te ha concedido.
+3. Si estás en nuestro servidor discord, envía un mensaje al canal de [#manual-unlock (desbloqueo manual)](https://discord.gg/FswPDnu) añadiendo **@manual-unlock**. Si no es el caso, [envía un mensaje privado](https://retroachievements.org/createmessage.php?t=RAdmin) al usuario [RAdmin](https://retroachievements.org/user/RAdmin). El mensaje debe contener:
+   1. El enlace al ticket. Puedes encontrar el ticket aquí: http://retroachievements.org/ticketmanager.php
+   2. En qué modo estabas jugando (HARDCORE/softcore)
+   3. Enlace a la [prueba certificada](#qualified-proof) de completado. Incluye una prueba de que el logro se consiguió en HARDCORE, si estabas jugando en HARDCORE.
 
-## ¿Que son los Puntos Blancos (White points)?
+**Nota:** Los desbloqueos manuales están destinados a los jugadores con pruebas de haber conseguido logros que no se activaron _in situ_ debido a un error o a un problema de red.
 
-Los puntos blancos (White points) son secundarios según lo difícil que sea un logro. Explicado [en detalle aquí](https://retroachievements.org/viewtopic.php?t=1015).
+**No** se concederán a los jugadores que hayan jugado al juego antes de que estuviera disponible un juego o en otra plataforma no compatible (hardware original, por ejemplo).
 
-## ¿Qué se considera hacer trampa (para el Hardcore)? ¿Qué pasa si encuentro evidencia de un tramposo?
+### ¿Qué pasa si obtengo un logro que no he ganado?
 
-Explotación de conjuntos de logros y alteración o modificación deliberada de juego, emulador, memoria, velocidad (avance rápido) o conjunto. Cargar baterías grabadas para obtener logros fuera de lugar sin ganarlos durante el juego normal.
+Lo mismo que si no lo obtienes cuando deberías. En la mayoría de los casos querrás [crear un informe de ticket](#¿como-informo-de-un-logro-roto) dejando una explicación de lo que salió mal. También querrás restablecer aquellos logros obtenidos de tu historial para tener la satisfacción de haberlos conseguido de verdad.
 
-Se prohiben todas las trampas de los juegos, a menos que se especifique en la descripción o los comentarios del logro en la página del logro.
 
-Vivimos por un código de honor más que nada. Si encuentras evidencia de un tramposo, envía la evidencia a [RAdmin](https://retroachievements.org/User/RAdmin), o envía un correo electrónico a [RAmodmail@gmail.com](mailto:RAmodmail@gmail.com).
+### ¿Cómo puedo restablecer los logros?
 
-## ¿Qué pasa si obtengo un logro que no gané?
+Hay tres formas de hacerlo:
 
-Lo mismo ocurre con no obtenerlo cuando debería, en la mayoría de los casos, querrás crear un informe de ticket (ver arriba), dejando una explicación de lo que salió mal. También querrás eliminar estos logros de tu cuenta, para que puedas tener la satisfacción de realmente ganarlos por ti mismo.
+- En la página de logros:<br>
+  ![reset-achievements-1](https://user-images.githubusercontent.com/45054151/113181800-cc095980-9217-11eb-8553-0f7a882d1b3e.png)
 
-![Reset Achievement](https://i.imgur.com/zI3VD8w.gif)  
-_Restableciendo logros no ganados._
+- En la página del juego (cuando quieras o necesites reiniciar todos los obtenidos de una partida):<br>
+  ![reset-achievements-2](https://user-images.githubusercontent.com/45054151/113181807-cd3a8680-9217-11eb-9f14-b6dad7077332.png)
 
-## ¿Cómo puedo restablecer mi contraseña? (Si no la recuerdo)
+- Cerca de la parte inferior de la página de configuración de usuario:<br>
+  ![reset-achievements-3](https://user-images.githubusercontent.com/45054151/113181815-cf044a00-9217-11eb-8825-c327a35fa47c.PNG)
 
-Justo aquí:
+### ¿Soy el único que tiene un problema?
+
+Si un logro no funciona correctamente para ti, es muy probable que no funcione para otras personas. Puedes comprobarlo en la página del logro y buscar donde dice: "El logro tiene 'X' tickets abiertos":
+
+![foto-tickets-abiertos](https://user-images.githubusercontent.com/9311410/41203540-8f55d26e-6ca6-11e8-8683-a16e98394c18.png)
+
+Si el juego tiene tickets, haz clic en el enlace "open tickets" (tickets abiertos). Aparecerá una lista con los informes de logros rotos. Puedes comentar sobre ellos para añadir detalles útiles o decir que también tienes un problema con este logro.
+
+---
+
+## Preguntas frecuentes sobre la cuenta
+
+### ¿Por qué no puedo ver mi nueva foto de perfil?
+
+Pulsa `Ctrl + F5` (en la mayoría de los navegadores). A veces, después de haber cambiado tu foto de perfil, también conocida como avatar o foto de usuario, necesitas refrescar la caché de tu navegador. En la mayoría de los navegadores `Ctrl + F5` es la forma más rápida de hacerlo.
+
+### ¡Mi correo de bienvenida ha desaparecido!
+
+Lamentablemente, a veces el correo de bienvenida desaparece. Si esto ocurre, inicia sesión con el nombre de usuario y la contraseña con los que te registraste y visita la página de configuración. En la parte superior encontrarás la opción de reenviar el correo de registro.
+
+### ¿Cómo puedo restablecer mi contraseña? (Si no recuerdo mi contraseña)
+
+Aquí:
 [https://retroachievements.org/resetPassword.php](https://retroachievements.org/resetPassword.php)
 
-En el sitio, página principal, mientras no esté conectado:
+En la página principal, sin estar conectado:
 
-![reset password](https://i.imgur.com/3AxGYWe.png)
+![restablecer-contrasena](https://i.imgur.com/3AxGYWe.png)
 
-## ¿Porque no puedo ver mi nueva foto de perfil?
+### ¿Tendré algún privilegio si me hago mecenas?
 
-Presiona `Ctrl + F5` (en la mayoría de navegadores). Algunas veces después de haber cambiado tu foto de perfil (también conocido como avatar o foto de usuario) necesitas refrescar la cache de tu navegador; en la mayoría de los navegadores la manera mas rápida de hacerlo es con `Ctrl + F5`.
-
-## ¿Voy obtener algún privilegio si me convierto en Patreon?
-
-En el sitio web vas a obtener un badge que dice "I helped fund RA!". En el servidor de discord vas a tener acceso a un canal dedicado. Aunque **estamos inmensamente agradecido por los aportes de nuestros Patreons**, no hay otro bonus aparte de esos.
-
-Gracias a las [contribuciones de Patreon](https://www.patreon.com/bePatron?u=5403777) el proyecto de RetroAchievements puede pagar un servidor decente en el sitio web, correr el bot de discord y también realizar respaldos cada cierto tiempo (para recuperar información en caso de un desastre), y todo esto con una experiencia libre de anuncios. La comunidad entera le merece un gran gracias a los patreons.
-
-## ¿RetroAchievements esta haciendo dinero por medio de la emulación?
-
-No. RetroAchievements es una comunidad de fans devotos que quieren rendirle homenaje a sus juegos favoritos creando y sacando logros! Aunque también aceptamos donaciones por medio de [Patreon](https://www.patreon.com/bePatron?u=5403777) todo el dinero donado se utiliza para pagar los gastos de los servidores y mantener el sitio completamente libre de anuncios. Todos los programadores y desarrolladores entregan su tiempo a lo mejor para la comunidad a su propio costo.
+En el sitio web tendrás una insignia que pondrá "I helped fund RA!" (¡He ayudado a financiar RA!). En el servidor de discord tendrás acceso a un canal dedicado. Aunque **todos estamos inmensamente agradecidos por las contribuciones de los mecenas**, no hay ninguna otra bonificación aparte de esas.
+1
+Gracias a las [contribuciones de Patreon](https://www.patreon.com/bePatron?u=5403777) el proyecto RetroAchievements puede pagar un servidor decente para hacer funcionar el sitio web, hacer funcionar el bot de discord y también tener copias de seguridad periódicas (para recuperar los datos en caso de desastre), y todo ello con una experiencia sin publicidad. Toda la comunidad ha de darle un gran reconocimiento a los mecenas.

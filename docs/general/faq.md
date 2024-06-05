@@ -77,7 +77,7 @@ If the achievement wasn't awarded, you can request a [manual-unlock](#how-do-i-r
 
 There are two ways to report broken achievements. In the emulator title bar go to **RetroAchievements** ⇒ **Report Broken Achievements**:
 
-1. For [Official RetroAchevement emulators](#official-retroachievementsorg-emulators) only:
+1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only:
 
 ![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
 
@@ -85,7 +85,7 @@ There are two ways to report broken achievements. In the emulator title bar go t
 
 ![open-ticket-on-site](https://cdn.discordapp.com/attachments/484977989470126081/533009389490012171/unknown.png)
 
-If you use the [Official RetroAchevement emulators](#official-retroachievementsorg-emulators) you can also report problems from the website achievement page, but it is preferred that you use the method built into the emulators.
+If you use the [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) you can also report problems from the website achievement page, but it is preferred that you use the method built into the emulators.
 
 #### What details _I have to add_ to a broken achievement report?
 
@@ -125,6 +125,7 @@ RA hash is an unique string of 32 hexadecimal numbers, to distinguish different 
 
 - If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievments.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
   and a description that looks similar to this:
+
 
   ```
   Hi. I'm requesting a manual unlock. http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo

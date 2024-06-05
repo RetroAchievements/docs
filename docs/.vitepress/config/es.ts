@@ -19,24 +19,24 @@ export const es = defineConfig({
     },
 
     footer: {
-      message: "Publicado bajo la Licencia GPL-3. No hay ROMs protegidas por derechos de autor disponibles para descargar en RetroAchievements.",
+      message: "Publicado bajo la Licencia GPL-3. No hay ROM protegidas por derechos de autor disponibles para descargar en RetroAchievements.",
       copyright: `Copyright © 2012–${new Date().getFullYear()} RetroAchievements. Todos los derechos reservados.`,
     },
 
     lastUpdated: {
-      text: "Actualizado en",
+      text: "Actualizado el",
       formatOptions: {
         dateStyle: "short",
         timeStyle: "medium",
       },
     },
 
-    langMenuLabel: "Cambiar Idioma",
-    returnToTopLabel: "Volver al Inicio",
-    sidebarMenuLabel: "Menú Lateral",
-    darkModeSwitchLabel: "Modo Oscuro",
-    lightModeSwitchTitle: "Cambiar a Modo Claro",
-    darkModeSwitchTitle: "Cambiar a Modo Oscuro",
+    langMenuLabel: "Cambiar idioma",
+    returnToTopLabel: "Volver al inicio",
+    sidebarMenuLabel: "Menú lateral",
+    darkModeSwitchLabel: "Modo oscuro",
+    lightModeSwitchTitle: "Cambiar a modo claro",
+    darkModeSwitchTitle: "Cambiar a modo oscuro",
   },
 });
 
@@ -53,7 +53,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: "/es/guidelines/",
     },
     {
-      text: "Desarrollo de Logros",
+      text: "Desarrollo de logros",
       link: "/es/developer-docs/index",
       activeMatch: "/es/developer-docs/",
     },
@@ -71,7 +71,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/es/general/index",
         },
         {
-          text: "Preguntas Frecuentes",
+          text: "Preguntas frecuentes",
           link: "/es/general/faq",
         },
         // {
@@ -79,21 +79,21 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/es/general/setup-guide",
         // },
         {
-          text: "Soporte e Incidentes del Emulador",
+          text: "Soporte y problemas de los emuladores",
           link: "/es/general/emulator-support-and-issues",
         },
         {
-          text: "Maneras de Contribuir",
+          text: "Maneras de contribuir",
           link: "/es/general/ways-to-contribute",
         },
-        // {
-        //   text: "RABot, el Robot de Discord de RA",
-        //   link: "/es/general/rabot",
-        // },
-        // {
-        //   text: "Eventos",
-        //   link: "/es/general/events",
-        // },
+        {
+          text: "RABot, el bot de RA para Discord",
+          link: "/es/general/rabot",
+        },
+        {
+          text: "Eventos",
+          link: "/es/general/events",
+        },
         // {
         //   text: "Rollouts",
         //   link: "/es/general/rollouts"
@@ -102,22 +102,22 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   text: "DevQuests",
         //   link: "/es/general/devquests"
         // },
-        // {
-        //   text: "Temas de Superposición",
-        //   link: "/es/general/overlay-themes",
-        // },
-        // {
-        //   text: "Enlaces Útiles",
-        //   link: "/es/general/useful-links",
-        // },
         {
-          text: "Contribuir a la Documentación",
+          text: "Temas superpuestos",
+          link: "/es/general/overlay-themes",
+        },
+        {
+          text: "Enlaces útiles",
+          link: "/es/general/useful-links",
+        },
+        {
+          text: "Contribuir a la documentación",
           link: "/es/general/contributing-to-the-docs",
         },
-        // {
-        //   text: "Sobre Nosotros",
-        //   link: "/es/general/about-us",
-        // },
+        {
+          text: "Sobre nosotros",
+          link: "/es/general/about-us",
+        },
       ],
     },
     // {
@@ -475,7 +475,7 @@ export const search: DefaultTheme.AlgoliaSearchOptions["locales"] = {
         noResultsScreen: {
           noResultsText: "No se pudieron encontrar resultados",
           suggestedQueryText: "Puedes intentar una nueva consulta",
-          reportMissingResultsText: "¿Deberían haber resultados para esta consulta?",
+          reportMissingResultsText: "¿Debería haber resultados para esta consulta?",
           reportMissingResultsLinkText: "Haz clic para enviar comentarios",
         },
       },

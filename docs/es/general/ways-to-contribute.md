@@ -1,49 +1,82 @@
-Incluso si tu no sabes como crear logros aun hay varias maneras para contribuir con la comunidad de RetroAchievements. Aquí se encuentran algunos ejemplos.
+# Maneras de contribuir
+
+Incluso si no quieres convertirte en desarrollador de logros pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo:
+
+[[toc]]
 
 ## Reportar logros rotos
 
-Si tu logro se disparo en el momento equivocado o no se disparo del todo, por favor reportalo. Sabemos que a muchos usuarios le gustan los puntos gratis, pero por favor, incluso si un logro se disparo en el momento equivocado, reportalo!
+Si un logro se activó en un momento incorrecto o incluso si no se activó, notifícalo. Sabemos que a muchos usuarios les encantan los puntos gratis, pero por favor, aunque un logro se haya lanzado en un momento equivocado, ¡notifícalo!
 
-Otra situación que también merece ser reportada es cuando un logro se dispara por medio del uso de un cheat en el juego (ej. código de selección de stages), o cargando un archivo de guardado.
+Otra situación importante que merece ser reportada es la activación de un logro mediante algún tipo de truco (por ejemplo, código de selección de fase), o cargando una partida guardada.
 
-Hay dos maneras para reportar un logro roto: directamente desde el emulador o por medio de la pagina web. En los dos casos, agrega detalles del estado de tu juego, cuando se disparo/no se disparo, cual modo de juego, donde estabas cuando paso/no paso, si reseteaste el juego recientemente, cualquier cosa que pienses que podría resultar relevante para el logro. Esto es necesario para que los desarrolladores encuentren donde esta el problema.
+Hay dos formas de informar de un logro roto: directamente en el emulador o a través de la página web. En ambos casos, añade detalles sobre el estado de tu partida, cuándo se activó o no se activó, en qué modo de juego, dónde estabas cuando ocurrió o no ocurrió, si habías reiniciado la partida recientemente, o cualquier otra cosa que creas que puede ser relevante para el logro. Esto es necesario para que los desarrolladores encuentren dónde está el problema.
 
-### Reportando por medio del emulador
+### Reportar a través de la página web
 
-Ve a RetroAchievements -> Report Broken Achievements, esta función solamente esta disponible en emuladores oficiales (no en RetroArch).
+En la página de cada logro verás un enlace que dice:  `Report an issue for this achievement (reportar un fallo para este logro)`, como en la imagen de abajo:
 
-Mira este ejemplo:
+![abrir-un-ticket-en-el-sitio](https://user-images.githubusercontent.com/8508804/38785449-9c8abffc-40f6-11e8-8d9b-d9bac5b0d5d4.png)
 
-![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+### Reportando a través del emulador
 
-### Reportar por medio del sitio web
+Ve a RetroAchievements -> Report Broken Achievements (Reportar logros rotos), esta función solamente está disponible en emuladores oficiales como RALibretro (no en RetroArch).
 
-En la pagina de cada logro podrás ver un link que dice `Report an issue for this achievement`, como en la imagen de abajo:
+Véase este ejemplo:
 
-![open-ticket-on-site](https://user-images.githubusercontent.com/8508804/38785449-9c8abffc-40f6-11e8-8d9b-d9bac5b0d5d4.png)
+![como-reportar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif)
 
-## Sugiere buenos logros/retos
+## Sugiere ideas para logros
 
-Si conoces un juego bastante bien, probablemente tal vez tengas algunas ideas muy cool sobre retos para el juego. Postea tus ideas en el foro del juego.
+Si conoces bien un juego, probablemente tal vez tengas algunas ideas muy buenas sobre retos para él.
+Escribe tus ideas en el foro del juego.
 
-Tenemos [una guía en como pensar y diseñar buenos logros](/es/developer-docs/achievement-design.html), no el lado técnico sino el conceptual. Que incluso los que no son desarrolladores pueden llegar a conseguir un poco de inspiración de ese documento.
+Tenemos [una guía en como establecer y diseñar buenos logros](/es/developer-docs/achievement-design), pero no el lado técnico sino en el conceptual.
+Incluso los que no son desarrolladores pueden llegar a inspirarse con este documento.
 
-## La retro-alimentación es siempre bienvenida
+## Deja tu opinión
 
-Deja retro-alimentación en los foros sobre que te gusta o que te disgusta sobre un set de logros. Se especifico y deja cada detalle.
+Deja tu opinión en los foros acerca de lo que te gusta o lo que no sobre un set de logros. Sé específico y deja detalle.
 
-## Haz iconos/emblemas para logros
+## Crea emblemas e iconos de juegos
 
-Si te gusta jugar con gráficos puedes crear algún arte para los emblemas o iconos de juegos. Utilizando la opción de captura de pantalla del emulador puede llegar a ser útil para esto, y entonces puedes editarlo para hacer llegar a hacer algo muy cool.
+Si te gusta jugar con gráficos puedes crear emblemas o iconos para los juegos.
+Utilizar la opción de captura de pantalla del emulador puede ayudar a ello.
+Puedes editarlo para hacer llegar a hacer algo muy chulo.
 
-Puedes encontrar mas información en la [pagina de creación de Badges e Iconos](/es/developer-docs/badge-and-icon-creation.html).
+Encontrarás más información en la [página de creación de emblemas e iconos](/es/developer-docs/badge-and-icon-creation).
 
 ## Ayuda con la documentación
 
-Si cuentas con una cuenta de github y conoces lo básico del Markdown, puedes ayudar con la documentación. Corregir errores ortográficos, gramaticales o información errónea.
+Si tienes una cuenta de github y conoces lo básico del lenguaje markdown, puedes ayudar con la documentación. Corregir errores ortográficos, gramaticales o información errónea.
 
-Hecha un vistazo a esta pagina para conocer los detalles: [Contribuyendo con los documentos](/es/general/contributing-to-the-docs.html)
+Echa un vistazo a esta página para conocer más detalles: [Contribuyendo con la documentación](/es/general/contributing-to-the-docs)
 
-## Participa en los eventos de la comunidad
+## Participa en los eventos
 
-Como Logro de la Semana, Tabla Clasificatoria de la Semana u otros eventos que suceden en [nuestro servidor de discord](https://discord.gg/dq2E4hE).
+Tales como "Achievement of the Week" (Logro de la semana), "Leaderboard of the Week" (Clasificación de la semana) u otros eventos que se hagan en [nuestro servidor de discord](https://discord.gg/dq2E4hE).
+
+## Reportar errores en el título y la descripción
+
+Sección en progreso
+
+## Pruebas de juego
+
+Sección en progreso
+
+## Pruebas de compatibilidad
+
+Sección en progreso
+
+## Escribe para RANews (RANoticias)
+
+Sección en progreso. Por ahora, véase: [Repositorio de RANews](https://github.com/RetroAchievements/RANews).
+
+## Crea RAGuides (RAGuías)
+
+Sección en progreso. Por ahora, véase:
+[Repositorio de RAGuides](https://github.com/RetroAchievements/guides).
+
+## Ayuda con RAPatches (RAParches)
+
+Sección en progreso. Por ahora, véase: [Repositorio de RAPatches](https://github.com/RetroAchievements/RAPatches).
