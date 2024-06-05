@@ -11,7 +11,7 @@ This feature will be available at the RA_Integration version 1.4 milestone for d
 
 The `Remember` condition is chosen in the Flag column of the Asset Editor. Since many of the use cases tend to be fairly complex, it is recommended you be familiar with the rest of the tool kit before studying some of the more complicated examples below.
 
-When a condition has the `Remember Flag`, the value of the condition is stored in the `Recall` accumulator. This value may be used in later logic by using the [`Recall`](/developer-docs/recall) operand found in the Type column of either side.
+When a condition has the `Remember` Flag, the value of the condition is stored in the `Recall` accumulator. This value may be used in later logic by using the [`Recall`](/developer-docs/recall) operand found in the Type column of either side.
 
 There is one remembered value per _group_ (Core, Alt1, Alt2, etc). This value is initialized at the beginning of an evaluation as a unsigned integer with value 0. If you Remember a new value, it will overwrite the previously remembered value. If you remember a Float value, the remembered value will be a floating point value instead of an unsigned integer. Using `Recall` before a value is remembered using the `Remember` condition will generate a warning in the asset editor.
 
@@ -32,7 +32,7 @@ In this example, the `Delta` value of `0x1234`, the value from the previous fram
 
 | ID  | Flag     | Type | Size   | Memory | Cmp | Type  | Size   | Mem/Val | Hits |
 | --- | -------- | ---- | ------ | ------ | --- | ----- | ------ | ------- | ---- |
-| 1   | Remember | Mem  | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1224  |      |
+| 1   | Remember | Mem  | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1234  |      |
 
 The Remember condition can optionally take two operands and process a value based on an operator such as multiplication, division, addition, subtraction, and others. In this example, we used the subtraction operator to store the equivalent value as in the first example, but we do it in a single line.
 
@@ -53,7 +53,7 @@ In this example it uses the stored value and compares it to a constant value of 
 | 3   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
 | 4   | And Next | Recall |        |        | =   | Value |        | 0x14    |       |
 | 5   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
-| 6   | And Next | Recall |        |        | =   | Value |        | 0x14    |       |
+| 6   | And Next | Recall |        |        | =   | Value |        | 0x64    |       |
 | 7   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
 | 8   | Measured | Value  |        | 0x00   | =   | Value |        | 0x00    | 3 (0) |
 
@@ -69,13 +69,13 @@ See the [`Pause If`](/developer-docs/flags/pauseif) document for more informatio
 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val    | Hits  |
 | --- | -------- | ------ | ------ | ------ | --- | ----- | ------ | ---------- | ----- |
-| 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1224     |       |
+| 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1234     |       |
 | 2   | Pause If | Recall |        |        | >=  | Value |        | 0x80000000 | 1 (0) |
 | 3   | And Next | Recall |        |        | =   | Value |        | 0x05       |       |
 | 4   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
 | 5   | And Next | Recall |        |        | =   | Value |        | 0x14       |       |
 | 6   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
-| 7   | And Next | Recall |        |        | =   | Value |        | 0x14       |       |
+| 7   | And Next | Recall |        |        | =   | Value |        | 0x64       |       |
 | 8   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
 | 9   | Measured | Value  |        | 0x00   | =   | Value |        | 0x00       | 3 (0) |
 
@@ -90,12 +90,12 @@ Notes:
 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val   | Hits  |
 | --- | -------- | ------ | ------ | ------ | --- | ----- | ------ | --------- | ----- |
-| 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1224    |       |
+| 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1234    |       |
 | 2   | And Next | Recall |        |        | =   | Value |        | 0x05      |       |
 | 3   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
 | 4   | And Next | Recall |        |        | =   | Value |        | 0x14      |       |
 | 5   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
-| 6   | And Next | Recall |        |        | =   | Value |        | 0x14      |       |
+| 6   | And Next | Recall |        |        | =   | Value |        | 0x64      |       |
 | 7   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
 | 8   | Measured | Value  |        | 0x00   | =   | Value |        | 0x00      | 3 (0) |
 | 9   | Pause If | Recall |        |        | >=  | Value |        | 0x8000000 | 1 (0) |
@@ -150,7 +150,7 @@ Breakdown of Conditions:
 | 6   | AddAddress | Mem  | 32-bit | 0x1234 | +   | Recall |      |         |       |
 | 7   | Remember   | Mem  | 16-bit | 0x24   | \*  | Value  |      | 0x60    |       |
 | 8   | AddAddress | Mem  | 32-bit | 0x1234 | +   | Recall |      |         |       |
-| 9   | Reset If   | Mem  | 8-bit  | 0x00   | =   | Value  |      | 0xA7    | 0 (0) |
+| 9   | Reset If   | Mem  | 8-bit  | 0x00   | =   | Value  |      | 0xa7    | 0 (0) |
 
 This example shows how using `Remember` continues the chain of And Next conditions and how you can remember new values during the chain without affecting earlier parts of the chain or breaking the chain.
 
@@ -184,11 +184,11 @@ A remembered value will match the type of data being remembered. If operations a
 
 ### Integer Overflow
 
-When the stored value is an integer, all logic being performed is limited to 32-bits. If the total value exceeds 0xFFFFFFFF, there will be an overflow and only the 32 least significant bits will be used in the comparison.
+When the stored value is an integer, all logic being performed is limited to 32-bits. If the total value exceeds 0xffffffff, there will be an overflow and only the 32 least significant bits will be used in the comparison.
 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type       | Size   | Mem/Val | Hits |
 | --- | -------- | ------ | ------ | ------ | --- | ---------- | ------ | ------- | ---- |
 | 1   | Remember | Mem    | 32-bit | 0x8010 | +   | Mem        | 32-Bit | 0x8020  |      |
 | 2   |          | Recall | >      | Value  |     | 0x30000000 | 0 (0)  |
 
-If 0x8010 is 0xC0000000 and 0x8020 is 0x54321ABC, then the total will be 0x114321ABC, which is more than 32-bits and will be truncated to 0x14321ABC, which is not more then 0x30000000, so the logic will evaluate false.
+If 0x8010 is 0xc0000000 and 0x8020 is 0x54321abc, then the total will be 0x114321abc, which is more than 32-bits and will be truncated to 0x14321abc, which is not more then 0x30000000, so the logic will evaluate false.
