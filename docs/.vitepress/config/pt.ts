@@ -314,6 +314,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Modelos de Conquistas",
           link: "/pt/developer-docs/achievement-templates",
         },
+        // {
+        //   text: "Save and Password Protection",
+        //   link: "/developer-docs/save-and-password-protection",
+        // },
         {
           text: "Dicas e Truques",
           link: "/pt/developer-docs/tips-and-tricks",

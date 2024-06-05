@@ -300,6 +300,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/achievement-templates",
         },
         {
+          text: "Save and Password Protection",
+          link: "/developer-docs/save-and-password-protection",
+        },
+        {
           text: "Tips and Tricks",
           link: "/developer-docs/tips-and-tricks",
         },
