@@ -2,20 +2,20 @@
 
 ## Current Events
 
-| Event Name                            | Current Host(s) | Relevant Link | More Info                |
-| ------------------------------------- | --------------- | ------------- | ------------------------ |
-| Achievement of the Week               | Various         |               |                          |
-| Challenge League 4                    | BahamutVoid     |               |                          |
-| Daily DistRActions                    | Bendyhuman      |               |                          |
-| [DevQuests](/general/devquests.html) | Various         |               | Developer Event (Series) |
-| Leaderboard of the Month              | Searo           |               |                          |
-| Peak Streak                           | Bendyhuman      |               |                          |
-| RetroAchievements Roulette (RAWR)     | StingX2         |               |                          |
-| Retro Game Show                       | Thoreau         |               |                          |
-| [Rollouts](/general/rollouts.html)   |                 |               |
-| Simple Monthly Master                 | Hotscrock       |               |                          |
-| The Unwanted                          | televandalist   |               |                          |
-| UserQuests(?)                         | Various         |               | Player Event (Series)    |
+| Event Name                                  | Current Host(s) | Relevant Link | More Info                |
+| ------------------------------------------- | --------------- | ------------- | ------------------------ |
+| Achievement of the Week                     | Various         |               |                          |
+| Challenge League 4                          | BahamutVoid     |               |                          |
+| Daily DistRActions                          | Bendyhuman      |               |                          |
+| [DevQuests](/developer-docs/devquests.html) | Various         |               | Developer Event (Series) |
+| Leaderboard of the Month                    | Searo           |               |                          |
+| Peak Streak                                 | Bendyhuman      |               |                          |
+| RetroAchievements Roulette (RAWR)           | StingX2         |               |                          |
+| Retro Game Show                             | Thoreau         |               |                          |
+| [Rollouts](/developer-docs/rollouts.html)   |                 |               |
+| Simple Monthly Master                       | Hotscrock       |               |                          |
+| The Unwanted                                | televandalist   |               |                          |
+| UserQuests(?)                               | Various         |               | Player Event (Series)    |
 
 ## Past or Seasonal Events
 
