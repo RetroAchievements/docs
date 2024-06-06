@@ -92,7 +92,7 @@ Additionally, you can use AddSource to modify a value. By clicking on the "Cmp" 
 
 - `AddSource 8-bit Mem 0x8010 & Value 0x3f` would read the 8-bit value from $8010, discard bits 6 and 7 (0x3f is 00111111 in binary) and then add that to the accumulator.
 
-`^`: Bitwise XOR the left side with the right side
+`^`: Bitwise-XOR the left side with the right side
 
 - `AddSource 8-bit Mem 0x8010 ^ Mem 0x8011` would read the 8-bit values from $8010 and $8011, and result in a value where the resulting bits would be 1 if the same bit in the two operands differed, or 0 if the same bit in the two operands matched. This result would be added to the accumulator.
 
