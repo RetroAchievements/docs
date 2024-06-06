@@ -83,6 +83,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/pt/general/emulator-support-and-issues",
         },
         // {
+        //   text: "How RA Works",
+        //   link: "/general/how-ra-works",
+        // },
+        // {
         //   text: "Maneiras de Contribuir",
         //   link: "/pt/general/ways-to-contribute",
         // },

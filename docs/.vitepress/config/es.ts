@@ -78,10 +78,15 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   text: "Guía de Configuración",
         //   link: "/es/general/setup-guide",
         // },
+    
         {
           text: "Soporte y problemas de los emuladores",
           link: "/es/general/emulator-support-and-issues",
         },
+        // {
+        //   text: "How RA Works",
+        //   link: "/general/how-ra-works",
+        // },
         {
           text: "Maneras de contribuir",
           link: "/es/general/ways-to-contribute",
