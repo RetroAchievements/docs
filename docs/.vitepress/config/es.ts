@@ -331,6 +331,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   link: "/es/developer-docs/devquests"
         // },
         // {
+        //   text: "DevJam",
+        //   link: "/es/developer-docs/devjam",
+        // },
+        // {
         //   text: "RATools",
         //   link: "/es/developer-docs/ratools",
         // },
