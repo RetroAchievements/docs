@@ -99,7 +99,7 @@ Additionally, you can use AddSource to modify a value. By clicking on the "Cmp" 
 You can use memory references on the right side as well. `AddSource 8-bit Mem 0x8010 * 8-bit Mem 0x8011` would read the two 8-bit values, multiply them together, and add that to the accumulator.
 
 ::: warning VERSION NOTICE
-Addition, subtraction, and modulus operators are slated for the version 1.4 RA_Integration milestone. Processing support will be available in the version 11.4 rcheevos milestone. They will are available in earlier versions.
+Addition, subtraction, and modulus operators are slated for the version 1.4 RA_Integration milestone. Processing support will be available in the version 11.4 rcheevos milestone.
 :::
 
 ### Interaction with floats
