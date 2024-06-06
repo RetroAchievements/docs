@@ -5,7 +5,7 @@ description: Learn how to use the Recall operand type to represent a previously 
 
 # `Recall`
 
-::: warning
+::: warning VERSION NOTICE
 This feature will be available at the RA_Integration version 1.4 milestone for developers, with support to be added for rcheevos version 11.4 milestone.
 :::
 
