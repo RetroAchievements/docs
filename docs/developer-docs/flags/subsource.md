@@ -83,3 +83,7 @@ If you use a negative number in a `SubSource` flag, it will result in a double n
 | 2   |           | Value |      | 0xffffffe5 | =   | Value |      | 0xffffffe3 | 0 (0) |
 
 This means `-(-2) + (-27) = -29`, which is `2 - 27 = -29`, which is `-25 = -29`, which is false.
+
+### Using Modifiers
+
+Like `Add Source`, you can click the "Cmp" column to add a modifier to perform and operation that modifies the value before subtracting it from the accumulator. See [Add Source - Using Modifiers](/developer-docs/flags/addsource#using-modifiers) for more details.
