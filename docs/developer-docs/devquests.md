@@ -2,7 +2,7 @@
 
 ## What are DevQuests?
 
-They're achievement development-related quests that developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn the badge.
+They're achievement development-related quests that Developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn the badge. DevQuests are not available for Junior Developers.
 
 ## General Rules
 
