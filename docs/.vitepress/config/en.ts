@@ -84,14 +84,6 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/events",
         },
         {
-          text: "Rollouts",
-          link: "/general/rollouts"
-        },
-        {
-          text: "DevQuests",
-          link: "/general/devquests"
-        },
-        {
           text: "Overlay Themes",
           link: "/general/overlay-themes",
         },
@@ -318,6 +310,18 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         {
           text: "Rich Presence",
           link: "/developer-docs/rich-presence",
+        },
+        {
+          text: "Rollouts",
+          link: "/developer-docs/rollouts",
+        },
+        {
+          text: "DevQuests",
+          link: "/developer-docs/devquests",
+        },
+        {
+          text: "DevJam",
+          link: "/developer-docs/devjam",
         },
         {
           text: "RATools",

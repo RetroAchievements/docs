@@ -99,14 +99,6 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/pt/general/events",
         // },
         // {
-        //   text: "Rollouts",
-        //   link: "/pt/general/rollouts"
-        // },
-        // {
-        //   text: "DevQuests",
-        //   link: "/pt/general/devquests"
-        // },
-        // {
         //   text: "Temas de Overlay",
         //   link: "/pt/general/overlay-themes",
         // },
@@ -334,6 +326,18 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Rich Presence",
           link: "/pt/developer-docs/rich-presence",
         },
+        // {
+        //   text: "Rollouts",
+        //   link: "/pt/developer-docs/rollouts"
+        // },
+        // {
+        //   text: "DevQuests",
+        //   link: "/pt/developer-docs/devquests"
+        // },
+        // {
+        //   text: "DevJam",
+        //   link: "/pt/developer-docs/devjam",
+        // },
         // {
         //   text: "RATools",
         //   link: "/pt/developer-docs/ratools",

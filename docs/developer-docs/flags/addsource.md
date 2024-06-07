@@ -64,7 +64,7 @@ If 0x8010 is 0xC0000000 and 0x8020 is 0x54321ABC, then the total will be 0x11432
 
 ### Using Modifiers
 
-Additionally, you can use AddSource to modify a value. By clicking on the "Cmp" column, a dropdown will open with three operators: `*`, `/`, and `&`. This allows you to modify the value before adding it to the accumulator.
+Additionally, you can use AddSource to modify a value. By clicking on the "Cmp" column, a dropdown will open with various math and logical operators. This allows you to modify the value before adding it to the accumulator.
 
 `*`: Multiply the left side by the right side.
 
@@ -73,12 +73,34 @@ Additionally, you can use AddSource to modify a value. By clicking on the "Cmp" 
 `/`: Divide the left side by the right side.
 
 - `AddSource 8-bit Mem 0x8010 / Value 0x14` would read the 8-bit value from $8010, divide by 20 (rounding down) and then add that to the accumulator.
+- Note: If the divisor (right side) is zero, the result will be treated as a value of 0.
+
+`%` Modulus operator: Divide the left side by the right side and return the remainder of the division.
+
+- `AddSource 8-bit Mem 0x8010 % Value 0x14` would read the 8-bit value from $8010, divide by 20, and then add the remainder of that division to the accumulator.  For example, if $8010 held a value of 43, the result of the modulus operation would be 3, which will be added to the accumulator.
+- Note: If the divisor (right side) is zero, the result will be treated as a value of 0.
+
+`+`: Add the left side and the right side.
+
+- `AddSource 8-bit Mem 0x8010 + Value 0x14` would read the 8-bit value from $8010, add 20 to it and then add that to the accumulator.
+
+`-`: Subtract the right side from the left side.
+
+- `AddSource 8-bit Mem 0x8010 - Value 0x14` would read the 8-bit value from $8010, subtract 20 from it and then add that to the accumulator.
 
 `&`: Bitwise-mask the left side with the right side.
 
 - `AddSource 8-bit Mem 0x8010 & Value 0x3f` would read the 8-bit value from $8010, discard bits 6 and 7 (0x3f is 00111111 in binary) and then add that to the accumulator.
 
+`^`: Bitwise-XOR the left side with the right side
+
+- `AddSource 8-bit Mem 0x8010 ^ Mem 0x8011` would read the 8-bit values from $8010 and $8011, and result in a value where the resulting bits would be 1 if the same bit in the two operands differed, or 0 if the same bit in the two operands matched. This result would be added to the accumulator.
+
 You can use memory references on the right side as well. `AddSource 8-bit Mem 0x8010 * 8-bit Mem 0x8011` would read the two 8-bit values, multiply them together, and add that to the accumulator.
+
+::: warning VERSION NOTICE
+Addition, subtraction, and modulus operators are slated for the version 1.4 RA_Integration milestone. Processing support will be available in the version 11.4 rcheevos milestone.
+:::
 
 ### Interaction with floats
 
