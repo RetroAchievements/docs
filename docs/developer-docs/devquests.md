@@ -152,7 +152,7 @@ No hacks or homebrew unless those are the only types of games left without sets.
 **Repeatable**: No
 
 ::: info Set Elligibility
-Must be in RANews at the time of claiming it
+At the time you claim the set, it must be in Most Wanted section of the latest issue of RANews.
 :::
 
 1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
