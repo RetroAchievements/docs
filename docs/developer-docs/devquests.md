@@ -301,7 +301,7 @@ You must have developoed sets for 10 or more supported platforms before opt-in. 
 1. Collaborations are Acceptable as long as both contribute equally to the set with a minimum of 20 achievements each.
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. The person that wrote the Wish This Set may not be one of the developers making the set.
-4. Quest is available year round, and gets new games eligible every release of RANews
+4. Quest is available year round, and gets new games eligible every release of RANews.
 5. If you already have a set claimed at the time it becomes elligible for this DevQuest you must be under 50% progress for it to count.
 6. Once a game has been featured it remains eligible until the game gets a set.
 
@@ -335,7 +335,7 @@ You must have developoed sets for 10 or more supported platforms before opt-in. 
 4. Subsets must be **from two different games**, but can be from the same series.
 5. Subsets must be **two different types of subsets** (i.e.: Can't do two Bonus sets, Can't do two Professor Oak Challenges, etc
 6. A subset worked on at the same time as the core set is permitted, but only one of your subsets may be done this way.
-7. If you are already working on a subset at the time this DevQuest goes live, you must be under 50% progress when informing the DQ Team for it to be count.
+7. If you are already working on a subset at the time this DevQuest goes live, you must be under 50% progress when informing the DQ Team for it to be counted.
 
 ### 019 [Wheel of Genres](https://retroachievements.org/game/22565)
 
