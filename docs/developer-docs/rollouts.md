@@ -32,22 +32,21 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 
 ## Previous Rollouts
 
-| Launch Date |             Console              | Number of Sets on Launch Day |                           Relevant Links                           |
-| :---------: | :------------------------------: | :--------------------------: | :----------------------------------------------------------------: |
-| 2019-09-07  |           PlayStation            |              28              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=9302)  |
-| 2021-10-01  |       PlayStation Portable       |              38              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14016) |
-| 2022-02-12  |            Dreamcast             |              34              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=15276) |
-| 2022-03-28  |           Amstrad CPC            |              30              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=15835) |
-| 2022-05-08  |        Arduboy<br>WASM-4         |           38<br>25           | [Forum Topic](http://retroachievements.org/viewtopic.php?t=16456)  |
-| 2022-07-28  | Fairchild Channel F<br>Mega Duck |           ??<br>??           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=17590) |
-| 2022-10-01  |          PlayStation 2           |              92              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=11108) |
-| 2023-04-16  |           Nintendo DSi           |              45              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21246) |
-| 2023-06-04  |         Atari Jaguar CD          |              12              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21898) |
-| 2023-07-01  |         Interton VC 4000         |              31              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22335) |
-| 2023-07-01  |    Elektor TV Games Computer     |              23              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22335) |
-| 2023-07-01  |           Arcadia 2001           |              22              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22335) |
-|   Pending   |              Uzebox              |              ??              |                              Pending                               |
-|   Pending   |              TI-83               |              ??              |                              Pending                               |
-|   Pending   |            Neo Geo CD            |              ??              |                              Pending                               |
-|   Pending   |           Commodore 64           |              ??              |                              Pending                               |
-|   Pending   |           ZX Spectrum            |              ??              |                              Pending                               |
+| Launch Date |                            Console                            | Number of Sets on Launch Day |                           Relevant Links                           |
+|:-----------:|:-------------------------------------------------------------:|:----------------------------:|:------------------------------------------------------------------:|
+| 2019-09-07  |                          PlayStation                          |              28              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=9302)  |
+| 2021-10-01  |                     PlayStation Portable                      |              38              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14016) |
+| 2022-02-12  |                           Dreamcast                           |              34              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=15276) |
+| 2022-03-28  |                          Amstrad CPC                          |              30              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=15835) |
+| 2022-05-08  |                       Arduboy<br>WASM-4                       |           38<br>25           | [Forum Topic](http://retroachievements.org/viewtopic.php?t=16456)  |
+| 2022-07-28  |               Fairchild Channel F<br>Mega Duck                |           21<br>18           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=17590) |
+| 2022-10-01  |                         PlayStation 2                         |              92              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=11108) |
+| 2023-04-16  |                         Nintendo DSi                          |              45              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21246) |
+| 2023-06-04  |                        Atari Jaguar CD                        |              12              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21898) |
+| 2023-07-01  | Interton VC 4000<br>Elektor TV Games Computer<br>Arcadia 2001 |        31<br>23<br>22        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22335) |
+| 2023-08-12  |                            Uzebox                             |              30              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22887) |
+| 2023-11-15  |                          Neo Geo CD                           |              23              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24443) |
+|   Pending   |                           GameCube                            |              ??              |                              Pending                               |
+|   Pending   |                             TI-83                             |              ??              |                              Pending                               |
+|   Pending   |                         Commodore 64                          |              ??              |                              Pending                               |
+|   Pending   |                          ZX Spectrum                          |              ??              |                              Pending                               |
