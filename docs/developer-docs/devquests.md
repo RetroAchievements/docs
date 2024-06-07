@@ -143,7 +143,7 @@ No hacks or homebrew unless those are the only types of games left without sets.
 2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin
 3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
 
-### 007 [Most Wanted](https://retroachievements.org/game/17758)**
+### 007 [Most Wanted](https://retroachievements.org/game/17758)
 
 ![DQ007](https://retroachievements.org/Images/046249.png)
 
@@ -268,12 +268,12 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 015 [Console Conqueror](https://retroachievements.org/game/809)
 
+![DQ015](https://retroachievements.org/Images/068013.png)
+
 **Type**: Special  
 **Goal**: Publish a set for every supported platform on RetroAchievements  
 **Repeatable**: No  
 **RetroActive!**
-
-![DQ015](https://retroachievements.org/Images/068013.png)
 
 :::info Ever-Growing
 Each console ID will have an achievement associated with it. Newly supported console IDs means new achievements!
