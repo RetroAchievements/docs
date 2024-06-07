@@ -11,7 +11,7 @@ This feature will be available at the RA_Integration version 1.4 milestone for d
 
 The `Remember` condition is chosen in the Flag column of the Asset Editor. Since many of the use cases tend to be fairly complex, it is recommended you be familiar with the rest of the tool kit before studying some of the more complicated examples below.
 
-When a condition has the `Remember` Flag, the value of the condition is stored in the `Recall` accumulator. This value may be used in later logic by using the [`Recall`](/developer-docs/recall) operand found in the Type column of either side.
+When a condition has the `Remember` flag, the value of the condition is stored in the recall accumulator. This value may be used in later logic by using the [`Recall`](/developer-docs/recall) operand found in the Type column of either side.
 
 There is one remembered value per _group_ (Core, Alt1, Alt2, etc). This value is initialized at the beginning of an evaluation as a unsigned integer with value 0. If you Remember a new value, it will overwrite the previously remembered value. If you remember a Float value, the remembered value will be a floating point value instead of an unsigned integer. Using `Recall` before a value is remembered using the `Remember` condition will generate a warning in the asset editor.
 
@@ -26,7 +26,11 @@ The `Remember` condition is a combining condition and does not break any chain i
 | 1   | SubSource | Delta | 16-bit | 0x1234 |     |      |      |         |      |
 | 2   | Remember  | Mem   | 16-bit | 0x1234 |     |      |      |         |      |
 
-In this example, the `Delta` value of `0x1234`, the value from the previous frame, is subtracted from the `Mem` value of `0x1234` and Remembered.
+In this example, the `Delta` value of `0x1234`, the value from the previous frame, is subtracted from the `Mem` value of `0x1234` and remembered.
+
+::: info
+`Remember` sets the value of the recall accumulator.
+:::
 
 ### Simple Example - With Operators
 
@@ -59,6 +63,10 @@ In this example it uses the stored value and compares it to a constant value of 
 
 In this example, we are using the stored value in multiple chains within an Add Hits chain without having to recalculate the value each time. Here we are looking for specific increases of `0x1234` to occur while the value of `0x1000` is equal to 3. Perhaps `0x1234` is money, `0x1000` is the current level, and you want to make sure the player collects a gem worth 5 units of money, one worth 20, and one worth 100 in level 3. `Recall` is used here to check all these values of the difference between Mem and Delta without having to recalculate it each time. See the [`Add Hits`](/developer-docs/flags/addhits-subhits) document for more information about how that condition works.
 
+::: info
+`Recall` retrieves the value stored in the recall accumulator.
+:::
+
 ## Interaction with Pause If
 
 Because `Pause If` logic is processed before other logic, `Pause If` logic can only recall values that have been remembered by pause logic. Values remembered during `Pause If` logic continue to be remembered during the remaining logic processing.
@@ -86,6 +94,10 @@ Notes:
 - \* Due to the way unsigned math works, the subtraction will underflow back to 0xfffffff at negative one, so any value greater or equal to 0x80000000 is treated as negative).
 - Because pause processing happens first, you _could_ put conditions 1-2 at the end of the logic and it will still work! The value remembered by the pause logic will still be available to the Add Hits chain. However because this may be a confusing effect, we recommend putting your pause logic at the beginning when using it with `Remember` and `Recall`.
 
+::: tip
+To avoid unexpected behavior with `Remember` and `Recall`, place pause logic that uses these features at the top of the group.
+:::
+
 ### Example of Incorrect Usage with Pause If
 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val   | Hits  |
@@ -101,6 +113,10 @@ Notes:
 | 9   | Pause If | Recall |        |        | >=  | Value |        | 0x8000000 | 1 (0) |
 
 In this example, the `Remember` condition is not chained with the `Pause If`. Because of this, the `Pause If` condition will read a value of 0 from the `Recall` operand and never be paused, as a consequence of the pause logic being processed first. Fear not though, as the validation is smart enough to recognize this and will generate a warning on condition 9 that `Recall` is being used in a `Pause If` without a value being remembered in a `Pause If`.
+
+::: danger
+When using the `Recall` type operator in Pause If logic, be sure that the `Remember` condition that sets the value you wish to use is in the same `Pause If` chain or an earlier `Pause If` chain. Otherwise the recalled value with be 0!
+:::
 
 ## Using `Recall` within a `Remember` Condition
 
