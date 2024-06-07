@@ -157,7 +157,7 @@ Must be in RANews at the time of claiming it
 
 1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
 2. Must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714 channel on discord or sending a message to the DevQuest account.
-3. Any games listed in the console specific bonus section in RANews will only be eligible to be claimed in the month it was featured in but the set doesn't need to be released in the same month.
+3. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
 
