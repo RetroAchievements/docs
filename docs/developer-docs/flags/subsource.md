@@ -86,4 +86,4 @@ This means `-(-2) + (-27) = -29`, which is `2 - 27 = -29`, which is `-25 = -29`,
 
 ### Using Modifiers
 
-Like `Add Source`, you can click the "Cmp" column to add a modifier to perform and operation that modifies the value before subtracting it from the accumulator. See [Add Source - Using Modifiers](/developer-docs/flags/addsource#using-modifiers) for more details.
+Like `AddSource`, you can click the "Cmp" column to add a modifier to perform and operation that modifies the value before subtracting it from the accumulator. See [Add Source - Using Modifiers](/developer-docs/flags/addsource#using-modifiers) for more details.

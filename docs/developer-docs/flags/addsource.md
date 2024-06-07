@@ -77,7 +77,7 @@ Additionally, you can use AddSource to modify a value. By clicking on the "Cmp" 
 
 `%` Modulus operator: Divide the left side by the right side and return the remainder of the division.
 
-- `AddSource 8-bit Mem 0x8010 % Value 0x14` would read the 8-bit value from $8010, divide by 20, and then add the remainder of the division that to the accumulator.  For example, if $8010 held a value of 43, the result of the modulus operation would be 3, which will be added to the accumulator.
+- `AddSource 8-bit Mem 0x8010 % Value 0x14` would read the 8-bit value from $8010, divide by 20, and then add the remainder of that division to the accumulator.  For example, if $8010 held a value of 43, the result of the modulus operation would be 3, which will be added to the accumulator.
 - Note: If the divisor (right side) is zero, the result will be treated as a value of 0.
 
 `+`: Add the left side and the right side.
