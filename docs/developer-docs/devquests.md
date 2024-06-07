@@ -46,7 +46,7 @@ They're achievement development-related quests that Developers can take part in 
 **Goal**: Repair 3 sets from provided batch  
 **Repeatable**: Yes (Up to 3 times)
 
-1. Pick a game from the list of approved DQ2 sets and then post your claim to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on discord or send to DevQuest inbox
+1. Pick a game from the list of approved DQ2 sets and then post your claim to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or send to DevQuest inbox
 2. Follow the revision process as normal: Post the plan on the forum, make a revision vote if any changes aren't on the "no need for approval list," and make a revision claim if adding achievements.
 3. Resolve any open tickets for achievements kept in the set, Tickets for achievements being left demoted can be simply closed with reason of demotion cited
 4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.
@@ -71,12 +71,12 @@ They're achievement development-related quests that Developers can take part in 
 
 ### 004 [Veteran Developer](https://retroachievements.org/game/15947)
 
+![DQ004](https://retroachievements.org/Images/069722.png)
+
 **Type**: Special  
 **Goal**: Complete a set of special goals  
 **Repeatable**: No  
 **Retroactive!**
-
-![DQ004](https://retroachievements.org/Images/069722.png)
 
 1. Has published at least 1000 achievements and worked on at least 25 sets as the sole or majority developer
 2. Has created achievements for at least ten different console IDs
@@ -156,7 +156,7 @@ Must be in RANews at the time of claiming it
 :::
 
 1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
-2. Must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on discord or sending a message to the DevQuest account.
+2. You must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel onDiscord or sending a message to the DevQuest account.
 3. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
@@ -280,7 +280,7 @@ Each console ID will have an achievement associated with it. Newly supported con
 :::
 
 ::: warning Opt-In Quest
-You must have developoed sets for 10 or more supported platforms before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on discord or sending a message to the DevQuest account
+You must have developed sets for 10 or more supported platforms before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account
 :::
 
 1. This quest is awarded in sweeps; do not ping claims or completions. Any set will be counted as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
