@@ -143,7 +143,7 @@ No hacks or homebrew unless those are the only types of games left without sets.
 2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin
 3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
 
-### 007 [Most Wanted](https://retroachievements.org/game/17758)**
+### 007 [Most Wanted](https://retroachievements.org/game/17758)
 
 ![DQ007](https://retroachievements.org/Images/046249.png)
 
@@ -268,12 +268,12 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 015 [Console Conqueror](https://retroachievements.org/game/809)
 
+![DQ015](https://retroachievements.org/Images/068013.png)
+
 **Type**: Special  
 **Goal**: Publish a set for every supported platform on RetroAchievements  
 **Repeatable**: No  
-***RetroActive!**
-
-![DQ015](https://retroachievements.org/Images/068013.png)
+**RetroActive!**
 
 :::info Ever-Growing
 Each console ID will have an achievement associated with it. Newly supported console IDs means new achievements!
@@ -354,8 +354,9 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 ![DQ020](https://retroachievements.org/Images/083451.png)
 
 **Type**: Special  
-**Goal**: Publish a set for every genre! 
-**Repeatable**: No
+**Goal**: Publish a set for every genre!  
+**Repeatable**: No  
+**RetroActive!**
 
 ::: warning Opt-In Quest
 You must have made sets for at least 5 genres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started
@@ -376,8 +377,9 @@ You must have made sets for at least 5 genres before opt-in. To opt-in, make a c
 ![DQ020S](https://retroachievements.org/Images/083452.png)
 
 **Type**: Special  
-**Goal**: Publish a set for every subgenre! 
-**Repeatable**: No
+**Goal**: Publish a set for every subgenre!  
+**Repeatable**: No  
+**RetroActive!**
 
 ::: warning Opt-In Quest
 You must have made sets for at least 15 subgenres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started. You may use the same sheet to opt in to this and to DevQuest 020.
