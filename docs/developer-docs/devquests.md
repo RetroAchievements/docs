@@ -2,21 +2,21 @@
 
 ## What are DevQuests?
 
-They're achievement development-related quests that developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn the badge.
+They're achievement development-related quests that Developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn the badge. DevQuests are not available for Junior Developers.
 
 ## General Rules
 
-1. For Set-Creation achievements other than DQ15, please announce your DQ pick in devquest or via the DevQuest inbox on site early on in your development. This will give us time to make sure any issues with the choice can be sorted out early. Late requests may not count.
-2. For Maintenance achievements (i.e.: DQ1, DQ5, DQ14, etc), just create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team when you are complete with all entries for review.
-3. For Revision achievements (i.e.: DQ2 and DQ13), make sure your choice is already on the corresponding approved list. You will need to satisfy the repair plan. These quests should be more than simple one-achievement revisions. If a repair plan seems to be overly simple, contact us first to ensure it will qualify.
+1. For Set-Creation achievements other than DevQuest 015 and DevQuest 020, announce your DQ pick in [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) or via the DevQuest inbox on site early on in your development. This will give us time to make sure any issues with the choice can be sorted out early. Late requests may not be counted.
+2. For Maintenance achievements (i.e.: DevQuest 001, DevQuest 005, DevQuest 04, etc), just create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team when you are complete with all entries for review. For Maintenance Quests that can be repeated, one row of the column will be for which badge number you are working towards.
+3. For Revision achievements (i.e.: DevQuest 002 and DevQuest 013), make sure your choice is already on the corresponding approved list. You will need to satisfy the repair plan. These quests should be more than simple one-achievement revisions. If a repair plan seems to be overly simple, contact us first to ensure it will qualify.
 4. Unless otherwise stated in a DevQuest's description, collaborations are not allowed.
 5. Standard set quality or better is expected for DevQuest sets. If a set appears to be of insufficient effort or a copy/paste set, it may be rejected at the DevQuest team's discretion. Rich Presence is required for DevQuest sets. The DevQuest team is happy to suggest improvements for qualification.
-6. New sets may only be applied towards one DevQuest. No double-dipping.
+6. New sets may only be applied towards one Set Creation DevQuest. No double-dipping.
 7. Always contact the active authors on sets whose content you will update or add to.
 
 ## Reporting
 
-- Contact the team using the DevQuest team on site or on in #devquest on Discord.
+- Contact the team using the DevQuest team on site or on in [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) on Discord.
 
 ## Schedule and Announcements
 
@@ -25,30 +25,410 @@ They're achievement development-related quests that developers can take part in 
 
 ## The Quests
 
-| Badge                                                      | Number         | Name                                                                                    | Info                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ---------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![DQ001](https://retroachievements.org/Images/044438.png)  | **001**        | **[Ticket Massacre](https://retroachievements.org/game/15940)**<br>_(Maintenance)_      | **Resolve/close 50 tickets**<br>• Falsifying ticket closures will result in disqualification<br>• The following do not count toward the total: Network issues, tickets for achievements you developed, tickets you opened, tickets closed on behalf of Junior Developers, and tickets closed as a result of ticket spamming.<br>• May not overlap with DevQuest 2 or with any completion requirements for DevQuest 13.<br>• Tickets for users banned from development count for double credit.<br>• This quest can be done multiple times (current limit: 3)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ![DQ002](https://retroachievements.org/Images/044439.png)  | **002**        | **[Retro Renovator](https://retroachievements.org/game/15957)**<br>_(Revision)_         | **Repair 3 sets from provided batch**<br> 1. Pick a game from the list of approved DQ2 sets and then post your claim to the #devquest channel on discord or send to DevQuest inbox<br> 2. Do the revision process as normal: Post plan on the forum, make a revision vote if any changes aren't on the "no need for approval list," make a revision claim if adding achievements.<br> 3. Resolve any open tickets for achievements kept in the set, Tickets for achievements being left demoted can be simply closed with reason of demotion cited<br> 4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.<br> 5. Contact the DevQuest team with any questions you have.<br> 6. When the set is ready mark it down on the doc under your name to be signed off by a DevQuest Member.<br><br>• If you identify a set you believe should qualify for DQ2, notify the DevQuest team for addition to the list and development of a repair plan prior to claiming. All claims must be on the list.<br>• This quest can be done multiple times (current limit: 3)                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ![DQ003](https://retroachievements.org/Images/044440.png)  | **003**        | **[Singles In Your Area](https://retroachievements.org/game/15953)**<br>_(Maintenance)_ | **Tighten up the logic for 20 single-condition achievements**<br>1. This is a chance to tighten the code up, do not just add a bad line of code<br>2. You do not need a revision vote to tighten<br>3. Achievements cannot be your own, you should just fix these anyway!<br>4. PLEASE LEAVE Comments on each achievement on what you changed for log purposes<br>5. May not overlap with the required repair plan for DevQuest 2 or with any completion requirements for DQ13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ![DQ004](https://retroachievements.org/Images/069722.png)  | **004**        | **[Veteran Developer](https://retroachievements.org/game/15947)**<br>_(Stat-Based)_     | **This DevQuest consists of several passive goals, each one being their own achievement, which are as followed:**<br>1. Has published at least 1000 achievements and worked on at least 25 sets as the sole or majority developer<br>2. Has created achievements for at least ten different console IDs<br>3. Has been an active developer for at least **two** years<br>4. At least 85% of sets have dynamic rich presence _(Vet Dev I required)_<br>5. Yielded unlocks have exceeded 50,000<br>6. As a sole developer, submitted one or more sets for code review and received an overall grade of at least 22<br>7. Has used at least 75% of all currently available flags and features (Vet Dev I and VI required)8. Has obtained at least two DevQuest badges<br>8. Has obtained at least two badges through DevQuest<br>9. Has obtained at least five badges through DevQuest<br>•_Note: A constantly evolving toolkit means that these requirements are subject to change at any time_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ![DQ005](https://retroachievements.org/Images/044441.png)  | **005**        | **[Trigger Happy](https://retroachievements.org/game/15952)**<br>_(Maintenance)_        | **Update 20 sets with the `Trigger` and `Measured` flags**<br>1. Must **put measured and/or triggered where it makes sense**. Do so on all appropriate achievements in the set. Achievements with unnecessary use will not be counted. If you hit 50 and there is more in a set to update, you must update the rest of the set.<br>2. You can do achievements in your **own sets** at half credit. Put both achievements on the same line, with a / between them. **Link** each achievement ID to the achievement's page.<br>3. You **must** _leave comments_ on set page for what you changed for log purposes<br>4. May not overlap with the required repair plan for DevQuest 2 or with any completion requirements for DQ13<br>5. **TEST all changes**. Ensure triggers appear when they should, and do not appear when they should not. Ensure the achievement can still trigger when expected.<br>6. **Subscribe to tickets** on the updated sets so you can catch any `Trigger` or `Measured` related tickets                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ![DQ006](https://retroachievements.org/Images/045565.png)  | **006**        | **[The Unwanted](https://retroachievements.org/game/15907)**<br>_(Set Creation)_        | **Develop a set for an unpopular system assigned to you at random**<br>• Eligible systems: PC Engine CD, Sega CD, 32X, Atari Lynx, Neo Geo Pocket/Neo Geo Pocket Color, Atari Jaguar, MSX/MSX2, Apple II, 3DO, ColecoVision, Intellivision, PC-8800/PC-8000, Atari 7800, Wonderswan/Wonderswan Color, Odyssey2, PC-FX, Amstrad CPC, Arduboy, WASM4, Nintendo DSi<br>• No hacks or homebrew unless those are the only types of games left without sets.<br><br>1. Must be a full set, not just progression. Badges will be denied to those who make incomplete sets.<br>2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin<br>3. Tasks are available to restore your respin. See the Wheel Respin Token Tasks for more details.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ![DQ007](https://retroachievements.org/Images/046249.png)  | **007**        | **[Most Wanted](https://retroachievements.org/game/17758)**<br>_(Set Creation)_         | Develop a set for one of the most requested games. Must be in RANews at the time of claiming it<br>• If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.<br>• Any games listed in the console specific bonus section in RANEWS will only be eligible to be claimed in the month it was featured in but the set doesn't need to be released in the same month.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ![DQ008](https://retroachievements.org/Images/047727.png)  | **008**        | **[World Traveler](https://retroachievements.org/game/15918)**<br>_(Set Creation)_      | **Develop two sets for games that never had an English release.**<br>• An English release is considered a game released in English in US, Canada, UK, or AU.<br>1. All claims intended for this quest must follow normal procedure.<br>2. They must be full sets. Fodder for the Progression Only hub won't count.<br>3. Sets intended for World Traveler do not stack with other quests based around developing new content.<br>4. English translation patches will not disqualify a game from this quest.<br>5. Hacks and homebrew do not count towards the quest. Unlicensed titles may count as long as they aren't blatant bootleg ports or hacks of another game. If you're unsure if a game is valid, ask!<br>6. If a game was released in English but was ported to another platform with no English version, half credit may be granted.<br>7. Games that only released in English on unsupported platforms will receive full credit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ![DQ009](https://retroachievements.org/Images/048656.png)  | **009**        | **[Launch Party!](https://retroachievements.org/game/15937)**<br>_(Set Creation)_       | Develop a set for a newly supported console within 6 months of RA support<br>• Must be a full set (to the extent of the games capabilities, See Watara vs PSP)<br><br>Current Promotion Windows:<br>• Neo Geo CD: 2023-11-15 through 2024-05-15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ![DQ010](https://retroachievements.org/Images/049337.png)  | **010**        | **[It Takes Two](https://retroachievements.org/game/15939)**<br>_(Set Creation)_        | **Join forces with other developers to publish two collaboration sets**<br>1. Set must have a fair share of the work done by each dev - Sets like Animal Crossing DS would not be approved.<br>2. Must be a full set covering every aspect of the game<br>3. Each Dev must publish at least 20 achievements each.<br>4. Achievements must make sense, no fluff to fulfill requirement.<br>5. Must Follow Dev CoC as per usual.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ![DQ011](https://retroachievements.org/Images/049821.png)  | **011**        | **[The Genesis of RA!](https://retroachievements.org/game/1280)**<br>_(Set Creation)_   | **Develop a set for the Mega Drive/Genesis to celebrate the anniversary of RA's first achievement**<br>1. All claims intended for this quest must follow normal procedure.<br>2. Must be full sets or a major/significant revision.<br>3. Sega CD and Sega 32X games are not eligible.<br>4. No prototypes or hacks.<br>5. Quest is available year round.<br>6. Collabs are allowed so long as the work is visibly split.<br>7. Not stackable with other quests and not retroactive!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ![DQ012](https://retroachievements.org/Images/052519.png)  | **012**        | **[Hacker's Habit](https://retroachievements.org/game/672)**<br>_(Set Creation)_        | **Create two new sets for robust hacks**<br>1. Sets intended for this quest must be complete and encompass all notable content specific to the hack.<br>2. Acceptable hacks must be either complete overhauls that drastically change the level design, or introduce new mechanics that greatly change how you progress through the game.<br>3. Meme hacks, single-level hacks, and other small modifications aren't eligible.<br>4. You are limited to one point (full game credit) per franchise. Examples: If you create a set for a good-sized SMW hack for a full point credit, you can't do a Mario 64 hack for any points. If you do a small Mega Man 2 hack, you can get at most half credit for a Mega Man 3 hack, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ![DQ013](https://retroachievements.org/Images/057676.png)  | **013**        | **[complete.me](https://retroachievements.org/game/795)**<br>_(Revision)_               | **Provide significant content to three sets that are progression-only or were demoted due to being incomplete.**<br>1. Choose from a provided list or grab one from a hub, just make sure you let us know when you start so we can mark it!<br>2. Must go through the revision process as per usual!<br>3. Make sure you take care with the set and don't just throw in a bunch of filler<br>4. Don't hestitate to contact us with any questions or suggestion<br>• This quest can be done multiple times (current limit: 3)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ![DQ014](https://retroachievements.org/Images/057070.png)  | **014**        | **[Laudable Leaderboards](https://retroachievements.org/game/862)**<br>_(Set Creation)_ | **Create leaderboards for 10 games that currently do not have any!**<br>• Cover different game modes/difficulties when applicable.<br>• Try to cover leaderboards that make sense for the game. Some examples:<br>- For Arcade-type games it is fine to just add High Score leaderboards, possibly highest in a single life<br>- For Racing games time trials for tracks are pretty standard<br>- Speedruns for Platformers<br>- Minigames that track high scores or time are good candidates<br>- And so on. Reach out if you have any questions about a specific game<br>• You can do your own sets for half-credit as long as they were published prior to this DevQuest (2022-03-02)<br>• Please leave comments on set page for what you added for log purposes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ![DQ015](https://retroachievements.org/Images/068013.png)  | **015**        | **[Console Conqueror](https://retroachievements.org/game/809)**<br>_(Special)_          | **Publish a set for every supported console on RetroAchievements**<br>• Each console ID will have an achievement associated with it. Newly supported console IDs means new achievements!<br>• Contact us to opt-in to being tracked for this. There will generally be no need for reports.<br>• The only requirement for an unlock is that you are the sole or majority developer of a set on that console ID. Collabs require at least 20 achievements made. For the more dire consoles, specific requirements are in the achievements themselves.<br>• This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ![DQ016](https://retroachievements.org/Images/058480.png)  | **016**        | **[Wish This Set](https://retroachievements.org/game/2962)**<br>_(Set Creation)_        | **Publish a set for a game that has been featured in RANews' Wish This Set feature at any point in time and does not currently have a set in core.**<br>1. All claims intended for this quest must follow normal procedure. Collabs are fine as long as both contribute equally to the set.<br>2. Must be full sets containing all content and challenges appropriate to the game.<br>3. The person that wrote the Wish This Set cannot be one of the devs making the set.<br>4. Quest is available year round, and gets new games eligible every release of RANEWS<br>5. If you already have one claimed at the time the set becomes elligible for this DevQuest you must be under 50% progress for it to count.<br>6. Once a game has been featured it remains eligible until the game gets a set.<br>7. This does not stack with any other quests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ![DQ017](https://retroachievements.org/Images/062544.png)  | **017**        | **[RA World Cup](https://retroachievements.org/game/15942)**<br>_(Set Creation)_        | **Publish 2 Sets for 2 different sports games, 1 must be a physical sport**<br>1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games.<br>2. All claims intended for this quest must follow normal procedure. <br>3. This does not stack with any other quests.<br>4. Must be full sets containing all content and challenges appropriate to the game.<br>5. No Homebrew/Hacks/Unlicensed<br>6. New sets only: No Multi Set or Revisions<br>7. Other picks are subject to DQ team approval if they fall on the 50/50 line<br>8. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ![DQ018](https://retroachievements.org/Images/073716.png)  | **018**        | **[Subset Station](https://retroachievements.org/game/22564)**<br>_(Set Creation)_      | **Publish 2 Subsets**<br>1. Read through Subsets document to learn more about subsets.<br>2. Subsets not approved by default always need Developer Compliance approval. Seek this by sending a DM to DevCompliance on the site. Include as much detail as possible explaining why it fits as a good subset idea.<br>3. If you are not the author of the core set for the game, you will need to pass a revision vote with your subset plan. This is in addition to any necessary Developer Compliance approval.<br>4. Subsets must be from two different games, but can be from the same series.<br>5. Subsets must be two different types of subsets (i.e.: Can't do two Bonus sets, Can't do two Professor Oak Challenges, etc)<br>6. A subset worked on at the same time as the core set is permitted, but only one of your subsets may be done this way.<br>7. If you are already working on a subset at the time this DevQuest goes live, you must be under 50% progress when informing the DQ Team for it to count.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ![DQ019](https://retroachievements.org/Images/083449.png)  | **019**        | **[Wheel of Genres](https://retroachievements.org/game/22565)**<br>_(Set Creation)_     | **Develop a set from a specific genre or subgenre as determined by a spin on the Wheel of Genres!**<br>1. You must have an open claim as you will need to claim your set<br>2. Must be a full set, not just progression. Badges will be denied to those who make incomplete sets.<br>3. Games chosen should have a decent amount of content. Small games like short hacks, homebrews, and demos may be rejected at the discretion of the DevQuest Team. If in doubt, ask when you ping to choose the game for the quest.<br>4. You may respin one time. Respins cannot occur until three months have passed since a wheel spin<br>5. Tasks are available to restore your respin. See the Wheel Respin Token Tasks for more details.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ![DQ020](https://retroachievements.org/Images/083451.png)  | **020**        | **[Genre Conqueror](https://retroachievements.org/game/25672)**<br>_(Special)_          | **Publish a set for every genre!**<br>1. You must opt in to this quest. Make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started<br>2. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.<br>3. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.<br>4. Genres used for this quest are the main Genre hubs. We'll contact you to ask which genre is preferred.<br>5. If a set belongs to multiple top-level genres, we will ask you which genre to count for that set; if later on you do that same genre, you may ask us to reassign the set to the other genre.<br>6. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.<br>7. Falsifying a genre or subgenre field will bar you from this DevQuest<br>8. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.<br>9. Excluded Genres: Other and Literature<br>10. Added Genre: Party and Minigame subgenres combined as Party or Minigames Genre                                                                                                                    |
-| ![DQ020S](https://retroachievements.org/Images/083452.png) | **020 Subset** | **[Subgenre Conqueror](https://retroachievements.org/game/25673)**<br>_(Special)_       | **Publish a set for every subgenre!**<br>1. You must opt in to this quest. Make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started<br>2. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.<br>3. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.<br>4. Genres used for this quest are the Subgenre hubs.<br>5. If a set belongs to multiple subgenres, all will count. Exception: Compilations will only count for Subgenre - Compilation<br>6. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.<br>7. Falsifying a genre or subgenre field will bar you from this DevQuest<br>8. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.<br>9. Excluded subgenres: 4X, Pachinko, Specific Extreme Sports subgenres (each will count towards Subgenre - Extreme Sports), subgenres of Board Games and Card Games (Each will count towards their Board Game or Card Game subgenre parent), Literature subgenres<br>10. Subsets will not count unless approved by DevQuest. Ping DevQuest team for approval request. |
-| ![DQ021](https://retroachievements.org/Images/093270.png)  | **021**        | **[Homebrew Heaven](https://retroachievements.org/game/25677)**<br>_(Set Creation)_     | **Publish three new sets for homebrew games!**<br>1. Sets intended for this quest must be complete and encompass all notable content specific to the homebrew game.<br>2. Sets for homebrew systems (like WASM-4, Arduboy, and Uzebox) are worth half credit.<br>3. Collaborations are allowed. Credit will only be given to collaborators with 20 or more achievements in the set. At DQ Team suggestion, overly inflated sets may be disallowed.<br>4. Homebrew that is essentially the same as another you've done will not count (i.e. multiple Flappy Bird clones can only garner credit once)<br>5. One set per large homebrew collection maximum (i.e. One Net Yaroze 2014 Collection set allowed)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+### 001 [Ticket Massacre](https://retroachievements.org/game/15940)
+
+![DQ001](https://retroachievements.org/Images/044438.png)
+
+**Type**: Maintenance  
+**Goal**: Resolve/close 50 tickets  
+**Repeatable**: Yes (Up to 3 times)
+
+1. Falsifying ticket closures will result in disqualification
+2. The following do not count toward the total: Network issues, tickets for achievements you developed, tickets you opened, tickets closed on behalf of Junior Developers, and tickets closed as a result of ticket spamming.
+3. May not overlap with DevQuest 002 or with any completion requirements for DevQuest 013.
+4. Tickets for users banned from development count for double credit.
+
+### 002 [Retro Renovator](https://retroachievements.org/game/15957)
+
+![DQ002](https://retroachievements.org/Images/044439.png)
+
+**Type**: Revision, Maintenance  
+**Goal**: Repair 3 sets from provided batch  
+**Repeatable**: Yes (Up to 3 times)
+
+1. Pick a game from the list of approved DQ2 sets and then post your claim to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714 channel on discord or send to DevQuest inbox
+2. Follow the revision process as normal: Post the plan on the forum, make a revision vote if any changes aren't on the "no need for approval list," and make a revision claim if adding achievements.
+3. Resolve any open tickets for achievements kept in the set, Tickets for achievements being left demoted can be simply closed with reason of demotion cited
+4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.
+5. Contact the DevQuest team with any questions you have.
+6. When the set is ready mark it down on the doc under your name to be signed off by a DevQuest Member.
+
+- If you identify a set you believe should qualify for DQ2, notify the DevQuest team for addition to the list and development of a repair plan prior to claiming. All claims must be on the list.
+
+### 003 [Singles In Your Area](https://retroachievements.org/game/15953)
+
+![DQ003](https://retroachievements.org/Images/044440.png)
+
+**Type**: Maintenance  
+**Goal**: Tighten up the logic for 20 single-condition achievements  
+**Repeatable**: No
+
+1. This is a chance to tighten the code up, do not just add a bad line of code
+2. You do not need a revision vote to tighten
+3. Achievements cannot be your own, you should just fix these anyway!
+4. You must Comments on each achievement or in the forum on what you changed for log purposes
+5. May not overlap with the required repair plan for DevQuest 002 or with any completion requirements for DevQuest 013
+
+### 004 [Veteran Developer](https://retroachievements.org/game/15947)
+
+**Type**: Special  
+**Goal**: Complete a set of special goals  
+**Repeatable**: No  
+**Retroactive!**
+
+![DQ004](https://retroachievements.org/Images/069722.png)
+
+1. Has published at least 1000 achievements and worked on at least 25 sets as the sole or majority developer
+2. Has created achievements for at least ten different console IDs
+3. Has been an active developer for at least **two** years
+4. At least 85% of sets have dynamic rich presence _(Vet Dev I required)_
+5. Yielded unlocks have exceeded 50,000
+6. As a sole developer, submitted one or more sets for code review and received an overall grade of at least 22
+7. Has used at least 75% of all currently available flags and features (Vet Dev I and VI required)
+8. Has obtained at least two DevQuest badges
+9. Has obtained at least five badges through DevQuest
+
+-_Note: A constantly evolving toolkit means that these requirements are subject to change at any time_ 
+
+### 005 [Trigger Happy](https://retroachievements.org/game/15952)
+
+![DQ005](https://retroachievements.org/Images/044441.png)
+
+**Type**: Maintenance  
+**Goal**: Update 50 achievements with the Trigger and Measured flags  
+**Repeatable**: No
+
+1. Must **put measured and/or triggered where it makes sense**. Do so on all appropriate achievements in the set. Achievements with unnecessary use will not be counted. If you hit 50 and there is more in a set to update, you must update the rest of the set.
+2. You can do achievements in your **own sets** at half credit. Put both achievements on the same line, with a / between them. **Link** each achievement ID to the achievement's page.
+3. You **must** _leave comments_ on set page for what you changed for log purposes
+4. May not overlap with the required repair plan for DevQuest 2 or with any completion requirements for DQ13
+5. **TEST all changes**. Ensure triggers appear when they should, and do not appear when they should not. Ensure the achievement can still trigger when expected.
+6. **Subscribe to tickets** on the updated sets so you can catch any `Trigger` or `Measured` related tickets
+
+### 006 [The Unwanted](https://retroachievements.org/game/15907)
+
+![DQ006](https://retroachievements.org/Images/045565.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a set for an unpopular system assigned to you at random  
+**Repeatable**: No
+
+**Eligible systems**:
+- PC Engine CD
+- Sega CD
+- 32X
+- Atari Lynx
+- Neo Geo Pocket/Neo Geo Pocket Color
+- Atari Jaguar
+- MSX/MSX2
+- Apple II
+- 3DO
+- ColecoVision
+- Intellivision
+- PC-8800/PC-8000
+- Atari 7800
+- Wonderswan/Wonderswan Color
+- Odyssey
+- PC-FX
+- Amstrad CPC
+- Arduboy
+- WASM4
+- Nintendo
+
+::: warning NOTE
+No hacks or homebrew unless those are the only types of games left without sets.
+:::
+
+1. Must be a full set, not just progression. Badges will be denied to those who make incomplete sets.
+2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin
+3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
+
+### 007 [Most Wanted](https://retroachievements.org/game/17758)**
+
+![DQ007](https://retroachievements.org/Images/046249.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a set for one of the most requested games  
+**Repeatable**: No
+
+::: info Set Elligibility
+Must be in RANews at the time of claiming it
+:::
+
+1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
+2. Must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714 channel on discord or sending a message to the DevQuest account.
+3. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
+
+### 008 [World Traveler](https://retroachievements.org/game/15918)
+
+![DQ008](https://retroachievements.org/Images/047727.png)
+
+**Type**: Set Creation  
+**Goal**: Develop two sets for games that never had an English release  
+**Repeatable**: No
+
+::: info
+An English release is considered a game released in English in US, Canada, UK, or AU.<br>1. All claims intended for this quest must follow normal procedure.
+:::
+
+1. All claims intended for this quest must follow normal procedure.
+2. They must be full sets. Fodder for the Progression Only hub won't count.
+3. Sets intended for World Traveler do not stack with other quests based around developing new content.
+4. English translation patches will not disqualify a game from this quest.
+5. Hacks and homebrew do not count towards the quest. Unlicensed titles may count as long as they aren't blatant bootleg ports or hacks of another game. If you're unsure if a game is valid, ask!
+6. If a game was released in English on a platform, but was ported to another platform with no English version, half credit may be granted for the port on the platform that has no English release.
+7. Games that only released in English on unsupported platforms will receive full credit.
+
+### 009 [Launch Party!](https://retroachievements.org/game/15937)
+
+![DQ009](https://retroachievements.org/Images/048656.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a set for a newly supported console within 6 months of RA support  
+**Repeatable**: No
+
+- Must be a full set (to the extent of the games capabilities, See Watara vs PSP)
+- Smaller consoles may be ruled inelligible
+
+#### Current Launch Party Promotion Windows:
+- Neo Geo CD: 2023-11-15 through 2024-05-15
+- Nintendo GameCube: Pending Rollout Launch through 6 Months afterwards
+
+### 010 [It Takes Two](https://retroachievements.org/game/15939)
+
+![DQ010](https://retroachievements.org/Images/049337.png)
+
+**Type**: Set Creation  
+**Goal**: Join forces with other developers to publish two collaboration sets  
+**Repeatable**: No
+
+1. Set must have a fair share of the work done by each dev - Sets like Animal Crossing DS would not be approved.
+2. Must be a full set covering every aspect of the game
+3. Each Dev must publish at least 20 achievements each.
+4. Achievements must make sense, no fluff to fulfill requirement.
+
+### 011 [The Genesis of RA!](https://retroachievements.org/game/1280)
+
+![DQ011](https://retroachievements.org/Images/049821.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a set for the Sega Genesis/Mega Drive to celebrate the anniversary of RA's first achievement  
+**Repeatable**: No
+
+1. All claims intended for this quest must follow normal procedure.
+2. Must be full sets or a major/significant revision.
+3. Sega CD and Sega 32X games are not eligible.
+4. No prototypes or hacks.
+5. Collaborations are allowed so long as the work is visibly split.
+
+### 012 [Hacker's Habit](https://retroachievements.org/game/672)
+
+![DQ012](https://retroachievements.org/Images/052519.png)
+
+**Type**: Set Creation  
+**Goal**: Create two new sets for robust hacks  
+**Repeatable**: No
+
+1. Sets intended for this quest must be complete and encompass all notable content specific to the hack.
+2. Acceptable hacks must be either complete overhauls that drastically change the level design, or introduce new mechanics that greatly change how you progress through the game.
+3. Meme hacks, single-level hacks, and other small modifications aren't eligible.
+4. Smaller hacks may warrant only a half point credit
+5. You are limited to one point (full game credit) per franchise. Examples: If you create a set for a good-sized SMW hack for a full point credit, you can't do a Mario 64 hack for any points. If you do a small Mega Man 2 hack, you can get at most half credit for a Mega Man 3 hack, etc.
+
+### 013 [complete.me](https://retroachievements.org/game/795)
+
+![DQ013](https://retroachievements.org/Images/057676.png)
+
+**Type**: Revision, Maintenance  
+**Goal**: Provide significant content to three sets that are progression-only or were demoted due to being incomplete  
+**Repeatable**: Yes (Up to 3 times)
+
+1. Choose from a provided list or grab one from a hub, just make sure you let us know when you start so we can mark it!
+2. Must go through the revision process as per usual!
+3. Make sure you take care with the set and don't just throw in a bunch of filler
+4. Don't hestitate to contact us with any questions or suggestion<br>• This quest can be done multiple times (current limit: 3)
+
+### 014 [Laudable Leaderboards](https://retroachievements.org/game/862)
+
+![DQ014](https://retroachievements.org/Images/057070.png)
+
+**Type**: Maintenance  
+**Goal**: Create leaderboards for 10 games that currently do not have any  
+**Repeatable**: No
+
+1. Cover different game modes/difficulties when applicable.
+2. Try to cover leaderboards that make sense for the game. Some examples:
+   - For Arcade-type games it is fine to just add High Score leaderboards, possibly highest in a single life
+   - For Racing games time trials for tracks are pretty standard
+   - Speedruns for Platformers
+   - Minigames that track high scores or time are good candidates
+   - And so on. Reach out if you have any questions about a specific game
+3. You can do your own sets for half-credit as long as they were published prior to this DevQuest (2022-03-02)
+4. You must leave comments on set page for what you added for log purposes
+
+### 015 [Console Conqueror](https://retroachievements.org/game/809)
+
+**Type**: Special  
+**Goal**: Publish a set for every supported platform on RetroAchievements  
+**Repeatable**: No  
+***RetroActive!**
+
+![DQ015](https://retroachievements.org/Images/068013.png)
+
+:::info Ever-Growing
+Each console ID will have an achievement associated with it. Newly supported console IDs means new achievements!
+:::
+
+::: warning Opt-In Quest
+You must have developoed sets for 10 or more supported platforms before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714 channel on discord or sending a message to the DevQuest account
+:::
+
+1. This quest is awarded in sweeps; do not ping claims or completions. Any set will be counted as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
+3. Meme sets may not be counted at the discretion of the DevQuest Team.
+4. Doing the same kind of set (ie: all Flappy Bird clones) will only be counted towards one platform.
+5. The only requirement for an unlock is that you are the sole or majority developer of a set on that console ID. Collaborations require at least 20 achievements made.
+6. For the more dire consoles, specific requirements are in the achievements themselves.
+7. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+
+### 016 [Wish This Set](https://retroachievements.org/game/2962)
+
+![DQ016](https://retroachievements.org/Images/058480.png)
+
+**Type**: Set Creation  
+**Goal**: Publish a set for a game that has been featured in RANews' Wish This Set feature at any point in time and does not currently have a set in core  
+**Repeatable**: Yes (Up to 2 times)
+
+1. Collaborations are Acceptable as long as both contribute equally to the set with a minimum of 20 achievements each.
+2. Must be full sets containing all content and challenges appropriate to the game.
+3. The person that wrote the Wish This Set may not be one of the developers making the set.
+4. Quest is available year round, and gets new games eligible every release of RANews.
+5. If you already have a set claimed at the time it becomes elligible for this DevQuest you must be under 50% progress for it to count.
+6. Once a game has been featured it remains eligible until the game gets a set.
+
+
+### 017 [RA World Cup](https://retroachievements.org/game/15942)
+
+![DQ017](https://retroachievements.org/Images/062544.png)
+
+**Type**: Set Creation  
+**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport  
+**Repeatable**: No
+
+1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games.
+2. Must be full sets containing all content and challenges appropriate to the game.
+3. No Homebrew/Hacks/Unlicensed
+4. New sets only: No Multi Set or Revisions
+5. Other picks are subject to DQ team approval if elligibility is questionable
+7. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.
+
+### 018 [Subset Station](https://retroachievements.org/game/22564)
+
+![DQ018](https://retroachievements.org/Images/073716.png)
+
+**Type**: Set Creation  
+**Goal**: Publish 2 Subsets  
+**Repeatable**: No
+
+1. Read through [Subsets](/guidelines/content/subsets) document to learn more about subsets.
+2. Subset types that are not approved by default always need Developer Compliance approval. Seek this by sending a [DM to DevCompliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) on the site. Include as much detail as possible explaining why it fits as a good subset idea.
+3. If you are not the author of the core set for the game, you will need to pass a revision vote with your subset plan. This is in addition to any necessary Developer Compliance approval.
+4. Subsets must be **from two different games**, but can be from the same series.
+5. Subsets must be **two different types of subsets** (i.e.: Can't do two Bonus sets, Can't do two Professor Oak Challenges, etc
+6. A subset worked on at the same time as the core set is permitted, but only one of your subsets may be done this way.
+7. If you are already working on a subset at the time this DevQuest goes live, you must be under 50% progress when informing the DQ Team for it to be counted.
+
+### 019 [Wheel of Genres](https://retroachievements.org/game/22565)
+
+![DQ019](https://retroachievements.org/Images/083449.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a set from a specific genre or subgenre as determined by a spin on the Wheel of Genres!  
+**Repeatable**: No
+
+1. Games chosen should have a decent amount of content. Small games like short hacks, homebrews, and demos may be rejected at the discretion of the DevQuest Team. If in doubt, ask when you ping to choose the game for the quest.
+2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin
+3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
+
+### 020 [Genre Conqueror](https://retroachievements.org/game/25672)
+
+![DQ020](https://retroachievements.org/Images/083451.png)
+
+**Type**: Special  
+**Goal**: Publish a set for every genre! 
+**Repeatable**: No
+
+::: warning Opt-In Quest
+You must have made sets for at least 5 genres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started
+ :::
+
+1. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
+2. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+3. Genres used for this quest are the main Genre hubs. We'll contact you to ask which genre is preferred.
+4. If a set belongs to multiple top-level genres, we will ask you which genre to count for that set; if later on you do that same genre, you may ask us to reassign the set to the other genre.
+5. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.
+6. Falsifying a genre or subgenre field will bar you from this DevQuest
+7. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.
+8. Excluded Genres: Other and Literature
+9. Added Genre: Party and Minigame subgenres combined as Party or Minigames Genre
+
+### 020 Subset [Subgenre Conqueror](https://retroachievements.org/game/25673)
+
+![DQ020S](https://retroachievements.org/Images/083452.png)
+
+**Type**: Special  
+**Goal**: Publish a set for every subgenre! 
+**Repeatable**: No
+
+::: warning Opt-In Quest
+You must have made sets for at least 15 subgenres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started. You may use the same sheet to opt in to this and to DevQuest 020.
+ :::
+
+1. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
+2. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+3. Genres used for this quest are the Subgenre hubs.
+4. If a set belongs to multiple subgenres, all will count. Exception: Compilations will only count for Subgenre - Compilation
+5. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.
+6. Falsifying a genre or subgenre field will bar you from this DevQuest
+7. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.
+8. Excluded subgenres: 4X, Pachinko, Specific Extreme Sports subgenres (each will count towards Subgenre - Extreme Sports), subgenres of Board Games and Card Games (Each will count towards their Board Game or Card Game subgenre parent), Literature subgenres
+9. Subsets will not count unless approved by DevQuest. Ping DevQuest team for approval request.
+
+### 021 [Homebrew Heaven](https://retroachievements.org/game/25677)
+
+![DQ021](https://retroachievements.org/Images/093270.png)
+
+**Type**: Set Creation  
+**Goal**: Publish three new sets for homebrew games!  
+**Repeatable**: No
+
+1. Sets intended for this quest must be complete and encompass all notable content specific to the homebrew game.
+2. Sets for homebrew systems (like WASM-4, Arduboy, and Uzebox) are worth half credit.
+3. Collaborations are allowed. Credit will only be given to collaborators with 20 or more achievements in the set. At DQ Team suggestion, overly inflated sets may be disallowed.
+4. Homebrew that is essentially the same as another you've done will not count (i.e. multiple Flappy Bird clones can only garner credit once)
+5. One set per large homebrew collection maximum (i.e. One Net Yaroze 2014 Collection set allowed)
+
+## Wheel Spin DevQuest Rules
+
+1. You may respin 3 months after you spin. This requires and consumes your respin token for that quest
+2. You start with one respin token (per aplicable DevQuest)
+3. Each wheel spin quest has its own kind of respin token (can't save your DevQuest 006 token for use in DevQuest 019)
+3. You may not bank extra respin tokens
+4. Once you have used your respin token, you may restore it by fulfilling one of the Respin Tasks, listed below
+
+### Devquests With Wheel Spins
+
+- DevQuest 006: The Unwanted
+- DevQuest 019: Wheel of Genres
+
+### Respin Tasks
+
+Do any of these tasks to earn a new respin token:
+
+- Resolve (Not close) 10 tickets from inactive devs (can be used towards DQ1, Ticket Massacre)
+- Earn DevQuest 003 (Singles In Your Area)
+- Update 10 achievements towards DevQuest 005 (Trigger Happy)
+- Earn a point towards DevQuest 002 (Retro Renovator) or DevQuest 013 (complete.me)
+- Make a set for DQ16 (Wish This Set)
 
 ## Suggestions
 
