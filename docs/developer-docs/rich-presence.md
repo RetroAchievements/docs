@@ -293,9 +293,9 @@ If you make changes to the `XXX-Rich.txt` file, and reselect the menu option, it
 
 ### Condition Syntax
 
-Rich Presence files utilize [Condition Syntax](developer-docs/condition-syntax) when referencing addresses. When developing Rich Presence you should use this syntax so that the Rich Presence Monitor can read the address as you expect it to. Condition Syntax covers the following ways to reference addresses:
+Rich Presence files utilize [Condition Syntax](/developer-docs/condition-syntax) when referencing addresses. When developing Rich Presence you should use this syntax so that the Rich Presence Monitor can read the address as you expect it to. Condition Syntax covers the following ways to reference addresses:
 -  [Memory Sizes](/developer-docs/condition-syntax#memory-sizes). This allows the Rich Presence script to tell the difference between an 8-bit address and a 32-bit address, for example.
-- [Prefixes](/developer-docs/condition-syntax#prefixes). This allows the Rich Presence script to apply special modifiers to the address, i.e. if the address is in [BCD format](developer-docs/value-definition.html#binary-coded-decimal).  
+- [Prefixes](/developer-docs/condition-syntax#prefixes). This allows the Rich Presence script to apply special modifiers to the address, i.e. if the address is in [BCD format](/developer-docs/value-definition.html#binary-coded-decimal).  
 - [Logical Flags](/developer-docs/condition-syntax#logical-flags). This can be helpful if you need to do extra operations when displaying a specific value that may be spread across several addresses. 
 
 ### Parse Errors
