@@ -32,7 +32,7 @@ This document covers developers' rights, responsibilities, and rules for fair pl
 - Leave accurate [code notes](/guidelines/content/code-notes) for each achievement condition you use.
 - For set revisions, follow the [revision policy](/guidelines/content/achievement-set-revisions).
 - [Resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time you do.
-- Like a wiki, once you publish your work, you are giving it over to the community to be [reviewed and reworked over time](#achievementset-ownership).
+- Like a wiki, once you publish your work, you are giving it over to the community to be [reviewed and reworked over time](#achievement-ownership).
 
 ## Revisions - Working on Sets with Existing Achievements
 
