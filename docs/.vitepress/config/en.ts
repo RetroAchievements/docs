@@ -68,6 +68,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/emulator-support-and-issues",
         },
         {
+          text: "How RA Works",
+          link: "/general/how-ra-works",
+        },
+        {
           text: "Ways to Contribute",
           link: "/general/ways-to-contribute",
         },
