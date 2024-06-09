@@ -48,8 +48,6 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 - May not request a code review until at least 7 days after claiming a set
 - Will complete the ["Am I Ready for Review" checklist](https://docs.google.com/document/d/e/2PACX-1vSYRcYpyN0W8oP9Ho0YMiUutZEs-np4JDL-Be5IfuR5oyG_92wVwgwA5BkTHywK_olmzRBjpZGehKM6/pub) prior to requesting a Code Review
 - Will describe in the Code Review request the self testing method used in order to validate set stability
-- Will submit a play test request in #play-test-requests immediately following a set being entered into the [Code Review backlog](https://docs.google.com/spreadsheets/d/e/2PACX-1vSl4tRG-wV1lxtb-2ZJYRoM0VLnQPYoQO1jOVRmb8TFWldFJGr7RrO6-I-c6rWK0XsZ1h5pJEOStjmQ/pubhtml?gid=1582422742&single=true)
-
 
 **Sets that fail to meet Code Review request requirements will be refused entry into the Code Review backlog until remedied**
 
