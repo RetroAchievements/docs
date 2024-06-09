@@ -35,11 +35,14 @@ Shared accounts used by their respective team members:
 - [DevCompliance](https://retroachievements.org/user/DevCompliance)
 - [DevQuest](https://retroachievements.org/user/DevQuest)
 - [QATeam](https://retroachievements.org/user/QATeam)
+- [RAArtTeam](https://retroachievements.org/user/RAArtTeam)
 - [RAdmin](https://retroachievements.org/user/RAdmin)
 - [RACheats](https://retroachievements.org/user/RCheats)
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
+- [TicketHounds](https://retroachievements.org/user/TicketHounds)
+- [WritingTeam](https://retroachievements.org/user/WritingTeam)
 
 ### Administrators
 
