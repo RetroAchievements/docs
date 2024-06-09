@@ -14,9 +14,9 @@ The purpose of the Junior Developer Program is to assist interested people with 
 ### Entry Requirements
 
 To join the Junior Developer Program, the following requirements must be met:
-- RetroAchievements account must be not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
+- RetroAchievements account must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
 - Must have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
-- Request the Junior Developer role in role-request channel in the General section of the RA discord server
+- Request the Junior Developer role in #role-request channel in the General section of the RA discord server
   - Must include an RA profile link
   - Must state the game for which you intend to create a set and link its RA set page or request that it be made if it does not exist
   - Read through all [RetroAchievements Developer Docs](https://docs.retroachievements.org/developer-docs/) and fill out and post a [Set Design Template](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit#gid=0)
@@ -31,11 +31,11 @@ The following rules apply to all Junior Developers:
 - Will prioritize resolving open tickets over development of a new set. If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
 - Are not eligible to participate in collaborations
 - Are not eligible to revise sets other than ones they've solely authored
-  - Must make a revision request in #jr-dev-forums detailing the revision plan. The Code Reviewer team will consider the request for approval
+  - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
 - May not make a claim without Code Reviewer approval on a Dreamcast game created with [Windows CE](https://retroachievements.org/game/24833), PlayStation 2 or future 6th+ generation consoles at the discretion of the Code Review team
-  - Must make a development request in #jr-dev-forums after at least 1 set has been published
+  - Must make a development request in #jr-dev-forum after at least 1 set has been published
 - May not make a subset without Code Reviewer approval
-  - Must make subset request in #jr-dev-forums. If approved, subset is subject to [Subset Rules](https://docs.retroachievements.org/guidelines/content/subsets.html)
+  - Must make subset request in #jr-dev-forum. If approved, subset is subject to [Subset Rules](https://docs.retroachievements.org/guidelines/content/subsets.html)
     - May request to create a subset in addition to a primary claim if both are for the same game
 - May make a maximum of 2 sets for hacks during the program
 
