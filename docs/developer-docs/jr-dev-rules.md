@@ -27,6 +27,7 @@ To join the Junior Developer Program, the following requirements must be met:
 The following rules apply to all Junior Developers:
 - May only create achievements, leaderboards and Rich Presence for a set on which they have an active claim
   - This means no working on any sets that are not claimed.  Failure to adhere to this rule may result in dismissal from the Junior Developer Program
+  - Junior Developers may practice RAM digging games for which they do not have a claim, but shall not publish any code notes
 - May not make a new claim while they have any open tickets
 - Will prioritize resolving open tickets over development of a new set. If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
 - Are not eligible to participate in collaborations
@@ -54,6 +55,6 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 ### Removal From Junior Developer Program
 
 Participation in the Junior Developer program is not an entitlement. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
-- 1 month of inactivity with either active development or RA in general
+- 1 month of [inactivity](https://docs.retroachievements.org/guidelines/developers/code-of-conduct.html#inactivity) with either active development or RA in general
   - May request immediate restoration of role by submitting a full request per [Entry Requirements](#entry-requirements)
 - Violations of the RA Developer Code of Conduct or the rules set forth within this document
