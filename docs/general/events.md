@@ -12,6 +12,7 @@
 | [DevQuests](/developer-docs/devquests.html) | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=13060) | Developer Event (Series) |
 | Draw Your Pokemon                           | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21011) |                          |
 | Evergreen Events                            | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25332) |                          |
+| Final Fantasy V Four Job Fiesta             | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26862) |                          |
 | House Cleaning                              | Falcus          | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21939) |                          |
 | Leaderboard of the Month                    | drisc           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=19693) |                          |
 | On the Horizon                              | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25374) |                          |
@@ -38,7 +39,6 @@
 | Cream of the Crop               | Bendyhuman                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=20940) |                       |
 | Daily DistRActions              | Bendyhuman                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=19253) |                       |
 | Devember                        | kdecks<br>wilhitewarrior<br>SlashTangent<br>Falcus    | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24475) |                       |
-| Final Fantasy V Four Job Fiesta | Sutarion                                              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21992) |                       |
 | Halloween 2023                  | Scott                                                 | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24016) |                       |
 | Leapfrog                        | Boldewin<br>HolyShinx<br>Nevermond12<br>televandalist |                                                                    |                       |
 | Mario Party RA                  | freezestar                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22460) |                       |
