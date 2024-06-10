@@ -6,7 +6,7 @@
 
 Rich Presence (RP) is **brief** overview of what active players are currently doing in their game. To have RP in a game you need a Rich Presence script, which is created by Developers. The script checks the player's game memory and reports the values of certain addresses with definitions assigned by the Developer such as which stage the player is on, how many lives they have, if the game is paused, what game mode they are playing, what the player has accomplished, etc. This information is reported back to the website once every two minutes.
 
-A good rich presence should inform other users how far into the game you are (level/ town/dungeon), and give an overall sense of how the player is doing (score/remaining lives/character level). Additional details may be useful, depending on their context within the game. Try not to go overboard with the detail though. Other players don't care what you named your dog, or need to know how many bullets you have left, especially since it only updates every two minutes. Additionally, the more fluff you add to a rich presence display, the more diluted the important information becomes.
+A good rich presence should inform other users how far into the game you are (level/town/dungeon), and give an overall sense of how the player is doing (score/remaining lives/character level). Additional details may be useful, depending on their context within the game. Try not to go overboard with the detail though. Other players don't care what you named your dog, or need to know how many bullets you have left, especially since it only updates every two minutes. Additionally, the more fluff you add to a rich presence display, the more diluted the important information becomes.
 
 **Example of RP in action:**
 
@@ -235,7 +235,7 @@ The conditional phrase supports all of the previously mentioned address accessor
 
 Rich Presence that directly displays custom player input text is prohibited. The most common example being displaying what a player inputs as their character or file name directly into Rich Presence.
 
-This restriction helps in preventing inappropriate or offensive content from showing on various site pages as well as makes the moderation of Rich Presence more manageable, in addition to protection player privacy as players may not realize their text is being displayed publicly.
+This restriction helps in preventing inappropriate or offensive content from showing on various site pages as well as makes the moderation of Rich Presence more manageable, in addition to protecting player privacy as players may not realize their text is being displayed publicly.
 
 ## Tips and Tricks
 
@@ -243,7 +243,7 @@ This restriction helps in preventing inappropriate or offensive content from sho
 - Lookup names can be as short as a single character if you need to squeeze in a few extra characters.
 - Leading zeros can be removed from addresses (`0xh0001` can be shortened to `0xh1`).
 - Turning all your values from hex into decimal will take up less characters.
-- Unicode characters don't always "take up less space" they often take up to four system characters.
+- Unicode characters don't always "take up less space". They often take up to four system characters.
 - Each `Lookup` or `Format` named mapping can be referenced multiple times with the same or different addresses. You can define a single `Format:Number FormatType=VALUE` instead of defining individual ones for Lives, Score, Level, etc.
 - Putting spaces in your Lookups sometimes before or after can allow you to hide certain lookups when they are not needed, like how `@Pause`, `@Star`, `@Swimming`, and @Mode do.
 
