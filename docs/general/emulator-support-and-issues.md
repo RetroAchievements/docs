@@ -557,7 +557,8 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Most recommended
 - ✅ libretro core: **Mesen-S**
 - ❓ libretro core: **Beetle bsnes**
-- ❓ libretro core: **Beetle Supafaust**
+- ❌ libretro core: **Beetle Supafaust**
+  - 11 Jun 2024 - does not expose memory
 - ❓ libretro core: **bsnes**
 - ❓ libretro core: **bsnes 2014 Accuracy**
 - ❓ libretro core: **bsnes 2014 Balanced**
