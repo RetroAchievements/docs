@@ -55,7 +55,7 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 ### Removal From Junior Developer Program
 
 Participation in the Junior Developer program is not an entitlement. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
+- Violations of the RA Developer Code of Conduct or the rules set forth within this document
 - 1 month of [inactivity](https://docs.retroachievements.org/guidelines/developers/code-of-conduct.html#inactivity) in either active development or RA in general
   - First time inactivity removals may request immediate restoration of Junior Developer role
   - Subsequent inactivity removals will be subject to a 30-day cool down, beginning upon demotion action. After cool down, must submit a full rejoin request per [Entry Requirements](#entry-requirements)
-- Violations of the RA Developer Code of Conduct or the rules set forth within this document
