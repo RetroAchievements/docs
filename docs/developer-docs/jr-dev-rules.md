@@ -33,7 +33,7 @@ The following rules apply to all Junior Developers:
 - Are not eligible to participate in collaborations
 - Are not eligible to revise sets other than ones they've solely authored
   - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
-- May not make a claim without Code Reviewer approval on a Dreamcast using the  [Windows CE firmware](https://retroachievements.org/game/24833), PlayStation 2 or future 6th+ generation consoles at the discretion of the Code Review team
+- May not make a claim without Code Reviewer approval on a Dreamcast using the [Windows CE firmware](https://retroachievements.org/game/24833), PlayStation 2 or future 6th+ generation consoles at the discretion of the Code Review team
   - Must make a development request in #jr-dev-forum after at least 1 set has been published
 - May not make a subset without Code Reviewer approval
   - Must make subset request in #jr-dev-forum. If approved, subset is subject to [Subset Rules](https://docs.retroachievements.org/guidelines/content/subsets.html)
@@ -42,7 +42,7 @@ The following rules apply to all Junior Developers:
 
 ### Code Review Requests
 
-Junior Developers are required to ensure sets they submit for Code Review are of the highest quality they can make them. If a set has known issues, Junior Developers must resolve them prior to requesting a Code Reviewer.  Code Reviewers are available to answer questions and offer guidance to assist Junior Developers resolve issues.  The following rules apply to all Junior Developers intending to submit a Code Review request:
+Junior Developers are required to ensure sets they submit for Code Review are of the highest quality they can make them. If a set has known issues, Junior Developers must resolve them prior to requesting a Code Review.  Code Reviewers are available to answer questions and offer guidance to assist Junior Developers resolve issues.  The following rules apply to all Junior Developers intending to submit a Code Review request:
 - Will check the set to be submitted against the ["Am I Ready for Review"](https://docs.google.com/document/d/e/2PACX-1vSYRcYpyN0W8oP9Ho0YMiUutZEs-np4JDL-Be5IfuR5oyG_92wVwgwA5BkTHywK_olmzRBjpZGehKM6/pub) guide prior to requesting a Code Review
 - May not submit sets that fail to conform to the [Writing Policy](https://docs.retroachievements.org/guidelines/content/writing-policy.html) or [Code Note Standards](https://docs.retroachievements.org/guidelines/content/code-notes.html)
 - May not submit sets that do not have original achievement badges
