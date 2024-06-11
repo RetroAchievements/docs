@@ -43,11 +43,11 @@ The following rules apply to all Junior Developers:
 ### Code Review Requests
 
 Junior Developers are required to ensure sets they submit for Code Review are of the highest quality they can make them. If a set has known issues, Junior Developers must resolve them prior to requesting a Code Reviewer.  Code Reviewers are available to answer questions and offer guidance to assist Junior Developers resolve issues.  The following rules apply to all Junior Developers intending to submit a Code Review request:
+- Will check the set to be submitted against the ["Am I Ready for Review"](https://docs.google.com/document/d/e/2PACX-1vSYRcYpyN0W8oP9Ho0YMiUutZEs-np4JDL-Be5IfuR5oyG_92wVwgwA5BkTHywK_olmzRBjpZGehKM6/pub) guide prior to requesting a Code Review
 - May not submit sets that fail to conform to the [Writing Policy](https://docs.retroachievements.org/guidelines/content/writing-policy.html) or [Code Note Standards](https://docs.retroachievements.org/guidelines/content/code-notes.html)
 - May not submit sets that do not have original achievement badges
 - May not submit sets that do not have Rich Presence
 - May not request a code review until at least 7 days after claiming a set
-- Will complete the ["Am I Ready for Review" checklist](https://docs.google.com/document/d/e/2PACX-1vSYRcYpyN0W8oP9Ho0YMiUutZEs-np4JDL-Be5IfuR5oyG_92wVwgwA5BkTHywK_olmzRBjpZGehKM6/pub) prior to requesting a Code Review
 - Will describe in the Code Review request the self testing method used in order to validate set stability
 
 **Sets that fail to meet Code Review request requirements will be refused entry into the Code Review backlog until remedied**
