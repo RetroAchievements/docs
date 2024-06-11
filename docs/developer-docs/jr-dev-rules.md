@@ -31,7 +31,7 @@ The following rules apply to all Junior Developers:
 - May not make a new claim while they have any open tickets
 - Will prioritize resolving open tickets over development of a new set. If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
 - Are not eligible to participate in collaborations
-- Are not eligible to revise sets other than ones they've solely authored
+- Are not eligible to [revise](https://docs.retroachievements.org/guidelines/content/achievement-set-revisions.html) sets other than ones they've solely authored
   - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
 - May not make a claim without Code Reviewer approval on a Dreamcast using the [Windows CE firmware](https://retroachievements.org/game/24833), PlayStation 2 or future 6th+ generation consoles at the discretion of the Code Review team
   - Must make a development request in #jr-dev-forum after at least 1 set has been published
