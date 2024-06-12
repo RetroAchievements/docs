@@ -128,7 +128,8 @@ Under Quick Menu -> Core Options -> Input, the Turbo Hotkey Mode option can enab
 
 ## BizHawk
 
-BizHawk uses the term autofire for this feature - turbo instead refers to a fast forward. While a game is running, you can access autofire configuration under this menu:
+BizHawk uses the term autofire for this feature - turbo instead refers to increasing the emulation speed. While a game is running, you can access autofire configuration under this menu:
+
 
 1. Config
 2. Controllers
