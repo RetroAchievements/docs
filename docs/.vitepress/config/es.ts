@@ -130,6 +130,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
     //       link: "/es/general/tutorials/multi-disc-games",
     //     },
     //     {
+    //       text: "Turbo Button",
+    //       link: "/general/tutorials/turbo-button",
+    //     },
+    //     {
     //       text: "Trabajando con DLC para PlayStation Portable",
     //       link: "/es/general/tutorials/working-with-dlc-for-the-psp",
     //     },
