@@ -1,6 +1,6 @@
 ---
 title: Junior Developer Program Rules
-description: Consolidates scattered junior developer program rules, adds clarification and introduces some new rules
+description: Comprehensive guidelines for the Junior Developer program, including rules, guidelines, and clarifications.
 ---
 
 # Junior Developer Program Rules
