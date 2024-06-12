@@ -130,19 +130,21 @@ Under Quick Menu -> Core Options -> Input, the Turbo Hotkey Mode option can enab
 
 BizHawk uses the term autofire for this feature - turbo instead refers to increasing the emulation speed. While a game is running, you can access autofire configuration under this menu:
 
-
 1. Config
 2. Controllers
 3. Autofire Controls tab
 
 Autofire can be assigned to any button in the current core.
 
+![Autofire in BizHawk controller settings](/public/bizhawk-controllers-autofire.png)
 
 Alternatively, a toggle style autofire button can be assigned under this menu:
 
 1. Config
 2. Hotkeys
 3. General tab
+
+![Autofire in BizHawk hotkey settings](/public/bizhawk-hotkeys-autofire.png)
 
 To use it, hold the autofire button while you press any other button to cause that button to rapidly input. Hold the autofire button again and press a button to disable it.
 
@@ -157,6 +159,8 @@ The macro feature in DuckStation and PCSX2 can be used for this function. It wor
 3. Controller Port 1
 4. Macros tab
 
+![Macros in PCSX2 settings](/public/pcsx2-settings-macros.png)
+
 Select the buttons you wish to rapidly input, then assign the trigger to a button. A checkbox allows you to use it as a toggle if you wish. Set the frequency at the bottom of the page to allow the macro to be used as a turbo button. PCSX2 has a couple additional options related to button pressure and deadzone.
 
 ## PPSSPP
@@ -167,5 +171,7 @@ PPSSPP uses the term rapid fire for this feature. By default, it is assigned to 
 2. Controls
 3. Control Mapping
 4. Scroll down to the Control Modifiers section
+
+![Rapid fire in PPSSPP settings](/public/ppsspp-settings-rapid-fire.png)
 
 Hold this button while you hold any other button to cause that button to rapidly input. Under Settings -> Controls, you can scroll down to the Keyboard Control Settings section to find an option to change the rapid fire interval.
