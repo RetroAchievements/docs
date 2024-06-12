@@ -1,6 +1,6 @@
 ---
 title: Junior Developer Program Rules
-description: Comprehensive guidelines for the Junior Developer program, including rules, guidelines, and clarifications.
+description: Comprehensive guidelines for the Junior Developer Program, including rules, guidelines, and clarifications.
 ---
 
 # Junior Developer Program Rules
@@ -16,8 +16,8 @@ The purpose of the Junior Developer Program is to assist interested people with 
 To join the Junior Developer Program, the following requirements must be met:
 - RetroAchievements account must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
 - Have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
-- Request the Junior Developer role in #role-request channel in the General section of the RA discord server
-  - Include RA profile link
+- Request the Junior Developer role in #role-request channel in the General section of the RA Discord server
+  - Include your RA profile link
   - State the game for which you intend to create a set and link its RA set page or request that it be made if it does not exist
   - Read through all [RetroAchievements Developer Docs](https://docs.retroachievements.org/developer-docs/) and fill out and post a [Set Design Plan](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit#gid=0)
 - Unless specifically authorized by [Developer Compliance](https://retroachievements.org/messages/create?to=DevCompliance), all requirements in this section must be met to gain entry to the Junior Developer Program regardless of previous RA experience
@@ -54,7 +54,7 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 
 ### Removal From Junior Developer Program
 
-Participation in the Junior Developer program is not an entitlement or right. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
+Participation in the Junior Developer Program is not an entitlement or right. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
 - Violations of the RA Developer Code of Conduct or the rules set forth within this document
 - 1 month of [inactivity](https://docs.retroachievements.org/guidelines/developers/code-of-conduct.html#inactivity) in either active development or RA in general
   - First time inactivity removals may request immediate restoration of Junior Developer role
