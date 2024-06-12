@@ -263,6 +263,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Comenzando como Desarrollador de Logros",
           link: "/es/developer-docs/getting-started-as-an-achievement-developer",
         },
+        // {
+        //   text: "Junior Developer Program",
+        //   link: "/developer-docs/jr-dev-rules",
+        // },
         {
           text: "Identificación del Juego",
           link: "/es/developer-docs/game-identification",
