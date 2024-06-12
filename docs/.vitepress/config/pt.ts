@@ -267,6 +267,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/pt/developer-docs/getting-started-as-an-achievement-developer",
         },
         // {
+        //   text: "Junior Developer Program",
+        //   link: "/developer-docs/jr-dev-rules",
+        // },
+        // {
         //   text: "Identificação de Jogos",
         //   link: "/pt/developer-docs/game-identification",
         // },
