@@ -114,7 +114,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/tutorials/multi-disc-games",
         },
         {
-          text: "Turbo Button",
+          text: "Turbo Buttons",
           link: "/general/tutorials/turbo-button",
         },
         {

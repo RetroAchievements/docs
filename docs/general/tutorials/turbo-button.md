@@ -1,35 +1,58 @@
-# Turbo Button
+---
+title: How to Set Up a Turbo Button in RetroArch
+description: Learn how to set up and configure a turbo button in RetroArch for rapid button inputs while playing games.
+---
 
-A turbo button, also known as turbo fire, allows you to rapidly input a button simply by holding it down. The feature is commonly found on third party controllers for gaming consoles, and is often implemented in emulators as well. RetroAchievements [allows a turbo button to be used](/guidelines/users/global-leaderboard-and-achievement-hunting-rules.html#_6-turbo-is-allowed) while earning achievements, including in hardcore mode.
+# How to Set Up a Turbo Button
 
-This tutorial will explain how to use a turbo button in RetroArch.
+A turbo button, also known as turbo fire, allows you to rapidly input a button simply by holding it down. The feature is commonly found on third-party controllers for gaming consoles, and is often implemented in emulators as well.
+
+::: info
+
+RetroAchievements [allows a turbo button to be used](/guidelines/users/global-leaderboard-and-achievement-hunting-rules.html#_6-turbo-is-allowed) while earning achievements, including in hardcore mode.
+
+RetroAchievements adds PlayStation and Xbox style achievements to your classic games. [Sign up on RetroAchievements.org](https://retroachievements.org) to get started.
+
+:::
+
+This tutorial will explain how to set up a turbo button in RetroArch, including global and game-specific configurations.
 
 ## RetroArch
 
-### Global turbo button
+### Global configuration
+
 RetroArch has a global setting to assign a turbo button that affects all emulator cores. It isn't assigned by default, but can be found by navigating these menu options:
 
 1. Settings
 2. Input
 3. RetroPad Binds
 4. Port 1 Controls
-5. Turbo can be found at the bottom of the list. Select it, then hold down a button until the timeout ends in order to assign it.
+
+Turbo can be found at the bottom of the list. Select it, then hold down a button until the timeout ends in order to assign it.
+
+![Turbo button in RetroArch settings](/public/retroarch-settings-turbo.png)
 
 While a game is running, additional options can be found under these menus:
+
 1. Main Menu
 2. Quick Menu (can be accessed directly while playing a game by pressing the F1 key, by default)
 3. Controls
 4. Turbo Fire
 
 These options are available:
-- Turbo Period: Sets the frequency of the turbo inputs.
-- Turbo Duty Cycle: Sets how long each turbo input is held for.
-- Turbo Mode: Classic allows you to hold the turbo button at the same time as any other button to cause that button to turbo. Single Button (Toggle) allows the turbo button to toggle one assigned button to be turbo when that button is held. Single Button (Hold) allows the turbo button itself to be held to cause turbo for the one assigned button.
-- Turbo Default Button: Assigns the one button to be used with Single Button (Toggle) and Single Button (Hold) modes.
-- Allow Turbo D-Pad Directions: Self-explanatory.
 
-#### Per-game, per-core, and per-content directory configuration
-If you only want this turbo button to be available in certain situations, you can use RetroArch's overrides feature. Overrides allow you to have different versions of the global configuration applied per game, per core, or per content directory (e.g. an NES games folder). While having a game running, you can find these options under these menus:
+- **Turbo Period**: Sets the frequency of the turbo inputs.
+- **Turbo Duty Cycle**: Sets how long each turbo input is held for.
+- **Turbo Mode**:
+  - Classic: Allows you to hold the turbo button at the same time as any other button to cause that button to turbo.
+  - Single Button (Toggle): Allows the turbo button to toggle one assigned button to be turbo when that button is held.
+  - Single Button (Hold): Allows the turbo button itself to be held to cause turbo for the one assigned button.
+- **Turbo Default Button**: Assigns the one button to be used with Single Button (Toggle) and Single Button (Hold) modes.
+- **Allow Turbo D-Pad Directions**: Self-explanatory.
+
+### Game-specific configuration
+
+If you only want a turbo button to be available while playing certain games, you can use RetroArch's overrides feature. Overrides allow you to have different versions of the global configuration applied per game, per core, or per content directory (e.g. an NES games folder). While you have a game running, you can find these options under these menus:
 
 1. Main Menu
 2. Quick Menu
@@ -38,8 +61,10 @@ If you only want this turbo button to be available in certain situations, you ca
 
 This can be helpful when managing controller conflicts between different systems. For example, if you assigned the turbo button to an R button on your controller while playing NES games, this could then conflict with the actual R button when playing a SNES game. If your NES games and SNES games were kept in separate folders, you could save a content directory override in order to load different turbo button options for NES and SNES.
 
-### Core-specific turbo buttons
+### Core-specific configuration
+
 In addition to RetroArch's global turbo button, some cores have their own options to assign built-in turbo buttons. While having a game running, you can access these options under these menus:
+
 1. Main Menu
 2. Quick Menu
 3. Controls
@@ -48,16 +73,19 @@ In addition to RetroArch's global turbo button, some cores have their own option
 Some of the applicable cores are listed below, along with the default RetroPad buttons.
 
 #### Game Boy - Gambatte
+
 - Turbo A (default: Y)
 - Turbo B (default: X)
 
 #### Game Boy Advance - mGBA
+
 - Turbo A (default: Y)
 - Turbo B (default: X)
 - Turbo L (default: Left Trigger)
 - Turbo R (default: Right Trigger)
 
 #### NES - FCEUmm
+
 - Turbo A (default: Y)
 - Turbo B (default: X)
 - Turbo A+B (default: Right Thumb)
@@ -65,12 +93,14 @@ Some of the applicable cores are listed below, along with the default RetroPad b
 Under Quick Menu -> Core Options -> Input, there is an option to enable these turbo buttons for player 1 and/or player 2. Turbo Delay can also be set.
 
 #### NES - Mesen
+
 - Turbo A (default: Y)
 - Turbo B (default: X)
 
 Under Quick Menu -> Core Options -> Input, there is an option to change the turbo input speed.
 
 #### PC Engine - Beetle SuperGrafx
+
 - III (default: X)
 - IV (default: Y)
 

@@ -78,7 +78,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   text: "Guía de Configuración",
         //   link: "/es/general/setup-guide",
         // },
-    
+
         {
           text: "Soporte y problemas de los emuladores",
           link: "/es/general/emulator-support-and-issues",
@@ -130,7 +130,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
     //       link: "/es/general/tutorials/multi-disc-games",
     //     },
     //     {
-    //       text: "Turbo Button",
+    //       text: "Turbo Buttons",
     //       link: "/general/tutorials/turbo-button",
     //     },
     //     {
