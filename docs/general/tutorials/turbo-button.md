@@ -135,7 +135,8 @@ BizHawk uses the term autofire for this feature - turbo instead refers to increa
 2. Controllers
 3. Autofire Controls tab
 
-Autofire can be assigned for any button in the current core.
+Autofire can be assigned to any button in the current core.
+
 
 Alternatively, a toggle style autofire button can be assigned under this menu:
 
