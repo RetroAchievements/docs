@@ -114,6 +114,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/tutorials/multi-disc-games",
         },
         {
+          text: "Turbo Button",
+          link: "/general/tutorials/turbo-button",
+        },
+        {
           text: "Working with DLC for the PlayStation Portable",
           link: "/general/tutorials/working-with-dlc-for-the-psp",
         },
