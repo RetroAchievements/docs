@@ -59,3 +59,11 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
 - 1 month of [inactivity](https://docs.retroachievements.org/guidelines/developers/code-of-conduct.html#inactivity) in either active development or RA in general
   - First time inactivity removals may request immediate restoration of Junior Developer role
   - Subsequent inactivity removals will be subject to a 30-day cool down, beginning upon demotion action. After cool down, must submit a full rejoin request per [Entry Requirements](#entry-requirements)
+
+ ### Graduation Consideration
+
+  Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer.  The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with the Developer Code of Conduct?"  This question is evaluated by considering a variety of aspects such as:
+  - Has the Junior Developer demonstrated a consistent level of maturity and professionalism such that they can be trusted with increased site permissions?
+  - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
+    - The [Junior Developer Graduate set achievements](https://retroachievements.org/game/3046) provide a good overview of the toolkit
+  - Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guideline requirements with little to no assistance?
