@@ -33,7 +33,7 @@ The following rules apply to all Junior Developers:
 - Not eligible to participate in collaborations
 - Not eligible to [revise](https://docs.retroachievements.org/guidelines/content/achievement-set-revisions.html) sets other than ones they've solely authored
   - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
-- May not make a claim without Code Reviewer approval on a Dreamcast using the [Windows CE firmware](https://retroachievements.org/game/24833), PlayStation 2 or future 6th+ generation consoles at the discretion of the Code Review team
+- May not make a claim without Code Reviewer approval on a Dreamcast set using the [Windows CE firmware](https://retroachievements.org/game/24833), PlayStation 2 or future 6th+ generation consoles at the discretion of the Code Review team
   - Must make a development request in #jr-dev-forum after at least 1 set has been published
 - May not make a subset without Code Reviewer approval
   - Must make subset request in #jr-dev-forum. If approved, subset is subject to [Subset Rules](https://docs.retroachievements.org/guidelines/content/subsets.html)
@@ -67,4 +67,4 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
   - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
     - The [Junior Developer Graduate set achievements](https://retroachievements.org/game/3046) provide a good overview of the toolkit
   - Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guideline requirements with little to no assistance?
-  - Does the Junior Developer show proclivity for learning and actively seek self improvement through asking questions, discussions and self study?
+  - Does the Junior Developer show a strong desire to learn and actively seek self improvement through asking questions, discussions and self study?
