@@ -67,3 +67,4 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
   - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
     - The [Junior Developer Graduate set achievements](https://retroachievements.org/game/3046) provide a good overview of the toolkit
   - Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guideline requirements with little to no assistance?
+  - Does the Junior Developer show proclivity for learning and actively seek self improvement through asking questions, discussions and self study?
