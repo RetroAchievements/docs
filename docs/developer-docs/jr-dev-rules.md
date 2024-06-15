@@ -48,7 +48,7 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 - May not submit sets that do not have original achievement badges
 - May not submit sets that do not have Rich Presence
 - May not request a code review until at least 7 days after claiming a set
-- Will describe in the Code Review request the self testing method used in order to validate set stability
+- Will describe self testing method used in order to validate set stability in the Code Review request
 
 **Sets that fail to meet Code Review request requirements will be refused entry into the Code Review backlog until remediated**
 
@@ -66,5 +66,5 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
   - Has the Junior Developer demonstrated a consistent level of maturity and professionalism such that they can be trusted with increased site permissions?
   - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
     - The [Junior Developer Graduate set achievements](https://retroachievements.org/game/3046) provide a good overview of the toolkit
-  - Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guideline requirements with little to no assistance?
+  - Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guidelines requirements with little to no assistance?
   - Does the Junior Developer show a strong desire to learn and actively seek self improvement through asking questions, discussions and self study?
