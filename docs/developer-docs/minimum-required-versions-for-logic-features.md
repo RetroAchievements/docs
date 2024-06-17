@@ -1,6 +1,7 @@
 ---
 title: Minimum Required Versions for Logic Features
 description: Detailed overview of the minimum required versions for various logic features of RetroAchievements.
+aside: false
 ---
 
 # Minimum Required Versions for Logic Features
