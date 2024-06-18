@@ -273,7 +273,7 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         // },
         // {
         //   text: "Emulator Setup for Developers",
-        //   link: "/developer-docs/emulator_setup_for_developers",
+        //   link: "/developer-docs/emulator-setup-for-developers",
         // },
         {
           text: "Identificación del Juego",
