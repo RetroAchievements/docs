@@ -271,6 +271,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Junior Developer Program",
         //   link: "/developer-docs/jr-dev-rules",
         // },
+        // {
+        //   text: "Emulator Setup for Developers",
+        //   link: "/developer-docs/emulator_setup_for_developers",
+        // },
         {
           text: "Identificación del Juego",
           link: "/es/developer-docs/game-identification",
