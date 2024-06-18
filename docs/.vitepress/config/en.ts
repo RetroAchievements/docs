@@ -256,6 +256,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/jr-dev-rules",
         },
         {
+          text: "Emulator Setup for Developers",
+          link: "/developer-docs/emulator-setup-for-developers",
+        },
+        {
           text: "Game Identification",
           link: "/developer-docs/game-identification",
         },
