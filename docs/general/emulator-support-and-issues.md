@@ -188,9 +188,6 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 ### Game Boy Color
 
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
-- ✅ Standalone emulator: **[Pizza Boy GBC](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy)**
-  - Android devices only
-  - Does not support RAIntegration at this time, so achievement developers are unable to troubleshoot potential issues.
 - ✅ libretro core: **Gambatte**
   - Most recommended
 - ✅ libretro core: **Gearboy**
@@ -198,6 +195,8 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **VBA-M**
 - ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
 - ✅ BizHawk core: **GBHawk**
+- ❌ Standalone emulator: **Pizza Boy GBC**
+  - No longer being developed.  Compatibility issues can cause problems with unlocks.
 - ❓ libretro core: **DoubleCherryGB**
 - ❓ libretro core: **Emux GB**
 - ❓ libretro core: **fixGB**
@@ -207,15 +206,14 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 ### Game Boy Advance
 
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
-- ✅ Standalone emulator: **[Pizza Boy GBA](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygba)**
-  - Android devices only
-  - Does not support RAIntegration at this time, so achievement developers are unable to troubleshoot potential issues.
 - ✅ libretro core: **VBA-M**
 - ✅ libretro core: **Beetle GBA**
 - ✅ libretro core: **VBA Next**
 - ✅ libretro core: **mGBA**
   - Most recommended
 - ✅ BizHawk core: **mGBA**
+- ❌ Standalone emulator: **Pizza Boy GBA**
+  - No longer being developed.  Compatibility issues can cause problems with unlocks.
 - ❓ libretro core: **gpSP**
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
