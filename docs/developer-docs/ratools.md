@@ -35,7 +35,7 @@ Many achievement developers' RAScripts are publicly available and are a great re
 
 - [AlmightyXor](https://github.com/MagmarFire/RetroAchievements)
 - [AuburnRDM](https://github.com/AuburnRDM/RetroAchievements)
-- [authorblues](https://github.com/authorblues/retroachievements/)
+- [authorblues](https://github.com/authorblues/retroachievements)
 - [Bartis1989](https://github.com/Bartis1989/rascripts)
 - [BenGhazi](https://github.com/Ben-Ghazi/RAScripts)
 - [Biendeo](https://github.com/Biendeo/RAScripts)
