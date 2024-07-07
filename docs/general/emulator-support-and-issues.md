@@ -196,7 +196,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
 - ✅ BizHawk core: **GBHawk**
 - ❌ Standalone emulator: **Pizza Boy GBC**
-  - No longer being developed.  Compatibility issues can cause problems with unlocks.
+  - No longer being developed. Compatibility issues can cause problems with unlocks.
 - ❓ libretro core: **DoubleCherryGB**
 - ❓ libretro core: **Emux GB**
 - ❓ libretro core: **fixGB**
@@ -213,15 +213,14 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Most recommended
 - ✅ BizHawk core: **mGBA**
 - ❌ Standalone emulator: **Pizza Boy GBA**
-  - No longer being developed.  Compatibility issues can cause problems with unlocks.
+  - No longer being developed. Compatibility issues can cause problems with unlocks.
 - ❓ libretro core: **gpSP**
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
 
 ### GameCube
 
-- ⌛ Standalone emulator: **Dolphin**
-  - Testing
+- ✅ Standalone emulator: **[Dolphin](https://retroachievements.org/download.php#dolphin)**
 - ⌛ libretro core: **Dolphin**
   - Testing
 
