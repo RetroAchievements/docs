@@ -123,7 +123,7 @@ RA hash is an unique string of 32 hexadecimal numbers, to distinguish different 
 
 - If you use [Discord](https://discord.gg/dq2E4hE), post in the [#manual-unlock](https://discord.com/channels/310192285306454017/1029858289221116104) channel a request that follows the format of [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
 
-- If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievments.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
+- If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievements.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
   and a description that looks similar to this:
 
 
