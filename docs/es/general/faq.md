@@ -73,7 +73,6 @@ Cuando surgen problemas con los logros, ya sea porque no se te ha concedido o po
 
 Si el logro no se ha conseguido, puedes solicitar un [desbloqueo manual](#como-solicitar-un-desbloqueo-manual). Necesitarás [informar de un logro roto](#¿como-informo-de-un-logro-roto) y proporcionar [una prueba de que lo has completado](#como-solicitar-un-desbloqueo-manual).
 
-
 ### ¿Cómo informo de un logro roto?
 
 Hay dos formas de informar de logros rotos. En la barra de título del emulador, ve a **RetroAchievements** ⇒ **Report Broken Achievements (Informar de logros rotos)**:
@@ -83,9 +82,8 @@ Hay dos formas de informar de logros rotos. En la barra de título del emulador,
 ![cómo informar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
 
 2. Los usuarios de RetroArch pueden enviar un informe directamente a través de su sitio web. En la página de cada logro verás un enlace que dice `Report an issue for this achievement ("Informar de un problema para este logro")` , como en la imagen de abajo:
- 
-<!-- Todo: Change this image to a good one -->
-![abrir-un-reporte-en-el-sitio](https://cdn.discordapp.com/attachments/484977989470126081/533009389490012171/unknown.png)
+
+![open-ticket-on-site](/public/report-an-issue.png)
 
 Si usas los emuladores oficiales de RetroAchievements también puedes informar de los problemas desde la página de logros del sitio web, pero es preferible que utilices el método integrado en los emuladores.
 
@@ -121,7 +119,7 @@ El hash de RA es una cadena única de 32 números hexadecimales, para distinguir
 - Para Retroarch: Menú rápido ⇒ Información, a continuación, en la parte inferior "Hash de RetroAchievements".
 - Para emulador independiente o RaLibretro - Pestaña RetroAchievement en la parte superior ⇒ Obtener ROM Checksum, y mostrará el hash de RA
 
-###  ¿Cómo solicito un desbloqueo manual?
+### ¿Cómo solicito un desbloqueo manual?
 
 - Si usas [Discord](https://discord.gg/dq2E4hE), escribe una solicitud en el canal [#manual-unlock (desbloqueo manual)](https://discord.com/channels/310192285306454017/1029858289221116104) siguiendo el formato que hay en el [mensaje fijado de este hilo](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
 
@@ -133,11 +131,13 @@ El hash de RA es una cadena única de 32 números hexadecimales, para distinguir
   ```
 
   Traducción:
-    ```
+
+  ```
   Hola. Me gustaría solicitar un desbloqueo manual. http://retroachievements.org/ticketmanager.php?i=9577 Prueba HARDCORE: https://youtu.be/uqD-GTkZbLo
   ```
 
 #### Cómo solicitar un desbloqueo manual
+
 1. Abre un ticket describiendo con detalle el problema que has tenido con el logro. ([¿Cómo informo de un logro roto?](#¿como-informo-de-un-logro-roto))
    1. Si el logro no se registró en el sitio debido a un problema de red, no necesitas abrir un ticket.
 2. <a name="qualified-proof"></a>Consigue una prueba/evidencia de que has completado el logro. **Pruebas admitidas**:
@@ -156,7 +156,6 @@ El hash de RA es una cadena única de 32 números hexadecimales, para distinguir
 ### ¿Qué pasa si obtengo un logro que no he ganado?
 
 Lo mismo que si no lo obtienes cuando deberías. En la mayoría de los casos querrás [crear un informe de ticket](#¿como-informo-de-un-logro-roto) dejando una explicación de lo que salió mal. También querrás restablecer aquellos logros obtenidos de tu historial para tener la satisfacción de haberlos conseguido de verdad.
-
 
 ### ¿Cómo puedo restablecer los logros?
 
