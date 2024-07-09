@@ -16,7 +16,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 
 ## Reporting
 
-- Contact the team using the DevQuest team on site or on in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) on Discord.
+- Contact the team using the DevQuest team via [site message](https://retroachievements.org/messages/create?to=DevQuest) or on in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) on Discord.
 
 ## Schedule and Announcements
 
