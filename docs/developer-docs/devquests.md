@@ -6,7 +6,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 
 ## General Rules
 
-1. **Set-Creation Credit**: To be awarded credit for Set-Creation quests, contact the DevQuest Team via discord ping in #devquest or via site message withing 1 week after publishing the set. Include a link to the game and which DevQuest it is being used for. (No need to do this for DevQuest 015 or 020 -- We handle those in sweeps separately). Note: Sets may still be disqualified for quality or rules reasons at this point. Contact us prior to release if you wish to confirm eligibility.
+1. **Set-Creation Credit**: To be awarded credit for Set-Creation quests, contact the DevQuest Team via Discord ping in #devquest or via site message within 1 week after publishing the set. Include a link to the game and which DevQuest it is being used for. (No need to do this for DevQuest 015 or 020 -- We handle those in sweeps separately). Note: Sets may still be disqualified for quality or rules reasons at this point. Contact us prior to release if you wish to confirm eligibility.
 2. **Maintenance Quest Credit**: For maintenance achievements (i.e.: DevQuest 001, DevQuest 005, DevQuest 04, etc), just create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team when you are complete with all entries for review. For Maintenance Quests that can be repeated, one row of the column will be for which badge number you are working towards.
 3. **Revision Quest Credit**: For Revision achievements (i.e.: DevQuest 002 and DevQuest 013), make sure your choice is already on the corresponding approved list. You will need to satisfy the repair plan. These quests should be more than simple one-achievement revisions. If a repair plan seems to be overly simple, contact us first to ensure it will qualify. **When you start working on a revision quest, contact the DevQuest team** so the sheet can be updated; this lets other users know it is being worked on.
 4. Unless otherwise stated in a DevQuest's description, collaborations are not allowed.
@@ -156,7 +156,7 @@ At the time you claim the set, it must be in Most Wanted section of the latest i
 :::
 
 1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
-2. You must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel onDiscord or sending a message to the DevQuest account.
+2. You must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account.
 3. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
