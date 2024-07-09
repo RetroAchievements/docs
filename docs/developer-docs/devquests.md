@@ -16,7 +16,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 
 ## Reporting
 
-- Contact the team using the DevQuest team on site or on in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) on Discord.
+- Contact the team using the DevQuest team via [site message](https://retroachievements.org/messages/create?to=DevQuest) or on in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) on Discord.
 
 ## Schedule and Announcements
 
@@ -156,8 +156,7 @@ At the time you claim the set, it must be in Most Wanted section of the latest i
 :::
 
 1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
-2. You must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account.
-3. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
+2. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
 
