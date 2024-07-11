@@ -11,7 +11,7 @@ Participants of the [Global Leaderboard](#global-leaderboard) are required to ea
 
 In general, a player must unlock achievements:
 
-- Uusing the latest release version of an approved supported emulator;
+- Using the latest release version of an approved supported emulator;
 - Inside of a game by in-game actions;
 - By their own control;
 - Without outside-modifying game files or game code;
