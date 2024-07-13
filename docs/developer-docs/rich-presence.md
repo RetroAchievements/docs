@@ -142,7 +142,7 @@ Begin with `Format:`, then the name of the Format converter. On the next line, g
 |     `VALUE`    |        Value        |     0     |     1     |     12345     | Generic value (signed)                                                                             |
 |   `UNSIGNED`   |   Value (Unsigned)  |     0     |     1     |     12345     | Generic value (unsigned)                                                                           |
 |     `TENS`     |     Value (Tens)    |     0     |     10    |     123450    | Generic value with an appended 0 (if non-zero)                                                     |
-|   `HUNDREDS`   |   Value (Hundreds)  |     0     |    100    |    1234500    | Generic value with two appeneded 0s (if non-zero)                                                  |
+|   `HUNDREDS`   |   Value (Hundreds)  |     0     |    100    |    1234500    | Generic value with two appended 0s (if non-zero)                                                  |
 |  `THOUSANDS`   |  Value (Thousands)  |     0     |    1000   |    12345000   | Generic value with three appended 0s (if non-zero)                                                 |
 |    `FIXED1`    |    Value (Fixed1)   |    0.0    |    0.1    |     1234.5    | Generic value with a decimal point inserted one character from the end                             |
 |    `FIXED2`    |    Value (Fixed2)   |   0.00    |   0.01    |     123.45    | Generic value with a decimal point inserted two characters from the end                            |
@@ -168,16 +168,14 @@ As of the 1.0 version of the DLL, you can use predefined macros for the most com
 |       Macro       | FormatType  | Description                                                                                                           |
 | :---------------: | :---------: | --------------------------------------------------------------------------------------------------------------------- |
 |    `@Number()`    |   `VALUE`   | A generic value with no leading zeroes (-2147483648 - 2147483647)                                                     |
+|   `@Unsigned()`   | `UNSIGNED`  | A generic value with no leading zeroes (0 - 4294967295)                                                               |
 |    `@Score()`     |   `SCORE`   | A generic value, padded with leading zeroes to six digits                                                             |
 | `@Centiseconds()` | `MILLISECS` | The number of hundreths of a second elapsed, and will be formatted as `00:00.00`                                      |
 |   `@Seconds()`    |   `SECS`    | The number of seconds elapsed, and will be formatted as `00:00`                                                       |
 |   `@Minutes()`    |  `MINUTES`  | The number of minutes elapsed, and will be formatted as `0h00`                                                        |
-|   `@Unsigned()`   | `UNSIGNED`  | A generic value with no leading zeroes (0 - 4294967295)                                                               |
 |    `@Fixed1()`    |  `FIXED1`   | A number with a decimal inserted one character before the end                                                         |
 |    `@Fixed2()`    |  `FIXED2`   | A number with a decimal inserted two characters before the end                                                        |
 |    `@Fixed3()`    |  `FIXED3`   | A number with a decimal inserted three characters before the end                                                      |
-|    `@Float1()`    |  `FLOAT1`   | A floating point number, formatted with one digit after the decimal                                                   |
-|    `@Float1()`    |  `FLOAT1`   | A floating point number, formatted with one digit after the decimal                                                   |
 |    `@Float1()`    |  `FLOAT1`   | A floating point number, formatted with one digit after the decimal                                                   |
 |    `@Float2()`    |  `FLOAT2`   | A floating point number, formatted with two digits after the decimal                                                  |
 |    `@Float3()`    |  `FLOAT3`   | A floating point number, formatted with three digits after the decimal                                                |
