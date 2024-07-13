@@ -77,7 +77,7 @@ The team responsible to keep the this community a healthy place (at least for th
 
 ### Developer Compliance Team
 
-The team responsible for the adherance and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
+The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
 - [Bryan1150](https://retroachievements.org/user/Bryan1150)
 - [DoctorV](https://retroachievements.org/user/DoctorV)

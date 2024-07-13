@@ -280,5 +280,5 @@ Challenge Achievements are your chance to show players how to play their favorit
 ## External Resources
 
 - [Best practices achievement creation guide](http://www.voidcn.com/article/p-gmokauqn-bgh.html) written by Jeff Sullivan, Developer Account Manager of XNA Developer Connection (XDC) regarding XBox 360 Achievements.
-- [Make them Work for it](https://gamedevelopment.tutsplus.com/articles/make-them-work-for-it-designing-achievements-for-your-games--gamedev-3371) an achievement design guide written by by Darran Jamieson on 1 Jan 2013.
+- [Make them Work for it](https://gamedevelopment.tutsplus.com/articles/make-them-work-for-it-designing-achievements-for-your-games--gamedev-3371) an achievement design guide written by Darran Jamieson on 1 Jan 2013.
 - [The Achievement Machine: Understanding Xbox 360 Achievements in Gaming Practices](http://gamestudies.org/1101/articles/jakobsson) - by Mikael Jakobsson

@@ -6,7 +6,7 @@ Rollouts are events that are meant to mimic a console launch. Developers partici
 
 ## General Guidelines
 
-It's worth noting that these are general guidelines that apply to all rollouts. Individual rollouts may require addtional guidelines.
+It's worth noting that these are general guidelines that apply to all rollouts. Individual rollouts may require additional guidelines.
 
 - Each rollout needs a coordinator/manager to handle a variety of tasks to ensure the rollout goes smoothly.
 

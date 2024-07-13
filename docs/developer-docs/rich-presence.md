@@ -148,7 +148,7 @@ As of the 1.0 version of the DLL, you can use predefined macros for the most com
 | :---------------: | :---------: | --------------------------------------------------------------------------------------------------------------------- |
 |    `@Number()`    |   `VALUE`   | A generic value with no leading zeroes                                                                                |
 |    `@Score()`     |   `SCORE`   | A generic value, padded with leading zeroes to six digits                                                             |
-| `@Centiseconds()` | `MILLISECS` | The number of hundreths of a second elapsed, and will be formatted as `00:00.00`                                      |
+| `@Centiseconds()` | `MILLISECS` | The number of hundredths of a second elapsed, and will be formatted as `00:00.00`                                      |
 |   `@Seconds()`    |   `SECS`    | The number of seconds elapsed, and will be formatted as `00:00`                                                       |
 |   `@Minutes()`    |  `MINUTES`  | The number of minutes elapsed, and will be formatted as `0h00`                                                        |
 |    `@Float1()`    |  `FLOAT1`   | A floating point number, formatted with one digit after the decimal                                                   |

@@ -6,7 +6,7 @@
 
 See also: [Memory Inspector Overview](/developer-docs/memory-inspector).
 
-- Start with 8-bit view in the Memory Viewer. Looking at larger chunks of memory will complicate things, but it will make a seasoned developer's job easier. If you're just starting out and unaware of terms like **endianess** and **bit ordering** (or when the eyes are tired), its best to make your observations in 8-bit view. Its just easier!
+- Start with 8-bit view in the Memory Viewer. Looking at larger chunks of memory will complicate things, but it will make a seasoned developer's job easier. If you're just starting out and unaware of terms like **endianness** and **bit ordering** (or when the eyes are tired), its best to make your observations in 8-bit view. Its just easier!
 
 - **Uncheck "Show Decimal Values"** in the Achievement Editor so you can enter the hex values you see in the Memory Viewer. Its better than using a programmers calculator!
 

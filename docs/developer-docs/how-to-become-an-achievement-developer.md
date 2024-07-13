@@ -47,7 +47,7 @@ Any aspiring dev must demonstrate understanding of the following concepts:
 - [Alt Groups](/developer-docs/alt-groups)
 - Memory sizes: [8-bit](/developer-docs/memory-inspector#8-bit-mode) and [single bit](/developer-docs/memory-inspector#single-bits)
 - Achievement logic comparisons besides `=`, such as `>`, `<`, `!=`
-- [Adding badges to an achievment](/general/ways-to-contribute)
+- [Adding badges to an achievement](/general/ways-to-contribute)
 - [Creating accurate descriptions for achievements](/guidelines/developers/code-of-conduct#basic-achievement-design-guidelines)
 - Add appropriate [protections](/developer-docs/getting-started-as-an-achievement-developer#important-tips)
 - Make a [stable achievement set](/developer-docs/getting-started-as-an-achievement-developer#important-tips)
