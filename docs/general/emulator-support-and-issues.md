@@ -444,7 +444,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **Beetle PSX**
 - ✅ libretro core: **SwanStation**
 - ❌ libretro core: **PCSX ReARMed**
-  - BIOS are not required for this core and will zero out the Kernal RAM.
+  - BIOS are not required for this core and will zero out the Kernel RAM.
   - Technically supported; not recommended.
 - ❓ BizHawk core: **Octoshock** (Mednafen)
 - ❓ BizHawk core: **Nymashock** (Mednafen)
@@ -461,7 +461,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Still in alpha state
   - Does not expose memory
 - ❌ libretro core: **Play!**
-  - Low compatibility with most commerical games
+  - Low compatibility with most commercial games
   - Black screen with stuttering sound
 
 ### PlayStation Portable

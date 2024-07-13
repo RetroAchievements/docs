@@ -30,7 +30,7 @@ As a simple example, to award an achievement for obtaining the hammer in Zelda I
 ```
 Room ID = room the hammer is in
 Area ID = area of game the hammer is in
-Possesion of hammer changes from not possessed to possessed
+Possession of hammer changes from not possessed to possessed
 ```
 
 Here is what this achievement would look like in the Achievement Editor

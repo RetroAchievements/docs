@@ -11,7 +11,7 @@ Save and password protection is something that needs to be implemented on any se
 
 ## What Is It?
 
-Save and password protection is using conditions to prevent an achievement from unlocking upon loading a save or loading from a password. Since memory will initialize upon loading a save, many achivements could trigger at this time if it isn't present. This is to ensure that players can't go download a save from a website and use it to unlock most of the set.
+Save and password protection is using conditions to prevent an achievement from unlocking upon loading a save or loading from a password. Since memory will initialize upon loading a save, many achievements could trigger at this time if it isn't present. This is to ensure that players can't go download a save from a website and use it to unlock most of the set.
 
 What save and password protection does not do is prevent players from using their own saves or passwords. It does not mean doing something like blocking the achievement if the player visits the save or load screen (unless the achievement specifically forbids using saves).
 
@@ -96,7 +96,7 @@ If you do not have a game state, you can often check that the location ID is sta
 
 ### Delta Checks
 
-This is simply checking that the delta of something is or is not true. Most often this will be used in AddSource chains to check that something is going fron n-1 to n, but also can be used for things like score to check that the delta is greater than 0 and less than the target. One can also check that the delta of the game state isn't the save/load screen for a very simple, but solid form of protection. This also can involve something like checking that a stage goes from complete to incomplete or the player goes from stage 1 to stage 2 or from stage 1 back to the hub world.
+This is simply checking that the delta of something is or is not true. Most often this will be used in AddSource chains to check that something is going from n-1 to n, but also can be used for things like score to check that the delta is greater than 0 and less than the target. One can also check that the delta of the game state isn't the save/load screen for a very simple, but solid form of protection. This also can involve something like checking that a stage goes from complete to incomplete or the player goes from stage 1 to stage 2 or from stage 1 back to the hub world.
 
 | ID  | Flag      | Type  | Memory        | Cmp | Type  | Mem/Val | Hits |
 | ---:|:--------- |:----- |:------------- |:---:|:----- |:------- |:----:|
@@ -125,7 +125,7 @@ This isn't as commonly used, especially by itself, but is great when dealing wit
 
 In this case, the event happens in a common hub location where players are often going to save. On top of that, the game even prompts the player to save right after the event happens and when they load that save, it will be in the same location as the event.  Plus the game allows the player to save and load at any point outside of battle and cutscenes. That's a big problem since in this case a player could unlock the achievement by loading a save with many other types of save protection.
 
-So a prior is used on the location id in conditon 1 to ensure that the player got to that location via playing the game as normal rather than loading a save. Upon loading a save, the prior would be 0 or the value from another save so that condition would not be true. When playing as normal the prior would be the value in condition 1.
+So a prior is used on the location id in condition 1 to ensure that the player got to that location via playing the game as normal rather than loading a save. Upon loading a save, the prior would be 0 or the value from another save so that condition would not be true. When playing as normal the prior would be the value in condition 1.
 
 | ID  | Flag | Type  | Memory        | Cmp | Type  | Mem/Val       | Hits |
 | ---:|:---- |:----- |:------------- |:---:|:----- |:------------- |:----:|
@@ -168,7 +168,7 @@ Another great use of event flags for save protection is to check that the delta 
 
 **Does not work well in:**
 
-- Achivements for optional events that aren't missable
+- Achievements for optional events that aren't missable
 - Achievements where sequence breaking is possible
 - Games with large spans of time between events (especially if the player can save before the next event)
 - Events that can be done in any order.
@@ -177,7 +177,7 @@ Another great use of event flags for save protection is to check that the delta 
 
 A solid form of save protection for games where the player can save or load at any time. There are two ways this can be implemented:
 
-1. Checking that the timer is not a default value: Typically this will be a simple delta check on the timer that it is either not 0 or whatever the intial value is for the game.
+1. Checking that the timer is not a default value: Typically this will be a simple delta check on the timer that it is either not 0 or whatever the initial value is for the game.
 
 | ID  | Flag | Type  | Memory       | Cmp | Type  | Mem/Val         | Hits |
 | ---:|:---- |:----- |:------------ |:---:|:----- |:--------------- |:----:|
@@ -194,7 +194,7 @@ A solid form of save protection for games where the player can save or load at a
 
 2. Using SubSource to check for large changes in the timer: 
 
-During most of gameplay this will remain true, but when a save is loaded this will not be true for a single frame, which is the most essential frame where the memory initializes. Thus it will prevent the achievements from unlocking when changing to a diffrent save or loading a save from the title screen.
+During most of gameplay this will remain true, but when a save is loaded this will not be true for a single frame, which is the most essential frame where the memory initializes. Thus it will prevent the achievements from unlocking when changing to a different save or loading a save from the title screen.
 
 | ID  | Flag      | Type  | Memory       | Cmp | Type  | Mem/Val          | Hits |
 | ---:|:--------- |:----- |:------------ |:---:|:----- |:---------------- |:----:|

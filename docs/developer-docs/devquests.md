@@ -151,7 +151,7 @@ No hacks or homebrew unless those are the only types of games left without sets.
 **Goal**: Develop a set for one of the most requested games  
 **Repeatable**: No
 
-::: info Set Elligibility
+::: info Set Eligibility
 At the time you claim the set, it must be in Most Wanted section of the latest issue of RANews.
 :::
 
@@ -187,7 +187,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 **Repeatable**: No
 
 - Must be a full set (to the extent of the games capabilities, See Watara vs PSP)
-- Smaller consoles may be ruled inelligible
+- Smaller consoles may be ruled ineligible
 
 #### Current Launch Party Promotion Windows:
 - Neo Geo CD: 2023-11-15 through 2024-05-15
@@ -245,7 +245,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 1. Choose from a provided list or grab one from a hub, just make sure you let us know when you start so we can mark it!
 2. Must go through the revision process as per usual!
 3. Make sure you take care with the set and don't just throw in a bunch of filler
-4. Don't hestitate to contact us with any questions or suggestion<br>• This quest can be done multiple times (current limit: 3)
+4. Don't hesitate to contact us with any questions or suggestion<br>• This quest can be done multiple times (current limit: 3)
 
 ### 014 [Laudable Leaderboards](https://retroachievements.org/game/862)
 
@@ -301,7 +301,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. The person that wrote the Wish This Set may not be one of the developers making the set.
 4. Quest is available year round, and gets new games eligible every release of RANews.
-5. If you already have a set claimed at the time it becomes elligible for this DevQuest you must be under 50% progress for it to count.
+5. If you already have a set claimed at the time it becomes eligible for this DevQuest you must be under 50% progress for it to count.
 6. Once a game has been featured it remains eligible until the game gets a set.
 
 
@@ -317,7 +317,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. No Homebrew/Hacks/Unlicensed
 4. New sets only: No Multi Set or Revisions
-5. Other picks are subject to DQ team approval if elligibility is questionable
+5. Other picks are subject to DQ team approval if eligibility is questionable
 7. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.
 
 ### 018 [Subset Station](https://retroachievements.org/game/22564)
@@ -411,7 +411,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 ## Wheel Spin DevQuest Rules
 
 1. You may respin 3 months after you spin. This requires and consumes your respin token for that quest
-2. You start with one respin token (per aplicable DevQuest)
+2. You start with one respin token (per applicable DevQuest)
 3. Each wheel spin quest has its own kind of respin token (can't save your DevQuest 006 token for use in DevQuest 019)
 3. You may not bank extra respin tokens
 4. Once you have used your respin token, you may restore it by fulfilling one of the Respin Tasks, listed below
