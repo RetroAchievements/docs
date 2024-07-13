@@ -133,7 +133,7 @@ Begin with `Format:`, then the name of the Format converter. On the next line, g
 
 |   FormatType   |        Name         |     0     |     1     |     12345     | Description                                                                                        |
 | :------------: | :-----------------: | :-------: | :-------: | :-----------: | -------------------------------------------------------------------------------------------------- |
-|     `SCORE`    |        Score        |   000000  |   000001  |     012345    | Generic value, padded with leadings 0s to 6 digits                                                 |
+|     `SCORE`    |        Score        |   000000  |   000001  |     012345    | Generic value, padded with leading 0s to 6 digits                                                 |
 |     `FRAMES`   |    Time (Frames)    |  0:00.00  |  0:00.01  |    3:25.75    | Number of frames elpased (assuming 60 fps). Will be turned into MIN:SEC.CENT                       |
 |   `MILLISECS`  | Time (Centiseconds) |  0:00.00  |  0:00.01  |    2:03.45    | Number of hundredths of a second elapsed. Will be turned into MIN:SEC.CENT                         |
 |      `SECS`    |    Time (Seconds)   |    0:00   |    0:01   |    3h25:45    | Number of seconds elapsed. Will be turned into MIN:SEC                                             |
