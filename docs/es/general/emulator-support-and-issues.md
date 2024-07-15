@@ -222,8 +222,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 #### GameCube
 
-- ⌛ Emulador independiente: **Dolphin**
-  - En pruebas
+- ✅ Emulador independiente: **[Dolphin](https://retroachievements.org/download.php#dolphin)**
 - ⌛ Núcleo de libretro: **Dolphin**
   - En pruebas
 
