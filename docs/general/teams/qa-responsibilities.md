@@ -23,10 +23,12 @@ QA has the authority to fix any issues in sets with no active developers.  QA ma
 
 No advance coordination required:
 - Set wide exploitation. QA must immediately contact developer to hand off repair and repromotion responsibility
+- Remove custom player input from rich presence
 
 Developer must be contacted, QA may remediate if no response is received within 7 days for:
 - Demote set due to instability (generally 10 or more tickets)
 - Fix achievement title or description grammar, spelling, capitalization or wording error
 - Demote achievement due to lack of protection or exploit
+- Adjust set progression types
 - Fix leaderboard or rich presence grammar, spelling, capitalization or wording error
 - Repair leaderboard or rich presence malfunction
