@@ -54,7 +54,7 @@ When these are acceptable:
 
 ## Requires Complete Perfection
 
-Achievements that require a long task where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
+Achievements that require a **long task** where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
 
 When these are acceptable:
 
