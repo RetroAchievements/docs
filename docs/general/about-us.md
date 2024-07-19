@@ -79,19 +79,20 @@ The team responsible to keep the this community a healthy place (at least for th
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
-- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
 - [Fridge](https://retroachievements.org/user/Fridge)
-- [GalacticSpear](https://retroachievements.org/user/GalacticSpear)
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
-- [Hotscrock](https://retroachievements.org/user/Hotscrock)
+- [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Layton](https://retroachievements.org/user/Layton)
-- [malasdair](https://retroachievements.org/user/malasdair)
+- [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
+- [suspect15](https://retroachievements.org/user/suspect15)
 - [televandalist](https://retroachievements.org/user/televandalist)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
+- [tomojin](https://retroachievements.org/user/tomojin)
 
 ### Quality Assurance Team
 
