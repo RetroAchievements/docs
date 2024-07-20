@@ -102,6 +102,16 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
+      text: "Teams",
+      collapsed: false,
+      items: [
+        {
+          text: "Quality Assurance",
+          link: "/general/teams/qa-team",
+        },
+      ],
+    },
+    {
       text: "Tutorials",
       collapsed: false,
       items: [
