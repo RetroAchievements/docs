@@ -35,7 +35,7 @@ Almost every game has multiple ROM versions available, sometimes dozens. Often t
 **Game Name (Region) (Available Languages if Applicable) (Current Revision if Applicable)**
 _**Example:** Diddy Kong Racing (USA) (En,Fr) (Rev 1)_
 
-[TOSEC](https://www.tosecdev.org/) is another less restrictive preservation group. Their hashes often will match Redump for discs, but will frequently contain less thoroughly verified dumps. For floppy discs, cassettes, and less well-known systems where No-Intro and/or Redump verification aren't avaliable, TOSEC is a good fallback choice.
+[TOSEC](https://www.tosecdev.org/) is another less restrictive preservation group. Their hashes often will match Redump for discs, but will frequently contain less thoroughly verified dumps. For floppy discs, cassettes, and less well-known systems where No-Intro and/or Redump verification aren't available, TOSEC is a good fallback choice.
 
 You can verify that your ROM checksum matches the databases of No-Intro, Redump, or TOSEC either by using a rom manager with a dat provided by the preferred group or by verifying checksum manually and searching the dat for it in a text editor. Bear in mind that unlike a manual check, the rom manager may be able to skip over external headers to accurately verify integrity. Standard choices are [clrmamepro](https://mamedev.emulab.it/clrmamepro/) and [Romulus](https://romulus.cc/).
 

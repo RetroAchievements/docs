@@ -139,7 +139,7 @@ Pointers always start with a `0x02`. For example, a pointer pointing directly to
 
 ### Mandatory UniBIOS protection
 
-UniBIOS allows several debugging options, and also access the database of individual cheats for every game. Therefore all achievements for Neo Geo need to be protected from abusing it. The simpliest solution here is disallowing UniBIOS usage completely, directly from the level of achievement code.
+UniBIOS allows several debugging options, and also access the database of individual cheats for every game. Therefore all achievements for Neo Geo need to be protected from abusing it. The simplest solution here is disallowing UniBIOS usage completely, directly from the level of achievement code.
 
 Fortunately part of UniBIOS data seems to be reflected in two address strings in the RAM: `0x00fe30` and `0x00fe50`. While UniBIOS is active `0x00fe30` in 32-bit size seems to always brings the same value (for every Neo Geo game) which is `80025632`, and it doesn't seem to change after the ROM was loaded. For any other BIOS, the value is always 0, (except for the moment the RAM is overloaded by the diagnostic program, after the ROM was loaded).
 

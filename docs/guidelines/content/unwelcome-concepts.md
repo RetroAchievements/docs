@@ -1,6 +1,6 @@
 # Unwelcome Concepts
 
-You can and should always be as creative as you can be, but there are some concepts that are **NOT** welcome for achievements. Below is a list of what have been deemed unwelcome concepts. Please note that there is some wiggle room so some exceptions to the rules have been provided. When in doubt, consult with [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance).
+Developers are encouraged to be creative with their achievement designs, but there are some concepts that are **NOT** welcome for achievements. Below is a list of what have been deemed unwelcome concepts. Please note that there is some wiggle room, so some exceptions to the rules have been provided. When in doubt, consult with [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance).
 
 [[toc]]
 
@@ -13,7 +13,7 @@ When these are acceptable:
 - Using the above example: If the achievement for defeating the boss is challenge-based, such as damageless. It is not a guaranteed unlock simply by playing.
 - If the achievements are stackable.
   - Defeating a boss on normal or higher difficulty + defeating the same boss on hard difficulty.
-  - Opening the last chest in an area + opening all chests in the game
+  - Opening the last chest in an area + opening all chests in the game.
 
 ## Playing Poorly Without Purpose
 
@@ -22,7 +22,7 @@ Achievements for dying, getting a game over, or repeatedly failing a task just f
 When these are acceptable:
 
 - Many point-and-click adventure games and visual novels often tie a player's death into the story, which can result in unique scenes a player would not witness otherwise.
-- If playing poorly results in a humorous or otherwise interesting in-game acknowledgement such as being awarded a helmet for taking too many head shots.
+- If playing poorly results in a humorous or otherwise interesting in-game acknowledgement, such as being awarded a helmet for taking too many head shots.
 
 ## Zero Effort Without Purpose
 
@@ -30,7 +30,7 @@ Examples of this are achievements for simply starting a game, collecting a singl
 
 When these are acceptable:
 
-- "Disclaimer" achievements that are meant to address the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
+- "Disclaimer" achievements meant to inform the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
 - Not skipping an opening cinematic if it had been considered a big deal at the time.
 - Addressing something fun, historical, or interesting.
 
@@ -54,7 +54,7 @@ When these are acceptable:
 
 ## Requires Complete Perfection
 
-Achievements that require a long task where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
+Achievements that require a **long task** where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
 
 When these are acceptable:
 

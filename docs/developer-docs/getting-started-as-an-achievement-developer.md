@@ -116,7 +116,7 @@ Next we will change these values to the following:
 
 With that set, we don't have any more conditions to add, so we return to the **Achievements Dialog**. To be safe, we should save our progress by hitting **Save Local**! This saves everything to file locally to ensure that we won't lose any progress.
 
-- **Note**: An achievement should have more than one requirement to avoid it triggering at the wrong time (i.e. playing demo mode). In this example, we are using only one requirement to simplify the explanation. See more [Achievement Creation Tips here](/developer-docs/tips-and-tricks#achivement-creation-tips).
+- **Note**: An achievement should have more than one requirement to avoid it triggering at the wrong time (i.e. playing demo mode). In this example, we are using only one requirement to simplify the explanation. See more [Achievement Creation Tips here](/developer-docs/tips-and-tricks#achievement-creation-tips).
 
 ## Testing the Achievement
 

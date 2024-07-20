@@ -2,13 +2,13 @@
 
 ## What are DevQuests?
 
-They're achievement development-related quests that Developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn the badge. DevQuests are not available for Junior Developers.
+DevQuests are achievement development-related quests that Developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn the badge. DevQuests are not available for Junior Developers.
 
 ## General Rules
 
-1. For Set-Creation achievements other than DevQuest 015 and DevQuest 020, announce your DQ pick in [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) or via the DevQuest inbox on site early on in your development. This will give us time to make sure any issues with the choice can be sorted out early. Late requests may not be counted.
-2. For Maintenance achievements (i.e.: DevQuest 001, DevQuest 005, DevQuest 04, etc), just create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team when you are complete with all entries for review. For Maintenance Quests that can be repeated, one row of the column will be for which badge number you are working towards.
-3. For Revision achievements (i.e.: DevQuest 002 and DevQuest 013), make sure your choice is already on the corresponding approved list. You will need to satisfy the repair plan. These quests should be more than simple one-achievement revisions. If a repair plan seems to be overly simple, contact us first to ensure it will qualify.
+1. **Set-Creation Credit**: To be awarded credit for Set-Creation quests, contact the DevQuest Team via Discord ping in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) or via [site message](https://retroachievements.org/messages/create?to=DevQuest) within 1 week after publishing the set. Include a link to the game and which DevQuest it is being used for. (No need to do this for DevQuest 015 or 020 -- We handle those in sweeps separately). Note: Sets may still be disqualified for quality or rules reasons at this point. Contact us prior to release if you wish to confirm eligibility.
+2. **Maintenance Quest Credit**: For maintenance achievements (i.e.: DevQuest 001, DevQuest 005, DevQuest 04, etc), just create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team when you are complete with all entries for review. For Maintenance Quests that can be repeated, one row of the column will be for which badge number you are working towards.
+3. **Revision Quest Credit**: For Revision achievements (i.e.: DevQuest 002 and DevQuest 013), make sure your choice is already on the corresponding approved list. You will need to satisfy the repair plan. These quests should be more than simple one-achievement revisions. If a repair plan seems to be overly simple, contact us first to ensure it will qualify. **When you start working on a revision quest, contact the DevQuest team** so the sheet can be updated; this lets other users know it is being worked on.
 4. Unless otherwise stated in a DevQuest's description, collaborations are not allowed.
 5. Standard set quality or better is expected for DevQuest sets. If a set appears to be of insufficient effort or a copy/paste set, it may be rejected at the DevQuest team's discretion. Rich Presence is required for DevQuest sets. The DevQuest team is happy to suggest improvements for qualification.
 6. New sets may only be applied towards one Set Creation DevQuest. No double-dipping.
@@ -16,7 +16,7 @@ They're achievement development-related quests that Developers can take part in 
 
 ## Reporting
 
-- Contact the team using the DevQuest team on site or on in [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) on Discord.
+- Contact the team using the DevQuest team via [site message](https://retroachievements.org/messages/create?to=DevQuest) or on in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) on Discord.
 
 ## Schedule and Announcements
 
@@ -46,7 +46,7 @@ They're achievement development-related quests that Developers can take part in 
 **Goal**: Repair 3 sets from provided batch  
 **Repeatable**: Yes (Up to 3 times)
 
-1. Pick a game from the list of approved DQ2 sets and then post your claim to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or send to DevQuest inbox
+1. Pick a game from the list of approved DQ2 sets and then post your claim to the [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) channel on Discord or send to DevQuest inbox
 2. Follow the revision process as normal: Post the plan on the forum, make a revision vote if any changes aren't on the "no need for approval list," and make a revision claim if adding achievements.
 3. Resolve any open tickets for achievements kept in the set, Tickets for achievements being left demoted can be simply closed with reason of demotion cited
 4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.
@@ -133,7 +133,7 @@ They're achievement development-related quests that Developers can take part in 
 - Amstrad CPC
 - Arduboy
 - WASM4
-- Nintendo
+- Nintendo DSi
 
 ::: warning NOTE
 No hacks or homebrew unless those are the only types of games left without sets.
@@ -151,13 +151,12 @@ No hacks or homebrew unless those are the only types of games left without sets.
 **Goal**: Develop a set for one of the most requested games  
 **Repeatable**: No
 
-::: info Set Elligibility
+::: info Set Eligibility
 At the time you claim the set, it must be in Most Wanted section of the latest issue of RANews.
 :::
 
 1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count.
-2. You must lock in your claim by posting to the [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel onDiscord or sending a message to the DevQuest account.
-3. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
+2. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
 
@@ -188,7 +187,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 **Repeatable**: No
 
 - Must be a full set (to the extent of the games capabilities, See Watara vs PSP)
-- Smaller consoles may be ruled inelligible
+- Smaller consoles may be ruled ineligible
 
 #### Current Launch Party Promotion Windows:
 - Neo Geo CD: 2023-11-15 through 2024-05-15
@@ -246,7 +245,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 1. Choose from a provided list or grab one from a hub, just make sure you let us know when you start so we can mark it!
 2. Must go through the revision process as per usual!
 3. Make sure you take care with the set and don't just throw in a bunch of filler
-4. Don't hestitate to contact us with any questions or suggestion<br>• This quest can be done multiple times (current limit: 3)
+4. Don't hesitate to contact us with any questions or suggestion<br>• This quest can be done multiple times (current limit: 3)
 
 ### 014 [Laudable Leaderboards](https://retroachievements.org/game/862)
 
@@ -302,7 +301,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. The person that wrote the Wish This Set may not be one of the developers making the set.
 4. Quest is available year round, and gets new games eligible every release of RANews.
-5. If you already have a set claimed at the time it becomes elligible for this DevQuest you must be under 50% progress for it to count.
+5. If you already have a set claimed at the time it becomes eligible for this DevQuest you must be under 50% progress for it to count.
 6. Once a game has been featured it remains eligible until the game gets a set.
 
 
@@ -318,7 +317,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. No Homebrew/Hacks/Unlicensed
 4. New sets only: No Multi Set or Revisions
-5. Other picks are subject to DQ team approval if elligibility is questionable
+5. Other picks are subject to DQ team approval if eligibility is questionable
 7. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.
 
 ### 018 [Subset Station](https://retroachievements.org/game/22564)
@@ -412,7 +411,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 ## Wheel Spin DevQuest Rules
 
 1. You may respin 3 months after you spin. This requires and consumes your respin token for that quest
-2. You start with one respin token (per aplicable DevQuest)
+2. You start with one respin token (per applicable DevQuest)
 3. Each wheel spin quest has its own kind of respin token (can't save your DevQuest 006 token for use in DevQuest 019)
 3. You may not bank extra respin tokens
 4. Once you have used your respin token, you may restore it by fulfilling one of the Respin Tasks, listed below

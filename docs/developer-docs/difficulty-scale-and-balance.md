@@ -95,7 +95,7 @@ Very few player can get these on their first attempt, perhaps if they already kn
 
 Only the rarest of players can complete these on a first attempt. Most can complete it after many attempts, Many players will drop off here and won't be willing to complete the set unless they are completionists or fans of the game. Many are not able to complete this after very many attempts. Usually takes significant practice, high skills, experience, research, or guides to complete.
 
-**Examples:** Beating Contra in one life. Escaping Zebes (Super Metroid) in under two minutes. Beating many of the Megaman bosses without taking damage. Many damagless stages, depending on the game.
+**Examples:** Beating Contra in one life. Escaping Zebes (Super Metroid) in under two minutes. Beating many of the Megaman bosses without taking damage. Many damageless stages, depending on the game.
 
 ### 6 - Super Hard
 
