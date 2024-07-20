@@ -86,11 +86,11 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
 - [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Layton](https://retroachievements.org/user/Layton)
+- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [televandalist](https://retroachievements.org/user/televandalist)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [tomojin](https://retroachievements.org/user/tomojin)
 
