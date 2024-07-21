@@ -22,7 +22,7 @@ QA's responsibilities include maintaining inactive developer sets, ensuring all 
 QA has the authority to fix any issues in sets with no active developers.  QA may also fix issues in sets with active developers under the following processes:
 
 No advance coordination required:
-- Set wide exploitation. QA must immediately contact developer to hand off repair and repromotion responsibility
+- Set-wide exploitation. QA must immediately contact the developer to hand off repair and repromotion responsibility
 - Remove custom player input from rich presence
 
 Developer must be contacted, QA may remediate if no response is received within 7 days for:
