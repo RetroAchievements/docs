@@ -27,7 +27,7 @@ No advance coordination required:
 
 Developer must be contacted, QA may remediate if no response is received within 7 days for:
 - Demote set due to instability (generally 10 or more tickets)
-- Fix achievement title or description grammar, spelling, capitalization or wording error
+- Fix achievement title or description grammar, spelling, capitalization, or wording error
 - Demote achievement due to lack of protection or exploit
 - Adjust set progression types
 - Fix leaderboard or rich presence grammar, spelling, capitalization or wording error
