@@ -1,6 +1,6 @@
 ---
-title: QA Responsibilities
-description: Lists responsibilities of the RetroAchievements Quality Assurance Team.
+title: QUality Assurance Team
+description: Lists responsibilities and authorities of the RetroAchievements Quality Assurance Team.
 ---
 
 # Quality Assurance Team
@@ -23,7 +23,7 @@ QA has the authority to fix any issues in sets with no active developers.  QA ma
 
 No advance coordination required:
 - Set-wide exploitation. QA must immediately contact the developer to hand off repair and repromotion responsibility
-- Remove custom player input from rich presence
+- Remove custom player input from rich presence to follow [the current policy](/developer-docs/rich-presence.html#rich-presence-custom-name-restriction)
 
 Developer must be contacted, QA may remediate if no response is received within 7 days for:
 - Demote set due to instability (generally 10 or more tickets)
