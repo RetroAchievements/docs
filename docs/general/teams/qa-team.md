@@ -30,5 +30,5 @@ Developer must be contacted, QA may remediate if no response is received within 
 - Fix achievement title or description grammar, spelling, capitalization, or wording error
 - Demote achievement due to lack of protection or exploit
 - Adjust set progression types
-- Fix leaderboard or rich presence grammar, spelling, capitalization or wording error
+- Fix leaderboard or rich presence grammar, spelling, capitalization, or wording error
 - Repair leaderboard or rich presence malfunction
