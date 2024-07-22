@@ -190,8 +190,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 - Smaller consoles may be ruled ineligible
 
 #### Current Launch Party Promotion Windows:
-- Neo Geo CD: 2023-11-15 through 2024-05-15
-- Nintendo GameCube: Pending Rollout Launch through 6 Months afterwards
+- Nintendo GameCube: 2024-07-15 through 2025-01-15
 
 ### 010 [It Takes Two](https://retroachievements.org/game/15939)
 
