@@ -1,5 +1,5 @@
 ---
-title: QUality Assurance Team
+title: Quality Assurance Team
 description: Lists responsibilities and authorities of the RetroAchievements Quality Assurance Team.
 ---
 
