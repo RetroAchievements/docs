@@ -62,8 +62,8 @@ Achievements that require long, repetitive tasks that confer no unique in-game r
 
 Common examples of Pointless Excessive Grinding:
 - Leveling up in an RPG beyond what is typically required to complete the game and where there is no in-game reward such as a skill or spell.
-- Acquiring many copies of items or money beyond which would typically be accrued during a normal playthrough
-- Collecting an arbitrary number of extra lives when they are not associated with a reward or challenge, such as when they can be dropped by enemies
+- Acquiring many copies of items or money beyond which would typically be accrued during a normal playthrough.
+- Collecting an arbitrary number of extra lives when they are not associated with a reward or challenge, such as when they can be dropped by enemies.
 
 Where this is acceptable:
 - Bonus subsets or subsets specifically approved for grinding tasks are an exception to this policy and may be implemented.
