@@ -33,7 +33,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 ## Previous Rollouts
 
 | Launch Date |                            Console                            | Number of Sets on Launch Day |                           Relevant Links                           |
-|:-----------:|:-------------------------------------------------------------:|:----------------------------:|:------------------------------------------------------------------:|
+| :---------: | :-----------------------------------------------------------: | :--------------------------: | :----------------------------------------------------------------: |
 | 2019-09-07  |                          PlayStation                          |              28              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=9302)  |
 | 2021-10-01  |                     PlayStation Portable                      |              38              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14016) |
 | 2022-02-12  |                           Dreamcast                           |              34              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=15276) |

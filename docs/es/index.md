@@ -27,17 +27,14 @@ features:
     title: Regístrate
     details: Comienza creando una cuenta.
     link: https://retroachievements.org/createaccount.php
-
   - icon: 🕹️
     title: Descarga un emulador
     details: Instala un emulador compatible y comienza a conseguir logros.
     link: https://retroachievements.org/download.php
-
   - icon: 📡
     title: Documentación de la API
     details: Integra RetroAchievements en tu aplicación, sitio web o interfaz de usuario.
     link: https://api-docs.retroachievements.org
-
   - icon: 🔧
     title: Documentación sobre la integración en emuladores
     details: Integra RetroAchievements en tu emulador.

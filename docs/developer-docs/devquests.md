@@ -88,7 +88,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 8. Has obtained at least two DevQuest badges
 9. Has obtained at least five badges through DevQuest
 
--_Note: A constantly evolving toolkit means that these requirements are subject to change at any time_ 
+-_Note: A constantly evolving toolkit means that these requirements are subject to change at any time_
 
 ### 005 [Trigger Happy](https://retroachievements.org/game/15952)
 
@@ -114,6 +114,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 **Repeatable**: No
 
 **Eligible systems**:
+
 - PC Engine CD
 - Sega CD
 - 32X
@@ -190,6 +191,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 - Smaller consoles may be ruled ineligible
 
 #### Current Launch Party Promotion Windows:
+
 - Nintendo GameCube: 2024-07-15 through 2025-01-15
 
 ### 010 [It Takes Two](https://retroachievements.org/game/15939)
@@ -282,11 +284,11 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 :::
 
 1. This quest is awarded in sweeps; do not ping claims or completions. Any set will be counted as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
-3. Meme sets may not be counted at the discretion of the DevQuest Team.
-4. Doing the same kind of set (ie: all Flappy Bird clones) will only be counted towards one platform.
-5. The only requirement for an unlock is that you are the sole or majority developer of a set on that console ID. Collaborations require at least 20 achievements made.
-6. For the more dire consoles, specific requirements are in the achievements themselves.
-7. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+2. Meme sets may not be counted at the discretion of the DevQuest Team.
+3. Doing the same kind of set (ie: all Flappy Bird clones) will only be counted towards one platform.
+4. The only requirement for an unlock is that you are the sole or majority developer of a set on that console ID. Collaborations require at least 20 achievements made.
+5. For the more dire consoles, specific requirements are in the achievements themselves.
+6. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
 
 ### 016 [Wish This Set](https://retroachievements.org/game/2962)
 
@@ -303,7 +305,6 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 5. If you already have a set claimed at the time it becomes eligible for this DevQuest you must be under 50% progress for it to count.
 6. Once a game has been featured it remains eligible until the game gets a set.
 
-
 ### 017 [RA World Cup](https://retroachievements.org/game/15942)
 
 ![DQ017](https://retroachievements.org/Images/062544.png)
@@ -317,7 +318,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 3. No Homebrew/Hacks/Unlicensed
 4. New sets only: No Multi Set or Revisions
 5. Other picks are subject to DQ team approval if eligibility is questionable
-7. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.
+6. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.
 
 ### 018 [Subset Station](https://retroachievements.org/game/22564)
 
@@ -358,7 +359,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 
 ::: warning Opt-In Quest
 You must have made sets for at least 5 genres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started
- :::
+:::
 
 1. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
 2. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
@@ -381,7 +382,7 @@ You must have made sets for at least 5 genres before opt-in. To opt-in, make a c
 
 ::: warning Opt-In Quest
 You must have made sets for at least 15 subgenres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started. You may use the same sheet to opt in to this and to DevQuest 020.
- :::
+:::
 
 1. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
 2. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
@@ -412,8 +413,8 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 1. You may respin 3 months after you spin. This requires and consumes your respin token for that quest
 2. You start with one respin token (per applicable DevQuest)
 3. Each wheel spin quest has its own kind of respin token (can't save your DevQuest 006 token for use in DevQuest 019)
-3. You may not bank extra respin tokens
-4. Once you have used your respin token, you may restore it by fulfilling one of the Respin Tasks, listed below
+4. You may not bank extra respin tokens
+5. Once you have used your respin token, you may restore it by fulfilling one of the Respin Tasks, listed below
 
 ### Devquests With Wheel Spins
 

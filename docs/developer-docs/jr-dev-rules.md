@@ -14,6 +14,7 @@ The purpose of the Junior Developer Program is to assist interested people with 
 ### Entry Requirements
 
 To join the Junior Developer Program, the following requirements must be met:
+
 - RetroAchievements account must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
 - Have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
 - Request the Junior Developer role in #role-request channel in the General section of the RA Discord server
@@ -25,8 +26,9 @@ To join the Junior Developer Program, the following requirements must be met:
 ### Rules and Restrictions
 
 The following rules apply to all Junior Developers:
+
 - May only create achievements, leaderboards and Rich Presence for a set on which they have an active claim
-  - This means no working on any sets that are not claimed.  Failure to adhere to this rule may result in dismissal from the Junior Developer Program
+  - This means no working on any sets that are not claimed. Failure to adhere to this rule may result in dismissal from the Junior Developer Program
   - Junior Developers may practice RAM digging games for which they do not have a claim, but shall not publish any code notes
 - May not make a new claim while they have any open tickets
 - Will prioritize resolving open tickets over development of a new set. If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
@@ -42,7 +44,8 @@ The following rules apply to all Junior Developers:
 
 ### Code Review Requests
 
-Junior Developers are required to ensure sets they submit for Code Review are of the highest quality they can make. If a set has known issues, Junior Developers must resolve them prior to requesting a Code Review.  Code Reviewers are available to answer questions and offer guidance to assist Junior Developers with resolving issues.  The following rules apply to all Junior Developers intending to submit a Code Review request:
+Junior Developers are required to ensure sets they submit for Code Review are of the highest quality they can make. If a set has known issues, Junior Developers must resolve them prior to requesting a Code Review. Code Reviewers are available to answer questions and offer guidance to assist Junior Developers with resolving issues. The following rules apply to all Junior Developers intending to submit a Code Review request:
+
 - Must follow the ["Am I Ready for Review"](https://docs.google.com/document/d/e/2PACX-1vSYRcYpyN0W8oP9Ho0YMiUutZEs-np4JDL-Be5IfuR5oyG_92wVwgwA5BkTHywK_olmzRBjpZGehKM6/pub) guide prior to requesting a Code Review
 - May not submit sets that fail to conform to the [Writing Policy](https://docs.retroachievements.org/guidelines/content/writing-policy.html) or [Code Note Standards](https://docs.retroachievements.org/guidelines/content/code-notes.html)
 - May not submit sets that do not have original achievement badges
@@ -55,16 +58,18 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 ### Removal From Junior Developer Program
 
 Participation in the Junior Developer Program is not an entitlement or right. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
+
 - Violations of the RA Developer Code of Conduct or the rules set forth within this document
 - 1 month of [inactivity](https://docs.retroachievements.org/guidelines/developers/code-of-conduct.html#inactivity) in either active development or RA in general
   - First time inactivity removals may request immediate restoration of Junior Developer role
   - Subsequent inactivity removals will be subject to a 30-day cool down, beginning upon demotion action. After cool down, must submit a full rejoin request per [Entry Requirements](#entry-requirements)
 
- ### Graduation Consideration
+### Graduation Consideration
 
-  Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer.  The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with the Developer Code of Conduct?"  This question is evaluated by considering a variety of aspects such as:
-  - Has the Junior Developer demonstrated a consistent level of maturity and professionalism such that they can be trusted with increased site permissions?
-  - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
-    - The [Junior Developer Graduate set achievements](https://retroachievements.org/game/3046) provide a good overview of the toolkit
-  - Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guidelines requirements with little to no assistance?
-  - Does the Junior Developer show a strong desire to learn and actively seek self improvement through asking questions, discussions and self study?
+Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer. The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with the Developer Code of Conduct?" This question is evaluated by considering a variety of aspects such as:
+
+- Has the Junior Developer demonstrated a consistent level of maturity and professionalism such that they can be trusted with increased site permissions?
+- Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
+  - The [Junior Developer Graduate set achievements](https://retroachievements.org/game/3046) provide a good overview of the toolkit
+- Has the Junior Developer produced a set that meets or exceeds Developer Code of Conduct and Content Guidelines requirements with little to no assistance?
+- Does the Junior Developer show a strong desire to learn and actively seek self improvement through asking questions, discussions and self study?

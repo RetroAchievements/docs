@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "format": "prettier --write ./docs/**/*.md"
   },
   "license": "MIT",
   "dependencies": {

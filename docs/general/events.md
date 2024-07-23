@@ -27,33 +27,33 @@
 
 ## Past or Seasonal Events
 
-| Event Name                      | Previous Host(s)                                      | Relevant Link                                                      | More Info             |
-| ------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ | --------------------- |
-| AotW: Big Box Office Blast      | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22847) |                       |
-| AotW: Month of Fools            | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21062) |                       |
-| Bad Idea Game                   | StingX2                                               |                                                                    |                       |
-| Beaten Into Completion          | StingX2                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=23062) | Developer Event       |
-| Bendyhuman's Master Quest       | Bendyhuman                                            |                                                                    |                       |
-| CommuniPlay                     | SporyTike<br>theelkspeaks                             |                                                                    |                       |
-| Console Wars                    | BahamutVoid                                           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=20706) |                       |
-| Cream of the Crop               | Bendyhuman                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=20940) |                       |
-| Daily DistRActions              | Bendyhuman                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=19253) |                       |
-| Devember                        | kdecks<br>wilhitewarrior<br>SlashTangent<br>Falcus    | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24475) |                       |
-| Halloween 2023                  | Scott                                                 | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24016) |                       |
-| Leapfrog                        | Boldewin<br>HolyShinx<br>Nevermond12<br>televandalist |                                                                    |                       |
-| Mario Party RA                  | freezestar                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22460) |                       |
-| Master of the Month             | JAM                                                   |                                                                    |                       |
-| PS2 Launch Event                | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=18243) |                       |
-| Rescoring Contributor           | kdecks                                                |                                                                    |                       |
-| RetroAchievements Tournament    | diegoplantes                                          |                                                                    |                       |
-| RetroOlympics                   | Searo<br>voiceofautumn                                | [Website](https://retroolympics.com/)                              |                       |
-| Retro Battle                    | Thoreau                                               |                                                                    |                       |
-| Retro Clean-Up 2019             | SporyTike                                             |                                                                    | Developer Event       |
-| Retro Game Show                 | Thoreau                                               |                                                                    |                       |
-| Retro VGM Quiz                  | Thoreau                                               |                                                                    |                       |
-| RPM                             | JAM<br>Xymjak                                         |                                                                    |                       |
-| Spring Cleaning 2020            | wilhitewarrior                                        |                                                                    | Developer Event       |
-| 💀The Big Achievement 2020💀    | televandalist                                         |                                                                    |                       |
-| The Great Jacko                 | StingX2                                               |                                                                    | Developer Event       |
-| The Pumpkin King                | kdecks                                                |                                                                    |                       |
-| UserQuests(?)                   | Various                                               |                                                                    | Player Event (Series) |
+| Event Name                   | Previous Host(s)                                      | Relevant Link                                                      | More Info             |
+| ---------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ | --------------------- |
+| AotW: Big Box Office Blast   | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22847) |                       |
+| AotW: Month of Fools         | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21062) |                       |
+| Bad Idea Game                | StingX2                                               |                                                                    |                       |
+| Beaten Into Completion       | StingX2                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=23062) | Developer Event       |
+| Bendyhuman's Master Quest    | Bendyhuman                                            |                                                                    |                       |
+| CommuniPlay                  | SporyTike<br>theelkspeaks                             |                                                                    |                       |
+| Console Wars                 | BahamutVoid                                           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=20706) |                       |
+| Cream of the Crop            | Bendyhuman                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=20940) |                       |
+| Daily DistRActions           | Bendyhuman                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=19253) |                       |
+| Devember                     | kdecks<br>wilhitewarrior<br>SlashTangent<br>Falcus    | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24475) |                       |
+| Halloween 2023               | Scott                                                 | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24016) |                       |
+| Leapfrog                     | Boldewin<br>HolyShinx<br>Nevermond12<br>televandalist |                                                                    |                       |
+| Mario Party RA               | freezestar                                            | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22460) |                       |
+| Master of the Month          | JAM                                                   |                                                                    |                       |
+| PS2 Launch Event             | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=18243) |                       |
+| Rescoring Contributor        | kdecks                                                |                                                                    |                       |
+| RetroAchievements Tournament | diegoplantes                                          |                                                                    |                       |
+| RetroOlympics                | Searo<br>voiceofautumn                                | [Website](https://retroolympics.com/)                              |                       |
+| Retro Battle                 | Thoreau                                               |                                                                    |                       |
+| Retro Clean-Up 2019          | SporyTike                                             |                                                                    | Developer Event       |
+| Retro Game Show              | Thoreau                                               |                                                                    |                       |
+| Retro VGM Quiz               | Thoreau                                               |                                                                    |                       |
+| RPM                          | JAM<br>Xymjak                                         |                                                                    |                       |
+| Spring Cleaning 2020         | wilhitewarrior                                        |                                                                    | Developer Event       |
+| 💀The Big Achievement 2020💀 | televandalist                                         |                                                                    |                       |
+| The Great Jacko              | StingX2                                               |                                                                    | Developer Event       |
+| The Pumpkin King             | kdecks                                                |                                                                    |                       |
+| UserQuests(?)                | Various                                               |                                                                    | Player Event (Series) |
