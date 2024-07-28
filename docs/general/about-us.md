@@ -79,6 +79,8 @@ The team responsible to keep the this community a healthy place (at least for th
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
+- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
+- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
 - [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
