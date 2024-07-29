@@ -13,7 +13,7 @@ This document describes all the steps that any aspiring achievement developer mu
 
 ## Finding a Game to Work on
 
-Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developers/code-of-conduct#working-on-empty-sets) to find a game to work on achievements for it. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server. Feel free to declare your plans to work on the game in the topic, and post updates as you proceed.
+Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developers/code-of-conduct#working-on-empty-sets) to find a game. Ensure the game complies with the [Rules and Restrictions](https://docs.retroachievements.org/developer-docs/jr-dev-rules#rules-and-restrictions) before working on achievements. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server. Feel free to declare your plans to work on the game in the topic, and post updates as you proceed.
 
 **Tip**: for your first achievement set it's recommended to choose a game that doesn't yet have achievements **and** is not very popular.
 
