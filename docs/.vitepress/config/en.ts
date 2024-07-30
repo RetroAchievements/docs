@@ -223,6 +223,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/achievement-set-revisions",
         },
         {
+          text: "Adding Additional Hashes",
+          link: "/guidelines/content/adding-hashes",
+        },
+        {
           text: "Achievements for ROM Hacks",
           link: "/guidelines/content/achievements-for-rom-hacks",
         },
