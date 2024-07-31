@@ -41,7 +41,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 - ✅ libretro core: **FinalBurn Neo**
   - Some boards may not be fully exposed
-- ✅ libretro core: **flycast**
+- ✅ libretro core: **Flycast**
   - Used for Atomiswave, NAOMI, and NAOMI2
 - ❌ libretro core: **FB Alpha**
   - Deprecated
