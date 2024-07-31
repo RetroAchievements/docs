@@ -170,7 +170,6 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **gw**
   - Does not expose memory
-  - Uses recreations (by MADrigal) instead of actual Game & Watch ROMs
 
 ### Game Boy
 
@@ -315,7 +314,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 ### NES/Famicom
 
-- ✅ Standalone emulator: **[RANes](https:retroachievements.org/download.php#ranes)**
+- ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
   - Most recommended
 - ✅ libretro core: **Mesen**
@@ -349,7 +348,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - Limited microphone support
 - ✅ libretro core: **DeSmuME**
 - ✅ libretro core: **DeSmuME 2015**
-- ✅ libretro core: **melonDS DS**
+- ✅ libretro core: **melonDS**
 - ✅ BizHawk core: **melonDS**
 
 ### Nintendo DSi
@@ -539,7 +538,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 ### Sharp X1
 
-- ❌ _Not supported_- needs hashing method and memory map
+- ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **X1 Millennium**
   - 16 Apr 2022 - Disk writes modify source media, which breaks hashing
 
@@ -693,4 +692,4 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Hashing needs to be corrected
   - Testing
 
-More details on BizHawk cores can be found [here.](https://tasvideos.org/BizHawk)
+More details on BizHawk cores can be found [here](https://tasvideos.org/BizHawk).
