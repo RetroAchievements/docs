@@ -13,10 +13,10 @@ Adding hashes to a set can allow for a more enjoyable experience for players by 
 Approval from QA is required to add a hash to a set that contains any achievements which were not authored by the hash-adding developer. Contact the QATeam site account with plan details for approval consideration.
 
 ## Restrictions
-If a set has any active authors, as set maintainers, only they may add additional hashes to the set.
+If a set has any active authors, only they, as set maintainers, may add additional hashes to the set.
 
 ## Logic Back Up, Code Note Requirements, and Tickets
-If approved, hash-adding developer must back up all logic that is changed in the set’s official forum topic.  All code notes must be updated to specify for which hashes they pertain.  Any tickets that are created after a hash has been added are the sole responsibility of the hash-adding developer and subject to Developer Code of Conduct maintenance requirements.
+If approved, the hash-adding developer must back up all logic that is changed in the set’s official forum topic.  All code notes must be updated to specify for which hashes they pertain.  Any tickets that are created after a hash has been added are the sole responsibility of the hash-adding developer and subject to Developer Code of Conduct maintenance requirements.
 
 ## Testing Requirements
 Different types of hashes require different levels of compatibility testing and rigor.  Stability is more important than compatibility and will be prioritized as such.  The following procedures are mandatory when adding additional hashes.

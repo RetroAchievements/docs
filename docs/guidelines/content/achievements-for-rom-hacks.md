@@ -18,13 +18,13 @@ Any hack or patch intended to be linked to a primary achievement set by anyone o
 - If a hack has sufficient enough differences from the base game insomuch that the hack can be considered an entirely different game, then yes, a unique set is usually acceptable. Linking these to the base set is not recommended since they will likely break the set.
   - Examples include [Metroid - Rogue Dawn](http://retroachievements.org/Game/9597), [Castlevania: The Holy Relics](http://retroachievements.org/game/11655), [Super Mario 64: Last Impact](http://retroachievements.org/game/12733), and [Super Metroid: Redesign](http://retroachievements.org/game/820).
 - If the hack does not have enough differences from the base game, but there are good achievement ideas exclusive to the hack, then consider doing a compilation of hacks or incorporating them into a bonus set.
-- Approval from Developer Compliance must be sought if a difficulty or story hack that bears close resemblence to the primary game is being considered for its own set.
+- Approval from Developer Compliance must be sought if a difficulty or story hack that bears close resemblance to the primary game is being considered for its own set.
 
 ## Bug-fix, Re-balancing and Utility Hacks
 
 - Hacks that include development-level integrated utilities such as easily accessible level select, debug menus, menus that display information or provide testing features not normally accessible via the normal game, are **almost** never allowed to be linked to core sets or get their own set.
   - Example: [Metroid + Saving](http://www.romhacking.net/hacks/1186/) for [Metroid](https://retroachievements.org/game/1487)
-- Hacks that offer gameplay utilities where it doesn't exist in the release version are **allowed at the discretion of the active developer (or revision vote if the developer is inactive)**. Utilities such as easy weapon select, in game maps, new minor upgrades or abilities, improved controls, faster movement.
+- Hacks that offer gameplay utilities where it doesn't exist in the release version are **allowed at the discretion of the active developer (or revision vote if the developer is inactive)**. Utilities such as easy weapon select, in-game maps, new minor upgrades or abilities, improved controls, faster movement.
   - Example: [Castlevania 2: Improved Controls](https://www.romhacking.net/hacks/4150/) for [Castlevania 2: Simon's Quest](https://retroachievements.org/game/1461)
 - Utilities and bug-fix hacks that improve or patch glitches found in the released version of games are **allowed at the discretion of the active developer (or revision vote if the developer is inactive)**.
   - Example: [Sonic 1 Bugfix](https://www.romhacking.net/hacks/3200/) for [Sonic the Hedgehog](http://retroachievements.org/game/1)
