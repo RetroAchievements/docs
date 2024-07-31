@@ -238,6 +238,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           text: "Revisiones del Conjunto de Logros",
           link: "/es/guidelines/content/achievement-set-revisions",
         },
+        // {
+        //   text: "Adding Additional Hashes",
+        //   link: "/es/guidelines/content/adding-hashes",
+        // },
         {
           text: "Logros para ROM Hacks",
           link: "/es/guidelines/content/achievements-for-rom-hacks",
