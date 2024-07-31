@@ -650,7 +650,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 ### Wii U
 
 - ❌ _Not supported_ - needs hashing method and memory map
-
+- ❌ Standalone emulator: **Cemu**
 ### WonderSwan
 
 - ✅ libretro core: **Beetle Cygne**
