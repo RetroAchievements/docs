@@ -30,8 +30,8 @@ The following rules apply to all Junior Developers:
 - May only create achievements, leaderboards and Rich Presence for a set on which they have an active claim
   - This means no working on any sets that are not claimed. Failure to adhere to this rule may result in dismissal from the Junior Developer Program
   - Junior Developers may practice RAM digging games for which they do not have a claim, but shall not publish any code notes
-- May not make a new claim while they have any open tickets
-- Will prioritize resolving open tickets over development of a new set. If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
+- May not make a new claim while they have any unaddressed tickets
+- Will prioritize resolving open tickets over development of a new set. For additional information on ticket handling, see [Ticket Handling](#ticket-handling), below.
 - Not eligible to participate in collaborations
 - Not eligible to [revise](https://docs.retroachievements.org/guidelines/content/achievement-set-revisions.html) sets other than ones they've solely authored
   - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
@@ -41,6 +41,14 @@ The following rules apply to all Junior Developers:
   - Must make subset request in #jr-dev-forum. If approved, subset is subject to [Subset Rules](https://docs.retroachievements.org/guidelines/content/subsets.html)
     - May request to create a subset in addition to a primary claim if both are for the same game
 - May make a maximum of 2 sets for hacks during the program
+
+### Ticket Handling
+Junior Developers are expected to prioritize resolving open tickets over development of a new set.
+
+- If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
+  - To put a ticket into Request status, ask the Code Reviewers, using the #jr-dev-forum, to transfer the ticket to the reporter after you have requested further information by asking the reporter using a comment on the ticket.
+- Once you have fully addressed the ticket, leave a comment on the ticket describing what the cause of the issue was and what you did to resolve the issue.
+- Contact the Code Reviewers, using the #jr-dev-forum, to resolve ot close the ticket as appropriate after your comment has been made.
 
 ### Code Review Requests
 
