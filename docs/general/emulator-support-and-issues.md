@@ -420,7 +420,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 ### PC-8000/8800
 
-- ✅ Standalone emulator: **[RAQUASI88](https://retroachievements.org/download.php#raquasi88)
+- ✅ Standalone emulator: **[RAQUASI88](https://retroachievements.org/download.php#raquasi88)**
   - Most recommended.
 - ❌ libretro core: **QUASI88**
   - NOT RECOMMENDED!!!
