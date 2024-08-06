@@ -112,7 +112,7 @@ This restriction helps in preventing inappropriate or offensive content from sho
 
 ## Banned Titles
 
-We generally avoid banning titles, leaving content filtering up to individual users to decide. Even still, some titles are egregious enough to warrant removal from the site, both for the protection of the users and of the site itself. Below is an incomplete list of such titles, to be updated as necessary.
+While we at RetroAchievements recognize that the content of retro video games may be divisive or out of touch with how global cultures have developed over time, we believe it's necessary to support content from all sides of gaming history and to play our part in preserving this era in video games, be it good or bad. Depending on the severity, the admin team may opt to remove point values or otherwise take action to keep troublesome content from being incentivized, but as a matter of policy, we only ban retail games from the site on the basis of preventing legal issues. Below is an incomplete list of such titles, to be updated as necessary.
 
 |                     Title                     | Year |      Platform      |
 | :-------------------------------------------: | :--: | :----------------: |
