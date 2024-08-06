@@ -333,7 +333,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❓ libretro core: **RACE**
 - ✅ BizHawk core: **NeoPop** (Mednafen)
 
-## NES/Famicom
+### NES/Famicom
 
 - ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
