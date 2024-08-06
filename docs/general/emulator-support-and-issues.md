@@ -41,9 +41,9 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ Standalone emulator: **[RAppleWin](https://retroachievements.org/download.php#rapplewin)**
 - ⌛ BizHawk core: **Virtu**
   - Testing
-  - 4 Jun 2023: .woz files are not supported.
-  - 4 Jun 2023: The joystick is not supported. The keyboard has to be manually mapped.
-  - 4 Jun 2023: You have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
+  - June 4th, 2023: .woz files are not supported.
+  - June 4th, 2023: The joystick is not supported. The keyboard has to be manually mapped.
+  - June 4th, 2023: You have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
 
 ### Arcade
 
