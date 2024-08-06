@@ -425,7 +425,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ libretro core: **QUASI88**
   - NOT RECOMMENDED!!!
   - The PC-88VA is not supported.
-  - April 16th, 2022: Cannot load m3u. The hash fails because core locks disk file.
+  - April 16th, 2022: Cannot load a .m3u file. The hash fails because the core locks the disk file.
   - April 16th, 2022: Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch.
   - April 16th, 2022: RALibretro does not provide a subsystem interface for loading multi-disk games.
 
