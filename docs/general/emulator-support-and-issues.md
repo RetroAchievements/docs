@@ -352,7 +352,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **Citra**
   - Only exposes 64MB of memory. The documentation suggests there should be 128MB.
-  - Does not support save states.
+  - No save state support.
 - ❌ libretro core: **Citra 2018**
 - ❌ libretro core: **Citra Canary**
 
@@ -364,7 +364,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Separated into cores for OpenGL ES 2 and 3.
   - Most recommended.
 - ⌛ BizHawk core: **Mupen64Plus**
-  - Testing (there are some graphical issues that can be fixed using the angrylion plugin).
+  - Testing (there are some graphical issues that can be fixed using the angrylion plugin.)
 
 ### Nintendo DS
 
@@ -644,7 +644,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 - ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
 - ❌ libretro core: **VeMUlator**
-  - Does not support savestates.
+  - No save state support.
 
 ### WASM-4
 
