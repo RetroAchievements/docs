@@ -5,7 +5,7 @@
 ## Time and Duration
 
 - Start Date: 2024-05-01
-- Launch Date: 2024-07-31
+- Launch Date: 2024-08-31
 
 ## Point System
 
