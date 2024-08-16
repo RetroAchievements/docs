@@ -36,6 +36,16 @@ export const shared = defineConfig({
       tags.push(["meta", { name: "twitter:description", content: description }]);
     }
 
+    // Add analytics
+    tags.push([
+      "script",
+      {
+        defer: "",
+        "data-domain": "docs.retroachievements.org",
+        src: "https://plausible.retroachievements.org/psa3.js",
+      },
+    ]);
+
     return tags;
   },
 
