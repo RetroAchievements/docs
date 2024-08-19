@@ -5,7 +5,7 @@ description: Welcomes newly graduated developers, teaches how to upload a set, a
 
 # Welcome to the Dev Team!
 
-Now that you’re a dev I'm sure the first thing you want to know is how you can upload your set and what other options and privileges are now open to you. You'll have plenty of fancy new features on the website that you'll notice when going to a game’s page as well as a few other places, which we will go over here.
+Now that you’re a developer, I'm sure the first thing you want to know is how you can upload your set and what other options and privileges are now open to you. You'll have plenty of fancy new features on the website that you'll notice when going to a game’s page as well as a few other places, which we will go over here.
 
 [[toc]]
 
@@ -13,7 +13,7 @@ Now that you’re a dev I'm sure the first thing you want to know is how you can
 
 The web team is working on a new Management page which is where all dev related activities will end up being moved to. It can be accessed through the “Manage” button right above the Dev dropdown menu.
 
-This page must be used for editing release dates as well as **drag-and-drop reordering**.
+This page is used for editing release dates as well as **drag-and-drop reordering**.
 
 ![Example of a game page viewed through the Management site](/public/management-site.png)
 
@@ -24,40 +24,40 @@ The quickest and easiest way to upload your first set is through the management 
 To get to this page, go to your game’s page:
 1. Click on Manage
 2. Scroll down until you see the list of achievements
-3. If you’d like, you can reorder them by clicking Start Reordering and then dragging-and-dropping the achievements
+3. If you’d like, you can reorder them by clicking the Start Reordering button and then dragging-and-dropping the achievements
 4. Check the achievements you’d like to promote (Be careful to exclude any unwanted or voided achievements if there are any, otherwise just hit “All”)
-5. Hit Bulk promote or demote
-6. Hit Promote selected
+5. Click Bulk promote or demote
+6. Click Promote selected
 
 ![Achievements being promoted through the Management site](/public/management-achievement-promotion.png)
 
 ## Achievement-News Announcement
 
-Now that your set is live it is time to announce it to everyone if you are on Discord!
+Now that your set is live, it is time to announce it to everyone if you are on Discord!
 
 We have a handy bot command that you can use to auto generate a template *as long as your set is in core*. Go to #bot-spam and type in “!gan [gameid]” where [gameid] is the id of your game. 
 
-The pinned messages in #devs-chat has an alternate colored template that can be used as well.
+The pinned messages in #devs-chat have an alternate colored template that can be used as well.
 
-Then you can copy the results and edit the @{AUTHOR_NAME} with your name and post it in the #achievement-news channel with an @Achievement-News ping to get everyone's attention on the hottest set that just dropped on RA.
+You can copy the results, replace the @{AUTHOR_NAME} with your name, and post it in the #achievement-news channel with an @Achievement-News ping to get everyone's attention on the hottest set that just dropped on RA.
 
 ## Claims
 
 Now that you are a developer, the claim limit has expanded to a total of 4 concurrent regular claims. As long as you have no active tickets, you are free to claim sets. For more specific details look over the [claims section of the Developer Guidelines](/guidelines/developers/claims-system).
 
-If the game does not yet have a page, see [Creating Game Pages and Linking Hashes](#creating-game-pages-and-linking-hashes).
+If the game does not yet have a page, see [Creating Game Pages and Linking Hashes](#creating-game-pages-and-linking-hashes) for guidance.
 
 ## Set Revisions
 
-Achievement set revisions are an important part in keeping older sets up-to-date with modern standards. This is your chance to ensure that quality is being maintained on the site. Votes are done through the #revision-voting and #revision-discussion channels of the Discord server. You will be given the @Revision-Voting and @Rescore roles by default upon graduation.
+Achievement set revisions are an important part in keeping older sets up-to-date with modern standards. This is your chance to ensure that quality is maintained on the site. Votes are done through the #revision-voting and #revision-discussion channels of the Discord server. You will be given the @Revision-Voting and @Rescore roles by default upon graduation.
 
-When considering whether to vote to approve a revision proposal, please familiarize yourself with the revision goal criteria outlined in the discussion forum pinned post. The goal of a revision is to turn a lacking set into a high quality, modern set that ideally will never need another revision. Voting in revision proposals is an important responsibility that all developers should take seriously and participate in for the long term health of the Retroachievements project.
+When considering whether to vote to approve a revision proposal, please familiarize yourself with the revision goal criteria outlined in the discussion forum pinned post. The goal of a revision is to turn a lacking set into a high-quality, modern set that ideally will never need another revision. Voting in revision proposals is an important responsibility that all developers should take seriously and participate in for the long-term health of the RetroAchievements project.
 
 When proposing a revision, it requires contacting all active authors of the relevant set. If you wish to Opt-Out of being contacted, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
 For details on how to propose a revision, see [Achievement Set Revisions](/guidelines/content/achievement-set-revisions)
 
-In the case where you are re-authoring the set (keeping the old achievements in unofficial and promoting your new reworked achievements, make sure to contact DevCompliance for approval) and you want to transfer over the earners for some/all of the previous achievements then you will need to reach out to RAdmin or #admin-site-cleanup on Discord to help you with this.
+If you are re-authoring the set (keeping the old achievements in Unofficial and promoting your new reworked achievements), make sure to contact DevCompliance for approval. If you want to transfer the earners for some or all of the previous achievements, you will need to reach out to RAdmin or #admin-site-cleanup on Discord for assistance.
 
 The request would include the Game and a full list of achievement transfers in Old ID -> New ID format
 
@@ -79,7 +79,7 @@ You will now have a few new privileges in the RA emulators to take advantage of.
 
 ### Creating Game Pages and Linking Hashes
 
-The biggest one is that now you can link new hashes to games by loading the game in an RA emulator and linking it.
+The biggest new privilege is that you can now link new hashes to games by loading the game in an RA emulator and linking it.
 
 If creating a new page, select "New Title" and write an appropriate name in the text box. Check if there are any junk pages labeled ~Z~ which can be recycled. 
 
@@ -109,7 +109,7 @@ You can now freely promote and demote any achievements from Unofficial and Core 
 
 ## Site Updates
 
-You’ll now have a lot more access to tools on the site to help you as a developer.
+You now have access to many more tools on the site to help you as a developer.
 
 ### Want to Develop Games
 
@@ -123,7 +123,7 @@ Developers have the ability to add games to a Want to Develop list. Sets can be 
 
 When you go to claim a set, you no longer need to create a forum topic separately. The Make Claim button will automatically create a forum topic for you if one does not exist. 
 
-Keep in mind that you should NOT create forum topics without reasons such as claiming a set, because then you will be the only person (besides admins) that can edit the top post which is usually where important information such as linked hashes or set notes are placed.
+Keep in mind that you should NOT create forum topics without a valid reason, such as claiming a set. Otherwise, you will be the only person (besides admins) who can edit the top post, which is usually where important information such as linked hashes or set notes is placed.
 
 #### Dev Menu
 
@@ -168,7 +168,7 @@ You will now have access to a handful of new Discord channels
 
 ## Developer Events!
 
-There are a few events limited to developers which also have their own Discord channel
+There are a few events limited to developers, each with their own Discord channel:
 
 - [Rollouts](/developer-docs/rollouts)
 
