@@ -88,9 +88,9 @@ Further reading:
 
 [Creating Entries](/guidelines/developers/creating-entries)
 
-[Achievements for ROM Hacks](/guidelines/developers/achievements-for-rom-hacks)
+[Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks)
 
-[Subsets](/guidelines/content/subsets.md)
+[Subsets](/guidelines/content/subsets)
 
 [Working with the Right ROM](/guidelines/content/working-with-the-right-rom)
 :::
