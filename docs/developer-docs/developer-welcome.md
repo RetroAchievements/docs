@@ -57,7 +57,9 @@ When proposing a revision, it requires contacting all active authors of the rele
 
 For details on how to propose a revision, see [Achievement Set Revisions](/guidelines/content/achievement-set-revisions)
 
-If you are re-authoring the set (keeping the old achievements in Unofficial and promoting your new reworked achievements), make sure to contact DevCompliance for approval. If you want to transfer the earners for some or all of the previous achievements, you will need to reach out to RAdmin or #admin-site-cleanup on Discord for assistance.
+If you are considering requesting a re-author of the set (keeping the old achievements in unofficial and promoting your new reworked achievements) contact DevCompliance for approval. The re-author request should not be included in the revision proposal.
+
+If you want to transfer over the earners for some/all of the previous achievements then you will need to reach out to RAdmin or #admin-site-cleanup on Discord for assistance.
 
 The request would include the Game and a full list of achievement transfers in Old ID -> New ID format
 
@@ -81,7 +83,7 @@ You will now have a few new privileges in the RA emulators to take advantage of.
 
 The biggest new privilege is that you can now link new hashes to games by loading the game in an RA emulator and linking it.
 
-If creating a new page, select "New Title" and write an appropriate name in the text box. Check if there are any junk pages labeled ~Z~ which can be recycled. 
+If creating a new page, select "New Title" and write an appropriate name in the text box. Check if there are any junk pages labeled "~Z~ No Hash" which can be recycled. 
 
 ::: info
 Further reading:
@@ -103,7 +105,7 @@ You are now able to overwrite and delete any existing code notes. Be careful not
 
 ### Achievements
 
-Developers can directly make edits to achievements in Core.
+Developers can directly publish changes to achievements in Core without needing to demote to Unofficial.
 
 You can now freely promote and demote any achievements from Unofficial and Core through the emulator but it is much easier to do this through the site.
 
@@ -144,7 +146,7 @@ You now have full access to the Dev dropdown menu.
 
 #### Adding Hubs and Related Games
 
-Hubs and related games can be added to game pages by entering the page IDs and clicking “Add”. Hubs managed by the QA and Art teams should not be added/removed, send a message to the team instead.
+Hubs and related games can be added to game pages by entering the page IDs and clicking “Add”. Hubs managed by the DevCompliance, QA, and Art teams should not be added/removed, send a message to the corresponding team instead.
 
 ![Linked hubs and related games](/public/add-related-games.png)
 
