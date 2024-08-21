@@ -57,7 +57,7 @@ When proposing a revision, it requires contacting all active authors of the rele
 
 For details on how to propose a revision, see [Achievement Set Revisions](/guidelines/content/achievement-set-revisions)
 
-If you are considering requesting a re-author of the set (keeping the old achievements in unofficial and promoting your new reworked achievements) contact DevCompliance for approval. The re-author request should not be included in the revision proposal.
+If you are considering requesting a re-author of the set, contact DevCompliance for approval. The re-author request should not be included in the revision proposal.
 
 If you want to transfer over the earners for some/all of the previous achievements then you will need to reach out to RAdmin or #admin-site-cleanup on Discord for assistance.
 
