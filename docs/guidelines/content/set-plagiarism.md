@@ -1,3 +1,8 @@
+---
+title: Set Plagiarism
+description: A page explaining what kinds of copying/plagiarism are allowed or not on achievement sets, with examples and exceptions provided for easier understanding, as well as recommending to credit the original developer in certain cases.
+---
+
 # Set Plagiarism
 
 As developers, our goal is to give every set we develop its own unique achievement set when possible. Sometimes we end up reusing an idea or two that another developer already used for their own set. Being an open community, sharing and building on others ideas is encouraged, however, intentionally taking someone else’s work and applying it to your own set is prohibited and disrespectful to the work of the original Developer. If a set has been copied or copy/pasted, it will be grounds for demotion until the issue is remedied. This applies to RetroAchievement sets and third-party platform achievement sets like Xbox Live, PSN, Steam, and other similar services. If you are concerned about your set breaking these guidelines, just submit an inbox message to DevCompliance on the site and we will take a look at it.
@@ -12,7 +17,7 @@ Achievement and mastery badges need to be unique from other sets. Slightly modif
 
 ### Titles
 
-Achievement titles should be unique from other sets. This may not always be possible when working on games that have ports for multiple systems. Generic titles and titles based on the in-game contents are both allowed. For example, Green Hill Zone is the first level of Sonic the Hedgehog on the Mega Drive/Genesis, Master System and Game Gear versions. Additionally, the level shows up in later entries of the Sonic series. As such, the achievement title “Green Hill Zone” would be acceptable in all these sets.
+Achievement titles should be unique from other sets. This may not always be possible when working on games that have ports for multiple systems. Generic titles and titles based on the in-game contents are both allowed. For example, Green Hill Zone is the first level of Sonic the Hedgehog on the Mega Drive/Genesis, Master System and Game Gear versions. Additionally, the level shows up in later entries of the Sonic series and as such, the achievement title “Green Hill Zone” would be acceptable in all these sets.
 
 ### Design
 
@@ -22,7 +27,7 @@ The design of an achievement is open to the community. You can use an idea from 
 
 ### Descriptions
 
-Achievement descriptions do not have to be unique. Descriptions need to be clear instructions of how to earn an achievement so variations on a description may make the achievement confusing. There are only so many ways to say “Beat the game without dying.”
+Achievement descriptions don't have to be unique. Descriptions need to be clear instructions of how to earn an achievement so variations on a description might make the achievement confusing. There are only so many ways to say “Beat the game without dying".
 
 ### Rich Presence/Leaderboards
 
@@ -37,9 +42,9 @@ Copying the logic of another achievement is acceptable. Developers are encourage
 
 You are allowed to copy anything you created from one set to another set. However, it is preferable to let another developer work on a port for a set you have already created.
 
-### In Game Achievements
+### In-Game Achievements
 
-Some games incorporate a set of in game achievements that were released with the game. Any of these achievements can be used as long as they are not Unwelcome Concepts.
+Some games incorporate a set of in-game achievements that were released with the game. Any of these achievements can be used as long as they are not Unwelcome Concepts.
 
 ### Code Notes
 
