@@ -17,7 +17,7 @@ Achievement and mastery badges need to be unique from other sets. Slightly modif
 
 ### Titles
 
-Achievement titles should be unique from other sets. This may not always be possible when working on games that have ports for multiple systems. Generic titles and titles based on the in-game contents are both allowed. For example, Green Hill Zone is the first level of Sonic the Hedgehog on the Mega Drive/Genesis, Master System and Game Gear versions. Additionally, the level shows up in later entries of the Sonic series and as such, the achievement title “Green Hill Zone” would be acceptable in all these sets.
+Achievement titles should be unique from other sets. This may not always be possible when working on games that have ports for multiple systems. Generic titles and titles based on the in-game contents are both allowed. For example, Green Hill Zone is the first level of Sonic the Hedgehog on the Mega Drive/Genesis, Master System, and Game Gear versions. Additionally, the level shows up in later entries of the Sonic series and as such, the achievement title “Green Hill Zone” would be acceptable in all these sets.
 
 ### Design
 
