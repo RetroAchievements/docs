@@ -1,5 +1,6 @@
 ---
 title: Set Plagiarism
+
 description: Explanation of allowed kinds of copying with clarification for some cases and suggesting to credit the original developer.
 ---
 
