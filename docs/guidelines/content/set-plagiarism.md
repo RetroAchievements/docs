@@ -1,4 +1,4 @@
---
+---
 title: Set Plagiarism
 description: A page explaining what kinds of copying/plagiarism are allowed or not on achievement sets, with examples and exceptions provided for easier understanding, as well as recommending to credit the original developer in certain cases.
 ---
