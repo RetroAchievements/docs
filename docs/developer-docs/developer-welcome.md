@@ -5,7 +5,9 @@ description: Welcomes newly graduated developers, teaches how to upload a set, a
 
 # Welcome to the Dev Team!
 
-Now that you’re a developer, I'm sure the first thing you want to know is how you can upload your set and what other options and privileges are now open to you. You'll have plenty of fancy new features on the website that you'll notice when going to a game’s page as well as a few other places, which we will go over here.
+Now that you’re a developer, I'm sure the first thing you want to know is how you can upload your set and what other privileges are now open to you. You'll have plenty of fancy new features on the website, emulator, and Discord server, which we will go over here. 
+
+Joining the team comes with **new responsibilities and inactivity criteria** so please take the time to review the [Developers Code of Conduct](/guidelines/developers/code-of-conduct) before continuing.
 
 [[toc]]
 
