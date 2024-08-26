@@ -151,6 +151,8 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **Gearboy**
 - ✅ libretro core: **mGBA**
 - ✅ libretro core: **VBA-M**
+- ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
+- ✅ BizHawk core: **GBHawk**
 
 ### Game Boy Color
 
