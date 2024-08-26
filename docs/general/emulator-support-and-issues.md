@@ -370,7 +370,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 - ❌ _Not supported_.
 
-### Pokemon Mini
+### Pokémon Mini
 
 - ✅ libretro core: **PokeMini**
 
