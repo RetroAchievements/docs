@@ -35,11 +35,14 @@ Cuentas compartidas utilizadas por los miembros de sus respectivos equipos:
 - [DevCompliance](https://retroachievements.org/user/DevCompliance)
 - [DevQuest](https://retroachievements.org/user/DevQuest)
 - [QATeam](https://retroachievements.org/user/QATeam)
+- [RAArtTeam](https://retroachievements.org/user/RAArtTeam)
 - [RAdmin](https://retroachievements.org/user/RAdmin)
 - [RACheats](https://retroachievements.org/user/RCheats)
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
+- [TicketHounds](https://retroachievements.org/user/TicketHounds)
+- [WritingTeam](https://retroachievements.org/user/WritingTeam)
 
 ### Administradores
 
@@ -76,17 +79,22 @@ El equipo responsable de mantener esta comunidad un lugar saludable (al menos pa
 
 El equipo responsable de la adhesión y actualización del [Código de conducta del desarrollador](/guidelines/developers/code-of-conduct).
 
-- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
+- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
+- [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Etron](https://retroachievements.org/user/Etron)
-- [GalacticSpear](https://retroachievements.org/user/GalacticSpear)
-- [Hotscrock](https://retroachievements.org/user/Hotscrock)
-- [malasdair](https://retroachievements.org/user/malasdair)
+- [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
+- [Fridge](https://retroachievements.org/user/Fridge)
+- [Gollawiz](https://retroachievements.org/user/Gollawiz)
+- [Hexadigital](https://retroachievements.org/user/Hexadigital)
+- [Layton](https://retroachievements.org/user/Layton)
+- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
+- [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
-- [televandalist](https://retroachievements.org/user/televandalist)
+- [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
-- [timenoe](https://retroachievements.org/user/timenoe)
+- [tomojin](https://retroachievements.org/user/tomojin)
 
 ### Equipo de control de calidad
 
