@@ -10,37 +10,39 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 2. [Empezando como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer): el primer contacto con las herramientas de desarrollo de logros (Inspector de memoria y otros diálogos de los logros). **SI ERES NOVATO, EMPIEZA AQUÍ!**
 
-3. [Puntuación de los logros (EN)](/developer-docs/achievement-scoring): una guía en la que se ve cómo se deciden los puntos totales de los logros.
+3. [Reglas del programa de desarrolladores junior (EN)](/developer-docs/jr-dev-rules): reglas que rigen el programa de desarrolladores junior
 
-4. [Resumen el inspector de memoria](/es/developer-docs/memory-inspector): visión detallada de una de las herramientas más usadas por los desarrolladores.
+4. [Puntuación de los logros (EN)](/developer-docs/achievement-scoring): una guía en la que se ve cómo se deciden los puntos totales de los logros.
 
-5. [Características en la lógica de los logros](/es/orphaned/achievement-logic-features): describe las herramientas disponibles con las que un desarrollador cuenta para trabajar la lógica de un logro, como valores deltas, hit counts, ResetIf, PauseIf, Alt groups, etc.
+5. [Visión general del inspector de memoria](/es/developer-docs/memory-inspector): visión detallada de una de las herramientas más usadas por los desarrolladores.
 
-6. [Ejemplos reales](/es/developer-docs/real-examples): mostrando resultados reales y desglosando su lógica. **¡RECURSO DIDÁCTICO INDISPENSABLE!**
+6. [Características en la lógica de los logros](/es/orphaned/achievement-logic-features): describe las herramientas disponibles con las que un desarrollador cuenta para trabajar la lógica de un logro, como valores deltas, hit counts, ResetIf, PauseIf, Alt groups, etc.
 
-7. [Plantillas de logros](/es/developer-docs/achievement-templates): algunas plantillas genéricas para inspirarse.
+7. [Ejemplos reales](/es/developer-docs/real-examples): mostrando resultados reales y desglosando su lógica. **¡RECURSO DIDÁCTICO INDISPENSABLE!**
 
-8. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inspeccionar la memoria y crear logros.
+8. [Plantillas de logros](/es/developer-docs/achievement-templates): algunas plantillas genéricas para inspirarse.
 
-9. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un set de logros.
+9. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inspeccionar la memoria y crear logros.
 
-10. [Diseño de logros](/es/developer-docs/achievement-design): una guía sobre cómo pensar y diseñar buenos logros, no en el lado técnico, sino el conceptual.
+10. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un set de logros.
 
-11. [Mapa de desarrollo de un set](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
+11. [Diseño de logros](/es/developer-docs/achievement-design): una guía sobre cómo pensar y diseñar buenos logros, no en el lado técnico, sino el conceptual.
 
-12. [Revisión de los sets de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
+12. [Mapa de desarrollo de un set](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
 
-13. [Subsets](/es/guidelines/content/subsets): tema avanzado acerca de la creación de sets de desafíos especiales y cómo lanzarlos.
+13. [Revisión de los sets de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
 
-14. [Creacion de medallas e iconos](/es/guidelines/content/badge-and-icon-guidelines): algunas guías y consejos sobre la creación de medallas/iconos.
+14. [Subsets](/es/guidelines/content/subsets): tema avanzado acerca de la creación de sets de desafíos especiales y cómo lanzarlos.
 
-15. [Clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
+15. [Creación de medallas e iconos](/es/guidelines/content/badge-and-icon-guidelines): algunas guías y consejos sobre la creación de medallas/iconos.
 
-16. [Estados de la actividad](/es/developer-docs/rich-presence): cómo crear scripts sobre estados de la actividad.
- 
-17. [Trabajando con la ROM correcta](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
- 
-18. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema. 
+16. [Clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
+
+17. [Estados de la actividad](/es/developer-docs/rich-presence): cómo crear scripts sobre estados de la actividad.
+
+18. [Trabajando con la ROM correcta](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
+
+19. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema. 
 
 20. [Soporte y problemas de los emuladores](/es/general/emulator-support-and-issues): detalles sobre los núcleos admitidos y no admitidos, avances en las pruebas, etc.
 
