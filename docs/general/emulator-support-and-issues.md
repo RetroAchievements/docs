@@ -345,7 +345,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 ### PlayStation
 
 - ✅ Standalone emulator: **[DuckStation](https://www.duckstation.org/wiki/Main_Page)**
-  - There may be memory leak and/or burn-in when using save states.
+  - There may be memory leaks and/or burn-in when using save states.
 - ✅ libretro core: **Beetle PSX HW**
   - Most recommended.
 - ✅ libretro core: **Beetle PSX**
