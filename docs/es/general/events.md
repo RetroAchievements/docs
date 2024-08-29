@@ -3,7 +3,7 @@
 ## Eventos actuales
 
 | Nombre del evento                                | Anfitrión(es) actuales | Enlace relevante                                                     | Más información                 |
-|--------------------------------------------------|------------------------|----------------------------------------------------------------------|---------------------------------|
+| ------------------------------------------------ | ---------------------- | -------------------------------------------------------------------- | ------------------------------- |
 | Logro de la semana                               | Varios                 | [Hilo del foro](https://retroachievements.org/viewtopic.php?t=24926) |                                 |
 | AotW: Tributo a Akira Toriyama                   | Varios                 | [Hilo del foro](https://retroachievements.org/viewtopic.php?t=26722) |                                 |
 | Cazadores de recompensas                         | s0uth                  | [Hilo del foro](https://retroachievements.org/viewtopic.php?t=26501) |                                 |
@@ -28,7 +28,7 @@
 ## Eventos pasados o estacionales
 
 | Nombre del evento               | Anfitrión(es) previos                                 | Enlace relevante                                                   | Más información               |
-|---------------------------------|-------------------------------------------------------|--------------------------------------------------------------------|-------------------------------|
+| ------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------- |
 | AotW: Gran taquillazo           | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22847) |                               |
 | AotW: Mes de los locos          | Various                                               | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21062) |                               |
 | Juego de mala idea              | StingX2                                               |                                                                    |                               |

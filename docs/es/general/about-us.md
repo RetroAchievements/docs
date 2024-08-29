@@ -120,7 +120,6 @@ El equipo responsable de garantizar la calidad general de los sets de logros: in
 
 El equipo responsable de investigar informes de trampas.
 
-
 ### Equipo de revisores de código
 
 El equipo responsable de ayudar a los Jr. Devs a aprender a hacer sets y revisar su trabajo para asegurar que su comprensión sea suficiente para hacer sets por su cuenta:
@@ -148,7 +147,6 @@ El equipo responsable de ayudar a los Jr. Devs a aprender a hacer sets y revisar
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
-
 
 ### Equipo técnico
 
@@ -185,7 +183,6 @@ Usuarios que supervisan uno de los sub-equipos de QA:
 - [Neerrm](https://retroachievements.org/user/Neerrm) - Responsable del equipo de limpieza
 - [Nepiki](https://retroachievements.org/user/Nepiki) - Responsable del equipo de redacción
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Responsable del equipo de limpieza
-
 
 ## Pequeña historia
 

@@ -42,7 +42,7 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 18. [Trabajando con la ROM correcta](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
 
-19. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema. 
+19. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema.
 
 20. [Soporte y problemas de los emuladores](/es/general/emulator-support-and-issues): detalles sobre los núcleos admitidos y no admitidos, avances en las pruebas, etc.
 
