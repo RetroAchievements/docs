@@ -188,9 +188,6 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 #### Game Boy Color
 
 - ✅ Emulador independiente: **[RAVBA](https://retroachievements.org/download.php#ravba)**
-- ✅ Emulador independiente: **[Pizza Boy GBC](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy)**
-  - Solo dispositivos Android
-  - No soporta RAIntegration en este momento, por lo que los desarrolladores de logros no pueden solucionar problemas potenciales.
 - ✅ Núcleo de libretro: **Gambatte**
   - Más recomendado
 - ✅ Núcleo de libretro: **Gearboy**
@@ -198,6 +195,8 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 - ✅ Núcleo de libretro: **VBA-M**
 - ✅ Núcleo de BizHawk: **Gambatte** (fork de Pokémon speedrunning)
 - ✅ Núcleo de BizHawk: **GBHawk**
+- ❌ Emulador independiente: **Pizza Boy GBC**
+- No está siendo desarrollado. Problemas de compatibilidad pueden causar problemas con los desbloqueos.
 - ❓ Núcleo de libretro: **DoubleCherryGB**
 - ❓ Núcleo de libretro: **Emux GB**
 - ❓ Núcleo de libretro: **fixGB**
@@ -207,15 +206,14 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 #### Game Boy Advance
 
 - ✅ Emulador independiente: **[RAVBA](https://retroachievements.org/download.php#ravba)**
-- ✅ Emulador independiente: **[Pizza Boy GBA](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygba)**
-  - Solo dispositivos Android
-  - No soporta RAIntegration en este momento, por lo que los desarrolladores de logros no pueden solucionar problemas potenciales.
 - ✅ Núcleo de libretro: **VBA-M**
 - ✅ Núcleo de libretro: **Beetle GBA**
 - ✅ Núcleo de libretro: **VBA Next**
 - ✅ Núcleo de libretro: **mGBA**
   - Más recomendado
 - ✅ Núcleo de BizHawk: **mGBA**
+- ❌ Emulador independiente: **Pizza Boy GBA**
+- No está siendo desarrollado. Problemas de compatibilidad pueden causar problemas con los desbloqueos.
 - ❓ Núcleo de libretro: **gpSP**
 - ❓ Núcleo de libretro: **Meteor**
 - ❓ Núcleo de libretro: **TempGBA**
@@ -556,7 +554,8 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
   - El más recomendado
 - ✅ Núcleo de libretro: **Mesen-S**
 - ❓ Núcleo de libretro: **Beetle bsnes**
-- ❓ Núcleo de libretro: **Beetle Supafaust**
+- ❌ libretro core: **Beetle Supafaust**
+  - 11 Jun 2024 - no expone la memoria
 - ❓ Núcleo de libretro: **bsnes**
 - ❓ Núcleo de libretro: **bsnes 2014 Accuracy**
 - ❓ Núcleo de libretro: **bsnes 2014 Balanced**
