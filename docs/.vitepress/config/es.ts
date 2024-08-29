@@ -83,10 +83,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Soporte y problemas de los emuladores",
           link: "/es/general/emulator-support-and-issues",
         },
-        // {
-        //   text: "How RA Works",
-        //   link: "/general/how-ra-works",
-        // },
+        {
+          text: "Cómo funciona RA",
+          link: "/general/how-ra-works",
+        },
         {
           text: "Maneras de contribuir",
           link: "/es/general/ways-to-contribute",
@@ -126,7 +126,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
     //      link: "/general/teams/qa-team",
     //    },
     //  ],
-    //},    
+    //},
     // {
     //   text: "Tutoriales",
     //   collapsed: false,
