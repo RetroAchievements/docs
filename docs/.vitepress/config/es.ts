@@ -85,7 +85,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "Cómo funciona RA",
-          link: "/general/how-ra-works",
+          link: "/es/general/how-ra-works",
         },
         {
           text: "Maneras de contribuir",
