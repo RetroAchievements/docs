@@ -18,15 +18,15 @@ A medida que la comunidad continúa creciendo, la cantidad de trabajo, tiempo y 
 
 Estos roles no son realmente visibles en el sitio web, pero sí en discord y en esta página listamos los roles y sus responsabilidades.
 
-- [Cuentas del equipo](#team-accounts)
-- [Administradores](#administrators)
-- [Moderadores](#moderators)
-- [Equipo de cumplimiento de los desarrolladores](#developer-compliance-team)
-- [Equipo de control de calidad](#quality-assurance-team)
-- [Equipo de prevención de trampas](#cheat-prevention-team)
-- [Equipo de revisores de código](#code-reviewer-team)
-- [Equipo técnico](#tech-team)
-- [Líderes de sub-equipos](#sub-team-leads)
+- [Cuentas del equipo](#cuentas-del-equipo)
+- [Administradores](#administradores)
+- [Moderadores](#moderadores)
+- [Equipo de cumplimiento de los desarrolladores](#equipo-de-cumplimiento-de-los-desarrolladores)
+- [Equipo de control de calidad](#equipo-de-control-de-calidad)
+- [Equipo de prevención de trampas](#equipo-de-prevención-de-trampas)
+- [Equipo de revisores de código](#equipo-de-revisores-de-código)
+- [Equipo técnico](#equipo-técnico)
+- [Líderes de sub-equipos](#líderes-de-sub-equipos)
 
 ### Cuentas del equipo
 
@@ -62,7 +62,7 @@ Un grupo de usuarios dedicados y de confianza con responsabilidades variadas, si
 
 ### Moderadores
 
-El equipo responsable de mantener esta comunidad un lugar saludable (al menos para aquellos que siguen el [Código de conducta del usuario](/guidelines/users/code-of-conduct) y están de acuerdo con el [manifiesto de RetroAchievements](/guidelines/users/retroachievements-manifesto)):
+El equipo responsable de mantener esta comunidad un lugar saludable (al menos para aquellos que siguen el [Código de conducta del usuario](/es/guidelines/users/code-of-conduct) y están de acuerdo con el [manifiesto de RetroAchievements](/es/guidelines/users/retroachievements-manifesto)):
 
 - [AuburnRDM](https://retroachievements.org/user/AuburnRDM)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
@@ -77,7 +77,7 @@ El equipo responsable de mantener esta comunidad un lugar saludable (al menos pa
 
 ### Equipo de cumplimiento de los desarrolladores
 
-El equipo responsable de la adhesión y actualización del [Código de conducta del desarrollador](/guidelines/developers/code-of-conduct).
+El equipo responsable de la adhesión y actualización del [Código de conducta del desarrollador](/es/guidelines/developers/code-of-conduct).
 
 - [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
@@ -98,7 +98,7 @@ El equipo responsable de la adhesión y actualización del [Código de conducta 
 
 ### Equipo de control de calidad
 
-El equipo responsable de garantizar la calidad general de los sets de logros: incluyendo la lógica, los títulos y descripciones correctos, las clasificaciones de líderes de trabajo, una rica presencia de trabajo y la compatibilidad de los hash:
+El equipo responsable de garantizar la calidad general de los sets de logros: incluyendo la lógica, los títulos y descripciones correctos, las clasificaciones de líderes de trabajo, estados de la actividad y la compatibilidad de los hashes:
 
 - [BoomEX](https://retroachievements.org/user/BoomEX)
 - [DanielARP](https://retroachievements.org/user/DanielARP)
@@ -116,13 +116,13 @@ El equipo responsable de garantizar la calidad general de los sets de logros: in
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
-### Cheat Prevention Team
+### Equipo de prevención de trampas
 
 El equipo responsable de investigar informes de trampas.
 
 ### Equipo de revisores de código
 
-El equipo responsable de ayudar a los Jr. Devs a aprender a hacer sets y revisar su trabajo para asegurar que su comprensión sea suficiente para hacer sets por su cuenta:
+El equipo responsable de ayudar a los desarrolladores junior a aprender a hacer sets y revisar su trabajo para asegurar que su comprensión sea suficiente para hacerlos por su cuenta:
 
 - [authorblues](https://retroachievements.org/user/authorblues)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
