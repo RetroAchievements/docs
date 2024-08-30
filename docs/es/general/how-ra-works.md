@@ -36,7 +36,7 @@ La RAM es donde un juego almacena su memoria en un momento dado.
 Cuando es procesada por una consola o emulador, la RAM puede ser utilizada para reconocer lo que está sucediendo dentro del juego.
 Los juegos se procesan en una serie de cuadros, generalmente 60, 50, 30 o 25 por segundo dependiendo de la consola y el formato.
 RA procesa toda la lógica de logros no ganados en un conjunto por cada cuadro.
-Debido a esto, los desarrolladores pueden crear lógica de tal manera que cuando todas sus condiciones sean verdaderas simultáneamente, identifiquen algo único y preciso que esté sucediendo en un juego y otorguen un logro, activen una tabla de clasificación y proporcionen estados de actividad precisa.
+Debido a esto, los desarrolladores pueden crear lógica de tal manera que cuando todas sus condiciones sean verdaderas simultáneamente, identifiquen algo único y preciso que esté sucediendo en un juego y otorguen un logro, activen una tabla de clasificación y proporcionen estados de la actividad.
 Es trabajo del desarrollador de logros entender lo suficiente de la RAM de un juego para poder construir esta lógica.
 
 Entender cómo funciona la RAM que un desarrollador pretende usar en su lógica es esencial para crear un conjunto estable que otorgue logros, envíe puntuaciones a las tablas de clasificación y muestre Presencia Rica con precisión solo como se pretende. Los desarrolladores de RA usan herramientas de emuladores para desarrolladores para inspeccionar la RAM de un juego y determinar qué direcciones son responsables de las cosas que pretenden usar para la lógica. Los desarrolladores tienen muchas formas de definir con precisión exactamente qué condiciones de memoria deben ser verdaderas para construir la lógica, incluyendo retener el conocimiento de que algo ocurrió previamente en la memoria, pero que puede que ya no sea verdadero.
@@ -72,14 +72,14 @@ Esto solo puede suceder cuando el jugador obtiene el martillo mientras está en 
 
 Se compara la RAM del juego que se está jugando con la lógica del logro en cada cuadro para verificar si todas las condiciones son verdaderas. Para este logro de ejemplo, todas las condiciones solo pueden ser verdaderas en el mismo cuadro cuando un jugador está en la habitación y área donde se obtiene el martillo y el jugador obtiene el martillo. Cuando eso sucede, todas las condiciones definidas en la lógica serán simultáneamente verdaderas y el logro se otorgará inmediatamente.
 
-## Código de tablas de clasificación y actividad precisa
+## Código de tablas de clasificación y estados de la actividad
 
 Las tablas de clasificación funcionan de manera muy similar a los logros en términos de lógica, pero necesitan una lista de condiciones para indicar cuándo activar la tabla, cuándo cancelarla y cuándo y qué valor enviar a la tabla de clasificación. Crear una tabla de clasificación es esencialmente como crear algunos logros  que se procesarán secuencialmente.
 
-El código de actividad precisa es muy similar al código de logros y tablas de clasificación, pero se escribe de manera ligeramente diferente debido a la forma en que es manejado por el sitio.
-La actividad precisa se escribe y se envía a RA como un script, en lugar de una cadena de código como los logros y las tablas de clasificación. Se utiliza la misma sintaxis que los logros y las tablas de clasificación, pero tiene algunas características adicionales como macros personalizadas que pueden ser utilizadas.
+El código de estados de la actividad es muy similar al código de logros y tablas de clasificación, pero se escribe de manera ligeramente diferente debido a la forma en que es manejado por el sitio.
+Los estados de la actividad se escriben y se envían a RA como un script, en lugar de una cadena de código como los logros y las tablas de clasificación. Se utiliza la misma sintaxis que los logros y las tablas de clasificación, pero tiene algunas características adicionales como macros personalizadas que pueden ser utilizadas.
 
 ## Conclusiones
 
-La clave para escribir un código sólido es primero entender qué puede ser usado en la RAM para reconocer un evento particular del juego para el cual un desarrollador pretende otorgar un logro, usar para una tabla de clasificación o actividad precisa.
+La clave para escribir un código sólido es primero entender qué puede ser usado en la RAM para reconocer un evento particular del juego para el cual un desarrollador pretende otorgar un logro, usar para una tabla de clasificación o estados de la actividad.
 Los siguientes pasos son encontrar las direcciones de memoria necesarias y sus valores para reconocer cuándo ocurre el evento y construir la lógica para crear una lista de condiciones que solo serán simultáneamente verdaderas en el cuadro previsto.
