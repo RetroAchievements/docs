@@ -134,3 +134,8 @@ dist
 .vitepress/cache
 docs/.vitepress/cache
 docs/.vitepress/dist
+
+# Editor project files
+/.idea
+/.fleet
+/.vscode
