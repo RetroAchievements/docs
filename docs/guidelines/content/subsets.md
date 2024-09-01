@@ -113,7 +113,7 @@ The approval process and claiming of a subset will vary depending on if the subs
 
 ² To Contact Developer Compliance, send them a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) and replace the `[Game Name]` and `[Subset Name]` in the subject line with the game name and desired subset name.
 
-³ The following are pre-approved subset types and therefore do not require ³ _The following are pre-approved subset types and therefore do not require contacting Developer Compliance:_<br>
+³ _The following are pre-approved subset types and therefore do not require contacting Developer Compliance:_<br>
 
 - Bonus (only if composed of other pre-approved types)<br>
 - Multi<br>
