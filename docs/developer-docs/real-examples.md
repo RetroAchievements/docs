@@ -1,3 +1,8 @@
+---
+title: Real Examples
+description: Explore real examples of achievement logic, including using hit counts as timers, delta values, managing counters, and more. Learn techniques for effective achievement development through practical case studies.
+---
+
 # Real Examples
 
 One of the best learning resource is looking at some real examples. In this section we will look deep into some achievements and break down the logic behind them.

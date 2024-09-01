@@ -1,3 +1,8 @@
+---
+title: Why You Shouldn't Use the Load State Feature
+description: Using load states in RetroAchievements can disrupt achievement tracking, especially in softcore mode. This happens because progress resets when reloading, affecting challenges like no-damage or no-password runs.
+---
+
 # Why You Shouldn't Use the Load State Feature
 
 **Note**: currently the issue described here happens only on DuckStation standalone and RetroArch versions older than 1.9.1.

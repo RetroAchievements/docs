@@ -83,7 +83,7 @@ Hay dos formas de informar de logros rotos. En la barra de título del emulador,
 
 2. Los usuarios de RetroArch pueden enviar un informe directamente a través de su sitio web. En la página de cada logro verás un enlace que dice `Report an issue for this achievement ("Informar de un problema para este logro")` , como en la imagen de abajo:
 
-![open-ticket-on-site](/public/report-an-issue.png)
+![abrir-un-reporte-en-el-sitio](/public/report-an-issue.png)
 
 Si usas los emuladores oficiales de RetroAchievements también puedes informar de los problemas desde la página de logros del sitio web, pero es preferible que utilices el método integrado en los emuladores.
 

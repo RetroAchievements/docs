@@ -1,3 +1,8 @@
+---
+title: Code Notes
+description: A guide for developers on creating clear and consistent code notes in RetroAchievements. Learn how to document memory addresses, specify address sizes, and ensure future developers can easily understand and use your notes.
+---
+
 # Code Notes
 
 [[toc]]

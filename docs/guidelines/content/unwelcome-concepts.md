@@ -1,3 +1,8 @@
+---
+title: Unwelcome Concepts
+description: Guidelines outlining concepts that are discouraged or prohibited in achievement design, such as excessive RNG reliance, pointless grinding, and achievements requiring glitches, with exceptions where applicable.
+---
+
 # Unwelcome Concepts
 
 Developers are encouraged to be creative with their achievement designs, but there are some concepts that are **NOT** welcome for achievements. Below is a list of what have been deemed unwelcome concepts. Please note that there is some wiggle room, so some exceptions to the rules have been provided. When in doubt, consult with [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance).
@@ -9,6 +14,7 @@ Developers are encouraged to be creative with their achievement designs, but the
 It is bad design to have achievements popping too frequently. An example of this is unlocking achievements for both defeating a boss as well as obtaining a specific item after the fight.
 
 When these are acceptable:
+
 - Using the above example: If the achievement for defeating the boss is challenge-based, such as damageless. It is not a guaranteed unlock simply by playing.
 - If the achievements are stackable.
   - Defeating a boss on normal or higher difficulty + defeating the same boss on hard difficulty.
@@ -19,6 +25,7 @@ When these are acceptable:
 Achievements for dying, getting a game over, or repeatedly failing a task just for the sake of it are unnecessary.
 
 When these are acceptable:
+
 - Many point-and-click adventure games and visual novels often tie a player's death into the story, which can result in unique scenes a player would not witness otherwise.
 - If playing poorly results in a humorous or otherwise interesting in-game acknowledgement, such as being awarded a helmet for taking too many head shots.
 
@@ -27,6 +34,7 @@ When these are acceptable:
 Examples of this are achievements for simply starting a game, collecting a single coin, watching a video, etc.
 
 When these are acceptable:
+
 - "Disclaimer" achievements meant to inform the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
 - Not skipping an opening cinematic if it had been considered a big deal at the time.
 - Addressing something fun, historical, or interesting.
@@ -36,6 +44,7 @@ When these are acceptable:
 Achievements for performing tasks that are only possible by using glitches, exploiting bugs, etc. are not allowed in a base set. Glitches/Bugs are errors within a game's code which often cause unintended behavior. Examples are memory overflow, incorrectly loaded levels, and clipping into objects.
 
 When these are acceptable:
+
 - Historically significant glitches and well-known, easy-to-execute glitches of importance to the game's community are allowed with the approval of [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Glitch%20Approval%20Request%20-%20[Game%20Name]%20-%20[Glitch%20Name%20or%20Description]). It should be clear that the glitch is needed for the achievement(s) and serve to highlight the glitch's importance or significance.
   - Achievements including approved glitches must require the player to perform some feat using the glitch. Simply causing the glitch to occur without purpose is insufficient unless activating the glitch itself is a meaningful task.
 - A `[Subset - Glitch Showcase]` or `[Subset - Bonus]`.
@@ -45,6 +54,7 @@ When these are acceptable:
 Achievements that require input from at least one other player are not allowed in a base set.
 
 When these are acceptable:
+
 - `[Subset - Multi]` sets.
 
 ## Requires Complete Perfection
@@ -52,6 +62,7 @@ When these are acceptable:
 Achievements that require a **long task** where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
 
 When these are acceptable:
+
 - Subsets for Extreme Challenges, or a typical Bonus set.
 - Games where behavior of enemies or obstacles is highly deterministic or pattern-based.
 - Games where this challenge is a common goal of players or not seen as an extreme challenge by the game's community.
@@ -61,11 +72,13 @@ When these are acceptable:
 Achievements that require long, repetitive tasks that confer no unique in-game rewards, acknowledgements or aren't required to complete all of a game's content.
 
 Common examples of Pointless Excessive Grinding:
+
 - Leveling up in an RPG beyond what is typically required to complete the game and where there is no in-game reward such as a skill or spell.
 - Acquiring many copies of items or money beyond which would typically be accrued during a normal playthrough.
 - Collecting an arbitrary number of extra lives when they are not associated with a reward or challenge, such as when they can be dropped by enemies.
 
 Where this is acceptable:
+
 - Bonus subsets or subsets specifically approved for grinding tasks are an exception to this policy and may be implemented.
 
 ## Overly RNG Reliant
@@ -73,6 +86,7 @@ Where this is acceptable:
 Rely entirely on randomness, especially when there are extremely low odds.
 
 When these are acceptable:
+
 - Games or mini-games where the randomness is a major aspect.
 
 ## "Secret Achievements"
@@ -80,6 +94,7 @@ When these are acceptable:
 When the player has no indication of what they're going after.
 
 When these are acceptable:
+
 - Secretive or intentionally vague achievement descriptions can be used to prevent major spoilers, so long as the achievements are unmissable progression.
 
 ## Unwelcome Game Types

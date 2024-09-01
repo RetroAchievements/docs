@@ -127,7 +127,7 @@ npm run dev
 
 ## Markdown caveats
 
-Markdown es un lenguaje de marcado ligero y extremadamente fácil de aprender con una sintaxis de formato de texto plano. Para contribuir en nuestro proyecto debes conocer al menos lo básico de markdown. Aquí tienes una buena referencia: [http://commonmark.org/help/](http://commonmark.org/help), y [aquí puedes probar un tutorial de 10 minutos](http://commonmark.org/help/tutorial/).   
+Markdown es un lenguaje de marcado ligero y extremadamente fácil de aprender con una sintaxis de formato de texto plano. Para contribuir en nuestro proyecto debes conocer al menos lo básico de markdown. Aquí tienes una buena referencia: [http://commonmark.org/help/](http://commonmark.org/help), y [aquí puedes probar un tutorial de 10 minutos](http://commonmark.org/help/tutorial/).
 
 ### Encabezados
 
@@ -137,9 +137,13 @@ Los encabezados (definidos por `#`) deben seguir una progresión natural de la j
 ✅ BIEN
 
 # Título
+
 ## Encabezado principal uno
+
 ### Subencabezado uno
+
 ### Subencabezado dos
+
 ## Encabezado principal dos
 ```
 
@@ -147,9 +151,13 @@ Cada página **debe** comenzar con un encabezado de título (`#`).
 
 ```md
 🛑 MAL
+
 ## Encabezado principal uno
+
 ### Subencabezado uno
+
 ### Subencabezado dos
+
 ## Encabezado principal dos
 ```
 
@@ -159,10 +167,15 @@ No puedes tener dos encabezados de título (`#`).
 🛑 MUY MAL
 
 # Título
+
 # Título Dos
+
 ## Encabezado principal uno
+
 ### Subencabezado uno
+
 ### Subencabezado dos
+
 ## Encabezado principal dos
 ```
 
@@ -217,38 +230,38 @@ Siempre asegúrate de que tu texto dentro de corchetes sea accesible. Si la imag
 Una tabla simple se ve así:
 
 ```md
-Primera cabecera   | Segunda cabecera    | Tercera cabecera
------------------- | ------------------- | ------------------
-Celda de contenido | Celda de contenido  | Celda de contenido
-Celda de contenido | Celda de contenido  | Celda de contenido
-Celda de contenido | Celda de contenido  | Celda de contenido
+| Primera cabecera   | Segunda cabecera   | Tercera cabecera   |
+| ------------------ | ------------------ | ------------------ |
+| Celda de contenido | Celda de contenido | Celda de contenido |
+| Celda de contenido | Celda de contenido | Celda de contenido |
+| Celda de contenido | Celda de contenido | Celda de contenido |
 ```
 
 Debería renderizarse así:
 
-Primera cabecera   | Segunda cabecera    | Tercera cabecera
------------------- | ------------------- | ------------------
-Celda de contenido | Celda de contenido  | Celda de contenido
-Celda de contenido | Celda de contenido  | Celda de contenido
-Celda de contenido | Celda de contenido  | Celda de contenido
+| Primera cabecera   | Segunda cabecera   | Tercera cabecera   |
+| ------------------ | ------------------ | ------------------ |
+| Celda de contenido | Celda de contenido | Celda de contenido |
+| Celda de contenido | Celda de contenido | Celda de contenido |
+| Celda de contenido | Celda de contenido | Celda de contenido |
 
 Puedes especificar la alineación para cada columna añadiendo dos puntos a las líneas de separación:
 
 ```md
-Primera cabecera  | Segunda cabecera | Tercera cabecera
-:---------------- |:----------------:| ---------------:
-| Izquierda       |      Centro      |        Derecha |
-| Izquierda       |      Centro      |        Derecha |
-| Izquierda       |      Centro      |        Derecha |
+| Primera cabecera | Segunda cabecera | Tercera cabecera |
+| :--------------- | :--------------: | ---------------: |
+| Izquierda        |      Centro      |          Derecha |
+| Izquierda        |      Centro      |          Derecha |
+| Izquierda        |      Centro      |          Derecha |
 ```
 
 Resultados:
 
-Primera cabecera  | Segunda cabecera | Tercera cabecera
-:---------------- |:----------------:| ---------------:
-| Izquierda       |      Centro      |        Derecha |
-| Izquierda       |      Centro      |        Derecha |
-| Izquierda       |      Centro      |        Derecha |
+| Primera cabecera | Segunda cabecera | Tercera cabecera |
+| :--------------- | :--------------: | ---------------: |
+| Izquierda        |      Centro      |          Derecha |
+| Izquierda        |      Centro      |          Derecha |
+| Izquierda        |      Centro      |          Derecha |
 
 ## Componentes de VitePress
 

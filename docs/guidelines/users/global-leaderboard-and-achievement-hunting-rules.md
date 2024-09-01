@@ -44,7 +44,7 @@ Users who have the Untracked status are omitted from all rankings. Their activit
 
 Voluntary untracks can be reversed by resetting all progress and contacting [RAdmin](https://retroachievements.org/user/RAdmin).
 
-Involuntary untracks are generally the result of being flagged for suspicious timestamps. If your account becomes untracked, you can contact [RAdmin](https://retroachievements.org/user/RAdmin) to find out the cause and how to get it reversed.
+Involuntary untracks are generally the result of being flagged for suspicious timestamps. If your account becomes untracked, you can contact [RAdmin](https://retroachievements.org/user/RAdmin) or [RACheats](https://retroachievements.org/user/RACheats) to find out how to get it reversed.
 
 If you notice a player has become untracked: do not harass them, accuse them of cheating, make a public scene, etc. Do not ask moderators or admin why a user was untracked. It is none of your business.
 

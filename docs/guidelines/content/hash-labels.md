@@ -1,3 +1,8 @@
+---
+title: Hash Labels
+description: This guide covers labeling ROMs linked to achievement sets, including label types, image labels, examples, and how to link patches in the forum.
+---
+
 # Hash Labels
 
 Every ROM that is linked to an achievement set should be clearly identified and labeled. These labels help players know which versions of a game are compatible as well as if there are any translation patches, bug fixes, cosmetic hacks, quality of life hacks, etc. that they can use.

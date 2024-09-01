@@ -1,3 +1,8 @@
+---
+title: RetroAchievements Events
+description: Explore current and past RetroAchievements events, from ongoing challenges to seasonal competitions. This page provides links and details for both active and previous events, offering a glimpse into the community's activities.
+---
+
 # Events
 
 ## Current Events
