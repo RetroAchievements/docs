@@ -1,6 +1,5 @@
 ---
 title: Combining Flags
-description: `ResetIf` and `PauseIf` can be applied to a condition following any number of `AddHits`, `AddSource`, or `SubSource` conditions.
 ---
 
 # Combining Flags
