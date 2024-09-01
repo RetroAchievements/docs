@@ -1,3 +1,8 @@
+---
+title: Progression and Win Condition Guidelines
+description: Guidelines for assigning progression and win conditions to achievements in RetroAchievements sets. Learn how to categorize different types of achievements to mark a game as beaten, with specific examples for various genres.
+---
+
 # Progression and Win Condition Guidelines
 
 Progression and Win Type conditions are assigned to achievements in a set and used to designate when a game has been beaten. A game is considered when all the following statements are true:

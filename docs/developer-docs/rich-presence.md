@@ -1,3 +1,8 @@
+---
+title: Rich Presence
+description: Overview of Rich Presence (RP), a feature showing what players are doing in a game. Learn how to create, monitor, and understand RP scripts that report game progress and key details.
+---
+
 # Rich Presence
 
 [[toc]]

@@ -1,3 +1,8 @@
+---
+title: Claims System
+description: Guidelines for the RetroAchievements claims system, including how to make, extend, and complete claims for achievement sets, with specific rules for collaboration claims, claim allotment, and progress reporting.
+---
+
 # Claims System
 
 [[toc]]

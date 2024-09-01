@@ -1,3 +1,8 @@
+---
+title: Creating Entries
+description: Guidelines on naming conventions for RA entry titles, including handling regional titles, tags, and pipe separators, as well as rules for creating hubs and linking bootleg games.
+---
+
 # Creating Entries
 
 WIP Page
