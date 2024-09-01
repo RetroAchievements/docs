@@ -6,6 +6,7 @@ import "./styles.css";
 
 export default {
   extends: DefaultTheme,
+
   enhanceApp({ app }) {
     app.use(NolebaseGitChangelogPlugin);
   },
