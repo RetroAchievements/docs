@@ -67,7 +67,7 @@ Inactivity as a developer will be defined as:
 
 An unaddressed ticket is defined as a ticket that has not had a comment by the developer in at least 2 weeks. If a developer cannot resolve a ticket due to insufficient information in the ticket and the reporter is unresponsive, the ticket may be closed as "Not enough information." If a developer is still working on a ticket, they must provide a status update comment at least every 2 weeks for the ticket to be considered being actively addressed.
 
-The intent of the Negligence policy is to ensure developers are putting forth a good faith effort to prioritize and resolve their tickets. If there are extenuating circumstances that might prevent a developer from meeting the Negligence requirements, [DevCompliance](https://retroachievements.org/messages/create?to=DevCompliance) may grant an extension upon request.
+The intent of the Negligence policy is to ensure developers make a good faith effort to prioritize and resolve their tickets. If there are extenuating circumstances that might prevent a developer from meeting the Negligence requirements, [DevCompliance](https://retroachievements.org/messages/create?to=DevCompliance) may grant an extension upon request.
 
 ### Reinstatement
 
