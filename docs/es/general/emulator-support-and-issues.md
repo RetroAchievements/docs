@@ -68,7 +68,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 - ✅ Núcleo de libretro: **Virtual Jaguar**
   - Sin soporte para estados guardados.
   - [Muchos problemas con la emulación](https://github.com/libretro/virtualjaguar-libretro/issues/38).
-  - No emula el Jaguar CD.
+  - No emula Jaguar CD.
 - ✅ Núcleo de BizHawk: **Virtual Jaguar**
 
 ### Atari Jaguar CD
@@ -179,7 +179,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 - ✅ Emulador independiente: **[Dolphin](https://retroachievements.org/download.php#dolphin)**
   - Se debe usar la versión 2407-68 o mayor.
-  - Verifique que "Activar Renderizado de Doble Núcleo (aumento de velocidad)" esté desactivado ya que no está soportado.
+  - Verifique que "Activar renderizado de doble núcleo (aumento de velocidad)" esté desactivado ya que no está soportado.
 
 ### Game Gear
 
@@ -197,7 +197,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 ### Intellivision
 
 - ✅ Núcleo de libretro: **FreeIntv**
-  - Crashea cuando se reinicia el juego.
+  - Se bloquea cuando se reinicia el juego.
   - Algunos crasheos podrían estar relacionados con el Intellivoice no siendo emulado.
 - ✅ Núcleo de BizHawk: **IntelliHawk**
 
@@ -269,9 +269,9 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 - Soporte limitado para micrófono.
 - ✅ Núcleo de libretro: **DeSmuME**
-  - No emula el DSi.
+  - No emula DSi.
 - ✅ Núcleo de libretro: **DeSmuME 2015**
-  - No emula el DSi.
+  - No emula DSi.
 - ✅ Núcleo de libretro: **melonDS**
 - ✅ Núcleo de BizHawk: **melonDS**
 
@@ -363,7 +363,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 - ✅ Emulador independiente: **[PPSSPP](https://www.ppsspp.org/download/)**
   - No soporta RAIntegration en este momento, por lo que los desarrolladores de logros no pueden solucionar problemas potenciales.
 - ✅ Núcleo de libretro: **PPSSPP**
-  - Cargar estados guardados demasiado rápido puede hacer que se crashee.
+  - Cargar estados guardados demasiado rápido puede hacer que se bloquee.
   - Algunos juegos tienen problemas gráficos.
 
 ### PocketStation
