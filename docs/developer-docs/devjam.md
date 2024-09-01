@@ -59,7 +59,7 @@ Check the links here for console-specific guidelines and info:
 |   02   | 2023-10-01 - 2024-01-31 |     [Sega Saturn](/developer-docs/devjam/2-saturn)     |           28           |      56       |
 |   03   | 2024-02-01 - 2024-04-30 | [PC Engine/PC Engine CD](/developer-docs/devjam/3-pce) |           28           |      60       |
 |   04   | 2024-05-01 - 2024-08-31 |       [Arcade](/developer-docs/devjam/4-arcade)        |           33           |      80       |
-|   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](developer-docs/devjam/5-pc88)     |          TBA           |      TBA      |
+|   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](/developer-docs/devjam/5-pc88)     |          TBA           |      TBA      |
 
 ## Planned DevJams
 
