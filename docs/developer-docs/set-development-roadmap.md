@@ -1,3 +1,8 @@
+---
+title: Set Development Roadmap
+description: A detailed roadmap for developing achievement sets, from initial research to post-release adjustments. Includes steps for memory hunting, achievement design, testing, and finalizing titles, descriptions, and game assets.
+---
+
 # Set Development Roadmap
 
 The following is a detailed road-map of most things you would want to consider while making an achievement set. It's not required to follow this exactly but is meant as a guide.

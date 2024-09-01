@@ -1,3 +1,8 @@
+---
+title: Editing Leaderboards
+description: Guidelines for modifying leaderboards on RetroAchievements, covering the backup process, commenting requirements, and procedures for making fundamental changes or retiring leaderboards.
+---
+
 # Editing Leaderboards
 
 1. Before making updates to a leaderboard, you must backup each modified conditional line on the comment (if too long use Pastebin link)

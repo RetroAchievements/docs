@@ -1,3 +1,8 @@
+---
+title: Subsets
+description: Learn about creating and managing subsets for RetroAchievements, including types like Bonus, Challenge Runs, and DLC. This guide covers naming conventions, approval processes, and examples of different subset categories.
+---
+
 # Subsets
 
 _Advanced Developer Topic_

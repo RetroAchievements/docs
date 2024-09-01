@@ -1,3 +1,8 @@
+---
+title: Working with the Right ROM
+description: Guidelines for selecting the optimal ROMs for RetroAchievements, covering region, revision, and format considerations, with tips on preserving compatibility and ensuring accurate achievement triggers.
+---
+
 # Working with the Right ROM
 
 **Related:** [Achievements for ROM Hacks](achievements-for-rom-hacks), [Subsets](/guidelines/content/subsets)

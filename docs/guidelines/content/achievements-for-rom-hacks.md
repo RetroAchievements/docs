@@ -1,3 +1,8 @@
+---
+title: Achievements for ROM Hacks
+description: Guidelines on which ROM hacks can have their own RetroAchievements sets, including the rules for linking hacks to base sets. Learn what is allowed and what is not.
+---
+
 # Achievements for ROM Hacks
 
 RetroAchievements opens the doorway to include fun hack sets for players to enjoy. The issue arising in such a broad category open to world of creativity being "What is allowed, and what is not allowed to have a set at RetroAchievements?" This page will go over the various types of hacks that are _not_ allowed to have their own set and whether or not they are allowed to be linked to a base set.

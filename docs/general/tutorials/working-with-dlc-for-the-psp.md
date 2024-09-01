@@ -1,3 +1,8 @@
+---
+title: Working with DLC for the PlayStation Portable
+description: Learn how to install and manage DLC for PlayStation Portable games in PPSSPP, including standard, save file-based DLC, and updates.
+---
+
 # Working with DLC for the PlayStation Portable
 
 Various games for the PlayStation Portable support DLC content. Depending on the game, this may come in different formats with different processes for installation.

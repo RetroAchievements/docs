@@ -1,3 +1,8 @@
+---
+title: About Us
+description: Explore the history and roles within the RetroAchievements community, from its founding by Scott Breen to the dedicated teams that keep the project thriving today. Learn about the staff, their responsibilities, and how the community has evolved over the years.
+---
+
 # About Us
 
 ## RA Staff

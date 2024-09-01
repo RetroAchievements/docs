@@ -1,3 +1,8 @@
+---
+title: Tips and Tricks
+description: Tips for memory digging, achievement creation, and best practices in RetroAchievements development. Includes guidance on identifying memory addresses, avoiding common pitfalls, and using creative strategies for crafting achievements.
+---
+
 # Tips and Tricks
 
 [[toc]]
