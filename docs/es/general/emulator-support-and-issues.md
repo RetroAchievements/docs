@@ -46,7 +46,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 - ✅ Núcleo de libretro: **Ardens**
 - ✅ Núcleo de libretro: **Arduous**
-  - No puede emular el Arduboy FX.
+  - No emula Arduboy FX.
 
 ### Atari 2600
 
