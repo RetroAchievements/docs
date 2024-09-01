@@ -33,6 +33,12 @@ _as of 2024-02-01 (start date)_
 - Current number of achievements: 13,023 worth 133,339 points
 - Current number of leaderboards: 1,576
 
+_as of 2024-08-31 (end date)_
+
+- Current number of sets: 407
+- Current number of achievements: 14,973 worth 150,808 points
+- Current number of leaderboards: 1,994
+
 ## See Also
 
 - [Main DevJam Page](/developer-docs/devjam)
