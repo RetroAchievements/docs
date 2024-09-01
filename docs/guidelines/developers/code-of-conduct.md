@@ -60,7 +60,7 @@ Inactivity as a developer will be defined as:
 
 ### Negligence
 
-Maintenance of existing achievements is a developer's highest priority on RetroAchievements. Tickets shall be addressed as soon as possible. A developer shall be considered negligent and lose the developer role if they have either of the following:
+**A developer's highest priority on RetroAchievements is maintaining the achievements they've created.** Tickets shall be addressed as soon as possible. A developer shall be considered negligent and lose the developer role if they have either of the following:
 
 - 5 or more unaddressed tickets that are at least 1 month old.
 - Any unaddressed tickets that are at least 2 months old.
