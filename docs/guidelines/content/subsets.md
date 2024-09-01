@@ -24,17 +24,17 @@ Achievements typically found in subsets do not necessarily have to be in subsets
 
 ### Bonus Sets
 
-A bonus set is a set with a variety of achievements that do not fit into the base set of a game for various reasons. These may be extremely difficult challenges that go beyond what is welcome, painful grinds that serve no particular purpose beyond getting stronger or collecting everything, a showcase of glitches, or many other kinds of things that wouldn't be considered good achievements for the base set.<br>
+A bonus set is a set with a variety of achievements that do not fit into the base set of a game for various reasons. These may be extremely difficult challenges that go beyond what is welcome, painful grinds that serve no particular purpose beyond getting stronger or collecting everything, a showcase of glitches, or many other kinds of things that wouldn't be considered good achievements for the base set.
 
 - Bonus sets do not require Developer Compliance approval if the achievements all fit within existing pre-approved types.<br>
 - A good example of the variety pack nature of a bonus set is the [Suikoden Bonus Set](https://retroachievements.org/game/10536), which contains various challenge runs, rare drops, and extreme challenges within a single subset.<br>
 
 ### Extreme or Brutal Challenges
 
-If it's generally voiced a challenge is **too difficult**, it's a prime candidate for a Bonus set. How difficult is too difficult? However, just because the achievement(s) are possible to code does not mean they are possible to obtain; therefore, the achievement must still be obtainable. How difficult is too difficult? Something that few players of a set would be able to accomplish. If you expect under a 1% earn rate, it is probably extreme. If it feels unreasonable to require anyone to do an achievement, it is probably brutal.<br>
+If it's generally voiced a challenge is **too difficult**, it's a prime candidate for a Bonus set. How difficult is too difficult? However, just because the achievement(s) are possible to code does not mean they are possible to obtain; therefore, the achievement must still be obtainable. How difficult is too difficult? Something that few players of a set would be able to accomplish. If you expect under a 1% earn rate, it is probably extreme. If it feels unreasonable to require anyone to do an achievement, it is probably brutal.
 
 - A good example of a single achievement that could be considered extreme or brutal is the infamous [Mr. Perfect from Mega Man (NES)](https://retroachievements.org/achievement/53290), which requires the player to complete the _entire_ game without taking damage.<br>
-- A good example of a full subset is [Ninja Gaiden [Subset -Full Game Damageless]](https://retroachievements.org/game/25303)<br>
+- A good example of a full subset is [Ninja Gaiden [Subset - Full Game Damageless]](https://retroachievements.org/game/25303)<br>
 - Does not have to be named Brutal Challenge, but that subset type should be referenced in subset plan/any subset vote. If there are any doubts about whether challenges fall into this category, contact Developer Compliance for a quick judgement.<br>
 
 ### Multi Sets
