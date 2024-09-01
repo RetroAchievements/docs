@@ -198,7 +198,7 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 - ✅ Núcleo de libretro: **FreeIntv**
   - Se bloquea cuando se reinicia el juego.
-  - Algunos crasheos podrían estar relacionados con el Intellivoice no siendo emulado.
+  - Algunos bloqueos podrían estar relacionados con el Intellivoice no siendo emulado.
 - ✅ Núcleo de BizHawk: **IntelliHawk**
 
 ### Interton VC 4000
