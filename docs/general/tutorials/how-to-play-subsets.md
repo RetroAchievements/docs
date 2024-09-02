@@ -27,7 +27,7 @@ In case that the subset you want to play requires a patch, follow these steps be
 
 **Step 4:** Click/tap on "Apply patch" and download your patched ROM (to distinguish it from the original ROM, we recommend naming it like the subset or using "Use patch name for output").
 
-![Download](https://github.com/user-attachments/assets/aa332c0f-15da-4cf6-adf0-8415a2e3492b)
+![Apply patch](https://github.com/user-attachments/assets/a19f88a0-9233-4836-9622-2f5adbd05cbc)
 
 **Step 5:** Open your emulator of choice, then load your patched ROM, and see if a pop-up appears telling you that you're using "X Game [Subset - X]". If so, congratulations! You have properly patched your ROM! Otherwise, repeat all the previous steps.
 
