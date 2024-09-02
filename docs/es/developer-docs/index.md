@@ -38,7 +38,7 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 16. [Tablas de clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
 
-17. [Estados de la actividad](/es/developer-docs/rich-presence): cómo crear scripts sobre estados de la actividad.
+17. [Presencia enriquecida](/es/developer-docs/rich-presence): cómo crear scripts sobre presencia enriquecida.
 
 18. [Trabajando con la ROM adecuada](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
 

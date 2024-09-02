@@ -98,7 +98,7 @@ El equipo responsable de la adhesión y actualización del [Código de conducta 
 
 ### Equipo de control de calidad
 
-El equipo responsable de garantizar la calidad general de los sets de logros: incluyendo la lógica, los títulos y descripciones correctos, las clasificaciones de líderes de trabajo, estados de la actividad y la compatibilidad de los hashes:
+El equipo responsable de garantizar la calidad general de los sets de logros: incluyendo la lógica, los títulos y descripciones correctos, las clasificaciones de líderes de trabajo, presencia enriquecida y la compatibilidad de los hashes:
 
 - [BoomEX](https://retroachievements.org/user/BoomEX)
 - [DanielARP](https://retroachievements.org/user/DanielARP)
