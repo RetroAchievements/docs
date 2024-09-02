@@ -1,3 +1,8 @@
+---
+title: Eventos de RetroAchievements
+description: Explore los eventos actuales y pasados de RetroAchievements, desde desafíos en curso hasta competiciones estacionales. Esta página proporciona enlaces y detalles tanto para eventos activos como anteriores, ofreciendo una visión general de las actividades de la comunidad.
+---
+
 # Eventos
 
 ## Eventos actuales

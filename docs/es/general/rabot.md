@@ -1,3 +1,8 @@
+---
+title: RABot
+description: Aprende sobre RABot, el bot oficial de RetroAchievements en Discord, y explora los comandos útiles que ofrece.
+---
+
 # RABot, el bot de RA para Discord
 
 RABot es el robot oficial de RetroAchievements en Discord. Por tanto, para interactuar con él, necesitas ser miembro del [servidor de Discord de RA](https://discord.gg/dq2E4hE).

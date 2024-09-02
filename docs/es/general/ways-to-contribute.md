@@ -1,3 +1,8 @@
+---
+title: Maneras de contribuir
+description: Incluso si no quieres convertirte en desarrollador de logros, pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo.
+---
+
 # Maneras de contribuir
 
 Incluso si no quieres convertirte en desarrollador de logros pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo:

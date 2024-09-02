@@ -1,3 +1,8 @@
+---
+title: Sobre nosotros
+description: Explora la historia y los roles dentro de la comunidad de RetroAchievements, desde su fundación por Scott Breen hasta los equipos dedicados que mantienen el proyecto prosperando hoy en día. Conozca al personal, sus responsabilidades y cómo ha evolucionado la comunidad a lo largo de los años.
+---
+
 # Sobre nosotros
 
 ## Equipo RA
