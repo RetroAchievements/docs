@@ -5,7 +5,7 @@ description: Brief explanation of subsets with a simple tutorial on how to patch
 
 # What are Subsets?
 
-Subsets are typically extra sets for a game when certain achievements would jusr not fit into the main set. There are many types of subsets, but for more info on that topic see [this article](https://docs.retroachievements.org/guidelines/content/subsets.html#types-of-subsets). Subsets typically require an extra patch or sometimes just an alternate revision/version of the game.
+Subsets are typically extra sets for a game when certain achievements would just not fit into the main set. There are many types of subsets, but for more info on that topic see [this article](https://docs.retroachievements.org/guidelines/content/subsets.html#types-of-subsets). Subsets typically require an extra patch or sometimes just an alternate revision/version of the game.
 
 ## How to Play Subsets
 
