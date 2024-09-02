@@ -442,7 +442,7 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   link: "/es/developer-docs/bitcount-size",
         // },
         {
-          text: "Grupos alternativos",
+          text: "Agrupado alt",
           link: "/es/developer-docs/alt-groups",
         },
         {

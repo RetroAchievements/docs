@@ -53,7 +53,7 @@ Cualquier aspirante a desarrollador debe demostrar que comprende los siguientes 
 - [Contadores](/es/developer-docs/hit-counts)
 - [`PauseIf`](/es/developer-docs/flags/pauseif)
 - [`ResetIf`](/es/developer-docs/flags/resetif)
-- [Grupos alternativos](/es/developer-docs/alt-groups)
+- [Agrupado alt](/es/developer-docs/alt-groups)
 - Tamaños de memoria: [8 bits](/es/developer-docs/memory-inspector#8-bit-mode) y [un solo bit](/es/developer-docs/memory-inspector#single-bits)
 - Comparaciones de lógica de los logros además de `=`, como `>`, `<`, `!=`
 - [Agregar insignias a un logro](/es/general/ways-to-contribute)
