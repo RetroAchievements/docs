@@ -28,10 +28,10 @@ Estos roles no son realmente visibles en el sitio web, pero sí en discord y en 
 - [Moderadores](#moderadores)
 - [Equipo de cumplimiento de los desarrolladores](#equipo-de-cumplimiento-de-los-desarrolladores)
 - [Equipo de control de calidad](#equipo-de-control-de-calidad)
-- [Equipo de prevención de trampas](#equipo-de-prevención-de-trampas)
-- [Equipo de revisores de código](#equipo-de-revisores-de-código)
-- [Equipo técnico](#equipo-técnico)
-- [Líderes de sub-equipos](#líderes-de-sub-equipos)
+- [Equipo de prevención de trampas](#equipo-de-prevencion-de-trampas)
+- [Equipo de revisores de código](#equipo-de-revisores-de-codigo)
+- [Equipo técnico](#equipo-tecnico)
+- [Líderes de sub-equipos](#lideres-de-sub-equipos)
 
 ### Cuentas del equipo
 
@@ -121,11 +121,11 @@ El equipo responsable de garantizar la calidad general de los sets de logros: in
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
-### Equipo de prevención de trampas
+### <div id="equipo-de-prevencion-de-trampas">Equipo de prevención de trampas</div>
 
 El equipo responsable de investigar informes de trampas.
 
-### Equipo de revisores de código
+### <div id="equipo-de-revisores-de-codigo">Equipo de revisores de código</div>
 
 El equipo responsable de ayudar a los desarrolladores junior a aprender a hacer sets y revisar su trabajo para asegurar que su comprensión sea suficiente para hacerlos por su cuenta:
 
@@ -153,7 +153,7 @@ El equipo responsable de ayudar a los desarrolladores junior a aprender a hacer 
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
-### Equipo técnico
+### <div id="equipo-tecnico">Equipo técnico</div>
 
 El equipo más involucrado con el lado técnico de las cosas, ya sea el sitio web, emuladores, bots de Discord, etc.:
 
@@ -178,7 +178,7 @@ El equipo más involucrado con el lado técnico de las cosas, ya sea el sitio we
 - [WCopeland](https://retroachievements.org/user/WCopeland)
 - [Xymjak](https://retroachievements.org/user/Xymjak)
 
-### Líderes de sub-equipos
+### <div id="lideres-de-sub-equipos">Líderes de sub-equipos</div>
 
 Usuarios que supervisan uno de los sub-equipos de QA:
 

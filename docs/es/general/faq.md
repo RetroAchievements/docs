@@ -10,17 +10,17 @@ Si lo que quieres es una experiencia exacta de cómo jugabas a los juegos retro 
 
 Aunque podrás conseguir logros en Softcore, jugar en modo HARDCORE es la única manera de masterizar/plantinear un juego. Además, de este modo, podrás demostrar tu habilidad y destreza a tus competidores al aparecer como maestro/platino en la página del juego, y en la tabla de clasificación principal. Jugando en HARDCORE también te permitirá establecer tiempos, puntuaciones o participar y aparecer en tablas de clasificación de diversos desafíos específicos.
 
-**Nota**: Si quieres jugar con el modo HARDCORE desactivado (también conocido como "Softcore"), es posible que tengas algunos problemas. Más detalles aquí: [Por qué no debería usar la carga de partidas guardadas](/orphaned/load-state-feature).
+**Nota**: Si quieres jugar con el modo HARDCORE desactivado (también conocido como "Softcore"), es posible que tengas algunos problemas. Más detalles aquí: [Por qué no debería usar la carga de partidas guardadas](/es/orphaned/load-state-feature).
 
 ### ¿Qué son los puntos blancos?
 
-Puntos blancos, conocidos como RetroPoints, son puntos secundarios basados en la rareza de un logro, **sin embargo, esta caracterísitica actualmente no es muy precisa**. Explicado [aquí en detalle (En)](https://retroachievements.org/viewtopic.php?t=1015) .
+Puntos blancos, conocidos como RetroPoints, son puntos secundarios basados en la rareza de un logro, **sin embargo, esta característica actualmente no es muy precisa**. Explicado [aquí en detalle (En)](https://retroachievements.org/viewtopic.php?t=1015).
 
 ### ¿Será RetroAchievements compatible con una u otra consola?
 
 **Respuesta corta:** Sí, lo será.
 
-**Respuesta larga:** La única respuesta correcta a esta pregunta es: "Siempre que alguien con la habilidad y el deseo de darle soporte lo haga." Todo el mundo aquí es voluntario, así que el soporte y las novedades ocurren cuando ocurren. En muchos casos el soporte para una consola viene dado por el desarrollo del emulador (núcleo) y está fuera del control de Retroachievement.
+**Respuesta larga:** La única respuesta correcta a esta pregunta es: "Siempre que alguien con la habilidad y el deseo de darle soporte lo haga." Todo el mundo aquí es voluntario, así que el soporte y las novedades ocurren cuando ocurren. En muchos casos el soporte para una consola viene dado por el desarrollo del emulador (núcleo) y está fuera del control de RetroAchievements.
 
 Para más información de una consola específica, puedes echarle un vistazo a:
 [¿Para cuándo X sistema? (EN)](/orphaned/system-x-wen)
