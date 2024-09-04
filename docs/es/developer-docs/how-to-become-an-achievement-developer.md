@@ -1,102 +1,128 @@
-# Como convertirme en un Desarrollador de Logros
+---
+title: Cómo convertirse en desarrollador de logros
+description: Una guía paso a paso sobre cómo convertirse en un desarrollador de RetroAchievements, incluyendo el conocimiento requerido, planificación y mejores prácticas.
+---
 
-Este documento describe todos los pasos que cualquier aspirante a desarrollador de logros tiene que seguir antes de conseguir estatus de Desarrollador. Estos requisitos también son una lista para los Reseñadores de Código (desarrolladores que inspeccionan el código de nuevos desarrolladores).
+# Cómo convertirse en un desarrollador de logros
+
+Este documento describe todos los pasos que cualquier aspirante a desarrollador de logros debe seguir antes de conseguir el estatus de Desarrollador.
+Estos requisitos también son una lista de verificación para los revisores de código (desarrolladores que inspeccionan el código de los nuevos desarrolladores).
 
 **Cualquiera puede convertirse en un desarrollador en RetroAchievements si pone el suficiente esfuerzo.**
 
-**Opcional pero _fuertemente_ recomendado**: únete a nuestro servidor de Discord y pregunta a un moderador darte el rol de `jr-dev`. Utiliza los canales #help-me y #devs cada vez que cuentes con alguna pregunta.
+**Altamente recomendado**: únete a nuestro servidor de Discord para que puedas ponerte en contacto con otros desarrolladores de logros que pueden mostrarte el camino y ayudarte. Si ya sabes en qué juego quieres trabajar, adelante y pide el rol de `Jr-Dev` en el foro `#role-request` creando una publicación etiquetada como `Jr-Dev`, publicando tu plan de set para el juego (puedes usar una de estas [plantillas (EN)](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit)), y mencionando a `@QA-Maintainer` (Asegúrate de verificar tu cuenta siguiendo las instrucciones en `#welcome` si aún no lo has hecho). Esto te da acceso al canal `#jr-devs`, donde puedes hablar con revisores de código y hacer cualquier pregunta relacionada con el desarrollo.
+
+## Encontrar un juego en el que trabajar
+
+[//]: # (TODO: Review the anchor)
+Sigue las [directrices del código de conducta del desarrollador](/es/guidelines/developers/code-of-conduct#working-on-empty-sets) para encontrar un juego.
+Asegúrate de que el juego cumpla con las [reglas y restricciones (EN)](/developer-docs/jr-dev-rules#rules-and-restrictions) antes de trabajar en logros.
+Para reclamar un juego, debe tener un tema en el foro.
+Si no tiene uno, puedes pedir a un revisor de código que cree uno en el `#jr-dev-forum` en nuestro servidor de Discord.
+Siéntete libre de declarar tus intenciones de trabajar en el juego en el tema, y publicar actualizaciones a medida que avanzas.
+
+**Consejo**: para tu primer set de logros se recomienda elegir un juego que aún no tenga logros **y** que no sea muy popular.
+
+## Planeando tu set de logros
+
+Una vez que encuentres un juego en el que trabajar, necesitas planificar tu set de logros.
+
+Asegúrate de conocer lo suficiente sobre el juego para hacer un buen set. Consulta GameFAQs o algo similar, intenta aprender más acerca de él, sus secretos y detalles.
+Aquí tienes una buena guía que te puede ayudar con esto:
+[plan de desarrollo del set (EN)](/es/developer-docs/set-development-roadmap).
+
+Es recomendable que publiques tus planes en el tema oficial del juego, para que la comunidad pueda dejar sugerencias y comentarios.
+
+**¡IMPORTANTE!: estate abierto a recibir comentarios y sugerencias.**
+
+**Ver también**: [Diseño de logros](/es/developer-docs/achievement-design), es una extensa guía sobre cómo diseñar logros buenos e interesantes. No se trata del lado técnico, sino del conceptual.
 
 ## Conocimiento requerido
 
-Cada desarrollador tiene que mínimo conocer los conceptos básicos y técnicas mostradas en estos dos documentos:
+Cada desarrollador debe conocer al menos los conceptos y técnicas básicas mostradas en estos dos documentos:
 
-1. [Empezando como un desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer.html)
-2. [Caracteristicas en la lógica de un logro](/es/orphaned/achievement-logic-features.html)
+1. [Comenzando como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer)
+2. [Características de la lógica de logros](/es/orphaned/achievement-logic-features)
 
-Cualquier aspirante a desarrollador tiene que demostrar seguir y entender los siguientes conceptos:
+Cualquier aspirante a desarrollador debe demostrar que comprende los siguientes conceptos:
 
-- Búsqueda Básica en la RAM (que se te familiarice el [Inspector de Memoria](/es/developer-docs/memory-inspector.html))
-- [Notaciones Hexadecimales](/es/developer-docs/memory-inspector.html#decimal-binary-and-hexadecimal-notations)
-- [Valores Delta](/es/developer-docs/delta-values.html)
-- [Hit counts](/es/developer-docs/hit-counts.html)
-- [`PauseIf`](/es/developer-docs/flags/pauseif.html)
-- [`ResetIf`](/es/developer-docs/flags/resetif.html)
-- [Alt Groups](/es/developer-docs/alt-groups.html)
-- Tamaño de la Memoria: [8-bit](/es/developer-docs/memory-inspector.html#8-bit-mode) y [single bit](/es/developer-docs/memory-inspector.html#single-bits)
-- Comparadores en la logica de los Logros mas allá de `=`, por ejemplo `>`, `<`, `!=`
-- [Añadir badges/medallas a un logro](/es/general/ways-to-contribute.html#make-badges-for-achievements)
-- [Crear descripciones certeras en los logros](/es/guidelines/developers/code-of-conduct.html#Reglamento-de-Diseño-Basico-de-Logros)
-- Añadir las [protecciones](/es/developer-docs/getting-started-as-an-achievement-developer.html#important-tips) adecuadas
-- Hacer un [set de logros estable](/es/developer-docs/getting-started-as-an-achievement-developer.html#important-tips)
+[//]: # (TODO: Review the anchors)
+- Búsqueda básica en la RAM (familiarízate con el [inspector de memoria](/es/developer-docs/memory-inspector))
+- [Notación hexadecimal](/es/developer-docs/memory-inspector#decimal-binary-and-hexadecimal-notations)
+- [Valores delta](/es/developer-docs/delta-values)
+- [Contadores](/es/developer-docs/hit-counts)
+- [`PauseIf`](/es/developer-docs/flags/pauseif)
+- [`ResetIf`](/es/developer-docs/flags/resetif)
+- [Agrupado alt](/es/developer-docs/alt-groups)
+- Tamaños de memoria: [8 bits](/es/developer-docs/memory-inspector#8-bit-mode) y [un solo bit](/es/developer-docs/memory-inspector#single-bits)
+- Comparaciones de lógica de los logros además de `=`, como `>`, `<`, `!=`
+- [Agregar insignias a un logro](/es/general/ways-to-contribute)
+- [Crear descripciones precisas para logros](/es/guidelines/developers/code-of-conduct#basic-achievement-design-guidelines)
+- Agregar [protecciones](/es/developer-docs/getting-started-as-an-achievement-developer#important-tips) apropiadas
+- Hacer un [set de logros estable](/es/developer-docs/getting-started-as-an-achievement-developer#important-tips)
 
-**Nota**: Tu no necesitas el dominio total de todos estos conceptos para tener un set publicado, pero si los necesitas para obtener un rol como desarrollador completo.
+**Nota**: No necesitas dominar todos estos conceptos para que se publique un set, pero sí los necesitas para tener el rol completo de desarrollador.
 
-### Conceptos Avanzados
+### Conceptos avanzados
 
-Aquí hay una lista de algunos conceptos/técnicas. **No son requisito para convertirte en un Desarrollador**, pero están en listadas aquí para mostrar al desarrollador jr. (jr-dev) las posibilidades de la lógica de los logros.
+Aquí hay una lista de algunos conceptos/técnicas avanzadas.
+No son necesarios para convertirse en desarrollador**, pero están listados aquí para que el jr-dev conozca las posibilidades de la lógica de los logros.
 
-- Hit count como un temporizador (como en [este ejemplo](/es/developer-docs/real-examples/using-hit-counts-as-a-timer.html) y [este otro](/es/developer-docs/real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game.html))
-- [ResetIf Checkpoints](/es/developer-docs/achievement-templates.html#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
-- [ResetIf con Hitcount](/es/developer-docs/flags/resetif.html#resetif-with-hit-counts)
-- [PauseIf con Hitcount](/es/developer-docs/flags/pauseif.html#pauseif-with-hit-counts)
-- Las banderas [AddSource](/es/developer-docs/flags/addsource.html) y [SubSource](/es/developer-docs/flags/subsource.html)
-- [Bandera AddHits](/es/developer-docs/flags/addhits-subhits.html)
-- [Incrementar contador (`Valor en Memoria > Valor Delta` Contador)](/es/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment.html)
-- [Contador de Hits Delta, técnica de pausado](/es/developer-docs/achievement-templates.html#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
-- [Little endianness](/es/developer-docs/memory-inspector.html#endianness)
-- Tamaño de Memoria: [Lower4, Upper4](/es/developer-docs/memory-inspector.html#upper4-and-lower4), y [16-bit, 32-bit](/es/developer-docs/memory-inspector.html#1632-bit-mode)
-- [Rich Presence](/es/developer-docs/rich-presence.html) dinámico
-- [Tablas de Clasificación](/es/developer-docs/leaderboards.html)
-- [Resets pausables](/es/developer-docs/achievement-templates.html#conditional-resets)
-- [Contador en el incremento de un SubSource](/es/developer-docs/flags/subsource.html#using-subsource-to-count-increments)
+[//]: # (TODO: Review the anchors)
+- Contador como temporizador (como en [este ejemplo](/es/developer-docs/real-examples/using-hit-counts-as-a-timer.html) y [este otro](/es/developer-docs/real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game.html))
+- [Puntos de control ResetIf](/es/developer-docs/achievement-templates.html#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
+- [ResetIf con contadores](/es/developer-docs/flags/resetif.html#resetif-with-hit-counts)
+- [PauseIf con contadores](/es/developer-docs/flags/pauseif.html#pauseif-with-hit-counts)
+- Banderas [AddSource](/es/developer-docs/flags/addsource.html) y [SubSource](/es/developer-docs/flags/subsource.html)
+- Banderas [AddHits y SubHits](/es/developer-docs/flags/addhits-subhits.html)
+- [Incrementar contador (Contador `Mem > Delta`)](/es/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment.html)
+- [Contador de aciertos delta, técnica de pausa](/es/developer-docs/achievement-templates.html#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
+- [Poca endianidad](/es/developer-docs/memory-inspector.html#endianness)
+- Tamaño de memoria: [Lower4, Upper4](/es/developer-docs/memory-inspector.html#upper4-and-lower4), y [16 bits, 32 bits](/es/developer-docs/memory-inspector.html#1632-bit-mode)
+- [Estado de la actividad](/es/developer-docs/rich-presence.html) dinámica
+- [Tablas de clasificación](/es/developer-docs/leaderboards.html)
+- [Reinicios pausables](/es/developer-docs/achievement-templates.html#conditional-resets)
+- Contador de incrementos [SubSource](/es/developer-docs/flags/subsource.html#using-subsource-to-count-increments)
 
-Los [Ejemplos Reales](/es/developer-docs/real-examples.html) y las [Plantillas de Logros](/es/developer-docs/achievement-templates.html) son paginas útiles para ver como estas técnicas funcionan.
+Las páginas de [ejemplos reales](/es/developer-docs/real-examples.html) y [plantillas de logros](/es/developer-docs/achievement-templates.html) son recursos útiles para ver cómo funcionan esas técnicas.
+
+## Notas de código
+
+Los desarrolladores junior pueden crear y eliminar notas de código que hayan creado, pero no pueden eliminar ni editar ninguna nota hecha por otros.
+Los desarrolladores PUEDEN editar y eliminar notas de otros usuarios, y estos cambios se producen para todo el sitio.
 
 ## Practicando
 
-En orden para que se te conviertan familiares todas estas técnicas básicamente tienes que practicar. **Puedes utilizar cualquier juego para practicar**, incluso esos que ya cuentan con logros. Simplemente ten estas reglas en mente:
+Para familiarizarte con estas técnicas, debes practicar. **Puedes usar cualquier juego para practicar**, incluso aquellos que ya tienen logros. Solo ten en cuenta estas reglas:
 
-- **NO** borres/sobre-escribas cualquier Nota de Código existente.
+- **NO** borres/sobrescribas ninguna nota de código existente.
 
-- En esta fase de **practica**, mantén tu trabajo en local y **NO** subas ningún logro. Esto lo vas a hacer después cuando realmente encuentres un juego en el ya vallas a trabajar.
+- En esta fase de **práctica**, mantén tu trabajo en local y **NO** subas ningún logro. Lo harás más tarde cuando encuentres un juego en el que realmente vayas a trabajar.
 
-## Buscando un juego el cual trabajar
+## Revise su trabajo
 
-Sigue los [Reglamentos en el Código de Conducta del Desarrollador](/es/guidelines/developers/code-of-conduct.html#working-on-empty-sets) para así encontrar un juego en el cual trabajar. Básicamente lo que primero necesitas es declarar tus planes de trabajo sobre el juego en el que quieras trabajar en el foro del mismo, y mientras vallas trabajando en el juegos añadir tus planes mas detallados en el mismo foro.
+Después de haber creado varios logros, súbelos a Unofficial y luego crea una publicación en `#jr-dev-forum` en nuestro servidor de Discord (si no usas Discord, envía un mensaje a [RAdmin](http://retroachievements.org/user/RAdmin)) y pide que alguien revise tu trabajo.
 
-**Tip**: para tu primer set de logros es recomendable que escojas un juego que aun no tiene logros **y** que no es muy popular.
+**NO** pidas a otro desarrollador que promueva tus logros a Core sin una revisión adecuada.
 
-## Planeando tu Set de Logros
+De nuevo, **es extremadamente importante que estés abierto a recibir críticas constructivas y consejos útiles de la comunidad en cualquier momento**.
 
-Una vez que encuentras un juego el cual trabajar necesitas planificar tu Set de Logros.
+## ¿Estoy listo para obtener el estatus de desarrollador?
 
-Ten en cuenta conocer lo suficientemente bien el juego para así hacer un buen set. Checa su pagina de GameFAQs o algo parecido, intenta aprender mas sobre el videojuego, sus secretos y detalles. Aquí hay una buena guía que te podría servir de ayuda con esto: [Mapa de Desarrollo del Set](/es/developer-docs/set-development-roadmap.html).
+Una vez que los revisores de código hayan inspeccionado el código y los conceptos de tus logros, ellos y el administrador utilizarán la ["lista de conocimientos requeridos" mencionada anteriormente](#conocimiento-requerido) para determinar si estás listo.
+Si aún no estás completamente cualificado para ser desarrollador, pero tu conjunto está completo y estable, el conjunto será publicado.
+Luego puedes preguntar qué conceptos necesitas demostrar todavía para obtener el estatus de desarrollador.
 
-Postea tus planes en el foro oficial del juego, para que así la comunidad pueda dejar sugerencias y retroalimentacion. Esta actitud es requerida para todo tipo de desarrolladores y desarrolladores jr. (jr-dev).
+Para hacer que un desarrollador junior (jr-dev) tenga el mérito de recibir el estatus de desarrollador depende de:
 
-**IMPORTANTE!: estate abierto en recibir retroalimentacion y sugerencias.**
-
-**También mira**: [Diseño de Logros](/es/developer-docs/achievement-design.html), es una guía extensiva en como diseñar buenos e interesantes logros. No sobre el lado técnico sino el conceptual.
-
-## Publica tus logros en Unofficial para revisión
-
-Despues de haber creado varios logros, promuebelos a Unofficial y después contacta a un @mod o aun @code-reviewer en nuestro servidor de Discord (si no utilizas Discord, manda un mensaje a [RAdmin](http://retroachievements.org/user/RAdmin)) y pregunta por alguien que pueda reseñar tu trabajo.
-
-Otra vez, **es extremadamente importante que estés abierto a recibir critica constructiva y ayuda de parte de la comunidad en cualquier momento**.
-
-## Estoy listo para conseguir estatus de Desarrollador?
-
-Una vez que los Reseñadores de Código han inspeccionado el código de tus logros y conceptos, ellos y el administrador van a utilizar el ["Conocimiento Requerido" en la lista de requisitos de arriba](#Conocimiento-requerido) para determinar si estas listo. Si no estas completamente calificado para ser un desarrollador pero tu set esta completo y estable el set va a ser publicado. Puedes preguntar que conceptos aun necesitas para demostrar tu capacidad para obtener tu estatus como desarrollador.
-
-Los méritos para que un desarrollador jr. (jr-dev) reciba un estatus de desarrollador dependen en:
-
-- su habilidad en publicar trabajo que contengan el estándar del [Código de Conducta del Desarrollador](/es/guidelines/developers/code-of-conduct.html);
-- demostrar el [conocimiento requerido](#Conocimiento-requerido) y [conceptos avanzados](#advanced-techniques-es);
+- su capacidad para publicar trabajos que cumplan con los estándares del [código de conducta del desarrollador](/es/guidelines/developers/code-of-conduct);
+- la demostración de [conocimientos requeridos](#conocimiento-requerido) y [conceptos avanzados](#conceptos-avanzados);
 - la calidad y complejidad de su trabajo;
-- el tiempo y pensamiento que puso en planificar y trabajar los logros;
-- mostrando el deseo en utilizar el estatus como desarrollador con cuidado y responsabilidad;
-- la medida en que los puntos anteriores reflejan sus capacidades como desarrollador.
+- el tiempo y reflexión que dedicó a planificar y trabajar en los logros;
+- mostrando la voluntad de usar el estatus de desarrollador con cuidado y responsabilidad;
+- en qué medida los puntos anteriores reflejan sus capacidades como desarrollador.
 
-## Código de Conducta del Desarrollador
+## Código de conducta del desarrollador
 
-Una vez que hubieras conseguido tu estatus como desarrollador, tu **TIENES** que adherirte a el [Código de Conducta del Desarrollador](/es/guidelines/developers/code-of-conduct.html). Eso es extremadamente importante para crear un ambiente justo entre los Desarrolladores de Logros.
+Una vez que obtengas tu estatus de Desarrollador, **DEBES** adherirte al [código de conducta del desarrollador](/es/guidelines/developers/code-of-conduct).
+Es extremadamente importante para crear un ambiente justo entre los desarrolladores de logros.
