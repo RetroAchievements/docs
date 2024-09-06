@@ -3,13 +3,13 @@ title: How to Play Subsets
 description: Brief explanation of subsets with a simple tutorial on how to patch a ROM for a subset.
 ---
 
-# What are Subsets?
+# How to Play Subsets
 
+## What are Subsets?
 Subsets are typically extra sets for a game when certain achievements would just not fit into the main set. There are many types of subsets, but for more info on that topic see [this article](https://docs.retroachievements.org/guidelines/content/subsets.html#types-of-subsets). Subsets typically require an extra patch or sometimes just an alternate revision/version of the game.
 
-## How to Play Subsets
-
-In case that the subset you want to play requires a patch, follow these steps below. Similar steps can be followed when patching a ROM to play a hack.
+## Tutorial
+In case that the subset you want to play requires a patch, follow these steps below. These steps can be followed for patching a ROM to play a ROMhack.
 
 **Step 1:** Download the patch for the subset of your choice. We'll use [this subset](https://retroachievements.org/game/7596) as an example (in this case, Super Mario Land [Subset - Bonus]). Patches are hosted [here](https://github.com/RetroAchievements/RAPatches).
 
