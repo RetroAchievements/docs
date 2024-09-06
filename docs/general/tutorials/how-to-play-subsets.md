@@ -6,16 +6,16 @@ description: Brief explanation of subsets with a simple tutorial on how to patch
 # How to Play Subsets
 
 ## What are Subsets?
-Subsets are typically extra sets for a game when certain achievements would just not fit into the main set. There are many types of subsets, but for more info on that topic see [this article](https://docs.retroachievements.org/guidelines/content/subsets.html#types-of-subsets). Subsets typically require an extra patch or sometimes just an alternate revision/version of the game.
+Subsets are supplemental achievement sets for a game that contain achievements which may not be a good fit into the main (core) set. There are [many types of subsets](/guidelines/content/subsets.html#types-of-subsets). Subsets typically require an extra patch or sometimes an alternate revision/version of the game.
 
-## Tutorial
-In case that the subset you want to play requires a patch, follow these steps below. These steps can be followed for patching a ROM to play a ROMhack.
+## Getting Started
+When the subset you want to play requires a patch, follow these steps. These steps can be followed for patching a ROM to play a hack.
 
-**Step 1:** Download the patch for the subset of your choice. We'll use [this subset](https://retroachievements.org/game/7596) as an example (in this case, Super Mario Land [Subset - Bonus]). Patches are hosted [here](https://github.com/RetroAchievements/RAPatches).
+**Step 1:** Download the patch for the subset of your choice. We'll use [this subset](https://retroachievements.org/game/7596) as an example (in this case, Super Mario Land [Subset - Bonus]). Patches are hosted on [RAPatches](https://github.com/RetroAchievements/RAPatches).
 
 ![RetroAchievements hashes](https://github.com/user-attachments/assets/7221c0da-54f3-4480-8f2a-3a55c8f74f13)
 
-**Step 2:** Go to [this site](https://www.marcrobledo.com/RomPatcher.js/).
+**Step 2:** Go to [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), a free online tool to patch your ROM.
 
 ![Rom Patcher JS](https://github.com/user-attachments/assets/af91a240-fd2a-4a00-82b9-6ef9b675b960)
 
@@ -25,7 +25,7 @@ In case that the subset you want to play requires a patch, follow these steps be
 
 ![Patch field](https://github.com/user-attachments/assets/b158a568-b6ac-49f7-9473-6807ad638fe7)
 
-**Step 4:** Click/tap on "Apply patch" and download your patched ROM (to distinguish it from the original ROM, we recommend naming it like the subset or using "Use patch name for output").
+**Step 4:** Click/tap on "Apply patch" and download your patched ROM.
 
 ![Apply patch button](https://github.com/user-attachments/assets/a19f88a0-9233-4836-9622-2f5adbd05cbc)
 
