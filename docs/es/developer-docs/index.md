@@ -8,7 +8,7 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 1. [Cómo convertirse en desarrollador de logros](/es/developer-docs/how-to-become-an-achievement-developer): resumen de los pasos necesarios para conseguir la condición de desarrollador.
 
-2. [Empezando como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer): el primer contacto con las herramientas de desarrollo de logros (Inspector de memoria y otros diálogos de los logros). **SI ERES NOVATO, EMPIEZA AQUÍ!**
+2. [Primeros pasos como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer): el primer contacto con las herramientas de desarrollo de logros (Inspector de memoria y otros diálogos de los logros). **SI ERES NOVATO, EMPIEZA AQUÍ!**
 
 3. [Reglas del programa de desarrolladores junior (EN)](/developer-docs/jr-dev-rules): reglas que rigen el programa de desarrolladores junior
 
@@ -28,7 +28,7 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 11. [Diseño de logros](/es/developer-docs/achievement-design): una guía sobre cómo pensar y diseñar buenos logros, no en el lado técnico, sino el conceptual.
 
-12. [Mapa de desarrollo de un set](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
+12. [Establecer un plan de desarrollo](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
 
 13. [Revisión de los sets de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
 
@@ -36,16 +36,16 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 15. [Creación de medallas e iconos](/es/guidelines/content/badge-and-icon-guidelines): algunas guías y consejos sobre la creación de medallas/iconos.
 
-16. [Clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
+16. [Tablas de clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
 
-17. [Estados de la actividad](/es/developer-docs/rich-presence): cómo crear scripts sobre estados de la actividad.
+17. [Presencia enriquecida](/es/developer-docs/rich-presence): cómo crear scripts sobre presencia enriquecida.
 
-18. [Trabajando con la ROM correcta](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
+18. [Trabajando con la ROM adecuada](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
 
 19. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema.
 
 20. [Soporte y problemas de los emuladores](/es/general/emulator-support-and-issues): detalles sobre los núcleos admitidos y no admitidos, avances en las pruebas, etc.
 
-21. [Logros para ROM con hacks](/es/guidelines/content/achievements-for-rom-hacks): una guía detallada para desarrolladores en la inclusion apropiada (y la aprobación) para ROM con hacks.
+21. [Logros para ROM hacks](/es/guidelines/content/achievements-for-rom-hacks): una guía detallada para desarrolladores en la inclusion apropiada (y la aprobación) para ROM hacks.
 
 22. [Consejos específicos por consola](/es/developer-docs/console-specific-tips): conociendo las peculiaridades de tu consola favorita puede ayudar a inspeccionar la memoria.

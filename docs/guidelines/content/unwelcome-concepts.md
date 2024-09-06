@@ -9,6 +9,16 @@ Developers are encouraged to be creative with their achievement designs, but the
 
 [[toc]]
 
+## How to Report an Achievement as an Unwelcome Concept
+
+If you find an achievement that fits one or more criteria listed below, you may report it as an unwelcome concept by navigating to the achievement's page on the website and clicking the Report an Issue link, located below the description and author information. Follow the prompts on the resulting page.
+
+- Navigate to the Achievement Page
+- Click `Report an Issue`
+- Click `Message DevCompliance` button across from "*The achievement contains an unwelcome concept.*" A DM to the Developer Compliance Team will open.
+- Fill out the templated message with details about the unwelcome concept. Be specific and detailed. Reports with low details or that fail to describe why it meets the criteria will not be considered.
+- Click the `Submit` button when ready.
+
 ## Achievement Spam
 
 It is bad design to have achievements popping too frequently. An example of this is unlocking achievements for both defeating a boss as well as obtaining a specific item after the fight.
