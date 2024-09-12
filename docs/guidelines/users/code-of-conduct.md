@@ -108,13 +108,3 @@ No.
 No.
 
 Joining our Discord server is optional. But if you're in the list of banned users there, you cannot have the "Developer" role on the website.
-
-### If an achievement creator is banned from Discord will they lose the "Developer" role on the website?
-
-Yes.
-
-### If I'm banned from the Discord server but I still want to create achievements, what should I do?
-
-Send your appeal to [RAdmin](http://retroachievements.org/createmessage.php?t=RAdmin) or <ramodmail@gmail.com> to try and have your ban lifted.
-
-It doesn't really matter if you want to join the server or not, if you're in the list of banned users in our Discord server, you cannot have the "Developer" role on the website.

@@ -217,7 +217,7 @@
 
 #### GameCube
 
-- ⌛ Emulador standalone: **Dolphin**
+- ✅ Emulador standalone: **[Dolphin](https://retroachievements.org/download.php#dolphin)**
   - Testando
 - ⌛ núcleo libretro: **Dolphin**
   - Testando

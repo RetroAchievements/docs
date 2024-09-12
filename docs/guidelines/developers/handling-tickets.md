@@ -1,3 +1,8 @@
+---
+title: Handling Tickets
+description: Guidelines for managing and resolving achievement tickets, including steps for addressing your own tickets, handling tickets for others, and protocols for closing tickets based on various criteria.
+---
+
 # Handling Tickets
 
 [[toc]]

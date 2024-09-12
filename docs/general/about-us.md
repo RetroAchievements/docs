@@ -1,3 +1,8 @@
+---
+title: About Us
+description: Explore the history and roles within the RetroAchievements community, from its founding by Scott Breen to the dedicated teams that keep the project thriving today. Learn about the staff, their responsibilities, and how the community has evolved over the years.
+---
+
 # About Us
 
 ## RA Staff
@@ -35,11 +40,14 @@ Shared accounts used by their respective team members:
 - [DevCompliance](https://retroachievements.org/user/DevCompliance)
 - [DevQuest](https://retroachievements.org/user/DevQuest)
 - [QATeam](https://retroachievements.org/user/QATeam)
+- [RAArtTeam](https://retroachievements.org/user/RAArtTeam)
 - [RAdmin](https://retroachievements.org/user/RAdmin)
 - [RACheats](https://retroachievements.org/user/RCheats)
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
+- [TicketHounds](https://retroachievements.org/user/TicketHounds)
+- [WritingTeam](https://retroachievements.org/user/WritingTeam)
 
 ### Administrators
 
@@ -74,21 +82,24 @@ The team responsible to keep the this community a healthy place (at least for th
 
 ### Developer Compliance Team
 
-The team responsible for the adherance and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
+The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
-- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
+- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
+- [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
 - [Fridge](https://retroachievements.org/user/Fridge)
-- [GalacticSpear](https://retroachievements.org/user/GalacticSpear)
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
-- [Hotscrock](https://retroachievements.org/user/Hotscrock)
+- [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Layton](https://retroachievements.org/user/Layton)
-- [malasdair](https://retroachievements.org/user/malasdair)
+- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
+- [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
-- [televandalist](https://retroachievements.org/user/televandalist)
+- [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
+- [tomojin](https://retroachievements.org/user/tomojin)
 
 ### Quality Assurance Team
 

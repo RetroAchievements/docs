@@ -5,48 +5,38 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 # Soporte y problemas de los emuladores
 
-## Soporte para consolas
+### 32X
+
+- ✅ Núcleo de libretro: **PicoDrive**
+  - Varios juegos son problemáticos, usa BizHawk si un logro aparece como no soportado.
+  - Parece que aún tiene RAM sin mapear.
+- ✅ Núcleo de BizHawk: **PicoDrive**
+  - El más recomendado.
 
 ### 3DO Interactive Multiplayer
 
 - ✅ Núcleo de libretro: **Opera**
-  - Algunos problemas dependiendo de la BIOS
+  - Puede tener algunos problemas dependiendo de la BIOS.
 
 ### Amiga
 
-- ❓ Núcleo de libretro: **FS-UAE**
-- ❌ Núcleo de libretro: **P-UAE**
-  - Necesita un mapa de memoria para ver la memoria expuesta
-  - Bloquea los archivos de disco para que no se puedan abrir para hashing
-  - ¿Soporte para disco duro?
-- ❓ Núcleo de libretro: **PUAE 2021**
-- ❓ Núcleo de libretro: **UAE4ARM**
+- ❌ _No soportado_.
 
 ### Amstrad CPC
 
 - ✅ Núcleo de libretro: **Caprice32**
-  - El núcleo actualmente no soporta escritura en disco, lo que puede afectar el hashing cuando se implemente
-- ❌ Núcleo de libretro: **CrocoDS**
+  - El núcleo actualmente no soporta la escritura en disco, lo que puede afectar el hashing cuando se implemente.
 
 ### Apple II
 
 - ✅ Emulador independiente: **[RAppleWin](https://retroachievements.org/download.php#rapplewin)**
-- ⌛ Núcleo de BizHawk: **Virtu**
-  - En pruebas
-  - 4 Jun 2023 - Archivos woz no son soportados
-  - 4 Jun 2023 - Joystick no soportado. El teclado debe ser mapeado manualmente.
-  - 4 Jun 2023 - Se deben crear y cargar manualmente el paquete de discos múltiples para poder jugar con varios discos. Los discos están etiquetados genéricamente solo por índice.
 
 ### Arcade
 
 - ✅ Núcleo de libretro: **FinalBurn Neo**
-  - Algunas placas pueden no estar completamente expuestas
-- ✅ Núcleo de libretro: **flycast**
-  - Usado para Atomiswave, NAOMI, y NAOMI2
-- ❌ Núcleo de libretro: **FB Alpha**
-  - Desaconsejado
-- ❌ Núcleo de libretro: **MAME**
-- ❌ núcleo de BizHawk: **MAME**
+  - Algunas placas pueden no estar completamente expuestas.
+- ✅ Núcleo de libretro: **Flycast**
+  - Usado para Atomiswave y NAOMI 1/2.
 
 ### Arcadia 2001
 
@@ -54,637 +44,453 @@ description: Guía completa de compatibilidad y soporte de emuladores para Retro
 
 ### Arduboy
 
+- ✅ Núcleo de libretro: **Ardens**
 - ✅ Núcleo de libretro: **Arduous**
+  - No emula Arduboy FX.
 
 ### Atari 2600
 
 - ✅ Núcleo de libretro: **Stella**
-- ❓ Núcleo de libretro: **Stella 2014**
 - ✅ Núcleo de BizHawk: **Atari2600Hawk**
-  - Los logros que requieren reinicios de emulador no funcionan; Si ves alguno, abre un ticket para que se pueda arreglar el logro.
+  - Los logros que requieren reinicios del emulador no funcionan. Si ves alguno, abre un ticket para que se pueda arreglar el logro.
 
-#### Atari 5200
+### Atari 5200
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **atari800**
-  - Parece funcionar bien, pero el núcleo es un poco complicado de usar.
-    - La BIOS debe configurarse dentro del núcleo (F1 > Emulator Configuration > System ROM settings)
-    - No se pudieron determinar los controles; ¿es necesario configurar el joystick dentro del núcleo también?
-    - Permite cargar archivos arbitrarios desde el menú interno, lo que evita el hashing
-- ❌ Núcleo de libretro: **a5200**
-  - No expone la memoria
+- ❌ _No soportado_.
 
-#### Atari 7800
+### Atari 7800
 
 - ✅ Núcleo de libretro: **ProSystem**
 - ✅ Núcleo de BizHawk: **A7800Hawk**
 
-#### Atari Jaguar
+### Atari Jaguar
 
 - ✅ Núcleo de libretro: **Virtual Jaguar**
-  - Sin soporte para guardar estados
-  - [Muchos problemas con la emulación](https://github.com/libretro/virtualjaguar-libretro/issues/38)
+  - Sin soporte para estados guardados.
+  - [Muchos problemas con la emulación](https://github.com/libretro/virtualjaguar-libretro/issues/38).
+  - No emula Jaguar CD.
 - ✅ Núcleo de BizHawk: **Virtual Jaguar**
 
-#### Atari Jaguar CD
+### Atari Jaguar CD
 
 - ✅ Núcleo de BizHawk: **Virtual Jaguar**
 
-#### Atari Lynx
+### Atari Lynx
 
 - ✅ Núcleo de libretro: **Handy**
-  - El más recomendado
+  - El más recomendado.
 - ✅ Núcleo de libretro: **Beetle Lynx**
 - ✅ Núcleo de BizHawk: **Handy** (fork de Mednafen)
 
-#### Atari ST
+### Atari ST
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **Hatari**
-  - Memoria no expuesta
+- ❌ _No soportado_.
 
-#### Cassette Vision
+### Cassette Vision
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
+- ❌ _No soportado_.
 
-#### CHIP-8
+### CHIP-8
 
-- ❌ _No soportado_ - necesita una ID de consola, un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **Emux CHIP-8**
-- ❌ Núcleo de libretro: **JAXE**
-  - 16 Abr 22 - Parece estar listo cuando nosotros lo estemos
-  - Puede necesitar una lista negra de configuraciones para evitar la reducción de velocidad
+- ❌ _No soportado_.
 
-#### Commodore 128
+### Commodore 128
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **VICE x128**
+- ❌ _No soportado_.
 
-#### Commodore 64
+### Commodore 64
 
-- ❌ núcleo de libretro: **vice_x64**
-  - NOTA: El joystick está en el puerto 2 por defecto. Usa el botón JOY en el teclado virtual (select) para cambiarlo al puerto 1.
-  - 1 May 2022 - El reinicio no ejecuta automáticamente el juego
-- ⌛ Núcleo de BizHawk: **C64Hawk**
-  - En pruebas
-- ❓ Núcleo de libretro: **Frodo**
+- ❌ _No soportado_.
 
-#### ColecoVision
+### ColecoVision
 
 - ✅ Emulador independiente: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ Núcleo de libretro: **blueMSX**
 - ✅ Núcleo de BizHawk: **ColecoHawk**
-- ❌ Núcleo de libretro: **Gearcoleco**
 
-#### Elektronika BK-0010/0011
+### Dreamcast
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **M**
+- ✅ Núcleo de libretro: **Flycast**
+  - Desactiva el renderizado en hilos para usar estados guardados correctamente.
 
-#### Elektor TV Games Computer
+### Elektronika BK-0010/11
+
+- ❌ _No soportado_.
+
+### Elektor TV Games Computer
 
 - ✅ Emulador independiente: **[WinArcadia](https://amigan.1emu.net/releases/)**
 
-#### Enterprise 128
+### Enterprise 64/128
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **ep128emu**
+- ❌ _No soportado_.
 
-#### Fairchild Channel-F
+### Fairchild Channel F
 
-- ✅ Núcleo de libretro: **FreeChaF**
-- ❓ Núcleo de BizHawk: **ChannelFHawk**
+- ✅ Núcleo de libretro: **FreeChaF**.
 
-#### Famicom Disk System
+### Famicom Disk System
 
 - ✅ Emulador independiente: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ Núcleo de libretro: **FCEUmm**
 - ✅ Núcleo de libretro: **Mesen**
 
-#### FM Towns
+### FM Towns
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
+- ❌ _No soportado_.
 
-#### Game & Watch
+### Game & Watch
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **gw**
-  - No expone memoria
+- ❌ _No soportado_.
 
-#### Game Boy
+### Game Boy
 
 - ✅ Emulador independiente: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ Núcleo de libretro: **Gambatte**
-  - Más recomendado
+  - El más recomendado.
 - ✅ Núcleo de libretro: **Gearboy**
 - ✅ Núcleo de libretro: **mGBA**
 - ✅ Núcleo de libretro: **VBA-M**
-- ❓ Núcleo de libretro: **DoubleCherryGB**
-- ❓ Núcleo de libretro: **Emux GB**
-- ❓ Núcleo de libretro: **fixGB**
-- ❓ Núcleo de libretro: **SameBoy**
-- ❓ Núcleo de libretro: **TGB Dual**
-
-#### Game Boy Color
-
-- ✅ Emulador independiente: **[RAVBA](https://retroachievements.org/download.php#ravba)**
-- ✅ Emulador independiente: **[Pizza Boy GBC](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy)**
-  - Solo dispositivos Android
-  - No soporta RAIntegration en este momento, por lo que los desarrolladores de logros no pueden solucionar problemas potenciales.
-- ✅ Núcleo de libretro: **Gambatte**
-  - Más recomendado
-- ✅ Núcleo de libretro: **Gearboy**
-- ✅ Núcleo de libretro: **mGBA**
-- ✅ Núcleo de libretro: **VBA-M**
-- ✅ Núcleo de BizHawk: **Gambatte** (fork de Pokémon speedrunning)
+- ✅ Núcleo de BizHawk: **Gambatte** (fork de speedrunning de Pokémon)
 - ✅ Núcleo de BizHawk: **GBHawk**
-- ❓ Núcleo de libretro: **DoubleCherryGB**
-- ❓ Núcleo de libretro: **Emux GB**
-- ❓ Núcleo de libretro: **fixGB**
-- ❓ Núcleo de libretro: **SameBoy**
-- ❓ Núcleo de libretro: **TGB Dual**
 
-#### Game Boy Advance
+### Game Boy Color
 
 - ✅ Emulador independiente: **[RAVBA](https://retroachievements.org/download.php#ravba)**
-- ✅ Emulador independiente: **[Pizza Boy GBA](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygba)**
-  - Solo dispositivos Android
-  - No soporta RAIntegration en este momento, por lo que los desarrolladores de logros no pueden solucionar problemas potenciales.
+- ✅ Núcleo de libretro: **Gambatte**
+  - El más recomendado.
+- ✅ Núcleo de libretro: **Gearboy**
+- ✅ Núcleo de libretro: **mGBA**
+- ✅ Núcleo de libretro: **VBA-M**
+- ✅ Núcleo de BizHawk: **Gambatte** (fork de speedrunning de Pokémon)
+- ✅ Núcleo de BizHawk: **GBHawk**
+
+### Game Boy Advance
+
+- ✅ Emulador independiente: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ Núcleo de libretro: **VBA-M**
 - ✅ Núcleo de libretro: **Beetle GBA**
 - ✅ Núcleo de libretro: **VBA Next**
 - ✅ Núcleo de libretro: **mGBA**
-  - Más recomendado
+  - El más recomendado.
 - ✅ Núcleo de BizHawk: **mGBA**
-- ❓ Núcleo de libretro: **gpSP**
-- ❓ Núcleo de libretro: **Meteor**
-- ❓ Núcleo de libretro: **TempGBA**
 
-#### GameCube
+### GameCube
 
-- ⌛ Emulador independiente: **Dolphin**
-  - En pruebas
-- ⌛ Núcleo de libretro: **Dolphin**
-  - En pruebas
+- ✅ Emulador independiente: **[Dolphin](https://retroachievements.org/download.php#dolphin)**
+  - Se debe usar la versión 2407-68 o mayor.
+  - Verifique que "Activar renderizado de doble núcleo (aumento de velocidad)" esté desactivado ya que no está soportado.
 
-#### Game Gear
+### Game Gear
 
 - ✅ Emulador independiente: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ Núcleo de libretro: **Genesis Plus GX**
-- ✅ Núcleo de libretro: **GearSystem**
+- ✅ Núcleo de libretro: **Gearsystem**
 
-#### Genesis / Mega Drive
+### Genesis/Mega Drive
 
 - ✅ Núcleo de libretro: **Genesis Plus GX**
-  - Más recomendado
-- ✅ Núcleo de libretro: **Picodrive**
-- ❌ Núcleo de libretro: **Blastem**
-  - Aunque algunos logros pueden funcionar, el núcleo tiene problemas con la parte de la memoria RAM del juego.
+  - El más recomendado.
+- ✅ Núcleo de libretro: **PicoDrive**
 - ✅ Núcleo de BizHawk: **Genplus-gx** (Genesis Plus GX)
 
-#### Intellivision
+### Intellivision
 
-- ✅ Núcleo de libretro: **FreeIntV**
-  - Se bloquea cuando se reinicia el juego
-  - Algunos bloqueos que podrían estar relacionados con Intellivoice
+- ✅ Núcleo de libretro: **FreeIntv**
+  - Se bloquea cuando se reinicia el juego.
+  - Algunos bloqueos podrían estar relacionados con el Intellivoice no siendo emulado.
 - ✅ Núcleo de BizHawk: **IntelliHawk**
 
-#### Interton VC 4000
+### Interton VC 4000
 
 - ✅ Emulador independiente: **[WinArcadia](https://amigan.1emu.net/releases/)**
 
-#### J2ME
+### J2ME
 
-- ❌ _No soportado_ - necesita una ID de consola, un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **freej2me**
+- ❌ _No soportado_.
 
-#### Magnavox Odyssey 2
+### Magnavox Odyssey 2
 
 - ✅ Núcleo de libretro: **O2EM**
-- ❓ Núcleo de BizHawk: **O2Hawk**
 
-#### Master System | Mark III
+### Master System/Mark III
 
 - ✅ Emulador independiente: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ Núcleo de libretro: **Gearsystem**
 - ✅ Núcleo de libretro: **Genesis Plus GX**
-- ✅ Núcleo de libretro: **Picodrive**
-- ❓ Núcleo de BizHawk: **SMSHawk**
-- ❓ Núcleo de libretro: **Emux SMS**
+- ✅ Núcleo de libretro: **PicoDrive**
 
-#### Mega Duck
+### Mega Duck
 
 - ✅ Núcleo de libretro: **SameDuck**
 
-#### MicroW8
+### MicroW8
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **MicroW8**
+- ❌ _No soportado_.
 
-#### MS-DOS
+### MS-DOS
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **dosbox-core**
-- ❌ Núcleo de libretro: **dosbox-SVN**
-- ❌ Núcleo de libretro: **dosbox-pure**
-  - Necesita una forma de evitar el lanzamiento con parámetros de línea de comando especificados por el usuario
-  - Necesita una forma de evitar TSR
-  - Necesita una forma de desactivar los logros si el juego cae al símbolo del sistema
+- ❌ _No soportado_.
 
-#### MSX
+### MSX
 
 - ✅ Núcleo de libretro: **blueMSX**
-  - El hash depende de que el archivo .DSK no sea modificado
-  - Los archivos .DSK parecen no ser soportados si también requieren un cartucho. Hay una opción de núcleo para esto, pero no parece funcionar correctamente. Ver "SD Snatcher", que usó un cartucho de 'sonido'.
-- ❓ Núcleo de libretro: **fMSX**
 
-#### Neo Geo CD
+### Neo Geo CD
 
 - ✅ Núcleo de libretro: **NeoCD**
 
-#### Neo Geo Pocket
+### Neo Geo Pocket (Color)
 
 - ✅ Núcleo de libretro: **Beetle NeoPop**
-- ❓ Núcleo de libretro: **RACE**
 - ✅ Núcleo de BizHawk: **NeoPop** (Mednafen)
 
-#### Neo Geo Pocket Color
-
-- ✅ Núcleo de libretro: **Beetle NeoPop**
-- ❓ Núcleo de libretro: **RACE**
-- ✅ Núcleo de BizHawk: **NeoPop** (Mednafen)
-
-#### NES / Famicom
+### NES/Famicom
 
 - ✅ Emulador independiente: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ Núcleo de libretro: **FCEUmm**
-  - Más recomendado
+  - El más recomendado.
 - ✅ Núcleo de libretro: **Mesen**
 - ✅ Núcleo de libretro: **QuickNES**
-- ❌ Núcleo de libretro: **NEStopia**
-  - No mapea SRAM
-  - POR FAVOR DEJA DE USAR ESTO PARA LOGROS
-- ❓ Núcleo de libretro: **Emux NES**
-- ❓ Núcleo de libretro: **fixNES**
 
-#### Nintendo 3DS
+### Nintendo 3DS
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **Citra**
-  - Solo expone 64MB de memoria; la documentación sugiere que deberían ser 128MB.
-  - No soporta guardar estados
-- ❌ Núcleo de libretro: **Citra 2018**
-- ❌ Núcleo de libretro: **Citra Canary**
+- ❌ _No soportado_.
 
-#### Nintendo 64
+### Nintendo 64
 
 - ✅ Emulador independiente: **[RAProject64](https://retroachievements.org/download.php#rap64)**
 - ✅ Núcleo de libretro: **ParaLLEl N64**
 - ✅ Núcleo de libretro: **Mupen64Plus-Next**
-  - Más recomendado
-- ⌛ Núcleo de BizHawk: **Mupen64Plus**
-  - En pruebas (hay algunos problemas gráficos que pueden ser corregidos usando el plugin de angrylion)
+  - Separado en núcleos para OpenGL ES 2 y 3.
+  - El más recomendado.
 
-#### Nintendo DS
+### Nintendo DS
 
-- Soporte limitado para micrófono
+- Soporte limitado para micrófono.
 - ✅ Núcleo de libretro: **DeSmuME**
+  - No emula DSi.
 - ✅ Núcleo de libretro: **DeSmuME 2015**
+  - No emula DSi.
 - ✅ Núcleo de libretro: **melonDS**
-- ✅ Núcleo de libretro: **melonDS DS**
 - ✅ Núcleo de BizHawk: **melonDS**
 
-#### Nintendo DSi
+### Nintendo DSi
 
 - ✅ Núcleo de libretro: **melonDS DS**
-  - No soporta guardar estados en este momento
+  - No soporta los estados guardados en este momento.
 - ✅ Núcleo de BizHawk: **melonDS**
-- ❌ Núcleo de libretro: **DeSmuME**
-- ❌ Núcleo de libretro: **melonDS**
 
-#### Nokia N-Gage
+### Nokia N-Gage
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
+- ❌ _No soportado_.
 
-#### Oric
+### Oric
 
-- ❌ _No soportado_
+- ❌ _No soportado_.
 
-#### Palm OS
+### Palm OS
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **Mu**
+- ❌ _No soportado_.
 
-#### PC Engine | TurboGrafx-16 | SuperGrafx
+### PC Engine/TurboGrafx-16/SuperGrafx
 
 - ✅ Núcleo de libretro: **Beetle PCE Fast**
-  - Los juegos de SuperGrafx no funcionan en el núcleo rápido de Beetle PCE
+  - Los juegos de SuperGrafx no funcionan en el núcleo rápido de Beetle PCE.
 - ✅ Núcleo de libretro: **Beetle SuperGrafx**
-  - El más recomendado
+  - El más recomendado.
 - ✅ Núcleo de BizHawk: **PCEHawk**
 
-#### PC Engine CD | TurboGrafx-CD
+### PC Engine CD/TurboGrafx-CD
 
 - ✅ Núcleo de libretro: **Beetle PCE Fast**
 - ✅ Núcleo de libretro: **Beetle SuperGrafx**
-  - El más recomendado
+  - El más recomendado.
 - ✅ Núcleo de BizHawk: **PCEHawk**
-- ❌ Núcleo de libretro: **Beetle PCE**
-  - No expone la RAM necesaria para PC Engine CD
 
-#### PC-6001
+### PC-6001
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
+- ❌ _No soportado_.
 
-#### PC-8800
+### PC-8000/8800
 
-- ✅ Emulador independiente: **[RAQuasi88](https://retroachievements.org/download.php#raquasi88)**
-  - El más recomendado
-- ❌ Núcleo de libretro: **quasi88**
-  - NO RECOMENDADO
-  - PC-88VA no soportado
-  - 16 Abr 2022 - No se puede cargar m3u. El hash falla porque el núcleo bloquea el archivo de disco.
-  - 16 Abr 2022 - Al intentar cargar un juego de un solo disco en RALibretro solo muestra el mensaje "¿Cuántos discos?". Parece funcionar en RetroArch
-  - 16 Abr 2022 - RALibretro no proporciona una interfaz de subsistema para cargar juegos de múltiples discos
+- ✅ Emulador independiente: **[RAQUASI88](https://retroachievements.org/download.php#raquasi88)**
 
-#### PC-9800
+### PC-9800
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **Neko Project II Kai**
-  - Memoria no expuesta.
-    - Parece estar expuesta en algunos juegos dependiendo del tamaño de RAM seleccionado, pero parece ser la RAM de la máquina y no relacionada con el juego.
-- ❌ Núcleo de libretro: **Neko Project II**
+- ❌ _No soportado_.
 
-#### PC-FX
+### PC-FX
 
 - ✅ Núcleo de libretro: **Beetle PC-FX**
 - ✅ Núcleo de BizHawk: **T.S.T.** (Mednafen)
 
-#### Philips CD-I
+### Philips CD-i
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **CDi 2015**
-- ❌ Núcleo de libretro: **SAME CDi**
+- ❌ _No soportado_.
 
-#### Philips P2000
+### Philips P2000T
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **M2000**
+- ❌ _No soportado_.
 
-#### Pico-8
+### Pico
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **FAKE-08**
-- ❌ Núcleo de libretro: **Retro8**
+- ❌ _No soportado_.
 
-#### PlayStation
+### Pico-8
+
+- ❌ _No soportado_.
+
+### PlayStation
 
 - ✅ Emulador independiente: **[DuckStation](https://www.duckstation.org/wiki/Main_Page)**
-  - Puede haber pérdida de memoria y/o quemado al usar estados guardados. ¡Jugadores de softcore, cuidado!
+  - Puede haber pérdida de memoria y/o quemado al usar estados guardados.
 - ✅ Núcleo de libretro: **Beetle PSX HW**
-  - El más recomendado
+  - El más recomendado.
 - ✅ Núcleo de libretro: **Beetle PSX**
 - ✅ Núcleo de libretro: **SwanStation**
-- ❌ Núcleo de libretro: **PCSX ReARMed**
-  - Las BIOS no son necesarias para este núcleo y pondrán a cero el Kernal RAM.
-  - Técnicamente soportado; no recomendado.
-- ❓ Núcleo de BizHawk: **Octoshock** (Mednafen)
-- ❓ Núcleo de BizHawk: **Nymashock** (Mednafen)
-- ❓ Núcleo de libretro: **Rustation**
 
-#### PlayStation 2
+### PlayStation 2
 
 - ✅ Emulador independiente: **[PCSX2](https://pcsx2.net/)**
-  - PCSX2 es actualmente la **única opción oficialmente soportada** para ganar logros.
-- ❌ Emulador independiente: **AetherSX2**
-  - Ya no se desarrolla, tiene incompatibilidades conocidas
-- ❌ Emulador independiente: **NetherSX2**
-- ❌ Núcleo de libretro: **LRPS2**
-  - Aún en estado alfa
-  - No expone memoria
-- ❌ Núcleo de libretro: **Play!**
-  - Baja compatibilidad con la mayoría de los juegos comerciales
-  - Pantalla negra con sonido entrecortado
 
-#### PlayStation Portable
+### PlayStation 3
+
+- ❌ _No soportado_.
+
+### PlayStation Portable
 
 - ✅ Emulador independiente: **[PPSSPP](https://www.ppsspp.org/download/)**
   - No soporta RAIntegration en este momento, por lo que los desarrolladores de logros no pueden solucionar problemas potenciales.
 - ✅ Núcleo de libretro: **PPSSPP**
-  - Cargar estados guardados demasiado rápido puede hacer que se bloquee
-  - Algunos juegos tienen problemas gráficos
+  - Cargar estados guardados demasiado rápido puede hacer que se bloquee.
+  - Algunos juegos tienen problemas gráficos.
 
-#### PocketStation
+### PocketStation
 
-- ❌ _No soportado_ - necesita una ID de consola, un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **pockystation**
-  - El núcleo no parece funcional, incluso en RetroArch
+- ❌ _No soportado_.
 
-#### Pokemon Mini
+### Pokémon Mini
 
 - ✅ Núcleo de libretro: **PokeMini**
 
-#### SAM Coupé
+### SAM Coupé
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **SimCoupe**
-  - Aún en estado alfa
+- ❌ _No soportado_.
 
-#### Sega 32X
-
-- ✅ Núcleo de libretro: **PicoDrive**
-  - Varios juegos son problemáticos, usa BizHawk si un logro aparece como no soportado
-  - Parece que aún tiene RAM no mapeada
-- ✅ Núcleo de BizHawk: **PicoDrive**
-  - El más recomendado
-
-#### Sega CD
-
-- Parece que aún tiene RAM no mapeada
-- ✅ Núcleo de libretro: **Genesis Plus GX**
-- ✅ Núcleo de libretro: **Picodrive**
-
-#### Sega Dreamcast
-
-- ✅ Núcleo de libretro: **flycast**
-  - Se debe desactivar el renderizado en hilos para usar estados guardados
-- ❓ Núcleo de libretro: **Flycast GLES2**
-
-#### Sega Pico
-
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **picodrive**
-  - Necesita controles relacionados con el cambio de páginas en los libros adjuntos
-
-#### Sega Saturn
+### Saturn
 
 - ✅ Núcleo de libretro: **Beetle Saturn**
-  - El único núcleo _recomendado_
-- ❌ Núcleo de libretro: **Yabause**
-  - Técnicamente soportado; no recomendado.
-- ❌ Núcleo de libretro: **Kronos**
-  - Guardar y cargar estados a menudo bloquea la interfaz de usuario en RALibretro
-  - Técnicamente soportado; no recomendado.
-- ❓ Núcleo de libretro: **YabaSanshiro**
-- ⌛ Núcleo de BizHawk: **Saturnus** (Mednafen)
-  - En pruebas
 
-#### SG-1000
+### Sega CD
+
+- Parece que aún tiene RAM sin mapear.
+- ✅ Núcleo de libretro: **Genesis Plus GX**
+- ✅ Núcleo de libretro: **PicoDrive**
+
+### SG-1000
 
 - ✅ Emulador independiente: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ Núcleo de libretro: **Genesis Plus GX**
-  - Más recomendado
+  - El más recomendado.
 - ✅ Núcleo de libretro: **blueMSX**
-- ❌ Núcleo de libretro: **Gearsystem**
-  - Tiene una memoria significativa no expuesta
 
-#### Sharp X1
+### Sharp X1
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **X1 Millennium**
-  - 16 Abr 2022 - Las escrituras en disco modifican los medios de origen, lo que rompe el hashing
+- ❌ _No soportado_.
 
-#### Sharp X68K
+### Sharp X68000
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **px68k**
-  - Se bloquea RALibretro al cargar un juego
+- ❌ _No soportado_.
 
-#### SNES | Super Famicom | Satellaview | Sufami Turbo
+### SNES/Super Famicom/Satellaview/Sufami Turbo
 
 - ✅ Emulador independiente: **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)**
-- ✅ Núcleo de libretro: **Snes9x (Actual)**
-  - El más recomendado
+- ✅ Núcleo de libretro: **Snes9x**
+  - El más recomendado.
 - ✅ Núcleo de libretro: **Mesen-S**
-- ❓ Núcleo de libretro: **Beetle bsnes**
-- ❓ Núcleo de libretro: **Beetle Supafaust**
-- ❓ Núcleo de libretro: **bsnes**
-- ❓ Núcleo de libretro: **bsnes 2014 Accuracy**
-- ❓ Núcleo de libretro: **bsnes 2014 Balanced**
-- ❓ Núcleo de libretro: **bsnes 2014 Performance**
-- ❓ Núcleo de libretro: **bsnes C++98 (v085)**
-- ❓ Núcleo de libretro: **bsnes-hd beta**
-- ❓ Núcleo de libretro: **bsnes-mercury Accuracy**
-- ❓ Núcleo de libretro: **bsnes-mercury Balanced**
-- ❓ Núcleo de libretro: **bsnes-mercury Performance**
-- ❓ Núcleo de libretro: **higan Accuracy**
-- ❓ Núcleo de libretro: **nSide Balanced**
-- ❓ Núcleo de libretro: **Snes9x 2002**
-- ❓ Núcleo de libretro: **Snes9x 2005**
-- ❓ Núcleo de libretro: **Snes9x 2005+**
-- ❌ Núcleo de libretro: **Snes9x 2010**
-  - ¡¡¡POR FAVOR DEJA DE USAR ESTO PARA LOGROS!!!!
-- ❓ Núcleo de BizHawk: **BSNES**
-- ❓ Núcleo de BizHawk: **BSNESv115+**
 
-#### SpectraVideo SVI 318/328
+### SpectraVideo SVI 318/328
 
-- ❌ _No soportado_
-- ❌ Núcleo de libretro: **blueMSX**
+- ❌ _No soportado_.
 
-#### Super Cassette Vision
+### Super Cassette Vision
 
-- ❌ Núcleo de libretro: **EmuSCV**
-  - Incompleto según la [documentación de libretro](https://docs.libretro.com/library/emuscv/).
-  - No expone memoria. Parece [exportar un estado guardado](https://gitlab.com/MaaaX-EmuSCV/libretro-emuscv/-/blob/master/src/libretro.cpp#L223-229) a través de la interfaz RETRO_MEMORY_SAVE_RAM, que intentamos ajustar en $E000 ya que eso está marcado como RAM de cartucho para el sistema.
+- ❌ _No soportado_.
 
-#### Thomson TO8/TO8D
+### Thomson MO/TO
 
-- ❌ _No soportado_ - necesita un método de hashing
-- ❌ Núcleo de libretro: **Theodore**
-  - Parece funcionar
-  - Incierto cómo el núcleo maneja la escritura en disco/cinta. Puede afectar el hashing.
+- ❌ _No soportado_.
 
-#### TI-83
+### TI-83
 
-- ⌛ Núcleo de libretro: **Numero**
-  - En pruebas
-- ⌛ Núcleo de BizHawk: **TI83Hawk**
-  - En pruebas
+- ❌ _No soportado_.
 
-#### TIC-80
+### TIC-80
 
-- ❌ _No soportado_ - necesita un método de hashing
-- ❌ Núcleo de libretro: **TIC-80**
-  - No exporta memoria correctamente. Solo puede ver 8 bytes.
+- ❌ _No soportado_.
 
-#### Uzebox
+### Uzebox
 
 - ✅ Núcleo de BizHawk: **Uzem**
 - ✅ Núcleo de libretro: **Uzebox**
 
-#### Vectrex
+### Vectrex
 
-- ✅ Núcleo de libretro: **VecX**
+- ✅ Núcleo de libretro: **vecx**
 
-#### VIC-20
+### VIC-20
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **VICE xvic**
+- ❌ _No soportado_.
 
-#### Virtual Boy
+### Virtual Boy
 
 - ✅ Núcleo de libretro: **Beetle VB**
 - ✅ Núcleo de BizHawk: **Virtual Boyee** (Mednafen)
 
-#### VMU
+### VMU/VMS
 
-- ❌ _No soportado_ - necesita una ID de consola, un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **VeMUlator**
+- ❌ _No soportado_.
 
-#### WASM-4
+### WASM-4
 
-- ✅ Núcleo de libretro: **wasm4**
+- ✅ Núcleo de libretro: **WASM-4**
 
-#### Watara Supervision
+### Watara Supervision
 
-- ✅ Núcleo de libretro: **potator**
+- ✅ Núcleo de libretro: **Potator**
 
-#### Wii
+### Wii
 
-- ⌛ Emulador independiente: **Dolphin**
-  - En pruebas
-- ⌛ Núcleo de libretro: **Dolphin**
-  - En pruebas
+- ❌ _No soportado_.
 
-#### Wii U
+### Wii U
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
+- ❌ _No soportado_.
 
-#### WonderSwan
+### WonderSwan (Color)
 
 - ✅ Núcleo de libretro: **Beetle Cygne**
 - ✅ Núcleo de BizHawk: **Cygne** (Mednafen)
 
-#### WonderSwan Color
+### Xbox
 
-- ✅ Núcleo de libretro: **Beetle Cygne**
-- ✅ Núcleo de BizHawk: **Cygne** (Mednafen)
+- ❌ _No soportado_.
 
-#### XBOX
+### Xbox 360
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **DirectXbox**
-  - Aún en estado alfa
+- ❌ _No soportado_.
 
-#### Zeebo
+### Zeebo
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
+- ❌ _No soportado_.
 
-#### ZX81
+### ZX81
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **EightyOne**
-  - Memoria no expuesta
+- ❌ _No soportado_.
 
-#### ZX Spectrum
+### ZX Spectrum
 
-- ❌ _No soportado_ - necesita un método de hashing y un mapa de memoria
-- ❌ Núcleo de libretro: **FUSE**
-  - Requiere la capacidad de mapear el teclado al puerto 3
-  - Incierto sobre el soporte para guardar. Parece que no se puede insertar un disco de guardado
-- ⌛ Núcleo de BizHawk: **ZXHawk**
-  - El hashing necesita ser corregido
-  - En pruebas
+- ❌ _No soportado_.
 
 Más detalles sobre los núcleos de BizHawk se pueden encontrar [aquí](https://tasvideos.org/BizHawk).

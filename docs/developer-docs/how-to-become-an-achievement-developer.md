@@ -13,7 +13,7 @@ This document describes all the steps that any aspiring achievement developer mu
 
 ## Finding a Game to Work on
 
-Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developers/code-of-conduct#working-on-empty-sets) to find a game to work on achievements for it. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server. Feel free to declare your plans to work on the game in the topic, and post updates as you proceed.
+Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developers/code-of-conduct#working-on-empty-sets) to find a game. Ensure the game complies with the [Rules and Restrictions](/developer-docs/jr-dev-rules#rules-and-restrictions) before working on achievements. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server. Feel free to declare your plans to work on the game in the topic, and post updates as you proceed.
 
 **Tip**: for your first achievement set it's recommended to choose a game that doesn't yet have achievements **and** is not very popular.
 
@@ -47,7 +47,7 @@ Any aspiring dev must demonstrate understanding of the following concepts:
 - [Alt Groups](/developer-docs/alt-groups)
 - Memory sizes: [8-bit](/developer-docs/memory-inspector#8-bit-mode) and [single bit](/developer-docs/memory-inspector#single-bits)
 - Achievement logic comparisons besides `=`, such as `>`, `<`, `!=`
-- [Adding badges to an achievment](/general/ways-to-contribute)
+- [Adding badges to an achievement](/general/ways-to-contribute)
 - [Creating accurate descriptions for achievements](/guidelines/developers/code-of-conduct#basic-achievement-design-guidelines)
 - Add appropriate [protections](/developer-docs/getting-started-as-an-achievement-developer#important-tips)
 - Make a [stable achievement set](/developer-docs/getting-started-as-an-achievement-developer#important-tips)

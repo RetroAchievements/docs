@@ -1,3 +1,8 @@
+---
+title: Achievement Set Requirements
+description: This guide outlines the essential requirements for creating and submitting an achievement set, including game completion coverage, protection against easy unlocks, and proper game information.
+---
+
 # Achievement Set Requirements
 
 [[toc]]
@@ -18,7 +23,7 @@
 
 ## Recommended but Not Required
 
-- Basic [Rich Presence](/developer-docs/rich-presence) (only available for full-devs).
+- Basic [Rich Presence](/developer-docs/rich-presence).
 - Leaderboards for scores and time challenges.
 - Adding the Missable Type to applicable achievements, especially for RPGs and long games.
   - Avoid overuse. If most of an achievement set is marked as missable, the mark becomes meaningless for that set.

@@ -79,11 +79,11 @@ There are two ways to report broken achievements. In the emulator title bar go t
 
 1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only:
 
-![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif)
 
 2. For [RetroArch](#retroarch-emulators) users you can submit the report directly via website. On every achievement's page you'll see a link saying `Report an issue for this achievement`, like in the image below:
 
-![open-ticket-on-site](https://cdn.discordapp.com/attachments/484977989470126081/533009389490012171/unknown.png)
+![open-ticket-on-site](/public/report-an-issue.png)
 
 If you use the [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) you can also report problems from the website achievement page, but it is preferred that you use the method built into the emulators.
 
@@ -123,9 +123,8 @@ RA hash is an unique string of 32 hexadecimal numbers, to distinguish different 
 
 - If you use [Discord](https://discord.gg/dq2E4hE), post in the [#manual-unlock](https://discord.com/channels/310192285306454017/1029858289221116104) channel a request that follows the format of [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
 
-- If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievments.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
+- If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievements.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
   and a description that looks similar to this:
-
 
   ```
   Hi. I'm requesting a manual unlock. http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo

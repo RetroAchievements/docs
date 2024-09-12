@@ -11,7 +11,7 @@ Save and password protection is something that needs to be implemented on any se
 
 ## What Is It?
 
-Save and password protection is using conditions to prevent an achievement from unlocking upon loading a save or loading from a password. Since memory will initialize upon loading a save, many achivements could trigger at this time if it isn't present. This is to ensure that players can't go download a save from a website and use it to unlock most of the set.
+Save and password protection is using conditions to prevent an achievement from unlocking upon loading a save or loading from a password. Since memory will initialize upon loading a save, many achievements could trigger at this time if it isn't present. This is to ensure that players can't go download a save from a website and use it to unlock most of the set.
 
 What save and password protection does not do is prevent players from using their own saves or passwords. It does not mean doing something like blocking the achievement if the player visits the save or load screen (unless the achievement specifically forbids using saves).
 
@@ -28,7 +28,7 @@ Before even considering how to implement save protection make sure you take note
 - Does the game save in the RAM things for multiple slots?
 - What does the game save?
 - Is there a specific save/load screen with a way to determine the player is on that screen?
-- How/when does the memory initialize for the thing being checked?  
+- How/when does the memory initialize for the thing being checked?
 
 Keep all of this in mind because depending on how these things are handled, certain types of save protection may work better than others.
 
@@ -36,23 +36,23 @@ Keep all of this in mind because depending on how these things are handled, cert
 
 After implementing save or password protection, you should test the following:
 
- - The achievement does not trigger if you load a save after the event. Test multiple points in the game if possible.
- - The achievement triggers at the desired time.
- - The event does indeed happen at the specific location ID! Incorrect location ids can easily result in tickets if not tested.
+- The achievement does not trigger if you load a save after the event. Test multiple points in the game if possible.
+- The achievement triggers at the desired time.
+- The event does indeed happen at the specific location ID! Incorrect location ids can easily result in tickets if not tested.
 
 ## Types of Save Protection
 
 Now on to the different types. Keep in mind that this isn't an all inclusive list, this is just the most common and useful forms of save protection. Other forms may also work for a specific achievement or game depending on what is present in the RAM. The first step to good save protection is always going to be having a solid foundation of RAM digging for the game so there is plenty to work with and use. The better understood the game's memory is, the easier good save protection is to implement.
 
-### Location ID Checks 
+### Location ID Checks
 
 This is a simple condition checking that the player is in the location where the achievement would trigger during normal conditions of play. For example if the achievement is beating a boss, then a check that the player is at the location the boss is found in would be a good addition.
 
-| ID  | Flag | Type  | Memory       | Cmp | Type  | Mem/Val    | Hits |
-| ---:|:---- |:----- |:------------ |:---:|:----- |:---------- |:----:|
-| 1   |      | Mem   | 0x`LOCATION` |  =  | Value | `BOSSROOM` |  0   |
-| 2   |      | Delta | 0x`BOSSDEAD` |  =  | Value | `FALSE`    |  0   |
-| 3   |      | Mem   | 0x`BOSSDEAD` |  =  | Value | `TRUE`     |  0   |
+|  ID | Flag | Type  | Memory       | Cmp | Type  | Mem/Val    | Hits |
+| --: | :--- | :---- | :----------- | :-: | :---- | :--------- | :--: |
+|   1 |      | Mem   | 0x`LOCATION` |  =  | Value | `BOSSROOM` |  0   |
+|   2 |      | Delta | 0x`BOSSDEAD` |  =  | Value | `FALSE`    |  0   |
+|   3 |      | Mem   | 0x`BOSSDEAD` |  =  | Value | `TRUE`     |  0   |
 
 **Works well in:**
 
@@ -72,16 +72,16 @@ One of the best things about this form of save protection is that it combines ve
 
 This is simply checking that the game state on the previous frame wasn't a loading screen/state. This is effective when the state changes from loading to gameplay on the frame after the data is loaded. By ensuring that we weren't in a loading state, any of the Delta to Mem checks will be blocked.
 
-| ID  | Flag | Type  | Memory        | Cmp | Type  | Mem/Val | Hits |
-| ---:|:---- |:----- |:------------- |:---:|:----- |:------- |:----:|
-| 1   |      | Delta | 0x`GAMESTATE` | !=  | Value | `LOAD`  |  0   |
+|  ID | Flag | Type  | Memory        | Cmp | Type  | Mem/Val | Hits |
+| --: | :--- | :---- | :------------ | :-: | :---- | :------ | :--: |
+|   1 |      | Delta | 0x`GAMESTATE` | !=  | Value | `LOAD`  |  0   |
 
 If you do not have a game state, you can often check that the location ID is stable and not invalid (often location = 0x00 is not a valid location)
 
-| ID  | Flag | Type  | Memory       | Cmp | Type  | Mem/Val    | Hits |
-| ---:|:---- |:----- |:------------ |:---:|:----- |:---------- |:----:|
-| 1   |      | Mem   | 0x`LOCATION` | !=  | Delta | `LOCATION` |  0   |
-| 1   |      | Mem   | 0x`LOCATION` | !=  | Value | `INVALID`  |  0   |
+|  ID | Flag | Type | Memory       | Cmp | Type  | Mem/Val    | Hits |
+| --: | :--- | :--- | :----------- | :-: | :---- | :--------- | :--: |
+|   1 |      | Mem  | 0x`LOCATION` | !=  | Delta | `LOCATION` |  0   |
+|   1 |      | Mem  | 0x`LOCATION` | !=  | Value | `INVALID`  |  0   |
 
 ** Works well in:**
 
@@ -96,17 +96,17 @@ If you do not have a game state, you can often check that the location ID is sta
 
 ### Delta Checks
 
-This is simply checking that the delta of something is or is not true. Most often this will be used in AddSource chains to check that something is going fron n-1 to n, but also can be used for things like score to check that the delta is greater than 0 and less than the target. One can also check that the delta of the game state isn't the save/load screen for a very simple, but solid form of protection. This also can involve something like checking that a stage goes from complete to incomplete or the player goes from stage 1 to stage 2 or from stage 1 back to the hub world.
+This is simply checking that the delta of something is or is not true. Most often this will be used in AddSource chains to check that something is going from n-1 to n, but also can be used for things like score to check that the delta is greater than 0 and less than the target. One can also check that the delta of the game state isn't the save/load screen for a very simple, but solid form of protection. This also can involve something like checking that a stage goes from complete to incomplete or the player goes from stage 1 to stage 2 or from stage 1 back to the hub world.
 
-| ID  | Flag      | Type  | Memory        | Cmp | Type  | Mem/Val | Hits |
-| ---:|:--------- |:----- |:------------- |:---:|:----- |:------- |:----:|
-| 1   | AddSource | Delta | 0x`FLAG1`     |     |       |         |  0   |
-| 2   | AddSource | Delta | 0x`FLAG2`     |     |       |         |  0   |
-| 3   |           | Delta | 0x`FLAG3`     |  =  | Value | 2       |  0   |
-| 4   | AddSource | Mem   | 0x`FLAG1`     |     |       |         |  0   |
-| 5   | AddSource | Mem   | 0x`FLAG2`     |     |       |         |  0   |
-| 6   |           | Mem   | 0x`FLAG3`     |  =  | Value | 3       |  0   |
-| 7   |           | Delta | 0x`GAMESTATE` | !=  | Value | `LOAD`  |  0   |
+|  ID | Flag      | Type  | Memory        | Cmp | Type  | Mem/Val | Hits |
+| --: | :-------- | :---- | :------------ | :-: | :---- | :------ | :--: |
+|   1 | AddSource | Delta | 0x`FLAG1`     |     |       |         |  0   |
+|   2 | AddSource | Delta | 0x`FLAG2`     |     |       |         |  0   |
+|   3 |           | Delta | 0x`FLAG3`     |  =  | Value | 2       |  0   |
+|   4 | AddSource | Mem   | 0x`FLAG1`     |     |       |         |  0   |
+|   5 | AddSource | Mem   | 0x`FLAG2`     |     |       |         |  0   |
+|   6 |           | Mem   | 0x`FLAG3`     |  =  | Value | 3       |  0   |
+|   7 |           | Delta | 0x`GAMESTATE` | !=  | Value | `LOAD`  |  0   |
 
 **Works well in:**
 
@@ -119,27 +119,29 @@ This is simply checking that the delta of something is or is not true. Most ofte
 - Games where loaded memory may not all initialize in the same frame
 - Games where values only populate on a specific screen.
 
-### Prior Checks 
+### Prior Checks
 
 This isn't as commonly used, especially by itself, but is great when dealing with a situation like an event happening in a common location. Here's an example of prior being used as save protection:
 
-In this case, the event happens in a common hub location where players are often going to save. On top of that, the game even prompts the player to save right after the event happens and when they load that save, it will be in the same location as the event.  Plus the game allows the player to save and load at any point outside of battle and cutscenes. That's a big problem since in this case a player could unlock the achievement by loading a save with many other types of save protection.
+In this case, the event happens in a common hub location where players are often going to save. On top of that, the game even prompts the player to save right after the event happens and when they load that save, it will be in the same location as the event. Plus the game allows the player to save and load at any point outside of battle and cutscenes. That's a big problem since in this case a player could unlock the achievement by loading a save with many other types of save protection.
 
-So a prior is used on the location id in conditon 1 to ensure that the player got to that location via playing the game as normal rather than loading a save. Upon loading a save, the prior would be 0 or the value from another save so that condition would not be true. When playing as normal the prior would be the value in condition 1.
+So a prior is used on the location id in condition 1 to ensure that the player got to that location via playing the game as normal rather than loading a save. Upon loading a save, the prior would be 0 or the value from another save so that condition would not be true. When playing as normal the prior would be the value in condition 1.
 
-| ID  | Flag | Type  | Memory        | Cmp | Type  | Mem/Val       | Hits |
-| ---:|:---- |:----- |:------------- |:---:|:----- |:------------- |:----:|
-| 1   |      | Prior | 0x`LOCATION`  |  =  | Value | `PROLOGUE`    |  0   |
-| 1   |      | Mem   | 0x`LOCATION`  |  =  | Value | `COMMON_AREA` |  0   |
-| 2   |      | Delta | 0x`EVENTFLAG` |  =  | Value | `FALSE`       |  0   |
-| 3   |      | Mem   | 0x`EVENTFLAG` |  =  | Value | `TRUE`        |  0   |
+|  ID | Flag | Type  | Memory        | Cmp | Type  | Mem/Val       | Hits |
+| --: | :--- | :---- | :------------ | :-: | :---- | :------------ | :--: |
+|   1 |      | Prior | 0x`LOCATION`  |  =  | Value | `PROLOGUE`    |  0   |
+|   1 |      | Mem   | 0x`LOCATION`  |  =  | Value | `COMMON_AREA` |  0   |
+|   2 |      | Delta | 0x`EVENTFLAG` |  =  | Value | `FALSE`       |  0   |
+|   3 |      | Mem   | 0x`EVENTFLAG` |  =  | Value | `TRUE`        |  0   |
 
 Don't forget though that prior does not change until the value itself changes. Most often delta is going to be best, but prior is very useful when a value changes at a different point than when the achievement should trigger and that previous value is necessary to check to ensure the player reached that point via normal gameplay. If the value has not changed, the prior defaults to 0 or if switching to another save it will have the value from the previous save lingering. Be very careful when using prior since used wrongly it can result in things triggering at the wrong time or not at all. For jr devs, expect that when prior is being used for save protection to have to explain to the code reviewer during the review process why prior was used because it is a commonly misused flag and is rarely used in general. However, it does have plenty of use like in the example above.
 
 **Works well in:**
+
 - Events happening in common locations
 
 **Does not work well in:**
+
 - Anything where a delta check or other form of save protection is better
 - Anything that could happen before a change occurs in the address
 - Games where you can swap saves readily and a prior from a previous save could cause problems with the achievement triggering
@@ -148,19 +150,19 @@ Don't forget though that prior does not change until the value itself changes. M
 
 In RPGs and other games with linear progression with event flags this will be the most useful form of save protection. It's very simple to add. All that is done is check that the next event has not been done yet. So there would be a check that the bitflag is 0 if normal bitflags are used, 1 if reverse bitflags are used.
 
-Be cautious when using this!  It won't work well if the event flag used is actually an optional event. Some games also may untoggle or reuse event flags later on and those should not be used. This also won't work as well if sequence breaking is possible.
+Be cautious when using this! It won't work well if the event flag used is actually an optional event. Some games also may untoggle or reuse event flags later on and those should not be used. This also won't work as well if sequence breaking is possible.
 
 Generally, you should combine this with any other form of save protection.
 
 Another great use of event flags for save protection is to check that the delta of a very early event or the event before the achievement = 1 (or 0 with reverse bitflags).
 
-| ID  | Flag | Type  | Memory         | Cmp | Type  | Mem/Val     | Hits |
-| ---:|:---- |:----- |:-------------- |:---:|:----- |:----------- |:----:|
-| 1   |      | Mem   | 0x`LOCATION`   |  =  | Value | `EVENT_LOC` |  0   |
-| 2   |      | Delta | 0x`EARLYEVENT` |  =  | Value | `COMPLETE`  |  0   |
-| 3   |      | Delta | 0x`ACHV_EVENT` |  =  | Value | `FALSE`     |  0   |
-| 4   |      | Mem   | 0x`ACHV_EVENT` |  =  | Value | `TRUE`      |  0   |
-| 5   |      | Mem   | 0x`NEXT_EVENT` |  =  | Value | `FALSE`     |  0   |
+|  ID | Flag | Type  | Memory         | Cmp | Type  | Mem/Val     | Hits |
+| --: | :--- | :---- | :------------- | :-: | :---- | :---------- | :--: |
+|   1 |      | Mem   | 0x`LOCATION`   |  =  | Value | `EVENT_LOC` |  0   |
+|   2 |      | Delta | 0x`EARLYEVENT` |  =  | Value | `COMPLETE`  |  0   |
+|   3 |      | Delta | 0x`ACHV_EVENT` |  =  | Value | `FALSE`     |  0   |
+|   4 |      | Mem   | 0x`ACHV_EVENT` |  =  | Value | `TRUE`      |  0   |
+|   5 |      | Mem   | 0x`NEXT_EVENT` |  =  | Value | `FALSE`     |  0   |
 
 **Works well in:**
 
@@ -168,7 +170,7 @@ Another great use of event flags for save protection is to check that the delta 
 
 **Does not work well in:**
 
-- Achivements for optional events that aren't missable
+- Achievements for optional events that aren't missable
 - Achievements where sequence breaking is possible
 - Games with large spans of time between events (especially if the player can save before the next event)
 - Events that can be done in any order.
@@ -177,11 +179,11 @@ Another great use of event flags for save protection is to check that the delta 
 
 A solid form of save protection for games where the player can save or load at any time. There are two ways this can be implemented:
 
-1. Checking that the timer is not a default value: Typically this will be a simple delta check on the timer that it is either not 0 or whatever the intial value is for the game.
+1. Checking that the timer is not a default value: Typically this will be a simple delta check on the timer that it is either not 0 or whatever the initial value is for the game.
 
-| ID  | Flag | Type  | Memory       | Cmp | Type  | Mem/Val         | Hits |
-| ---:|:---- |:----- |:------------ |:---:|:----- |:--------------- |:----:|
-| 1   |      | Mem   | 0x`GAMETIME` |  =  | Value | `NEW_GAME_TIME` |  0   |
+|  ID | Flag | Type | Memory       | Cmp | Type  | Mem/Val         | Hits |
+| --: | :--- | :--- | :----------- | :-: | :---- | :-------------- | :--: |
+|   1 |      | Mem  | 0x`GAMETIME` |  =  | Value | `NEW_GAME_TIME` |  0   |
 
 **Works well in:**
 
@@ -192,14 +194,14 @@ A solid form of save protection for games where the player can save or load at a
 
 - Games that allow the player to load their save at any time and the timer swaps immediately to the new save's value.
 
-2. Using SubSource to check for large changes in the timer: 
+2. Using SubSource to check for large changes in the timer:
 
-During most of gameplay this will remain true, but when a save is loaded this will not be true for a single frame, which is the most essential frame where the memory initializes. Thus it will prevent the achievements from unlocking when changing to a diffrent save or loading a save from the title screen.
+During most of gameplay this will remain true, but when a save is loaded this will not be true for a single frame, which is the most essential frame where the memory initializes. Thus it will prevent the achievements from unlocking when changing to a different save or loading a save from the title screen.
 
-| ID  | Flag      | Type  | Memory       | Cmp | Type  | Mem/Val          | Hits |
-| ---:|:--------- |:----- |:------------ |:---:|:----- |:---------------- |:----:|
-| 1   | SubSource | Delta | 0x`GAMETIME` |     |       |                  |  0   |
-| 1   |           | Mem   | 0x`GAMETIME` |  <  | Value | `TOO_LARGE_INCR` |  0   |
+|  ID | Flag      | Type  | Memory       | Cmp | Type  | Mem/Val          | Hits |
+| --: | :-------- | :---- | :----------- | :-: | :---- | :--------------- | :--: |
+|   1 | SubSource | Delta | 0x`GAMETIME` |     |       |                  |  0   |
+|   1 |           | Mem   | 0x`GAMETIME` |  <  | Value | `TOO_LARGE_INCR` |  0   |
 
 **Works well in:**
 

@@ -1,3 +1,8 @@
+---
+title: Code Notes
+description: A guide for developers on creating clear and consistent code notes in RetroAchievements. Learn how to document memory addresses, specify address sizes, and ensure future developers can easily understand and use your notes.
+---
+
 # Code Notes
 
 [[toc]]
@@ -108,7 +113,7 @@ There are numerous way a game can store the players scores with memory, as such 
 
 #### Good Examples
 
-Good examples here will specify the size, which digits of the score are being represented, how the on screen score is calculated from the value in memory, Binary Coded Decimal (BCD) notation if applicable, as well any any other important details.
+Good examples here will specify the size, which digits of the score are being represented, how the on screen score is calculated from the value in memory, Binary Coded Decimal (BCD) notation if applicable, as well as any other important details.
 
 ```
 [1 byte] 1P display score, digits 0000XX00 in BCD

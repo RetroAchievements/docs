@@ -85,7 +85,7 @@ We want to award if the player finishes the level `N` while time is greater than
 
 In this example we consider a game where there is no in-game timer to use for a speed run.
 
-We want to award if the player finishes the level `N` before a a time `T` in the level, calculated as number of frames, has passed.
+We want to award if the player finishes the level `N` before a time `T` in the level, calculated as number of frames, has passed.
 
 | ID  | Flag      | Type  | Memory  | Cmp | Type  | Mem/Val | Hits           |
 | --- | --------- | ----- | ------- | --- | ----- | ------- | -------------- |

@@ -83,6 +83,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/pt/general/emulator-support-and-issues",
         },
         // {
+        //   text: "How RA Works",
+        //   link: "/general/how-ra-works",
+        // },
+        // {
         //   text: "Maneiras de Contribuir",
         //   link: "/pt/general/ways-to-contribute",
         // },
@@ -112,6 +116,16 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         // },
       ],
     },
+    // {
+    //  text: "Teams",
+    //  collapsed: false,
+    //  items: [
+    //    {
+    //      text: "Quality Assurance",
+    //      link: "/general/teams/qa-team",
+    //    },
+    //  ],
+    // },
     {
       text: "Tutoriais",
       collapsed: false,
@@ -124,6 +138,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Jogos Multi-Disco",
           link: "/pt/general/tutorials/multi-disc-games",
         },
+        // {
+        //   text: "Turbo Buttons",
+        //   link: "/general/tutorials/turbo-button",
+        // },
         // {
         //   text: "Trabalhando com DLC para o PlayStation Portable",
         //   link: "/pt/general/tutorials/working-with-dlc-for-the-psp",
@@ -219,6 +237,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       text: "Revisões do Conjunto de Conquistas",
     //       link: "/pt/guidelines/content/achievement-set-revisions",
     //     },
+            // {
+        //   text: "Adding Additional Hashes",
+        //   link: "/pt/guidelines/content/adding-hashes",
+        // },
     //     {
     //       text: "Conquistas para ROM Hacks",
     //       link: "/pt/guidelines/content/achievements-for-rom-hacks",
@@ -258,6 +280,14 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Começando como Desenvolvedor de Conquistas",
           link: "/pt/developer-docs/getting-started-as-an-achievement-developer",
         },
+        // {
+        //   text: "Junior Developer Program",
+        //   link: "/developer-docs/jr-dev-rules",
+        // },
+        // {
+        //   text: "Emulator Setup for Developers",
+        //   link: "/developer-docs/emulator-setup-for-developers",
+        // },
         // {
         //   text: "Identificação de Jogos",
         //   link: "/pt/developer-docs/game-identification",

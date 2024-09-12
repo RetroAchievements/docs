@@ -1,4 +1,9 @@
-# How to configure OBS Studio to see the popups
+---
+title: How to Configure OBS Studio to See Achievement Popups
+description: Learn how to configure OBS Studio to capture RetroAchievements popups.
+---
+
+# How to Configure OBS Studio to See Achievement Popups
 
 In "Window Capture" mode, OBS Studio will not capture the popups. The popups are rendered using a "Layered Window", and OBS Studio removed support for capturing layered windows
 

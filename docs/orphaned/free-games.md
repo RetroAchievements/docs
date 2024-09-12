@@ -1,3 +1,8 @@
+---
+title: Free Games
+description: Find games that are completely and legally free to download and play on your emulators. Many of them have achievement sets on RetroAchievements.
+---
+
 # Free Games
 
 In this page you can find games that are **completely and legally free download and play on your emulators**. Many of them have an achievement set at [RetroAchievements.org](https://retroachievements.org).

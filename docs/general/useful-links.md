@@ -1,3 +1,8 @@
+---
+title: Useful Links
+description: Explore a collection of valuable resources for game development, ROM hacking, and achievement creation. This page includes links to game guides, debugging tools, checksum utilities, and more to assist you in various aspects of gaming and development.
+---
+
 # Useful Links
 
 ## https://gamefaqs.gamespot.com/
