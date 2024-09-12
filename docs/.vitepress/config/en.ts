@@ -131,6 +131,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Working with DLC for the PlayStation Portable",
           link: "/general/tutorials/working-with-dlc-for-the-psp",
         },
+        {
+          text: "How to Play Subsets",
+         link: "/general/tutorials/how-to-play-subsets",
+        },
       ],
     },
   ];
