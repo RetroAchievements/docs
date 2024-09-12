@@ -20,6 +20,10 @@ Each are assigned their own Discord role:
 | Rescores           | `@rescore`         | React with 💯 [here](https://discord.com/channels/310192285306454017/400088351224627201/770045526833496084) | achievement creators      |
 | Icon Gauntlet      | `@icon-gauntlet`   | React with 🎨 [here](https://discord.com/channels/310192285306454017/340033893522604062/758854476139593748) | any verified discord user |
 
+::: info NEW DEVELOPERS
+New developers will given all three roles upon graduating from the Junior Developer program.
+:::
+
 ## Standard Revisions
 
 Any developer wanting to revise a set need to:
@@ -36,13 +40,38 @@ Any developer wanting to revise a set need to:
 
 3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible, but if you have only a vague plan, provide a general idea of what you want to do and don't go too far from that idea.
 
-4. **Start a vote** by posting a link to that topic in `#revision-voting`. If you're not on Discord, another developer can do it for you. Whomever creates the vote must ping `@revision-voting`. Ping active authors that did not respond to contact. Ping active authors that requested a ping at vote start after the contact.
+4. **Start a Discussion** by creating a new post in `#revision-discussion-forum`.
+   - Your post title should include the game name and console. Ex: "Revision proposal - Super Mario Bros. (NES)"
+   - Your initial comment must duplicate the plan you posted in the game's forum and link to the game page and forum post with the plan.
+   - Then, ping `@revision-voting` with a message of "Revision discussion for *Game Name*" (or equivalent) as a follow-up comment.
+   - Discussion shall be held for a minimum of 1 day (24 hours) after which if satisfied with the plan you may move on to the voting phase of a revision.
+   - Be sure to **Address concerns**: Respond to any comments, concerns, or objections from the community (both in Discord and on the site Forum), and adjust the plan as necessary. All plan adjustments must be made before the poll is created.
+   - Plans must be finalized before voting. No edits are permitted after the voting starts.
 
-5. **Address concerns**: Once a revision vote is posted, the developer can address any comments, concerns, and objections the community may have to the plan.
+5. **Start a vote** by posting a link to that topic in `#revision-voting` after the discussion period has ended.
+  - Whomever creates the vote must ping `@revision-voting`. A voting template is available in the pins.
+  - Voting shall be set to a duration of 3 days (72 hours).
+  - Edits to plans after the vote has started will render the vote null and void and a new discussion must take place.
+  - Ping active authors that did not respond to contact.
+  - Ping active authors that requested a ping at vote start after the contact.
+  - Before submiting, tap on the end of each ping and select the user or role to ensure it is active and will send out the ping.
+  - After the end of the poll, if a 60% majority was reached, the revision passes and may proceed.
+  
+ ::: warning FINALIZE BEFORE VOTING
+ Any changes to the revision plan after the poll has been created will result in the cancellation of the revision. In this case, the revision process will need to start over from the beginning. Repeated violations of this rule may lead to disciplinary action.
+ :::
+ 
+ ::: warning DISCUSSION ETIQUETTE
+ Discussion threads should focus on constructive criticism and plan feedback. Any inappropriate behavior or personal attacks against the revision plan proposer will result in the user being removed from the thread.
+ :::
 
-6. The vote is approved/rejected after 24 hours and is pass/fail by simple majority.
+::: info ANONYMOUS REVISION PROPOSALS
+If desired, a developer can choose to propose a revision plan while remaining anonymous throughout the voting process. Simply contact a mod or admin to request that the plan be presented on your behalf.
+:::
 
-**Note:** Anonymous revision proposals - If desired, a developer can choose to propose a revision plan while remaining anonymous throughout the voting process. Simply contact a mod or admin to request that the plan be presented on your behalf.
+::: tip NEW IDEAS?
+If you have new ideas after a plan has passed, start a new addendum revision plan for the new ideas. The initial revision will still be approved, and any revision addendum that passes will add-on to or adjust the previously-passed revision.
+:::
 
 ### When Making a Revision
 
