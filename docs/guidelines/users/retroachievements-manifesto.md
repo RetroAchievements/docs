@@ -1,3 +1,8 @@
+---
+title: RetroAchievements Manifesto
+description: A brief outline of the RetroAchievements core principles, emphasizing the community-driven nature of achievements and the importance of respectful participation.
+---
+
 # RetroAchievements Manifesto
 
 **This is the RetroAchievements Manifesto and every member of this community should be aware of this.**

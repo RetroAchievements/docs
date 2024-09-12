@@ -1,3 +1,8 @@
+---
+title: Badge and Icon Guidelines
+description: Guidelines for creating and uploading achievement badges and game icons on RetroAchievements. Learn about size requirements, design best practices, and the approval process for new or revised images.
+---
+
 # Badge and Icon Guidelines
 
 [[toc]]

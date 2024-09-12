@@ -1,3 +1,8 @@
+---
+title: Maneras de contribuir
+description: Incluso si no quieres convertirte en desarrollador de logros, pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo.
+---
+
 # Maneras de contribuir
 
 Incluso si no quieres convertirte en desarrollador de logros pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo:
@@ -38,13 +43,13 @@ Incluso los que no son desarrolladores pueden llegar a inspirarse con este docum
 
 Deja tu opinión en los foros acerca de lo que te gusta o lo que no sobre un set de logros. Sé específico y deja detalle.
 
-## Crea emblemas e iconos de juegos
+## Crea insignias e iconos para los juegos
 
-Si te gusta jugar con gráficos puedes crear emblemas o iconos para los juegos.
+Si te gusta jugar con gráficos puedes crear insignias o iconos para los juegos.
 Utilizar la opción de captura de pantalla del emulador puede ayudar a ello.
 Puedes editarlo para hacer llegar a hacer algo muy chulo.
 
-Encontrarás más información en la [página de creación de emblemas e iconos](/es/developer-docs/badge-and-icon-creation).
+Encontrarás más información en la [página de creación de insignias e iconos](/es/developer-docs/badge-and-icon-creation).
 
 ## Ayuda con la documentación
 

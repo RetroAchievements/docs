@@ -7,6 +7,8 @@ description: Essential guidelines for RetroAchievements developers, including re
 
 This document covers developers' rights, responsibilities, and rules for fair play.
 
+[[toc]]
+
 **If you are not a dev, check [how to become a developer](/developer-docs/how-to-become-an-achievement-developer).**
 
 **See Also**: [Users Code of Conduct](/guidelines/users/code-of-conduct).
@@ -32,7 +34,7 @@ This document covers developers' rights, responsibilities, and rules for fair pl
 - Leave accurate [code notes](/guidelines/content/code-notes) for each achievement condition you use.
 - For set revisions, follow the [revision policy](/guidelines/content/achievement-set-revisions).
 - [Resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time you do.
-- Like a wiki, once you publish your work, you are giving it over to the community to be [reviewed and reworked over time](#achievementset-ownership).
+- Like a wiki, once you publish your work, you are giving it over to the community to be [reviewed and reworked over time](#achievement-ownership).
 
 ## Revisions - Working on Sets with Existing Achievements
 
@@ -58,7 +60,14 @@ Inactivity as a developer will be defined as:
 
 ### Negligence
 
-Alternatively, developer status will be removed if the developer has 10 or more tickets that are at least 2 months old. If the developer has any active claims during this period, they will be given an additional 30 days or until the earliest claim renewal (whichever comes first) to resolve all 10 tickets. Not doing so will result in the developer falling into inactive status and the claim(s) being released.
+**A developer's highest priority on RetroAchievements is maintaining the achievements they've created.** Tickets shall be addressed as soon as possible. A developer shall be considered negligent and lose the developer role if they have either of the following:
+
+- 5 or more unaddressed tickets that are at least 1 month old.
+- Any unaddressed tickets that are at least 2 months old.
+
+An unaddressed ticket is defined as a ticket that has not had a comment by the developer in at least 2 weeks. If a developer cannot resolve a ticket due to insufficient information in the ticket and the reporter is unresponsive, the ticket may be closed as "Not enough information." If a developer is still working on a ticket, they must provide a status update comment at least every 2 weeks for the ticket to be considered being actively addressed.
+
+The intent of the Negligence policy is to ensure developers make a good faith effort to prioritize and resolve their tickets. If there are extenuating circumstances that might prevent a developer from meeting the Negligence requirements, [DevCompliance](https://retroachievements.org/messages/create?to=DevCompliance) may grant an extension upon request.
 
 ### Reinstatement
 

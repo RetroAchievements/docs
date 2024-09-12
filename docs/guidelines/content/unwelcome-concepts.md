@@ -1,8 +1,23 @@
+---
+title: Unwelcome Concepts
+description: Guidelines outlining concepts that are discouraged or prohibited in achievement design, such as excessive RNG reliance, pointless grinding, and achievements requiring glitches, with exceptions where applicable.
+---
+
 # Unwelcome Concepts
 
-You can and should always be as creative as you can be, but there are some concepts that are **NOT** welcome for achievements. Below is a list of what have been deemed unwelcome concepts. Please note that there is some wiggle room so some exceptions to the rules have been provided. When in doubt, consult with [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance).
+Developers are encouraged to be creative with their achievement designs, but there are some concepts that are **NOT** welcome for achievements. Below is a list of what have been deemed unwelcome concepts. Please note that there is some wiggle room, so some exceptions to the rules have been provided. When in doubt, consult with [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance).
 
 [[toc]]
+
+## How to Report an Achievement as an Unwelcome Concept
+
+If you find an achievement that fits one or more criteria listed below, you may report it as an unwelcome concept by navigating to the achievement's page on the website and clicking the Report an Issue link, located below the description and author information. Follow the prompts on the resulting page.
+
+- Navigate to the Achievement Page
+- Click `Report an Issue`
+- Click `Message DevCompliance` button across from "*The achievement contains an unwelcome concept.*" A DM to the Developer Compliance Team will open.
+- Fill out the templated message with details about the unwelcome concept. Be specific and detailed. Reports with low details or that fail to describe why it meets the criteria will not be considered.
+- Click the `Submit` button when ready.
 
 ## Achievement Spam
 
@@ -13,7 +28,7 @@ When these are acceptable:
 - Using the above example: If the achievement for defeating the boss is challenge-based, such as damageless. It is not a guaranteed unlock simply by playing.
 - If the achievements are stackable.
   - Defeating a boss on normal or higher difficulty + defeating the same boss on hard difficulty.
-  - Opening the last chest in an area + opening all chests in the game
+  - Opening the last chest in an area + opening all chests in the game.
 
 ## Playing Poorly Without Purpose
 
@@ -22,7 +37,7 @@ Achievements for dying, getting a game over, or repeatedly failing a task just f
 When these are acceptable:
 
 - Many point-and-click adventure games and visual novels often tie a player's death into the story, which can result in unique scenes a player would not witness otherwise.
-- If playing poorly results in a humorous or otherwise interesting in-game acknowledgement such as being awarded a helmet for taking too many head shots.
+- If playing poorly results in a humorous or otherwise interesting in-game acknowledgement, such as being awarded a helmet for taking too many head shots.
 
 ## Zero Effort Without Purpose
 
@@ -30,7 +45,7 @@ Examples of this are achievements for simply starting a game, collecting a singl
 
 When these are acceptable:
 
-- "Disclaimer" achievements that are meant to address the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
+- "Disclaimer" achievements meant to inform the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
 - Not skipping an opening cinematic if it had been considered a big deal at the time.
 - Addressing something fun, historical, or interesting.
 
@@ -54,7 +69,7 @@ When these are acceptable:
 
 ## Requires Complete Perfection
 
-Achievements that require a long task where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
+Achievements that require a **long task** where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
 
 When these are acceptable:
 
@@ -64,19 +79,25 @@ When these are acceptable:
 
 ## Pointless Excessive Grinding
 
-Achievements that require long, repetitive tasks solely for the sake of saying you did it. If an achievement calls for spending countless hours making a character reach level 99 or farming for 99 of a certain item, but there is no actual purpose to it, then it does not have a place in a base set.
+Achievements that require long, repetitive tasks that confer no unique in-game rewards, acknowledgements or aren't required to complete all of a game's content.
 
-When these are acceptable:
+Common examples of Pointless Excessive Grinding:
 
-- Subsets, whether devoted to max levels (if approved) or a typical Bonus set.
-- The player is awarded in-game for the grind.
+- Leveling up in an RPG beyond what is typically required to complete the game and where there is no in-game reward such as a skill or spell.
+- Acquiring many copies of items or money beyond which would typically be accrued during a normal playthrough.
+- Collecting an arbitrary number of extra lives when they are not associated with a reward or challenge, such as when they can be dropped by enemies.
+
+Where this is acceptable:
+
+- Bonus subsets or subsets specifically approved for grinding tasks are an exception to this policy and may be implemented.
 
 ## Overly RNG Reliant
 
 Rely entirely on randomness, especially when there are extremely low odds.
 
 When these are acceptable:
-Games or mini-games where the randomness is a major aspect.
+
+- Games or mini-games where the randomness is a major aspect.
 
 ## "Secret Achievements"
 
@@ -116,7 +137,7 @@ This restriction helps in preventing inappropriate or offensive content from sho
 
 ## Banned Titles
 
-We generally avoid banning titles, leaving content filtering up to individual users to decide. Even still, some titles are egregious enough to warrant removal from the site, both for the protection of the users and of the site itself. Below is an incomplete list of such titles, to be updated as necessary.
+While we at RetroAchievements recognize that the content of retro video games may be divisive or out of touch with how global cultures have developed over time, we believe it's necessary to support content from all sides of gaming history and to play our part in preserving this era in video games, be it good or bad. Depending on the severity, the admin team may opt to remove point values or otherwise take action to keep troublesome content from being incentivized, but as a matter of policy, we only ban retail games from the site on the basis of preventing legal issues. Below is an incomplete list of such titles, to be updated as necessary.
 
 |                     Title                     | Year |      Platform      |
 | :-------------------------------------------: | :--: | :----------------: |

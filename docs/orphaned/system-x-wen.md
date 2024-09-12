@@ -1,4 +1,15 @@
+---
+title: System X Wen?
+description: Learn about the technical steps required for adding RetroAchievements support for new systems, including emulation, game identification, and server configuration. This article explains what’s needed before a new system can be supported.
+---
+
 # System X Wen?
+
+::: warning Are you an emulator developer?
+
+[rcheevos](https://github.com/RetroAchievements/rcheevos) is our emulator integration library. We have a handy [integration guide](https://github.com/RetroAchievements/rcheevos/wiki/rc_client-integration) that you may find useful if you're looking to add RetroAchievements support to your emulator.
+
+:::
 
 _This article was originally published in the [RANews - November/2020](https://news.retroachievements.org/issues/2020-11/nerd-corner.html)_
 

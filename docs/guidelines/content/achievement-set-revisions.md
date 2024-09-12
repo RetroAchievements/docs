@@ -1,3 +1,8 @@
+---
+title: Achievement Set Revisions
+description: Guidelines for revising RetroAchievements sets, including standard revisions, rescores, and icon changes. Learn the steps, approval processes, and voting requirements for making updates to existing achievements.
+---
+
 # Achievement Set Revisions
 
 [[toc]]

@@ -13,7 +13,7 @@ Casi cualquier juego cuenta con múltiples versiones del ROM , algunas veces ast
 
 - **No Mods**: No utilizes ROM con una pantalla de inicio modificada/personalizada como Mode7 o RisingSun porque arruinan completamente la RAM.
 
-- **No Trainers**: No utilices un ROM que incluya soporte para cheats integrado. Estos son comúnmente referidos como `ROM trainers`, no son oficiales, y no son compatibles por Retro Achievements de ninguna manera.
+- **No Trainers**: No utilices un ROM que incluya soporte para cheats integrado. Estos son comúnmente referidos como `ROM trainers`, no son oficiales, y no son compatibles por RetroAchievements de ninguna manera.
 
 ## No-Intro
 

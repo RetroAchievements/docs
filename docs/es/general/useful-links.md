@@ -1,3 +1,8 @@
+---
+title: Enlaces útiles
+description: Explora una colección de recursos valiosos para el desarrollo de juegos, la modificación de ROM y la creación de logros. Esta página incluye enlaces a guías de juegos, herramientas de depuración, utilidades de verificación de checksum y más cosas que te ayudarán en varios aspectos de los juegos y el desarrollo.
+---
+
 # Enlaces útiles
 
 ## https://gamefaqs.gamespot.com/

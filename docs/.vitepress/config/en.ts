@@ -68,6 +68,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/emulator-support-and-issues",
         },
         {
+          text: "How RA Works",
+          link: "/general/how-ra-works",
+        },
+        {
           text: "Ways to Contribute",
           link: "/general/ways-to-contribute",
         },
@@ -98,6 +102,16 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
+      text: "Teams",
+      collapsed: false,
+      items: [
+        {
+          text: "Quality Assurance",
+          link: "/general/teams/qa-team",
+        },
+      ],
+    },
+    {
       text: "Tutorials",
       collapsed: false,
       items: [
@@ -110,8 +124,16 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/tutorials/multi-disc-games",
         },
         {
+          text: "Turbo Buttons",
+          link: "/general/tutorials/turbo-button",
+        },
+        {
           text: "Working with DLC for the PlayStation Portable",
           link: "/general/tutorials/working-with-dlc-for-the-psp",
+        },
+        {
+          text: "How to Play Subsets",
+         link: "/general/tutorials/how-to-play-subsets",
         },
       ],
     },
@@ -205,6 +227,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/achievement-set-revisions",
         },
         {
+          text: "Adding Additional Hashes",
+          link: "/guidelines/content/adding-hashes",
+        },
+        {
           text: "Achievements for ROM Hacks",
           link: "/guidelines/content/achievements-for-rom-hacks",
         },
@@ -242,6 +268,14 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         {
           text: "Getting Started as an Achievement Developer",
           link: "/developer-docs/getting-started-as-an-achievement-developer",
+        },
+        {
+          text: "Junior Developer Program",
+          link: "/developer-docs/jr-dev-rules",
+        },
+        {
+          text: "Emulator Setup for Developers",
+          link: "/developer-docs/emulator-setup-for-developers",
         },
         {
           text: "Game Identification",

@@ -11,7 +11,7 @@ Participants of the [Global Leaderboard](#global-leaderboard) are required to ea
 
 In general, a player must unlock achievements:
 
-- Uusing the latest release version of an approved supported emulator;
+- Using the latest release version of an approved supported emulator;
 - Inside of a game by in-game actions;
 - By their own control;
 - Without outside-modifying game files or game code;
@@ -44,7 +44,7 @@ Users who have the Untracked status are omitted from all rankings. Their activit
 
 Voluntary untracks can be reversed by resetting all progress and contacting [RAdmin](https://retroachievements.org/user/RAdmin).
 
-Involuntary untracks are generally the result of being flagged for suspicious timestamps. If your account becomes untracked, you can contact [RAdmin](https://retroachievements.org/user/RAdmin) to find out the cause and how to get it reversed.
+Involuntary untracks are generally the result of being flagged for suspicious timestamps. If your account becomes untracked, you can contact [RAdmin](https://retroachievements.org/user/RAdmin) or [RACheats](https://retroachievements.org/user/RACheats) to find out how to get it reversed.
 
 If you notice a player has become untracked: do not harass them, accuse them of cheating, make a public scene, etc. Do not ask moderators or admin why a user was untracked. It is none of your business.
 
@@ -182,13 +182,13 @@ The achievement developers are instructed to [protect their work so the achievem
 
 ### <a name="allowed-3"></a>3. Making use of in-game glitches, in-game exploits, and "cheesy" tactics are allowed.
 
-In-game glitches/exploits/cheesy tactics are allowed, _however developers can code their achievements to disallow them programatically._ It's usually mentioned in the achievement's description.
+In-game glitches/exploits/cheesy tactics are allowed, _however developers can code their achievements to disallow them programmatically._ It's usually mentioned in the achievement's description.
 
 This does not include when there are flaws in the achievement developer's code. In such cases, please create a ticket report, and earn the achievement as intended by the developer. See also [not allowed rule 2](#not-allowed-2).
 
 **Examples**:
 
-- Breaking out out of normal bounds to avoid enemies.
+- Breaking out of normal bounds to avoid enemies.
 - Doing something strange inside of a game to "bug a game out" so you become invincible.
 - Accessing powerful items earlier than intended.
 - Standing somewhere enemies can’t hit you.
@@ -203,7 +203,7 @@ This does not include when there are flaws in the achievement developer's code. 
 
 ### <a name="allowed-5"></a>5. Playing co-op/competitive games with another player or players is allowed.
 
-Playing co-op is allowed, _however developers can code their achievements to disallow it programatically._ It's usually mentioned in the achievement's description.
+Playing co-op is allowed, _however developers can code their achievements to disallow it programmatically._ It's usually mentioned in the achievement's description.
 
 See also [not allowed rule 2](#not-allowed-2).
 
