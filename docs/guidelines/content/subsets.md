@@ -52,7 +52,7 @@ While many base sets include plenty of challenges, developers have the option to
 
 ### DLC and Expansions
 
-Not very common, but will become more common as our console support expands. Achievements in these sets are exclusive to a game's downloadable content or expansion pack(s). Examples:<
+Not very common, but will become more common as our console support expands. Achievements in these sets are exclusive to a game's downloadable content or expansion pack(s). Examples:
 
 - [Arc the Lad 2 - Arc Arena: Monster Tournament](https://retroachievements.org/game/17001) was released as a bonus disc in the Arc the Lad Collection, this requires save data from Arc the Lad 2 in order to play.
 - [F-Zero X - Expansion Kit](https://retroachievements.org/game/10962) - achievements are for content exclusive to the 64DD expansion of the game.
