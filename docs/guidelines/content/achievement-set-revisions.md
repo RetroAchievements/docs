@@ -38,14 +38,14 @@ Any developer wanting to revise a set need to:
 
    - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of this revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
-3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible, but if you have only a vague plan, provide a general idea of what you want to do and don't go too far from that idea.
+3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible. The community deserves a good understanding of your intent.
 
 4. **Start a Discussion** by creating a new post in `#revision-discussion-forum`.
    - Your post title should include the game name and console. Ex: "Revision proposal - Super Mario Bros. (NES)"
    - Your initial comment must duplicate the plan you posted in the game's forum and link to the game page and forum post with the plan.
    - Then, ping `@revision-voting` with a message of "Revision discussion for *Game Name*" (or equivalent) as a follow-up comment.
    - Discussion shall be held for a minimum of 1 day (24 hours) after which if satisfied with the plan you may move on to the voting phase of a revision.
-   - Be sure to **Address concerns**: Respond to any comments, concerns, or objections from the community (both in Discord and on the site Forum), and adjust the plan as necessary. All plan adjustments must be made before the poll is created.
+   - Be sure to **Address concerns**: Respond to any comments, concerns, or objections from the community (both in Discord and on the site Forum), and adjust the plan as necessary.
    - Plans must be finalized before voting. No edits are permitted after the voting starts.
 
 5. **Start a vote** by posting a link to that topic in `#revision-voting` after the discussion period has ended.
@@ -54,7 +54,7 @@ Any developer wanting to revise a set need to:
   - Edits to plans after the vote has started will render the vote null and void and a new discussion must take place.
   - Ping active authors that did not respond to contact.
   - Ping active authors that requested a ping at vote start after the contact.
-  - Before submiting, tap on the end of each ping and select the user or role to ensure it is active and will send out the ping.
+    - Tip: On discord, Before submitting the poll command, tap on the end of each ping and select the user or role to ensure it is active and will send out the ping. sometimes a direct copy of the template will not trigger @Pings without this.
   - After the end of the poll, if a 60% majority was reached, the revision passes and may proceed.
   
  ::: warning FINALIZE BEFORE VOTING
