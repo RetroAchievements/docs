@@ -128,3 +128,7 @@ The approval process and claiming of a subset will vary depending on if the subs
 
 
 ⁴ For now, an admin must be contacted via Discord or by [messaging RAdmin](https://retroachievements.org/user/RAdmin) to mark a claim as free. As a courtesy, please only request this if you actually need the claim slot or if you expect a long development period.
+
+### Notes
+
+In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
