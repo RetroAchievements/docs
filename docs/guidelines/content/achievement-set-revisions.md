@@ -47,20 +47,12 @@ Any developer wanting to revise a set need to:
 
 4. **Start a Discussion** by creating a new post in `#revision-discussion-forum`.
    - Your post title should include the game name and console. Ex: "Revision proposal - Super Mario Bros. (NES)"
+   
    - Your initial comment must duplicate the plan you posted in the game's forum and link to the game page and forum post with the plan.
    - Then, ping `@revision-voting` with a message of "Revision discussion for *Game Name*" (or equivalent) as a follow-up comment.
    - Discussion shall be held for a minimum of 1 day (24 hours) after which if satisfied with the plan you may move on to the voting phase of a revision.
    - Be sure to **Address concerns**: Respond to any comments, concerns, or objections from the community (both in Discord and on the site Forum), and adjust the plan as necessary.
    - Plans must be finalized before voting. No edits are permitted after the voting starts.
-
-5. **Start a vote** by posting a link to that topic in `#revision-voting` after the discussion period has ended.
-  - Whomever creates the vote must ping `@revision-voting`. A voting template is available in the pins.
-  - Voting shall be set to a duration of 3 days (72 hours).
-  - Edits to plans after the vote has started will render the vote null and void and a new discussion must take place.
-  - Ping active authors that did not respond to contact.
-  - Ping active authors that requested a ping at vote start after the contact.
-    - Tip: On discord, Before submitting the poll command, tap on the end of each ping and select the user or role to ensure it is active and will send out the ping. sometimes a direct copy of the template will not trigger @Pings without this.
-  - After the end of the poll, if a 60% majority was reached, the revision passes and may proceed.
   
  ::: warning FINALIZE BEFORE VOTING
  Any changes to the revision plan after the poll has been created will result in the cancellation of the revision. In this case, the revision process will need to start over from the beginning. Repeated violations of this rule may lead to disciplinary action.
@@ -69,6 +61,18 @@ Any developer wanting to revise a set need to:
  ::: warning DISCUSSION ETIQUETTE
  Discussion threads should focus on constructive criticism and plan feedback. Any inappropriate behavior or personal attacks against the revision plan proposer will result in the user being removed from the thread.
  :::
+
+5. **Begin the Voting Phase** by creating a poll in the `#revision-voting` channel after the discussion period has ended.
+
+  - Whomever creates the poll must ping `@revision-voting`. And any active authors on the set (unless they waived the ping).
+  - A poll template is available in the pins.
+    - Tip: On discord, if pasting a copied template, before submitting the poll command, place your cursor on the end of each ping and select the user or role to ensure it is active and will send out the notification.
+  - Voting shall be set to a duration of 3 days (72 hours).
+  - Voting may not be anonymous.
+  - Poll should summarize the proposal, link to the game page, and link to the plan in the discussion thread.
+  - Edits to plans after the poll has been created will render the poll null and void and a new discussion must take place.
+  - Once the poll is created, link to the poll in the discussion thread as a new comment and as an edit in the comment that links to the forum post.
+  - After the end of the poll, if a 60% majority was reached, the revision passes and may proceed.
 
 ::: info ANONYMOUS REVISION PROPOSALS
 If desired, a developer can choose to propose a revision plan while remaining anonymous throughout the voting process. Simply contact a mod or admin to request that the plan be presented on your behalf.
