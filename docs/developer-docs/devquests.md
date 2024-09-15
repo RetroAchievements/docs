@@ -413,10 +413,10 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 ![DQ022](https://retroachievements.org/Images/102134.png)
 
 **Type**: Revision, Maintenance 
-**Goal**: Obtain 4 points by dusting off older sets, bringing them up to current RA standards  
+**Goal**: Obtain 12 Points by dusting off older sets, bringing them up to current RA standards  
 **Repeatable**: No
 
-1. The Quest is completed upon obtaining 4 points towards it. Full Set Dust-Off = 1 Point, Misc Task = 0,25pt, at least one set dust-off required for the badge.
+1. The Quest is completed upon obtaining 12 points towards it. Full Set Dust-Off = 4 Points, Misc Task = 1 Point, at least one set dust-off required for the badge.
 2. Full Set Dust-Off: Clean up old code notes, update achievement logics for modern best practices (removing unnecessary Hits and Resets to use Delta checks instead for example), new cleaner badges, updated descriptions and achievements titles, new dynamic RP.
 3. Misc Tasks: Update a set in order to remove it from the [No Dynamic RP](https://retroachievements.org/game/3083), [Player-Input RP](https://retroachievements.org/game/28506) or [Single Save Support](https://retroachievements.org/game/28449) Hubs. Doesn't stack with a Full Set Clearing.
 4. No Collaboration allowed.
@@ -424,7 +424,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 6. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
 7. Badges update must go through the Icon-Gauntlet revision process.
 8. Revision rules apply as usual, meaning if you only clean-up the logic and don't change the achievements scope you don't need one.
-9. Devs own sets made prior to 2024 are eligible for half a point. Similarly to sets not pre-approved, they will need to be sent to the DevQuest team for approval.
+9. Devs own sets made prior to 2024 are eligibles for half the points on a Full Dust-Off. Similarly to sets not pre-approved, they will need to be sent to the DevQuest team for approval.
 
    
 ## Wheel Spin DevQuest Rules
