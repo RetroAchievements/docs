@@ -23,15 +23,15 @@ Each are assigned their own Discord role:
 | ------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------- | ------------------------- |
 | Standard Revisions | `@revision-voting` | React with 🗳️ [here](https://discord.com/channels/310192285306454017/400088351224627201/770045526833496084) | achievement creators      |
 | Rescores           | `@rescore`         | React with 💯 [here](https://discord.com/channels/310192285306454017/400088351224627201/770045526833496084) | achievement creators      |
-| Icon Gauntlet      | `@icon-gauntlet`   | React with 🎨 [here](https://discord.com/channels/310192285306454017/340033893522604062/758854476139593748) | any verified discord user |
+| Icon Gauntlet      | `@icon-gauntlet`   | React with 🎨 [here](https://discord.com/channels/310192285306454017/340033893522604062/758854476139593748) | any verified Discord user |
 
 ::: info NEW DEVELOPERS
-New developers will given all three roles upon graduating from the Junior Developer program.
+New developers will be given all three roles upon graduating from the Junior Developer program.
 :::
 
 ## Standard Revisions
 
-Any developer wanting to revise a set need to:
+Any developer wanting to revise a set needs to:
 
 1. **Prepare a plan** for each (where you're not the original author)
 
@@ -50,7 +50,8 @@ Any developer wanting to revise a set need to:
    
    - Your initial comment must duplicate the plan you posted in the game's forum and link to the game page and forum post with the plan.
    - Then, ping `@revision-voting` with a message of "Revision discussion for *Game Name*" (or equivalent) as a follow-up comment.
-   - Discussion shall be held for a minimum of 1 day (24 hours) after which if satisfied with the plan you may move on to the voting phase of a revision.
+     - This comment can also later be edited to link to the poll once created.
+   - Discussion shall be held for a minimum of 2 days (48 hours) after which if satisfied with the plan the revision process may move on to the voting phase.
    - Be sure to **Address concerns**: Respond to any comments, concerns, or objections from the community (both in Discord and on the site Forum), and adjust the plan as necessary.
    - Plans must be finalized before voting. No edits are permitted after the voting starts.
   
@@ -62,11 +63,11 @@ Any developer wanting to revise a set need to:
  Discussion threads should focus on constructive criticism and plan feedback. Any inappropriate behavior or personal attacks against the revision plan proposer will result in the user being removed from the thread.
  :::
 
-5. **Begin the Voting Phase** by creating a poll in the `#revision-voting` channel after the discussion period has ended.
+5. **Begin the Voting Phase** by creating a poll in the `#revision-voting` channel after the required discussion period has ended.
 
-  - Whomever creates the poll must ping `@revision-voting`. And any active authors on the set (unless they waived the ping).
+  - Whomever creates the poll must ping `@revision-voting` and any active authors on the set (unless they waived the ping).
   - A poll template is available in the pins.
-    - Tip: On discord, if pasting a copied template, before submitting the poll command, place your cursor on the end of each ping and select the user or role to ensure it is active and will send out the notification.
+    - Tip: On Discord, if pasting a copied template, before submitting the poll command, place your cursor on the end of each ping and select the user or role to ensure it is active and will send out the notification.
   - Voting shall be set to a duration of 3 days (72 hours).
   - Voting may not be anonymous.
   - Poll should summarize the proposal, link to the game page, and link to the plan in the discussion thread.
