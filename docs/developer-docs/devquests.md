@@ -422,7 +422,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 4. No Collaboration allowed.
 5. This quest does not stack with other revision DevQuests. If a set would also be eligible to DQ2 or DQ13 those quests will take priority.
 6. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
-7. Badges update must go through the Icon-Gauntlet revision process.
+7. Badge updates must go through the Icon-Gauntlet revision process.
 8. Revision rules apply as usual, meaning if you only clean-up the logic and don't change the achievements scope you don't need one.
 9. Devs own sets made prior to 2024 are eligibles for half the points on a Full Dust-Off. Similarly to sets not pre-approved, they will need to be sent to the DevQuest team for approval.
 
