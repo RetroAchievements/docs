@@ -420,7 +420,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 2. Full Set Dust-Off: Clean up old code notes, update achievement logic for modern best practices (removing unnecessary Hits and Resets to use Delta checks instead, for example), update with cleaner badges, update descriptions and achievement titles, new dynamic RP.
 3. Misc Tasks: Update a set in order to remove it from the [No Dynamic RP](https://retroachievements.org/game/3083), [Player-Input RP](https://retroachievements.org/game/28506) or [Single Save Support](https://retroachievements.org/game/28449) Hubs. Doesn't stack with a Full Set Clearing.
 4. No Collaboration allowed.
-5. This Quest do not stack with other revision DevQuest. If a set would also be eligible to DQ2 or DQ13 they will take priority.
+5. This quest does not stack with other revision DevQuests. If a set would also be eligible to DQ2 or DQ13 those quests will take priority.
 6. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
 7. Badges update must go through the Icon-Gauntlet revision process.
 8. Revision rules apply as usual, meaning if you only clean-up the logic and don't change the achievements scope you don't need one.
