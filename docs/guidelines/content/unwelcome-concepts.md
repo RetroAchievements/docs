@@ -133,7 +133,7 @@ If the game ended up having an official release, then these are generally not al
 
 Rich Presence that directly displays custom player input text is prohibited. The most common example being displaying what a player inputs as their character or file name directly into Rich Presence.
 
-This restriction helps in preventing inappropriate or offensive content from showing on various site pages as well as makes the moderation of Rich Presence more manageable, in addition to protection player privacy as players may not realize their text is being displayed publicly.
+This restriction helps in preventing inappropriate or offensive content from showing on various site pages as well as makes the moderation of Rich Presence more manageable, in addition to protecting player privacy as players may not realize their text is being displayed publicly.
 
 ## Banned Titles
 
