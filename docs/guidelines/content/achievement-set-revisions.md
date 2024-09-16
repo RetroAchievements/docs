@@ -23,11 +23,15 @@ Each are assigned their own Discord role:
 | ------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------- | ------------------------- |
 | Standard Revisions | `@revision-voting` | React with 🗳️ [here](https://discord.com/channels/310192285306454017/400088351224627201/770045526833496084) | achievement creators      |
 | Rescores           | `@rescore`         | React with 💯 [here](https://discord.com/channels/310192285306454017/400088351224627201/770045526833496084) | achievement creators      |
-| Icon Gauntlet      | `@icon-gauntlet`   | React with 🎨 [here](https://discord.com/channels/310192285306454017/340033893522604062/758854476139593748) | any verified discord user |
+| Icon Gauntlet      | `@icon-gauntlet`   | React with 🎨 [here](https://discord.com/channels/310192285306454017/340033893522604062/758854476139593748) | any verified Discord user |
+
+::: info NEW DEVELOPERS
+New developers will be given all three roles upon graduating from the Junior Developer program.
+:::
 
 ## Standard Revisions
 
-Any developer wanting to revise a set need to:
+Any developer wanting to revise a set needs to:
 
 1. **Prepare a plan** for each (where you're not the original author)
 
@@ -39,15 +43,45 @@ Any developer wanting to revise a set need to:
 
    - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of this revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
-3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible, but if you have only a vague plan, provide a general idea of what you want to do and don't go too far from that idea.
+3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible. The community deserves a good understanding of your intent.
 
-4. **Start a vote** by posting a link to that topic in `#revision-voting`. If you're not on Discord, another developer can do it for you. Whomever creates the vote must ping `@revision-voting`. Ping active authors that did not respond to contact. Ping active authors that requested a ping at vote start after the contact.
+4. **Start a Discussion** by creating a new post in `#revision-discussion-forum`.
+   - Your post title should include the game name and console. Ex: "Revision proposal - Super Mario Bros. (NES)"
+   
+   - Your initial comment must duplicate the plan you posted in the game's forum and link to the game page and forum post with the plan.
+   - Then, ping `@revision-voting` with a message of "Revision discussion for *Game Name*" (or equivalent) as a follow-up comment.
+     - This comment can also later be edited to link to the poll once created.
+   - Discussion shall be held for a minimum of 2 days (48 hours) after which if satisfied with the plan the revision process may move on to the voting phase.
+   - Be sure to **Address concerns**: Respond to any comments, concerns, or objections from the community (both in Discord and on the site Forum), and adjust the plan as necessary.
+   - Plans must be finalized before voting. No edits are permitted after the voting starts.
+  
+ ::: warning FINALIZE BEFORE VOTING
+ Any changes to the revision plan after the poll has been created will result in the cancellation of the revision. In this case, the revision process will need to start over from the beginning. Repeated violations of this rule may lead to disciplinary action.
+ :::
+ 
+ ::: warning DISCUSSION ETIQUETTE
+ Discussion threads should focus on constructive criticism and plan feedback. Any inappropriate behavior or personal attacks against the revision plan proposer will result in the user being removed from the thread.
+ :::
 
-5. **Address concerns**: Once a revision vote is posted, the developer can address any comments, concerns, and objections the community may have to the plan.
+5. **Begin the Voting Phase** by creating a poll in the `#revision-voting` channel after the required discussion period has ended.
 
-6. The vote is approved/rejected after 24 hours and is pass/fail by simple majority.
+  - Whomever creates the poll must ping `@revision-voting` and any active authors on the set (unless they waived the ping).
+  - A poll template is available in the pins.
+    - Tip: On Discord, if pasting a copied template, before submitting the poll command, place your cursor on the end of each ping and select the user or role to ensure it is active and will send out the notification.
+  - Voting shall be set to a duration of 3 days (72 hours).
+  - Voting may not be anonymous.
+  - Poll should summarize the proposal, link to the game page, and link to the plan in the discussion thread.
+  - Edits to plans after the poll has been created will render the poll null and void and a new discussion must take place.
+  - Once the poll is created, link to the poll in the discussion thread as a new comment and as an edit in the comment that links to the forum post.
+  - After the end of the poll, if a 60% majority was reached, the revision passes and may proceed.
 
-**Note:** Anonymous revision proposals - If desired, a developer can choose to propose a revision plan while remaining anonymous throughout the voting process. Simply contact a mod or admin to request that the plan be presented on your behalf.
+::: info ANONYMOUS REVISION PROPOSALS
+If desired, a developer can choose to propose a revision plan while remaining anonymous throughout the voting process. Simply contact a mod or admin to request that the plan be presented on your behalf.
+:::
+
+::: tip NEW IDEAS?
+If you have new ideas after a plan has passed, start a new addendum revision plan for the new ideas. The initial revision will still be approved, and any revision addendum that passes will add-on to or adjust the previously-passed revision.
+:::
 
 ### When Making a Revision
 
