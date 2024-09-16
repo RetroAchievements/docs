@@ -417,7 +417,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 **Repeatable**: No
 
 1. The quest is completed upon obtaining 12 points towards its goals. Full Set Dust-Off = 4 Points, Miscellaneous Task = 1 Point, at least one set dust-off required for the badge.
-2. Full Set Dust-Off: Clean up old code notes, update achievement logics for modern best practices (removing unnecessary Hits and Resets to use Delta checks instead for example), new cleaner badges, updated descriptions and achievements titles, new dynamic RP.
+2. Full Set Dust-Off: Clean up old code notes, update achievement logic for modern best practices (removing unnecessary Hits and Resets to use Delta checks instead, for example), update with cleaner badges, update descriptions and achievement titles, new dynamic RP.
 3. Misc Tasks: Update a set in order to remove it from the [No Dynamic RP](https://retroachievements.org/game/3083), [Player-Input RP](https://retroachievements.org/game/28506) or [Single Save Support](https://retroachievements.org/game/28449) Hubs. Doesn't stack with a Full Set Clearing.
 4. No Collaboration allowed.
 5. This Quest do not stack with other revision DevQuest. If a set would also be eligible to DQ2 or DQ13 they will take priority.
