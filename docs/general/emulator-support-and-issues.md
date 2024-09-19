@@ -14,10 +14,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **Opera**
   - May have some issues depending on the BIOS.
 
-### Amiga
-
-- ❌ _Not supported_.
-
 ### Amstrad CPC
 
 - ✅ libretro core: **Caprice32**
@@ -50,10 +46,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ BizHawk core: **Atari2600Hawk**
   - Achievements that require emulator resets do not work. Please open a ticket so the achievement can be fixed.
 
-### Atari 5200
-
-- ❌ _Not supported_.
-
 ### Atari 7800
 
 - ✅ libretro core: **ProSystem**
@@ -78,43 +70,15 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **Beetle Lynx**
 - ✅ BizHawk core: **Handy** (Mednafen's fork)
 
-### Atari ST
-
-- ❌ _Not supported_.
-
-### Cassette Vision
-
-- ❌ _Not supported_.
-
-### CHIP-8
-
-- ❌ _Not supported_.
-
-### Commodore 128
-
-- ❌ _Not supported_.
-
-### Commodore 64
-
-- ❌ _Not supported_.
-
 ### ColecoVision
 
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **blueMSX**
 - ✅ BizHawk core: **ColecoHawk**
 
-### Elektronika BK-0010/11
-
-- ❌ _Not supported_.
-
 ### Elektor TV Games Computer
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
-
-### Enterprise 64/128
-
-- ❌ _Not supported_.
 
 ### Fairchild Channel F
 
@@ -125,14 +89,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
 - ✅ libretro core: **Mesen**
-
-### FM Towns
-
-- ❌ _Not supported_.
-
-### Game & Watch
-
-- ❌ _Not supported_.
 
 ### Game Boy
 
@@ -189,10 +145,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
 
-### J2ME
-
-- ❌ _Not supported_.
-
 ### Magnavox Odyssey 2
 
 - ✅ libretro core: **O2EM**
@@ -207,14 +159,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 ### Mega Duck
 
 - ✅ libretro core: **SameDuck**
-
-### MicroW8
-
-- ❌ _Not supported_.
-
-### MS-DOS
-
-- ❌ _Not supported_.
 
 ### MSX
 
@@ -237,10 +181,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **QuickNES**
   - Does not emulate the Famicom Disk System.
 - ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
-
-### Nintendo 3DS
-
-- ❌ _Not supported_.
 
 ### Nintendo 64
 
@@ -267,18 +207,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Does not support save states at this time.
 - ✅ BizHawk core: **melonDS**
 
-### Nokia N-Gage
-
-- ❌ _Not supported_.
-
-### Oric
-
-- ❌ _Not supported_.
-
-### Palm OS
-
-- ❌ _Not supported_.
-
 ### PC Engine/TurboGrafx-16/SuperGrafx
 
 - ✅ libretro core: **Beetle SuperGrafx**
@@ -294,34 +222,14 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **Beetle PCE Fast**
 - ✅ BizHawk core: **PCEHawk**
 
-### PC-6001
-
-- ❌ _Not supported_.
-
 ### PC-8000/8800
 
 - ✅ Standalone emulator: **[RAQUASI88](https://retroachievements.org/download.php#raquasi88)**
-
-### PC-9800
-
-- ❌ _Not supported_.
 
 ### PC-FX
 
 - ✅ libretro core: **Beetle PC-FX**
 - ✅ BizHawk core: **T.S.T.** (Mednafen)
-
-### Philips CD-i
-
-- ❌ _Not supported_.
-
-### Philips P2000T
-
-- ❌ _Not supported_.
-
-### Pico-8
-
-- ❌ _Not supported_.
 
 ### PlayStation
 
@@ -337,10 +245,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ Standalone emulator: **[PCSX2](https://pcsx2.net/)**
   - PCSX2 is currently **the only officially supported** option for earning achievements. We _do not_ support Aethersx2.
 
-### PlayStation 3
-
-- ❌ _Not supported_.
-
 ### PlayStation Portable
 
 - ✅ Standalone emulator: **[PPSSPP](https://www.ppsspp.org/download/)**
@@ -349,17 +253,9 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Loading save states too fast can cause it to crash.
   - Some games have graphical issues.
 
-### PocketStation
-
-- ❌ _Not supported_.
-
 ### Pokémon Mini
 
 - ✅ libretro core: **PokeMini**
-
-### SAM Coupé
-
-- ❌ _Not supported_.
 
 ### Sega 32X
 
@@ -391,10 +287,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ libretro core: **Beetle Saturn**
 
-### Sega Pico
-
-- ❌ _Not supported_.
-
 ### SG-1000
 
 - ✅ libretro core: **Genesis Plus GX**
@@ -402,40 +294,12 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **blueMSX**
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 
-### Sharp X1
-
-- ❌ _Not supported_.
-
-### Sharp X68000
-
-- ❌ _Not supported_.
-
 ### SNES/Super Famicom/Satellaview/Sufami Turbo
 
 - ✅ libretro core: **Snes9x**
   - Most recommended.
 - ✅ libretro core: **Mesen-S**
 - ✅ Standalone emulator: **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)**
-
-### SpectraVideo SVI 318/328
-
-- ❌ _Not supported_.
-
-### Super Cassette Vision
-
-- ❌ _Not supported_.
-
-### Thomson MO/TO
-
-- ❌ _Not supported_.
-
-### TI-83
-
-- ❌ _Not supported_.
-
-### TIC-80
-
-- ❌ _Not supported_.
 
 ### Uzebox
 
@@ -446,18 +310,10 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ libretro core: **vecx**
 
-### VIC-20
-
-- ❌ _Not supported_.
-
 ### Virtual Boy
 
 - ✅ libretro core: **Beetle VB**
 - ✅ BizHawk core: **Virtual Boyee** (Mednafen)
-
-### VMU/VMS
-
-- ❌ _Not supported_.
 
 ### WASM-4
 
@@ -467,37 +323,9 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ libretro core: **Potator**
 
-### Wii
-
-- ❌ _Not supported_.
-
-### Wii U
-
-- ❌ _Not supported_.
-
 ### WonderSwan (Color)
 
 - ✅ libretro core: **Beetle Cygne**
 - ✅ BizHawk core: **Cygne** (Mednafen)
-
-### Xbox
-
-- ❌ _Not supported_.
-
-### Xbox 360
-
-- ❌ _Not supported_.
-
-### Zeebo
-
-- ❌ _Not supported_.
-
-### ZX81
-
-- ❌ _Not supported_.
-
-### ZX Spectrum
-
-- ❌ _Not supported_.
 
 More details on BizHawk cores can be found [here](https://tasvideos.org/BizHawk).

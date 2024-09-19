@@ -44,10 +44,8 @@ Now a brief description some pages you'll see in this section.
 
 19. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
 
-20. [Emulator Support](/general/emulator-support-and-issues): details on both supported emulators and cores
+20. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
 
-21. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
+21. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
 
-22. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
-
-23. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.
+22. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.
