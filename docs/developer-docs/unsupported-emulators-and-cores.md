@@ -25,9 +25,9 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ⌛ BizHawk core: **Virtu**
   - Testing
-  - June 4th, 2023: .woz files are not supported.
-  - June 4th, 2023: The joystick is not supported. The keyboard has to be manually mapped.
-  - June 4th, 2023: You have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
+  - 4 Jun 2023: .woz files are not supported.
+  - 4 Jun 2023: The joystick is not supported. The keyboard has to be manually mapped.
+  - 4 Jun 2023: You have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
 
 ### Arcade
 
@@ -69,7 +69,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
 - ❌ libretro core: **Emux CHIP-8**
 - ❌ libretro core: **JAXE**
-  - April 16th, 2022: Seems ready when we are.
+  - 16 Apr 2022: Seems ready when we are.
   - May need a settings blacklist to prevent lowering speed.
 
 ### Commodore 64
@@ -77,7 +77,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❌ libretro core: **VICE x64**
   - NOTE: Joystick is in port 2 by default. Use the JOY button on the virtual keyboard (select) to switch it to port 1.
   - Divided into separate cores (fast, accurate and SuperCPU).
-  - May 1st, 2022: A reset does not autorun the game.
+  - 1 May 2022: A reset does not autorun the game.
 - ⌛ BizHawk core: C64Hawk
   - Testing
 - ❓ libretro core: **Frodo**
@@ -254,9 +254,9 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❌ libretro core: **QUASI88**
   - The PC-88VA is not supported.
-  - April 16th, 2022: Cannot load a .m3u file. The hash fails because the core locks the disk file.
-  - April 16th, 2022: Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch.
-  - April 16th, 2022: RALibretro does not provide a subsystem interface for loading multi-disk games.
+  - 16 Apr 2022: Cannot load a .m3u file. The hash fails because the core locks the disk file.
+  - 16 Apr 2022: Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch.
+  - 16 Apr 2022: RALibretro does not provide a subsystem interface for loading multi-disk games.
 
 ### PC-9800
 
@@ -347,7 +347,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **X1 Millennium**
-  - April 16th, 2022: Disk writes modify source media, which breaks hashing.
+  - 16 Apr 2022: Disk writes modify source media, which breaks hashing.
 
 ### Sharp X68000
 
@@ -359,7 +359,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❌ libretro core: **Beetle bsnes**
 - ❌ libretro core: **Beetle Supafaust**
-  - June 11th, 2024: Does not expose memory.
+   - 11 Jun 2024: Does not expose memory.
 - ❌ libretro core: **bsnes**
 - ❌ libretro core: **bsnes 2014 Accuracy**
 - ❌ libretro core: **bsnes 2014 Balanced**
