@@ -5,119 +5,126 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 # Unsupported Emulators and Cores
 
-## Amiga
+### Amiga
 
+- ❌ _Not supported_.
 - ❓ libretro core: **FS-UAE**
-- ❌ libretro core: **P-UAE**
-  - Needs memory map to see exposed memory
-  - Locks disk files so they can't be opened for hashing
+- ❌ libretro core: **PUAE**
+  - Needs memory map to see exposed memory.
+  - Locks disk files so they can't be opened for hashing.
   - Hard disk support?
 - ❓ libretro core: **PUAE 2021**
 - ❓ libretro core: **UAE4ARM**
+- ❓ BizHawk core: **PUAE**
 
-## Amstrad CPC
+### Amstrad CPC
 
 - ❌ libretro core: **CrocoDS**
 
-## Apple II
+### Apple II
 
 - ⌛ BizHawk core: **Virtu**
   - Testing
-  - 4 Jun 2023 - woz files are not supported
-  - 4 Jun 2023 - joystick not supported. keyboard has to be manually mapped.
-  - 4 Jun 2023 - have to manually create and load a multi-disk bundle for games with multiple disks. disks are generically labelled by index only.
+  - June 4th, 2023: .woz files are not supported.
+  - June 4th, 2023: The joystick is not supported. The keyboard has to be manually mapped.
+  - June 4th, 2023: You have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
 
-## Arcade
+### Arcade
 
-- ❌ libretro core: **FB Alpha**
-  - Deprecated
+- ❌ libretro core: **FB Alpha 2012**
+  - Deprecated.
+  - CPS-1 through 3 and Neo Geo are separate cores.
 - ❌ libretro core: **MAME**
+  - Also has separate cores for MAME 2000, 2003 (with separate Midway and Plus cores) and 2010.
 - ❌ BizHawk core: **MAME**
 
-## Atari 2600
+### Atari 2600
 
+- ❓ libretro core: **Stella 2023**
 - ❓ libretro core: **Stella 2014**
 
-## Atari 5200
+### Atari 5200
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **atari800**
-  - Appears to work fine, but the core is a bit of a headache to use.
-    - The BIOS has to be configured within the core (F1 > Emulator Configuration > System ROM settings)
-    - Couldn't figure out controls - does the joystick need to be configured within the core too?
-    - Allows loading arbitrary files from the internal menu, which bypasses hashing
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ libretro core: **Atari800**
+  - Appears to work fine, but the core is a bit of a headache to use;
+    - The BIOS has to be configured within the core (F1 > Emulator Configuration > System ROM settings).
+    - Couldn't figure out the controls: does the joystick need to be configured within the core too?
+    - Allows loading arbitrary files from the internal menu, which bypasses hashing.
 - ❌ libretro core: **a5200**
-  - Does not expose memory
+  - Does not expose memory.
 
-## Atari ST
+### Atari ST
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **Hatari**
-  - Memory not exposed
+  - Does not expose memory.
 
-## Casette Vision
+### Cassette Vision
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 
-## CHIP-8
+### CHIP-8
 
-- ❌ _Not supported_ - needs console ID, hashing method and memory map
+- ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
 - ❌ libretro core: **Emux CHIP-8**
 - ❌ libretro core: **JAXE**
-  - 16 Apr 22 - Seems ready when we are
-  - May need settings blacklist to prevent lowering speed
+  - April 16th, 2022: Seems ready when we are.
+  - May need a settings blacklist to prevent lowering speed.
 
-## Commodore 128
+### Commodore 64
 
-- ❌ _Not supported_
-- ❌ libretro core: **VICE x128**
-
-## Commodore 64
-
-- ❌ libretro core: **vice_x64**
-  - NOTE: Joystick is in port 2 by default. Use JOY button on virtual keyboard (select) to switch it to port 1.
-  - 1 May 2022 - Reset does not autorun game
+- ❌ libretro core: **VICE x64**
+  - NOTE: Joystick is in port 2 by default. Use the JOY button on the virtual keyboard (select) to switch it to port 1.
+  - Divided into separate cores (fast, accurate and SuperCPU).
+  - May 1st, 2022: A reset does not autorun the game.
 - ⌛ BizHawk core: C64Hawk
   - Testing
 - ❓ libretro core: **Frodo**
 
-## ColecoVision
+### Commodore 128
+
+- ❌ _Not supported_.
+- ❌ libretro core: **VICE x128**
+
+### ColecoVision
 
 - ❌ libretro core: **Gearcoleco**
 
-## Elektronika BK-0010/0011
+### Dreamcast
 
-- ❌ _Not supported_
+- ❓ libretro core: **Flycast GLES2**
+
+### Elektronika BK-0010/11
+
+- ❌ _Not supported_.
 - ❌ libretro core: **M**
 
-## Enterprise 128
+### Enterprise 64/128
 
-- ❌ _Not supported_
+- ❌ _Not supported_.
 - ❌ libretro core: **ep128emu**
 
-## Fairchild Channel-F
+### Fairchild Channel-F
 
 - ❓ BizHawk core: **ChannelFHawk**
 
-## FM Towns
+### Famicom Disk System
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ libretro core: **NEStopia UE**
+  - Does not map SRAM.
 
-## Game & Watch
+### FM Towns
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **gw**
-  - Does not expose memory
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 
-## Game Boy
+### Game & Watch
 
-- ❓ libretro core: **DoubleCherryGB**
-- ❓ libretro core: **Emux GB**
-- ❓ libretro core: **fixGB**
-- ❓ libretro core: **SameBoy**
-- ❓ libretro core: **TGB Dual**
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ libretro core: **GW**
+  - Does not expose memory.
 
-## Game Boy Color
+### Game Boy
 
 - ❌ Standalone emulator: **Pizza Boy GBC**
   - No longer being developed. Compatibility issues can cause problems with unlocks.
@@ -126,8 +133,20 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❓ libretro core: **fixGB**
 - ❓ libretro core: **SameBoy**
 - ❓ libretro core: **TGB Dual**
+- ❓ libretro core: **Mesen-S**
 
-## Game Boy Advance
+### Game Boy Color
+
+- ❌ Standalone emulator: **Pizza Boy GBC**
+  - No longer being developed. Compatibility issues can cause problems with unlocks.
+- ❓ libretro core: **DoubleCherryGB**
+- ❓ libretro core: **Emux GB**
+- ❓ libretro core: **fixGB**
+- ❓ libretro core: **SameBoy**
+- ❓ libretro core: **TGB Dual**
+- ❓ libretro core: **Mesen-S**
+
+### Game Boy Advance
 
 - ❌ Standalone emulator: **Pizza Boy GBA**
   - No longer being developed. Compatibility issues can cause problems with unlocks.
@@ -135,135 +154,136 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
 
-## GameCube
+### GameCube
 
-- ⌛ libretro core: **Dolphin**
-  - Testing
+- ❌ libretro core: **Dolphin**
 
-## J2ME
+### Genesis/Mega Drive
 
-- ❌ _Not supported_ - needs console ID, hashing method and memory map
-- ❌ libretro core: **freej2me**
+- ❌ libretro core: **BlastEm**
+  - While some achievements may work, the core has issues with the Game RAM portion of memory.
 
-## Magnavox Odyssey 2
+### J2ME
+
+- ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
+- ❌ Standalone emulator: **FreeJ2ME**
+- ❌ Standalone emulator: **J2ME Loader**
+  - Android only.
+- ❌ libretro core: **FreeJ2ME**
+
+### Magnavox Odyssey 2
 
 - ❓ BizHawk core: **O2Hawk**
 
-## Master System / Mark III
+### Master System/Mark III
 
 - ❓ BizHawk core: **SMSHawk**
 - ❓ libretro core: **Emux SMS**
 
-## MicroW8
+### MicroW8
 
-- ❌ _Not supported_
+- ❌ _Not supported_.
 - ❌ libretro core: **MicroW8**
 
-## MS-DOS
+### MS-DOS
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **dosbox-core**
-- ❌ libretro core: **dosbox-SVN**
-- ❌ libretro core: **dosbox-pure**
-  - Needs a way to prevent launching with user-specified command line parameters
-  - Needs a way to prevent TSRs
-  - Needs a way to deactivate achievements if game drops to command prompt
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ libretro core: **DOSBox-core**
+- ❌ libretro core: **DOSBox-SVN**
+- ❌ libretro core: **DOSBox-Pure**
+  - Needs a way to prevent launching with user-specified command line parameters, TSRs and deactivate achievements if the game drops to the command prompt.
 
-## MSX
+### MSX
 
 - ❓ libretro core: **fMSX**
 
-## Neo Geo Pocket
+### Neo Geo Pocket (Color)
 
 - ❓ libretro core: **RACE**
 
-## Neo Geo Pocket Color
-
-- ❓ libretro core: **RACE**
-
-## NES / Famicom
+### NES/Famicom
 
 - ❌ libretro core: **NEStopia**
-  - Does not map SRAM
+  - Does not map SRAM.
 - ❓ libretro core: **Emux NES**
 - ❓ libretro core: **fixNES**
 
-## Nintendo 3DS
+### Nintendo 3DS
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **Citra**
-  - Only exposes 64MB of memory - documentation suggests there should be 128MB.
+  - Only exposes 64MB of memory. The documentation suggests there should be 128MB.
   - Does not support save states
 - ❌ libretro core: **Citra 2018**
 - ❌ libretro core: **Citra Canary**
+- ❌ BizHawk core: **Encore** (Citra)
 
-## Nintendo 64
+### Nintendo 64
 
 - ⌛ BizHawk core: **Mupen64Plus**
-  - Testing (there are some graphical issues that can be fixed using the angrylion plugin)
+  - Testing (there are some graphical issues that can be fixed using the angrylion plugin.)
 
-## Nintendo DSi
+### Nokia N-Gage
 
-- ❌ libretro core: **DeSmuME**
-- ❌ libretro core: **melonDS**
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ Standalone emulator: **EKA2L1**
 
-## Nokia N-Gage
+### Oric
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_.
 
-## Oric
+### Palm OS
 
-- ❌ _Not supported_
-
-## Palm OS
-
-- ❌ _Not supported_
+- ❌ _Not supported_.
 - ❌ libretro core: **Mu**
 
-## PC Engine CD / TurboGrafx-CD
+### PC Engine/TurboGrafx-16/SuperGrafx
+
+- ❓ libretro core: **Beetle PCE**
+
+### PC Engine CD/TurboGrafx-CD
 
 - ❌ libretro core: **Beetle PCE**
-  - Does not expose RAM needed for PC Engine CD
+  - Does not expose RAM needed for the PC Engine CD.
 
-## PC-6001
+### PC-6001
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 
-## PC-8800
+### PC-8000/8800
 
-- ❌ libretro core: **quasi88**
-  - NOT RECOMMENDED
-  - PC-88VA not supported
-  - 16 Apr 2022 - Cannot load m3u. Hash fails because core locks disk file.
-  - 16 Apr 2022 - Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch
-  - 16 Apr 2022 - RALibretro does not provide subsystem interface for loading multi-disk games
+- ❌ libretro core: **QUASI88**
+  - The PC-88VA is not supported.
+  - April 16th, 2022: Cannot load a .m3u file. The hash fails because the core locks the disk file.
+  - April 16th, 2022: Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch.
+  - April 16th, 2022: RALibretro does not provide a subsystem interface for loading multi-disk games.
 
-## PC-9800
+### PC-9800
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **Neko Project II Kai**
-  - Memory is not exposed.
+  - Does not expose memory.
     - It appears to be exposed in some games depending on the RAM size selected, but it seems like the machine RAM and not actually related to the game.
 - ❌ libretro core: **Neko Project II**
 
-## Philips CD-i
+### Philips CD-i
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **CDi 2015**
 - ❌ libretro core: **SAME CDi**
 
-## Philips P2000
+### Philips P2000T
 
-- ❌ _Not supported_
+- ❌ _Not supported_.
 - ❌ libretro core: **M2000**
 
-## Pico-8
+### Pico-8
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **FAKE-08**
 - ❌ libretro core: **Retro8**
 
-## PlayStation
+### PlayStation
 
 - ❌ libretro core: **PCSX ReARMed**
   - BIOS are not required for this core and will zero out the Kernel RAM.
@@ -272,117 +292,114 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❓ BizHawk core: **Nymashock** (Mednafen)
 - ❓ libretro core: **Rustation**
 
-## PlayStation 2
+### PlayStation 2
 
 - ❌ Standalone emulator: **AetherSX2**
-  - No longer being developed, has known incompatibilities
+  - No longer being developed and has known incompatibilities.
 - ❌ Standalone emulator: **NetherSX2**
+  - Fork of AetherSX2 and is known to have many issues with achievements and hardcore mode.
 - ❌ libretro core: **LRPS2**
-  - Still in alpha state
-  - Does not expose memory
+  - Still in alpha state.
+  - Does not expose memory.
 - ❌ libretro core: **Play!**
-  - Low compatibility with most commercial games
-  - Black screen with stuttering sound
+  - Low compatibility with most commercial games.
+  - Black screen with stuttering sound.
 
-## PocketStation
+### PlayStation 3
 
-- ❌ _Not supported_ - needs console ID, hashing method and memory map
+- ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
+- ❌ Standalone emulator: **RPCS3**
+
+### PocketStation
+
+- ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
 - ❌ libretro core: **pockystation**
-  - Core doesn't seem functional, even in RetroArch
+  - The core doesn't seem to be functional, even in RetroArch.
 
-## SAM Coupé
+### SAM Coupé
 
-- ❌ _Not supported_
+- ❌ _Not supported_.
 - ❌ libretro core: **SimCoupe**
-  - Still in alpha state
+  - Still in alpha state.
 
-## Sega Dreamcast
-
-- ❓ libretro core: **Flycast GLES2**
-
-## Sega Genesis / Mega Drive
-
-- ❌ libretro core: **Blastem**
-  - While some achievements may work, the core has issues with the Game RAM portion of memory.
-
-## Sega Pico
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **picodrive**
-  - Needs controls related to turning pages in the attached books
-
-## Sega Saturn
+### Saturn
 
 - ❌ libretro core: **Yabause**
   - Technically supported; not recommended.
 - ❌ libretro core: **Kronos**
-  - Saving and loading states often locks up the UI in RALibretro
+  - Saving and loading states often locks up the UI in RALibretro.
   - Technically supported; not recommended.
-- ❓ libretro core: **YabaSanshiro**
+- ❌ libretro core: **YabaSanshiro**
 - ⌛ BizHawk core: **Saturnus** (Mednafen)
   - Testing
 
-## SG-1000
+### Sega Pico
+
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ libretro core: **PicoDrive**
+
+### SG-1000
 
 - ❌ libretro core: **Gearsystem**
-  - Has significant unexposed memory
+  - Has a significant amount of unexposed memory.
 
-## Sharp X1
+### Sharp X1
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **X1 Millennium**
-  - 16 Apr 2022 - Disk writes modify source media, which breaks hashing
+  - April 16th, 2022: Disk writes modify source media, which breaks hashing.
 
-## Sharp X68K
+### Sharp X68000
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **px68k**
-  - Crashes RALibretro upon loading a game
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ libretro core: **PX68k**
+  - Crashes RALibretro upon loading a game.
 
-## SNES / Super Famicom / Satellaview / Sufami Turbo
+### SNES/Super Famicom/Satellaview/Sufami Turbo
 
-- ❓ libretro core: **Beetle bsnes**
+- ❌ libretro core: **Beetle bsnes**
 - ❌ libretro core: **Beetle Supafaust**
-  - 11 Jun 2024 - does not expose memory
-- ❓ libretro core: **bsnes**
-- ❓ libretro core: **bsnes 2014 Accuracy**
-- ❓ libretro core: **bsnes 2014 Balanced**
-- ❓ libretro core: **bsnes 2014 Performance**
-- ❓ libretro core: **bsnes C++98 (v085)**
-- ❓ libretro core: **bsnes-hd beta**
-- ❓ libretro core: **bsnes-mercury Accuracy**
-- ❓ libretro core: **bsnes-mercury Balanced**
-- ❓ libretro core: **bsnes-mercury Performance**
-- ❓ libretro core: **higan Accuracy**
-- ❓ libretro core: **nSide Balanced**
-- ❓ libretro core: **Snes9x 2002**
-- ❓ libretro core: **Snes9x 2005**
-- ❓ libretro core: **Snes9x 2005+**
+  - June 11th, 2024: Does not expose memory.
+- ❌ libretro core: **bsnes**
+- ❌ libretro core: **bsnes 2014 Accuracy**
+- ❌ libretro core: **bsnes 2014 Balanced**
+- ❌ libretro core: **bsnes 2014 Performance**
+- ❌ libretro core: **bsnes C++98 (v085)**
+- ❌ libretro core: **bsnes-hd beta**
+- ❌ libretro core: **bsnes-mercury Accuracy**
+- ❌ libretro core: **bsnes-mercury Balanced**
+- ❌ libretro core: **bsnes-mercury Performance**
+- ❌ libretro core: **higan Accuracy**
+- ❌ libretro core: **nSide Balanced**
+- ❌ libretro core: **Snes9x 2002**
+- ❌ libretro core: **Snes9x 2005**
+- ❌ libretro core: **Snes9x 2005 Plus**
 - ❌ libretro core: **Snes9x 2010**
-  - PLEASE STOP USING THIS FOR ACHIEVEMENTS!!!!
-- ❓ BizHawk core: **BSNES**
-- ❓ BizHawk core: **BSNESv115+**
+- ❌ BizHawk core: **BSNES**
+- ❌ BizHawk core: **BSNESv115+**
 
-## SpectraVideo SVI 318/328
+### SpectraVideo SVI 318/328
 
-- ❌ _Not supported_
+- ❌ _Not supported_.
 - ❌ libretro core: **blueMSX**
 
-## Super Casette Vision
+### Super Cassette Vision
 
+- ❌ _Not supported_.
 - ❌ libretro core: **EmuSCV**
-  - Unfinished according to [libretro docs](https://docs.libretro.com/library/emuscv/).
+  - Unfinished according to [the libretro docs](https://docs.libretro.com/library/emuscv/).
   - Does not expose memory. Appears to [export a save state](https://gitlab.com/MaaaX-EmuSCV/libretro-emuscv/-/blob/master/src/libretro.cpp#L223-229) via the RETRO_MEMORY_SAVE_RAM interface, which we try to shoehorn into $E000 as that's what's flagged as Cartridge RAM for the system.
 
-## Thomson TO8/TO8D
+### Thomson MO/TO
 
-- ❌ _Not supported_ - needs hashing method
+- ❌ _Not supported_ - needs a hashing method.
 - ❌ libretro core: **Theodore**
-  - Seems to work
-  - Uncertain how core handles writing to disk/tape. May affect hashing.
+  - Seems to work.
+  - Uncertain about how the core handles writing to disk/tape. May affect hashing.
 
-## TI-83
+### TI-83
 
+- ❌ _Not supported_.
 - ⌛ libretro core: **Numero**
   - Testing
 - ⌛ BizHawk core: **TI83Hawk**
@@ -390,53 +407,65 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## TIC-80
 
-- ❌ _Not supported_ - needs hashing method
+- ❌ _Not supported_ - needs a hashing method.
 - ❌ libretro core: **TIC-80**
   - Doesn't export memory correctly. Can only see 8 bytes.
 
 ## VIC-20
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **VICE xvic**
 
-## VMU
+## VMU/VMS
 
-- ❌ _Not supported_ - needs console ID, hashing method, and memory map
+- ❌ _Not supported_ - needs a console ID, a hashing method, and a memory map.
 - ❌ libretro core: **VeMUlator**
+  - No save state support.
 
-## Wii
+### Wii
 
+- ❌ _Not supported_.
 - ⌛ Standalone emulator: **Dolphin**
   - Testing
-- ⌛ libretro core: **Dolphin**
-  - Testing
+- ❌ libretro core: **Dolphin**
 
-## Wii U
+### Wii U
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ Standalone emulator: **Cemu**
 
-## Xbox
+### Xbox
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ Standalone emulator: **xemu**
 - ❌ libretro core: **DirectXbox**
-  - Still in alpha state
+  - Still in alpha state.
 
-## Zeebo
+### Xbox 360
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a console ID, a hashing method and a memory map.
+- ❌ Standalone emulator: **Xenia**
 
-## ZX81
+### Zeebo
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
+- ❌ Standalone emulator: **Infuse**
+  - Currently closed-source, has plans to become open-source.
+
+### ZX81
+
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **EightyOne**
-  - Memory not exposed
+  - Does not expose memory.
 
-## ZX Spectrum
+### ZX Spectrum
 
-- ❌ _Not supported_ - needs hashing method and memory map
+- ❌ _Not supported_ - needs a hashing method and a memory map.
 - ❌ libretro core: **FUSE**
-  - Requires ability to map keyboard to port 3
-  - Uncertain about save support. Cannot seem to insert save disk
+  - Requires the ability to map the keyboard to port 3.
+  - Uncertain about save support. Does not seem to insert save disk.
 - ⌛ - BizHawk core: **ZXHawk**
-  - Hashing needs to be corrected
   - Testing
+  - The hashing needs to be corrected.
+
+More details on BizHawk cores can be found [here](https://tasvideos.org/BizHawk).
