@@ -64,7 +64,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/general/setup-guide",
         // },
         {
-          text: "Emulator Support and Issues",
+          text: "Emulator Support",
           link: "/general/emulator-support-and-issues",
         },
         {
@@ -133,7 +133,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "How to Play Subsets",
-         link: "/general/tutorials/how-to-play-subsets",
+          link: "/general/tutorials/how-to-play-subsets",
         },
       ],
     },
@@ -364,6 +364,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         {
           text: "Emulator Hotkeys for Developers",
           link: "/developer-docs/emulator-hotkeys-for-developers",
+        },
+        {
+          text: "Unsupported Emulators and Cores",
+          link: "/developer-docs/unsupported-emulators-and-cores",
         },
         {
           text: "libretro core support",
