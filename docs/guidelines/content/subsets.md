@@ -54,7 +54,7 @@ Not very common, but will become more common as our console support expands. Ach
 
 ### Regional Differences
 
-If a regional variant of a game does not have enough differences to warrant a "full" set, but you don't want to include it with the base set due to interference with base challenges, a subset may be an to showcase the differences.
+If a regional variant of a game does not have enough differences to warrant a "full" set, but you don't want to include it with the base set due to interference with base challenges, a subset may be an option to showcase the differences.
 
 ### User-Generated Content
 
