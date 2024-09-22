@@ -29,10 +29,10 @@ description: Comprehensive guide to understanding and using condition syntax in 
 | [BitCount](/developer-docs/bitcount-size) | `0xK`  | `0xK01234` |
 |                   Float                   |  `fF`  | `fF01234`  |
 |                 Float BE                  |  `fB`  | `fB01234`  |
-|                   MBF32                   |  `fM`  | `fM01234`  |
-|                 MBF32 LE                  |  `fL`  | `fL01234`  |
 |                 Double32                  |  `fH`  | `fH01234`  |
 |                Double32 BE                |  `fI`  | `fI01234`  |
+|                   MBF32                   |  `fM`  | `fM01234`  |
+|                 MBF32 LE                  |  `fL`  | `fL01234`  |
 
 ### Prefixes
 
@@ -53,16 +53,16 @@ description: Comprehensive guide to understanding and using condition syntax in 
 
 |                        Flag                        | Prefix |    Example    |
 | :------------------------------------------------: | :----: | :-----------: |
+|     [`PauseIf`](/developer-docs/flags/pauseif)     |  `P:`  | `P:0xH1234=1` |
 |     [`ResetIf`](/developer-docs/flags/resetif)     |  `R:`  | `R:0xH1234=1` |
 | [`ResetNextIf`](/developer-docs/flags/resetnextif) |  `Z:`  | `Z:0xH1234=1` |
-|     [`PauseIf`](/developer-docs/flags/pauseif)     |  `P:`  | `P:0xH1234=1` |
-| [`AndNext`](/developer-docs/flags/andnext-ornext)  |  `N:`  | `N:0xH1234=1` |
-|  [`OrNext`](/developer-docs/flags/andnext-ornext)  |  `O:`  | `O:0xH1234=1` |
 |   [`AddSource`](/developer-docs/flags/addsource)   |  `A:`  | `A:0xH1234/2` |
 |   [`SubSource`](/developer-docs/flags/subsource)   |  `B:`  | `B:0xH1234/2` |
 | [`AddHits`](/developer-docs/flags/addhits-subhits) |  `C:`  | `C:0xH1234=1` |
 | [`SubHits`](/developer-docs/flags/addhits-subhits) |  `D:`  | `D:0xH1234=1` |
 |  [`AddAddress`](/developer-docs/flags/addaddress)  |  `I:`  | `I:0xH1234=1` |
+| [`AndNext`](/developer-docs/flags/andnext-ornext)  |  `N:`  | `N:0xH1234=1` |
+|  [`OrNext`](/developer-docs/flags/andnext-ornext)  |  `O:`  | `O:0xH1234=1` |
 |    [`Measured`](/developer-docs/flags/measured)    |  `M:`  | `M:0xH1234=1` |
 |   [`Measured`%](/developer-docs/flags/measured)    |  `G:`  | `G:0xH1234=1` |
 |   [`MeasuredIf`](/developer-docs/flags/measured)   |  `Q:`  | `Q:0xH1234=1` |

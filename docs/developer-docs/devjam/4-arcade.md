@@ -17,7 +17,7 @@ This table details earnable points for the Arcade DevJam:
 | :----: | :---------------------------------------------------------------------------------------------------------------------------: |
 |   3    |                                                Atomiswave and Sega NAOMI games                                                |
 |   2    |                                                        Everything else                                                        |
-|   2    |                               Collaboration<br>• _1 point per dev_<br>• _Must be evenly split_                                |
+|   1    |                               Collaboration<br>• _1 point per dev_<br>• _Must be evenly split_                                |
 |   2    | Late Submissions (Atomiswave and Sega NAOMI games)<br>• _Sets can still qualify up until the following DevJam's launch date!_ |
 |   1    |                                              Late Submissions (Everything else)                                               |
 

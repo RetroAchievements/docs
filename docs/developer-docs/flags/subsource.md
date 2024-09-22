@@ -24,6 +24,8 @@ In this example the value in `0x8010` will be subtracted from the value in `0x80
 
 If the value in `0x8010` is `1` and the value in `0x8020` is `2`, the comparison will be `-1 + 2 > 4`, or `1 > 4`.
 
+**NOTE:** This comparison is also satisfied when the value in `0x8010` is greater than the value in `0x8020`.
+
 ## Using SubSource to Count Specific Increments
 
 `SubSource` can also be used to track specific increases in addresses. The conditions below states that the current value in address `0x80dc` minus the value in the previous frame in the same address must be equal `2`. Effectively, this means that the condition is true whenever the value in address `0x80dc` increases by exactly two.
@@ -33,7 +35,7 @@ If the value in `0x8010` is `1` and the value in `0x8020` is `2`, the comparison
 | 1   | SubSource | Delta | 8-bit | 0x80dc |     |       |      |         |       |
 | 2   |           | Mem   | 8-bit | 0x80dc | =   | Value |      | 0x02    | 0 (0) |
 
-## Checking for a negative result
+## Checking for a Negative Result
 
 The accumulator and all logic performed is limited to an unsigned 32-bit number. If the total drops below 0, it underflows, resulting in a very large positive number. Here's the representation for the first few negative numbers:
 

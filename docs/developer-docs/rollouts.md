@@ -46,7 +46,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 | 2023-07-01  | Interton VC 4000<br>Elektor TV Games Computer<br>Arcadia 2001 |        31<br>23<br>22        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22335) |
 | 2023-08-12  |                            Uzebox                             |              30              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22887) |
 | 2023-11-15  |                          Neo Geo CD                           |              23              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24443) |
-|   Pending   |                           GameCube                            |              ??              |                              Pending                               |
+| 2024-07-15  |                           GameCube                            |              ??              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=27191) |
 |   Pending   |                             TI-83                             |              ??              |                              Pending                               |
 |   Pending   |                         Commodore 64                          |              ??              |                              Pending                               |
 |   Pending   |                          ZX Spectrum                          |              ??              |                              Pending                               |
