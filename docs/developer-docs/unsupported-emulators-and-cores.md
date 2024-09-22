@@ -27,7 +27,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
   - Testing
   - 4 Jun 2023: .woz files are not supported.
   - 4 Jun 2023: The joystick is not supported. The keyboard has to be manually mapped.
-  - 4 Jun 2023: You have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
+  - 4 Jun 2023: Have to manually create and load a multi-disk bundle for games with multiple disks. Disks are generically labelled by index only.
 
 ### Arcade
 
