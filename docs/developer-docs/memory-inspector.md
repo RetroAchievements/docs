@@ -201,6 +201,8 @@ In the memory viewer when an 8-bit address is selected you will see something li
 
 It is very common in games to store important information as a single bit. As a bit can only have two possible values (`1` or `0`), sometimes it's used to mean "yes" or "no", "on" or "off", "have item" or "no item", etc. Some games, specially those with limited memory space, use bit switches a lot.
 
+**NOTE:** Double-clicking an individual bit's value will toggle it between 0 and 1.
+
 **Important:** You can refer to each one of those bits individually in the Achievement Editor.
 
 Common meaning of bit switches in a game memory:

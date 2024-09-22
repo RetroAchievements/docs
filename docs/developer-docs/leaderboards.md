@@ -117,11 +117,9 @@ For more information on the value format, see [Value Definition](/developer-docs
 
 ### Value Format
 
-'Format' can be any of the available [formats](/developer-docs/rich-presence#format), but the editor currently only provides **Score**, **Time (Frames)**, **Time (Milliseconds)** and **Value**. **Time (Frames)** is the most common one, and represents a time derived from a value that increments every frame. It does this by multiplying by 100 (to convert to hundredths of a second) and dividing by 60 (the number of frames per second).
+'Format' can be any of the available [formats](/developer-docs/rich-presence#format). **Time (Frames)** is the most common one, and represents a time derived from a value that increments every frame. It does this by multiplying by 100 (to convert to hundredths of a second) and dividing by 60 (the number of frames per second).
 
 **NOTE**: If you're using a system that doesn't run at 60Hz, you have to use "Time (millisecs)" and multiply by some value to do the conversion yourself (50Hz = `*2` [100/50], 60Hz = `*1.666666` [100/60], 75Hz =`*1.333333` [100/75]).
-
-**NOTE**: **Time (Milliseconds)** is actually hundredths of a second, not thousandths of a second. i.e. a Value of 6234 would be 62.34 seconds, not 6.234 seconds.
 
 ## Design Tips
 
