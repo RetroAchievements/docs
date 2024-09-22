@@ -3,24 +3,16 @@ title: Emulator Support
 description: Comprehensive guide to emulator support and compatibility for RetroAchievements, including console-specific issues and recommendations for various cores and emulators.
 ---
 
-# Emulator Support and Issues
+# Emulator Support
 
-### 32X
-
-- ✅ libretro core: **PicoDrive**
-  - Several games are problematic, use BizHawk if an achievement shows as unsupported.
-  - Appears to still have unmapped RAM.
-- ✅ BizHawk core: **PicoDrive**
-  - Most recommended.
+::: info
+This page focuses on supported emulators. For extensive notes on unsupported emulators and cores, check the [unsupported emulators page](/developer-docs/unsupported-emulators-and-cores).
+:::
 
 ### 3DO Interactive Multiplayer
 
 - ✅ libretro core: **Opera**
   - May have some issues depending on the BIOS.
-
-### Amiga
-
-- ❌ _Not supported_.
 
 ### Amstrad CPC
 
@@ -54,10 +46,6 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ BizHawk core: **Atari2600Hawk**
   - Achievements that require emulator resets do not work. Please open a ticket so the achievement can be fixed.
 
-### Atari 5200
-
-- ❌ _Not supported_.
-
 ### Atari 7800
 
 - ✅ libretro core: **ProSystem**
@@ -82,48 +70,15 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **Beetle Lynx**
 - ✅ BizHawk core: **Handy** (Mednafen's fork)
 
-### Atari ST
-
-- ❌ _Not supported_.
-
-### Cassette Vision
-
-- ❌ _Not supported_.
-
-### CHIP-8
-
-- ❌ _Not supported_.
-
-### Commodore 128
-
-- ❌ _Not supported_.
-
-### Commodore 64
-
-- ❌ _Not supported_.
-
 ### ColecoVision
 
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **blueMSX**
 - ✅ BizHawk core: **ColecoHawk**
 
-### Dreamcast
-
-- ✅ libretro core: **Flycast**
-  - Disable threaded rendering to properly use save states.
-
-### Elektronika BK-0010/11
-
-- ❌ _Not supported_.
-
 ### Elektor TV Games Computer
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
-
-### Enterprise 64/128
-
-- ❌ _Not supported_.
 
 ### Fairchild Channel F
 
@@ -135,17 +90,8 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **FCEUmm**
 - ✅ libretro core: **Mesen**
 
-### FM Towns
-
-- ❌ _Not supported_.
-
-### Game & Watch
-
-- ❌ _Not supported_.
-
 ### Game Boy
 
-- ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ libretro core: **Gambatte**
   - Most recommended.
 - ✅ libretro core: **Gearboy**
@@ -153,10 +99,10 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **VBA-M**
 - ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
 - ✅ BizHawk core: **GBHawk**
+- ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 
 ### Game Boy Color
 
-- ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 - ✅ libretro core: **Gambatte**
   - Most recommended.
 - ✅ libretro core: **Gearboy**
@@ -164,16 +110,17 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **VBA-M**
 - ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
 - ✅ BizHawk core: **GBHawk**
+- ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 
 ### Game Boy Advance
 
-- ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
+- ✅ libretro core: **mGBA**
+  - Most recommended.
 - ✅ libretro core: **VBA-M**
 - ✅ libretro core: **Beetle GBA**
 - ✅ libretro core: **VBA Next**
-- ✅ libretro core: **mGBA**
-  - Most recommended.
 - ✅ BizHawk core: **mGBA**
+- ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
 
 ### GameCube
 
@@ -187,13 +134,6 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **Genesis Plus GX**
 - ✅ libretro core: **Gearsystem**
 
-### Genesis/Mega Drive
-
-- ✅ libretro core: **Genesis Plus GX**
-  - Most recommended.
-- ✅ libretro core: **PicoDrive**
-- ✅ BizHawk core: **Genplus-gx** (Genesis Plus GX)
-
 ### Intellivision
 
 - ✅ libretro core: **FreeIntv**
@@ -204,10 +144,6 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 ### Interton VC 4000
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
-
-### J2ME
-
-- ❌ _Not supported_.
 
 ### Magnavox Odyssey 2
 
@@ -224,14 +160,6 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 - ✅ libretro core: **SameDuck**
 
-### MicroW8
-
-- ❌ _Not supported_.
-
-### MS-DOS
-
-- ❌ _Not supported_.
-
 ### MSX
 
 - ✅ libretro core: **blueMSX**
@@ -247,24 +175,20 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 ### NES/Famicom
 
-- ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
   - Most recommended.
 - ✅ libretro core: **Mesen**
 - ✅ libretro core: **QuickNES**
   - Does not emulate the Famicom Disk System.
-
-### Nintendo 3DS
-
-- ❌ _Not supported_.
+- ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 
 ### Nintendo 64
 
-- ✅ Standalone emulator: **[RAProject64](https://retroachievements.org/download.php#rap64)**
-- ✅ libretro core: **ParaLLEl N64**
 - ✅ libretro core: **Mupen64Plus-Next**
-  - Separated into cores for OpenGL ES 2 and 3.
   - Most recommended.
+  - Separated into cores for OpenGL ES 2 and 3.
+- ✅ libretro core: **ParaLLEl N64**
+- ✅ Standalone emulator: **[RAProject64](https://retroachievements.org/download.php#rap64)**
 
 ### Nintendo DS
 
@@ -274,6 +198,7 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **DeSmuME 2015**
   - Does not emulate the DSi.
 - ✅ libretro core: **melonDS**
+- ✅ libretro core: **melonDS DS**
 - ✅ BizHawk core: **melonDS**
 
 ### Nintendo DSi
@@ -282,81 +207,43 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Does not support save states at this time.
 - ✅ BizHawk core: **melonDS**
 
-### Nokia N-Gage
-
-- ❌ _Not supported_.
-
-### Oric
-
-- ❌ _Not supported_.
-
-### Palm OS
-
-- ❌ _Not supported_.
-
 ### PC Engine/TurboGrafx-16/SuperGrafx
 
-- ✅ libretro core: **Beetle PCE Fast**
-  - SuperGrafx games do not work on the Beetle PCE Fast core.
 - ✅ libretro core: **Beetle SuperGrafx**
   - Most recommended.
+- ✅ libretro core: **Beetle PCE Fast**
+  - SuperGrafx games do not work on the Beetle PCE Fast core.
 - ✅ BizHawk core: **PCEHawk**
 
 ### PC Engine CD/TurboGrafx-CD
 
-- ✅ libretro core: **Beetle PCE Fast**
 - ✅ libretro core: **Beetle SuperGrafx**
   - Most recommended.
+- ✅ libretro core: **Beetle PCE Fast**
 - ✅ BizHawk core: **PCEHawk**
-
-### PC-6001
-
-- ❌ _Not supported_.
 
 ### PC-8000/8800
 
 - ✅ Standalone emulator: **[RAQUASI88](https://retroachievements.org/download.php#raquasi88)**
-
-### PC-9800
-
-- ❌ _Not supported_.
 
 ### PC-FX
 
 - ✅ libretro core: **Beetle PC-FX**
 - ✅ BizHawk core: **T.S.T.** (Mednafen)
 
-### Philips CD-i
-
-- ❌ _Not supported_.
-
-### Philips P2000T
-
-- ❌ _Not supported_.
-
-### Pico
-
-- ❌ _Not supported_.
-
-### Pico-8
-
-- ❌ _Not supported_.
-
 ### PlayStation
 
-- ✅ Standalone emulator: **[DuckStation](https://www.duckstation.org/wiki/Main_Page)**
-  - There may be memory leaks and/or burn-in when using save states.
 - ✅ libretro core: **Beetle PSX HW**
   - Most recommended.
 - ✅ libretro core: **Beetle PSX**
 - ✅ libretro core: **SwanStation**
+- ✅ Standalone emulator: **[DuckStation](https://www.duckstation.org/wiki/Main_Page)**
+  - There may be memory leaks and/or burn-in when using save states. This can be disruptive to softcore mode.
 
 ### PlayStation 2
 
 - ✅ Standalone emulator: **[PCSX2](https://pcsx2.net/)**
-
-### PlayStation 3
-- ❌ _Not supported_.
+  - PCSX2 is currently **the only officially supported** option for earning achievements. We _do not_ support Aethersx2.
 
 ### PlayStation Portable
 
@@ -366,21 +253,17 @@ description: Comprehensive guide to emulator support and compatibility for Retro
   - Loading save states too fast can cause it to crash.
   - Some games have graphical issues.
 
-### PocketStation
-
-- ❌ _Not supported_.
-
 ### Pokémon Mini
 
 - ✅ libretro core: **PokeMini**
 
-### SAM Coupé
+### Sega 32X
 
-- ❌ _Not supported_.
-
-### Saturn
-
-- ✅ libretro core: **Beetle Saturn**
+- ✅ BizHawk core: **PicoDrive**
+  - Most recommended.
+- ✅ libretro core: **PicoDrive**
+  - Several games are problematic, use BizHawk if an achievement shows as unsupported.
+  - Appears to still have unmapped RAM.
 
 ### Sega CD
 
@@ -388,46 +271,35 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 - ✅ libretro core: **Genesis Plus GX**
 - ✅ libretro core: **PicoDrive**
 
+### Sega Dreamcast
+
+- ✅ libretro core: **Flycast**
+  - Disable threaded rendering to properly use save states.
+
+### Sega Genesis/Mega Drive
+
+- ✅ libretro core: **Genesis Plus GX**
+  - Most recommended.
+- ✅ libretro core: **PicoDrive**
+- ✅ BizHawk core: **Genplus-gx** (Genesis Plus GX)
+
+### Sega Saturn
+
+- ✅ libretro core: **Beetle Saturn**
+
 ### SG-1000
 
-- ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **Genesis Plus GX**
   - Most recommended.
 - ✅ libretro core: **blueMSX**
-
-### Sharp X1
-
-- ❌ _Not supported_.
-
-### Sharp X68000
-
-- ❌ _Not supported_.
+- ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 
 ### SNES/Super Famicom/Satellaview/Sufami Turbo
 
-- ✅ Standalone emulator: **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)**
 - ✅ libretro core: **Snes9x**
   - Most recommended.
 - ✅ libretro core: **Mesen-S**
-
-### SpectraVideo SVI 318/328
-
-- ❌ _Not supported_.
-
-### Super Cassette Vision
-
-- ❌ _Not supported_.
-
-### Thomson MO/TO
-- ❌ _Not supported_.
-
-### TI-83
-
-- ❌ _Not supported_.
-
-### TIC-80
-
-- ❌ _Not supported_.
+- ✅ Standalone emulator: **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)**
 
 ### Uzebox
 
@@ -438,18 +310,10 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 - ✅ libretro core: **vecx**
 
-### VIC-20
-
-- ❌ _Not supported_.
-
 ### Virtual Boy
 
 - ✅ libretro core: **Beetle VB**
 - ✅ BizHawk core: **Virtual Boyee** (Mednafen)
-
-### VMU/VMS
-
-- ❌ _Not supported_.
 
 ### WASM-4
 
@@ -459,37 +323,9 @@ description: Comprehensive guide to emulator support and compatibility for Retro
 
 - ✅ libretro core: **Potator**
 
-### Wii
-
-- ❌ _Not supported_.
-
-### Wii U
-
-- ❌ _Not supported_.
-
 ### WonderSwan (Color)
 
 - ✅ libretro core: **Beetle Cygne**
 - ✅ BizHawk core: **Cygne** (Mednafen)
-
-### Xbox
-
-- ❌ _Not supported_.
-
-### Xbox 360
-
-- ❌ _Not supported_.
-
-### Zeebo
-
-- ❌ _Not supported_.
-
-### ZX81
-
-- ❌ _Not supported_.
-
-### ZX Spectrum
-
-- ❌ _Not supported_.
 
 More details on BizHawk cores can be found [here](https://tasvideos.org/BizHawk).
