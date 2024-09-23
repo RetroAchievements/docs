@@ -120,7 +120,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## Game Boy Color
 
 - ❌ Standalone emulator: **Pizza Boy GBC**
-  - No longer being developed. Compatibility issues can cause problems with unlocks.
+  - No longer being developed. Compatibility issues can cause problems with unlocks. Devs have no means to resolve issues.
 - ❓ libretro core: **DoubleCherryGB**
 - ❓ libretro core: **Emux GB**
 - ❓ libretro core: **fixGB**
@@ -130,7 +130,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## Game Boy Advance
 
 - ❌ Standalone emulator: **Pizza Boy GBA**
-  - No longer being developed. Compatibility issues can cause problems with unlocks.
+  - No longer being developed. Compatibility issues can cause problems with unlocks. Devs have no means to resolve issues.
 - ❓ libretro core: **gpSP**
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
@@ -201,6 +201,12 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ⌛ BizHawk core: **Mupen64Plus**
   - Testing (there are some graphical issues that can be fixed using the angrylion plugin)
+ 
+##Nintendo DS
+
+- ❌ Standalone Emulator: **melonDS Android**
+  - Causes numerous issues with achievements
+  - Devs have no means to resolve issues players have
 
 ## Nintendo DSi
 
@@ -275,7 +281,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## PlayStation 2
 
 - ❌ Standalone emulator: **AetherSX2**
-  - No longer being developed, has known incompatibilities
+  - No longer being developed, has known incompatibilities. Devs have no means to resolve issues
 - ❌ Standalone emulator: **NetherSX2**
 - ❌ libretro core: **LRPS2**
   - Still in alpha state
@@ -299,6 +305,9 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## Sega Dreamcast
 
 - ❓ libretro core: **Flycast GLES2**
+- ❌ Standalone Emulator: **Flycast**
+    - Untested
+    - No access to dev tools to resolve issues
 
 ## Sega Genesis / Mega Drive
 
@@ -319,8 +328,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
   - Saving and loading states often locks up the UI in RALibretro
   - Technically supported; not recommended.
 - ❓ libretro core: **YabaSanshiro**
-- ⌛ BizHawk core: **Saturnus** (Mednafen)
-  - Testing
 
 ## SG-1000
 
