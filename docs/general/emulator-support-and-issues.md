@@ -286,6 +286,8 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 ### Sega Saturn
 
 - ✅ libretro core: **Beetle Saturn**
+- ✅ BizHawk core: **Saturnus** (Mednafen)
+  - Good choice for users who can't run Beetle Saturn
 
 ### SG-1000
 
