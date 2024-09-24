@@ -281,7 +281,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## PlayStation 2
 
 - ❌ Standalone emulator: **AetherSX2**
-  - No longer being developed, has known incompatibilities. Devs have no means to resolve issues
+  - No longer being developed, has known incompatibilities. Devs have no means to resolve issues.
 - ❌ Standalone emulator: **NetherSX2**
 - ❌ libretro core: **LRPS2**
   - Still in alpha state
