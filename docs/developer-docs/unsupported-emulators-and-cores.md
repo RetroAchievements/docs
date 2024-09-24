@@ -205,8 +205,8 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## Nintendo DS
 
 - ❌ Standalone Emulator: **melonDS Android**
-  - Causes numerous issues with achievements
-  - Devs have no means to resolve issues players have
+  - Causes numerous issues with achievements.
+  - Devs have no means to resolve issues players have.
 
 ## Nintendo DSi
 
