@@ -202,7 +202,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ⌛ BizHawk core: **Mupen64Plus**
   - Testing (there are some graphical issues that can be fixed using the angrylion plugin)
  
-##Nintendo DS
+## Nintendo DS
 
 - ❌ Standalone Emulator: **melonDS Android**
   - Causes numerous issues with achievements
