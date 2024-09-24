@@ -307,7 +307,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❓ libretro core: **Flycast GLES2**
 - ❌ Standalone Emulator: **Flycast**
     - Untested
-    - No access to dev tools to resolve issues
+    - Devs have no means to resolve issues players have
 
 ## Sega Genesis / Mega Drive
 
