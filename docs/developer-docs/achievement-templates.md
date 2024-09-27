@@ -287,7 +287,7 @@ Suppose our actual goal is to "Complete Game/Level/Sequence in under X units of 
 | 4   |           | Delta | 0xCOMPLETE_FLAG | =   | Value | 0       | 0 (0) |
 | 5   | `Trigger` | Mem   | 0xCOMPLETE_FLAG | =   | Value | 1       | 0 (0) |
 
-In place of conditions 4 and 5 here you would use whatever logic definitively identifies the completion of the challenge you are constructing. This is just one example of a set of conditions you might have to identify the completion of the challenge.
+In place of conditions 4 and 5 here, you would use whatever logic definitively identifies the completion of the challenge you are constructing. This is just one example of a set of conditions you might have to identify the completion of the challenge.
 
 | ID  | Flag      | Type  | Memory   | Cmp | Type  | Mem/Val  | Hits                           |
 | --- | --------- | ----- | -------- | --- | ----- | -------- | ------------------------------ |
