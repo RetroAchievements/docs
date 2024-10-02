@@ -4,7 +4,7 @@
 
 Algunos usuarios les gusta utilizar la función de guardar/cargar estado para salvar su progreso en un juego. Puede que ya lo sepas pero, esta función no esta permitida cuando se juega en modo hardcore. Pero algunos usuarios no son jugadores hardcore y prefiero mantener el modo hardcore desactivado (vamos a llamar a este modo como softcore).
 
-Algunas veces algunos usuarios [reportan](/es/general/faq.html#no-obtuve-este-logro-o-lo-obtuve-en-un-momento-equivocado) que un logro no se desbloqueo, y cuando se les pregunta dicen que estaban jugando en softcore.
+Algunas veces algunos usuarios [reportan](/es/general/faq#no-obtuve-este-logro-o-lo-obtuve-en-un-momento-equivocado) que un logro no se desbloqueo, y cuando se les pregunta dicen que estaban jugando en softcore.
 
 Una cosa que tienes que tener en cuenta es:
 
@@ -79,6 +79,6 @@ El detalle importante en el que tenemos que prestar atención es: cuando recibes
 
 ## Ultimas Palabras
 
-Cuando [reportes logros rotos](/es/general/faq.html#no-obtuve-este-logro-o-lo-obtuve-en-un-momento-equivocado) da la mayor cantidad de detalles que sean posibles, **y no olvides si estabas o no jugando en hardcore**.
+Cuando [reportes logros rotos](/es/general/faq#no-obtuve-este-logro-o-lo-obtuve-en-un-momento-equivocado) da la mayor cantidad de detalles que sean posibles, **y no olvides si estabas o no jugando en hardcore**.
 
 Si quieres solicitar que un administrador te otorgue un logro manualmente cuando este no se disparo, ten en cuenta proveer pruebas. Especialmente para logros como en los ejemplos de arriba (no recibir daño, no passwords, no muertes, etc).

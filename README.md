@@ -26,7 +26,7 @@ This repository holds all the files for the official RetroAchievements documenta
 
 All contributions to the docs are welcome.
 
-We appreciate your interest in contributing. Whether you're new to Git or a seasoned developer, we've got you covered. [Visit the Contributing to the Docs page](https://docs.retroachievements.org/general/contributing-to-the-docs.html) page to get started.
+We appreciate your interest in contributing. Whether you're new to Git or a seasoned developer, we've got you covered. [Visit the Contributing to the Docs page](https://docs.retroachievements.org/general/contributing-to-the-docs) page to get started.
 
 ## DocSearch
 

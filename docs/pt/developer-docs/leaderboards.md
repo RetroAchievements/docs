@@ -1,6 +1,6 @@
 # Leaderboards
 
-**Link para o texto em inglês:** [Leaderboards](/developer-docs/leaderboards.html)
+**Link para o texto em inglês:** [Leaderboards](/developer-docs/leaderboards)
 
 Atualmente Leaderboards podem ser editadas por desenvolvedores no site. É uma interface bastante confusa e um trabalho difícil para fazer com que uma leaderboard funcione corretamente. É realmente necessário cuidado e atenção para obter uma boa leaderboard, então, neste documento nós vamos tentar entender como isto funciona.
 

@@ -74,7 +74,7 @@ Some examples of AtariAge Atari 2600 homebrew:
 - [L'ABBAYE DES MORTS](https://playonretro.itch.io/labbaye-des-morts-megadrivegenesis-por-002) - by
 - [Mega Flappy Sis](https://harlequin.itch.io/mega-flappy-sys) - by [Lennart](https://harlequin.itch.io/)
 - [Mighty Mighty Missile](https://playonretro.itch.io/labbaye-des-morts-megadrivegenesis-por-002) - by Locomalito(https://www.locomalito.com/)
-- [Pringles Game](http://68000.web.fc2.com/pringles.html) - by MtChocolate
+- [Pringles Game](http://68000.web.fc2.com/pringles) - by MtChocolate
 - [Uwol - Quest For Money](https://shiru.untergrund.net/files/smd/uwol_quest_for_money.zip) - by [Shiru](https://shiru.untergrund.net/software.shtml)
 - [ZOOMING SECRETARY: GOING PANIC](https://playonretro.itch.io/zooming-secretary-going-panic-megadrivegenesis-por-006) - by [Playonretro](https://playonretro.itch.io/)
 
@@ -86,8 +86,8 @@ Some examples of AtariAge Atari 2600 homebrew:
 - [Böbl](https://neshomebrew.ca/contest19/) - by [Morphcat Games](http://morphcat.de/)
 - [Bootee](https://www.mojontwins.com/juegos_mojonos/bootee-nes/) - by [Mojo Twins](https://www.mojontwins.com/
 - [Cookie Clicker](http://pineight.com/cookieclicker/) - by Damian Yerrick
-- [D-Pad Hero](https://dpadhero.com/Download.html) - by Kent Hansen, Andreas Pedersen
-- [D-Pad Hero 2](https://dpadhero.com/Download.html) - by Kent Hansen, Andreas Pedersen
+- [D-Pad Hero](https://dpadhero.com/Download) - by Kent Hansen, Andreas Pedersen
+- [D-Pad Hero 2](https://dpadhero.com/Download) - by Kent Hansen, Andreas Pedersen
 - [Filthy Kitchen](https://dustmop.itch.io/filthy-kitchen) - by [dustmop](https://dustmop.itch.io/)
 - [Function](http://nesdevcompo.nintendoage.com/contest14/)
 - [Gotta Protectors - Amazon's Running Diet](http://www.ancient.co.jp/~game/download/GottaProtectors_AmazonsRunningDiet.zip) - by [Ancient Corp](http://www.ancient.co.jp/~game/mamotte_knight2/)
@@ -99,7 +99,7 @@ Some examples of AtariAge Atari 2600 homebrew:
 - [Lala The Magical](http://nesdevcompo.nintendoage.com/contest16/)
 - [LAN Master](https://shiru.untergrund.net/files/nes/lan_master.zip) - by [Shiru](https://shiru.untergrund.net/software.shtml)
 - [Lawn Mower](https://shiru.untergrund.net/files/nes/lawn_mower.zip) - by [Shiru](https://shiru.untergrund.net/software.shtml)
-- [Legends of Owlia, The](http://www.gradualgames.com/p/the-legends-of-owlia_1.html) by [Gradual Games](http://www.gradualgames.com/)
+- [Legends of Owlia, The](http://www.gradualgames.com/p/the-legends-of-owlia_1) by [Gradual Games](http://www.gradualgames.com/)
 - [Lunar Limit](https://www.romhacking.net/homebrew/100/)
 - [Melo-Jellos 2](https://adrianmakesgames.itch.io/melo-jellos-2) - by [Adrian Makes Games](https://adrianmakesgames.itch.io/)
 - [Miedow](https://forums.nesdev.com/viewtopic.php?f=33&t=16889) - by [Mojo Twins](https://www.mojontwins.com/)

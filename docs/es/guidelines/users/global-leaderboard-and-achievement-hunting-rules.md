@@ -39,7 +39,7 @@ Cuando juegas en modo hardcore los puntos que consigas valen el doble. Entonces 
 
 Los usuarios que se toman en serio las tablas de clasificación son mas probables que consigan puntos en modo hardcore.
 
-**NOTA**: cuando se juega con el modo hardcore desactivado (también conocido como "softcore"), espera tener algunos problemas. Lee en [este enlace porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature.html).
+**NOTA**: cuando se juega con el modo hardcore desactivado (también conocido como "softcore"), espera tener algunos problemas. Lee en [este enlace porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature).
 
 ## No Trackeado/Untracked
 
@@ -67,7 +67,7 @@ Así que, si quieres disfrutar de RetroAchievements pero no quieres competir en 
 
 Incluso si "tu tuviste" que haber conseguido ese logro. Incluso si el juego estaba buggeado. Incluso si el logro esta completamente roto o removido. Cuando esto es detectado es muy probable que tu cuenta se pase a **[Untracked](#no-trackeadountracked)**.
 
-En los casos en que el logro tuvo que haberse desbloqueado pero no paso o no se registro en el sitio debido a un problema de red, deberás de [seguir los pasos descritos en el FAQ para solicitar un desbloqueo manual](/es/general/faq.html#completé-un-logro-difícil-pero-no-se-activó-se-me-puede-desbloquear-manualmente).
+En los casos en que el logro tuvo que haberse desbloqueado pero no paso o no se registro en el sitio debido a un problema de red, deberás de [seguir los pasos descritos en el FAQ para solicitar un desbloqueo manual](/es/general/faq#completé-un-logro-difícil-pero-no-se-activó-se-me-puede-desbloquear-manualmente).
 
 **NOTA**: percatate de utilizar la ultima versión disponible para ese emulador.
 
@@ -164,13 +164,13 @@ El otro lado de la moneda para [permitido 2](#permitido-2). Cheat codes y modos 
 
 Incluso en modo hardcore el fast-forward esta permitido, como una conveniencia de la actualidad. Es ~~casi~~ un hecho de que el fast-forward ofrece una partida justa y por eso esta disponible para que todos lo utilicen.
 
-**NOTA**:en modo _softcore_ savestates, rewind y camara-lenta también están permitidos, pero ten en cuenta que podrias llegar a tener algunos problemas. Checa [este link de Porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature.html).
+**NOTA**:en modo _softcore_ savestates, rewind y camara-lenta también están permitidos, pero ten en cuenta que podrias llegar a tener algunos problemas. Checa [este link de Porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature).
 
 ### <a name="permitido-2"></a>2. _Cuando dice explicitamente en la descripción de logro_, cheat codes/modo dentro del juego están permitidos y herramientas de desarrollo/debug están permitidas.
 
 Este es un complemento a la [regla no permitida numero 2](#no-permitido-2).
 
-El desarrollador de logros debería de estar capacitado en [proteger su trabajo para que estos no se desbloqueen fácilmente simplemente ingresando cheat codes](/es/guidelines/developers/code-of-conduct.html#cada-set-de-logros-tiene-que-tener). Sin embargo, algunos retos muy cool y divertidos puedes ser creados si tomamos ventaja de los cheats. En estos casos en especifico, utilizar cheats del juego esta permitido.
+El desarrollador de logros debería de estar capacitado en [proteger su trabajo para que estos no se desbloqueen fácilmente simplemente ingresando cheat codes](/es/guidelines/developers/code-of-conduct#cada-set-de-logros-tiene-que-tener). Sin embargo, algunos retos muy cool y divertidos puedes ser creados si tomamos ventaja de los cheats. En estos casos en especifico, utilizar cheats del juego esta permitido.
 
 **NOTA**: si encuentras logros desbloqueables con uso de cheats y que en estos no este descrito que se puedan utilizar, considera abrir un ticket y reportarlo.
 

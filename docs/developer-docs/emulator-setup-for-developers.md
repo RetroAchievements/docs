@@ -105,4 +105,4 @@ It should ask you to download the toolset automatically when you open it. After 
 
 To familiarize yourself with the hotkeys in each emulator, refer to this page:
 
-- [Emulator Hotkeys for Developers](/developer-docs/emulator-hotkeys-for-developers.html)
+- [Emulator Hotkeys for Developers](/developer-docs/emulator-hotkeys-for-developers)

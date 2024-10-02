@@ -1,6 +1,6 @@
 # Recursos de lógica para achievements
 
-Link para o texto em inglês: [Achievement Logic Features](/orphaned/achievement-logic-features.html)
+Link para o texto em inglês: [Achievement Logic Features](/orphaned/achievement-logic-features)
 
 Existem várias ferramentas e opções disponíveis para o desenvolvedor, saber como utilizá-las adequadamente melhorará a qualidade de seus sets. Essas ferramentas/opções podem ser usadas no Achievement Editor:
 
@@ -16,7 +16,7 @@ Exemplos de como ele pode ser usado:
 
 - Detectar se o nível foi aumentado: `level > delta level`. Significa que "o nível atual é maior que o nível do frame anterior".
 - Detectar danos: `health < delta health`. Significa que "a saúde atual é menor do que a saúde do frame anterior". Ou você pode apenas tornar o valor do frame anterior um requisito. `delta health = 1` significa que "o valor do frame anterior para a saúde deve ser 1".
-  Você pode ver como isso funciona no [Exemplos Reais](/pt/developer-docs/real-examples.html)
+  Você pode ver como isso funciona no [Exemplos Reais](/pt/developer-docs/real-examples)
 
 ## Hit Counts
 
@@ -28,7 +28,7 @@ Se você definir manualmente uma contagem (hit), por exemplo 1, significa que a 
 
 **ATENÇÃO**: se uma condição tiver uma contagem de hits e atingir o número necessário, esta condição não é mais testada. Ela é verdadeira e permanece verdadeira, **A MENOS** que você tenha um `ResetIf`, o qual discutiremos abaixo.
 
-Você pode ver como isso funciona no [Exemplos Reais](/pt/developer-docs/real-examples.html)
+Você pode ver como isso funciona no [Exemplos Reais](/pt/developer-docs/real-examples)
 
 ## Special Flags
 
@@ -50,7 +50,7 @@ Isso irá zerar a contagem de hits para todas condições em que você definiu u
 
 **Nota**: Ao contrário do `PauseIf`, le irá zerar as condições em **todos os grupos**
 
-Você pode ver como isso funciona no [Real Examples](/pt/developer-docs/real-examples.html)
+Você pode ver como isso funciona no [Real Examples](/pt/developer-docs/real-examples)
 
 ### `AddSource`
 

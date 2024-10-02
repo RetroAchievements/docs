@@ -1,6 +1,6 @@
 # Criação de Ícones e Emblemas
 
-**Link para o texto em inglês:** [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines.html)
+**Link para o texto em inglês:** [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines)
 
 ## Introdução
 

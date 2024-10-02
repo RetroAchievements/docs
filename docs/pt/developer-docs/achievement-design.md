@@ -1,6 +1,6 @@
 # Design de Conquistas
 
-**Link para o texto em inglês:** [Achievement Design](/developer-docs/achievement-design.html)
+**Link para o texto em inglês:** [Achievement Design](/developer-docs/achievement-design)
 
 Este é um guia de como pensar sobre e desenvolver boas conquistas. Não o lado técnico, mas o lado conceitual.
 
@@ -69,7 +69,7 @@ Conquistas em Progresso são garantidos ao jogador em uma jogada normal. Então,
 
 - Algumas cenas são tão memoráveis que merecem conquistas próprias! As pessoas que cresceram com esses jogos e os amam, tem o costume de procurar essas cenas em listas de conquistas, e isso pode apenas aquecer seu coração quando elas perceberem que isso foi reconhecido.
 
-- Conquistas de progresso ajudam outras pessoas no site a avaliar a distância de um jogador em um jogo, parecido com o [Estado de Presença](/pt/developer-docs/rich-presence.html). Nós podemos "soltar uma linha" para o jogador e dizer: "Boa sorte!" porque sabemos que a próxima parte é bem complicada. Encoraja a comunidade a interagir.
+- Conquistas de progresso ajudam outras pessoas no site a avaliar a distância de um jogador em um jogo, parecido com o [Estado de Presença](/pt/developer-docs/rich-presence). Nós podemos "soltar uma linha" para o jogador e dizer: "Boa sorte!" porque sabemos que a próxima parte é bem complicada. Encoraja a comunidade a interagir.
 
 - A ordem importa! Conquistas em Progresso podem nos dizer muito sobre o progresso apenas pela ordem que elas ocorram. Se você ativar aquela conquista de boss opcional e conseguiu um milhão de dolares, então você está fazendo todas as sidequests, isso é muito menos impressionante do que se você conseguir tirá-lo bem antes do meio do jogo. Em outras palavras, conquistas em progresso nos permite mostrar um pouco! Podemos mostrar ao mundo que podemos vencer o chefe final antes de chegarmos ao nível 10, ou que podemos finalizar o Expert Mode antes de ir primeiro no Facil e Normal. **Pode até revelar se usamos falhas ou truques para pular certas partes do jogo**. Então, como você pode ver, conquistas em progresso tem grande SINERGIA com outros tipos de conquistas.
 
@@ -275,6 +275,6 @@ As conquistas de desafio são a sua chance de mostrar aos jogadores como jogar s
 
 ## Fontes externas
 
-- [Best practices achievement creation guide](http://www.voidcn.com/article/p-gmokauqn-bgh.html) escrito por Jeff Sullivan, gerente de contas de desenvolvedor do XNA Developer Connection (XDC) sobre Conquistas do XBox 360. `texto em inglês`
+- [Best practices achievement creation guide](http://www.voidcn.com/article/p-gmokauqn-bgh) escrito por Jeff Sullivan, gerente de contas de desenvolvedor do XNA Developer Connection (XDC) sobre Conquistas do XBox 360. `texto em inglês`
 - [Make them Work for it ](https://gamedevelopment.tutsplus.com/articles/make-them-work-for-it-designing-achievements-for-your-games--gamedev-3371), um guia de design de conquistas escrito por Darran Jamieson em 1º de janeiro de 2013. `texto em inglês`
 - [The Achievement Machine: Understanding Xbox 360 Achievements in Gaming Practices](http://gamestudies.org/1101/articles/jakobsson) - por Mikael Jakobsson `texto em inglês`

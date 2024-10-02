@@ -15,7 +15,7 @@ Ejemplos de comportamientos que contribuyen a crear un entorno positivo incluyen
 Ejemplos de comportamientos inaceptables de parte de los participantes incluyen:
 
 - Postear enlaces de descarga a sitios donde otros pueden descargar ROMs ilegales.
-- Hacer trampas: No está permitido usar trucos a menos que sea especificado en la descripción del Logro, o en el comentario de la pagina del Logro. Incluyendo trucos en el juego, que existen en su consola originaria, están considerados como trampa si no han sido especificados. Las cuentas a las que se les evidencie hayan usado trampas, se les dará el estatus de ["Untracked"](/es/guidelines/users/global-leaderboard-and-achievement-hunting-rules.html#untracked).
+- Hacer trampas: No está permitido usar trucos a menos que sea especificado en la descripción del Logro, o en el comentario de la pagina del Logro. Incluyendo trucos en el juego, que existen en su consola originaria, están considerados como trampa si no han sido especificados. Las cuentas a las que se les evidencie hayan usado trampas, se les dará el estatus de ["Untracked"](/es/guidelines/users/global-leaderboard-and-achievement-hunting-rules#untracked).
 - Intentar irrumpir intencionalmente la estabilidad de la comunidad: Incitando cacerías-de-bruja, influenciar conductas, o generar drama, donde ese tipo de argumentos y desacuerdos deberían ser llevados a cabo en privado.
 - Troleo excesivo, insultos/comentarios despectivo, y ataques personales o políticos.
 - El uso de imágenes con contenido sexual, y atenciones o insinuaciones sexuales molestas.

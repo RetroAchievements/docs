@@ -12,5 +12,5 @@ We encourage all community members to join our [Discord Server](https://discord.
 
 Translations
 
-- [Portuguese](/pt/general/index.html)
-- [Spanish](/es/general/index.html)
+- [Portuguese](/pt/general/index)
+- [Spanish](/es/general/index)

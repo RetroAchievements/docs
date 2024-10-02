@@ -9,7 +9,7 @@ A turbo button, also known as turbo fire, autofire, or rapid fire, allows you to
 
 ::: info
 
-RetroAchievements [allows a turbo button to be used](/guidelines/users/global-leaderboard-and-achievement-hunting-rules.html#_6-turbo-is-allowed) while earning achievements, including in hardcore mode.
+RetroAchievements [allows a turbo button to be used](/guidelines/users/global-leaderboard-and-achievement-hunting-rules#_6-turbo-is-allowed) while earning achievements, including in hardcore mode.
 
 RetroAchievements adds PlayStation and Xbox style achievements to your classic games. [Sign up on RetroAchievements.org](https://retroachievements.org) to get started.
 
