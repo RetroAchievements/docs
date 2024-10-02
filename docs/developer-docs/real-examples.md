@@ -12,4 +12,3 @@ One of the best learning resource is looking at some real examples. In this sect
 - [Circumvent the Problem of a Counter Incrementing Twice in the Same Frame](real-examples/circumvent-the-problem-of-a-counter-incrementing-twice-in-the-same-frame)
 - [Creating a Timer with `ResetIf` Hits based on the Speed of the Game](real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game)
 - [Using `AddSource` and Deltas for Collectibles and Similar Achievements](real-examples/using-add-source-and-deltas-for-collectibles-and-similar-achievements)
-- [Pause Until-Using `PauseIf` to Prevent Achievement Processing Until Some Condition is Met](real-examples/pause-until-using-pause-if-to-prevent-achievement-processing-until-some-condition-is-met)
