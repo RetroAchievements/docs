@@ -48,7 +48,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 
 1. Pick a game from the list of approved DQ2 sets and then post your claim to the [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) channel on Discord or send to DevQuest inbox.
 2. Follow the revision process as normal: Post the plan on the forum, make a revision vote if any changes aren't on the "no need for approval list," and make a revision claim if adding achievements.
-3. Resolve any open tickets for achievements kept in the set, Tickets for achievements being left demoted can be simply closed with reason of demotion cited.
+3. Resolve any open tickets for achievements kept in the set. Tickets for achievements being left demoted can be simply closed with reason of demotion cited.
 4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.
 5. Contact the DevQuest team with any questions you have.
 6. When the set is ready mark it down on the doc under your name to be signed off by a DevQuest Member.
@@ -63,10 +63,10 @@ DevQuests are achievement development-related quests that Developers can take pa
 **Goal**: Tighten up the logic for 20 single-condition achievements  
 **Repeatable**: No
 
-1. This is a chance to tighten the code up, do not just add a bad line of code.
-2. You do not need a revision vote to tighten.
+1. This is a chance to tighten the code up. Do not just add a bad line of code.
+2. You do not need a revision vote to tighten the code up.
 3. Achievements cannot be your own, you should just fix these anyway!
-4. You must Comments on each achievement or in the forum on what you changed for log purposes.
+4. You must comment on each achievement or in the forum on what you changed for log purposes.
 5. May not overlap with the required repair plan for DevQuest 002 or with any completion requirements for DevQuest 013.
 
 ### 004 [Veteran Developer](https://retroachievements.org/game/15947)
@@ -318,7 +318,7 @@ You must have developed sets for 10 or more supported platforms before opt-in. O
 1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games.
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. No Homebrew/Hacks/Unlicensed.
-4. New sets only: No Multi Set or Revisions.
+4. New sets only. No multiplayer subsets or revisions.
 5. Other picks are subject to DQ team approval if eligibility is questionable.
 6. Collaborations must be approved by the DevQuest team; games done via collaboration must have sufficient content or modes to justify qualifying.
 
