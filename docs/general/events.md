@@ -13,8 +13,8 @@ description: Explore current and past RetroAchievements events, from ongoing cha
 | AotW: Akira Toriyama Tribute                | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26722) |                          |
 | Bounty Hunters                              | s0uth           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26501) |                          |
 | Challenge League                            | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24927) |                          |
-| [DevJam](/developer-docs/devjam.html)       | televandalist   | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22368) | Developer Event          |
-| [DevQuests](/developer-docs/devquests.html) | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=13060) | Developer Event (Series) |
+| [DevJam](/developer-docs/devjam)       | televandalist   | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22368) | Developer Event          |
+| [DevQuests](/developer-docs/devquests) | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=13060) | Developer Event (Series) |
 | Draw Your Pokemon                           | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21011) |                          |
 | Evergreen Events                            | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25332) |                          |
 | Final Fantasy V Four Job Fiesta             | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26862) |                          |
@@ -25,7 +25,7 @@ description: Explore current and past RetroAchievements events, from ongoing cha
 | PlayJam                                     | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26319) |                          |
 | Rack It Up                                  | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24535) |                          |
 | RetroAchievements Roulette (RAWR)           | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25399) |                          |
-| [Rollouts](/developer-docs/rollouts.html)   |                 |                                                                    |                          |
+| [Rollouts](/developer-docs/rollouts)   |                 |                                                                    |                          |
 | Simple Monthly Master                       | JAM             | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25995) |                          |
 | The Unwanted                                | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14787) |                          |
 | VGM Contest                                 | Yunalle         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26700) |                          |

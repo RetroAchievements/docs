@@ -158,7 +158,7 @@ These genres often lack standard progression, so have additional guidelines here
 Use the first of the following that is applicable:
 
 - Mark achievements for clearing each stage as Progression and the last as a Win Condition.
-  - Example: [Galaga](https://retroachievements.org/game/12138) - Bulletstorm is marked as the Win condition.
+  - Example: [Galaga](https://retroachievements.org/game/1701) - Bulletstorm is marked as the Win condition.
 - Use the last stage that adds new elements (enemies/obstacles/mechanics) or increases the difficulty as the final stage of Progression.
   - Example: [Donkey Kong](https://retroachievements.org/game/11943) - Mark 150m Finish as the Win condition.
 - Use the set developer's score achievements as Progression, with reaching the highest as the Win Condition.

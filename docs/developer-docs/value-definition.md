@@ -18,7 +18,7 @@ The example provided above reads:
 AddSource 8-bit 0xfe24
 AddSource 8-bit 0xfe25 * Value 60
 AddSource 8-bit 0xfe22 * Value 3600
-`Measured`  Value 0
+Measured  Value   0
 ```
 
 The addresses represent frames, seconds, and minutes respectively, and are individually multiplied and then added together to create a total number of frames that can be submitted to the database.
