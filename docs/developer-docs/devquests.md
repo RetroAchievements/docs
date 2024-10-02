@@ -64,7 +64,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 **Repeatable**: No
 
 1. This is a chance to tighten the code up. Do not just add a bad line of code.
-2. You do not need a revision vote to tighten the code up.
+2. You do not need a revision vote to tighten up this kind of logic.
 3. Achievements cannot be your own, you should just fix these anyway!
 4. You must comment on each achievement or in the forum on what you changed for log purposes.
 5. May not overlap with the required repair plan for DevQuest 002 or with any completion requirements for DevQuest 013.
