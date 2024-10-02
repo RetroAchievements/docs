@@ -127,7 +127,7 @@ Developers have the ability to add games to a Want to Develop list. Sets can be 
 
 When you go to claim a set, you no longer need to create a forum topic separately. The Make Claim button will automatically create a forum topic for you if one does not exist. 
 
-Keep in mind that you should NOT create forum topics without a valid reason, such as claiming a set. Otherwise, you will be the only person (besides admins) who can edit the top post, which is usually where important information such as linked hashes or set notes is placed.
+Keep in mind that you should NOT create forum topics without a valid reason, such as claiming a set. Otherwise, you will be the only person (besides admins) who can edit the top post, which is usually where important information such as supported game files or set notes is placed.
 
 #### Dev Menu
 
@@ -182,4 +182,4 @@ There are a few events limited to developers, each with their own Discord channe
 
 - [Beaten Into Completion](https://retroachievements.org/viewtopic.php?t=23062): Adding progression achievements to sets that are missing Beat criteria
 
-- [House Cleaning](https://retroachievements.org/viewtopic.php?t=20882&o=0): Resolving or closing inactive dev tickets
+- [House Cleaning](https://retroachievements.org/viewtopic.php?t=20882): Resolving or closing inactive dev tickets

@@ -36,7 +36,6 @@ There are _two_ ways of checking what checksums/hashes are linked to a game:
 ### Check the Linked Hashes page associated with the game
 
 Example for [Super Mario Bros.](https://retroachievements.org/linkedhashes.php?g=1446)
-NOTE: You must be logged in to view linked hashes.
 
 You can access this page by clicking the "Hashes linked to this game" button in the "More Info" section on the game page.
 
