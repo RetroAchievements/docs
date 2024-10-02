@@ -89,7 +89,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 9. Has obtained at least five badges through DevQuest.
 
 ::: warning NOTE
-A constantly evolving toolkit means that these requirements are subject to change at any time
+A constantly evolving toolkit means that these requirements are subject to change at any time.
 :::
 
 ### 005 [Trigger Happy](https://retroachievements.org/game/15952)
