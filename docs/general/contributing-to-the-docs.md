@@ -159,12 +159,12 @@ You _cannot_ have two title headings (`#`).
 
 ### Links
 
-Internal docs links should follow this syntax:
+Internal docs links should follow this syntax, with `.md` and `.html` extensions ommited:
 
 ```
 ✅ GOOD
 
-[Tips and Tricks](/developer-docs/tips-and-tricks.html)
+[Tips and Tricks](/developer-docs/tips-and-tricks)
 ```
 
 Do **NOT** use absolute paths when referencing another page on the docs. VitePress will automatically detect and warn when links are broken, but this detection doesn't kick in for absolute paths.
