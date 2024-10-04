@@ -274,6 +274,6 @@ Logros sobre retos son tu oportunidad para mostrarle a los jugadores como jugar 
 
 ## Recursos Externos
 
-- [Guía en las Mejores practicas en la creación de logros](http://www.voidcn.com/article/p-gmokauqn-bgh) escrito por Jeff Sullivan, Desarrollador en Administración de Cuentas de XNA Developer Connection (XDC) respecto a los logros de Xbox 360.
+- [Guía en las Mejores practicas en la creación de logros](http://www.voidcn.com/article/p-gmokauqn-bgh.html) escrito por Jeff Sullivan, Desarrollador en Administración de Cuentas de XNA Developer Connection (XDC) respecto a los logros de Xbox 360.
 - [Hazlos trabajar por eso](https://gamedevelopment.tutsplus.com/articles/make-them-work-for-it-designing-achievements-for-your-games--gamedev-3371) una guía de diseño de logros escrita por Darran Jamieson el 1 de Enero del 2013.
 - [La Maquina de Logros: Entendiendo los Logros de Xbox 360 en practicas videojugables](http://gamestudies.org/1101/articles/jakobsson) - de Mikael Jakobsson

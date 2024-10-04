@@ -24,7 +24,7 @@ Determinadas variedades de valores significam coisas diferentes no contexto do h
 - ❌ **0xFE00 - 0xFE9F: Mais dados gráficos** (igual aos dados gráficos acima)
 - ❌ **0xFEA0 - 0xFFFF: Diversos** (não use)
 
-Para mais informações, consulte: [http://gameboy.mongenel.com/dmg/asmmemmap.html](http://gameboy.mongenel.com/dmg/asmmemmap) `texto em inglês`
+Para mais informações, consulte: [http://gameboy.mongenel.com/dmg/asmmemmap.html](http://gameboy.mongenel.com/dmg/asmmemmap.html) `texto em inglês`
 
 ### ECHO RAM
 

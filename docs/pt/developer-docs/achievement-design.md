@@ -275,6 +275,6 @@ As conquistas de desafio são a sua chance de mostrar aos jogadores como jogar s
 
 ## Fontes externas
 
-- [Best practices achievement creation guide](http://www.voidcn.com/article/p-gmokauqn-bgh) escrito por Jeff Sullivan, gerente de contas de desenvolvedor do XNA Developer Connection (XDC) sobre Conquistas do XBox 360. `texto em inglês`
+- [Best practices achievement creation guide](http://www.voidcn.com/article/p-gmokauqn-bgh.html) escrito por Jeff Sullivan, gerente de contas de desenvolvedor do XNA Developer Connection (XDC) sobre Conquistas do XBox 360. `texto em inglês`
 - [Make them Work for it ](https://gamedevelopment.tutsplus.com/articles/make-them-work-for-it-designing-achievements-for-your-games--gamedev-3371), um guia de design de conquistas escrito por Darran Jamieson em 1º de janeiro de 2013. `texto em inglês`
 - [The Achievement Machine: Understanding Xbox 360 Achievements in Gaming Practices](http://gamestudies.org/1101/articles/jakobsson) - por Mikael Jakobsson `texto em inglês`

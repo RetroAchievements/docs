@@ -194,7 +194,7 @@ No uses rutas absolutas al referenciar otra página en la documentación. VitePr
 ```md
 🛑 MAL
 
-[Consejos y trucos](https://docs.retroachievements.org/developer-docs/tips-and-tricks)
+[Consejos y trucos](/developer-docs/tips-and-tricks.html)
 ```
 
 ### Imágenes
