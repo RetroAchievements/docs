@@ -159,7 +159,7 @@ You _cannot_ have two title headings (`#`).
 
 ### Links
 
-Internal docs links should follow this syntax:
+Internal docs links should follow this syntax, with `.md` and `.html` extensions ommited:
 
 ```
 ✅ GOOD
