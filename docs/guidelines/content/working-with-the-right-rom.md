@@ -89,7 +89,7 @@ You can verify that your ROM checksum matches the databases of No-Intro, Redump,
 | 40        | Sega Dreamcast                  | Redump             |
 | 41        | PlayStation Portable            | Redump             |
 | 41        | PlayStation Portable            | No Intro           |
-| 43        | 3DO Interactive Multuplayer     | Redump             |
+| 43        | 3DO Interactive Multiplayer     | Redump             |
 | 44        | ColecoVision                    | No Intro           |
 | 45        | Intellivision                   | No Intro           |
 | 46        | Vectrex                         | No Intro           |
