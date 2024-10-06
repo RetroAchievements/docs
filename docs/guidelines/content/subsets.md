@@ -11,7 +11,7 @@ _Advanced Developer Topic_
 
 ## What are Subsets?
 
-When browsing the [list of games](http://retroachievements.org/gameList.php), you will see that some games have a `[Subset]` tag in the title. Each of these contain achievements that for some reason or another, are not available in a game's base set. Subsets are typically home to specific types of challenge runs. The primary driver for what differentiates content appropriate for a subset is when it requires a significant time investment while playing a game in such a manner that is substantially different than how the game would typically be played or was likely intended to be played.
+When browsing the [list of games](http://retroachievements.org/gameList.php), you will see that some games have a `[Subset]` tag in the title. Each of these contain achievements that for some reason or another, are not available in a game's base set. Subsets are typically home to specific types of challenge runs.
 
 The methods to create a subset and means to play them will change once they become a more integrated feature. As of now, they require a patch to generate a unique hash and are separate entries from the base set, so achievements must be obtained separately as well. Information on creating these patches can be obtained [here](https://github.com/RetroAchievements/RAPatches).
 
@@ -20,6 +20,17 @@ The methods to create a subset and means to play them will change once they beco
 Challenge achievements are base set content by default. Challenges only become appropriate for subsets when they are of an extreme nature that is far beyond what a typical challenge might be such as a full game damageless challenge. Subsets should not be used as a dumping ground for challenges that for whatever reason are not perfect fits into the base set.
 
 ## Types of Subsets
+
+### Challenge Runs
+
+While many base sets include plenty of challenges, developers have the option to add challenges that last the duration of a game's playthrough to a Subset. These are typically self-imposed challenges that go against how a game is normally played. Examples:
+
+- [Chrono Trigger - No Level Up](https://retroachievements.org/game/9966) requires players to complete the game without ever leveling up their characters.
+- [EarthBound - Rare Drops](https://retroachievements.org/game/18280) requires players to obtain all the rare drops from enemies.
+- [Final Fantasy - Solo Class](https://retroachievements.org/game/17996) requires players to complete the game using only one character class, but they need to do it with every class to master the set.
+- [Super Mario Bros. - 5-Minute Speedrun](https://retroachievements.org/game/23910) requires players to complete the game in under a widely recognized threshold that is considered a significant accomplishment by the speedrunning community.
+- [Pokemon - Professor Oak Challenge](https://retroachievements.org/searchresults.php?s=Professor+Oak+Challenge) There are several of these so far! This challenge requires players to catch and/or evolve every Pokemon possible between major story points in the game.
+- [Trails in the Sky FC - NG Nightmare](https://retroachievements.org/game/11115) requires players to obtain 100% completion in a single, NG (New Game) playthrough on the Nightmare difficulty setting, as opposed to doing it on NG+ with carryovers.
 
 ### Extreme or Brutal Challenges
 
@@ -32,17 +43,6 @@ If it's generally voiced a challenge is **too difficult**, it's a prime candidat
 ### Multi Sets
 
 This one is simple. If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multi sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for a Multi set. It is not accept to be able to simply earn achievements with a single player while in a multiplayer mode.
-
-### Challenge Runs
-
-While many base sets include plenty of challenges, developers have the option to add challenges that last the duration of a game's playthrough to a Subset. These are typically self-imposed challenges that go against how a game is normally played. Examples:
-
-- [Chrono Trigger - No Level Up](https://retroachievements.org/game/9966) requires players to complete the game without ever leveling up their characters.
-- [EarthBound - Rare Drops](https://retroachievements.org/game/18280) requires players to obtain all the rare drops from enemies.
-- [Final Fantasy - Solo Class](https://retroachievements.org/game/17996) requires players to complete the game using only one character class, but they need to do it with every class to master the set.
-- [Super Mario Bros. - 5-Minute Speedrun](https://retroachievements.org/game/23910) requires players to complete the game in under a widely recognized threshold that is considered a significant accomplishment by the speedrunning community.
-- [Pokemon - Professor Oak Challenge](https://retroachievements.org/searchresults.php?s=Professor+Oak+Challenge) There are several of these so far! This challenge requires players to catch and/or evolve every Pokemon possible between major story points in the game.
-- [Trails in the Sky FC - NG Nightmare](https://retroachievements.org/game/11115) requires players to obtain 100% completion in a single, NG (New Game) playthrough on the Nightmare difficulty setting, as opposed to doing it on NG+ with carryovers.
 
 ### DLC and Expansions
 
@@ -80,6 +80,12 @@ A subset where you have to collect or perform a lengthy grind prior each checkpo
 ### Perma-Death Challenges
 
 Restrictive challenges where player units or equivalent must never be used again if the die, expire, or otherwise lose in some way during play. (Examples: Pokemon Nuzlocke challenges or Strategy RPGs where perma-death isn't already a characteristic of the game). Note: These challenges may need support within the game or hack to be possible with the current toolkit.
+
+### Bonus
+
+A bonus set is a set with a variety of achievements that do not fit into the base set of a game for various reasons. These may be extremely difficult challenges that go beyond what is welcome, painful grinds that serve no particular purpose beyond getting stronger or collecting everything, a showcase of glitches, or many other kinds of things that wouldn't be considered good achievements for the base set.
+
+- A good example of the variety pack nature of a bonus set is the Suikoden Bonus Set, which contains various challenge runs, rare drops, and extreme challenges within a single subset.
 
 ## Naming Scheme
 
