@@ -67,7 +67,7 @@ If you notice a player has become untracked: do not harass them, accuse them of 
 
 Even if you "should have" unlocked the achievement. Even if the game is bugged. Even if the achievement is removed or broken entirely. When it's detected, it will lead the account to be **[Untracked](#untracked)**.
 
-In the cases where you should have unlocked the achievement but it didn't trigger or it didn't get registered in the site due to a network problem, you should [follow the steps described in FAQ to request a manual unlock](/general/faq#i-completed-a-hard-cheevo-but-it-didnt-trigger-can-it-be-manually-awarded-to-me).
+In the cases where you should have unlocked the achievement but it didn't trigger or it didn't get registered in the site due to a network problem, you should [follow the steps described in FAQ to request a manual unlock](/general/faq#how-do-i-request-a-manual-unlock).
 
 **NOTE**: make sure you are using the latest release version of an approved supported emulator.
 

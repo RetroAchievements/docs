@@ -143,6 +143,6 @@ In this case, the pointer is actually pointing backwards, so the offset is a rea
 
 ## Video Tutorial
 
-The experienced achievement creator [wilhitewarrior](https://retroachievements.org/User/wilhitewarrior) made a nice video showing how to work with pointers and AddAddress flag.
+The experienced achievement creator [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior) made a nice video showing how to work with pointers and AddAddress flag.
 
 You can check it here: <https://www.youtube.com/watch?v=_gk0vYYlm-E>.

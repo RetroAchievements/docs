@@ -87,7 +87,7 @@ Common examples of Pointless Excessive Grinding:
 - Acquiring many copies of items or money beyond which would typically be accrued during a normal playthrough.
 - Collecting an arbitrary number of extra lives when they are not associated with a reward or challenge, such as when they can be dropped by enemies.
 
-Where this is acceptable:
+When these are acceptable:
 
 - Bonus subsets or subsets specifically approved for grinding tasks are an exception to this policy and may be implemented.
 
@@ -112,7 +112,7 @@ When these are acceptable:
 Let's face it. There are some games, or 'games,' rather, that are not fit for achievements. Below is a list of said types of games that are usually not.
 
 - [Games That Lack Gameplay](#games-that-lack-gameplay)
-- [Compilations and Multi-Carts](#compilations-and-multicarts)
+- [Compilations and Multi-Carts](#compilations-and-multi-carts)
 - [Betas, Demos, and Prototypes](#betas-demos-and-prototypes)
 
 ## Games That Lack Gameplay

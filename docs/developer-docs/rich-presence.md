@@ -276,7 +276,7 @@ This restriction helps in preventing inappropriate or offensive content from sho
 - Turning all your values from hex into decimal will take up less characters.
 - Unicode characters don't always "take up less space". They often take up to four system characters.
 - Each `Lookup` or `Format` named mapping can be referenced multiple times with the same or different addresses. You can define a single `Format:Number FormatType=VALUE` instead of defining individual ones for Lives, Score, Level, etc.
-- Putting spaces in your Lookups sometimes before or after can allow you to hide certain lookups when they are not needed, like how `@Pause`, `@Star`, `@Swimming`, and @Mode do.
+- Putting spaces in your Lookups sometimes before or after can allow you to hide certain lookups when they are not needed, like how `@Pause`, `@Star`, `@Swimming`, and `@Mode` do.
 
 ### Value Properties
 

@@ -59,7 +59,7 @@ Any aspiring dev must demonstrate understanding of the following concepts:
 Here is a list of some advanced concepts/techniques. **They are not required to become a Developer**, but are listed here to let the jr-dev know the possibilities of the Achievement's logic.
 
 - Hit count as timer (like in [this example](/developer-docs/real-examples/using-hit-counts-as-a-timer) and [this one](/developer-docs/real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game))
-- [ResetIf Checkpoints](/developer-docs/achievement-templates#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
+- [ResetIf Checkpoints](/developer-docs/achievement-templates#finish-level-n-without-dying)
 - [ResetIf with Hitcount](/developer-docs/flags/resetif#resetif-with-hit-counts)
 - [PauseIf with Hitcount](/developer-docs/flags/pauseif#pauseif-with-hit-counts)
 - [AddSource](/developer-docs/flags/addsource) and [SubSource](/developer-docs/flags/subsource) Flags
@@ -67,11 +67,11 @@ Here is a list of some advanced concepts/techniques. **They are not required to 
 - [Increment counter (`Mem > Delta` Counter)](/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment)
 - [Delta Hit Counter, pause technique](/developer-docs/achievement-templates#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
 - [Little endianness](/developer-docs/memory-inspector#endianness)
-- Memory size: [Lower4, Upper4](/developer-docs/memory-inspector#upper4-and-lower4), and [16-bit, 32-bit](/developer-docs/memory-inspector#1632-bit-mode)
+- Memory size: [Lower4, Upper4](/developer-docs/memory-inspector#upper4-and-lower4), and [16-bit, 32-bit](/developer-docs/memory-inspector#_16-and-32-bit-mode)
 - Dynamic [Rich Presence](/developer-docs/rich-presence)
 - [Leaderboards](/developer-docs/leaderboards)
 - [Pausable Resets](/developer-docs/achievement-templates#conditional-resets)
-- [SubSource increment counter](/developer-docs/flags/subsource#using-subsource-to-count-increments)
+- [SubSource increment counter](/developer-docs/flags/subsource#using-subsource-to-count-specific-increments)
 
 The [Real Examples](/developer-docs/real-examples) and [Achievement Templates](/developer-docs/achievement-templates) pages are useful resources to see how those techniques work.
 
