@@ -2,7 +2,7 @@
 
 Bem-vindo ao [Projeto de documentação do Retroachievements](https://retroachievements.github.io/docs/)!
 
-Recém chegados, por favor iniciem pelo [Manifesto RetroAchievements](/pt/guidelines/users/retroachievements-manifesto.html) e com o [FAQ](/pt/general/faq.html).
+Recém chegados, por favor iniciem pelo [Manifesto RetroAchievements](/pt/guidelines/users/retroachievements-manifesto) e com o [FAQ](/pt/general/faq).
 
 Nós encorajamos todos os membros da comunidade a se juntar ao nosso [Servidor do Discord](https://discord.gg/dq2E4hE), nós usamos isto para maior comunicação.
 

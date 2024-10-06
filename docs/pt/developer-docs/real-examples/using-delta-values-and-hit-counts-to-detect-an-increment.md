@@ -1,6 +1,6 @@
 # Usando Valores Deltas e ResetIf
 
-**Link para o texto em inglês:** [Using Delta Values and Hit Counts to Detect an Increment](/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment.html)
+**Link para o texto em inglês:** [Using Delta Values and Hit Counts to Detect an Increment](/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment)
 
 Vamos pegar [Streets of Rage 2 (Mega Drive)](http://retroachievements.org/Game/3)
 como um caso de estudo, e o achievement [Steel Grip - Defeat 10 enemies without dropping your weapon](http://retroachievements.org/Achievement/55). Isso depende de quatro condições:

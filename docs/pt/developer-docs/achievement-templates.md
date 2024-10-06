@@ -1,6 +1,6 @@
 # Modelos de Conquistas
 
-**Link para o texto em inglês:** [Achievement Templates](/developer-docs/achievement-templates.html)
+**Link para o texto em inglês:** [Achievement Templates](/developer-docs/achievement-templates)
 
 ## **ATENÇÃO: TODO JOGO É DIFERENTE!**
 

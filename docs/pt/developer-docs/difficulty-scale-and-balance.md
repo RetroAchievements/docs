@@ -1,10 +1,10 @@
 # Escala de Dificuldade e Equilíbrio
 
-**Link para o texto em inglês:** [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance.html)
+**Link para o texto em inglês:** [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance)
 
 Este documento tem algumas sugestões sobre dificuldade, balanceamento do set e manutenção de um set divertido, e desafiador. O que você irá ver aqui não são regras, apenas sugestões.
 
-**Nota** Seja conciente da [Código de Conduta dos Desenvolvedores](/guidelines/developers/code-of-conduct.html)
+**Nota** Seja conciente da [Código de Conduta dos Desenvolvedores](/guidelines/developers/code-of-conduct)
 
 ## Escala de Dificuldade
 

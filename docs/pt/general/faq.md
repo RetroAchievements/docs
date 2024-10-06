@@ -1,6 +1,6 @@
 # FAQ (Perguntas Frequentes)
 
-**Link para o texto em inglês:** [FAQ](/general/faq.html)
+**Link para o texto em inglês:** [FAQ](/general/faq)
 
 ## O que é o RetroAchievements.org?
 
@@ -75,7 +75,7 @@ Motivos:
 1. Não possui conquistas,
 2. Você possui a ROM incorreta.
 
-Para mais detalhes leia esta página: [Meu jogo não está carregando conquistas](/pt/orphaned/my-game-is-not-loading-achievements.html).
+Para mais detalhes leia esta página: [Meu jogo não está carregando conquistas](/pt/orphaned/my-game-is-not-loading-achievements).
 
 Se você é um usuário Linux, você pode usar essa ferramenta para checar se sua ROM está OK para o RetroAchievements: [https://github.com/meleu/hascheevos](https://github.com/meleu/hascheevos)
 
@@ -99,7 +99,7 @@ Aqui está um [exemplo perfeito de prova fornecido pelo gr1nya](https://youtu.be
 
 ## Eu quero fazer conquistas!
 
-**Que bom!!** O melhor lugar para se iniciar é aqui [Começando como um desenvolvedor de conquistas](/pt/developer-docs/getting-started-as-an-achievement-developer.html). Uma vez que você se familiarizar com o Memory Inspector e outros diálogos relacionados a conquistas, você pode ir em outros [Documentos para Desenvolvedores](/pt/developer-docs/)
+**Que bom!!** O melhor lugar para se iniciar é aqui [Começando como um desenvolvedor de conquistas](/pt/developer-docs/getting-started-as-an-achievement-developer). Uma vez que você se familiarizar com o Memory Inspector e outros diálogos relacionados a conquistas, você pode ir em outros [Documentos para Desenvolvedores](/pt/developer-docs/)
 
 Por favor, não hesite em perguntar se você precisa de ajuda, não debata-se! A coisa mais importante é ter certeza que está aproveitando qualquer coisa que você esteja fazendo, Se você não está se divertindo, não faça. Mas se você estiver frustrado e quer persistir, apenas mande uma mensagem nos [foruns](https://retroachievements.org/forum.php?c=7) ou no [Servidor do Discord](https://discord.gg/dq2E4hE) e alguem irá lhe responder rapidamente.
 

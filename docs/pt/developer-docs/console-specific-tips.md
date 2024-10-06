@@ -1,6 +1,6 @@
 ## Dicas Específicas do Console
 
-**Link para texto em inglês:** [Console Specific Tips](/developer-docs/console-specific-tips.html)
+**Link para texto em inglês:** [Console Specific Tips](/developer-docs/console-specific-tips)
 
 ---
 

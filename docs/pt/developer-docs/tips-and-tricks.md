@@ -1,6 +1,6 @@
 # Dicas e Truques
 
-**Link para o texto em inglês:** [Tips and Tricks](/developer-docs/tips-and-tricks.html)
+**Link para o texto em inglês:** [Tips and Tricks](/developer-docs/tips-and-tricks)
 
 ---
 
@@ -68,15 +68,15 @@ Confuso? Sim. É por isso que a maioria dos iniciantes e desenvolvedores interme
 
 - **Limitações**: Há um limite de 100 achievements, um teto de 400 pontos e um limite de caracteres para uma única conquista (tente não colocar mais de 50 condições em uma conquista, isso é mais amor do que o RetroAchievements consegue lidar!).
 
-- **Alt groups** (lado esquerdo do editor) são usados para "ou" condições. O grupo Core está sempre lá e deve sempre ser verdadeiro com pelo menos um grupo Alt sendo completamente verdadeiro para obter um achievement. O grupo inteiro é a sua condição "ou". Mais informações sobre a página [Achievement Logic Features page](/pt/orphaned/achievement-logic-features.html).
+- **Alt groups** (lado esquerdo do editor) são usados para "ou" condições. O grupo Core está sempre lá e deve sempre ser verdadeiro com pelo menos um grupo Alt sendo completamente verdadeiro para obter um achievement. O grupo inteiro é a sua condição "ou". Mais informações sobre a página [Achievement Logic Features page](/pt/orphaned/achievement-logic-features).
 
 - **Evite o spam de achievement**. Se um jogo tiver 100 níveis, não faça um achievement para cada nível. Faça a cada 25 ou mais. Geralmente, é avaliado pela equipe de desenvolvimento da RA para codificar esses achievements do tipo "Filler". Se você pretende criar alguns desbloqueios progressivos desta maneira - as palavras: ("Fácil", "Médio", "Difícil") ajudarão a colocá-lo em contexto. Considere o segmento de tempo que um jogador casual desbloquearia esses achievements progressivos. Se, em geral, você poderia desbloquear tudo em um conjunto progressivo de achievements desta natureza em menos de meia hora como jogador casual, design de preenchimento e não recomendado.
 
-- **Seja criativo e divertido**: Seja tão criativo quanto possível com achievements. "Beat X sem usar / fazer Y", "Beat X em 5 segundos", "3 heart run". Certifique-se de que os jogadores ocasionais ainda podem obter estes com seu melhor esforço. Não é divertido se for muito difícil para um jogador casual! (Veja: **Dicas de bônus** abaixo para os desafios reais!). Há uma página inteira sobre [Achievement Design](/pt/developer-docs/achievement-design.html) que pode dar bons conselhos sobre como pensar sobre bons achievements.
+- **Seja criativo e divertido**: Seja tão criativo quanto possível com achievements. "Beat X sem usar / fazer Y", "Beat X em 5 segundos", "3 heart run". Certifique-se de que os jogadores ocasionais ainda podem obter estes com seu melhor esforço. Não é divertido se for muito difícil para um jogador casual! (Veja: **Dicas de bônus** abaixo para os desafios reais!). Há uma página inteira sobre [Achievement Design](/pt/developer-docs/achievement-design) que pode dar bons conselhos sobre como pensar sobre bons achievements.
 
 - **Glitchless, please!**: Não faça achievements que exijam falhas. As falhas, na maioria dos casos, corrompem e desestabilizam a memória do jogo e a RAM. Eles quebram o resto do conjunto para incluir. No entanto, é aconselhável codificar as paredes do bloco impedindo os jogadores de usá-los para obter um domínio fácil. Este é um tema de muito debate no RA, uma vez que o achievement dá uma falha de quebra do jogo às vezes requer muita habilidade de jogador. Algumas falhas são possíveis apenas no console, algumas apenas em emulador. Por sua inconsistência e instabilidade em relação à memória, é recomendável bloqueá-los para proteger a integridade do seu conjunto e sua reputação. (Este é um problema excepcional em alguns jogos do GameBoy, onde o playground falou em seu caminho para a vitória foi prominente!)
 
-- **Nós amamos arte**: Emblemas bonitos são emblemas gratificantes! Ele deve representar visualmente a realização em si, ou sugerir o local no jogo para os segredos. Corresponder ao estilo de arte do jogo funciona bem. O Google Image busca "Sprite Sheets" é uma dica útil para incluir alguma arte do jogo. Se você é um bom artista gráfico, atualizar emblemas é o seu tempo para brilhar! Mais informações podem ser encontradas na [Badge and Icon Creation page](/guidelines/content/badge-and-icon-guidelines.html).
+- **Nós amamos arte**: Emblemas bonitos são emblemas gratificantes! Ele deve representar visualmente a realização em si, ou sugerir o local no jogo para os segredos. Corresponder ao estilo de arte do jogo funciona bem. O Google Image busca "Sprite Sheets" é uma dica útil para incluir alguma arte do jogo. Se você é um bom artista gráfico, atualizar emblemas é o seu tempo para brilhar! Mais informações podem ser encontradas na [Badge and Icon Creation page](/guidelines/content/badge-and-icon-guidelines).
 
 - Desmarque "Show Decimal Values" no Achievement Editor para que você possa inserir os valores hexadecimais que você vê no Visualizador de memória. É melhor do que usar a calculadora de um programador!
 

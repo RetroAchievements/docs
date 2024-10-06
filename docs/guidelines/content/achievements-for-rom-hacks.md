@@ -11,7 +11,7 @@ RetroAchievements opens the doorway to include fun hack sets for players to enjo
 
 ## Quality Assurance Team Approval Requirements
 
-Any hack or patch intended to be linked to a primary achievement set by anyone other than the original set developer requires approval from the Quality Assurance team in accordance with the [Adding Hashes document](/guidelines/content/adding-hashes.html) to ensure the appropriate compatibility testing process is followed.
+Any hack or patch intended to be linked to a primary achievement set by anyone other than the original set developer requires approval from the Quality Assurance team in accordance with the [Adding Hashes document](/guidelines/content/adding-hashes) to ensure the appropriate compatibility testing process is followed.
 
 ## Game Trainer Patches
 

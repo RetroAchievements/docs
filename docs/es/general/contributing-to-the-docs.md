@@ -186,7 +186,7 @@ Los enlaces internos deben seguir esta sintaxis:
 ```md
 ✅ BIEN
 
-[Consejos y trucos](/developer-docs/tips-and-tricks.html)
+[Consejos y trucos](/developer-docs/tips-and-tricks)
 ```
 
 No uses rutas absolutas al referenciar otra página en la documentación. VitePress detectará automáticamente y advertirá cuando los enlaces estén rotos, pero esta detección no se activa para rutas absolutas.
@@ -194,7 +194,7 @@ No uses rutas absolutas al referenciar otra página en la documentación. VitePr
 ```md
 🛑 MAL
 
-[Consejos y trucos](https://docs.retroachievements.org/developer-docs/tips-and-tricks.html)
+[Consejos y trucos](/developer-docs/tips-and-tricks.html)
 ```
 
 ### Imágenes

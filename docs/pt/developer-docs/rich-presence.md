@@ -1,6 +1,6 @@
 # Estado de Presença
 
-**link para texto em inglês:** [Rich Presence](/developer-docs/rich-presence.html)
+**link para texto em inglês:** [Rich Presence](/developer-docs/rich-presence)
 
 ## Introdução
 
@@ -173,7 +173,7 @@ Olhando para este exemplo, se o valor de 16 bits em $ 0085 for 0, a seqüência 
 
 As cadeias de exibição associadas a uma cláusula condicional suportam a mesma sintaxe que a cadeia de exibição padrão. Neste exemplo, você pode ver que a pesquisa `@Landscape` é usada na seqüência de exibição condicional e na sequência de exibição padrão. A pesquisa em si só precisa ser definida uma vez.
 
-A frase condicional suporta todos os assessores de endereço mencionados anteriormente, bem como a lógica AND (\_) e OR (S). Note que cláusulas OR ainda requerem um grupo 'core', [da mesma forma que as conquistas.](/pt/orphaned/achievement-logic-features.html)
+A frase condicional suporta todos os assessores de endereço mencionados anteriormente, bem como a lógica AND (\_) e OR (S). Note que cláusulas OR ainda requerem um grupo 'core', [da mesma forma que as conquistas.](/pt/orphaned/achievement-logic-features)
 
 - `? 0xH1234 = 32_0xH2345 = 0? and example`
 

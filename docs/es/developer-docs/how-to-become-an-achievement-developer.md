@@ -14,7 +14,8 @@ Estos requisitos también son una lista de verificación para los revisores de c
 
 ## Encontrar un juego en el que trabajar
 
-[//]: # (TODO: Review the anchor)
+[//]: # "TODO: Review the anchor"
+
 Sigue las [directrices del código de conducta del desarrollador](/es/guidelines/developers/code-of-conduct#working-on-empty-sets) para encontrar un juego.
 Asegúrate de que el juego cumpla con las [reglas y restricciones (EN)](/developer-docs/jr-dev-rules#rules-and-restrictions) antes de trabajar en logros.
 Para reclamar un juego, debe tener un tema en el foro.
@@ -46,7 +47,8 @@ Cada desarrollador debe conocer al menos los conceptos y técnicas básicas most
 
 Cualquier aspirante a desarrollador debe demostrar que comprende los siguientes conceptos:
 
-[//]: # (TODO: Review the anchors)
+[//]: # "TODO: Review the anchors"
+
 - Búsqueda básica en la RAM (familiarízate con el [inspector de memoria](/es/developer-docs/memory-inspector))
 - [Notación hexadecimal](/es/developer-docs/memory-inspector#decimal-binary-and-hexadecimal-notations)
 - [Valores delta](/es/developer-docs/delta-values)
@@ -66,25 +68,26 @@ Cualquier aspirante a desarrollador debe demostrar que comprende los siguientes 
 ### Conceptos avanzados
 
 Aquí hay una lista de algunos conceptos/técnicas avanzadas.
-No son necesarios para convertirse en desarrollador**, pero están listados aquí para que el jr-dev conozca las posibilidades de la lógica de los logros.
+No son necesarios para convertirse en desarrollador\*\*, pero están listados aquí para que el jr-dev conozca las posibilidades de la lógica de los logros.
 
-[//]: # (TODO: Review the anchors)
-- Contador como temporizador (como en [este ejemplo](/es/developer-docs/real-examples/using-hit-counts-as-a-timer.html) y [este otro](/es/developer-docs/real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game.html))
-- [Puntos de control ResetIf](/es/developer-docs/achievement-templates.html#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
-- [ResetIf con contadores](/es/developer-docs/flags/resetif.html#resetif-with-hit-counts)
-- [PauseIf con contadores](/es/developer-docs/flags/pauseif.html#pauseif-with-hit-counts)
-- Banderas [AddSource](/es/developer-docs/flags/addsource.html) y [SubSource](/es/developer-docs/flags/subsource.html)
-- Banderas [AddHits y SubHits](/es/developer-docs/flags/addhits-subhits.html)
-- [Incrementar contador (Contador `Mem > Delta`)](/es/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment.html)
-- [Contador de aciertos delta, técnica de pausa](/es/developer-docs/achievement-templates.html#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
-- [Poca endianidad](/es/developer-docs/memory-inspector.html#endianness)
-- Tamaño de memoria: [Lower4, Upper4](/es/developer-docs/memory-inspector.html#upper4-and-lower4), y [16 bits, 32 bits](/es/developer-docs/memory-inspector.html#1632-bit-mode)
-- [Estado de la actividad](/es/developer-docs/rich-presence.html) dinámica
-- [Tablas de clasificación](/es/developer-docs/leaderboards.html)
-- [Reinicios pausables](/es/developer-docs/achievement-templates.html#conditional-resets)
-- Contador de incrementos [SubSource](/es/developer-docs/flags/subsource.html#using-subsource-to-count-increments)
+[//]: # "TODO: Review the anchors"
 
-Las páginas de [ejemplos reales](/es/developer-docs/real-examples.html) y [plantillas de logros](/es/developer-docs/achievement-templates.html) son recursos útiles para ver cómo funcionan esas técnicas.
+- Contador como temporizador (como en [este ejemplo](/es/developer-docs/real-examples/using-hit-counts-as-a-timer) y [este otro](/es/developer-docs/real-examples/creating-a-timer-with-reset-if-hits-based-on-the-speed-of-the-game))
+- [Puntos de control ResetIf](/es/developer-docs/achievement-templates#finish-level-n-without-dying-or-getting-hit-using-a-weapon-etc)
+- [ResetIf con contadores](/es/developer-docs/flags/resetif#resetif-with-hit-counts)
+- [PauseIf con contadores](/es/developer-docs/flags/pauseif#pauseif-with-hit-counts)
+- Banderas [AddSource](/es/developer-docs/flags/addsource) y [SubSource](/es/developer-docs/flags/subsource)
+- Banderas [AddHits y SubHits](/es/developer-docs/flags/addhits-subhits)
+- [Incrementar contador (Contador `Mem > Delta`)](/es/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment)
+- [Contador de aciertos delta, técnica de pausa](/es/developer-docs/achievement-templates#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
+- [Poca endianidad](/es/developer-docs/memory-inspector#endianness)
+- Tamaño de memoria: [Lower4, Upper4](/es/developer-docs/memory-inspector#upper4-and-lower4), y [16 bits, 32 bits](/es/developer-docs/memory-inspector#1632-bit-mode)
+- [Estado de la actividad](/es/developer-docs/rich-presence) dinámica
+- [Tablas de clasificación](/es/developer-docs/leaderboards)
+- [Reinicios pausables](/es/developer-docs/achievement-templates#conditional-resets)
+- Contador de incrementos [SubSource](/es/developer-docs/flags/subsource#using-subsource-to-count-increments)
+
+Las páginas de [ejemplos reales](/es/developer-docs/real-examples) y [plantillas de logros](/es/developer-docs/achievement-templates) son recursos útiles para ver cómo funcionan esas técnicas.
 
 ## Notas de código
 

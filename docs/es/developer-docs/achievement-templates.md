@@ -162,8 +162,8 @@ En [Coleccionando un item N veces](#coleccionando-un-item-n-veces) estamos conta
 
 La técnica utilizada aquí se baza en otras dos:
 
-- [Utilizando SubSource para Contar Incrementos Especificos](/es/developer-docs/flags/subsource#utilizando-subsource-para-contar-incrementos-especificos.html)
-- [Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits.html)
+- [Utilizando SubSource para Contar Incrementos Especificos](/es/developer-docs/flags/subsource#utilizando-subsource-para-contar-incrementos-especificos)
+- [Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits)
 
 Aquí esta el truco:
 
@@ -174,7 +174,7 @@ Aquí esta el truco:
 | 3   |           | Mem   | 0xCONTADOR | >   | Delta | 0xCONTADOR | (N)  |
 | 4   | ResetIf   | Mem   | 0xVIDAS    | <   | Delta | 0xVIDAS    |
 
-Podría verse un poco confuso a primera vista, pero talvez utilizando un ejemplo de verdad pueda ser todo mas claro. Checa [Evitar el Problema de que un Contador se Incremente Dos Veces en el Mismo Frame](/es/developer-docs/real-examples/circumvent-the-problem-of-a-counter-incrementing-twice-in-the-same-frame.html).
+Podría verse un poco confuso a primera vista, pero talvez utilizando un ejemplo de verdad pueda ser todo mas claro. Checa [Evitar el Problema de que un Contador se Incremente Dos Veces en el Mismo Frame](/es/developer-docs/real-examples/circumvent-the-problem-of-a-counter-incrementing-twice-in-the-same-frame).
 
 ## Checar el cambio de un valor especifico a otro valor especifico diez veces
 

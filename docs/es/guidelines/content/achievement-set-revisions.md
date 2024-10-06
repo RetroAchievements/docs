@@ -50,10 +50,10 @@ Si producir la revisión esta tomando tiempo mucho mas largo, cada dos meses (+/
 
 - Añadir protección contra archivos de guardado, códigos, o passwords a logros donde el desarrollador es **inactivo**. (percatate de testear apropiadamente tus cambios). Si es **activo**, puedes crear un ticket o contactarlo para que te ayude a aplicar las mejoras.
 
-- Haciendo cambios a la información y screenshots de la pagina del juego (pero haz un respaldo de las imágenes previas en el foro del juego. De acuerdo al icono del juego, checa el [proceso de Game Icon Gauntlet](/guidelines/content/badge-and-icon-guidelines.html#game-icon-gauntlet))
+- Haciendo cambios a la información y screenshots de la pagina del juego (pero haz un respaldo de las imágenes previas en el foro del juego. De acuerdo al icono del juego, checa el [proceso de Game Icon Gauntlet](/guidelines/content/badge-and-icon-guidelines#game-icon-gauntlet))
 
-- Actualizando badges (ten en cuenta [las reglas de aquí](/guidelines/content/badge-and-icon-guidelines.html#actualizando-badges-no-desarrollador))
+- Actualizando badges (ten en cuenta [las reglas de aquí](/guidelines/content/badge-and-icon-guidelines#actualizando-badges-no-desarrollador))
 
 ## Haciendo cambios a iconos/trofeos de juegos
 
-De acuerdo a la importancia en los iconos de juegos hacer cambios a estos son tomados por votación de la comunidad. Mira [Game Icon Gauntlet](/guidelines/content/badge-and-icon-guidelines.html#game-icon-gauntlet).
+De acuerdo a la importancia en los iconos de juegos hacer cambios a estos son tomados por votación de la comunidad. Mira [Game Icon Gauntlet](/guidelines/content/badge-and-icon-guidelines#game-icon-gauntlet).
