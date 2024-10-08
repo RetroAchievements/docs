@@ -18,18 +18,18 @@ You can chain multiple `AndNext` and `OrNext` conditions to create complex requi
 When evaluating a combination of `AndNext` and `OrNext` conditions, each line is evaluated individually.
 
 ```
-AndNext A=1
-OrNext  B=1
-AndNext C=1
-OrNext  D=1
-AndNext E=1
-ResetIf F=1
+AndNext A = 1
+OrNext  B = 1
+AndNext C = 1
+OrNext  D = 1
+AndNext E = 1
+ResetIf F = 1
 ```
 
 Represents the following logical statement:
 
 ```
-reset if (((((A = 1 && B = 1) || C = 1) && D = 1) || E = 1) && F = 1)
+reset if (((((A = 1 and B = 1) or C = 1) and D = 1) or E = 1) and F = 1)
 ```
 
 [Alt Groups](/developer-docs/alt-groups) are still preferred over `OrNext` for most use cases. They allow for multiple conditions to be present in each clause of the OR, and support more than two clauses.

@@ -9,8 +9,8 @@ A `Delta` value is the previous frame's value. **Note**: when you use `Delta` it
 
 Examples of how it can be used:
 
-- Detect if the level has been increased: `level > delta level`. It means "current level is greater than the previous frame's level".
-- Detect damage: `health < delta health`. It means "current health is smaller than the previous frame's health". Or you can just make the previous frame's value a requirement. `health delta = 1` means "the previous frame's value for health must be 1 when the achievement pops up."
+- Detect if the level has been increased: `mem level > delta level`. It means "current level is greater than the previous frame's level".
+- Detect damage: `mem health < delta health`. It means "current health is smaller than the previous frame's health". Or you can just make the previous frame's value a requirement. `delta health = 1` means "the previous frame's value for health must be 1 when the achievement pops up."
 
 In the [Real Examples](/developer-docs/real-examples) section there are some good examples:
 
