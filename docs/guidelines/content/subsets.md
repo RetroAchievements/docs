@@ -40,9 +40,9 @@ If it's generally voiced a challenge is **too difficult**, it's a prime candidat
 - A good example of a full subset is [Ninja Gaiden | Shadow Warriors (NES) [Subset - Full Game Damageless]](https://retroachievements.org/game/25303).
 - Does not have to be named Brutal Challenge, but that subset type should be referenced in subset plan/any subset vote. If there are any doubts about whether challenges fall into this category, contact Developer Compliance for a quick judgement.
 
-### Multi Sets
+### Multiplayer Cooperative Sets
 
-This one is simple. If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multi sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for a Multi set. It is not accept to be able to simply earn achievements with a single player while in a multiplayer mode.
+This one is simple. If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multiplayer Cooperative sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for this type of subset. It is not accept to be able to simply earn achievements with a single player while in a multiplayer mode.
 
 ### DLC and Expansions
 
@@ -91,7 +91,7 @@ A bonus set is a set with a variety of achievements that do not fit into the bas
 
 To prevent players from getting confused, there is a specific naming scheme required for all Subsets:
 
-- **Multi Sets**: Must have `[Subset - Multi]` following the base game title. For example: `Contra [Subset - Multi]` and `Kirby 64: The Crystal Shards [Subset - Multi]`.
+- **Multiplayer Cooperative Sets**: Must have `[Subset - Multiplayer Cooperative]` following the base game title. For example: `Contra [Subset - Multiplayer Cooperative]`.
 - **Challenge Runs**: Must have `[Subset - Challenge Name/Type]` following the base game title. For example: `Chrono Trigger [Subset - No Level Up]` and `Pocket Monsters Midori [Subset - Monotype Challenge]`.
 - **DLC and Expansions**: Must have `[Subset - DLC/Expansion Name` following the base game title. For example: `Return Fire - [Subset - Maps o' Death]` and `F-Zero X [Subset - Expansion Kit]`.
 - **User-Generated Content**: While not actually required, including `RA` in the subset title has been a fun way to name the content.
@@ -113,7 +113,7 @@ The approval process and claiming of a subset will vary depending on if the subs
 
 ³ The following are pre-approved subset types and therefore do not require contacting Developer Compliance:
 
-- Multi
+- Multiplayer Cooperative
 - DLC/Expansions
 - Glitch Showcases
 - User-Generated Content
