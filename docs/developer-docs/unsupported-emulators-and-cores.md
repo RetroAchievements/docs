@@ -237,12 +237,8 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## PC-8800
 
-- ❌ libretro core: **quasi88**
-  - NOT RECOMMENDED
+- ✅ libretro core: **QUASI88**
   - PC-88VA not supported
-  - 16 Apr 2022 - Cannot load m3u. Hash fails because core locks disk file.
-  - 16 Apr 2022 - Attempting to load a single disk game in RALibretro just goes to "How many disks?" prompt. Seems to work in RetroArch
-  - 16 Apr 2022 - RALibretro does not provide subsystem interface for loading multi-disk games
 
 ## PC-9800
 
