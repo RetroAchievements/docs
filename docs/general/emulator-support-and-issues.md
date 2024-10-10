@@ -224,6 +224,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 ### PC-8000/8800
 
+- ✅ libretro core: **QUASI88**
 - ✅ Standalone emulator: **[RAQUASI88](https://retroachievements.org/download.php#raquasi88)**
 
 ### PC-FX
