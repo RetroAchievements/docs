@@ -107,10 +107,11 @@ Programs which can boost your powers in games, unlock debug modes, speed the gam
 
 **Examples**:
 
-- Using a trainer program for anything.
+- Using a trainer program or save editor for anything.
 - Using trained ROMs for any game (they will not be linked).
 - Using unofficial/old mods/emulators that act as trainers or debug/cheat toolsets.
 - Game Genie / Action Replay and other similar cheat tools.
+- Using the developer functions of RALibRetro or any RAIntegration capable emulator for non-developer reasons.
 
 ### <a name="not-allowed-6"></a>6. Do not use TAS (tool-assisted speedrunning), bots, or complex scripting to gain achievements.
 
