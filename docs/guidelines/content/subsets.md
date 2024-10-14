@@ -42,7 +42,9 @@ If it's generally voiced a challenge is **too difficult**, it's a prime candidat
 
 ### Multiplayer Cooperative Sets
 
-This one is simple. If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multiplayer Cooperative sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for this type of subset. It is not accept to be able to simply earn achievements with a single player while in a multiplayer mode.
+If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multiplayer Cooperative sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for this type of subset. It is not accept to be able to simply earn achievements with a single player while in a multiplayer mode.
+
+If the base game title is long, this subset type may be shortened. If a shortened name is required, the following prioritized list shall be used to find an option that fits: "Multiplayer Co-op," "Multi Co-op," or "Co-op".
 
 ### DLC and Expansions
 
@@ -95,6 +97,7 @@ To prevent players from getting confused, there is a specific naming scheme requ
 - **Challenge Runs**: Must have `[Subset - Challenge Name/Type]` following the base game title. For example: `Chrono Trigger [Subset - No Level Up]` and `Pocket Monsters Midori [Subset - Monotype Challenge]`.
 - **DLC and Expansions**: Must have `[Subset - DLC/Expansion Name` following the base game title. For example: `Return Fire - [Subset - Maps o' Death]` and `F-Zero X [Subset - Expansion Kit]`.
 - **User-Generated Content**: While not actually required, including `RA` in the subset title has been a fun way to name the content.
+- **Bonus Sets**: Must have `[Subset - Bonus]` folowing the base game title. For example: `Castlevania - [Subset - Bonus]` and `Darkwing Duck - [Subset - Bonus]`
 
 ## Approval and Claims
 
