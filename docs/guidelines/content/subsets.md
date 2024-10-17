@@ -34,7 +34,7 @@ While many base sets include plenty of challenges, developers have the option to
 
 ### Extreme or Brutal Challenges
 
-If it's generally voiced a challenge is **too difficult**, it's a prime candidate for a subset. How difficult is too difficult? However, just because the achievement(s) are possible to code does not mean they are possible to obtain; therefore, the achievement must still be obtainable. How difficult is too difficult? Something that few players of a set would be able to accomplish. If you expect under a 1% earn rate, it is probably extreme. If it feels unreasonable to require anyone to do an achievement, it is probably brutal.
+If it's generally voiced that a challenge is **too difficult**, it's a good candidate for a subset. However, just because the achievement(s) are possible to code does not mean they are possible to obtain; therefore, the achievement must still be obtainable. How difficult is too difficult? Something that few players of a set would be able to accomplish. If you expect under a 1% earn rate, it is probably extreme. If it feels unreasonable to require anyone to do an achievement, it is probably brutal.
 
 - A good example of a single achievement that could be considered extreme or brutal is the infamous [Mr. Perfect from Mega Man (NES)](https://retroachievements.org/achievement/53290), which requires the player to complete the _entire_ game without taking damage.
 - A good example of a full subset is [Ninja Gaiden | Shadow Warriors (NES) [Subset - Full Game Damageless]](https://retroachievements.org/game/25303).
