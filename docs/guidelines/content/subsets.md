@@ -108,7 +108,7 @@ The approval process and claiming of a subset will vary depending on if the subs
 |Sole Author of Core Set|• Subset must be approved by [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) ²³<br> • Does not require a plan and revision vote<br> • Considered a free claim ⁴
 |Collaborative Author of Core Set |• Subset must be approved by [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) ²³<br> • Requires a plan and revision vote?<br> &nbsp;&nbsp;&nbsp;◦ No, if all active authors of the set approve<br> &nbsp;&nbsp;&nbsp;◦ Yes, otherwise<br> • Considered a free claim ⁴
 |No Core Set Authorship|• Subset must be approved by [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) ²³<br> • If approved, a set plan must be posted in the base set's forum topic and must go through revision voting<br> • Is **not** considered a free claim<br> • In the event that both a revision and subset plan are made for a set, both claims will count as one
-|Junior Developer|• In addition to the above cases, must first be approved by Code Reviewers
+|Junior Developer|• In addition to the above cases, must first be approved by Code Reviewers and in accordance with any additional restrictions in the [Junior Developer Program](https://docs.retroachievements.org/developer-docs/jr-dev-rules.html#rules-and-restrictions)
 
 ¹ In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
 
@@ -117,7 +117,6 @@ The approval process and claiming of a subset will vary depending on if the subs
 ³ The following are pre-approved subset types and therefore do not require contacting Developer Compliance:
 
 - Multiplayer Cooperative
-- DLC/Expansions
 - Glitch Showcases
 - User-Generated Content
 - Challenge Run: Low Level Game/No Leveling Runs
