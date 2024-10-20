@@ -8,7 +8,7 @@ Funciona similarmente a `AddSource`, pero una bandera `SubSource` convierte el v
 
 **Nota 2**: La ultima linea (sin el `AddSource` o `SubSource`) aun se **agrega** a la comparativa final (Es una condicion que se tiene que cumplir).
 
-Utlizando este [ejemplo de uso de un `AddSource`](/es/developer-docs/flags/addsource.html), si lo remplazamos con un `SubSource` y con los mismos valores (`valor(0x8010) = 1` and `valor(0x8020) = 2`), la comparacion seria `-1 + 2 > 0`, o `1 > 0`.
+Utlizando este [ejemplo de uso de un `AddSource`](/es/developer-docs/flags/addsource), si lo remplazamos con un `SubSource` y con los mismos valores (`valor(0x8010) = 1` and `valor(0x8020) = 2`), la comparacion seria `-1 + 2 > 0`, o `1 > 0`.
 
 ## Utilizando SubSource para Contar Incrementos Especificos
 

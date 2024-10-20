@@ -6,28 +6,28 @@ Para mas ayuda relacionada con esto, nuestro [servidor de Discord](https://disco
 
 Aqui hay una lista de funciones disponibles:
 
-- <a name="hit-counts"></a>[Hit Counts](/es/developer-docs/hit-counts.html) (contador de golpes)
+- <a name="hit-counts"></a>[Hit Counts](/es/developer-docs/hit-counts) (contador de golpes)
 
-- <a name="delta-values"></a>[Valores Delta](/es/developer-docs/delta-values.html)
+- <a name="delta-values"></a>[Valores Delta](/es/developer-docs/delta-values)
 
-- <a name="resetif"></a>[Bandera `ResetIf`](/es/developer-docs/flags/resetif.html)
+- <a name="resetif"></a>[Bandera `ResetIf`](/es/developer-docs/flags/resetif)
 
-  - <a name="resetif-with-hit-counts"></a>[`ResetIf` con hit counts](/es/developer-docs/flags/resetif.html#resetif-with-hit-counts) (contador de golpes)
+  - <a name="resetif-with-hit-counts"></a>[`ResetIf` con hit counts](/es/developer-docs/flags/resetif#resetif-with-hit-counts) (contador de golpes)
 
-- <a name="pauseif"></a>[Bandera `PauseIf`](/es/developer-docs/flags/pauseif.html)
+- <a name="pauseif"></a>[Bandera `PauseIf`](/es/developer-docs/flags/pauseif)
 
-  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` con hit counts](/es/developer-docs/flags/pauseif.html#pauseif-with-hit-counts) (contador de golpes)
+  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` con hit counts](/es/developer-docs/flags/pauseif#pauseif-with-hit-counts) (contador de golpes)
 
-- <a name="addsource"></a>[Bandera `AddSource`](/es/developer-docs/flags/addsource.html)
+- <a name="addsource"></a>[Bandera `AddSource`](/es/developer-docs/flags/addsource)
 
-- <a name="subsource"></a>[Bandera `SubSource`](/es/developer-docs/flags/subsource.html)
+- <a name="subsource"></a>[Bandera `SubSource`](/es/developer-docs/flags/subsource)
 
-  - <a name="checking-for-a-negative-result"></a>[Buscando un resultado negativo](/es/developer-docs/flags/subsource.html#checking-for-a-negative-result)
+  - <a name="checking-for-a-negative-result"></a>[Buscando un resultado negativo](/es/developer-docs/flags/subsource#checking-for-a-negative-result)
 
-- <a name="addhits"></a>[Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits.html)
+- <a name="addhits"></a>[Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits)
 
-- <a name="combining-flags"></a>[Combinando Banderas](/es/orphaned/combining-flags.html)
+- <a name="combining-flags"></a>[Combinando Banderas](/es/orphaned/combining-flags)
 
-- <a name="alt-groups"></a>[Alt Groups](/es/developer-docs/alt-groups.html) (Grupos Alternos)
+- <a name="alt-groups"></a>[Alt Groups](/es/developer-docs/alt-groups) (Grupos Alternos)
 
-- <a name="minimum-required-versions"></a>[Versiones Minimas para Funciones de Logica](/es/developer-docs/minimum-required-versions-for-logic-features.html)
+- <a name="minimum-required-versions"></a>[Versiones Minimas para Funciones de Logica](/es/developer-docs/minimum-required-versions-for-logic-features)

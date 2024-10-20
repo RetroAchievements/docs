@@ -1,10 +1,10 @@
 Un `ResetIf` (ResetearSi) puede ser elegido en la columna de Bandera (Flag) en el Editor de Logros (Achievement Editor)
 
-Si la condicion asociada es verdad, **todos los** [hit counts](/es/developer-docs/hit-counts.html) en el logro se van a resetear a 0. Esto incluye hit counts en otros grupos (mas sobre eso en [Alt Groups (Grupos Alternos)](/es/developer-docs/alt-groups.html) mas abajo).
+Si la condicion asociada es verdad, **todos los** [hit counts](/es/developer-docs/hit-counts) en el logro se van a resetear a 0. Esto incluye hit counts en otros grupos (mas sobre eso en [Alt Groups (Grupos Alternos)](/es/developer-docs/alt-groups) mas abajo).
 
 El logro no se va a disparar si uno o mas condiciones `ResetIf` son verdaderas, incluse si no hay condiciones que necesitan hit counts (contadores de golpes).
 
-Puedes encontrar muchos ejemplos de `ResetIf` en la [pagina de Ejemplos Reales](/es/developer-docs/real-examples.html).
+Puedes encontrar muchos ejemplos de `ResetIf` en la [pagina de Ejemplos Reales](/es/developer-docs/real-examples).
 
 ## `ResetIf` con hit counts
 

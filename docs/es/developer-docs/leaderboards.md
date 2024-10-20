@@ -87,7 +87,7 @@ Esto puede parecer desalentador, porque no sabes que significan esta direcciones
 
 **Tip**: el error mas común cuando creamos tablas de clasificación es olvidarnos de la `h` cuando tratamos de hacer referencia a un valor en memoria de 8-bit.
 
-**Pro-tip:** **STA**, **CAN**, y **SUB** soportan toda la logica que se encuentra disponible en el [editor de logros](/es/orphaned/achievement-logic-features.html). La manera mas facil es asegurarte que escribiste todo correctamente es crear logros locales que capturen estos eventos, y entonces extraer los valores ingresados en el archivo "XXX-User.txt" asociado al juego en el cual te encuentras trabajando.
+**Pro-tip:** **STA**, **CAN**, y **SUB** soportan toda la logica que se encuentra disponible en el [editor de logros](/es/orphaned/achievement-logic-features). La manera mas facil es asegurarte que escribiste todo correctamente es crear logros locales que capturen estos eventos, y entonces extraer los valores ingresados en el archivo "XXX-User.txt" asociado al juego en el cual te encuentras trabajando.
 
 ### Condiciones para Cancelar
 
@@ -109,7 +109,7 @@ La sección de submit checa si en el frame actual se encuentra la bandera de 'en
 
 ### Interpretador de Valores
 
-También mira: [Código Binario Formateado en Decimal](/es/developer-docs/rich-presence.html#codigo-binario-formateado-en-decimal)
+También mira: [Código Binario Formateado en Decimal](/es/developer-docs/rich-presence#codigo-binario-formateado-en-decimal)
 
 **VAL**: `0xhfe24*1_0xhfe25*60_0xhfe22*3600`
 

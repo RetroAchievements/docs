@@ -27,7 +27,7 @@ El código de logros de RA es un lenguaje de texto personalizado que es interpre
 Si eres un desarrollador de emuladores interesado en soportar RA, [consulta nuestra guía de integración de emuladores](https://github.com/RetroAchievements/rcheevos/wiki/rc_client-integration) para más detalles sobre cómo se hace esto.
 El código utilizado para RA es escrito por desarrolladores con una o dos herramientas de desarrollo de logros.
 Los desarrolladores pueden usar la herramienta que prefieran.
-El editor de logros en el kit de herramientas RAIntegration no requiere conocimientos previos de codificación. Por otro lado, [RATools](/developer-docs/ratools.html) es un ejecutable independiente diseñado para desarrolladores que encuentran más cómodo escribir en un lenguaje de scripting para desarrollar su conjunto de logros.
+El editor de logros en el kit de herramientas RAIntegration no requiere conocimientos previos de codificación. Por otro lado, [RATools](/developer-docs/ratools) es un ejecutable independiente diseñado para desarrolladores que encuentran más cómodo escribir en un lenguaje de scripting para desarrollar su conjunto de logros.
 Tanto el editor de logros como RATools producen un código similar que se utiliza para todos los logros, tablas de clasificación y estados de actividad.
 
 ### ¿Cómo se procesa el código de logros?
