@@ -42,7 +42,7 @@ If it's generally voiced that a challenge is **too difficult**, it's a good cand
 
 ### Multiplayer Cooperative Sets
 
-If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multiplayer Cooperative sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for this type of subset. It is not accept to be able to simply earn achievements with a single player while in a multiplayer mode.
+If an achievement _requires_ input from more than one player in order to unlock it, then it cannot be in the base set. Multiplayer Cooperative sets must require two or more players to be inputting controls. Achievements must require multiple players in order to be appropriate for this type of subset. It is not acceptable to be able to simply earn achievements with a single player while in a multiplayer mode.
 
 If the base game title is long, this subset type may be shortened. If a shortened name is required, the following prioritized list shall be used to find an option that fits: "Multiplayer Co-op," "Multi Co-op," or "Co-op".
 
