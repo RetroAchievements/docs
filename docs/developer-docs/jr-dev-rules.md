@@ -21,6 +21,7 @@ To join the Junior Developer Program, the following requirements must be met:
   - Include your RA profile link
   - State the game for which you intend to create a set and link its RA set page or request that it be made if it does not exist
   - Read through all [RetroAchievements Developer Docs](/developer-docs/) and fill out and post a [Set Design Plan](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit#gid=0)
+  - Ensure to ping the **@Code-Reviewer** role when you post your thread
 - Unless specifically authorized by [Developer Compliance](https://retroachievements.org/messages/create?to=DevCompliance), all requirements in this section must be met to gain entry to the Junior Developer Program regardless of previous RA experience
 
 ### Rules and Restrictions
