@@ -107,6 +107,25 @@ When these are acceptable:
 
 - Secretive or intentionally vague achievement descriptions can be used to prevent major spoilers, so long as the achievements are unmissable progression.
 
+## Overly Cumbersome Requirements
+
+Achievements whose restrictions and other requirements cannot be expressed within the description character limit.
+
+- Comments on the achievement that include additional restrictions or requirements are not allowed.
+- Required external resources like pastebin links are not allowed.
+- You may use comments to add additional *clarification* of game terms
+   - Example: An achievement that specifies "no optional skills" could list what counts as optional in the comments or forum.
+   - Example: "with default" DIP settings in an Arcade game is acceptable.
+
+When these are acceptable:
+
+ - An approved subset whose theme has cumbersome requirements would not require the achievements to duplicate the requirements in the achievement descriptions.
+   - Example : An RPG challenge run with a large amount of restrictions would not require them to be listed in every achievement.
+   - Be sure to include this possibility when submitting a subset approval quest if you believe it will be applicable.
+   - The achievements should have some indication about following such a theme when possible.
+ - A game with a huge amount of customizable modes may find it difficult to be succinct in specifying the necessary settings for common achievements and can rely on some short hand means to express the restrictions.
+   - Tip: Request assistance from the writing team to best present these sorts of situations.
+
 ## Unwelcome Game Types
 
 Let's face it. There are some games, or 'games,' rather, that are not fit for achievements. Below is a list of said types of games that are usually not.
