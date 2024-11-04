@@ -109,10 +109,11 @@ When these are acceptable:
 
 ## Overly Cumbersome Requirements
 
-Achievements whose restrictions and other requirements cannot be expressed within the description character limit.
+Achievements whose restrictions and other requirements cannot be expressed within the description character limit. A player should be able to see the requirements for an achievement from within the emulator without having to visit the website or other external source.
 
 - Comments on the achievement that include additional restrictions or requirements are not allowed.
 - Required external resources like pastebin links are not allowed.
+- Overly abbreviating a description to fit, such that the description cannot be understood easily, is not allowed.
 - You may use comments to add additional *clarification* of game terms
    - Example: An achievement that specifies "no optional skills" could list what counts as optional in the comments or forum.
    - Example: "with default" DIP settings in an Arcade game is acceptable.
