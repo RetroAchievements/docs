@@ -41,7 +41,7 @@ The following rules apply to all Junior Developers:
 - May only create a subset for games where the Junior Developer is the sole author
   - Must make a subset request in ⁠#jr-dev-forum which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
     - May request to create a subset in addition to a primary claim if both are for the same game
-- May make a maximum of 2 sets for hacks during the program
+- May make a maximum of 1 set for a hack during the program
 
 ### Ticket Handling
 Junior Developers are expected to prioritize resolving open tickets over development of a new set.
