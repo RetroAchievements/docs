@@ -121,7 +121,7 @@ Achievements whose restrictions and other requirements cannot be expressed withi
 When these are acceptable:
 
  - An approved subset whose theme has cumbersome requirements would not require the achievements to duplicate the requirements in the achievement descriptions.
-   - Example : An RPG challenge run with a large amount of restrictions would not require them to be listed in every achievement.
+   - Example: An RPG challenge run with a large amount of restrictions would not require them to be listed in every achievement.
    - Be sure to include this possibility when submitting a subset approval quest if you believe it will be applicable.
    - The achievements should have some indication about following such a theme when possible.
  - A game with a huge amount of customizable modes may find it difficult to be succinct in specifying the necessary settings for common achievements and can rely on some short hand means to express the restrictions.
