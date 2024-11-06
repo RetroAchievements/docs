@@ -112,7 +112,7 @@ The approval process and claiming of a subset will vary depending on if the subs
 
 ¹ In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
 
-² To Contact Developer Compliance, send them a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) and replace the `[Game Name]` and `[Subset Name]` in the subject line with the game name and desired subset name. **Approval requests <ins>must</ins> thoroughly explanation of why the proposed subset content is not appropriate for the base set.** This must be described in a way that someone who is not familiar with the game can clearly and easily understand.
+² To Contact Developer Compliance, send them a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) and replace the `[Game Name]` and `[Subset Name]` in the subject line with the game name and desired subset name. **Approval requests <ins>must</ins> thoroughly explain why the proposed subset content is not appropriate for the base set.** This must be described in a way that someone who is not familiar with the game can clearly and easily understand.
 
 ³ The following are pre-approved subset types and therefore do not require contacting Developer Compliance:
 
