@@ -124,7 +124,7 @@ When these are acceptable:
    - Example: An RPG challenge run with a large amount of restrictions would not require them to be listed in every achievement.
    - Be sure to include this possibility when submitting a subset approval quest if you believe it will be applicable.
    - The achievements should have some indication about following such a theme when possible.
- - A game with a huge amount of customizable modes may find it difficult to be succinct in specifying the necessary settings for common achievements and can rely on some shorthand means to express the restrictions.
+ - A game with extensive customizable modes may find it difficult to succinctly specify the necessary settings for common achievements and may rely on some shorthand means to express those restrictions.
    - Tip: Request assistance from the writing team to best present these sorts of situations.
 
 ## Unwelcome Game Types
