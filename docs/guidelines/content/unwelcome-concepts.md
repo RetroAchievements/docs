@@ -120,7 +120,7 @@ Achievements with restrictions or requirements that cannot be fully expressed wi
 
 When these are acceptable:
 
- - An approved subset whose theme has cumbersome requirements would not require the achievements to duplicate the requirements in the achievement descriptions.
+ - For an approved subset with a theme involving cumbersome requirements, achievements are not required to duplicate these requirements in their descriptions.
    - Example: An RPG challenge run with a large amount of restrictions would not require them to be listed in every achievement.
    - Be sure to include this possibility when submitting a subset approval quest if you believe it will be applicable.
    - The achievements should have some indication about following such a theme when possible.
