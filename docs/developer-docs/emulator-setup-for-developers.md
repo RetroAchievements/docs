@@ -75,21 +75,27 @@ When an update for RAIntegration is available, it will ask you if you want to up
 
 ## PPSSPP
 
-PPSSPP currently requires a development build for RAIntegration support:
+PPSSPP supports RAIntegration in its main builds as of version 1.18. You can grab the latest version here:
+
+- **https://www.ppsspp.org/download/**
+
+If you want to download PPSSPP as a portable application, bypassing the need for installation, you can grab one of the development builds from here:
 
 - **https://www.ppsspp.org/devbuilds/**
 
-Ensure that the file is named `RA_Integration-x64.dll` and place it in PPSSPP's main folder.
-
-![RAIntegration in PPSSPP folder](/public/ppsspp-raintegration-folder.png)
-
-Then launch `PPSSPPWindows64.exe` and go to Settings -> Tools -> RetroAchievements. Here you can log in under the Account tab. Under the Developer Tools tab, you can enable RAIntegration. Enabling unofficial achievements may also be necessary in order to view them with the developer tools.
+After running the installer or extracting to a location of your choice, launch PPSSPPP and go to Settings -> Tools -> RetroAchievements. Here you can log in under the Account tab. Under the Developer Tools tab, you can enable RAIntegration. Enabling unofficial achievements may also be necessary in order to view them with the developer tools.
 
 ![RAIntegration setting in PPSSPP](/public/ppsspp-raintegration-setting.png)
 
 Afterwards, exit PPSSPP and reopen it to load RAIntegration. RetroAchievements will have its own menu with the developer tools.
 
 ![RAIntegration menu in PPSSPP](/public/ppsspp-raintegration-menu.png)
+
+If you grabbed a development build, you may need to manually place a copy of RA_Integration.dll into the folder. Ensure it is named `RA_Integration.dll` and place it in PPSSPP's main folder.
+
+![RAIntegration in PPSSPP folder](/public/ppsspp-raintegration-folder.png)
+
+Once you've done that, restart PPSSPP and it should recognize RAIntegration successfully.
 
 ## Dolphin
 
