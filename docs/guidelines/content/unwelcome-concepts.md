@@ -109,7 +109,7 @@ When these are acceptable:
 
 ## Overly Cumbersome Requirements
 
-Achievements whose restrictions and other requirements cannot be expressed within the description character limit. A player should be able to see the requirements for an achievement from within the emulator without having to visit the website or other external source.
+Achievements with restrictions or requirements that cannot be fully expressed within the description character limit. A player should be able to view achievement requirements directly within their emulator, without needing to visit the RetroAchievements website.
 
 - Comments on the achievement that include additional restrictions or requirements are not allowed.
 - Required external resources like pastebin links are not allowed.
