@@ -38,7 +38,7 @@ description: This guide outlines the essential requirements for creating and sub
    - Any ticket made on a set for this reason shall be considered valid and may not be closed without resolving this issue.
    
  ::: info NOTE
- There may infrequently be legitimate reasons for not being able to support all linked languages and save slots, such as when the length of the logic would exceed the character limit. If you believe this applies to you, reach out to Developer Compliance to request an exception.
+ There may infrequently be legitimate reasons for not being able to support all linked languages and save slots, such as when the logic length would exceed the character limit. If you believe this applies to you, reach out to Developer Compliance to request an exception.
  :::
 
 ## Recommended but Not Required
