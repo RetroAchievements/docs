@@ -10,7 +10,7 @@ description: This guide outlines the essential requirements for creating and sub
 ## Every Achievement Set MUST Have
 
 - **All game page information filled out** 
-   - Do not just link Publisher, Developer, and Genre hubs: fill out the fields in the dev panel or manage app so that this information shows up on all lists that display it.
+   - Do not just link Publisher, Developer, and Genre hubs: fill out the fields in the dev panel or manage app so that this information appears on all lists that display it.
 - **All game images uploaded**
    - Box art for homebrew and hacks are exempt when the game or hack's creator does not provide any.
 - **Game Badges for each achievement**
