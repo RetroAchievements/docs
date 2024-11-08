@@ -217,6 +217,6 @@ In cases where there is any more complex scripting than repeating the same butto
 
 ## Special Thanks
 
-This document is heavily based on the [100Pals Unified Achievement Hunting Rules](https://100pals.co/rules). This version is trimmed down and tailored with topics that are relevant to the RetroAchievements context.
+This document is heavily based on the [100Pals Unified Achievement Hunting Rules](https://achievementhunting.com/rules) (the "UAHR"). This version is trimmed down and tailored to topics that are specifically relevant to the RetroAchievements context.
 
-The [100Pals](https://100pals.co/) is a community with experienced achievement hunters that exist since achievements were first released on Steam in 2007.
+[100Pals/AchievementHunting.com](https://achievementhunting.com/) is an all-platforms achievement hunting community founded in 2015.
