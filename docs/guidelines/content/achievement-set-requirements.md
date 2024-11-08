@@ -20,7 +20,7 @@ description: This guide outlines the essential requirements for creating and sub
   - Regarding compilation games, such as [Intellivision Classic Games (PlayStation)](https://retroachievements.org/game/13908), it is not required for every game in the compilation to have achievements. However, those that do have achievements must adhere to the above policy.
 - **Dynamic Rich Presence**
    - Dynamic Rich Presence has output that changes depending on things happening in the game.
-   - Legacy sets with non-dynamic Rich Presence are added to the [No Dynamic RP](https://retroachievements.org/game/3083) hub. Please update when possible.
+   - Legacy sets with non-dynamic Rich Presence are added to the [No Dynamic RP](https://retroachievements.org/game/3083) hub. Please update it when possible.
 - **Progression and Win Conditions marked** on applicable achievements. See [Progression and Win Condition Typing](/guidelines/content/progression-and-win-condition-guidelines) for full guidelines
 - **Protection** for situations where the players can get achievements without effort, such as:
   - Demo mode;
