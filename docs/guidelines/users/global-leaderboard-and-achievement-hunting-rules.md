@@ -18,6 +18,8 @@ In general, a player must unlock achievements:
 - Without using another player’s save files or passwords, and;
 - Without using outside cheat programs.
 
+While these rules aim to be comprehensive, the RetroAchievements team reserves the right to designate an account as Untracked if a player's methods, even if not explicitly forbidden, clearly violate the spirit of fair competition and legitimate achievement hunting.
+
 These rules are designed to keep players honest in their gameplay and honest towards each other in [Global Leaderboard](#global-leaderboard) competition.
 
 ## Table of Contents
