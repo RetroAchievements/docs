@@ -26,7 +26,7 @@ This document covers developers' rights, responsibilities, and rules for fair pl
 - Respect your fellow developer and communicate through any issues you have civilly.
 - Make room for other developers to get a chance to work on games they like, in their own way.
 - Do not discourage anyone from working on any game, in public or in private.
-- As players are expected to treat developers with respect, likewise it's the responsibility of a developer to ensure players receive the same amount of respect in return.
+- Developers are expected to treat players with respect, just as players are expected to treat developers with respect.
 
 ## Interactions with players
 
