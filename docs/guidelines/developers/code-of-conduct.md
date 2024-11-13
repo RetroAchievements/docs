@@ -26,6 +26,13 @@ This document covers developers' rights, responsibilities, and rules for fair pl
 - Respect your fellow developer and communicate through any issues you have civilly.
 - Make room for other developers to get a chance to work on games they like, in their own way.
 - Do not discourage anyone from working on any game, in public or in private.
+- Developers are expected to treat players with respect, just as players are expected to treat developers with respect.
+
+## Interactions with players
+
+Interactions between players and developers may not always go smoothly. The [Users Code of Conduct](/guidelines/users/code-of-conduct.html) exists to ensure players keep a healthy attitude towards developers, and likewise developers are required to do the same. Don't dismiss a user's respectful feedback as harmful or invalid. Instead, try to understand them and see what can be learned from it. A player's viewpoint can be very different than a developer's, so it is important they understand why certain choices are made they may disagree with.
+
+If a user goes on the offensive and starts harassing you or your sets, please don't engage further with that user. Instead, reach out to the moderation team or RAdmin. Harassment is taken seriously, and actions against the user, such as a mute or even a site ban, will be taken when deemed necessary. The moderation team will ensure you can keep developing without your enjoyment being harmed by unwarranted negative interactions.
 
 ## Developers must do the following to keep in good standing:
 
