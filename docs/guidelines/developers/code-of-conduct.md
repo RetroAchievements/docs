@@ -30,7 +30,7 @@ This document covers developers' rights, responsibilities, and rules for fair pl
 
 ## Interactions with players
 
-Interactions between players and developers may not always go as smoothly as desired. The User Code of Conduct exists to ensure players keep a healthy attitude towards developers, and likewise developers are required to do the same. Don't diminish a user's respectful feedback or interaction as harmful, and instead try to understand them and see what can be learned from it. The viewpoint of a player can be different than that of a developer with experience of how development works, so it is important they understand why certain choices are made they may disagree with.
+Interactions between players and developers may not always go smoothly. The [Users Code of Conduct](/guidelines/users/code-of-conduct.html) exists to ensure players keep a healthy attitude towards developers, and likewise developers are required to do the same. Don't dismiss a user's respectful feedback as harmful or invalid. Instead, try to understand them and see what can be learned from it. A player's viewpoint can be very different than a developer's, so it is important they understand why certain choices are made they may disagree with.
 
 If a user goes on the offensive and starts harassing you or your sets, please don't engage further with that user. Instead, reach out to the moderation team or RAdmin. Harassment is taken seriously, and actions against the user, such as a mute or even a site ban, will be taken when deemed necessary. The moderation team will ensure you can keep developing without your enjoyment being harmed by unwarranted negative interactions.
 
