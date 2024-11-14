@@ -107,6 +107,26 @@ When these are acceptable:
 
 - Secretive or intentionally vague achievement descriptions can be used to prevent major spoilers, so long as the achievements are unmissable progression.
 
+## Overly Cumbersome Requirements
+
+Achievements with restrictions or requirements that cannot be fully expressed within the description character limit. A player should be able to view achievement requirements directly within their emulator, without needing to visit the RetroAchievements website.
+
+- Comments on the achievement that include additional restrictions or requirements are not allowed.
+- Required external resources like pastebin links are not allowed.
+- Overly abbreviating a description to fit, such that the description cannot be understood easily, is not allowed.
+- You may use comments to add additional *clarification* of game terms
+   - Example: An achievement that specifies "no optional skills" could list what counts as optional in the comments or forum.
+   - Example: "with default" DIP settings in an Arcade game is acceptable.
+
+When these are acceptable:
+
+ - For an approved subset with a theme involving cumbersome requirements, achievements are not required to duplicate these requirements in their descriptions.
+   - Example: An RPG challenge run with a large amount of restrictions would not require them to be listed in every achievement.
+   - Be sure to include this possibility when submitting a subset approval quest if you believe it will be applicable.
+   - The achievements should have some indication about following such a theme when possible.
+ - A game with extensive customizable modes may find it difficult to succinctly specify the necessary settings for common achievements and may rely on some shorthand means to express those restrictions.
+   - Tip: Request assistance from the writing team to best present these sorts of situations.
+
 ## Unwelcome Game Types
 
 Let's face it. There are some games, or 'games,' rather, that are not fit for achievements. Below is a list of said types of games that are usually not.
