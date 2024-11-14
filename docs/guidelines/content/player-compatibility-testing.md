@@ -12,10 +12,12 @@ If approved for a compatibility test, the requested hash will be linked with a *
 ## Benefits
 Because the test hashes will be linked to the set during testing, testers will keep any achievements they unlock. They will also earn beaten, completion and mastery credit as appropriate.
 
+# Request, Approval, and Testing Process
+Players interested in conducting new hash testing will contact the set maintainer via site direct message and request to conduct compatibility testing. A set maintainer is any active developer who is an author on a set. If all set authors are inactive, [QATeam](https://retroachievements.org/user/QATeam) is the set maintainer.
+
 ## Restrictions and Limitations
 The following restrictions and limitations apply:
 
-- Different regional hashes must approved by [DevCompliance](https://retroachievements.org/user/DevCompliance) before a testing request is made
 - Set maintainers may deny any request at their discretion
 - Set maintainer may terminate a compatibility test at their discretion
 - Testers must use the specified emulator and core specified by the set maintainer to conduct all testing
@@ -23,9 +25,6 @@ The following restrictions and limitations apply:
 - Test hashes that are not actively being tested will be unlinked and associated tests terminated
 - Only one tester will be approved per test hash
 - Set maintainer may set additional requirements at their discretion
-
-# Request, Approval, and Testing Process
-Players interested in conducting new hash testing will contact the set maintainer via site direct message and request to conduct compatibility testing. A set maintainer is any active developer who is an author on a set. If all set authors are inactive, [QATeam](https://retroachievements.org/user/QATeam) is the set maintainer.
 
 ### Step 1 - The Player's Request
 Players must include the following in their initial compatibility test request message:
