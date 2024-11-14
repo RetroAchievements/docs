@@ -20,7 +20,7 @@ The following restrictions and limitations apply:
 
 - Set maintainers may deny any request at their discretion
 - Set maintainer may terminate a compatibility test at their discretion
-- Testers must use the specified emulator and core specified by the set maintainer to conduct all testing
+- Testers must use the emulator and core specified by the set maintainer to conduct all testing
 - Depending on how long a set is likely to take to master, a reasonable time limit will be determined by the set maintainer for the tester to complete the set
 - Test hashes that are not actively being tested will be unlinked and associated tests terminated
 - Only one tester will be approved per test hash
@@ -38,9 +38,10 @@ If a set maintainer is interested in supporting the test, they should respond to
  
 - Confirmation that they are willing to permit the compatibility test
 - A date by which the test must be completed. This may be adjusted as necessary by the set maintainer at their discretion
+- Any other restrictions or requirements not otherwise explained in this doc
 
 ### Step 3 - The Player's Agreement
-If a player agrees to the terms set forth by the set maintainer, they must respond and acknowledge such. Once a player agrees to the compatibility test, they must actively show progress in the set.
+If a player agrees to the terms set forth by the set maintainer, they must respond and acknowledge such.
 
 ### Step 4 - The Set Maintainer Links the Test Hash
 The set maintainer will link the hash and label it **COMPATIBILITY TEST - NOT FOR PLAYER USE** and inform the tester.
