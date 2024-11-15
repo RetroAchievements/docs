@@ -107,7 +107,8 @@ This is a thing you see on old sets from when the toolkit was smaller.  This is 
 Reset If is used to clear all stored (target) hits.  It is not needed and should not be used if you are not using hits. Reset If flags can affect emulator performance and so we don't want to have *"Unneeded Usage of Reset If."*
 
 - Using Reset If when you do not have stored (target) makes it harder for the CR team to know if you understand how hits and resets are used.
-- If you do not have target hits, you must "stop the achievement from happening if this condition is met" manner and the equivalent is to this is "allow the achievement to happen if the opposite condition is true."
+- If you do not have target hits, you must not use Reset If flags.
+   - Reset If in this case is used as a "stop the achievement from happening if this condition is met" check, but what you want is the equivalent "allow the achievement to happen if the opposite condition is true."
   - **Solution**: Change `Reset If Mem address = Value X` into `Mem address != X`. This is equivalent logic and will work the same way.
   - Other comparisons can be inverted similarly. > becomes <=, etc.
   - Do this always as a best practice. Avoid unneeded Reset If flags!
@@ -122,7 +123,7 @@ Pause If is only used to stop target hits in other conditions from increasing. P
 
 - Using Pause If when you do not have stored (target) hits in other conditions makes it harder for the CR team to know if you understand how hits and resets are used.
 - If you do not have target hits, you must not use Pause If flags.
-   - Pause If in this case is used as a "stop the achievement from happening if this condition is met" manner and the equivalent is to this is "allow the achievement to happen if the opposite condition is true."
+   - Pause If in this case is used as a "stop the achievement from happening if this condition is met" check, but what you want is the equivalent "allow the achievement to happen if the opposite condition is true."
    - **Solution**: Change `Pause If Mem address = Value X` into `Mem address != X`. This is equivalent logic and will work the same way.
    - Other comparisons can be inverted similarly. > becomes <=, etc.
    - Do this always as a best practice. Avoid unneeded Pause If flags.
