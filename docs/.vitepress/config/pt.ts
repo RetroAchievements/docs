@@ -285,6 +285,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   link: "/developer-docs/jr-dev-rules",
         // },
         // {
+        //   text: "Am I Ready for Code Review?",
+        //   link: "/developer-docs/am-i-ready-for-review",
+        // },
+        // {
         //   text: "Emulator Setup for Developers",
         //   link: "/developer-docs/emulator-setup-for-developers",
         // },
