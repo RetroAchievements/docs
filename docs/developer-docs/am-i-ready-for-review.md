@@ -22,8 +22,8 @@ Does this seem like a lot? Well, most developers are going to be doing these thi
 
 Read over the [Writing Policy](/guidelines/content/writing-policy) and be sure your titles, descriptions, and other written features are in compliance.
 
-::: tip WRITING ASSISTENCE IS AVAILABLE
-Is grammar and capitalization not your strong suit? Having trouble coming up with a concise description? Hop by the `#writing-requests-forum` on discord and have them look over your achievements while you await your review. They’ll be happy to help you out.
+::: tip WRITING ASSISTANCE IS AVAILABLE
+Are grammar and capitalization not your strong suit? Having trouble coming up with a concise description? Hop by the `#writing-requests-forum` on discord and have them look over your achievements while you await your review. They’ll be happy to help you out.
 :::
 
 ## Do you have badges?
@@ -79,7 +79,7 @@ Having a single address can make your achievement prone to false triggers, espec
   
 ## Are you using Stored Hits (Sometimes called Target Hits)? Do you have a way to Reset those stored hits?
 
-### What stored hits are and are not
+### What Stored Hits Are and Are Not
 
 **Stored hits are**: when you specify a specific amount of hits on a condition (or chain) and the condition is not considered true until that target amount of hits has been reached.
 
@@ -134,7 +134,7 @@ Pause If is only used to stop target hits in other conditions from increasing. P
 You may be using Pause If in one of the following types of protection: save protection, cheat protection, demo protection, etc.
 
 - If some of the achievements do need the Pause If conditions to prevent hits from increasing, then it is okay to leave them in all achievements, for consistency ease of maintenance.
-   - If you do need to make a change, it can be applied consistantly to all achievements.
+   - If you do need to make a change, it can be applied consistently to all achievements.
    - However, it is a good idea to consider removing the Pause If flags from achievements where they are not necessary, especially if the set suffers from performance issues in emulation.
 - If no achievements use stored (target) hits, then you'll want to remove the Pause If flags.
    - **Solution**: Change `Pause If Mem address = Value X` into `Mem address != X`. This is equivalent logic and will work the same way.
@@ -143,7 +143,7 @@ You may be using Pause If in one of the following types of protection: save prot
 
 ## Are you using a Pause Lock?
 
-### What ’is a Pause Lock?
+### What is a Pause Lock?
 
 A Pause Lock is a condition (or chain of conditions) where the Pause If line has a target amount of hits.  When this hit value is locked, the group (Core, Alt1, etc) will no longer increase any target hits and will never be true until the hits on the Pause If line are reset.
 
