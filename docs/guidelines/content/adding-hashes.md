@@ -7,7 +7,7 @@ description: Describes the process for adding hashes to primary achievement sets
 
 Adding hashes to a set can allow for a more enjoyable experience for players by adding translations, graphic improvements, or more regional support, however, this comes with risks that must be understood and properly mitigated. This document will explain the requirements for adding hashes to primary achievement sets.
 
-Players interested in doing compatibility testing for new hashes should reference [Player Compatibilty Testing](/guidelines/content/player-compatibility-testing)
+Players interested in doing compatibility testing for new hashes should reference [Player Compatibility Testing](/guidelines/content/player-compatibility-testing).
 
 [[toc]]
 
