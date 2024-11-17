@@ -11,7 +11,7 @@ Players interested in conducting new hash testing should contact the set maintai
 
 If the set maintainer agrees to the compatibility testing, they will link the test hash. It will be the tester's responsibility to complete the tests required by the set maintainer.
 
-If approved for a compatibility test, the requested hash will be linked with a **COMPATIBILITY TEST - NOT FOR PLAYER USE** label. The tester will be required to master or complete the set within a time frame determined by the set maintainer. The tester should create save states before as many achievements as possible. The tester will report issues directly to the set maintainer via site message and shall not open tickets if using the test hash. When the tester masters or completes the achievement set, the test hash will be renamed to its appropriate title. The patch will be added to RAPatches. The hash will be considered supported.
+If approved for a compatibility test, the requested hash will be linked with a **COMPATIBILITY TEST - NOT FOR PLAYER USE** label. The tester will be required to master or complete the set within a time frame determined by the set maintainer. The tester should create save states before as many achievements as possible. The tester will report issues directly to the set maintainer via site message and shall not open tickets if using the test hash. When the tester masters or completes the achievement set, the test hash will be renamed to its appropriate title. Its patch will then be added to RAPatches. The hash will be considered supported.
 
 ## Benefits
 Because the test hashes will be linked to the set during testing, testers will keep any achievements they unlock. Testers can also earn beaten, completion and mastery credit.
