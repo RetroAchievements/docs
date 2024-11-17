@@ -110,10 +110,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Contribuindo para os Documentos",
           link: "/pt/general/contributing-to-the-docs",
         },
-        // {
-        //   text: "Sobre Nós",
-        //   link: "/pt/general/about-us",
-        // },
+        {
+          text: "Sobre Nós",
+          link: "/pt/general/about-us",
+        },
       ],
     },
     // {
