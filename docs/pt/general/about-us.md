@@ -101,9 +101,9 @@ A equipe responsável pela adesão e condução de atualizações do [Código de
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [tomojin](https://retroachievements.org/user/tomojin)
 
-### Quality Assurance Team
+### Equipe de Garantia de Qualidade
 
-The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
+A equipe responsável por garantir a qualidade geral dos conjuntos de conquistas: incluindo lógica, títulos e descrições corretas, placares funcionais, rich presence funcionando e compatibilidade de hash:
 
 - [BoomEX](https://retroachievements.org/user/BoomEX)
 - [DanielARP](https://retroachievements.org/user/DanielARP)
@@ -121,13 +121,13 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
-### Cheat Prevention Team
+### Equipe de Prevenção de Trapaças
 
-The team responsible for investigating cheating reports.
+A equipe responsável por investigar denúncias de trapaças.
 
-### Code Reviewer Team
+### Equipe de Revisão de Código
 
-The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
+A equipe responsável por ajudar Desenvolvedores Jr. a aprender como fazer conjuntos de conquistas e revisar seu trabalho para garantir que sua compreensão seja suficiente para fazer conjuntos por conta própria:
 
 - [authorblues](https://retroachievements.org/user/authorblues)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
@@ -153,9 +153,9 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
-### Tech Team
+### Equipe Técnica
 
-The team that is more involved with the tech side of things, whether it be the website, emulators, Discord bots, etc.:
+A equipe que está mais envolvida com o lado técnico das coisas, seja no site, emuladores, bots do Discord, etc.:
 
 - [AlmightyXor](https://retroachievements.org/user/AlmightyXor)
 - [amine456](https://retroachievements.org/user/amine456)
@@ -178,15 +178,15 @@ The team that is more involved with the tech side of things, whether it be the w
 - [WCopeland](https://retroachievements.org/user/WCopeland)
 - [Xymjak](https://retroachievements.org/user/Xymjak)
 
-### Sub-Team Leads
+### Líderes de Sub-Equipes
 
-Users who oversee one of the QA sub-teams:
+Usuários que supervisionam uma das sub-equipes de QA:
 
-- [Gollawiz](https://retroachievements.org/user/Gollawiz) - Art Team lead
-- [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Events Team lead
-- [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
-- [Nepiki](https://retroachievements.org/user/Nepiki) - Writing Team lead
-- [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Clean Up Team lead
+- [Gollawiz](https://retroachievements.org/user/Gollawiz) - Líder da Equipe de Arte
+- [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Líder da Equipe de Eventos
+- [TimeCrush](https://retroachievements.org/user/TimeCrush) - Líder da Equipe de Testadores
+- [Nepiki](https://retroachievements.org/user/Nepiki) - Líder da Equipe de Escrita
+- [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Líder da Equipe de Limpeza
 
 ## Short History
 
