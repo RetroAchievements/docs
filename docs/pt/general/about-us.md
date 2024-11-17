@@ -188,22 +188,22 @@ Usuários que supervisionam uma das sub-equipes de QA:
 - [Nepiki](https://retroachievements.org/user/Nepiki) - Líder da Equipe de Escrita
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Líder da Equipe de Limpeza
 
-## Short History
+## Breve História
 
-The RetroAchievements project was created by **[Scott Breen](http://scottbreen.info/)** in [2012](https://web.archive.org/web/20121121150009/http://www.retroachievements.org/). He hacked some open source emulators to add the RetroAchievements feature and coded all the backend/website mostly alone.
+O projeto RetroAchievements foi criado por **[Scott Breen](http://scottbreen.info/)** em [2012](https://web.archive.org/web/20121121150009/http://www.retroachievements.org/). Ele modificou alguns emuladores de código aberto para adicionar o recurso RetroAchievements e programou todo o backend/site praticamente sozinho.
 
-By January 2014, there were 4 RA emulators, over 5000 achievements to earn (thanks to the devotion of many [passionate achievement developers](http://retroachievements.org/developerstats.php)) and over 1000 players registered. After a couple of years Scott was called by the real life the website development went into a period of hiatus with just a few sporadic improvements (the achievement developers were continually working on more and more games, though).
+Em janeiro de 2014, haviam 4 emuladores RA, mais de 5000 conquistas para ganhar (graças à devoção de muitos [desenvolvedores apaixonados por conquistas](http://retroachievements.org/developerstats.php)) e mais de 1000 jogadores registrados. Depois de alguns anos, Scott foi chamado pela vida real e o desenvolvimento do site entrou em um período de pausa com apenas algumas melhorias esporádicas (os desenvolvedores de conquistas continuavam trabalhando em mais e mais jogos, no entanto).
 
-In late 2015 **[leiradel](https://github.com/leiradel)** started to work to integrate the RetroAchievements feature into [RetroArch](https://retroarch.com/). And, as RetroArch is able to run on a wide variety of platforms (such as Mac and Linux) and devices (such as Android phones and Raspberry pi), it helped a lot to increase the popularity of the RetroAchievements project.
+No final de 2015, **[leiradel](https://github.com/leiradel)** começou a trabalhar para integrar o recurso RetroAchievements no [RetroArch](https://retroarch.com/). E, como o RetroArch pode ser executado em uma grande variedade de plataformas (como Mac e Linux) e dispositivos (como telefones Android e Raspberry Pi), isso ajudou muito a aumentar a popularidade do projeto RetroAchievements.
 
-As the site slowly grew, so did the bandwidth costs, so in late 2016, Scott reached out to the community and they suggested doing a Patreon to keep the site going. After implementing it, the community response was fantastic, which allowed the site to continue **completely ad-free**.
+À medida que o site crescia lentamente, os custos de banda também aumentavam, então no final de 2016, Scott procurou a comunidade e eles sugeriram criar um Patreon para manter o site funcionando. Depois de implementá-lo, a resposta da comunidade foi fantástica, o que permitiu que o site continuasse **completamente livre de anúncios**.
 
-Mid 2017 the **[RetroAchievements Discord server](https://discord.gg/dq2E4hE)** was started and it made communication across the community much easier. Since then, many knowledgeable members (coders, web developers, etc.) joined the scene volunteering to contribute to the project.
+Em meados de 2017, o **[servidor no Discord do RetroAchievements](https://discord.gg/dq2E4hE)** foi iniciado e tornou a comunicação através da comunidade muito mais fácil. Desde então, muitos membros experientes (programadores, desenvolvedores web, etc.) juntaram-se à cena voluntariando-se para contribuir com o projeto.
 
-Up to this point all the achievement creation knowledge was scattered in several forum posts, making it very tough for a newbie to learn how to create achievements. Then in the late 2017 **[meleu](https://github.com/meleu)** started the RADocs project and thanks to contributions from many experienced achievement creators it is now a reasonably solid resource of information. Helping dozens of Jr. Developers (and even the experienced ones) to create content for our community.
+Até este ponto, todo o conhecimento sobre criação de conquistas estava espalhado em vários posts do fórum, tornando muito difícil para um iniciante aprender como criar conquistas. Então, no final de 2017, **[meleu](https://github.com/meleu)** iniciou o projeto RADocs e, graças às contribuições de muitos criadores de conquistas experientes, agora é um recurso razoavelmente sólido de informação. Ajudando dezenas de Desenvolvedores Jr. (e até os mais experientes) a criar conteúdo para nossa comunidade.
 
-In the early 2018 Scott opened the source of the back-end/website, which was a turning point in the history of the development of the whole RetroAchievements project ([see us at github](https://github.com/RetroAchievements/)).
+No início de 2018, Scott abriu o código-fonte do back-end/site, o que foi um ponto de virada na história do desenvolvimento de todo o projeto RetroAchievements ([veja-nos no github](https://github.com/RetroAchievements/)).
 
-Later in the same year a more concise staff began to take shape and is now an awesome team. These talented guys keep the ball rolling and make it very clear that the RA community is alive and stronger than ever.
+Mais tarde no mesmo ano, uma equipe mais concisa começou a tomar forma e agora é uma equipe incrível. Esses caras talentosos mantêm a bola rolando e deixam muito claro que a comunidade RA está viva e mais forte do que nunca.
 
-In some areas the project may still look like a beta version, but we are continually working hard to make things better.
+Em algumas áreas, o projeto ainda pode parecer uma versão beta, mas estamos continuamente trabalhando duro para melhorar as coisas.
