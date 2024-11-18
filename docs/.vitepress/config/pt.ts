@@ -292,10 +292,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Emulator Setup for Developers",
         //   link: "/developer-docs/emulator-setup-for-developers",
         // },
-        // {
-        //   text: "Identificação de Jogos",
-        //   link: "/pt/developer-docs/game-identification",
-        // },
+        {
+          text: "Identificação de Jogos",
+          link: "/pt/developer-docs/game-identification",
+        },
         {
           text: "Design de Conquistas",
           link: "/pt/developer-docs/achievement-design",
