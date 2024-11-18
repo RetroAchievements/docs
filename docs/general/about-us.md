@@ -81,6 +81,12 @@ The team responsible to keep the this community a healthy place (at least for th
 - [Suffa28](https://retroachievements.org/user/Suffa28)
 - [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
+### Community Manager
+
+The Community Manager helps facilitate communication between players and staff, navigate misunderstandings and conflicts, oversee our various social platforms, and moderation team support:
+
+- [Nepiki](https://retroachievements.org/user/Nepiki)
+
 ### Developer Compliance Team
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
