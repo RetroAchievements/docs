@@ -324,10 +324,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Versões Mínimas Requeridas para Funcionalidades de Lógica",
         //   link: "/pt/developer-docs/minimum-required-versions-for-logic-features",
         // },
-        // {
-        //   text: "Inspetor de Memória",
-        //   link: "/pt/developer-docs/memory-inspector",
-        // },
+        {
+          text: "Inspetor de Memória",
+          link: "/pt/developer-docs/memory-inspector",
+        },
         {
           text: "Exemplos Reais",
           link: "/pt/developer-docs/real-examples",
