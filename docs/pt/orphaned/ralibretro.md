@@ -1,40 +1,40 @@
 ---
 title: RALibretro
-description: RALibretro is a multi-emulator that can be used to develop RetroAchievements and, of course, earn them.
+description: RALibretro é um multi-emulador que pode ser usado para desenvolver RetroAchievements e, claro, conquistá-las.
 ---
 
 # RALibretro
 
-!! This page is wildly out-of-date
+!! Esta página está extremamente desatualizada
 
-RALibretro is a multi-emulator that can be used to develop RetroAchievements.
+RALibretro é um multi-emulador que pode ser usado para desenvolver RetroAchievements.
 
-The "multi-emulation" feature is only possible because it uses [libretro](https://github.com/libretro/) cores to do the actual emulation. What RALibretro does is to connect the emulation to the tools used to create RetroAchievements.
+O recurso de "multi-emulação" só é possível porque utiliza os núcleos [libretro](https://github.com/libretro/) para realizar a emulação. O que o RALibretro faz é conectar a emulação às ferramentas usadas para criar RetroAchievements.
 
-## WARNING
+## AVISO
 
-**RALibretro is a Work-in-Progress!!!**
+**RALibretro é um Trabalho em Andamento!!!**
 
-Currently the development is going on this repo: [https://github.com/RetroAchievements/RALibretro](https://github.com/RetroAchievements/RALibretro)
+Atualmente o desenvolvimento está acontecendo neste repositório: [https://github.com/RetroAchievements/RALibretro](https://github.com/RetroAchievements/RALibretro)
 
-Here's a list of known issues (feel free to report new issues if you find one): [https://github.com/RetroAchievements/RALibretro/issues](https://github.com/RetroAchievements/RALibretro/issues)
+Aqui está uma lista de problemas conhecidos (fique à vontade para relatar novos problemas se encontrar algum): [https://github.com/RetroAchievements/RALibretro/issues](https://github.com/RetroAchievements/RALibretro/issues)
 
-## Installation Instructions
+## Instruções de Instalação
 
-Just download RALibretro from the [Downloads page](https://retroachievements.org/download.php) and unzip it.
+Basta baixar o RALibretro na página de [Downloads](https://retroachievements.org/download.php) e descompactá-lo.
 
-## Basic Usage
+## Uso Básico
 
-1. Launch RALibretro.exe
-2. Click on `File` > `Load System`, and click on the system you want to emulate
-3. Now go to `File` > `Load Game` and choose your ROM. **Note**: RALibretro currently doesn't accept zipped files!
-4. Now you can create your cheevos or just earn some!
+1. Execute RALibretro.exe
+2. Clique em `Arquivo` > `Carregar Sistema` e clique no sistema que deseja emular
+3. Agora vá para `Arquivo` > `Carregar Jogo` e escolha sua ROM. **Nota**: RALibretro atualmente não aceita arquivos compactados!
+4. Agora você pode criar suas conquistas ou apenas ganhar algumas!
 
-## Supported Systems
+## Sistemas Suportados
 
-**NOTE**: some systems may require system (BIOS) files in the `System` directory in order to load games correctly.
+**NOTA**: alguns sistemas podem exigir arquivos de sistema (BIOS) no diretório `System` para carregar jogos corretamente.
 
-Here is a list of the systems supported currently:
+Aqui está uma lista dos sistemas atualmente suportados:
 
 - SNES
 - NES
@@ -51,8 +51,8 @@ Here is a list of the systems supported currently:
 - Atari 2600
 - Atari 7800
 - Virtual Boy
-- Neo Geo (Arcade) - new. **NOTE**: you need to put the `neogeo.zip` BIOS file on the same directory as the ROMs.
-- Capcom Play System 1, 2 and 3 (Arcade) - new
+- Neo Geo (Arcade) - novo. **NOTA**: você precisa colocar o arquivo BIOS `neogeo.zip` no mesmo diretório das ROMs.
+- Capcom Play System 1, 2 and 3 (Arcade) - novo
 
 ## Keyboard Input
 
@@ -60,66 +60,66 @@ Here is a list of the systems supported currently:
 | --------------- | :-: | :-: | :-: | :-: | :------------------: | :---------------------: | :------------: | :------------: | :---: | :----: | :-: | :-: |
 | RetroPad        |  Y  |  X  |  B  |  A  |          L           |            R            |       L2       |       R2       | Start | Select | L3  | R3  |
 | SNES            |  Y  |  X  |  B  |  A  |          L           |            R            |                |                | Start | Select |     |
-| NES             |     |     |  B  |  A  | Swap disk side (FDS) | Insert/Eject disk (FDS) |                |                | Start | Select |     |
+| NES             |     |     |  B  |  A  | Trocar lado do disco (FDS) | Inserir/Ejetar disco (FDS) |                |                | Start | Select |     |
 | Mega Drive      |  A  |  Y  |  B  |  C  |          X           |            Z            |                |                | Start |        |     |
 | Master System   |     |     |  B  |  A  |                      |                         |                |                | Start |        |     |
 | GameGear        |     |     |  B  |  A  |                      |                         |                |                | Start |        |     |
 | Gameboy [Color] |     |     |  B  |  A  |                      |                         |                |                | Start | Select |     |
 | Gameboy Advance |     |     |  B  |  A  |          L           |            R            |                |                | Start | Select |     |
 | PC Engine       |     |     | II  |  I  |                      |                         |                |                |  Run  | Select |     |
-| Atari Lynx      |     |     |  B  |  A  |       Option 1       |        Option 2         |                |                | Start |        |     |
+| Atari Lynx      |     |     |  B  |  A  |       Opção 1       |        Opção 2         |                |                | Start |        |     |
 | Neo Geo Pocket  |     |     |  B  |  A  |                      |                         |                |                | Start |        |     |
-| Atari 2600      |     |     |  o  |     |    L difficulty b    |     R difficulty b      | L difficulty a | R difficulty a | Start | Select |     |
-| Neo Geo         |  C  |  D  |  A  |  B  |                      |                         |                |                | Start |  Coin  |     |
-| CPS1/2/3\*      | \*  | \*  | \*  | \*  |          \*          |           \*            |                |                | Start |  Coin  |     |
+| Atari 2600      |     |     |  o  |     |    Dificuldade L b    |     Dificuldade R b      | Dificuldade L a | Dificuldade R a | Start | Select |     |
+| Neo Geo         |  C  |  D  |  A  |  B  |                      |                         |                |                | Start |  Ficha  |     |
+| CPS1/2/3\*      | \*  | \*  | \*  | \*  |          \*          |           \*            |                |                | Start |  Ficha  |     |
 
-**Note**: the buttons for CPS1/2/3 games vary for each game.
+**Note**: os botões para jogos CPS1/2/3 variam para cada jogo.
 
-## Keyboard Shortcuts
+## Atalhos do Teclado
 
-- **see overlay**: `Esc`
-- **pause emulation**: `p`
-- **advance one frame at a time**: `;` (automatically pauses emulation)
-- **fast forward**: `=`
-- **fast forward toggle**: `-` (minus signal)
-- **Screenshot**: `PrintScreen`
+- **ver sobreposição**: `Esc`
+- **pausar emulação**: `p`
+- **avançar um quadro por vez**: `;` (pausa automaticamente a emulação)
+- **avanço rápido**: `=`
+- **alternar avanço rápido**: `-` (sinal de menos)
+- **Captura de Tela**: `PrintScreen`
 
-### Save/Load state keys
+### Teclas de Salvar/Carregar estado
 
-- **Save state current slot**: `Backspace`
-- **Load state current slot**: `F11`
-- **Load state from slot 1, 2, .., 9, 0**: `F1`, `F2`, ..., `F9`, `F10`
-- **Save state to slot 1, 2, .., 9, 10**: `shift`+`F1`, `shift`+`F2`, ..., `shift`+`F9`, `shift`+`F10`
-- **Previous slot**: `shift`+`-`
-- **Next slot**: `shift`+`+`
-- **Switch slot**: `0`, `1`, `2`,..., `9`
+- **Salvar estado slot atual**: `Backspace`
+- **Carregar estado slot atual**: `F11`
+- **Carregar estado do slot 1, 2, .., 9, 0**: `F1`, `F2`, ..., `F9`, `F10`
+- **Salvar estado no slot 1, 2, .., 9, 10**: `shift`+`F1`, `shift`+`F2`, ..., `shift`+`F9`, `shift`+`F10`
+- **Slot anterior**: `shift`+`-`
+- **Próximo slot**: `shift`+`+`
+- **Trocar slot**: `0`, `1`, `2`,..., `9`
 
-## Missing Features
+## Recursos Ausentes
 
-- feedback to the user when save/load state, pausing, etc.
-- N64 support
-- load zipped ROMs
-- input configuration
-- more issues listed here: [https://github.com/RetroAchievements/RALibretro/issues](https://github.com/RetroAchievements/RALibretro/issues)
+- feedback ao usuário ao salvar/carregar estado, pausar, etc.
+- suporte ao N64
+- carregar ROMs compactadas
+- configuração de controles
+- mais problemas listados aqui: [https://github.com/RetroAchievements/RALibretro/issues](https://github.com/RetroAchievements/RALibretro/issues)
 
-## How to make AES BIOS work in RALibretro or RetroArch
+## Como fazer o BIOS AES funcionar no RALibretro ou RetroArch
 
-To make AES BIOS emulation mode work in your emulator:
+Para fazer o modo de emulação AES BIOS funcionar em seu emulador:
 
-1. Make sure your emulator works correctly.
+1. Certifique-se de que seu emulador funciona corretamente.
 
-2. Put `neogeo.zip` to `System` directory (RALibretro), or a folder you keep your NeoGeo ROMs (RetroArch).
+2. Coloque `neogeo.zip` no diretório `System` (RALibretro) ou uma pasta onde você mantém suas ROMs NeoGeo (RetroArch).
 
-3. Make sure the `neogeo.zip` consist of at least files you can see here:
+3. Certifique-se de que o `neogeo.zip` contenha pelo menos os arquivos que você pode ver aqui:
 
 ![](https://dl.dropboxusercontent.com/s/68l37qbt8myts82/aesminimum.png)
 
-If you keep only those files, AES mode will be automatically forced for any NeoGeo game (recommended).
+Se você mantiver apenas esses arquivos, o modo AES será automaticamente forçado para qualquer jogo NeoGeo (recomendado).
 
-**Important!** The files which are highlighted on this picture (`neo-epo.bin` and `neo-po.bin`) are the only one actually related to AES mode, and you probably will need to include them in your archive to make AES mode work for you. `neo-po.bin` is necessary for japanese-only titles or to make the japanese versions to work, but due to emulation issue it also forces japanese language as default, that's why you will need to remove it to display english in some games.
+**Importante!** Os arquivos destacados nesta imagem (`neo-epo.bin` e `neo-po.bin`) são os únicos realmente relacionados ao modo AES, e você provavelmente precisará incluí-los em seu arquivo para fazer o modo AES funcionar. `neo-po.bin` é necessário para títulos exclusivos japoneses ou para fazer as versões japonesas funcionarem, mas devido a um problema de emulação, também força o idioma japonês como padrão, por isso você precisará removê-lo para exibir inglês em alguns jogos.
 
-4. Load any FBA compatible neo geo ROM. More complete archive (including files needed to run MVS and UniBIOS modes) might need additional configuration to force AES mode:
+4. Carregue qualquer ROM neo geo compatível com FBA. Um arquivo mais completo (incluindo arquivos necessários para executar modos MVS e UniBIOS) pode precisar de configuração adicional para forçar o modo AES:
 
-In RaLibretro: Settings->Emulation->Force Neo Geo Mode->AES
+No RaLibretro: Configurações->Emulação->Forçar Modo Neo Geo->AES
 
-In RetroArch: Command->Menu Toggle->Options->Force Neo Geo Mode->AES
+No RetroArch: Comando->Alternar Menu->Opções->Forçar Modo Neo Geo->AES
