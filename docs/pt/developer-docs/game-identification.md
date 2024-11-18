@@ -1,222 +1,222 @@
 ---
-title: Game Identification Methods by Console
-description: Detailed guide on the hashing methods used for game identification across various gaming consoles, including Nintendo, Sega, Sony, and more.
+title: Métodos de Identificação de Jogos por Console
+description: Guia detalhado sobre os métodos de hash usados para identificação de jogos em vários consoles de jogos, incluindo Nintendo, Sega, Sony e outros.
 ---
 
-# Game Identification
+# Identificação de Jogos
 
-This page details the hashing method used for each supported system.
+Esta página detalha o método de hash usado para cada sistema suportado.
 
 ## The 3DO Company
 
-- **3DO Interactive Multiplayer** uses a custom hash.
-  - The volume header (first 132 bytes of sector 0) and the contents of the LaunchMe file are hashed.
+- **3DO Interactive Multiplayer** usa um hash personalizado.
+  - O cabeçalho do volume (primeiros 132 bytes do setor 0) e o conteúdo do arquivo LaunchMe são submetidos ao hash.
 
 ## Amstrad
 
-- **Amstrad CPC** uses the MD5 checksums of each disk.
-  - As saving and other manipulations can mutate disk data, local copies of loaded images are required to ensure that their hashes do not change across sessions.
+- **Amstrad CPC** usa os checksums MD5 de cada disco.
+  - Como o salvamento e outras manipulações podem alterar os dados do disco, cópias locais das imagens carregadas são necessárias para garantir que seus hashes não mudem entre as sessões.
 
 ## Apple
 
-- **Apple II** uses the MD5 checksums of each disk.
-  - As saving and other manipulations can mutate disk data, local copies of loaded images are required to ensure that their hashes do not change across sessions.
+- **Apple II** usa os checksums MD5 de cada disco.
+  - Como o salvamento e outras manipulações podem alterar os dados do disco, cópias locais das imagens carregadas são necessárias para garantir que seus hashes não mudem entre as sessões.
 
 ## Arcade
 
-- **Arcade** uses a custom hash.
-  - The filename string without the extension (`path/galaga.zip` -> `galaga`) is hashed. It is case-sensitive.
+- **Arcade** usa um hash personalizado.
+  - A string do nome do arquivo sem a extensão (`path/galaga.zip` -> `galaga`) é submetida ao hash. É sensível a maiúsculas e minúsculas.
 
 ## Arduboy Inc.
 
-- **Arduboy** uses a custom hash.
-  - Arudboy .hex files contain ASCII text. We normalize to Unix line endings, then perform a full file hash.
+- **Arduboy** usa um hash personalizado.
+  - Os arquivos .hex do Arduboy contêm texto ASCII. Normalizamos para terminações de linha Unix e depois realizamos um hash do arquivo completo.
 
 ## Atari
 
-- **Atari 2600** uses the MD5 checksum.
+- **Atari 2600** usa o checksum MD5.
 
-- **Atari 7800** uses the MD5 checksum unless the ROM has a header.
+- **Atari 7800** usa o checksum MD5, a menos que a ROM tenha um cabeçalho.
 
-  - If the ROM starts with `\1ATARI7800`, the first 128 bytes are ignored and the remaining file contents are hashed. If the ROM does not start with `\1ATARI7800`, the entire file is hashed.
+  - Se a ROM começa com `\1ATARI7800`, os primeiros 128 bytes são ignorados e conteúdo restante do arquivo é submetido ao hash. Se a ROM não começa com `\1ATARI7800`, todo o arquivo é submetido ao hash.
 
-- **Atari Jaguar** uses the MD5 checksum.
+- **Atari Jaguar** usa o checksum MD5.
 
-- **Atari Jaguar CD** uses a custom hash.
+- **Atari Jaguar CD** usa um hash personalizado.
 
-  - A header block is located within the first sector of the disc. This block indicates the location and size of the boot code, which is loaded and hashed.
-  - If the resulting hash is `254487b59ab21bc005338e85cbf9fd2f`, it's a common bootloader for homebrew games and the actual game code is located in track 2. If a separate header block containing a new location and size is found in track 2, then that data is loaded and hashed.
+  - Um bloco de cabeçalho está localizado dentro do primeiro setor do disco. Este bloco indica a localização e o tamanho do código de inicialização, que é carregado e submetido ao hash.
+  - Se o hash resultante for `254487b59ab21bc005338e85cbf9fd2f`, é um bootloader comum para jogos homebrew e o código real do jogo está localizado na faixa 2. Se um bloco de cabeçalho separado contendo uma nova localização e tamanho for encontrado na faixa 2, então esses dados são carregados e submetidos ao hash.
 
-- **Atari Lynx** uses the MD5 checksum unless the ROM has a header.
-  - If the ROM starts with `LYNX\0`, the first 64 bytes are ignored and the remaining file contents are hashed. If the ROM does not start with `LYNX\0`, the entire file is hashed.
+- **Atari Lynx** usa o checksum MD5, a menos que a ROM tenha um cabeçalho.
+  - Se a ROM começa com `LYNX\0`, os primeiros 64 bytes são ignorados e o conteúdo restante do arquivo é submetido ao hash. Se a ROM não começa com `LYNX\0`, o arquivo inteiro é submetido ao hash.
 
 ## Bandai
 
-- **WonderSwan** uses the MD5 checksum.
+- **WonderSwan** usa o checksum MD5.
 
-- **WonderSwan Color** uses the MD5 checksum.
+- **WonderSwan Color** usa o checksum MD5.
 
 ## Coleco
 
-- **ColecoVision** uses the MD5 checksum.
+- **ColecoVision** usa o checksum MD5.
 
 ## Fairchild
 
-- **Channel F** uses the MD5 checksum.
+- **Channel F** usa o checksum MD5.
 
 ## GCE
 
-- **Vectrex** uses the MD5 checksum.
+- **Vectrex** usa o checksum MD5.
 
 ## Magnavox
 
-- **Odyssey2** uses the MD5 checksum.
+- **Odyssey2** usa o checksum MD5.
 
 ## Mattell
 
-- **Intellivision** uses the MD5 checksum.
+- **Intellivision** usa o checksum MD5.
 
 ## Microsoft
 
-- **MSX / MSX2** uses the MD5 checksums of each disk.
-  - As saving mutates disk data, local copies of loaded images are required to ensure that their hashes do not change across sessions. We do not believe this is working, but have yet to find a game where saving to disk actually works.
+- **MSX / MSX2** usa os checksums MD5 de cada disco.
+  - Como o salvamento altera os dados do disco, cópias locais das imagens carregadas são necessárias para garantir que seus hashes não mudem entre as sessões. Não acreditamos que isso esteja funcionando, mas ainda havemos de encontrar um jogo onde o salvamento em disco realmente funcione.
 
 ## NEC
 
-- **PC-8001/PC-8801** uses the MD5 checksums of each disk.
+- **PC-8001/PC-8801** usa os checksums MD5 de cada disco.
 
-  - As saving and other manipulations can mutate disk data, local copies of loaded images are required to ensure that their hashes do not change across sessions.
+  - Como o salvamento e outras manipulações podem alterar os dados do disco, cópias locais das imagens carregadas são necessárias para garantir que seus hashes não mudem entre as sessões.
 
-- **PC Engine / TurboGrafx 16 / SuperGrafx** use the MD5 checksum unless the ROM has a header.
+- **PC Engine / TurboGrafx 16 / SuperGrafx** usa o checksum MD5, a menos que a ROM tenha um cabeçalho.
 
-  - If the size of the file is 512 bytes more than a multiple of 128KB, the first 512 bytes are ignored and the remaining file contents are hashed. If the size of the file is not 512 bytes more than a multiple of 128KB, the entire file is hashed.
+  - Se o tamanho do arquivo for 512 bytes maior que um múltiplo de 128KB, os primeiros 512 bytes são ignorados e o conteúdo restante do arquivo é submetido ao hash. Se o tamanho do arquivo não for 512 bytes maior que um múltiplo de 128KB, todo o arquivo é submetido ao hash.
 
-- **PC Engine CD / TurboGrafx-CD** - uses a custom hash. The boot code and disc title are hashed as follows:
+- **PC Engine CD / TurboGrafx-CD** - usa um hash personalizado. O código de inicialização e o título do disco são submetidos ao hash da seguinte forma:
 
-  - Read 128 bytes from sector 1 of the data track (PCE predates ISO-9660, so there's no file system to read).
-  - If `"PC Engine CD-ROM SYSTEM"` does not exist at 32 bytes into the data, discard as invalid.
-  - Copy the last 22 bytes of the data into a buffer. This is the disc title, and _usually_ identifies the game.
-  - The first three bytes of the data are a little-endian sector index for the boot code.
-  - The fourth byte is the number of sectors that the boot code occupies.
-  - The boot code is appended to the buffer (N sectors, starting at sector X)
-  - The buffer is hashed.
+  - Lê 128 bytes do setor 1 da faixa de dados (PCE é anterior ao ISO-9660, então não há sistema de arquivos para ler).
+  - Se `"PC Engine CD-ROM SYSTEM"` não existir em 32 bytes nos dados, descarta como inválido.
+  - Copia os últimos 22 bytes dos dados para um buffer. Este é o título do disco e _geralmente_ identifica o jogo.
+  - Os primeiros três bytes dos dados são um índice de setor little-endian para o código de inicialização.
+  - O quarto byte é o número de setores que o código de inicialização ocupa.
+  - O código de inicialização é anexado ao buffer (N setores, começando no setor X)
+  - O buffer é submetido ao hash.
 
-- **PC-FX** uses a custom hash. The boot code and disc title are hashed as follows:
-  - Read 32 bytes from sector 0 of the data track (PC-FX predates ISO-9660, so there's no file system to read).
-  - If `"PC-FX:Hu_CD-ROM"` was not read, discard as invalid.
-  - Read 128 bytes from sector 1 of the data track into a buffer. This is the volume header and includes the disc title.
-  - The 32-bit value at 32-bytes into the buffer is the first sector of the boot code.
-  - The 32-bit value at 36-bytes into the buffer is the number of sectors that the boot code occupies.
-  - The boot code is appended to the buffer (N sectors, starting at sector X)
-  - The buffer is hashed.
+- **PC-FX** usa um hash personalizado. O código de inicialização e o título do disco são submetidos ao hash da seguinte forma:
+  - Lê 32 bytes do setor 0 da faixa de dados (PC-FX é anterior ao ISO-9660, então não há sistema de arquivos para ler).
+  - Se `"PC-FX:Hu_CD-ROM"` não foi lido, descarta como inválido.
+  - Lê 128 bytes do setor 1 da faixa de dados para um buffer. Este é o cabeçalho do volume e inclui o título do disco.
+  - O valor de 32 bits em 32 bytes no buffer é o primeiro setor do código de inicialização.
+  - O valor de 32 bits em 36 bytes no buffer é o número de setores que o código de inicialização ocupa.
+  - O código de inicialização é anexado ao buffer (N setores, começando no setor X)
+  - O buffer é submetido ao hash.
 
 ## Nintendo
 
-- **Famicom Disk System** uses the MD5 checksum unless the file has a header.
+- **Famicom Disk System** usa o checksum MD5, a menos que o arquivo tenha um cabeçalho.
 
-  - If the ROM starts with `FDS\1a`, the first 16 bytes are ignored and the remaining file contents are hashed.
-  - If the ROM does not start with `FDS\1a`, the entire file is hashed.
-  - As saving mutates disk data, local copies of loaded images are required to ensure that their hashes do not change across sessions.
+  - Se a ROM começa com `FDS\1a`, os primeiros 16 bytes são ignorados e o conteúdo restante do arquivo é submetido ao hash.
+  - Se a ROM não começa com `FDS\1a`, todo o arquivo é submetido ao hash.
+  - Como o salvamento altera os dados do disco, cópias locais das imagens carregadas são necessárias para garantir que seus hashes não mudem entre as sessões.
 
-- **Game Boy** uses the MD5 checksum.
+- **Game Boy** usa o checksum MD5.
 
-- **Game Boy Advance** uses the MD5 checksum.
+- **Game Boy Advance** usa o checksum MD5.
 
-- **Game Boy Color** uses the MD5 checksum.
+- **Game Boy Color** usa o checksum MD5.
 
-- **GameCube** uses a custom hash. Initially loaded program code is hashed as follows:
+- **GameCube** usa um hash personalizado. O código do programa inicialmente carregado é submetido ao hash da seguinte forma:
 
-  - The Apploader is loaded and added to a buffer.
-  - Each DOL segment (code and data) referenced in the Apploader is loaded and added to the buffer.
-  - The buffer is hashed.
+  - O Apploader é carregado e adicionado a um buffer.
+  - Cada segmento DOL (código e dados) referenciado no Apploader é carregado e adicionado ao buffer.
+  - O buffer é submetido ao hash.
 
-- **Nintendo 64** uses the MD5 checksum for Big Endian (`.z64`) ROMs.
+- **Nintendo 64** usa o checksum MD5 para ROMs Big Endian (`.z64`).
 
-  - ByteSwapped (`.v64`) and Little Endian (`.n64`) use the MD5 checksum for its Big Endian counterpart.
+  - ByteSwapped (`.v64`) e Little Endian (`.n64`) usam o checksum MD5 para sua contraparte Big Endian.
 
-- **Nintendo DS** uses a custom hash.
+- **Nintendo DS** usa um hash personalizado.
 
-  - A NDS ROM has a 0x160 byte header. In this header are pointers to icon/title information and to the boot code for both processors. The hash method combines the header, the two pieces of boot code, and the icon/title information and hashes the result.
-  - The icon/title information is 0xA00 bytes starting at the address stored in the header at $68
-  - The arm9 code address is stored at $20 in the header, and the size is stored at $2C in the header
-  - The arm7 code address is stored at $30 in the header, and the size is stored at $3C in the header
+  - Uma ROM NDS tem um cabeçalho de 0x160 bytes. Neste cabeçalho estão ponteiros para informações de ícone/título e para o código de inicialização para ambos os processadores. O método de hash combina o cabeçalho, os dois pedaços de código de inicialização e as informações de ícone/título e submete o resultado ao hash.
+  - As informações de ícone/título são 0xA00 bytes começando no endereço armazenado no cabeçalho em $68
+  - O endereço do código arm9 é armazenado em $20 no cabeçalho, e o tamanho é armazenado em $2C no cabeçalho
+  - O endereço do código arm7 é armazenado em $30 no cabeçalho, e o tamanho é armazenado em $3C no cabeçalho
 
-- **Nintendo Entertainment System / Famicom** uses a custom hash.
+- **Nintendo Entertainment System / Famicom** usa um hash personalizado.
 
-  - If the ROM starts with `NES\1a`, the first 16 bytes are ignored and the remaining file contents are hashed.
-  - If the ROM does not start with `NES\1a`, the entire file is hashed.
+  - Se a ROM começa com `NES\1a`, os primeiros 16 bytes são ignorados e o conteúdo restante do arquivo é submetido ao hash.
+  - Se a ROM não começa com `NES\1a`, todo o arquivo é submetido ao hash.
 
-- **Pokemon Mini** uses the MD5 checksum.
+- **Pokemon Mini** usa o checksum MD5.
 
-- **Super Nintendo Entertainment System / Super Famicom / Satellaview / Sufami Turbo** use the MD5 unless the ROM has a header.
-  - If the size of the file is 512 bytes more than a multiple of 8KB, the first 512 bytes are ignored and the remaining file contents are hashed.
-  - If the size of the file is not 512 bytes more than a multiple of 8KB, the entire file is hashed.
-- **Virtual Boy** uses the MD5 checksum.
+- **Super Nintendo Entertainment System / Super Famicom / Satellaview / Sufami Turbo** usa o MD5, a menos que a ROM tenha um cabeçalho.
+  - Se o tamanho do arquivo for 512 bytes maior que um múltiplo de 8KB, os primeiros 512 bytes são ignorados e o conteúdo restante do arquivo é submetido ao hash.
+  - Se o tamanho do arquivo não for 512 bytes maior que um múltiplo de 8KB, todo o arquivo é submetido ao hash.
+- **Virtual Boy** usa o checksum MD5.
 
 ## SNK
 
-- **Neo Geo CD** uses a custom hash. Initially loaded program code is hashed as follows:
+- **Neo Geo CD** usa um hash personalizado. O código do programa inicialmente carregado é submetido ao hash da seguinte forma:
 
-  - The `IPL.TXT` file is loaded and parsed.
-  - Each line of the file is data to load. PRG files are executable code. Each PRG file is loaded and added to the buffer.
-  - The buffer is hashed.
+  - O arquivo `IPL.TXT` é carregado e analisado.
+  - Cada linha do arquivo são dados para carregar. Arquivos PRG são código executável. Cada arquivo PRG é carregado e adicionado ao buffer.
+  - O buffer é submetido ao hash.
 
-- **Neo Geo Pocket** uses the MD5 checksum.
+- **Neo Geo Pocket** usa o checksum MD5.
 
-- **Neo Geo Pocket Color** uses the MD5 checksum.
+- **Neo Geo Pocket Color** usa o checksum MD5.
 
 ## Sega
 
-- **32X** uses the MD5 checksum.
+- **32X** usa o checksum MD5.
 
-- **Dreamcast** uses a custom hash. The disc metadata and primary executable are hashed as follows:
+- **Dreamcast** usa um hash personalizado. Os metadados do disco e o executável principal são submetidos ao hash da seguinte forma:
 
-  - The first 512 bytes of sector 0 are appended to the buffer. This contains the volume header and ROM header. The first 16 bytes must be `"SEGA SEGAKATANA "`. If not, discard as invalid.
-  - The contents of the primary executable (as identified by the volume header) are appended to the buffer.
-  - The buffer is hashed.
+  - Os primeiros 512 bytes do setor 0 são anexados ao buffer. Isso contém o cabeçalho do volume e o cabeçalho da ROM. Os primeiros 16 bytes devem ser `"SEGA SEGAKATANA "`. Se não, descarta como inválido.
+  - O conteúdo do executável principal (conforme identificado pelo cabeçalho do volume) é anexado ao buffer.
+  - O buffer é submetido ao hash.
 
-- **Game Gear** uses the MD5 checksum.
+- **Game Gear** usa o checksum MD5.
 
-- **Master System** uses the MD5 checksum.
+- **Master System** usa o checksum MD5.
 
-- **Mega Drive / Genesis** uses the MD5 checksum.
+- **Mega Drive / Genesis** usa o checksum MD5.
 
-- **SG-1000** uses the MD5 checksum.
+- **SG-1000** usa o checksum MD5.
 
-- **Saturn** uses a custom hash.
+- **Saturn** usa um hash personalizado.
 
-  - The first 512 bytes of track 0 are hashed. This contains the volume header and ROM header. The first 16 bytes must be `"SEGADISCSYSTEM  "` for Sega CD or `"SEGA SEGASATURN "` for Sega Saturn. If not, discard as invalid.
-  - Immediately following those 512 bytes are an arbitrary amount of code that validates the region and loads the primary executable. Without processing the code, we cannot determine what additional file(s) to hash, so this was determined to be sufficient as an alternative to hashing the entire CD.
+  - Os primeiros 512 bytes da faixa 0 são submetidos ao hash. Isso contém o cabeçalho do volume e o cabeçalho da ROM. Os primeiros 16 bytes devem ser `"SEGADISCSYSTEM  "` para Sega CD ou `"SEGA SEGASATURN "` para Sega Saturn. Se não, descarta como inválido.
+  - Imediatamente após esses 512 bytes há uma quantidade arbitrária de código que valida a região e carrega o executável principal. Sem processar o código, não podemos determinar quais arquivos adicionais submeter ao hash, então isso foi determinado como suficiente como alternativa a submeter todo o CD ao hash.
 
-- **Sega CD** uses a custom hash.
-  - The first 512 bytes of track 0 are hashed. This contains the volume header and ROM header. The first 16 bytes must be `"SEGADISCSYSTEM  "` for Sega CD or `"SEGA SEGASATURN "` for Sega Saturn. If not, discard as invalid.
-  - Immediately following those 512 bytes are an arbitrary amount of code that validates the region and loads the primary executable. Without processing the code, we cannot determine what additional file(s) to hash, so this was determined to be sufficient as an alternative to hashing the entire CD.
+- **Sega CD** usa um hash personalizado.
+  - Os primeiros 512 bytes da faixa 0 são submetidos ao hash. Isso contém o cabeçalho do volume e o cabeçalho da ROM. Os primeiros 16 bytes devem ser `"SEGADISCSYSTEM  "` para Sega CD ou `"SEGA SEGASATURN "` para Sega Saturn. Se não, descarta como inválido.
+  - Imediatamente após esses 512 bytes há uma quantidade arbitrária de código que valida a região e carrega o executável principal. Sem processar o código, não podemos determinar quais arquivos adicionais submeter ao hash, então isso foi determinado como suficiente como alternativa a submeter todo o CD ao hash.
 
 ## Sony
 
-- **PlayStation** uses a custom hash. The primary executable and its name are hashed as follows:
-  - The `SYSTEM.CNF` file is loaded and parsed. The primary executable is identified by the BOOT= line within.
-  - The primary executable name (and its path) are extracted from `SYSTEM.CNF` and written to a buffer.
-  - The contents of the primary executable are appended to the buffer.
-  - The buffer is hashed.
-- **PlayStation 2** uses a custom hash. The primary executable and its name are hashed as follows:
-  - The `SYSTEM.CNF` file is loaded and parsed. The primary executable is identified by the BOOT2= line within.
-  - The primary executable name (and its path) are extracted from `SYSTEM.CNF` and written to a buffer.
-  - The contents of the primary executable are appended to the buffer.
-  - The buffer is hashed.
-- **PlayStation Portable** uses a custom hash. The disc metadata and primary executable are hashed as follows:
-  - The contents of the `PSP_GAME\PARAMS.SFO` file are written to a buffer. This contains the game attributes displayed in the menu, including the name and serial.
-  - The contents of the primary executable (`PSP_GAME\SYSDIR\EBOOT.BIN`) are appended to the buffer.
-  - The buffer is hashed.
+- **PlayStation** usa um hash personalizado. O executável principal e seu nome são submetidos ao hash da seguinte forma:
+  - O arquivo `SYSTEM.CNF` é carregado e analisado. O executável principal é identificado pela linha BOOT= dentro dele.
+  - O nome do executável principal (e seu caminho) são extraídos do `SYSTEM.CNF` e escritos em um buffer.
+  - O conteúdo do executável principal é anexado ao buffer.
+  - O buffer é submetido ao hash.
+- **PlayStation 2** usa um hash personalizado. O executável principal e seu nome são submetidos ao hash da seguinte forma:
+  - O arquivo `SYSTEM.CNF` é carregado e analisado. O executável principal é identificado pela linha BOOT2= dentro dele.
+  - O nome do executável principal (e seu caminho) são extraídos do `SYSTEM.CNF` e escritos em um buffer.
+  - O conteúdo do executável principal é anexado ao buffer.
+  - O buffer é submetido ao hash.
+- **PlayStation Portable** usa um hash personalizado. Os metadados do disco e o executável principal são submetidos ao hash da seguinte forma:
+  - O conteúdo do arquivo `PSP_GAME\PARAMS.SFO` é escrito em um buffer. Isso contém os atributos do jogo exibidos no menu, incluindo o nome e o serial.
+  - O conteúdo do executável principal (`PSP_GAME\SYSDIR\EBOOT.BIN`) é anexado ao buffer.
+  - O buffer é submetido ao hash.
 
 ## WASM-4
 
-- **WASM-4** uses the MD5 checksum.
+- **WASM-4** usa o checksum MD5.
 
 ## Watara
 
-- **Supervision** uses the MD5 checksum.
+- **Supervision** usa o checksum MD5.
 
 ## Wellback
 
-- **Mega Duck** uses the MD5 checksum.
+- **Mega Duck** usa o checksum MD5.
