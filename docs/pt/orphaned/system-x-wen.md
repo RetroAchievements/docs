@@ -21,9 +21,9 @@ Há muita especulação sobre quais serão os próximos sistemas disponíveis pa
 
 Estas são as coisas necessárias para adicionar suporte do RetroAchievements para um novo sistema:
 
-1. Emulação (preferencialmente um core libretro).
-   - O core deve expor a memória.
-   - O core deve funcionar no RALibretro.
+1. Emulação (preferencialmente um núcleo libretro).
+   - O núcleo deve expor a memória.
+   - O núcleo deve funcionar no RALibretro.
 2. Identificação única de jogos.
 3. Suporte do servidor.
 
@@ -33,11 +33,11 @@ A primeira etapa é, obviamente, ter um emulador para o sistema a ser suportado.
 
 No início do RetroAchievements, usávamos emuladores independentes - um para cada sistema. Manter todos esses emuladores livres de bugs e atualizados requer muito esforço e não temos programadores suficientes envolvidos nessa frente.
 
-Atualmente, é preferível usar um [core libretro](https://www.retroarch.com/?page=cores) para emulação. Dessa forma, os desenvolvedores do core podem implementar novos recursos e podemos focar apenas na funcionalidade das conquistas. Os cores podem ser atualizados e lançados sem esforço adicional para nós.
+Atualmente, é preferível usar um [núcleo libretro](https://www.retroarch.com/?page=cores) para emulação. Dessa forma, os desenvolvedores do núcleo podem implementar novos recursos e podemos focar apenas na funcionalidade das conquistas. Os núcleos podem ser atualizados e lançados sem esforço adicional para nós.
 
-Outra grande vantagem é que os cores libretro também funcionam no [RetroArch](https://www.retroarch.com/), o que permite que as conquistas do RetroAchievements sejam obtidas em várias plataformas (os emuladores independentes eram todos aplicativos apenas para Windows).
+Outra grande vantagem é que os núcleos libretro também funcionam no [RetroArch](https://www.retroarch.com/), o que permite que as conquistas do RetroAchievements sejam obtidas em várias plataformas (os emuladores independentes eram todos aplicativos apenas para Windows).
 
-**Gerenciado por**: desenvolvedores do core libretro.
+**Gerenciado por**: desenvolvedores do núcleo libretro.
 
 #### Etapa 1a: Memória Exposta
 
@@ -46,17 +46,17 @@ outro requisito é o acesso à RAM do sistema.
 
 Sem memória exposta, o [Inspetor de Memória](/developer-docs/memory-inspector) aparece em branco e os criadores de conquistas não conseguem criar conquistas.
 
-Além disso, como o RetroAchievements lê a memória apenas uma vez por quadro, alguns sistemas que utilizam intensamente [memória paginada](https://en.wikipedia.org/wiki/Paging) precisam fornecer alguma maneira de acessar toda a memória, não apenas a página atual.
+Além disso, como o RetroAchievements lê a memória apenas uma vez por quadro, alguns sistemas que utilizam intensamente [memória paginada](https://pt.wikipedia.org/wiki/Pagina%C3%A7%C3%A3o_de_mem%C3%B3ria) precisam fornecer alguma maneira de acessar toda a memória, não apenas a página atual.
 
-**Gerenciado por**: desenvolvedores do core libretro com alguma interação com desenvolvedores do RetroAchievements.
+**Gerenciado por**: desenvolvedores do núcleo libretro com alguma interação com desenvolvedores do RetroAchievements.
 
 #### Etapa 1b: RALibretro
 
-O core deve funcionar no RALibretro, pois é onde os desenvolvedores de conquistas identificarão as partes importantes da memória e criarão as conquistas.
+O núcleo deve funcionar no RALibretro, pois é onde os desenvolvedores de conquistas identificarão as partes importantes da memória e criarão as conquistas.
 
-Isso geralmente só é um problema se o core depender de alguma funcionalidade ainda não implementada no RALibretro (como o suporte recentemente adicionado para teclado e OpenGL 3D), mas alguns problemas são causados pela implementação do RALibretro ser suficientemente diferente da implementação do RetroArch. A menos que o core possa ser modificado para não exigir a funcionalidade ausente, ele não pode ser suportado até que o RALibretro seja atualizado.
+Isso geralmente só é um problema se o núcleo depender de alguma funcionalidade ainda não implementada no RALibretro (como o suporte recentemente adicionado para teclado e OpenGL 3D), mas alguns problemas são causados pela implementação do RALibretro ser suficientemente diferente da implementação do RetroArch. A menos que o núcleo possa ser modificado para não exigir a funcionalidade ausente, ele não pode ser suportado até que o RALibretro seja atualizado.
 
-[Esta página](/pt/general/emulator-support-and-issues) lista o status de cada core na última vez em que foram testados.
+[Esta página](/pt/general/emulator-support-and-issues) lista o status de cada núcleo na última vez em que foram testados.
 
 **Gerenciado por**: RetroAchievements
 
@@ -64,11 +64,11 @@ Isso geralmente só é um problema se o core depender de alguma funcionalidade a
 
 Precisamos ser capazes de identificar exclusivamente os jogos para o sistema.
 
-Usamos um método chamado [MD5](https://en.wikipedia.org/wiki/MD5), que escaneia o arquivo do jogo e gera um número que geralmente chamamos de "hash". Com este número, é possível confirmar se duas cópias de um arquivo são idênticas, o que torna possível garantir que o jogador está usando uma ROM com a qual as conquistas foram projetadas ou testadas.
+Usamos um método chamado [MD5](https://pt.wikipedia.org/wiki/MD5), que escaneia o arquivo do jogo e gera um número que geralmente chamamos de "hash". Com este número, é possível confirmar se duas cópias de um arquivo são idênticas, o que torna possível garantir que o jogador está usando uma ROM com a qual as conquistas foram projetadas ou testadas.
 
 Para a maioria dos sistemas, podemos simplesmente fazer o hash do arquivo ROM inteiro, menos qualquer informação de cabeçalho. Para jogos maiores (particularmente aqueles em CD ou DVD), fazemos hash apenas do que consideramos ser os dados mais importantes para minimizar os tempos de carregamento. Mais informações sobre como identificamos jogos podem ser encontradas [aqui](/developer-docs/game-identification).
 
-Para sistemas com mídia gravável (principalmente computadores domésticos), precisamos garantir que não façamos hash de arquivos que possam ser modificados pelo próprio jogo. Sistemas que escrevem no arquivo do jogo devem tratar o arquivo de disco original como somente leitura e escrever alterações apenas em uma cópia do disco. Se o core/emulador modificar o arquivo do disco, ele não pode mais ser identificado e não pode ser considerado viável para conquistas.
+Para sistemas com mídia gravável (principalmente computadores domésticos), precisamos garantir que não façamos hash de arquivos que possam ser modificados pelo próprio jogo. Sistemas que escrevem no arquivo do jogo devem tratar o arquivo de disco original como somente leitura e escrever alterações apenas em uma cópia do disco. Se o núcleo/emulador modificar o arquivo do disco, ele não pode mais ser identificado e não pode ser considerado viável para conquistas.
 
 **Gerenciado por**: RetroAchievements
 
@@ -80,4 +80,4 @@ Para suportar um novo sistema, o servidor web do RetroAchievements deve ser conf
 
 ### Quando o RA vai suportar o Sistema X?
 
-[Esta página](/pt/general/emulator-support-and-issues) lista o status de cada core na última vez em que foram testados.
+[Esta página](/pt/general/emulator-support-and-issues) lista o status de cada núcleo na última vez em que foram testados.
