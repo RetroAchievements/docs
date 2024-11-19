@@ -285,7 +285,7 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   link: "/developer-docs/jr-dev-rules",
         // },
         {
-          text: "Am I Ready for Code Review?",
+          text: "Estou Pronto para Revisão Código?",
           link: "/developer-docs/am-i-ready-for-review",
         },
         // {
