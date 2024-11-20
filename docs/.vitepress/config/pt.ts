@@ -110,10 +110,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: "Contribuindo para os Documentos",
           link: "/pt/general/contributing-to-the-docs",
         },
-        // {
-        //   text: "Sobre Nós",
-        //   link: "/pt/general/about-us",
-        // },
+        {
+          text: "Sobre Nós",
+          link: "/pt/general/about-us",
+        },
       ],
     },
     // {
@@ -290,13 +290,17 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   link: "/developer-docs/jr-dev-rules",
         // },
         // {
+        //   text: "Am I Ready for Code Review?",
+        //   link: "/developer-docs/am-i-ready-for-review",
+        // },
+        // {
         //   text: "Emulator Setup for Developers",
         //   link: "/developer-docs/emulator-setup-for-developers",
         // },
-        // {
-        //   text: "Identificação de Jogos",
-        //   link: "/pt/developer-docs/game-identification",
-        // },
+        {
+          text: "Identificação de Jogos",
+          link: "/pt/developer-docs/game-identification",
+        },
         {
           text: "Design de Conquistas",
           link: "/pt/developer-docs/achievement-design",

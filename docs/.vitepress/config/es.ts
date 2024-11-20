@@ -290,6 +290,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   link: "/developer-docs/jr-dev-rules",
         // },
         // {
+        //   text: "Am I Ready for Code Review?",
+        //   link: "/developer-docs/am-i-ready-for-review",
+        // },
+        // {
         //   text: "Configuración del emulador para desarrolladores",
         //   link: "/developer-docs/emulator-setup-for-developers",
         // },
