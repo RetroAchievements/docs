@@ -440,10 +440,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //   text: "Funcionalidade Adicional",
     //   collapsed: false,
     //   items: [
-    //     {
-    //       text: "Tamanho do BitCount",
-    //       link: "/pt/developer-docs/bitcount-size",
-    //     },
+        {
+          text: "Tamanho do BitCount",
+          link: "/pt/developer-docs/bitcount-size",
+        },
     //     {
     //       text: "Grupos Alternativos",
     //       link: "/pt/developer-docs/alt-groups",
@@ -452,10 +452,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Contagem de Acertos",
     //       link: "/pt/developer-docs/hit-counts",
     //     },
-    //     {
-    //       text: "Valores Delta",
-    //       link: "/pt/developer-docs/delta-values",
-    //     },
+        {
+          text: "Valores Delta",
+          link: "/pt/developer-docs/delta-values",
+        },
     //     {
     //       text: "Valores Anteriores",
     //       link: "/pt/developer-docs/prior-values",
@@ -468,10 +468,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Definição de Valores",
     //       link: "/pt/developer-docs/value-definition",
     //     },
-    //     {
-    //       text: "Sintaxe de Condição",
-    //       link: "/pt/developer-docs/condition-syntax",
-    //     },
+        {
+          text: "Sintaxe de Condição",
+          link: "/pt/developer-docs/condition-syntax",
+        },
     //   ],
     // },
   ];
