@@ -300,10 +300,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Design de Conquistas",
           link: "/pt/developer-docs/achievement-design",
         },
-        // {
-        //   text: "Pontuação de Conquistas",
-        //   link: "/pt/developer-docs/achievement-scoring",
-        // },
+        {
+          text: "Pontuação de Conquistas",
+          link: "/pt/developer-docs/achievement-scoring",
+        },
         {
           text: "Escala de Dificuldade e Balanceamento",
           link: "/pt/developer-docs/difficulty-scale-and-balance",
@@ -316,10 +316,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Criação de Emblemas e Ícones",
           link: "/pt/developer-docs/badge-and-icon-creation",
         },
-        // {
-        //   text: "Visão Geral do Desenvolvimento de Conquistas",
-        //   link: "/pt/developer-docs/achievement-development-overview",
-        // },
+        {
+          text: "Visão Geral do Desenvolvimento de Conquistas",
+          link: "/pt/developer-docs/achievement-development-overview",
+        },
         // {
         //   text: "Versões Mínimas Requeridas para Funcionalidades de Lógica",
         //   link: "/pt/developer-docs/minimum-required-versions-for-logic-features",
