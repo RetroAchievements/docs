@@ -258,9 +258,9 @@ The conditional phrase supports all of the previously mentioned address accessor
 
 ## Limits
 
-- 65,535 character limit for script
-- 255 character limit for what is displayed
-- Unicode characters are allowed, but use count as more than 1 character towards the specified limits.
+- 60,000 character limit for script
+- 65,535 byte limit for script (non-ASCII characters take more than one byte)
+- 255 byte limit for what is displayed (non-ASCII characters take more than one byte)
 
 ## Rich Presence Custom Name Restriction
 

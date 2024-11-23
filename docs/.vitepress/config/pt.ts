@@ -300,10 +300,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Design de Conquistas",
           link: "/pt/developer-docs/achievement-design",
         },
-        // {
-        //   text: "Pontuação de Conquistas",
-        //   link: "/pt/developer-docs/achievement-scoring",
-        // },
+        {
+          text: "Pontuação de Conquistas",
+          link: "/pt/developer-docs/achievement-scoring",
+        },
         {
           text: "Escala de Dificuldade e Balanceamento",
           link: "/pt/developer-docs/difficulty-scale-and-balance",
@@ -316,18 +316,18 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Criação de Emblemas e Ícones",
           link: "/pt/developer-docs/badge-and-icon-creation",
         },
-        // {
-        //   text: "Visão Geral do Desenvolvimento de Conquistas",
-        //   link: "/pt/developer-docs/achievement-development-overview",
-        // },
+        {
+          text: "Visão Geral do Desenvolvimento de Conquistas",
+          link: "/pt/developer-docs/achievement-development-overview",
+        },
         // {
         //   text: "Versões Mínimas Requeridas para Funcionalidades de Lógica",
         //   link: "/pt/developer-docs/minimum-required-versions-for-logic-features",
         // },
-        // {
-        //   text: "Inspetor de Memória",
-        //   link: "/pt/developer-docs/memory-inspector",
-        // },
+        {
+          text: "Inspetor de Memória",
+          link: "/pt/developer-docs/memory-inspector",
+        },
         {
           text: "Exemplos Reais",
           link: "/pt/developer-docs/real-examples",
@@ -440,10 +440,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
       text: "Funcionalidade Adicional",
       collapsed: false,
       items: [
-        // {
-        //   text: "Tamanho do BitCount",
-        //   link: "/pt/developer-docs/bitcount-size",
-        // },
+        {
+          text: "Tamanho do BitCount",
+          link: "/pt/developer-docs/bitcount-size",
+        },
         {
           text: "Grupos Alternativos",
           link: "/pt/developer-docs/alt-groups",
@@ -452,10 +452,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Contagem de Acertos",
     //       link: "/pt/developer-docs/hit-counts",
     //     },
-    //     {
-    //       text: "Valores Delta",
-    //       link: "/pt/developer-docs/delta-values",
-    //     },
+        {
+          text: "Valores Delta",
+          link: "/pt/developer-docs/delta-values",
+        },
     //     {
     //       text: "Valores Anteriores",
     //       link: "/pt/developer-docs/prior-values",
@@ -468,12 +468,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Definição de Valores",
     //       link: "/pt/developer-docs/value-definition",
     //     },
-    //     {
-    //       text: "Sintaxe de Condição",
-    //       link: "/pt/developer-docs/condition-syntax",
-    //     },
-      ],
-    },
+        {
+          text: "Sintaxe de Condição",
+          link: "/pt/developer-docs/condition-syntax",
+        },
   ];
 }
 
