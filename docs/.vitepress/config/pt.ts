@@ -472,6 +472,8 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Sintaxe de Condição",
           link: "/pt/developer-docs/condition-syntax",
         },
+      ],
+    },
   ];
 }
 
