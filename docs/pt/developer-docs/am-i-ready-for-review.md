@@ -86,13 +86,13 @@ Ter um único endereço pode tornar sua conquista propensa a gatilhos falsos, es
 **Hits armazenados não são**: o número rolante de hits no editor de conquistas que aparece em condições sem um alvo. Esses são para rastrear quantos frames uma condição já foi verdadeira e são puramente informativos.
 
 - Hits armazenados devem sempre ter uma maneira de serem resetados, como quando um desafio falha, quando um jogador não está mais no nível relevante, ou o jogador sofre um game over. Caso contrário, esses hits podem permanecer e causar um gatilho falso no contexto errado.
-- Solução: Adicione uma condição ou cadeia de condições (como Com And Próximo) marcada com a flag Reset If. Quando a(s) condição(ões) for(em) verdadeira(s), os hits armazenados serão limpos.
+- **Solução**: Adicione uma condição ou cadeia de condições (como Com And Próximo) marcada com a flag Reset If. Quando a(s) condição(ões) for(em) verdadeira(s), os hits armazenados serão limpos.
 
 ### Você está usando hits armazenados para ajudar a verificar quando um valor muda de uma coisa para outra?
 
 Isso é algo que você vê em conjuntos antigos de quando o kit de ferramentas era menor. Isso é quase sempre a maneira errada de fazer isso.
 
-- Solução**: Use a flag Delta!
+- **Solução**: Use a flag Delta!
   - Delta representa o valor de um endereço no frame anterior.
   - Você pode combinar `Delta address = Value valorOriginal` em uma condição e `Mem address = Value novoValor` na próxima condição e isso capturará o momento exato em que o endereço muda de *valorOriginal* para *novoValor.*
 
