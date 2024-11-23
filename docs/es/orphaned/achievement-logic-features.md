@@ -26,9 +26,7 @@ Aqui hay una lista de funciones disponibles:
 
 - <a name="addhits"></a>[Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits)
 
-- **Combining Flags**: Un `ResetIf` y `PauseIf` pueden ser aplicados al numero que sea de condiciones `AddHits`, `AddSource`, y `SubSource`. Volviendo al [ejemplo del `AddSource`](/es/developer-docs/flags/addsource) de arriba, si un `ResetIf` se aplicara a la condicion 2, el logro se reiniciaría porque `1 + 2 > 0`.
-
-- <a name="combining-flags"></a>[Combinando Banderas](/es/orphaned/combining-flags)
+- **Combinando Banderas**: Un `ResetIf` y `PauseIf` pueden ser aplicados al numero que sea de condiciones `AddHits`, `AddSource`, y `SubSource`. Volviendo al [ejemplo del `AddSource`](/es/developer-docs/flags/addsource) de arriba, si un `ResetIf` se aplicara a la condicion 2, el logro se reiniciaría porque `1 + 2 > 0`.
 
 - <a name="alt-groups"></a>[Alt Groups](/es/developer-docs/alt-groups) (Grupos Alternos)
 
