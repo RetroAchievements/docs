@@ -33,7 +33,7 @@ Here is the list of features available:
 
 - <a name="addhits"></a>[`AddHits` and `SubHits` Flag](/developer-docs/flags/addhits-subhits)
 
-- <a name="combining-flags"></a>[Combining Flags](/orphaned/combining-flags)
+- **Combining Flags**: `ResetIf` and `PauseIf` can be applied to a condition following any number of `AddHits`, `AddSource`, or `SubSource` conditions. Going back to the [`AddSource` example](/developer-docs/flags/addsource) above, if `ResetIf` were applied to condition 2, the achievement would reset because `1 + 2 > 0`.
 
 - <a name="alt-groups"></a>[Alt Groups](/developer-docs/alt-groups)
 
