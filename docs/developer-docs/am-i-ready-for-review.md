@@ -86,13 +86,13 @@ Having a single address can make your achievement prone to false triggers, espec
 **Stored hits are not**: the rolling number of hits in the achievement editor that show up on conditions without a target.  Those are for tracking how many frames a condition has ever been true and are purely informative.
 
 - Stored hits must always have a way to be reset, such as when a challenge is failed, when a player is no longer on the relevant level, or the player suffers a game over.  Otherwise these hits may stick around and cause a false trigger in the wrong context.
-- Solution: Add a condition or chain of conditions (such as with And Next) marked with the Reset If flag. When the condition(s) are true, the stored hits will be cleared.
+- **Solution**: Add a condition or chain of conditions (such as with And Next) marked with the Reset If flag. When the condition(s) are true, the stored hits will be cleared.
 
 ### Are you using the stored hits to help check when a value changes from one thing to another thing?
 
 This is a thing you see on old sets from when the toolkit was smaller.  This is almost always the wrong way to do this.
 
-- Solution**: Use the Delta flag!
+- **Solution**: Use the Delta flag!
   - Delta represents the value of an address on the previous frame.
   - You can pair `Delta address = Value originalValue` in one condition, and `Mem address = Value newValue` in the next condition and that will catch the very moment the address changes from *originalValue* to *newValue.*
 

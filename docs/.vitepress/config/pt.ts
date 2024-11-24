@@ -284,10 +284,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Junior Developer Program",
         //   link: "/developer-docs/jr-dev-rules",
         // },
-        // {
-        //   text: "Am I Ready for Code Review?",
-        //   link: "/developer-docs/am-i-ready-for-review",
-        // },
+        {
+          text: "Estou Pronto para Revisão Código?",
+          link: "/developer-docs/am-i-ready-for-review",
+        },
         // {
         //   text: "Emulator Setup for Developers",
         //   link: "/developer-docs/emulator-setup-for-developers",
@@ -436,18 +436,18 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //     },
     //   ],
     // },
-    // {
-    //   text: "Funcionalidade Adicional",
-    //   collapsed: false,
-    //   items: [
+    {
+      text: "Funcionalidade Adicional",
+      collapsed: false,
+      items: [
         {
           text: "Tamanho do BitCount",
           link: "/pt/developer-docs/bitcount-size",
         },
-    //     {
-    //       text: "Grupos Alternativos",
-    //       link: "/pt/developer-docs/alt-groups",
-    //     },
+        {
+          text: "Grupos Alternativos",
+          link: "/pt/developer-docs/alt-groups",
+        },
     //     {
     //       text: "Contagem de Acertos",
     //       link: "/pt/developer-docs/hit-counts",
@@ -472,8 +472,8 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Sintaxe de Condição",
           link: "/pt/developer-docs/condition-syntax",
         },
-    //   ],
-    // },
+      ],
+    },
   ];
 }
 
