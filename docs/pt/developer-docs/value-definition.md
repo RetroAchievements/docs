@@ -2,7 +2,7 @@
 
 As definições de valores são usadas para [Leaderboards](/pt/developer-docs/leaderboards#value) e [Estado de Presença](/pt/developer-docs/rich-presence#value-properties).
 
-Um valor é calculado avaliando uma ou mais [leituras de memória](/developer-docs/condition-syntax). Os valores lidos podem ser escalados (multiplicação) ou somados (adição) para chegar ao valor final.
+Um valor é calculado avaliando uma ou mais [leituras de memória](/pt/developer-docs/condition-syntax). Os valores lidos podem ser escalados (multiplicação) ou somados (adição) para chegar ao valor final.
 
 **NOTA**: Os cálculos de valores são realizados usando números inteiros de 32 bits com sinal. Assim, o valor máximo é 2147483647 e o valor mínimo é -2147483648. Valores acima do máximo darão a volta e serão registrados como números muito negativos.
 
