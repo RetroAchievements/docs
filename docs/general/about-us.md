@@ -83,7 +83,7 @@ The team responsible to keep the this community a healthy place (at least for th
 
 ### Community Manager
 
-The Community Manager helps facilitate communication between players and staff, navigate misunderstandings and conflicts, oversee our various social platforms, and moderation team support:
+The Community Manager helps facilitate communication between players and staff, navigates misunderstandings and conflicts, oversees our various social platforms, and provides moderation team support:
 
 - [Nepiki](https://retroachievements.org/user/Nepiki)
 
