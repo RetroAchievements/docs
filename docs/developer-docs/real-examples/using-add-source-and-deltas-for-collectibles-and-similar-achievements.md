@@ -9,7 +9,7 @@ In this example is a simple way one can utilize the `AddSource` flag in their ac
 
 We'll look at an achievement from [Suikoden (PlayStation)](https://retroachievements.org/game/11255) entitled [Treasure Hunter - Dragon Knights' Domain](http://retroachievements.org/Achievement/80100):
 
-**Addresses Used**
+## Addresses Used
 
 - `0x1b8244`: bit0-bit4 are treasures in Soniere, bit5 is a treasure at the Northern Checkpoint, and bit6-bit7 are treasures at the Dragon Den.
 - `0x1b8245`: bit0 is a treasure at the Dragon Den, bit1-bit5 are treasures at Seek Valley, and bit6-7 are treasures in Kalekka.
@@ -19,7 +19,7 @@ We'll look at an achievement from [Suikoden (PlayStation)](https://retroachievem
 
 This particular achievement only requires treasures from Dragon Knights' Fortress, Dragon Den, and Seek Valley; therefore, we only need bit6-7 from `0x1b8244`, bit0-bit5 from `0x1b8245`, and bit3-bit4 from `0x1b824b`.
 
-**Logic Breakdown**
+## Logic Breakdown
 
 - There are two groups of ten conditions with the main differences being the Delta type and the total. This is to ensure that the player goes from nine of these treasures obtained to having all ten of these treasures obtained. _Note: Remember to use hexadecimal for `AddSource` totals!_
 - Since we're using bitflags here, the totals for individual conditions will only ever be 0x00 or 0x01. Obviously, we want them all to be 0x01 for the trigger, but we don't want someone to get the achievement simply by loading a save with all ten treasures already found.
