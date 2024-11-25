@@ -4,7 +4,7 @@ Cada juego tiene una variable que esta constantemente aumentando, esta funciona 
 
 > Ten en cuenta que juegos PAL (50hz) tiene un framerate mas bajo a los juegos NTSC (60hz) y no son compatibles con este método. Es recomendable crear cada temporizador utilizando la versión NTSC del juego, a menos que la versión PAL sea la uncia versión existente y no exista un parche NTSC disponible.
 
-**Variables (Addresses)**
+## Variables (Addresses)
 
 - `0x19`: Modo Demo: `01`=Activo, `00`=Inactivo
 - `0x1a`: Motor del Juego (velocidad basada en el framerate)
@@ -18,7 +18,7 @@ Link al Logro: [Contra Speedrun](https://retroachievements.org/achievement/65443
 
 YouTube: [ResetIfHits Demo: Contra Stage 1 60 segundos Speedrun ](https://youtu.be/6PpdG04tM4s)
 
-**Condiciones**
+## Condiciones
 
 1. Se activa el Hit del Logro cuando se entra al Stage (`03`solo aparece una vez por cada Stage).
 

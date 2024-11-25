@@ -11,7 +11,7 @@ Every game has an address which is constantly increasing, it functions like a en
 
 > Please note that PAL Games (50hz) have a lower framerate than NTSC Games (60hz) and aren't compatible with this method. It is recommended to create every Timer based on the NTSC version of the game, unless PAL version is the only version existing and there is no NTSC Patch available.
 
-**Addresses**
+## Addresses
 
 - `0x19`: Demo Mode: `01`=Active, `00`=Inactive
 - `0x1a`: Game Engine (speed based on framerate)
@@ -25,7 +25,7 @@ Link to Cheevo: [Contra Speedrun](https://retroachievements.org/achievement/6544
 
 YouTube: [ResetIfHits Demo: Contra Stage 1 60 seconds Speedrun ](https://youtu.be/6PpdG04tM4s)
 
-**Conditions**
+## Conditions
 
 1. Activates the Cheevo's 'Hit' when entering a Stage (`03`only appears once in each Stage).
 
