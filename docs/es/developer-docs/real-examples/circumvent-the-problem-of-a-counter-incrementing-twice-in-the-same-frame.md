@@ -7,7 +7,7 @@ Esos logros se suponen que tendrian que ser algo simple, como esto:
 | ID  | Special? | Memory   | Cmp | Type  | Mem/Val  | Hits |
 | --- | -------- | -------- | --- | ----- | -------- | ---- |
 | 1   |          | 0xDULCES | !=  | Delta | 0xDULCES | (N)  |
-| 2   | ResetIf  | 0xSTAGE  | !=  | Value | 0xBONUS  |
+| 2   | ResetIf  | 0xSTAGE  | !=  | Value | 0xBONUS  |      |
 
 Esto se traduciría "checa si el contador de dulces cambio `N` veces en el stage bonus".
 
@@ -20,7 +20,7 @@ En manera que podamos evitar este problema tenemos que utilizar la técnica de [
 
 Echemos un vistazo a la lógica del logro y así poder ver la explicación:
 
-**Variables (Addresses)**
+## Variables (Addresses)
 
 - `0x80dc`: Contador de Dulces.
 - `0x809c`: ID de Stage.
@@ -29,7 +29,7 @@ Así que ahora la estructura de logro seria de esta manera:
 
 ![](https://i.imgur.com/ufPTDF3.png)
 
-**Condiciones**
+## Condiciones
 
 1. Junto con la condición 2, es un truco para ver si `0xDULCES - Delta 0xDULCES = 2`. En otras palabras, el contador de dulces fue incrementado por dos.
 

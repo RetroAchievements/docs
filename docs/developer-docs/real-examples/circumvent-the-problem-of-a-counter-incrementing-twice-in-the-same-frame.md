@@ -14,7 +14,7 @@ Such achievements were supposed to be quite simple, like this:
 | ID  | Special? | Memory    | Cmp | Type  | Mem/Val   | Hits |
 | --- | -------- | --------- | --- | ----- | --------- | ---- |
 | 1   |          | 0xCANDIES | !=  | Delta | 0xCANDIES | (N)  |
-| 2   | ResetIf  | 0xSTAGE   | !=  | Value | 0xBONUS   |
+| 2   | ResetIf  | 0xSTAGE   | !=  | Value | 0xBONUS   |      |
 
 This translates into "check if the candy canes counter changed `N` times in the bonus stage".
 
@@ -26,7 +26,7 @@ In order to circumvent this issue we have to use that technique of [using `SubSo
 
 Let's take a look at the achievement logic and then we'll see the explanation:
 
-**Addresses**
+## Addresses
 
 - `0x80dc`: Candy Canes counter.
 - `0x809c`: Stage ID.
@@ -35,7 +35,7 @@ So now the structure of the achievement is going to be like this:
 
 ![](https://i.imgur.com/sDtPpX9.png)
 
-**Conditions**
+## Conditions
 
 1. Together with condition 2, is a trick used to check if `0xCANDIES - Delta 0xCANDIES = 2`. In other words, the candy counter was incremented by two.
 
@@ -47,7 +47,7 @@ So now the structure of the achievement is going to be like this:
 
 All these conditions could be translated as "while in the bonus stage, trigger the achievement if the candy counter changes 99 times, and if the candy counter is incremented by 2 in the same frame, count an extra change in the candy counter."
 
-So, now it is 100% solved, right? Well, actually, almost. There is still a very minor exception. Remember it was said before that `!=` was being used instead of `>` because `when the player has 99 candies and collect one more, the counter goes to zero`?
+So, now it is 100% solved, right? Well, actually, almost. There is still a very minor exception. Remember it was said before that `!=` was being used instead of `>` because **when the player has 99 candies and collect one more, the counter goes to zero**?
 
 This means that, if we get two canes in the same frame (which is already rare), there's a very small possibility that this change will be from `98 -> 00` or from `99 -> 01`. In these only two cases our code won't work, because `00 - 98` is not 2, it is `-98`. Same thing for `01 - 99`, it is not 2, it is also `-98`.
 
