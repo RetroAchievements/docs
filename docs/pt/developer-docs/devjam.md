@@ -23,7 +23,7 @@ Um DevJam dura três meses. Alguns podem durar mais tempo se a situação exigir
 ## O Emblema
 
 - O emblema do evento consiste em **24 conquistas** e cada conquista será desbloqueada para cada ponto ganho no final do trimestre.
-- Haverá pelo menos **6 conquistas obtíveis** por trimestre. Estas podem ser divididas, o que permite que os desenvolvedores participem do evento em seu próprio ritmo, mas exigirá alguma dedicação. Eles podem conseguir 1 conquista no primeiro trimestre, 3 no segundo trimestre, 2 no terceiro trimestre, etc.
+- Haverá pelo menos **6 conquistas ganháveis** por trimestre. Estas podem ser divididas, o que permite que os desenvolvedores participem do evento em seu próprio ritmo, mas exigirá alguma dedicação. Eles podem conseguir 1 conquista no primeiro trimestre, 3 no segundo trimestre, 2 no terceiro trimestre, etc.
 - Os valores dos pontos podem variar entre trimestres dependendo do(s) console(s) selecionado(s).
 - Um gráfico detalhando o sistema de pontos do trimestre atual está no final desta página.
 
@@ -53,13 +53,13 @@ Um DevJam dura três meses. Alguns podem durar mais tempo se a situação exigir
 
 Confira os links aqui para diretrizes e informações específicas do console:
 
-| Número |          Time           |                       Console(s)                       | Number of Participants | Sets Promoted |
+| Número |          Período           |                       Console(s)(s)                       | Número de Participantes | Conjuntos Promovidos |
 | :----: | :---------------------: | :----------------------------------------------------: | :--------------------: | :-----------: |
-|   01   | 2023-07-01 - 2023-09-30 |    [Sega SG-1000](/developer-docs/devjam/1-sg1000)     |           30           |      60       |
-|   02   | 2023-10-01 - 2024-01-31 |     [Sega Saturn](/developer-docs/devjam/2-saturn)     |           28           |      56       |
-|   03   | 2024-02-01 - 2024-04-30 | [PC Engine/PC Engine CD](/developer-docs/devjam/3-pce) |           28           |      60       |
-|   04   | 2024-05-01 - 2024-08-31 |       [Arcade](/developer-docs/devjam/4-arcade)        |           33           |      80       |
-|   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](/developer-docs/devjam/5-pc88)     |          TBA           |      TBA      |
+|   01   | 2023-07-01 - 2023-09-30 |    [Sega SG-1000](/pt/developer-docs/devjam/1-sg1000)     |           30           |      60       |
+|   02   | 2023-10-01 - 2024-01-31 |     [Sega Saturn](/pt/developer-docs/devjam/2-saturn)     |           28           |      56       |
+|   03   | 2024-02-01 - 2024-04-30 | [PC Engine/PC Engine CD](/pt/developer-docs/devjam/3-pce) |           28           |      60       |
+|   04   | 2024-05-01 - 2024-08-31 |       [Arcade](/pt/developer-docs/devjam/4-arcade)        |           33           |      80       |
+|   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](/pt/developer-docs/devjam/5-pc88)     |          TBA           |      TBA      |
 
 ## DevJams Planejadas
 
