@@ -469,10 +469,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Recall",
     //       link: "/developer-docs/recall",
     //     },
-    //     {
-    //       text: "Definição de Valores",
-    //       link: "/pt/developer-docs/value-definition",
-    //     },
+        {
+          text: "Definição de Valores",
+          link: "/pt/developer-docs/value-definition",
+        },
         {
           text: "Sintaxe de Condição",
           link: "/pt/developer-docs/condition-syntax",
