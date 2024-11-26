@@ -69,7 +69,9 @@ Requerimentos 1-4 são os mesmos como o modelo [Terminar o Nível N](#termine-n�
 
 **Mantenha em mente que por trás de além saber como o tempo se comporta no jogo, além disso você precisa pesqusar como se comporta na memória**
 
-## Terminar Nível N sem Morrer (ou ser atingido, usando uma arma, etc.)
+## Termine Nível N sem Morrer
+
+(ou ser atingido, usando uma arma, etc.)
 
 | ID  | Special? | Memory  | Cmp | Type  | Mem/Val      | Hits |
 | --- | -------- | ------- | --- | ----- | ------------ | ---- |
