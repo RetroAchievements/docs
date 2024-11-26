@@ -70,7 +70,7 @@ Quando você encontrou um endereço com o qual você está feliz, você pode esc
 
 Você pode encontrar [Dicas de Escavação de Memória aqui](/pt/developer-docs/tips-and-tricks#memory-digging-tips).
 
-## Achievement Sets
+## Conjuntos de Conquistas
 
 OK para que a localização da memória para o número de anéis seja armazenada em `0xfe20` - nota para um não programador, estamos lidando com um [sistema de numeração hexadecimal](https://simple.wikipedia.org/wiki/Hexadecimal_numeral_system) que pode ser assustador, mas não se preocupe, essencialmente são apenas números e letras em vez de apenas números, e não esquecendo `0x` no início para mostrar que é uma localização de memória em hexadecimal. Encontramos um endereço em que nos interessamos e armazenamos usando **Save Note**. Agora queremos criar uma nova conquista.
 
