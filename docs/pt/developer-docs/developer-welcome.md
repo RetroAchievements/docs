@@ -180,7 +180,7 @@ Existem alguns eventos limitados a desenvolvedores, cada um com seu próprio can
 
 - [DevQuests](/developer-docs/devquests)
 
-- [DevJam](/pt/developer-docs/devjam): Lançando conjuntos para sistemas que não receberam rollouts
+- [DevJam](/developer-docs/devjam): Lançando conjuntos para sistemas que não receberam rollouts
 
 - [Beaten Into Completion](https://retroachievements.org/viewtopic.php?t=23062): Adicionando conquistas de progressão a conjuntos que estão faltando critérios de Zerado
 
