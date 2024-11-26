@@ -360,10 +360,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Rollouts",
         //   link: "/pt/developer-docs/rollouts"
         // },
-        // {
-        //   text: "DevQuests",
-        //   link: "/pt/developer-docs/devquests"
-        // },
+        {
+          text: "DevQuests",
+          link: "/pt/developer-docs/devquests"
+        },
         // {
         //   text: "DevJam",
         //   link: "/pt/developer-docs/devjam",
