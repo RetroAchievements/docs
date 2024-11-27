@@ -12,11 +12,11 @@ Cada juego tiene una variable que esta constantemente aumentando, esta funciona 
 - `0x2c`: Progresion del Juego: `03`=Antes que empiece el Stage, `04`=Stage iniciado, `08`=Stage terminado
 - `0x30`: ID de Stage (en este ejemplo, Stage 1)
 
-![](https://i.imgur.com/moghMLT.png)
+![Configuración del logro del temporizador de Contra en el editor](/public/contra-timer-achievement-editor.png)
 
 Link al Logro: [Contra Speedrun](https://retroachievements.org/achievement/65443)
 
-YouTube: [ResetIfHits Demo: Contra Stage 1 60 segundos Speedrun ](https://youtu.be/6PpdG04tM4s)
+YouTube: [ResetIfHits Demo: Contra Stage 1 60 segundos Speedrun](https://youtu.be/6PpdG04tM4s)
 
 ## Condiciones
 
