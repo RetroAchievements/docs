@@ -33,7 +33,7 @@ Vamos dar uma olhada na lógica da conquista e depois veremos a explicação:
 
 Agora a estrutura da conquista será assim:
 
-![](https://i.imgur.com/sDtPpX9.png)
+![Lógica básica da conquista no editor para Santa Claus Jr](/public/santa-jr-achievement-editor-basic.png)
 
 ## Condições
 
@@ -53,7 +53,7 @@ Isso significa que, se pegarmos duas bengalas no mesmo frame (o que já é raro)
 
 Apesar de ser uma possibilidade muito improvável, devemos tratar esse caso também. Então vamos adicionar mais dois requisitos ao código, e ele ficará assim:
 
-![](https://i.imgur.com/6wePK8N.png)
+![Lógica completa da conquista com tratamento de casos especiais no editor](/public/santa-jr-achievement-editor-complete.png)
 
 É o mesmo que antes, com as únicas mudanças sendo as linhas 3 e 4, que representam um `SubSource + AddHits` extra para verificar se `0xCANDIES - Delta 0xCANDIES = -98`, apenas para cuidar dessa exceção muito pequena que acabamos de mencionar.
 
