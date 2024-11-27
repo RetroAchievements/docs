@@ -237,10 +237,15 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       text: "Revisões do Conjunto de Conquistas",
     //       link: "/pt/guidelines/content/achievement-set-revisions",
     //     },
-            // {
-        //   text: "Adding Additional Hashes",
-        //   link: "/pt/guidelines/content/adding-hashes",
-        // },
+    //     {
+    //       text: "Adding Additional Hashes",
+    //       link: "/pt/guidelines/content/adding-hashes",
+    //     },
+    //     },
+    //     {
+    //       text: "Player Compatibility Testing",
+    //       link: "/guidelines/content/player-compatibility-testing",
+    //     },
     //     {
     //       text: "Conquistas para ROM Hacks",
     //       link: "/pt/guidelines/content/achievements-for-rom-hacks",
@@ -364,10 +369,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "DevQuests",
         //   link: "/pt/developer-docs/devquests"
         // },
-        // {
-        //   text: "DevJam",
-        //   link: "/pt/developer-docs/devjam",
-        // },
+        {
+          text: "DevJam",
+          link: "/pt/developer-docs/devjam",
+        },
         // {
         //   text: "RATools",
         //   link: "/pt/developer-docs/ratools",
@@ -464,10 +469,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
     //       text: "Recall",
     //       link: "/developer-docs/recall",
     //     },
-    //     {
-    //       text: "Definição de Valores",
-    //       link: "/pt/developer-docs/value-definition",
-    //     },
+        {
+          text: "Definição de Valores",
+          link: "/pt/developer-docs/value-definition",
+        },
         {
           text: "Sintaxe de Condição",
           link: "/pt/developer-docs/condition-syntax",
