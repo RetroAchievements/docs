@@ -1,14 +1,17 @@
-# Primeiros Passos como um Desenvolvedor de Conquistas
+---
+title: Começando como Desenvolvedor de Conquistas
+description: Aprenda o básico sobre criar conquistas para jogos, incluindo encontrar endereços de memória, criar condições e testar suas conquistas
+---
+
+# Começando como Desenvolvedor de Conquistas
 
 **Link para o texto em inglês:** [Getting Started as an Achievement Developer](/developer-docs/getting-started-as-an-achievement-developer)
 
----
-
-**Bem-vindo ao mundo do desenvolvimento de conquisttas!**
+**Bem-vindo ao mundo da Criação de Conquistas!**
 
 ## Conceitos básicos
 
-Tecnicamente, **uma conquista (no contexto de RetroAchievements) é um grupo de condições que devem ser cumpridas em um determinado _frame_ do jogo.**
+Tecnicamente, **uma conquista é um grupo de condições que devem ser atendidas em um _frame_ (quadro) específico do videogame**.
 
 Quando você inicia um jogo em um emulador com o recurso RetroAchievements, o emulador sempre verifica se essas condições são atendidas no _frame_ atual. Quando todas as condições para uma conquista particular são atendidas, esta conquista é ativada e o emulador deixa de verificar as condições para essa conquista.
 
@@ -34,132 +37,131 @@ Antes de começar, certifique-se de ter um emulador RA da página do [RetroAchie
 
 Neste guia, estaremos usando RAGens para demonstrar, e o jogo [Sonic the Hedgehog](http://retroachievements.org/Game/1). Estamos usando RAGens, mas o mesmo se aplica aos outros emuladores.
 
-Para começar, execute o RAGens e faça o login quando solicitado. Em seguida, use File -> Open e selecione qualquer ROM que você deseja encontrar conquistas.
+Para começar, execute o RALibRetro e faça login quando solicitado. Se você nunca usou o core Genesis Plus GX antes, você pode instalá-lo indo em Configurações -> Gerenciar Cores -> selecionando Sega Genesis no menu suspenso -> clicando em Download à direita do nome do core. Uma vez que o core esteja instalado, vá para Arquivo -> Selecionar Core -> Sega Genesis -> Genesis Plus GX. Agora que você tem o core selecionado, você precisará carregar o jogo. Vá para Arquivo -> Carregar Jogo e selecione a ROM do Sonic the Hedgehog (recomendamos usar ROMs No Intro por padrão).
 
-## Memory Inspector
+## Inspetor de Memória
 
-Agora você deve ter sua janela principal executando o Sonic. Existem 3 outros diálogos que usaremos, que podem ser encontrados em RetroAchievements no menu. Em primeiro lugar, tratamos primeiro o Memory Inspector:
+Agora você deve ter sua janela principal rodando o Sonic. Há 3 outras janelas que usaremos, que podem ser encontradas em **RetroAchievements** no menu. Primeiro vamos lidar com o **Inspetor de Memória**:
 
-![memory_inspector](https://user-images.githubusercontent.com/8508804/33128665-55ae87e2-cf74-11e7-8085-17b3dd528b64.png)
+![memoryinspector](https://u.cubeupload.com/televandalist/meminspdocs1.png)
 
-O Memory Inspector pode ser usado para encontrar endereços na RAM para que possamos usar. Essencialmente, você está em uma caçada ao tesouro para locais de memória - este diálogo irá ajudá-lo a examinar e filtrar a RAM do jogo enquanto o jogo está sendo executado.
+O Inspetor de Memória pode ser usado para encontrar endereços na RAM que usaremos. Essencialmente você está em uma caça ao tesouro por locais de memória - esta janela vai ajudá-lo a examinar e filtrar a RAM do jogo enquanto ele está rodando.
 
-**NOTA: Se você quer uma explicação passo a passo de vídeo para encontrar endereços de memória, [este video](https://www.youtube.com/watch?v=8nYb_5cgQHY) esse vídeo pode ser muito útil**. `Vídeo em inglês`
+**NOTA: Se você quiser uma explicação em vídeo passo a passo sobre como encontrar endereços de memória, você pode [ver este vídeo atualizado](https://www.youtube.com/watch?v=7ZMlBVyHl5M).**
+**Para outro recurso em vídeo, você pode [ver este vídeo mais antigo](https://www.youtube.com/watch?v=8nYb_5cgQHY). Ambos vídeos estão em inglês.**
 
-Para iniciar ou reiniciar um teste, clique em **New 8-bit Test** perto do meio na parte superior.
+**Veja também**: [Visão Geral do Inspetor de Memória](/pt/developer-docs/memory-inspector) e [Dicas de Exploração de Memória](/pt/developer-docs/tips-and-tricks#dicas-de-escavação-de-memória).
 
-Para manter as coisas simples, começaremos procurando pelo endereço de memória que contenha o número de anéis que coletamos. Nossas etapas serão as seguintes:
+Para iniciar ou reiniciar um teste, clique em **Reset** próximo ao topo à esquerda.
 
-1. Carregue a ROM e comece um novo jogo.
+Para manter as coisas simples, começaremos procurando pelo endereço de memória que contém o número de anéis que coletamos. Nossas etapas serão as seguintes:
 
-2. Redefinir a caixa de diálogo de memória: clique em **New 8-bit Test**.
+1. Carregue a ROM e inicie um novo jogo.
+2. Resete a janela de memória: clique em **Reset**.
+3. Execute o primeiro filtro: clique em **Filter Once**.
+4. Retorne ao jogo e mude o número de anéis na memória. Por exemplo, colete um anel.
+5. Na janela de memória, agora queremos filtrar por valores que são 'maiores que valores anteriores' (símbolo `>`). Selecionamos isso, então clicamos em **Filter** novamente.
 
-3. Retorne ao jogo e altere o número de anéis na memória. Por exemplo, colete um anel.
+Cada vez que você executa 4 e depois 5, o número de possibilidades ou 'candidatos' ficará menor. Continuaremos fazendo isso até que o número de candidatos chegue a um número muito pequeno (o menor possível), pode levar várias tentativas. Em seguida, podemos clicar na janela de resultados e monitorar o endereço de memória no visualizador de memória na parte inferior. Continue usando o jogo e você deverá ver os valores na memória mudarem conforme você coleta anéis. Se não acontecer, ou se algo não parecer certo, tente outro valor. Com o primeiro Sonic the Hedgehog, o endereço de memória para o número de anéis deve ser `0xfe20`.
 
-Na caixa de diálogo de memória, agora queremos filtrar por valores que sejam "maiores do que valores anteriores" (símbolo>). Selecionamos isso, então, clique em **Filter**.
+### Notas e Dicas:
 
-Cada vez que você executa 3 e 4, o número de possibilidades ou 'candidatos' diminuirá. Continuaremos a fazê-lo até que o número de candidatos alcance um número muito pequeno (o menor possível), pode demorar 4-5 tentativas. Em seguida, podemos clicar na janela de resultados e monitorar o endereço de memória no visor de memória na parte inferior. Continue usando o jogo e você deve ver os valores em mudança de memória à medida que você coleciona anéis. Se você não, ou se algo não parece direito, tente outro valor. Com o primeiro Sonic the Hedgehog, o endereço da memória para o número de anéis deve ser 0xfe20.
+- **Nota 1**: Usando save states (Shift+F1-F10 para salvar states, F1-F10 para carregar states), você pode alternar entre diferentes estados permitindo alterar o que está na RAM, e usar isso para filtrar candidatos ruins. Você pode procurar por valores que permanecem os mesmos (ou seja, se você sabe que o valor não mudou, use `=`), ou valores que são diferentes (use 'não igual', símbolo `!=`).
 
-- **Nota**: Usando estados de salvamento (F5 para salvar o estado, F8 para carregar o estado, F6-F7 para alternar o estado a ser usado), você pode alternar entre estados diferentes, permitindo alterar o que está na RAM e usar isso para filtrar fora candidatos ruins. Você pode procurar por valores que permanecem os mesmos (ou seja, se você sabe que o valor não mudou, use =) ou valores diferentes (use 'not equal', symbol! =).
+- **Nota 2**: Infelizmente não há garantia de jogo para jogo sobre como os desenvolvedores armazenaram seus dados (4-bit, 8-bit, 16-bit, decimais codificados em binário, negativos/invertidos, ou seja, usando 0xff/0xffff para representar 'definido', ou simplesmente aleatoriamente). Se você estiver tendo dificuldade para encontrar bons valores, poste no [fórum de Ajuda ao Desenvolvimento do RetroAchievements.org](http://retroachievements.org/viewforum.php?f=15), ou [servidor Discord do RetroAchievements](https://discord.gg/dq2E4hE).
 
-- **Nota**: Infelizmente nenhuma garantia de jogo para jogo sobre como os desenvolvedores armazenaram seus dados (decimais de codigo binário de 4 bits, 8 bits, 16 bits, negativos / invertidos, ou seja, usando 0xff / 0xffff para representar 'set' , ou simples, aleatoriamente), mas, eventualmente, você deve encontrar um bom endereço. Observe se você está lutando para encontrar bons valores, postar o fórum de Ajuda de desenvolvimento [RetroAchievements.org Development Help forum ](http://retroachievements.org/viewforum.php?f=15)ou o servidor [ RetroAchievements Discord server](https://discord.gg/dq2E4hE). Há muitas pessoas que ficarão muito felizes em ajudar!
+- **Dica**: Se você quiser experimentar com memória, tente inserir novos valores diretamente no visualizador de RAM. Isso pode ter efeitos devastadores no jogo, ou pode fazer exatamente o que você espera, (ou nada!). Use com cautela!
 
-- **Dica**: se você quiser experimentar a memória, tente inserir novos valores diretamente no visualizador de RAM. Isso pode ter efeitos devastadores no jogo, ou pode fazer exatamente o que você espera, (ou nada!) Pode ser útil, para ver se você pode inserir um valor e obter o resultado esperado. Use com cuidado!
+Quando você encontrar um endereço com o qual está satisfeito, você pode escrever uma breve nota sobre o que é e clicar em **Save Note**, isso o armazenará no banco de dados. Note que a nota será compartilhada com todos os desenvolvedores e será baixada novamente quando você carregar uma ROM. Se você tentar sobrescrever uma nota, ela verificará com você primeiro antes de enviar.
 
-Quando você encontrou um endereço com o qual você está feliz, você pode escrever uma nota curta para o que é e clicar em Salvar nota, isso irá armazená-lo no banco de dados e será restaurado automaticamente na próxima vez que você carregar o visor de memória para isso jogo onde quer que esteja! Note que depois de clicar em "Salvar nota", a nota será armazenada automaticamente no banco de dados, e compartilhada para que todos os desenvolvedores compartilhem o acesso a essas notas de memória. Todos serão baixados de novo quando você carregar uma ROM. Se você tentar substituir uma nota, verificará com você primeiro antes de enviar.
-
-Você pode encontrar [Dicas de Escavação de Memória aqui](/pt/developer-docs/tips-and-tricks#memory-digging-tips).
+Você pode encontrar mais [Dicas de Exploração de Memória úteis aqui](/pt/developer-docs/tips-and-tricks#dicas-de-escavação-de-memória).
 
 ## Conjuntos de Conquistas
 
-OK para que a localização da memória para o número de anéis seja armazenada em `0xfe20` - nota para um não programador, estamos lidando com um [sistema de numeração hexadecimal](https://simple.wikipedia.org/wiki/Hexadecimal_numeral_system) que pode ser assustador, mas não se preocupe, essencialmente são apenas números e letras em vez de apenas números, e não esquecendo `0x` no início para mostrar que é uma localização de memória em hexadecimal. Encontramos um endereço em que nos interessamos e armazenamos usando **Save Note**. Agora queremos criar uma nova conquista.
+O local de memória para o número de anéis está armazenado em `0xfe20` - para um não-programador, estamos lidando com o [sistema numeral hexadecimal](https://simple.wikipedia.org/wiki/Hexadecimal_numeral_system) que pode ser intimidante, mas não se preocupe, são apenas números e letras em vez de só números, e não esqueça do `0x` no início para indicar que é um local de memória em hexadecimal. Encontramos um endereço que nos interessa e o armazenamos usando **Save Note**. Agora vamos criar uma nova conquista.
 
-Vá para o **RetroAchievements** no menu, escolha **Achievement Sets** e você verá esta caixa de diálogo:
+Vá para **RetroAchievements** no menu, escolha **Achievement Sets** e você verá esta janela:
 
-![achievement_sets](https://user-images.githubusercontent.com/8508804/33129271-7d562cbc-cf76-11e7-8346-c19400975d40.png)
+![achievement_sets](https://u.cubeupload.com/televandalist/achlistdocs1.png)
 
 Aqui agrupamos todas as conquistas que conhecemos em três conjuntos:
 
-1. Core Achievements (o principal, conjunto de conquistas público),
+1. Conquistas Core (o conjunto principal, público),
 
-2. Unofficial/User Achievements (público, mas não irá premiar pontos, é apenas para outros desenvolvedores revisarem),
+2. Conquistas Não Oficiais/Usuário (públicas, mas não dão pontos: para revisão por pares),
 
-3. Local Achievements (pessoais no seu PC).
+3. Conquistas Locais (exclusivas para seu PC).
 
-Na caixa de diálogo Conquistas, clique em **Local Achievements** (canto superior esquerdo), depois em **Add New Achievement** (inferior esquerda). Isso irá adicionar uma entrada em branco à lista no centro. Clique duas vezes nele: se ainda não está aberto, isso deve selecioná-lo e abrir a caixa de diálogo Editor de conquista (**Achievement Editor**).
+Na janela de Conquistas, clique em **Local Achievements** (topo à esquerda), depois **Add New Achievement** (topo à direita). Isso adicionará uma entrada em branco à lista no centro. Dê um duplo clique nela: se não estiver aberta, isso deve selecioná-la e abrir a janela do **Editor de Conquistas**.
 
-## Achievement Editor
+## Editor de Conquistas
 
-O Achievement Editor se parece com isso:
+É assim que ele se parece:
 
-![achievement_editor](https://user-images.githubusercontent.com/8508804/33130013-0eb07d96-cf79-11e7-8f73-6d737dfe5e16.png)
+![achievement_editor](https://u.cubeupload.com/televandalist/acheditordocs1.png)
 
-Esta é a última caixa de diálogo onde reunimos todos os dados juntos. A maioria dos principais campos são auto-explicativos, ou seja, Title, Description, Points. A principal é a parte de 'Requirements' (Requisitos).
+Esta é a janela final onde juntamos todos os dados. A maioria dos campos superiores é autoexplicativa, ou seja, Título, Descrição, Pontos. O principal é a parte de 'Requisitos'.
 
-Digamos que queremos adicionar uma conquista para colecionar um certo número de anéis. Digamos 15 anéis para simplificar. Depois de preencher os campos na parte superior e selecionar um ícone adequado (neste exemplo, usamos o distintivo de troféu de ouro (00136), mas você pode carregar um novo), precisamos preencher os Requisitos. Temos um requisito, **que o número de anéis é pelo menos 15**. O próximo clique é **Add New Requirement**.
+Vamos adicionar uma conquista para coletar 15 anéis. Depois de preencher os campos superiores e selecionar um ícone adequado (neste exemplo usamos o emblema do troféu de ouro (00136), mas você pode fazer upload de um novo), precisamos preencher os Requisitos. Temos um requisito, **que o número de anéis seja pelo menos 15**. Clique em **Add New Requirement**.
 
-Ao clicar neste botão, serão adicionados vários valores padrão à lista Requisitos. Esses padrões apenas garantem que algo relativamente sensível seja adicionado à lista. Por enquanto, ignorando o campo 'Special?'. Quando clicamos em criar, o valor de memória padrão será o valor que você deixou pela última vez na caixa de diálogo de memória.
+Isso adicionará vários valores padrão à lista de Requisitos. Por enquanto, ignore o campo 'Special?'. Quando clicarmos em criar, o valor de memória padrão será o último valor que você deixou na janela de memória.
 
-Em seguida, alteraremos esses valores para o seguinte:
+Em seguida, mudaremos esses valores para:
 
-- **Size**: `16 bits`.
+- **Size**: `16-bit` - usando 16-bit porque o valor pode exceder 255 (que é 0xff em hex)
+- **Memory**: `0xfe20`
+- **Cmp**: `>=` - esta é a comparação a fazer. É sensato ter "maior ou igual a" para não perder quando passarmos de 10 para 20 anéis com uma caixa super anel
+- **Type**: `Value` - comparando este valor de memória com um valor fixo: 15 
+- **Size**: `Empty` - só relevante ao comparar memória com memória
+- **Mem/Val**: `15` - número de anéis necessários
+- **Hit Count**: `0` - ignore por enquanto, útil quando algo precisa acontecer várias vezes
 
-- **Memory**: `0xfe20`.
+Com isso configurado, não temos mais condições para adicionar, então voltamos à **Janela de Conquistas**. Para segurança, salvamos nosso progresso clicando em **Save Local**!
 
-- **Cmp:** `>=` - esta é a comparação a fazer. Podemos ter alguma comparação aqui, mas é sensato ter "maior ou igual". Isso é importante porque, se conseguimos 10 anéis, então uma caixa de super anel para ter 20, perderíamos exatamente 15 anéis.
+**Nota**: Uma conquista deve ter mais de um requisito para evitar ativação no momento errado (ex: modo demo). Neste exemplo, usamos apenas um requisito para simplificar a explicação. Veja mais [Dicas de Criação de Conquistas aqui](/pt/developer-docs/tips-and-tricks#dicas-de-criação-de-conquistas).
 
-- **Type**: `Value` - estamos comparando esse valor de memória com um valor fixo: 15.
+## Testando a Conquista
 
-- **Size**: `Empty` - isso só é relevante ao comparar a memória com a memória.
+Podemos 'ativar' esta conquista localmente marcando a caixa **Active** no Editor ou selecionando a conquista em Achievement Sets e clicando em **Activate Selected**. Isso começará a monitorar esses locais de memória e concederá a conquista quando todas as condições forem verdadeiras.
 
-- **Mem/Val**: `15` - o número de anéis necessários: o valor com o qual estamos comparando a memória
+![testing_achievements](https://u.cubeupload.com/televandalist/achtestdocs1.png)
 
-- **Hit Count**: `0` - ignore isso por enquanto, é útil para quando algo precisa acontecer um certo número de vezes.
+Se pressionarmos `Esc` no jogo, veremos a conquista aparecer como demonstração de como ficará na sobreposição do jogo!
 
-Com esse conjunto, não temos mais condições para adicionar, então retornamos à caixa de diálogo **Achievements**. Para estar seguro, devemos salvar nosso progresso ao clicar em **Save Local**! Isso salva tudo para arquivar localmente para garantir que não perderemos nenhum progresso.
+![testing_achievements2](https://u.cubeupload.com/televandalist/achtestdocs2.png)
 
-- **Nota**: geralmente as conquistas têm mais de um requisito para evitar que ele acione em um momento errado (ou seja, jogando o modo de demonstração). Neste exemplo, estamos usando apenas um requisito apenas para simplificar a explicação. Veja mais dicas de [criação de conquistas aqui](/pt/developer-docs/tips-and-tricks#achivement-creation-tips).
+Embora a conquista funcione nos testes, uma conquista com essa lógica não está pronta para lançamento oficial. Primeiro, ela tem apenas uma condição: "anéis coletados >= 15". O problema é que o endereço de memória usado também é afetado no "modo demo" (IA jogando após esperar na tela título). Então, se Sonic coletar 15 anéis no modo demo, a conquista será ativada indevidamente.
 
-## Testando a conquista
+## Dicas Importantes
 
-Agora podemos "ativar" essa conquista localmente ao clicar **Activate** no lado direito. Isso começará a monitorar esses locais de memória e atribuirá a conquista uma vez que todas as condições são verdadeiras. Agora, podemos prosseguir e testar para ver se essa conquista funciona!
+Algumas dicas ao criar suas conquistas:
 
-![testing_achievements](https://user-images.githubusercontent.com/8508804/32601362-83dcb788-c529-11e7-8df9-b79038408909.png)
+- **~~Nunca~~ Evite fazer conquistas com apenas uma condição**. Caso contrário, provavelmente acionará no momento errado. Este é o **erro mais comum**
 
-Se pressionarmos no jogo Esc, você verá a conquista aparecer como uma demonstração do que seria semelhante à sobreposição no jogo!
+- Se o jogo tem **modo demo**, certifique-se de [encontrar seu endereço](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) e adicione uma condição para evitar ativação nele. Você precisará usar [PauseIf](/pt/orphaned/achievement-logic-features#pauseif) e [ResetIf](/pt/orphaned/achievement-logic-features#resetif).
 
-![testing_achievements2](https://user-images.githubusercontent.com/8508804/32601363-83fced8c-c529-11e7-885f-97d64b0384e5.png)
+- Use **[PauseIf](/pt/orphaned/achievement-logic-features#pauseif)** para códigos de trapaça: Se o jogo tem códigos para aumentar vidas, selecionar fases etc., adicione proteções.
 
-## Evitando bugs
+- **Evite criar conquistas apenas para entrar em fases**. Prefira conquistas para completar fases, [como neste modelo](/pt/developer-docs/achievement-templates#termine-nível-n).
 
-O cheevo (**achievement**) que criamos neste tutorial é muito simples, tem apenas uma condição: "anéis coletados" >= 15 ". Mas o endereço para gravar o número de anéis coletados também é usado quando o jogo é executado em "modo de demonstração" (AI jogando o jogo depois de esperar um pouco na tela de título). Então, se Sonic coletar 15 anéis no modo de demonstração, essa conquista irá desencadear, o que é indesejável.
+- Para itens únicos, adicione condições para garantir que o jogador obteve o item no local correto, [como neste modelo](/pt/developer-docs/achievement-templates#colete-um-item-em-um-nível-específico).
 
-Então, aqui estão algumas dicas que você sempre deve ter em mente ao criar suas conquistas:
+- **Evite muitas conquistas simples que requerem esforço mínimo**. Exemplo do que **NÃO** fazer: pegar uma moeda no Super Mario Bros.
 
-- **Nunca use/Evite ao máximo usar apenas uma condição**. Caso contrário, a conquista provavelmente irá aparecer na hora errada. Este é o erro mais comum cometido por um desenvolvedor.
+- Conheça os [conceitos indesejados no design de conquistas](/guidelines/developers/code-of-conduct#unwelcome-concepts).
 
-- **Use `PauseIf` demo mode (modo demonstração)**: Se o jogo tiver um modo de demonstração, certifique-se de encontrar o endereço para ele e adicionar o modo! = Demo ou algo semelhante em suas conquistas. Mais informações sobre PauseIf na página Características da lógica de conquista.
+- **Seja criativo**. Conquistas que cobrem características únicas do jogo são mais bem-vindas.
 
-- **Use `PauseIf` usando macetes (cheat codes)**: se o jogo tiver um código secreto de macete para aumentar vidas, selecionar fases, etc. Certifique-se de encontrar os endereços para isso e adicionar algum tipo de proteção em suas conquistas. OK, talvez não seja um tópico muito básico, mas você deve ter em mente ao criar um conjunto de conquistas real.
+## Próximos Passos
 
-## OK, o achievement funciona. E agora?
+Agora que você conhece o básico, aprenda novas técnicas:
 
-Depois de testarmos que a conquista funciona localmente, há um processo de confirmação em duas etapas:
+- Refine sua lógica consultando [Recursos de Lógica de Conquistas](/pt/orphaned/achievement-logic-features)
 
-1. Primeiro, na caixa de diálogo Conquistas, selecionamos nossa conquista e pressione **Commit Selected** e concordamos com a caixa de diálogo. Isso irá empurrar nossa conquista para o servidor e armazená-lo em **Unofficial User-submitted Achievements**
+- Estude [Exemplos Reais](/pt/developer-docs/real-examples) de outros desenvolvedores
 
-2. Para que a conquista seja apreciada por muitos, ela deve ser empurrada para o conjunto Core Achievement (**Core Achievement set**). Para as suas poucas primeiras conquistas, ele deve ser revisado por um membro da equipe antes que possa ser empurrado para o Core. Depois de ter carregado um conjunto de conquistas para o Unofficial, você precisa entrar em contato com um administrador que, usando seu julgamento e padrões pessoais de qualidade, aprovará o conjunto e lhe dará um status de desenvolvedor no site (**Developer status**). Nesse caso, você pode empurrar qualquer conquista para o Core você mesmo.
+- Veja exemplos genéricos em [Modelos de Conquistas](/pt/developer-docs/achievement-templates)
 
-Naturalmente, é melhor enviar apenas conquistas únicas e interessantes no grupo de conquistas principais. Se houver duplicatas no grupo Core, as duplicatas adicionadas mais recentemente serão manualmente moderadas e excluídas. Se você não quer sua conquista no grupo Core, ou você acha que pode não ser apropriado para o grupo Core (ou seja, se está incompleto, ou se às vezes ele parece se desencadear quando não é suposto, como quando o jogo está mostrando um demo), deixe-o na seção Não oficial / Seção submetida pelo usuário.
+- Continue sua jornada seguindo os passos em [Como se Tornar um Desenvolvedor de Conquistas](/pt/developer-docs/how-to-become-an-achievement-developer)
 
-## Próximos passos
-
-Agora que você sabe como usar o Memory Inspector e o Editor de Conquistas. É hora de aprender novas técnicas e práticas:
-
-- Para refinar a lógica de sua conquista, você pode ver quais recursos você possui na página [Achievement Logic Features](/pt/orphaned/achievement-logic-features).
-
-- Você pode aprender observando as conquistas existentes que outros desenvolvedores fizeram com uma explicação extra na página [Real Examples](/pt/developer-docs/real-examples).
-
-- Você também pode ver alguns exemplos genéricos na página [Achievement Templates](/pt/developer-docs/achievement-templates).
-
-Diverta-se! Obrigado pela leitura!
+Divirta-se!
