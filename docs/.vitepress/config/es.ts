@@ -242,6 +242,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         //   text: "Añadir hashes adicionales",
         //   link: "/es/guidelines/content/adding-hashes",
         // },
+        //         {
+        //  text: "Player Compatibility Testing",
+        //  link: "/guidelines/content/player-compatibility-testing",
+        // },
         {
           text: "Logros para ROM Hacks",
           link: "/es/guidelines/content/achievements-for-rom-hacks",
