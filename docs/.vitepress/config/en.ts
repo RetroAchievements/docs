@@ -231,6 +231,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/adding-hashes",
         },
         {
+          text: "Player Compatibility Testing",
+          link: "/guidelines/content/player-compatibility-testing",
+        },
+        {
           text: "Achievements for ROM Hacks",
           link: "/guidelines/content/achievements-for-rom-hacks",
         },

@@ -64,6 +64,7 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [televandalist](https://retroachievements.org/user/televandalist)
 - [WCopeland](https://retroachievements.org/user/WCopeland)
+- [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
 ### Moderators
 
@@ -80,6 +81,12 @@ The team responsible to keep the this community a healthy place (at least for th
 - [Suffa28](https://retroachievements.org/user/Suffa28)
 - [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
+### Community Manager
+
+The Community Manager helps facilitate communication between players and staff, navigates misunderstandings and conflicts, oversees our various social platforms, and provides moderation team support:
+
+- [Nepiki](https://retroachievements.org/user/Nepiki)
+
 ### Developer Compliance Team
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
@@ -93,7 +100,6 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
 - [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Layton](https://retroachievements.org/user/Layton)
-- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
@@ -117,7 +123,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [StingX2](https://retroachievements.org/user/StingX2)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
-- [televandalist](https://retroachievements.org/user/televandalist)
 - [tomojin](https://retroachievements.org/user/tomojin)
 - [xnaivx](https://retroachievements.org/user/xnaivx)
 
@@ -130,28 +135,21 @@ The team responsible for investigating cheating reports.
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
 - [authorblues](https://retroachievements.org/user/authorblues)
-- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
 - [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
-- [blendedsea](https://retroachievements.org/user/blendedsea)
 - [BoomEX](https://retroachievements.org/user/BoomEX)
-- [DarkyAndreas](https://retroachievements.org/user/DarkyAndreas)
-- [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Fridge](https://retroachievements.org/user/Fridge)
-- [Gollawiz](https://retroachievements.org/user/gollawiz)
-- [kmpers](https://retroachievements.org/user/kmpers)
+- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Layton](https://retroachievements.org/user/Layton)
 - [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
-- [MrOwnership](https://retroachievements.org/user/MrOwnership)
-- [Ryudo](https://retroachievements.org/user/Ryudo)
-- [Shmelyoff](https://retroachievements.org/user/Shmelyoff)
-- [SlashTangent](https://retroachievements.org/user/SlashTangent)
+- [RyCuLe](https://retroachievements.org/user/RyCuLe)
+- [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
-- [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
+- [Sutarion](https://retroachievements.org/user/Sutarion)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
-- [tomojin](https://retroachievements.org/user/tomojin)
-- [xnaivx](https://retroachievements.org/user/xnaivx)
+- [Whithbrin](https://retroachievements.org/user/Whithbrin)
+- [wolfman2000](https://retroachievements.org/user/wolfman2000)
 
 ### Tech Team
 
