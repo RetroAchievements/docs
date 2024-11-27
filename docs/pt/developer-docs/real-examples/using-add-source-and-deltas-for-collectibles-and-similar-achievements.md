@@ -29,11 +29,3 @@ Esta conquista específica requer apenas tesouros da Fortaleza dos Cavaleiros do
 Este método é principalmente útil para quando os totais entre o tipo Delta e o tipo Mem têm apenas uma diferença de 0x01, mas pode ser usado em vários tipos de conquistas: colecionáveis que só podem ser obtidos um por vez, conclusão de mapas (como em jogos dungeon-crawler com mapas visíveis que são revelados conforme você entra em novas áreas), habilidades que podem ser aprendidas, bestiários, completar um certo número de missões secundárias e muitos outros.
 
 Se você encontrar uma situação onde mais de uma bitflag em uma cadeia `AddSource` alterna ao mesmo tempo, você ainda pode utilizar este modelo. No entanto, você vai querer clonar as condições Delta e fazer com que ambos os totais criem um intervalo. Ainda usando a conquista acima como exemplo, o total existente poderia ser alterado para `<= 0x09` e o total para o segundo grupo poderia ser `>= 0x05`. Isso faria com que a conquista fosse ativada se o total passasse de 5-9 tesouros para 10 tesouros.
-
----
-
-A Fazer:
-
-- Fornecer um exemplo separado para o intervalo Delta.
-- Abordar o uso de BitCount em uma conquista similar.
-- Abordar o uso de `/` quando você precisa de pelo menos uma de múltiplas coisas.

@@ -29,11 +29,3 @@ This particular achievement only requires treasures from Dragon Knights' Fortres
 This method is mostly handy for when the totals between the Delta-type and Mem-type only have a difference of 0x01, but it can be used in various types of achievements: collectibles that are only obtainable one-at-a-time, map completion (such as dungeon-crawlers with viewable maps that get revealed as you enter new areas), learnable skills, bestiaries, completing a certain number of side missions, and many others.
 
 If you run into a situation where more than one bitflag in an `AddSource` chain toggles at the same time, you can still utilize this template. However, you'll want to clone the Delta conditions and make it so both totals create a range. Still using the above achievement as an example, the existing total could be changed to `<= 0x09` and the total for the second group could be `>= 0x05`. This would make it so the achievement would trigger if the total goes from 5-9 treasures to 10 treasures.
-
----
-
-To Do:
-
-- Provide a separate example for the Delta range.
-- Go over using BitCount in a similar achievement.
-- Go over using `/` when you need at least one of multiple things.
