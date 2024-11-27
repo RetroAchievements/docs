@@ -277,10 +277,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Índice",
           link: "/pt/developer-docs/index",
         },
-        // {
-        //   text: "Como se Tornar um Desenvolvedor de Conquistas",
-        //   link: "/pt/developer-docs/how-to-become-an-achievement-developer",
-        // },
+        {
+          text: "Como se Tornar um Desenvolvedor de Conquistas",
+          link: "/pt/developer-docs/how-to-become-an-achievement-developer",
+        },
         {
           text: "Começando como Desenvolvedor de Conquistas",
           link: "/pt/developer-docs/getting-started-as-an-achievement-developer",
