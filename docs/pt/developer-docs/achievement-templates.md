@@ -107,7 +107,7 @@ Requerimentos 1-4 são os mesmos como o modelo [Terminar o Nível N](#termine-n�
 
 - 5: o jogador tem o item
 
-## Colete o Item em um nível específico
+## Colete um Item em um Nível Específico
 
 Aqui está uma forma de checar se o item foi coletado em um nível/sala que deve ser coletado. Isto evita a premiação à "consiga item X" por carregando um savestate onde o jogador já tem o item.
 
