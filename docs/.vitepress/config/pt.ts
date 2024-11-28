@@ -381,6 +381,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Dicas Específicas para Consoles",
           link: "/pt/developer-docs/console-specific-tips",
         },
+        {
+          text: "Emuladores e cores sem suporte",
+          link: "/pt/developer-docs/unsupported-emulators-and-cores.md",
+        },
         // {
         //   text: "Teclas de Atalho do Emulador para Desenvolvedores",
         //   link: "/pt/developer-docs/emulator-hotkeys-for-developers",
