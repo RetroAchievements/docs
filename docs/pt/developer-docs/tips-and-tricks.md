@@ -58,7 +58,7 @@ Um funcionará se o jogador estiver executando em um núcleo LE, o outro não. E
 
 Confuso? Sim. É por isso que a maioria dos iniciantes e desenvolvedores intermediários não deve se preocupar.
 
-## Dicas de criação de achievements
+## Dicas de Criação de Conquistas
 
 - **Nunca use / Evite usar apenas uma condição, tanto quanto você puder**. Ao usar apenas uma condição, o achievement provavelmente irá aparecer na hora errada. Este é o **erro mais comum cometido por um desenvolvedor**, resultando na justificativa "Popped at the Wrong Time" anexada nos Bug Tickets recebidos em RetroAchievements.org. Programe suas conquistas com robustez.
 
