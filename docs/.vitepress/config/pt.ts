@@ -277,10 +277,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Índice",
           link: "/pt/developer-docs/index",
         },
-        // {
-        //   text: "Como se Tornar um Desenvolvedor de Conquistas",
-        //   link: "/pt/developer-docs/how-to-become-an-achievement-developer",
-        // },
+        {
+          text: "Como se Tornar um Desenvolvedor de Conquistas",
+          link: "/pt/developer-docs/how-to-become-an-achievement-developer",
+        },
         {
           text: "Começando como Desenvolvedor de Conquistas",
           link: "/pt/developer-docs/getting-started-as-an-achievement-developer",
@@ -365,10 +365,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         //   text: "Rollouts",
         //   link: "/pt/developer-docs/rollouts"
         // },
-        // {
-        //   text: "DevQuests",
-        //   link: "/pt/developer-docs/devquests"
-        // },
+        {
+          text: "DevQuests",
+          link: "/pt/developer-docs/devquests"
+        },
         {
           text: "DevJam",
           link: "/pt/developer-docs/devjam",
@@ -380,6 +380,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
         {
           text: "Dicas Específicas para Consoles",
           link: "/pt/developer-docs/console-specific-tips",
+        },
+        {
+          text: "Emuladores e cores sem suporte",
+          link: "/pt/developer-docs/unsupported-emulators-and-cores.md",
         },
         // {
         //   text: "Teclas de Atalho do Emulador para Desenvolvedores",
@@ -453,10 +457,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Grupos Alternativos",
           link: "/pt/developer-docs/alt-groups",
         },
-    //     {
-    //       text: "Contagem de Acertos",
-    //       link: "/pt/developer-docs/hit-counts",
-    //     },
+        {
+          text: "Contagem de Acertos",
+          link: "/pt/developer-docs/hit-counts",
+        },
         {
           text: "Valores Delta",
           link: "/pt/developer-docs/delta-values",

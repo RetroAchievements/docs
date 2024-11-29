@@ -72,7 +72,7 @@ Esta página detalha o método de hash usado para cada sistema suportado.
 
 - **Odyssey2** usa o checksum MD5.
 
-## Mattell
+## Mattel
 
 - **Intellivision** usa o checksum MD5.
 
