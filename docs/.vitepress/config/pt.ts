@@ -453,10 +453,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Grupos Alternativos",
           link: "/pt/developer-docs/alt-groups",
         },
-    //     {
-    //       text: "Contagem de Acertos",
-    //       link: "/pt/developer-docs/hit-counts",
-    //     },
+        {
+          text: "Contagem de Acertos",
+          link: "/pt/developer-docs/hit-counts",
+        },
         {
           text: "Valores Delta",
           link: "/pt/developer-docs/delta-values",
