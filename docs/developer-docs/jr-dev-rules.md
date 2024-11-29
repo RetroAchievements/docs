@@ -24,6 +24,16 @@ To join the Junior Developer Program, the following requirements must be met:
   - Ping the **@Code-Reviewer** role in your request to join thread
 - Unless specifically authorized by [Developer Compliance](https://retroachievements.org/messages/create?to=DevCompliance), all requirements in this section must be met to gain entry to the Junior Developer Program regardless of previous RA experience
 
+### Claiming and Developing Sets
+
+Junior Developers must submit set plans for review immediately after making a claim. Junior Developers shall post a Set Plan Review in the #⁠jr-dev-forum, outlining the scope of the planned achievement set. The set plan is not a final product, however it must show a general outline of the planned set including progression, challenge, and other types of achievements. Brief descriptions and point values must be included as well. If during development significant deviations are made from the set plan, a revised set plan must be submitted for approval prior to requesting entry to the backlog.
+
+The purpose of the Set Review is to ensure Junior Developers have a solid baseline plan from which to work and that it is free of [Unwelcome Concepts](/guidelines/content/unwelcome-concepts.html). This review will be quick, and should largely mirror a typical process for developing a good RA set, which should always start with coming up with a set plan. This will give Code Reviewers an opportunity to avoid having to later review progression-only sets that would need to be expanded, or bloated sets that would need to be trimmed, and will hopefully streamline the review process for everybody.
+
+Once a set plan is approved, Junior Developers may begin work on set development.
+
+Note: New Junior Developers who had a set plan approved when requesting to join the Junior Developer may immediately begin work on the set once they are onboarded and have made a claim on the set for which their initial plan was approved. 
+
 ### Rules and Restrictions
 
 The following rules apply to all Junior Developers:
