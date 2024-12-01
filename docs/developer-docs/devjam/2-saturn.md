@@ -45,5 +45,6 @@ _as of 2024-01-31 (end date)_
 ## See Also
 
 - [Main DevJam Page](/developer-docs/devjam)
-- [DevJam Event Entry](https://retroachievements.org/game/20000)
+- [DevJam Vol. 1 Event Entry](https://retroachievements.org/game/20000)
+- [DevJam Vol. 2 Event Entry](https://retroachievements.org/game/30000)
 - [DevJam Forum Topic](https://retroachievements.org/viewtopic.php?t=22368)
