@@ -23,6 +23,10 @@ Code notes are made by the developer in the Memory Inspector as they are RAM dig
 - **Include Important Values**: Code notes should include all values that are used within the achievement logic. Undocumented values make debugging much more complicated, especially if you didn't create the note.
 - **Document Extensively**: It's better to document any useful addresses that you find, even if you know you won't need them in the achievement logic. You never know what addresses may be needed later on if the set is revised.
 
+::: tip WHO ARE CODE NOTES FOR?
+Five years from now, someone may need to read your code notes to resolve a ticket. Write code notes to help future RetroAchievements developers understand memory addresses and achievement logic. Clear documentation helps future maintainers work on tickets. Will another developer understand what an address represents and how to use it?
+:::
+
 ## Specifying Memory Addresses Size
 
 There are multiple ways to specify a memory address that will be recognized by the Memory Inspector highlighting. Any code note that does not specify a valid size will cause the Memory Inspector to highlight the byte the note is for. Any number of bit and byte lengths will be recognized by the Memory Inspector highlighting. Many developers will enclose the address size in square brackets (`[]`) to make it more noticeable in the full note.
