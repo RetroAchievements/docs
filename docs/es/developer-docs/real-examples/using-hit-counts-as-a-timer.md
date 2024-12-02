@@ -7,7 +7,7 @@ Veamos como en [Super Hang-On (Mega Drive)](http://retroachievements.org/Game/16
 - `0x0055a`: es la velocidad.
 - `0x0c757`: es 0x00 cuando el juego no se encuentra pausado.
 
-![speedfreak-example](https://user-images.githubusercontent.com/8508804/33312584-77f7fb0e-d40f-11e7-9daf-827c0f8d7dc6.png)
+![Logro de velocidad de Super Hang-On usando temporizador](/public/super-hang-on-timer-achievement-editor.png)
 
 En este logro, queremos que una condición sea verdadera 600 veces consecutivamente. La razón de esto es que el Sega Genesis procesa fijamente 60 frames de lógica por segundo (mínimo NTSC?). Y también estamos buscando que la "velocidad sea sobre 300". Y aparte que el jugador mantenga la velocidad sin pausar el juego.
 
