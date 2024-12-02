@@ -10,7 +10,7 @@ Vamos ver como o achievement [Super Hang-On (Mega Drive)](http://retroachievemen
 - `0x0055a`: é a velocidade.
 - `0x0c757`: é 0x00 quando o jogo é sem compensação (sem pausar).
 
-![speedfreak-example](https://user-images.githubusercontent.com/8508804/33312584-77f7fb0e-d40f-11e7-9daf-827c0f8d7dc6.png)
+![Conquista de velocidade de Super Hang-On usando temporizador](/public/super-hang-on-timer-achievement-editor.png)
 
 Nesse achievement, desejamos que haja um fato ou condição que seja verdadeira 600 vezes consecutivamente. A razão para isso é que o Genesis/Mega Drive está travado no processamento de 60 frames de lógica por segundo (NTSC pelo menos?). E o fato que estamos procurando é que "a velocidade é mais de 300". Além disso, queremos que o jogador mantenha a velocidade acima de 300 sem pausar o jogo.
 

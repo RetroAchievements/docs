@@ -14,7 +14,7 @@ Let's see what [Super Hang-On (Mega Drive)](http://retroachievements.org/Game/16
 - `0x0055a`: is the speed.
 - `0x0c757`: is 0x00 when the game is unpaused.
 
-![speedfreak-example](https://user-images.githubusercontent.com/8508804/33312584-77f7fb0e-d40f-11e7-9daf-827c0f8d7dc6.png)
+![Super Hang-On speed achievement using timer](/public/super-hang-on-timer-achievement-editor.png)
 
 For this achievement, we are looking for a condition that is met 600 times consecutively. The reason why is that the genesis is locked into processing 60 frames of logic per second (NTSC at least?). And the condition we're checking is "speed is over 300". Also, we want the player to keep the speed above 300 without pausing the game.
 

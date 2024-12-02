@@ -140,8 +140,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [Bryan1150](https://retroachievements.org/user/Bryan1150)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Layton](https://retroachievements.org/user/Layton)
-- [LiveFastCyYoung](https://retroachievements.org/user/LiveFastCyYoung)
-- [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
