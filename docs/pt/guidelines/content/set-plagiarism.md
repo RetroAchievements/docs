@@ -13,7 +13,7 @@ Como desenvolvedores, nosso objetivo é criar conjuntos de conquistas únicos pa
 
 ### Ícones/Badges
 
-Os badges de conquistas e badges de maestria precisam ser únicos em relação a outros conjuntos. Modificar levemente um badge ou adicionar uma marca d'água sobre um badge existente não é aceitável, a menos que seja para um conjunto bônus/subconjunto. A diferença deve ser óbvia em uma comparação lado a lado ampliada. O uso de qualquer badge protegido por direitos autorais de conjuntos oficiais é proibido.
+As *Badges* de conquistas e *Badges* de maestria precisam ser únicas em relação a outros conjuntos. Modificar levemente uma *Badges* ou adicionar uma marca d'água sobre uma *Badges* existente não é aceitável, a menos que seja para um conjunto bônus/subconjunto. A diferença deve ser óbvia em uma comparação lado a lado ampliada. O uso de qualquer *Badges* protegida por direitos autorais de conjuntos oficiais é proibido.
 
 ### Títulos
 
@@ -21,7 +21,7 @@ Os títulos das conquistas devem ser únicos em relação a outros conjuntos. Is
 
 ### Design
 
-O design de uma conquista está aberto à comunidade. Você pode usar uma ideia de outros conjuntos, desde que o badge e o título da conquista sejam diferentes. No entanto, uma cópia exata da lista de conquistas de outro conjunto é proibida.
+O design de uma conquista está aberto à comunidade. Você pode usar uma ideia de outros conjuntos, desde que a *Badges* e o título da conquista sejam diferentes. No entanto, uma cópia exata da lista de conquistas de outro conjunto é proibida.
 
 ## Cópias Aceitáveis
 
@@ -31,8 +31,8 @@ As descrições das conquistas não precisam ser únicas. As descrições devem 
 
 ### Rich Presence/Leaderboards
 
-A cópia de Rich Presence e Leaderboards é permitida. Ao copiar um Rich Presence, você deve creditar o autor original no início, adicionando a linha:
-`// RP By Original Dev`
+A cópia de *Rich Presence* e *Leaderboards* é permitida. Ao copiar uma *Rich Presence* , você deve creditar o autor original no início, adicionando a linha:
+`// RP por Desenvolvedor Original`
 
 ### Lógica
 
@@ -44,7 +44,7 @@ Você tem permissão para copiar qualquer coisa que tenha criado de um conjunto 
 
 ### Conquistas In-Game
 
-Alguns jogos incorporam um conjunto de conquistas internas que foram lançadas com o jogo. Qualquer uma dessas conquistas pode ser usada, desde que não sejam conceitos indesejados.
+Alguns jogos incorporam um conjunto de conquistas internas (`In-Game`) que foram lançadas com o jogo. Qualquer uma dessas conquistas pode ser usada, desde que não sejam conceitos indesejados.
 
 ### Anotações de Código
 
