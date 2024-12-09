@@ -26,7 +26,7 @@ In these examples we use the following convention **0xLEVEL** is the memory addr
 - [Circumvent the Problem of a Counter Incrementing Twice in the Same Frame](#circumvent-the-problem-of-a-counter-incrementing-twice-in-the-same-frame)
 - [Check for a Specific Value Changing to Another Specific Value Ten Times](#check-for-a-specific-value-changing-to-another-specific-value-ten-times)
 - [Conditional Resets](#conditional-resets)
-- ["Pause Until:" Using `PauseIf` to Prevent Achievement Processing Until Some Condition is Met](#pause-until-using-pause-if-to-prevent-achievement-processing-until-some-condition-is-met)
+- ["Pause Until:" Using `PauseIf` to Prevent Achievement Processing Until Some Condition is Met](#pause-until-using-pauseif-to-prevent-achievement-processing-until-some-condition-is-met)
 
 ## Collecting an Item N times
 
