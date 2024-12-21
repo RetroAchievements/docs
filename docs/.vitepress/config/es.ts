@@ -382,6 +382,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/es/developer-docs/console-specific-tips",
         },
         // {
+        //   text: "Do I Really Need to Use Delta?",
+        //   link: "/developer-docs/why-delta",
+        // },
+        // {
         //   text: "Teclas de acceso rápido del emulador para desarrolladores",
         //   link: "/es/developer-docs/emulator-hotkeys-for-developers",
         // },
