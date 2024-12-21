@@ -381,6 +381,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           text: "Dicas Específicas para Consoles",
           link: "/pt/developer-docs/console-specific-tips",
         },
+        // {
+        //   text: "Do I Really Need to Use Delta?",
+        //   link: "/developer-docs/why-delta",
+        // },
         {
           text: "Emuladores e cores sem suporte",
           link: "/pt/developer-docs/unsupported-emulators-and-cores.md",

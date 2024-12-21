@@ -370,6 +370,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/console-specific-tips",
         },
         {
+          text: "Do I Really Need to Use Delta?",
+          link: "/developer-docs/why-delta",
+        },
+        {
           text: "Emulator Hotkeys for Developers",
           link: "/developer-docs/emulator-hotkeys-for-developers",
         },

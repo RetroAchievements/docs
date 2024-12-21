@@ -95,6 +95,7 @@ This is a thing you see on old sets from when the toolkit was smaller.  This is 
 - **Solution**: Use the Delta flag!
   - Delta represents the value of an address on the previous frame.
   - You can pair `Delta address = Value originalValue` in one condition, and `Mem address = Value newValue` in the next condition and that will catch the very moment the address changes from *originalValue* to *newValue.*
+  - See also: [Do I Really Need to Use Delta?](/developer-docs/why-delta)
 
 ### Are you using stored hits because you have several conditions you want to be true at the same time in order to trigger the achievement?
 

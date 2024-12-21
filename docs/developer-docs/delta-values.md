@@ -16,3 +16,5 @@ In the [Real Examples](/developer-docs/real-examples) section there are some goo
 
 - [Using Hit Counts as a Timer](/developer-docs/real-examples/using-hit-counts-as-a-timer)
 - [Using Delta Values and Hit Counts to Detect an Increment](/developer-docs/real-examples/using-delta-values-and-hit-counts-to-detect-an-increment)
+
+See also: [Do I Really Need to Use Delta?](/developer-docs/why-delta)
