@@ -46,7 +46,8 @@ The following rules apply to all Junior Developers:
 - Not eligible to participate in collaborations
 - May only [revise](/guidelines/content/achievement-set-revisions) sets where the Junior Developer is the sole author of the existing set.
   - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
-- May not make a claim without Code Reviewer approval on a Dreamcast set using the [Windows CE firmware](https://retroachievements.org/game/24833), PlayStation 2, or future 6th+ generation consoles at the discretion of the Code Review team
+- May not make a claim on any GameCube set
+- May not make a claim without Code Reviewer approval on sets for PlayStation 2, PlayStation Portable, future 6th+ generation consoles, or a Dreamcast set using the [Windows CE firmware](https://retroachievements.org/game/24833) at the discretion of the Code Review team
   - Must make a development request in #jr-dev-forum after at least 1 set has been published
 - May only create a subset for games where the Junior Developer is the sole author
   - Must make a subset request in ⁠#jr-dev-forum which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
