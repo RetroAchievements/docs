@@ -159,7 +159,7 @@ You _cannot_ have two title headings (`#`).
 
 ### Links
 
-Internal docs links should follow this syntax, with `.md` and `.html` extensions ommited:
+Internal docs links should follow this syntax, with `.md` and `.html` extensions omitted:
 
 ```
 ✅ GOOD
@@ -212,14 +212,14 @@ Always be sure your alt text within square brackets is accessible. If the image 
 A simple table looks like this:
 
 ```
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
+| First Header | Second Header | Third Header |
+| ------------ | ------------- | ------------ |
+| Content Cell | Content Cell  | Content Cell |
+| Content Cell | Content Cell  | Content Cell |
+| Content Cell | Content Cell  | Content Cell |
 ```
 
-It should render like this:
+It will render like this:
 
 | First Header | Second Header | Third Header |
 | ------------ | ------------- | ------------ |
@@ -230,20 +230,20 @@ It should render like this:
 You can specify alignment for each column by adding colons to separator lines:
 
 ```
-First Header | Second Header | Third Header
-:----------- |:-------------:| -----------:
-Left         | Center        | Right
-Left         | Center        | Right
-Left         | Center        | Right
+| First Header | Second Header | Third Header |
+| :----------- | :-----------: | -----------: |
+| Left         | Center        | Right        |
+| Left         | Center        | Right        |
+| Left         | Center        | Right        |
 ```
 
 Results:
 
 | First Header | Second Header | Third Header |
 | :----------- | :-----------: | -----------: |
-| Left         |    Center     |        Right |
-| Left         |    Center     |        Right |
-| Left         |    Center     |        Right |
+| Left         | Center        | Right        |
+| Left         | Center        | Right        |
+| Left         | Center        | Right        |
 
 ## VitePress Components
 
