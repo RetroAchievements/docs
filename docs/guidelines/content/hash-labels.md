@@ -12,8 +12,10 @@ Every ROM that is linked to an achievement set must be clearly identified and la
 ## Info for Supported Game Files
 
 - RA Hash: Check [Game Identification](/developer-docs/game-identification) to learn more about these. These appear in `Manage Hashes` automatically.
-- Filename - Filename should be entered as the description. These are typically automatic, but may need some adjustments.
+- File Name - File name should be entered as the description. These are typically automatic, but may need some adjustments.
 - Labels - You can use the labels listed below by using the filename of the image (no extension).
+- Patch URL - Link to an either .zip or .7z file in the [RAPatches](https://github.com/RetroAchievements/RAPatches) GitHub repository. 
+- Resource Page URL - Link to a specific No Intro, Redump, RHDN, SMWCentral, itch.io, etc. page.
 
 ## Images
 
@@ -70,7 +72,7 @@ The following are generic labels:
 - The third hash is the No Intro-verified Japanese version of the game.
 - The fourth hash is the No Intro-verified USA version of the game.
 
-On this page, supported game files are ordered lexicographically by their MD5 hash.
+On this page, supported game files are ordered lexicographically by their MD5 hashes.
 
 Each supported file can be edited individually by clicking on "Edit" on the same line:
 ![edit-game-hash](/public/edit-game-hash.png)
@@ -80,7 +82,7 @@ To see how this will look for the majority of users, go to the game entry page a
 #### Supported Game Files
 ![links-dejavu](/public/links-dejavu.png)
 
-As you can see below, `nointro` and `rapatches` were replaced with correspoinding images and the file link from "Patch URL" string is conveniently added right below the corresponding hash. On this page, supported game files are ordered lexicographically by their filenames.
+As you can see below, `nointro` and `rapatches` were replaced with corresponding images, and the file link from the "Patch URL" string is conveniently added right below the corresponding hash. On this page, supported game files are ordered lexicographically by their filenames.
 
 ![linkedhashes-dejavu](/public/supported-game-files-dejavu.png)
 
