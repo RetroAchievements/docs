@@ -58,10 +58,9 @@ The following are generic labels:
 | ![snes-mini-label](https://retroachievements.org/Images/labels/snesmini.png)         | `snesmini`    |                                                                        |
 | ![offline-list-label](https://retroachievements.org/Images/labels/offlinelist.png)   | `offlinelist` |                                                                        |
 
-
 ## Examples
 
-### Deja Vu (NES)
+### Deja Vu: A Nightmare Comes True (NES/Famicom)
 
 #### Manage Hashes
 
