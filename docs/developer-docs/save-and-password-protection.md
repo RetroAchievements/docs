@@ -83,7 +83,7 @@ If you do not have a game state, you can often check that the location ID is sta
 |   1 |      | Mem  | 0x`LOCATION` | !=  | Delta | `LOCATION` |  0   |
 |   1 |      | Mem  | 0x`LOCATION` | !=  | Value | `INVALID`  |  0   |
 
-** Works well in:**
+**Works well in:**
 
 - Games that expose a load state in memory
 - Games that re-initialize memory before a load

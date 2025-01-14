@@ -2,7 +2,7 @@
 
 ## About RATools
 
-[RATools](https://github.com/Jamiras/RATools) is a standalone executable designed to assist developers of the retroachievements.org community. It's primary purpose is to provide a scripting language for achievement development.
+[RATools](https://github.com/Jamiras/RATools) is a standalone executable designed to assist developers of the retroachievements.org community. Its primary purpose is to provide a scripting language for achievement development.
 
 - [**Releases**](https://github.com/Jamiras/RATools/releases)
 - [**Wiki**](https://github.com/Jamiras/RATools/wiki)

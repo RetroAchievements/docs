@@ -57,7 +57,7 @@ There are a variety of Genre, Subgenre, Publisher, Developer, Series, Language, 
 - Read the [Rich Presence ](/developer-docs/rich-presence) document to learn more.
 - [Condition Syntax](/developer-docs/condition-syntax.html) will also be of help.
 
-### Does it have both lookup macros and conditionals?**
+### Does it have both lookup macros and conditionals?
 
 - If not, you will want to use at least one of each to gain basic RP skills.
 - Macros are used to turn address values into text based on the value of an address and are the basic building block of good dynamic RP.

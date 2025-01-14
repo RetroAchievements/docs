@@ -5,7 +5,7 @@ description: Guidelines for assigning progression and win conditions to achievem
 
 # Progression and Win Condition Guidelines
 
-Progression and Win Type conditions are assigned to achievements in a set and used to designate when a game has been beaten. A game is considered when all the following statements are true:
+Progression and Win Type conditions are assigned to achievements in a set and used to designate when a game has been beaten. A game is considered beaten when all the following statements are true:
 
 1. All progression-typed achievements have been earned, if any are present.
 2. Any win-typed achievement has been earned, if any are present.
@@ -181,7 +181,7 @@ Use the first of the following that is applicable:
 - All songs unlocked through standard gameplay are considered Progression.
 - Do not include songs unlocked with additional steps such as high score or chain requirements.
 
-### Shoot 'em Ups (aka Shumps)
+### Shoot 'em Ups (aka Shmups)
 
 - If character/ship choice does not affect the storyline, only one needs to be cleared to Beat the game.
 - Mark each character's win achievement as a Win Condition.
