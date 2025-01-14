@@ -64,7 +64,7 @@ The following are generic labels:
 
 #### Manage Hashes
 
-![managehashes-dejavu](/public/manage-hashes-dejavu.png)
+![manage-hashes-dejavu](/public/manage-hashes-dejavu.png)
 
 - The first hash is the No Intro-verified Swedish version of the game.
 - The second hash is the USA version of the game with an Uncensored patch applied to it. The full text of the description is `Deja Vu (USA) (Uncensored) (v1.0) (usertheloset).nes`, which follows the [RAPatches naming convention](https://github.com/RetroAchievements/RAPatches#naming-convention). The labels used are `nointro` and `rapatches`.
@@ -83,7 +83,7 @@ To see how this will look for the majority of users, go to the game entry page a
 
 As you can see below, `nointro` and `rapatches` were replaced with corresponding images, and the file link from the "Patch URL" string is conveniently added right below the corresponding hash. On this page, supported game files are ordered lexicographically by their filenames.
 
-![linkedhashes-dejavu](/public/supported-game-files-dejavu.png)
+![linked-hashes-dejavu](/public/supported-game-files-dejavu.png)
 
 ### Suikoden (PlayStation)
 
@@ -93,4 +93,4 @@ We'll skip the manage hashes example for this one. Let's go straight to "Support
 
 The hashes labeled with `redump`, `rhdn`, and `rapatches` require patches that are available on both romhacking.net and in the RAPatches repository.
 
-![linkedhashes-suikoden](/public/supported-game-files-suikoden.png)
+![linked-hashes-suikoden](/public/supported-game-files-suikoden.png)
