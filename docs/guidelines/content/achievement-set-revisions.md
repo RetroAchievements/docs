@@ -13,9 +13,9 @@ Any changes to a set with existing achievements is considered a revision. They t
 
 There are three types of revisions:
 
-- [Standard Revisions](#Standard-Revisions) - Changes to an achievement set that affect another developer's work. These include adding achievements, removing achievements, and reworking existing achievements, and adding progression and win condition types to achievements.
-- [Rescores](#Rescores) - Changes to the point value of an achievement.
-- [Icon-Gauntlet](#Icon-Gauntlet) - Changes to a game page's icon that is awarded upon mastering a set and changes to the individual achievement badges.
+- [Standard Revisions](#standard-revisions) - Changes to an achievement set that affect another developer's work. These include adding achievements, removing achievements, and reworking existing achievements, and adding progression and win condition types to achievements.
+- [Rescores](#rescores) - Changes to the point value of an achievement.
+- [Icon-Gauntlet](#icon-gauntlet) - Changes to a game page's icon that is awarded upon mastering a set and changes to the individual achievement badges.
 
 Each are assigned their own Discord role:
 
