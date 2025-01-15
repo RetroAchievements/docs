@@ -43,5 +43,5 @@ Sometimes it's useful to know when a feature was added/changed and the implicati
 | FixedN leaderboard/RP sizes                                   |  1.3<br>(17 Apr 2024)  | 1.17.0<br>(3 Feb 2024)  | 11.1<br>(21 Jan 2024)  |
 | Double32 memory reads                                         |  1.3<br>(17 Apr 2024)  | 1.19.0<br>(30 May 2024) | 11.2<br>(31 Mar 2024)  |
 | `%` on modifiers (i.e. AddAddress/AddSource conditions)       | 1.3.1<br>(28 Aug 2024) | 1.19.0<br>(30 May 2024) | 11.3<br>(10 May 2024)  |
-| `+`/`-` on modifiers (i.e. AddAddress/AddSource conditions)   | 1.3.1<br>(28 Aug 2024) |           TBD           | 11.4<br>(17 Jun 2024)  |
-| `Remember`/`Recall`                                           | 1.3.1<br>(28 Aug 2024) |           TBD           | 11.4<br>(17 Jun 2024)  |
+| `+`/`-` on modifiers (i.e. AddAddress/AddSource conditions)   | 1.3.1<br>(28 Aug 2024) | 1.20.0<br>(5 Jan 2025)  | 11.4<br>(17 Jun 2024)  |
+| `Remember`/`Recall`                                           | 1.3.1<br>(28 Aug 2024) | 1.20.0<br>(5 Jan 2025)  | 11.4<br>(17 Jun 2024)  |
