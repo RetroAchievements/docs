@@ -79,7 +79,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 **RetroActive!**
 
 1. Has published at least 1000 achievements and worked on at least 25 sets as the sole or majority developer.
-2. Has created achievements for at least ten different console IDs.
+2. Has created achievements for at least ten different system IDs.
 3. Has been an active developer for at least **two** years.
 4. At least 85% of sets have dynamic rich presence _(Vet Dev I required)_.
 5. Yielded unlocks have exceeded 50,000.
@@ -178,23 +178,23 @@ An English release is considered a game released in English in US, Canada, UK, o
 3. Sets intended for World Traveler do not stack with other quests based around developing new content.
 4. English translation patches will not disqualify a game from this quest.
 5. Hacks and homebrew do not count towards the quest. Unlicensed titles may count as long as they aren't blatant bootleg ports or hacks of another game. If you're unsure if a game is valid, ask!
-6. If a game was released in English on a platform, but was ported to another platform with no English version, half credit may be granted for the port on the platform that has no English release.
-7. Games that only released in English on unsupported platforms will receive full credit.
+6. If a game was released in English on a system, but was ported to another system with no English version, half credit may be granted for the port on the system that has no English release.
+7. Games that only released in English on unsupported systems will receive full credit.
 
 ### 009 [Launch Party!](https://retroachievements.org/game/15937)
 
 ![DQ009](https://retroachievements.org/Images/048656.png)
 
 **Type**: Set Creation  
-**Goal**: Develop a set for a newly supported console within 6 months of RA support  
+**Goal**: Develop a set for a newly supported system within 6 months of RA support  
 **Repeatable**: No
 
 - Must be a full set (to the extent of the games capabilities, See Watara vs PSP)
-- Smaller consoles may be ruled ineligible
+- Smaller systems may be ruled ineligible
 
 #### Current Launch Party Promotion Windows:
 
-- There are currently no eligible consoles
+- There are currently no eligible systems
 
 ### 010 [It Takes Two](https://retroachievements.org/game/15939)
 
@@ -273,23 +273,23 @@ An English release is considered a game released in English in US, Canada, UK, o
 ![DQ015](https://retroachievements.org/Images/068013.png)
 
 **Type**: Special  
-**Goal**: Publish a set for every supported platform on RetroAchievements  
+**Goal**: Publish a set for every supported system on RetroAchievements  
 **Repeatable**: No  
 **RetroActive!**
 
 :::info Ever-Growing
-Each console ID will have an achievement associated with it. Newly supported console IDs means new achievements!
+Each system ID will have an achievement associated with it. Newly supported system IDs means new achievements!
 :::
 
 ::: warning Opt-In Quest
-You must have developed sets for 10 or more supported platforms before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account
+You must have developed sets for 10 or more supported systems before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account
 :::
 
 1. This quest is awarded in sweeps; do not ping claims or completions. Any set will be counted as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
 2. Meme sets may not be counted at the discretion of the DevQuest Team.
-3. Doing the same kind of set (e.g. all Flappy Bird clones) will only be counted towards one platform.
-4. The only requirement for an unlock is that you are the sole or majority developer of a set on that console ID. Collaborations require at least 20 achievements made.
-5. For the more dire consoles, specific requirements are in the achievements themselves.
+3. Doing the same kind of set (e.g. all Flappy Bird clones) will only be counted towards one system.
+4. The only requirement for an unlock is that you are the sole or majority developer of a set on that system ID. Collaborations require at least 20 achievements made.
+5. For the more dire systems, specific requirements are in the achievements themselves.
 6. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
 
 ### 016 [Wish This Set](https://retroachievements.org/game/2962)
@@ -463,5 +463,5 @@ Do any of these tasks to earn a new respin token:
   - **Quest Name**
   - **Award Type** - If there is one specific goal then you would want a badge-based award. If there are multiple goals then you would want an achievement-based award.
   - **Game Type** - State whether hacks, homebrews, prototypes, unlicensed, and/or subsets are allowed.
-  - **Goal(s)** - A brief description of the DevQuest. Examples: "Develop a set for such-and-such console," "Develop a Holiday-Themed Set," "Create Dynamic Rich Presence for 10 Games," etc.
+  - **Goal(s)** - A brief description of the DevQuest. Examples: "Develop a set for such-and-such system," "Develop a Holiday-Themed Set," "Create Dynamic Rich Presence for 10 Games," etc.
   - **Rules** - List any specific guidelines and criteria that submissions must meet. Is there a minimum achievement count? Are there minor exceptions that result in half-credit? Do submissions need to be pre-approved? The more simple they are, the better!
