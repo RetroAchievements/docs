@@ -34,16 +34,16 @@ Interactions between players and developers may not always go smoothly. The [Use
 
 If a user goes on the offensive and starts harassing you or your sets, please don't engage further with that user. Instead, reach out to the moderation team or RAdmin. Harassment is taken seriously, and actions against the user, such as a mute or even a site ban, will be taken when deemed necessary. The moderation team will ensure you can keep developing without your enjoyment being harmed by unwarranted negative interactions.
 
-## Developers Requirements:
+## Developer Requirements:
 
 - Developers shall keep work free from [unwelcome concepts](/guidelines/content/unwelcome-concepts).
 - Developers shall use [protective code](/guidelines/content/achievement-set-requirements), preventing potential cheating and exploits.
 - Developers shall leave accurate [code notes](/guidelines/content/code-notes) for each achievement condition you use.
 - For set revisions, developers shall follow the [revision policy](/guidelines/content/achievement-set-revisions).
-- Developers shall [Resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time they do.
+- Developers shall [resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time they do.
 - Like a wiki, once a developer publishes work, they are giving it over to the community to be [reviewed and reworked over time](#achievement-ownership).
-- Developers shall not accept any form of payment for creating sets such as monetary, goods, favors, or other similar compensation.
-- Developers shall not publish achievements on behalf of banned developers.
+- Developers shall not accept any form of payment for creating sets such as money, goods, favors, or other similar compensation.
+- Developers shall not publish new achievement logic on behalf of banned developers.
 
 ## Revisions - Working on Sets with Existing Achievements
 
