@@ -34,14 +34,16 @@ Interactions between players and developers may not always go smoothly. The [Use
 
 If a user goes on the offensive and starts harassing you or your sets, please don't engage further with that user. Instead, reach out to the moderation team or RAdmin. Harassment is taken seriously, and actions against the user, such as a mute or even a site ban, will be taken when deemed necessary. The moderation team will ensure you can keep developing without your enjoyment being harmed by unwarranted negative interactions.
 
-## Developers must do the following to keep in good standing:
+## Developers Requirements:
 
-- Keep your work free from [unwelcome concepts](/guidelines/content/unwelcome-concepts).
-- Use [protective code](/guidelines/content/achievement-set-requirements), preventing potential cheating and exploits.
-- Leave accurate [code notes](/guidelines/content/code-notes) for each achievement condition you use.
-- For set revisions, follow the [revision policy](/guidelines/content/achievement-set-revisions).
-- [Resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time you do.
-- Like a wiki, once you publish your work, you are giving it over to the community to be [reviewed and reworked over time](#achievement-ownership).
+- Developers shall keep work free from [unwelcome concepts](/guidelines/content/unwelcome-concepts).
+- Developers shall use [protective code](/guidelines/content/achievement-set-requirements), preventing potential cheating and exploits.
+- Developers shall leave accurate [code notes](/guidelines/content/code-notes) for each achievement condition you use.
+- For set revisions, developers shall follow the [revision policy](/guidelines/content/achievement-set-revisions).
+- Developers shall [Resolve tickets](/guidelines/developers/handling-tickets) and leave notes each time they do.
+- Like a wiki, once a developer publishes work, they are giving it over to the community to be [reviewed and reworked over time](#achievement-ownership).
+- Developers shall not accept any form of payment for creating sets such as monetary, goods, favors, or other similar compensation.
+- Developers shall not publish achievements on behalf of banned developers.
 
 ## Revisions - Working on Sets with Existing Achievements
 
@@ -65,7 +67,7 @@ Inactivity as a developer will be defined as:
 - Has not performed maintenance on existing sets (revisions, rescores, badge changes, etc.)
 - Has not resolved, closed, or otherwise addressed any open tickets, theirs or otherwise.
 
-### Negligence
+### Ticket Negligence
 
 **A developer's highest priority on RetroAchievements is maintaining the achievements they've created.** Tickets shall be addressed as soon as possible. A developer shall be considered negligent and lose the developer role if they have either of the following:
 
@@ -75,6 +77,8 @@ Inactivity as a developer will be defined as:
 An unaddressed ticket is defined as a ticket that has not had a comment by the developer in at least 2 weeks. If a developer cannot resolve a ticket due to insufficient information in the ticket and the reporter is unresponsive, the ticket may be closed as "Not enough information." If a developer is still working on a ticket, they must provide a status update comment at least every 2 weeks for the ticket to be considered being actively addressed.
 
 The intent of the Negligence policy is to ensure developers make a good faith effort to prioritize and resolve their tickets. If there are extenuating circumstances that might prevent a developer from meeting the Negligence requirements, [DevCompliance](https://retroachievements.org/messages/create?to=DevCompliance) may grant an extension upon request.
+
+_Note: DevCompliance may reopen tickets if it is determined due diligence was not done when attempting to resolve them.  Developers are required to address reopened tickets per the negligence policy._
 
 ### Reinstatement
 
