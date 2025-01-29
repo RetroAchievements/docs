@@ -10,7 +10,7 @@ description: Guidelines for managing and resolving achievement tickets, includin
 ## Handling Own Tickets
 
 **After a developer has published achievements, they should be prepared for bug reports.**
-A developer's top priority on RetroAchievements is to keep their work bug free by appropriately resolving tickets. Developer shall respond to all tickets as soon as possible. The sooner the response, the better, because the problem is fresh in the player's mind and their knowledge can be used to help resolve the problem.
+A developer's top priority on RetroAchievements is to keep their work bug free by appropriately resolving tickets. A developer shall respond to all tickets as soon as possible. The sooner the response, the better, because the problem is fresh in the player's mind and their knowledge can be used to help resolve the problem.
 
 ## New Set Claims With Open Tickets?
 
