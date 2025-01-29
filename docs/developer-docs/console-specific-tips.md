@@ -130,7 +130,7 @@ Checks if the 8-bit value at 0x18BAB5 is equal to 0x20. This means 0x18BAB5 cont
 ## Nintendo DS
 
 Pointers always start with a `0x02`. For example, a pointer pointing directly to `0x13f944` will be `0x0213f944`.
-DSi mode can be detected when bit0 & bit1 are 1 at 0x400. This is known to slightly shift memory on some game and so could be used to protect against the mode if needs be.
+DSi mode can be detected when bit0 & bit1 are 1 at 0x400. This is known to slightly shift memory on some games and so it could be used to protect against the mode if needs be.
 
 ## Nintendo DSi (Bizhawk)
 
