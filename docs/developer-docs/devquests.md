@@ -31,7 +31,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 
 **Type**: Maintenance  
 **Goal**: Resolve/close 50 tickets  
-**Repeatable**: Yes (Up to 3 times)
+**Repeatable**: Yes (Up to 4 times)
 
 1. Falsifying ticket closures will result in disqualification.
 2. The following do not count toward the total: Network issues, tickets for achievements you developed, tickets you opened, tickets closed on behalf of Junior Developers, and tickets closed as a result of ticket spamming.
@@ -223,19 +223,20 @@ An English release is considered a game released in English in US, Canada, UK, o
 4. No prototypes or hacks.
 5. Collaborations are allowed so long as the work is visibly split.
 
-### 012 [Hacker's Habit](https://retroachievements.org/game/672)
+### 012 [Hacker's Habit](https://retroachievements.org/game/672), [Hack at it Again](https://retroachievements.org/game/32908)
 
 ![DQ012](https://retroachievements.org/Images/052519.png)
 
 **Type**: Set Creation  
 **Goal**: Create two new sets for robust hacks  
-**Repeatable**: No
+**Repeatable**: Yes (Up to 2 times)
 
 1. Sets intended for this quest must be complete and encompass all notable content specific to the hack.
 2. Acceptable hacks must be either complete overhauls that drastically change the level design, or introduce new mechanics that greatly change how you progress through the game.
 3. Meme hacks, single-level hacks, and other small modifications aren't eligible.
 4. Smaller hacks may warrant only a half point credit.
 5. You are limited to one point (full game credit) per franchise. Examples: If you create a set for a good-sized SMW hack for a full point credit, you can't do a Mario 64 hack for any points. If you do a small Mega Man 2 hack, you can get at most half credit for a Mega Man 3 hack, etc.
+   - This includes sequel quests. Sequel quests may not re-use franchises from earlier quests in this series
 
 ### 013 [complete.me](https://retroachievements.org/game/795)
 
