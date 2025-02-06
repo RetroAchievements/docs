@@ -21,7 +21,7 @@ Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developer
 
 Once you find a game to work on you need to plan your Achievement Set. Before claiming a game on site, Junior Developers must submit a set plan for approval in the `#jr-dev-forum`. 
 
-Be sure you know enough about the game to make a good set. Check the GameFAQs or something, try to learn more about the game, its secrets and details. Here is a good guide to help you with this: [Set Development Roadmap](/developer-docs/set-development-roadmap).
+Be sure you know enough about the game to make a good set. Check the GameFAQs, wikias, watch longplay videos and try to learn more about the game, its secrets and details.
 
 It's recommended that you post your plans on the official game's forum topic, so the community can leave suggestions and provide feedback.
 

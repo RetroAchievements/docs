@@ -91,7 +91,6 @@ The Community Manager helps facilitate communication between players and staff, 
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
-- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
 - [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
@@ -135,9 +134,8 @@ The team responsible for investigating cheating reports.
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
 - [authorblues](https://retroachievements.org/user/authorblues)
-- [Bilalscape12](https://retroachievements.org/user/Bilalscape12)
 - [BoomEX](https://retroachievements.org/user/BoomEX)
-- [Bryan1150](https://retroachievements.org/user/Bryan1150)
+- [Brylefi](https://retroachievements.org/user/Brylefi)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Layton](https://retroachievements.org/user/Layton)
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)

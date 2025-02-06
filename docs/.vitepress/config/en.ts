@@ -326,10 +326,6 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/real-examples",
         },
         {
-          text: "Set Development Roadmap",
-          link: "/developer-docs/set-development-roadmap",
-        },
-        {
           text: "Achievement Templates",
           link: "/developer-docs/achievement-templates",
         },

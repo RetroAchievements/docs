@@ -338,10 +338,6 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/es/developer-docs/real-examples",
         },
         {
-          text: "Establecer un plan de desarrollo",
-          link: "/es/developer-docs/set-development-roadmap",
-        },
-        {
           text: "Plantillas de logros",
           link: "/es/developer-docs/achievement-templates",
         },
