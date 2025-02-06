@@ -1,27 +1,27 @@
 ---
 title: Handling Tickets
-description: Guidelines for managing and resolving achievement tickets, including steps for addressing your own tickets, handling tickets for others, and protocols for closing tickets based on various criteria.
+description: Guidelines for managing and resolving achievement tickets, including steps for addressing one's own tickets, handling tickets for others, and protocols for closing tickets based on various criteria.
 ---
 
 # Handling Tickets
 
 [[toc]]
 
-## Handling Your Own Tickets
+## Handling Own Tickets
 
-**After you've published your achievements, be prepared for bug reports.**
-You're expected to keep your work bug free by appropriately resolving tickets. Respond to all tickets as soon as possible. The sooner you respond the better, because the problem is fresh in the player's mind and you can use them to help you to resolve the problem.
+**After a developer has published achievements, they should be prepared for bug reports.**
+A developer's top priority on RetroAchievements is to keep their work bug free by appropriately resolving tickets. A developer shall respond to all tickets as soon as possible. The sooner the response, the better, because the problem is fresh in the player's mind and their knowledge can be used to help resolve the problem.
 
-## Can I Claim a Set If I Have an Open Ticket?
+## New Set Claims With Open Tickets?
 
-To be allowed to make a primary or collaboration claim on a set, you must not have any _unaddressed_ tickets.
+To be allowed to make a primary or collaboration claim on a set, developers must not have any _unaddressed_ tickets.
 
 - An open ticket is considered addressed when a developer, who may be unable to immediately resolve an issue, leaves a comment requesting a save file, state or additional information from the reporter.
 - Tickets that have been properly closed or resolved are, of course, considered addressed.
 
 ## Steps to Resolve Tickets
 
-1. Do your due diligence to investigate the cause of the issue.
+1. Do due diligence to investigate the cause of the issue.
 2. Ask detailed questions from the reporter to narrow down possible causes if the initial report is lacking in detail.
 3. If not provided, or if a provided save state is not at a point helpful to diagnose the issue, ask for one or more save states. Be clear about where in the game the saves should be made. Help the user know what to capture.
 4. Attempt to reproduce the issue on the same core used by the user.
@@ -50,30 +50,30 @@ To be allowed to make a primary or collaboration claim on a set, you must not ha
 
 You may resolve tickets for another developer under the following guidelines:
 
-### If the Developer is Active
+### Active Developer Tickets
 
 You may assist them in the resolution. The developer should still implement any code changes needed, but you are allowed to suggest logic and help find the causes.
 
 Tickets belonging to active Junior Developers should only be handled by members of the Code Reviewer team. If you are asked by a Junior Developer to close or resolve their ticket, please refer them to a Code Reviewer.
 
-### If the Developer is Inactive
+### Inactive Developer Tickets
 
-You can work on their tickets on your own.
+Tickets on inactive developer achievements are by far the most common open tickets on RetroAchievements. Developers are highly encouraged to consider resolving inactive developer tickets any time they are able. This is an extremely beneficial thing for the community and is greatly appreciated!
 
-- An **inactive developer** is someone who has **10 or more open tickets that are older than two months** (you can see their open tickets from the Ticket Manager).
-  - Contact a Developer Compliance team member to ensure this is the case before making the judgement on your own if they still have the Developer role.
-- If the developer is inactive, you can freely resolve their tickets through normal resolution processes as stated above.
-- You may change the achievement description to clarify the objective or to match the logic that is present to clarify the intent of the achievement.
-  Do not deviate from an achievement's concept or objective in any way without an approved revision vote.
-- Follow the steps to resolve or close a ticket as if it were your own.
+Updates to descriptions and/or logic may be made to resolve issues with inactive developer achievements. When a description conflicts with logic, a developer must use their best judgement to determine what the achievement is intended to require and make adjustments as appropriate. If in doubt, [DevCompliance](https://retroachievements.org/user/DevCompliance) should be contacted for guidance.
+
+If a developer updates inactive developer achievement logic and they notice or are made aware that the achievement is subsequently ticketed, it is highly preferred they attempt to address the new ticket. QA may reach out to a developer who has resolved an inactive developer ticket requesting assistance with resolving a current issue.
+
+If a developer no longer desires to be associated with a particular achievement after having attempted to fix it, they may request QA no longer contact them regarding the achievement. Sometimes it may make sense to restore the achievement to previous logic or in some cases, despite an achievement not being completely fixed, some improvement may have been made. QA will coordinate with the developer to ensure the most stable logic is in place when a developer disassociates from an inactive developer achievement they tried to fix.
 
 ### Claiming a Ticket
 
-You may place a soft claim on ticket investigation and resolution by commenting your intent in a ticket comment.
+Developers may place a soft claim on ticket investigation and resolution by commenting their intent in a ticket comment.
 
+- Claims are not required for resolving inactive developer tickets.
 - If someone else has stated their intent to resolve a ticket, you may provide additional insight in a ticket comment.
 - The developer working on a ticket may choose to work with another developer or user for assistance in resolving the ticket.
-- After seven days without action towards a resolution, the ticket will be considered unclaimed, to allow other developers to provide a solution.
+- After seven days without action toward a resolution, the ticket will be considered unclaimed, to allow other developers to provide a solution.
 
 ## If a Developer Becomes Active Again
 
