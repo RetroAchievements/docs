@@ -21,7 +21,7 @@ Siga as [diretrizes no Código de Conduta dos Desenvolvedores](/guidelines/devel
 
 Depois de encontrar um jogo para trabalhar, você precisa planejar seu Conjunto de Conquistas.
 
-Certifique-se de que conhece o suficiente sobre o jogo para fazer um bom conjunto. Verifique o GameFAQs ou algo assim, tente aprender mais sobre o jogo, seus segredos e detalhes. Aqui está um bom guia para ajudá-lo com isso: [Roteiro de Desenvolvimento de Conjunto](/pt/developer-docs/set-development-roadmap).
+Certifique-se de que conhece o suficiente sobre o jogo para fazer um bom conjunto. Verifique o GameFAQs ou algo assim, tente aprender mais sobre o jogo, seus segredos e detalhes.
 
 É recomendado que você poste seus planos no tópico oficial do fórum do jogo, para que a comunidade possa deixar sugestões e fornecer feedback.
 

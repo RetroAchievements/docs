@@ -27,10 +27,8 @@ Agora uma breve descrição de cada página que você verá nesta seção:
 
 10. [Rich Presence](/pt/developer-docs/rich-presence): Como criar Scripts Rich Presence
 
-11. [Roteiro de Desenvolvimento do Set](/pt/developer-docs/set-development-roadmap): Sugestões de passos para conduzir em ordem como criar um set arrumado
+11. [Design de Conquistas](/pt/developer-docs/achievement-design): Um guia de como pensar e desenvolver boa conquistas, não a parte técnica, mas a parte conceitual.
 
-12. [Design de Conquistas](/pt/developer-docs/achievement-design): Um guia de como pensar e desenvolver boa conquistas, não a parte técnica, mas a parte conceitual.
+12. [Guia de Bonus Set](/guidelines/content/subsets): Um tópico avançado em criar set especiais de desafios e como lançar eles.
 
-13. [Guia de Bonus Set](/guidelines/content/subsets): Um tópico avançado em criar set especiais de desafios e como lançar eles.
-
-14. [Conquistas para Hack ROM](/guidelines/content/achievements-for-rom-hacks): Um guia detalhado para desenvolvedores sobre a inclusão apropriada (e aprovação) de Hack ROMs
+13. [Conquistas para Hack ROM](/guidelines/content/achievements-for-rom-hacks): Um guia detalhado para desenvolvedores sobre a inclusão apropriada (e aprovação) de Hack ROMs
