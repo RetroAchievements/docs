@@ -225,7 +225,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 012 [Hacker's Habit](https://retroachievements.org/game/672), [Hack at it Again](https://retroachievements.org/game/32908)
 
-![DQ012](https://retroachievements.org/Images/052519.png)
+![DQ012](https://retroachievements.org/Images/052519.png) ![DQ012-II](https://retroachievements.org/Images/107093.png)
 
 **Type**: Set Creation  
 **Goal**: Create two new sets for robust hacks  
@@ -236,7 +236,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 3. Meme hacks, single-level hacks, and other small modifications aren't eligible.
 4. Smaller hacks may warrant only a half point credit.
 5. You are limited to one point (full game credit) per franchise. Examples: If you create a set for a good-sized SMW hack for a full point credit, you can't do a Mario 64 hack for any points. If you do a small Mega Man 2 hack, you can get at most half credit for a Mega Man 3 hack, etc.
-   - This includes sequel quests. Sequel quests may not re-use franchises from earlier quests in this series
+   - This includes sequel quests. Sequel quests may not re-use franchises from earlier quests in this series.
 
 ### 013 [complete.me](https://retroachievements.org/game/795)
 
