@@ -33,7 +33,7 @@ It's recommended that you post your plans on the official game's forum topic, so
 
 Once a set plan has been approved by a Code Reviewer, Junior Developers may claim the game and begin development. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server.
 
-For your first achievement set it's recommended to choose a game that is less popular. First set tends to be the weakest that developers produce due to their lack of experience. Additionally, an unpopular game will likely not attract as many player initially and prevent a situation where a significant amount of tickets are quickly generated which can often be overwhelming.
+We recommend developing your first achievement set with a game that has 10 or fewer set requests.  This allows you to focus on the learning process and refine your skills, as initial achievement sets often benefit from iteration.  A smaller audience also helps manage initial support requests, preventing a sudden influx of tickets.
 
 ## Required Knowledge
 
