@@ -338,10 +338,6 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/pt/developer-docs/real-examples",
         },
         {
-          text: "Roteiro de Desenvolvimento de Conjuntos",
-          link: "/pt/developer-docs/set-development-roadmap",
-        },
-        {
           text: "Modelos de Conquistas",
           link: "/pt/developer-docs/achievement-templates",
         },

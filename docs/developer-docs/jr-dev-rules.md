@@ -9,7 +9,7 @@ description: Comprehensive guidelines for the Junior Developer Program, includin
 
 ## Overview
 
-The purpose of the Junior Developer Program is to assist interested people with learning how to create and maintain high quality achievement sets for RetroAchievements. Junior Developers are required to understand and abide by the [Developer Code of Conduct](/guidelines/users/code-of-conduct) except where specifically addressed by this document.
+The purpose of the Junior Developer Program is to assist interested people with learning how to create and maintain high quality achievement sets for RetroAchievements. Junior Developers are required to understand and abide by the [Developer Code of Conduct](/guidelines/users/code-of-conduct) except where specifically addressed by this document. This program is for people who intend to pursue graduation and become full fledged developers.
 
 ### Entry Requirements
 
