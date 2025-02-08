@@ -13,7 +13,7 @@ When excavating the memory of these old consoles it helps to know what the origi
 
 ### Memory Mirroring
 
-![nes_mem_mirror](https://user-images.githubusercontent.com/33245078/32608415-e8bd2cf8-c521-11e7-8da5-22c9e09efd8c.png)
+![nes_mem_mirror](/public/nes-memory-mirroring.png)
 
 When using the memory inspector to find variables for NES games, there will be 4 copies of everything you find. If you're wondering "which one do I use?" or "should I check for all of them?" it's not as complicated as it seems.
 
@@ -40,7 +40,7 @@ For more info see: http://gameboy.mongenel.com/dmg/asmmemmap.html
 
 ### ECHO RAM
 
-![gb_echo_ram](https://user-images.githubusercontent.com/33245078/32610144-755a0442-c527-11e7-9bbb-eb5a4d7b8e6d.png)
+![gb_echo_ram](/public/game-boy-echo-ram.png)
 
 Similarly to the NES, certain variables may show up twice when searching in the Memory Inspector. The second result is in what's called the ECHO RAM, which is a mirror of the actual memory. Since some emulators tend to ignore this area or emulate it incorrectly, it's recommended to NOT use it at all and always use the first result.
 
@@ -142,15 +142,15 @@ DSi mode can be detected when bit0 & bit1 are 1 at 0x400. This is known to sligh
 
 UniBIOS allows several debugging options, and also access the database of individual cheats for every game. Therefore all achievements for Neo Geo need to be protected from abusing it. The simplest solution here is disallowing UniBIOS usage completely, directly from the level of achievement code.
 
-Fortunately part of UniBIOS data seems to be reflected in two address strings in the RAM: `0x00fe30` and `0x00fe50`. While UniBIOS is active `0x00fe30` in 32-bit size seems to always brings the same value (for every Neo Geo game) which is `80025632`, and it doesn't seem to change after the ROM was loaded. For any other BIOS, the value is always 0, (except for the moment the RAM is overloaded by the diagnostic program, after the ROM was loaded).
+Fortunately, part of UniBIOS data seems to be reflected in two address strings in the RAM: `0x00fe30` and `0x00fe50`. While UniBIOS is active, `0x00fe30` in 32-bit size seems to always brings the same value (for every Neo Geo game), which is `0x80025632`, and it doesn't seem to change after the ROM was loaded. For any other BIOS, the value is always 0 (except for the moment the RAM is overloaded by the diagnostic program, after the ROM was loaded).
 
-To protect achievements from using UniBIOS all we need to do is to include a simple protection which will reset when `0x00fe30` in 32-bit size is not equal to `0`. This additionally, eventually protect the achievement from unlocking during RAM diagnostic process.
+To protect achievements from using UniBIOS, all we need to do is to include a simple protection which will reset when `0x00fe30` in 32-bit size is not equal to `0`. This additionally protects the achievement from unlocking during RAM diagnostic process.
 
-**Here is how the protection should look alike (selected in the Achievement Editor):**
-![unineo1](http://bit.ly/UniNeo1)
+**Here is how the protection should look (selected in the Achievement Editor):**
+![unineo1](/public/unibiosprotection.png)
 
 **Here is how the same RAM region looks when other BIOS are used (here MSV):**
-![unineo2](http://bit.ly/UniNeo2)
+![unineo2](/public/unibiosp2.png)
 
 ## PlayStation
 
