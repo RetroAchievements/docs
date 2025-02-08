@@ -9,10 +9,10 @@ description: Guidelines for the RetroAchievements claims system, including how t
 
 ## Claims System Guidelines
 
-- The right to work on a set is made by utilizing the site's Claim System. This is the only valid way to reserve a set. Posting plans in the forum, leaving code notes, telling everyone you want to work on it, or any other forms of declaration are not considered valid claims.
-- Claims should be made as soon as you want to start working on a set, not as you are finishing your work.
-- Do not claim sets that you are not actually interested in working on and **_especially_** do not do it just to block others from working on it.
-- Only claim games when you are [free of unaddressed tickets](#handling-tickets). If you are not, a prompt will appear when attempting to claim a set.
+The right to work on a set is made by utilizing the site's Claim System. This is the only recognized way to reserve a set.
+- Do not claim sets that you are not actually interested in immediately working on
+- Do not claim sets in order to hold or reserve them for someone else who is unable to make the claim for any reason
+- Do not claim sets to prevent others from claiming them
 
 ## Making a Claim
 
@@ -22,7 +22,6 @@ To make a claim, go to the Developer panel of a game entry, which will contain o
 - Make Claim and Forum Topic (Junior Developers require a forum topic to be made on their behalf)
 - Make Revision Claim
 - Make Collaboration Claim
-- Make Collaboration Revision Claim
 
 ## Dropping a Claim
 
