@@ -9,7 +9,7 @@ description: Guidelines for the RetroAchievements claims system, including how t
 
 ## Claims System Guidelines
 
-The right to work on a set is made by utilizing the site's Claim System. This is the only recognized way to reserve a set. Posting plans in the forum, leaving code notes, telling everyone you want to work on it, or any other forms of declaration are not valid claims.
+The right to work on a set is made by utilizing the site's Claim System. This is the only recognized way to reserve a set.
 - Do not claim sets that you are not actually interested in immediately working on
 - Do not claim sets in order to hold or reserve them for someone else who is unable to make the claim for any reason
 - Do not claim sets to prevent others from claiming them
