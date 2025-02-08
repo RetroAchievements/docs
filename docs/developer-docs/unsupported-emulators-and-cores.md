@@ -9,6 +9,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## Acorn - BBC Micro
 
 - ❓ libretro core: **b2**
+
 ## Amiga
 
 - ❓ libretro core: **FS-UAE**
