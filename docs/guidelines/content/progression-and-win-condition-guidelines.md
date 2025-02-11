@@ -175,7 +175,7 @@ Use the first of the following that is applicable:
   - If this is the only mode, mark as win condition(s).
   - **Note**: For complete content coverage, the set should include all arcade endings as a requirement for Mastery.
 - Example: [Soulcalibur II](https://retroachievements.org/game/2982) - Weapon Master (Story) is marked as Progression and each default character's Arcade (Normal or Higher) are marked as Win condition. Time Attack (Restrictive), Survival (Endless) and the unlockable modes are not marked.
-- Example: [Street Fighter II: The World Warrior](https://retroachievements.org/game/1192) - Each achievement for beating the game with a specific characer on difficulty level 3 or higher is marked as Win condition.
+- Example: [Street Fighter II: The World Warrior](https://retroachievements.org/game/1192) - Each achievement for beating the game with a specific character on difficulty level 3 or higher is marked as Win condition.
 
 ### Puzzle
 
