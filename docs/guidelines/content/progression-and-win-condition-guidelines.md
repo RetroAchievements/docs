@@ -167,9 +167,15 @@ Use the first of the following that is applicable:
 
 ### Fighting
 
-- The game should be cleared with all starting characters for a Beat
-- The progression and/or win achievements for each character available on a fresh launch should be marked as Progression, with no Win Conditions.
-  - Example: [Soulcalibur II](https://retroachievements.org/game/2982) - Weapon Master (Story) and each default character's Arcade (Normal or Higher) are marked as Progression. Time Attack (Restrictive), Survival (Endless) and the unlockable modes are not marked.
+- All non-endless and non-restrictive modes that are available when first launching the game have Progression conditions marked, following the rules for games with multiple game modes.
+- Any story mode in a game must be cleared to beat the game.
+  - Required for beating the game even if not initially available.
+  - Completion of story mode should be marked as the "Win Condition" typing unless another mode's requirements need Win Condition typing to handle alternative cases within that mode, in which case story completion should be marked as Progression, such as when there is no general "beat arcade mode" achievement, but a series of "beat arcade mode with character" achievements.
+- The typical arcade-style tournament or ladder mode shall require completion with any character.
+  - If this is the only mode, mark as Win Condition(s).
+  - **Note**: For complete content coverage, the set should include all arcade endings as a requirement for Mastery.
+- Example: [Soulcalibur II](https://retroachievements.org/game/2982) - Weapon Master (Story) is marked as Progression and each default character's Arcade (Normal or Higher) are marked as Win Condition. Time Attack (Restrictive), Survival (Endless) and the unlockable modes are not marked.
+- Example: [Street Fighter II: The World Warrior](https://retroachievements.org/game/1192) - Each achievement for beating the game with a specific character on difficulty level 3 or higher is marked as Win Condition.
 
 ### Puzzle
 
