@@ -240,7 +240,7 @@ Looking at this example, if the 16-bit value at $0085 is 0, the display string i
 
 Display strings associated with a conditional clause support all of the same syntax as the default display string. In this example, you can see the `@Landscape` lookup is used in both the conditional display string and the default display string. The lookup itself only has to be defined once.
 
-The conditional phrase supports all of the previously mentioned address accessors as well as AND (\_) and OR (S) logic. Note that OR clauses still require a 'core' group, [just like achievements](/developer-docs/alt-groups).
+The conditional phrase supports all of the previously mentioned address accessors as well as AND (\_) and OR (S) logic, where S marks the start of an Alt group. Note that OR clauses still require a 'core' group, [just like achievements](/developer-docs/alt-groups).
 
 - `?0xH1234=32_0xH2345=0?and example`
 
@@ -248,11 +248,11 @@ The conditional phrase supports all of the previously mentioned address accessor
 
 - `?0xH1234=32S0xH2345=1S0xH2345=2?or example`
 
-  if the 8-bit value at $1234 is 32 _and_ the 8-bit value at $2345 is 1 _or_ 2, display `or example`
+  if the 8-bit value at $1234 is 32 (Core Group) _and_ the 8-bit value at $2345 is 1 _or_ 2 (Alt Groups), display `or example`
 
 - `?0xH1234=32_0xH5678=33S0xH2345=1S0xH2345=2?and/or example`
 
-  if the 8-bit value at $1234 is 32 _and_ the 8-bit value at $5678 is 33 _and_ the 8-bit value at $2345 is 1 _or_ 2, display `and/or example`
+  if the 8-bit value at $1234 is 32 _and_ the 8-bit value at $5678 is 33 (Core Group) _and_ the 8-bit value at $2345 is 1 _or_ 2 (Alt Groups), display `and/or example`
 
 **Pro-tip:** Conditions can be created using the [achievement editor](/orphaned/achievement-logic-features). Once you have your condition defined, use the `Copy Def` button to copy the achievement definition to the clipboard so you can paste it into the rich presence script.
 
