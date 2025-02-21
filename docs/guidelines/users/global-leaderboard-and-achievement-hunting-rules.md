@@ -65,7 +65,7 @@ If you notice a player has become untracked: do not harass them, accuse them of 
 9. [Do not create or share cheating methods.](#not-allowed-9)
 10. [Do not use in-game cheat codes unless it is specified as allowed by the developer.](#not-allowed-10)
 
-### <a name="not-allowed-1"></a>1. Do not use methods that circumvent achievement code to instantly unlock achievements.
+### 1. Do not use methods that circumvent achievement code to instantly unlock achievements. {#not-allowed-1}
 
 Even if you "should have" unlocked the achievement. Even if the game is bugged. Even if the achievement is removed or broken entirely. When it's detected, it will lead the account to be **[Untracked](#untracked)**.
 
@@ -73,7 +73,7 @@ In the cases where you should have unlocked the achievement but it didn't trigge
 
 **NOTE**: make sure you are using the latest release version of an approved supported emulator.
 
-### <a name="not-allowed-2"></a>2. Do not earn achievements in a way that contradicts what the description asks.
+### 2. Do not earn achievements in a way that contradicts what the description asks. {#not-allowed-2}
 
 If you discover a back-door to an achievement, it is a bug. Please report this bug using a ticket report.
 
@@ -85,7 +85,7 @@ See also the [allowed rule 2](#allowed-2).
 - You notice that if you go back and forth between two rooms, you unlock achievements intended for progressing though the game.
 - You've found a method of earning damageless boss achievements while taking damage during the fights.
 
-### <a name="not-allowed-3"></a>3. Do not use save files or passwords that are not your own or were made under other conditions of play.
+### 3. Do not use save files or passwords that are not your own or were made under other conditions of play. {#not-allowed-3}
 
 Occasionally a developer might provide a save file or password for you to use to earn certain achievements. This is appropriate according to the judgement of the set developer.
 
@@ -96,14 +96,14 @@ Occasionally a developer might provide a save file or password for you to use to
 - Loading a save file for Hardcore you created while playing on a non-RA emulator.
 - Loading a save file for Hardcore you created in Softcore in order to gain Hardcore points.
 
-### <a name="not-allowed-4"></a>4. Do not modify the game's file(s) or memory by any means.
+### 4. Do not modify the game's file(s) or memory by any means. {#not-allowed-4}
 
 **Examples**:
 
 - Opening up specific game files with a text/hex editor and changing values to what you want; editing properties such as "read-only" for game files; etc.
 - Editing the stats or unlocks in a game, and then saving the data.
 
-### <a name="not-allowed-5"></a>5. Do not use game files or programs known as "trainers".
+### 5. Do not use game files or programs known as "trainers". {#not-allowed-5}
 
 Programs which can boost your powers in games, unlock debug modes, speed the game up, modify game code, etc.
 
@@ -114,7 +114,7 @@ Programs which can boost your powers in games, unlock debug modes, speed the gam
 - Using unofficial/old mods/emulators that act as trainers or debug/cheat toolsets.
 - Game Genie / Action Replay and other similar cheat tools.
 
-### <a name="not-allowed-6"></a>6. Do not use TAS (tool-assisted speedrunning), bots, or complex scripting to gain achievements.
+### 6. Do not use TAS (tool-assisted speedrunning), bots, or complex scripting to gain achievements. {#not-allowed-6}
 
 These are all advanced scripting of a game far beyond simple tasks (sometimes even synced to clockspeed) to allow complex, unique, and/or non-monotonous/non-repetitive sections of a game to be played without human interaction.
 
@@ -124,7 +124,7 @@ These are all advanced scripting of a game far beyond simple tasks (sometimes ev
 - using a complex script with advanced functionality.
 - using complex scripts that complete entire games or large portions of games with no human input but requiring many unique actions.
 
-### <a name="not-allowed-7"></a>7. Do not allow other users to access your account and earn achievements for you.
+### 7. Do not allow other users to access your account and earn achievements for you. {#not-allowed-7}
 
 Including your "little brother" or your "cousin". You must earn your achievements yourself. Letting people earn achievements on your account is not allowed in general and if anyone cheats or breaks the rules on your account, you will still be held accountable.
 
@@ -134,13 +134,13 @@ Including your "little brother" or your "cousin". You must earn your achievement
 - Letting someone log into your RA account to beat a difficult part of a game for you.
 - Letting your little brother work on a grindy achievement for you.
 
-### <a name="not-allowed-8"></a>8. Do not be abusive to developers
+### 8. Do not be abusive to developers. {#not-allowed-8}
 
 Via forums, PMs, discord, email, etc. You’re allowed to complain, ask for changes, leave negative reviews/comments and other such respectful criticisms, but you give all of us in the achievement hunting community a really bad name when you harass/attack developers because of what they did to their game’s achievements.
 
 **Examples**: Issuing threats or flagrant insults to devs because they added achievements to their game that you do not like; using extreme/excessive rudeness while demanding a developer remove or change achievements; etc.
 
-### <a name="not-allowed-9"></a>9. Do not create or share cheating methods.
+### 9. Do not create or share cheating methods. {#not-allowed-9}
 
 **Examples**:
 
@@ -150,7 +150,7 @@ Via forums, PMs, discord, email, etc. You’re allowed to complain, ask for chan
 - Teaching someone how to hide cheating.
 - Creating a non-allowed complex script and sharing it around, even if you never use it yourself.
 
-### <a name="not-allowed-10"></a>10. Do not use in-game cheat codes unless it is specified as allowed by the developer.
+### 10. Do not use in-game cheat codes unless it is specified as allowed by the developer. {#not-allowed-10}
 
 The other side of the coin for [allowed 2](#allowed-2). Cheat codes and debug modes are not allowed unless the developer has made note of which and when it is allowed. Even if the achievements are earnable with cheat codes, this is usually unintended behavior, considered cheating if done intentionally, and should be reported as a bug via the ticket system.
 
@@ -163,17 +163,17 @@ The other side of the coin for [allowed 2](#allowed-2). Cheat codes and debug mo
 5. [Playing co-op/competitive games with another player or players is allowed.](#allowed-5)
 6. [Turbo is allowed.](#allowed-6)
 
-### <a name="allowed-1"></a>1. Fast-forward is allowed.
+### 1. Fast-forward is allowed. {#allowed-1}
 
 Even in hardcore mode fast-forward is allowed, as a modern convenience. It's ~~almost~~ a consensus that fast-forward offers no risk to the fairplay and then it's available for everyone to use it.
 
 **NOTE**: in _softcore_ mode savestates, rewind and slow motion are also allowed, but expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
-### <a name="allowed-2"></a>2. _When explicitly said in achievement's description_, in-game cheat codes/modes and in-game debug tools are allowed.
+### 2. _When explicitly said in achievement's description_, in-game cheat codes/modes and in-game debug tools are allowed. {#allowed-2}
 
 This is a complement to the [not allowed rule 2](#not-allowed-2).
 
-The achievement developers are instructed to [protect their work so the achievements can't be unlocked easily by simply using a cheat code](/guidelines/developers/code-of-conduct#every-achievement-set-must-have). However, some cool and fun challenges can be created taking advantage of some cheats. In these specific cases, using in-game cheats are allowed.
+The achievement developers are instructed to [protect their work so the achievements can't be unlocked easily by simply using a cheat code](/guidelines/content/achievement-set-requirements#every-achievement-set-must-have). However, some cool and fun challenges can be created taking advantage of some cheats. In these specific cases, using in-game cheats are allowed.
 
 **NOTE**: if you find achievements unlockable by using in-game cheats with no pertinent description, consider opening a ticket and reporting it.
 
@@ -182,7 +182,7 @@ The achievement developers are instructed to [protect their work so the achievem
 - In [Tetris (Game Boy)](http://retroachievements.org/game/508) you should activate the speed cheat to earn the [Challenge of the Gods](http://retroachievements.org/achievement/46820) achievement, where you have to clear 20 lines on speed 19.
 - In [Guerrilla War (NES)](http://retroachievements.org/game/1727) you're allowed to use the "level and difficulty select screen" cheat to earn the achievements where you have to beat the stages without killing any hostages.
 
-### <a name="allowed-3"></a>3. Making use of in-game glitches, in-game exploits, and "cheesy" tactics are allowed.
+### 3. Making use of in-game glitches, in-game exploits, and "cheesy" tactics are allowed. {#allowed-3}
 
 In-game glitches/exploits/cheesy tactics are allowed, _however developers can code their achievements to disallow them programmatically._ It's usually mentioned in the achievement's description.
 
@@ -197,13 +197,13 @@ This does not include when there are flaws in the achievement developer's code. 
 
 **Examples where developers disallow it**: Megaman (NES) - beat bosses damageless without using the pause glitch.
 
-### <a name="allowed-4"></a>4. Using online guides/walkthroughs is allowed.
+### 4. Using online guides/walkthroughs is allowed. {#allowed-4}
 
 **Examples**: youtube video guides; GameFAQs; puzzle solutions; collectible lists; etc.
 
 **A note on honesty**: Using solvers for sudoku/picross is considered cheating. Unenforceable tolerated cheating but cheating nonetheless.
 
-### <a name="allowed-5"></a>5. Playing co-op/competitive games with another player or players is allowed.
+### 5. Playing co-op/competitive games with another player or players is allowed. {#allowed-5}
 
 Playing co-op is allowed, _however developers can code their achievements to disallow it programmatically._ It's usually mentioned in the achievement's description.
 
@@ -211,7 +211,7 @@ See also [not allowed rule 2](#not-allowed-2).
 
 **Examples**: a skilled friend playing Streets of Rage or Goof Troop with you; etc.
 
-### <a name="allowed-6"></a>6. Turbo is allowed.
+### 6. Turbo is allowed. {#allowed-6}
 
 Turbo is where you hold a single button down and the button is automatically re-pressed again and again quickly. Turbo is either built into controllers, or into emulation software. In either case it is allowed.
 

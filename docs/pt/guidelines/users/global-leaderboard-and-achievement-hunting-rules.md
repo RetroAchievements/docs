@@ -58,7 +58,7 @@ Se você notar que um jogador se tornou não rastreado: não o assedie, acuse de
 9. [Não crie ou compartilhe métodos de trapaça.](#not-allowed-9)
 10. [Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor.](#not-allowed-10)
 
-### <a name="not-allowed-1"></a>1. Não use métodos que contornem o código de conquistas para desbloquear conquistas instantaneamente.
+### 1. Não use métodos que contornem o código de conquistas para desbloquear conquistas instantaneamente. {#not-allowed-1}
 
 Mesmo se você "deveria ter" desbloqueado a conquista. Mesmo se o jogo estiver bugado. Mesmo se a conquista for removida ou estiver completamente quebrada. Quando detectado, isso levará a conta a ser **[Não Rastreada](#untracked)**.
 
@@ -66,7 +66,7 @@ Nos casos em que você deveria ter desbloqueado a conquista, mas ela não foi ac
 
 **NOTA**: certifique-se de estar usando a versão mais recente de um emulador aprovado e suportado.
 
-### <a name="not-allowed-2"></a>2. Não ganhe conquistas de maneira que contradiga o que a descrição pede.
+### 2. Não ganhe conquistas de maneira que contradiga o que a descrição pede. {#not-allowed-2}
 
 Se você descobrir uma maneira alternativa de desbloquear uma conquista, isso é um bug. Por favor, reporte este bug usando um relatório de ticket.
 
@@ -78,7 +78,7 @@ Veja também a [regra permitida 2](#allowed-2).
 - Você percebe que, ao ir e voltar entre duas salas, desbloqueia conquistas destinadas ao progresso no jogo.
 - Você encontrou um método de ganhar conquistas de chefes sem sofrer danos enquanto leva dano durante as lutas.
 
-### <a name="not-allowed-3"></a>3. Não use arquivos de save ou senhas que não sejam seus ou foram feitos em outras condições de jogo.
+### 3. Não use arquivos de save ou senhas que não sejam seus ou foram feitos em outras condições de jogo. {#not-allowed-3}
 
 Ocasionalmente, um desenvolvedor pode fornecer um arquivo de save ou senha para você usar para ganhar certas conquistas. Isso é apropriado de acordo com o julgamento do desenvolvedor do set.
 
@@ -89,14 +89,14 @@ Ocasionalmente, um desenvolvedor pode fornecer um arquivo de save ou senha para 
 - Carregar um arquivo de save para Hardcore que você criou enquanto jogava em um emulador não-RA.
 - Carregar um arquivo de save para Hardcore que você criou no Softcore para ganhar pontos Hardcore.
 
-### <a name="not-allowed-4"></a>4. Não modifique os arquivos ou a memória do jogo por qualquer meio.
+### 4. Não modifique os arquivos ou a memória do jogo por qualquer meio. {#not-allowed-4}
 
 **Exemplos**:
 
 - Abrir arquivos específicos do jogo com um editor de texto/hexadecimal e alterar valores para o que você deseja; editar propriedades como "somente leitura" para arquivos de jogos; etc.
 - Editar as estatísticas ou desbloqueios em um jogo e, em seguida, salvar os dados.
 
-### <a name="not-allowed-5"></a>5. Não use arquivos de jogo ou programas conhecidos como "trainers".
+### 5. Não use arquivos de jogo ou programas conhecidos como "trainers". {#not-allowed-5}
 
 Programas que podem aumentar seus poderes nos jogos, desbloquear modos de depuração, acelerar o jogo, modificar o código do jogo, etc.
 
@@ -107,7 +107,7 @@ Programas que podem aumentar seus poderes nos jogos, desbloquear modos de depura
 - Usar mods/emuladores não oficiais/antigos que atuam como trainers ou conjuntos de ferramentas de depuração/trapaça.
 - Game Genie / Action Replay e outras ferramentas de trapaça semelhantes.
 
-### <a name="not-allowed-6"></a>6. Não use TAS (tool-assisted speedrunning), bots ou scripts complexos para ganhar conquistas.
+### 6. Não use TAS (tool-assisted speedrunning), bots ou scripts complexos para ganhar conquistas. {#not-allowed-6}
 
 Estes são todos scripts avançados de um jogo muito além de tarefas simples (às vezes até sincronizados com a velocidade do relógio) para permitir que seções complexas, únicas e/ou não monótonas/repetitivas de um jogo sejam jogadas sem interação humana.
 
@@ -117,7 +117,7 @@ Estes são todos scripts avançados de um jogo muito além de tarefas simples (�
 - Usar um script complexo com funcionalidade avançada.
 - Usar scripts complexos que completam jogos inteiros ou grandes partes de jogos sem entrada humana, mas exigindo muitas ações únicas.
 
-### <a name="not-allowed-7"></a>7. Não permita que outros usuários acessem sua conta e ganhem conquistas por você.
+### 7. Não permita que outros usuários acessem sua conta e ganhem conquistas por você. {#not-allowed-7}
 
 Incluindo seu "irmãozinho" ou seu "primo". Você deve ganhar suas conquistas sozinho. Permitir que pessoas ganhem conquistas em sua conta não é permitido em geral e, se alguém trapacear ou quebrar as regras em sua conta, você ainda será responsabilizado.
 
@@ -127,13 +127,13 @@ Incluindo seu "irmãozinho" ou seu "primo". Você deve ganhar suas conquistas so
 - Permitir que alguém faça login na sua conta RA para vencer uma parte difícil de um jogo para você.
 - Deixar seu irmãozinho trabalhar em uma conquista demorada para você.
 
-### <a name="not-allowed-8"></a>8. Não seja abusivo com os desenvolvedores
+### 8. Não seja abusivo com os desenvolvedores. {#not-allowed-8}
 
 Via fóruns, PMs, discord, email, etc. Você pode reclamar, pedir mudanças, deixar críticas/comentários negativos e outras críticas respeitosas, mas você dá um péssimo nome para todos nós na comunidade de caça às conquistas quando assedia/ataca desenvolvedores por causa do que eles fizeram às conquistas de seus jogos.
 
 **Exemplos**: Fazer ameaças ou insultos flagrantes aos desenvolvedores porque eles adicionaram conquistas ao jogo que você não gosta; usar extrema/excessiva grosseria ao exigir que um desenvolvedor remova ou mude conquistas; etc.
 
-### <a name="not-allowed-9"></a>9. Não crie ou compartilhe métodos de trapaça.
+### 9. Não crie ou compartilhe métodos de trapaça. {#not-allowed-9}
 
 **Exemplos**:
 
@@ -143,7 +143,7 @@ Via fóruns, PMs, discord, email, etc. Você pode reclamar, pedir mudanças, dei
 - Ensinar alguém a esconder trapaças.
 - Criar um script complexo não permitido e compartilhá-lo, mesmo que você nunca o use.
 
-### <a name="not-allowed-10"></a>10. Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor.
+### 10. Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor. {#not-allowed-10}
 
 O outro lado da moeda para [regra permitida 2](#allowed-2). Códigos de trapaça e modos de depuração não são permitidos, a menos que o desenvolvedor tenha anotado quais e quando são permitidos. Mesmo se as conquistas forem conquistáveis com códigos de trapaça, isso geralmente é um comportamento não intencional, considerado trapaça se feito intencionalmente e deve ser relatado como um bug via sistema de tickets.
 
@@ -156,17 +156,17 @@ O outro lado da moeda para [regra permitida 2](#allowed-2). Códigos de trapaça
 5. [Jogar jogos cooperativos/competitivos com outro jogador ou jogadores é permitido.](#allowed-5)
 6. [Turbo é permitido.](#allowed-6)
 
-### <a name="allowed-1"></a>1. Avanço rápido é permitido.
+### 1. Avanço rápido é permitido. {#allowed-1}
 
 Mesmo no modo hardcore, o avanço rápido é permitido, como uma conveniência moderna. É ~~quase~~ um consenso que o avanço rápido não oferece risco ao jogo justo e, portanto, está disponível para todos usarem.
 
 **NOTA**: no modo _softcore_, savestates, rewind e slow motion também são permitidos, mas espere ter alguns problemas. Leia [neste link Por que você não deve usar o recurso de load state](/orphaned/load-state-feature).
 
-### <a name="allowed-2"></a>2. _Quando explicitamente dito na descrição da conquista_, códigos/modos de trapaça no jogo e ferramentas de depuração no jogo são permitidos.
+### 2. _Quando explicitamente dito na descrição da conquista_, códigos/modos de trapaça no jogo e ferramentas de depuração no jogo são permitidos. {#allowed-2}
 
 Isso é um complemento para a [regra não permitida 2](#not-allowed-2).
 
-Os desenvolvedores de conquistas são instruídos a [proteger seu trabalho para que as conquistas não possam ser desbloqueadas facilmente apenas usando um código de trapaça](/guidelines/developers/code-of-conduct#every-achievement-set-must-have). No entanto, alguns desafios legais e divertidos podem ser criados aproveitando-se de algumas trapaças. Nesses casos específicos, o uso de trapaças no jogo é permitido.
+Os desenvolvedores de conquistas são instruídos a [proteger seu trabalho para que as conquistas não possam ser desbloqueadas facilmente apenas usando um código de trapaça](/pt/guidelines/content/achievement-set-requirements#todo-conjunto-de-conquistas-deve-ter). No entanto, alguns desafios legais e divertidos podem ser criados aproveitando-se de algumas trapaças. Nesses casos específicos, o uso de trapaças no jogo é permitido.
 
 **NOTA**: se você encontrar conquistas desbloqueáveis usando trapaças no jogo sem a descrição pertinente, considere abrir um ticket e relatá-lo.
 
@@ -175,7 +175,7 @@ Os desenvolvedores de conquistas são instruídos a [proteger seu trabalho para 
 - Em [Tetris (Game Boy)](http://retroachievements.org/game/508), você deve ativar a trapaça de velocidade para ganhar a conquista [Challenge of the Gods](http://retroachievements.org/achievement/46820), onde você tem que limpar 20 linhas na velocidade 19.
 - Em [Guerrilla War (NES)](http://retroachievements.org/game/1727), você pode usar a trapaça de "tela de seleção de nível e dificuldade" para ganhar as conquistas onde você tem que completar os estágios sem matar nenhum refém.
 
-### <a name="allowed-3"></a>3. Fazer uso de glitches, exploits e táticas "cheesy" no jogo é permitido.
+### 3. Fazer uso de glitches, exploits e táticas "cheesy" no jogo é permitido. {#allowed-3}
 
 Glitches/exploits/táticas cheesy no jogo são permitidos, _no entanto, os desenvolvedores podem programar suas conquistas para desautorizá-los programaticamente._ Isso geralmente é mencionado na descrição da conquista.
 
@@ -190,13 +190,13 @@ Isso não inclui quando há falhas no código do desenvolvedor da conquista. Nes
 
 **Exemplos onde os desenvolvedores desautorizam**: Megaman (NES) - derrotar chefes sem sofrer dano sem usar o glitch de pausa.
 
-### <a name="allowed-4"></a>4. Usar guias/soluções online é permitido.
+### 4. Usar guias/soluções online é permitido. {#allowed-4}
 
 **Exemplos**: guias de vídeo no youtube; GameFAQs; soluções de quebra-cabeças; listas de colecionáveis; etc.
 
 **Uma nota sobre honestidade**: Usar solvers para sudoku/picross é considerado trapaça. Trapaça tolerada, mas ainda assim trapaça.
 
-### <a name="allowed-5"></a>5. Jogar jogos cooperativos/competitivos com outro jogador ou jogadores é permitido.
+### 5. Jogar jogos cooperativos/competitivos com outro jogador ou jogadores é permitido. {#allowed-5}
 
 Jogar cooperativamente é permitido, _no entanto, os desenvolvedores podem programar suas conquistas para desautorizá-lo programaticamente._ Isso geralmente é mencionado na descrição da conquista.
 
@@ -204,7 +204,7 @@ Veja também [regra não permitida 2](#not-allowed-2).
 
 **Exemplos**: um amigo habilidoso jogando Streets of Rage ou Goof Troop com você; etc.
 
-### <a name="allowed-6"></a>6. Turbo é permitido.
+### 6. Turbo é permitido. {#allowed-6}
 
 Turbo é quando você mantém pressionado um único botão e o botão é pressionado automaticamente repetidas vezes rapidamente. Turbo é embutido em controles ou em software de emulação. Em ambos os casos, é permitido.
 
