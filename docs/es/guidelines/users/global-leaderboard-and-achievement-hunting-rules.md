@@ -63,7 +63,7 @@ Así que, si quieres disfrutar de RetroAchievements pero no quieres competir en 
 9. [No crees o compartas métodos para hacer trampa.](#no-permitido-9)
 10. [No utilices códigos dentro del juego al menos que sea permitido por el desarrollador.](#no-permitido-10)
 
-### <a name="no-permitido-1"></a>1. No utilices métodos que alteren el código del logro para desbloquearlos inmediatamente.
+### 1. No utilices métodos que alteren el código del logro para desbloquearlos inmediatamente. {#no-permitido-1}
 
 Incluso si "tu tuviste" que haber conseguido ese logro. Incluso si el juego estaba buggeado. Incluso si el logro esta completamente roto o removido. Cuando esto es detectado es muy probable que tu cuenta se pase a **[Untracked](#no-trackeadountracked)**.
 
@@ -71,7 +71,7 @@ En los casos en que el logro tuvo que haberse desbloqueado pero no paso o no se 
 
 **NOTA**: percatate de utilizar la ultima versión disponible para ese emulador.
 
-### <a name="no-permitido-2"></a>2. No consigas logros en una manera en la que no fueron las intenciones del desarrollador del logro.
+### 2. No consigas logros en una manera en la que no fueron las intenciones del desarrollador del logro. {#no-permitido-2}
 
 Si descubres un atajo a un logro esto es un bug. Por favor reporta este bug creando un ticket de reporte.
 
@@ -83,7 +83,7 @@ Tambien mira la [regla permitida 2](#permitido-2).
 - Te diste cuenta que si entras y sales entre dos cuartos desbloqueas logros intencionados para progresión del juego.
 - Encontraste un método para conseguir logros de no recibir daño contra un jefe mientras conseguías daño en la pelea.
 
-### <a name="no-permitido-3"></a>3. No utilices archivos de guardado que no sean tuyos o fueron hechos para jugar con otras condiciones.
+### 3. No utilices archivos de guardado que no sean tuyos o fueron hechos para jugar con otras condiciones. {#no-permitido-3}
 
 Incluso si tu archivo esta perdido/corrupto o necesitas un archivo de guardado de cierta parte en el juego por que se te paso algo.
 
@@ -93,14 +93,14 @@ Incluso si tu archivo esta perdido/corrupto o necesitas un archivo de guardado d
 - Rogarle a un amigo que te mande su archivo de guardado por que se incendio tu casa y se perdieron todos tus archivos de la PC.
 - Cargar un archivo de guardado que creaste en un emulador sin soporte para RA, a uno con soporte para RA.
 
-### <a name="no-permitido-4"></a>4. De ninguna manera modifiques el(los) archivo(s) o memoria del juego.
+### 4. De ninguna manera modifiques el(los) archivo(s) o memoria del juego. {#no-permitido-4}
 
 **Ejemplos**:
 
 - Abrir los archivos del juegos con un editor de texto/hex y cambiar los valores a tu gusto; editar propiedades para archivos del juego de "solo-lectura"; etc.
 - Editar las estadísticas o desbloqueables del juego, y después guardar tu partida.
 
-### <a name="no-permitido-5"></a>5. No utilices archivos de juego o programas conocidos como "trainers".
+### 5. No utilices archivos de juego o programas conocidos como "trainers". {#no-permitido-5}
 
 Programas que pueden potenciar tus poderes en juegos, desbloquear modo de desarrollador, aumentar la velocidad del juego, modificar el código del juego, etc.
 
@@ -111,7 +111,7 @@ Programas que pueden potenciar tus poderes en juegos, desbloquear modo de desarr
 - Utilizar emuladores no-oficiales/antiguos-mods que actuan como trainers o herramientas de desarrollo/cheats.
 - Game Genie / Action Replay y cualquier otra herramienta de cheats similar.
 
-### <a name="no-permitido-6"></a>6. No utilices TAS (tool-assisted speedrunning), bots, o escritura compleja para conseguir logros.
+### 6. No utilices TAS (tool-assisted speedrunning), bots, o escritura compleja para conseguir logros. {#no-permitido-6}
 
 Estos ya es scripting avanzado que va mas alla de tareas simples (algunas veces incluso sincronizado con la velocidad de reloj del procesador) para permitir que secciones del juegos que sean jugadas de una manera compleja/única/o no-monotona/no-repetitiva y sin interacción humana alguna.
 
@@ -121,7 +121,7 @@ Estos ya es scripting avanzado que va mas alla de tareas simples (algunas veces 
 - Utilizar un script complejo con funciones avanzadas.
 - Utilizar scripts complejos que te completan un juego por completo o porciones grandes del juego sin ninguna interacción humana pero que requieren algunas acciones especiales.
 
-### <a name="no-permitido-7"></a>7. No permitas que otra gente acceda a tu cuenta y consiga logros por ti.
+### 7. No permitas que otra gente acceda a tu cuenta y consiga logros por ti. {#no-permitido-7}
 
 Incluyendo tu "hermano pequeño" o tu "primo". Tu tienes que conseguir logros por ti mismo. Permitir que otra gente consiga logros en tu cuenta no esta permitido en general y si alguien hace trampa o rompe las reglas en tu cuenta tu vas a ser el responsable por sus acciones.
 
@@ -131,13 +131,13 @@ Incluyendo tu "hermano pequeño" o tu "primo". Tu tienes que conseguir logros po
 - Permitir que alguien inicie sección en tu cuenta para que pase alguna parte complicada de un juego por ti.
 - Permitir que tu hermano pequeño trabaje en un logro de grindear por ti.
 
-### <a name="no-permitido-8"></a>8. No seas abusivo/a con los desarrolladores.
+### 8. No seas abusivo/a con los desarrolladores. {#no-permitido-8}
 
 Por medio del foro, Mensajes Privados, Discord, email, etc. Tienes permitido quejarte, solicitar cambios, dejar comentarios/reseñas negativas y otras criticas de manera respetuosa, pero tu das un nombre muy mal en la comunidad de cazadores de logros cuando hostigas/atacas a desarrolladores debido a lo que hicieron con los logros de su juego.
 
 **Ejemplos**: Mandar amenazas o insultos a desarrolladores porque agregaron logros a su juego que a ti no te gusta; utilizando una agresividad extrema/excesiva mientras exiges al desarrollador que remueva cambie los logros; etc.
 
-### <a name="no-permitido-9"></a>9. No crees o compartas métodos para hacer trampa.
+### 9. No crees o compartas métodos para hacer trampa. {#no-permitido-9}
 
 **Ejemplos**:
 
@@ -147,7 +147,7 @@ Por medio del foro, Mensajes Privados, Discord, email, etc. Tienes permitido que
 - Enseñarle a alguien como hacer trampa sin que se note.
 - Crear un script complejo no-permitido y compartirlo inclusive si tu nunca lo utilizaste personalmente.
 
-### <a name="no-permitido-10"></a>10. No utilices códigos dentro del juego al menos que sea permitido por el desarrollador.
+### 10. No utilices códigos dentro del juego al menos que sea permitido por el desarrollador. {#no-permitido-10}
 
 El otro lado de la moneda para [permitido 2](#permitido-2). Cheat codes y modos debug no están permitidos mientras el desarrollador a hecho una nota en la que dice donde y cuando es permitido. Incluso si los logros son conseguibles con cheat codes este usualmente es un comportamiento no permitido, considerando que utilizaste cheats de una manera intencional, deberías de reportarlo como un bug con el sistema de tickets.
 
@@ -160,13 +160,13 @@ El otro lado de la moneda para [permitido 2](#permitido-2). Cheat codes y modos 
 5. [Jugar juegos en co-op/competitivo con otro jugador o jugadores es permitido.](#permitido-5)
 6. [Turbo esta permitido.](#permitido-6)
 
-### <a name="permitido-1"></a>1. Fast-forward esta permitido.
+### 1. Fast-forward esta permitido. {#permitido-1}
 
 Incluso en modo hardcore el fast-forward esta permitido, como una conveniencia de la actualidad. Es ~~casi~~ un hecho de que el fast-forward ofrece una partida justa y por eso esta disponible para que todos lo utilicen.
 
 **NOTA**:en modo _softcore_ savestates, rewind y camara-lenta también están permitidos, pero ten en cuenta que podrias llegar a tener algunos problemas. Checa [este link de Porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature).
 
-### <a name="permitido-2"></a>2. _Cuando dice explicitamente en la descripción de logro_, cheat codes/modo dentro del juego están permitidos y herramientas de desarrollo/debug están permitidas.
+### 2. _Cuando dice explicitamente en la descripción de logro_, cheat codes/modo dentro del juego están permitidos y herramientas de desarrollo/debug están permitidas. {#permitido-2}
 
 Este es un complemento a la [regla no permitida numero 2](#no-permitido-2).
 
@@ -179,7 +179,7 @@ El desarrollador de logros debería de estar capacitado en [proteger su trabajo 
 - En [Tetris (Game Boy)](http://retroachievements.org/game/508) necesitas activar el código de velocidad para conseguir el logro [Reto de los Dioses (Challenge of the Gods)](http://retroachievements.org/achievement/46820), donde necesitas limpiar 20 lineas en velocidad 19.
 - En [Guerrilla War (NES)](http://retroachievements.org/game/1727) tienes permitido utilizar el código de "selección de niveles y dificultad" para conseguir logros donde necesitas completar stages sin acecinar a ningún rehén.
 
-### <a name="permitido-3"></a>3. Hacer uso de glitches dentro del juego, exploits, y tácticas "monótonas" (cheesy tactics) es permitido.
+### 3. Hacer uso de glitches dentro del juego, exploits, y tácticas "monótonas" (cheesy tactics) es permitido. {#permitido-3}
 
 Glitches/exploits/tacticas-monótonas esta permitido, _aunque los desarrolladores pueden programar sus logros para desactivarlos._ Esto es usualmente mencionado en la descripción del logro.
 
@@ -194,11 +194,11 @@ Esto no incluye cuando hay fallas en el código del logro del desarrollador. En 
 
 **Ejemplos cuando los desarrolladores lo desabilitan**: Megaman (NES) - vence a los jefes sin recibir daño sin utilizar el glitch de pausa.
 
-### <a name="permitido-4"></a>4. Utilizar guías/walkthroughs en linea es permitido.
+### 4. Utilizar guías/walkthroughs en linea es permitido. {#permitido-4}
 
 **Ejemplos**: vídeo guías de youtube; GameFAQs; soluciones de puzzles; lista de coleccionables; etc.
 
-### <a name="permitido-5"></a>5. Jugar juegos en co-op/competitivo con otro jugador o jugadores es permitido.
+### 5. Jugar juegos en co-op/competitivo con otro jugador o jugadores es permitido. {#permitido-5}
 
 Jugar co-op esta permitido, _sin embargo los desarrolladores pueden codificar sus logros para desactivarlo._ Esto es usualmente mencionado en la descripción del logro.
 
@@ -206,7 +206,7 @@ También mira [regla no permitida 2](#no-permitido-2).
 
 **Ejemplos**: un amigo con experiencia jugando Streets of Rage o Goof Troop contigo; etc.
 
-### <a name="permitido-6"></a>6. Turbo esta permitido.
+### 6. Turbo esta permitido. {#permitido-6}
 
 Turbo es cuando dejas presionado solamente un botón y el botón es automáticamente presionado una y otra vez. Esta función ya sea que esta integrada en el control, o en el emulador. En los dos de los casos esta permitido.
 
