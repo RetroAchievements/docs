@@ -60,9 +60,9 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 - [luchaos](https://retroachievements.org/user/luchaos)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [Scott](https://retroachievements.org/user/Scott)
-- [Snow](https://retroachievements.org/user/Snow)
+- [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
-- [televandalist](https://retroachievements.org/user/televandalist)
+- [tele](https://retroachievements.org/user/tele)
 - [WCopeland](https://retroachievements.org/user/WCopeland)
 - [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
@@ -76,9 +76,9 @@ The team responsible to keep the this community a healthy place (at least for th
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
 - [LordAndrew](https://retroachievements.org/user/LordAndrew)
 - [Searo](https://retroachievements.org/user/Searo)
-- [Snow](https://retroachievements.org/user/Snow)
+- [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
-- [Suffa28](https://retroachievements.org/user/Suffa28)
+- [Suffa](https://retroachievements.org/user/Suffa)
 - [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
 ### Community Manager
@@ -105,20 +105,25 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [tomojin](https://retroachievements.org/user/tomojin)
+- [zxmega](https://retroachievements.org/user/zxmega)
 
 ### Quality Assurance Team
 
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
+- [AmirGaris](https://retroachievements.org/user/AmirGaris)
 - [BoomEX](https://retroachievements.org/user/BoomEX)
+- [Brandovsky](https://retroachievements.org/user/Brandovsky)
+- [cdpowe](https://retroachievements.org/user/cdpowe)
 - [DanielARP](https://retroachievements.org/user/DanielARP)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
+- [Raichi](https://retroachievements.org/user/Raichi)
+- [s0uth](https://retroachievements.org/user/s0uth)
 - [Searo](https://retroachievements.org/user/Searo)
-- [Sines](https://retroachievements.org/user/Sines)
 - [StingX2](https://retroachievements.org/user/StingX2)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
@@ -146,6 +151,7 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [wolfman2000](https://retroachievements.org/user/wolfman2000)
+- [Yanbetari](https://retroachievements.org/user/Yanbetari)
 
 ### Tech Team
 
