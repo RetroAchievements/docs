@@ -79,7 +79,6 @@ The team responsible to keep the this community a healthy place (at least for th
 - [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [Suffa](https://retroachievements.org/user/Suffa)
-- [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
 ### Community Manager
 
@@ -174,7 +173,7 @@ The team that is more involved with the tech side of things, whether it be the w
 - [Scott](https://retroachievements.org/user/Scott)
 - [Searo](https://retroachievements.org/user/Searo)
 - [TeddyWestside](https://retroachievements.org/user/TeddyWestside)
-- [televandalist](https://retroachievements.org/user/televandalist)
+- [tele](https://retroachievements.org/user/tele)
 - [WCopeland](https://retroachievements.org/user/WCopeland)
 - [Xymjak](https://retroachievements.org/user/Xymjak)
 
