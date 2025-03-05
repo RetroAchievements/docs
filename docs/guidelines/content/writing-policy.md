@@ -112,12 +112,31 @@ Abbreviations should generally only be used for honorary titles or degrees such 
 
 ### Brackets/Parentheses
 
-Brackets have often been used by developers to note conditions that have to be met, such as being on a specific difficulty or playing a specific game mode. While there are situations where this is appropriate, for example when there are too many conditions to make a coherent description that doesn’t result in a long list of ‘’ands’’, achievement descriptions are easier to read and more stylish when presented as a single phrase or sentence rather than divided into multiple parts through the use of brackets and parentheses.
+Brackets/Parentheses (hereafter referred to as grouping symbols) in descriptions may be used by developers if required to note specific conditions of an achievement to make them stand out more from the regular conditions. While very useful, we urge you to think carefully on when to use them. If one or multiple achievements only have one specific condition, or a condition that influences your entire playthrough, we recommend to rewrite them in such a way to make them into a singular flowing sentence. Common conditions such as the difficulty setting, or objectives like taking no damage or losing less than a specified threshold or lives usually have no place within grouping symbols.
 
-When there are only a few conditions, we ask you to write your descriptive sentence to include this condition naturally.
+**Example of how you should write the description:** "Beat the game on hard difficulty without losing a life".<br>
+**Example of how you should NOT write the description:** "Beat the game [no lives lost, hard difficulty]".<br>
 
-**Example of how you should write the description:** ‘’Beat the game on hard difficulty without losing a life’’.<br>
-**Example of how you should NOT write the description:** ‘’Beat the game without losing a life [hard difficulty]’’.<br>
+Furthermore, it is also recommended to carefully consider whether a condition has a place in your description before even thinking of using grouping symbols. If an achievement can be gained on any difficulty, or the settings a player can select have no impact on unlocking an achievement, it is not necessary to be mentioned in the description--especially when there are other achievements that do have restrictions. For example, "Beat Hasty Highway on any difficulty with any starting lives" is irrelevant for the description, and can be shortened to just "Beat Hasty Highway". Likewise, if the achievement must be obtained on default settings, then mentioning just that is more than sufficient; there is no need to go in-depth on each setting, like rounds set to 3 lasting 60 seconds each, when these are the default settings and can be summed up as such.
+
+Where grouping symbols do shine, is when an achievement has multiple conditions that could not reasonably be converted into one flowing sentence. It's very important that the user will always understand the main objective of the achievement, without being overwhelmed due to the sentence being long because of the amount of conditions. This is especially relevant for Arcade-like games that have multiple settings, or with a challenge achievement tasking the player to do multiple unique tasks not commonly present in other achievements within the same set. Until a better system is in place, there are some global settings across all sets that we allow to be within grouping symbols by default, such as the amount of players, and whether in-game cheats are allowed (not when they aren't, as this is part of the RetroAchievements guidelines).
+
+**Parentheses ()**<br>
+Use these for when the condition you are writing is part of a sentence. As these are sentences, only the first letter should be capitalized as well as other words when applicable (refer to capitalization).
+
+- Example 1: "Beat the final boss on Hard difficulty (Level select is allowed)" or "Beat the final boss on Hard difficulty. Level select is allowed" or "Beat the final boss on Hard difficulty - Level select is allowed"<br>
+- Example 2: "Open all chests in the Fire Dungeon (Missable chest in the fourth room is not required)"<br>
+
+**Brackets []**<br>
+Use these when you want to strictly note a condition, setting, mode, etcetera. Every word of the condition should be capitalized. Recommended is to also use one group of brackets per condition with a space between to separate them from each other. As mentioned before, it is preferred to first consider whether it can be rewritten into one flowing sentence, but we expect you as the set developer to have the most accurate judgement.
+
+- Example 1: "Beat Ryu in Arcade mode [5 Rounds] [Infinite Time]" or "Beat Ryu in a 5-round match in Arcade mode [Infinite Time]" or "Beat Ryu in a 5-round match in Arcade mode with time set to infinite"<br>
+- Example 2: "Score 100,000 points (Level select is allowed) [3 Continues] [One Player] [Default Settings]"<br>
+
+Another welcome use of brackets specifically is at the start of a description when a game is a compilation or has multiple specific modes, minigames, or chapters. While in specific scenarios it is still preferred to write them out into one descriptive sentence, such as when the achievement count it applies to is relatively small or while the rest of the set do not use brackets anywhere, there are good cases where it's equally as good if not even better.
+
+- Example of compilations (taking Mega Man: The Wily Wars as case): "Beat Cut Man in Mega Man 1" or "[MM1] Beat Cut Man".<br>
+- Example of modes/minigames/chapters (taking Super Monkey Ball Deluxe as case): "Get a home run in Monkey Baseball" or "[Monkey Baseball] Get a home run"<br>
 
 ---
 
