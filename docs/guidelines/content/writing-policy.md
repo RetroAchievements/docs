@@ -122,16 +122,16 @@ Furthermore, it is also recommended to carefully consider whether a condition ha
 Where grouping symbols do shine, is when an achievement has multiple conditions that could not reasonably be converted into one flowing sentence. It's very important that the user will always understand the main objective of the achievement, without being overwhelmed due to the sentence being long because of the amount of conditions. This is especially relevant for Arcade-like games that have multiple settings, or with a challenge achievement tasking the player to do multiple unique tasks not commonly present in other achievements within the same set. Until a better system is in place, there are some global settings across all sets that we allow to be within grouping symbols by default, such as the amount of players, and whether in-game cheats are allowed (not when they aren't, as this is part of the RetroAchievements guidelines).
 
 **Parentheses ()**<br>
-Use these for when the condition you are writing is part of a sentence. As these are sentences, only the first letter should be capitalized as well as other words when applicable (refer to capitalization).
+Use these for when the condition you are writing is a (small) sentence of their own. These are not new sentences separated by an ending period, thus do not need to start with a capital letter.
 
-- Example 1: "Beat the final boss on Hard difficulty (Level select is allowed)" or "Beat the final boss on Hard difficulty. Level select is allowed" or "Beat the final boss on Hard difficulty - Level select is allowed"<br>
-- Example 2: "Open all chests in the Fire Dungeon (Missable chest in the fourth room is not required)"<br>
+- Example 1: "Beat the final boss on Hard difficulty (level select is allowed)" or "Beat the final boss on Hard difficulty. Level select is allowed" or "Beat the final boss on Hard difficulty - level select is allowed"<br>
+- Example 2: "Open all chests in the Fire Dungeon (missable chest in the fourth room is not required)"<br>
 
 **Brackets []**<br>
 Use these when you want to strictly note a condition, setting, mode, etcetera. Every word of the condition should be capitalized. Recommended is to also use one group of brackets per condition with a space between to separate them from each other. As mentioned before, it is preferred to first consider whether it can be rewritten into one flowing sentence, but we expect you as the set developer to have the most accurate judgement.
 
 - Example 1: "Beat Ryu in Arcade mode [5 Rounds] [Infinite Time]" or "Beat Ryu in a 5-round match in Arcade mode [Infinite Time]" or "Beat Ryu in a 5-round match in Arcade mode with time set to infinite"<br>
-- Example 2: "Score 100,000 points (Level select is allowed) [3 Continues] [One Player] [Default Settings]"<br>
+- Example 2: "Score 100,000 points (level select is allowed) [3 Continues] [One Player] [Default Settings]"<br>
 
 Another welcome use of brackets specifically is at the start of a description when a game is a compilation or has multiple specific modes, minigames, or chapters. While in specific scenarios it is still preferred to write them out into one descriptive sentence, such as when the achievement count it applies to is relatively small or while the rest of the set do not use brackets anywhere, there are good cases where it's equally as good if not even better.
 
