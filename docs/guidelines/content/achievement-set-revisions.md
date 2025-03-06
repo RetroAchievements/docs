@@ -239,13 +239,15 @@ Revision voting is currently dev-only. While voting is exclusive to Discord, ple
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of the revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
 ## Reauthorship Consideration
-Reauthoring effectively erases a significant contribution of a former developer. This fact should not be taken lightly as protecting the authorship of developers not only ensures their contributions remain recognized, but it also ensures that every developers' contributions now and in the future will also be safeguarded so long as they are serviceable.
+Reauthoring effectively hides a significant contribution of a former developer. This fact should not be taken lightly as protecting the authorship of developers not only ensures their contributions remain recognized, but it also ensures that every developers' contributions now and in the future will also be safeguarded so long as they are serviceable.
+
+All work done on a revision/overhaul/repair should be promoted as soon as it is ready and not contingent upon potential reauthor consideration. Should a reauthor be approved, DevCompliance will coordinate directly with the developer on the process.
 
 ### Purpose and Qualification
 The purpose of a reauthor is to directly assign maintenance responsibility to a new author, with tickets being assigned to the new author, and so potentially affecting their ability to make claims and risk falling into ticket negligence if unaddressed. Reauthoring is done when a developer significantly updates an unstable set to fix problems and wishes to become fully responsible for the affected work.
 
 ### What May Qualify for a Reauthor?
-A good candiate for a reauthor will meet many of the following criteria:
+A good candidate for a reauthor will meet many of the following criteria:
 
 - Existing logic was fundamentally flawed for the set or for a category of achievements and needed to be replaced in all of the affected achievements.
 - Problems in the set were causing regular tickets or the set was demoted due to an exploit or other problematic quality issue.
