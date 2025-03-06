@@ -237,3 +237,31 @@ Revision voting is currently dev-only. While voting is exclusive to Discord, ple
 - You may contact them in any manner in which you can be reasonably certain they will see it (DMs preferred)
 - If you believe you may be blocked by the user, send a message to [DevCompliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Revision%20Contact%20Request%20-%20[Author%20Name]) asking them to contact the author on your behalf. The 72hr maximum wait time will begin upon sending the message to DevCompliance. When doing so, state the user's name, type of revision, and the brief description of what your revision entails as if you were contacting the author directly.
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of the revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
+
+## Reauthorship Consideration
+Reauthoring effectively erases a significant contribution of a former developer. This fact should not be taken lightly as protecting the authorship of developers not only ensures their contributions remain recognized, but it also ensures that every developers' contributions now and in the future will also be safeguarded so long as they are serviceable.
+
+### Purpose and Qualification
+The purpose of a reauthor is to directly assign maintenance responsibility to a new author, with tickets being assigned to the new author, and so potentially affecting their ability to make claims and risk falling into ticket negligence if unaddressed. Reauthoring is done when a developer significantly updates an unstable set to fix problems and wishes to become fully responsible for the affected work.
+
+### What May Qualify for a Reauthor?
+A good candiate for a reauthor will meet many of the following criteria:
+
+- Existing logic was fundamentally flawed for the set or for a category of achievements and needed to be replaced in all of the affected achievements.
+- Problems in the set were causing regular tickets or the set was demoted due to an exploit or other problematic quality issue.
+- Significant New RAM digging needed to be done to find replacement addresses or better addresses to use to accomplish the goals.
+- Significant logic re-work was necessary for proper functionality and stability.
+- Very few, if any logic conditions were retained in the new logic.
+- Any retained logic conditions were not the most important piece of data for functionality.
+- One-condition achievements where the final product is vastly changed.
+- Adding hash or language support requiring a rewrite that significantly changed the approach to logic.
+- Any set demoted for necessary repairs by QA-Maintainers that is flagged as a possible reauthoring opportunity by QA-Maintainers and Developer Compliance.
+ 
+### What Shall Not Qualify for a Reauthor?
+Writing new logic for previously stable achievements is not sufficient to warrant reauthorship.  Poor candidates include, but are not limited to:
+
+- Logic reworked that did not exhibit any issues (i.e. not prone to tickets or exploits).
+- A main change was simply adding Delta checks.
+- A main change was simply adding an in-game/in-stage, or other similar guarding condition.
+- Only added protection such as save protection, demo protection, or cheat protection.
+- Updating out-dated logic of otherwise functional achievements to be in line with modern toolkit features and standards.
