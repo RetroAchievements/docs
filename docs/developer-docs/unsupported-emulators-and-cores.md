@@ -111,7 +111,8 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## Game Boy
 
-- ❓ libretro core: **DoubleCherryGB**
+- ❌ libretro core: **DoubleCherryGB**
+  - Does not expose all memory, some achievements will show up as unsupported
 - ❓ libretro core: **Emux GB**
 - ❓ libretro core: **fixGB**
 - ❓ libretro core: **SameBoy**
