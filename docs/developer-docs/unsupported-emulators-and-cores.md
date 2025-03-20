@@ -121,7 +121,8 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❌ Standalone emulator: **Pizza Boy GBC**
   - No longer being developed. Compatibility issues can cause problems with unlocks. Devs have no means to resolve issues.
-- ❓ libretro core: **DoubleCherryGB**
+- ❌ libretro core: **DoubleCherryGB**
+  - Does not expose all memory, some achievements will show up as unsupported
 - ❓ libretro core: **Emux GB**
 - ❓ libretro core: **fixGB**
 - ❓ libretro core: **SameBoy**
