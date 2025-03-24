@@ -5,7 +5,7 @@
 ## Time and Duration
 
 - Start Date: 2024-12-01
-- Launch Date: 2025-02-28
+- Launch Date: 2025-02-28, extended to 2025-03-16
 
 ## Point System
 
@@ -32,6 +32,12 @@ _as of 2024-12-01 (start date)_
 - Current number of sets: 56
 - Current number of achievements: 1,283 worth 8,191 points
 - Current number of leaderboards: 47
+
+_as of 2025-03-16 (end date)_
+
+- Current number of sets: 96
+- Current number of achievements: 2,082 worth 12,731 points
+- Current number of leaderboards: 83
 
 ## See Also
 
