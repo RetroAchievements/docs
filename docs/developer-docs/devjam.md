@@ -60,7 +60,8 @@ Check the links here for console-specific guidelines and info:
 |   03   | 2024-02-01 - 2024-04-30 | [PC Engine/PC Engine CD](/developer-docs/devjam/3-pce) |           28           |      60       |
 |   04   | 2024-05-01 - 2024-08-31 |       [Arcade](/developer-docs/devjam/4-arcade)        |           33           |      80       |
 |   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](/developer-docs/devjam/5-pc88)    |           25           |      40       |
-|   06   | 2024-12-01 - 2025-02-28 |      [Apple II](/developer-docs/devjam/6-appleii)      |           TBA          |      TBA      |
+|   06   | 2024-12-01 - 2025-03-16 |      [Apple II](/developer-docs/devjam/6-appleii)      |           20           |      40       |
+|   07   | 2025-04-01 - 2025-06-30 |   [Sega CD/32X](/developer-docs/devjam/7-segacd-32x)   |           TBA          |      TBA      |
 
 ## Planned DevJams
 
@@ -72,7 +73,6 @@ Solo Console DevJams:
 
 Multi-Console DevJams:
 
-- Sega CD | Sega 32X
 - Master System | Game Gear
 - Neo Geo Pocket | WonderSwan | Atari Lynx
 - Atari 2600 | Atari 7800 | Atari Jaguar
