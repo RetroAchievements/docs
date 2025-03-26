@@ -266,4 +266,4 @@ Writing new logic for previously stable achievements is not sufficient to warran
 - A main change was simply adding Delta checks.
 - A main change was simply adding an in-game/in-stage, or other similar guarding condition.
 - Only added protection such as save protection, demo protection, or cheat protection.
-- Updating out-dated logic of otherwise functional achievements to be in line with modern toolkit features and standards.
+- Updating outdated logic of otherwise functional achievements to be in line with modern toolkit features and standards.
