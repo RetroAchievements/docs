@@ -276,6 +276,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ libretro core: **Flycast**
   - Disable threaded rendering to properly use save states.
+- ✅ Standalone emulator: **[Flycast](https://github.com/flyinghead/flycast)**
 
 ### Sega Genesis/Mega Drive
 
