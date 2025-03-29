@@ -9,11 +9,11 @@ description: Guidelines for contributing and editing game metadata, images, and 
 
 ## Game Info
 
-Game info refers to the metadata on each page, including the game title, developer, publisher, genre, and release date.
+Game info refers to the metadata on a game page, including the game title, developer, publisher, genre, and release date.
 
 ### Game Titles
 
-- Do not use special characters, emojis, or accented letters like the `é` in Pokemon.
+- Titles may use special/accented characters like the `é` in Pokemon. However, emojis should not be used.
 - Subtitles are usually divided by a colon rather than a hyphen. If there are multiple subtitles, a colon is used first, followed by hyphens.
 	- Atlantis - The Lost Empire -> Atlantis: The Lost Empire
 	- Yu Yu Hakusho - Ghost Files - Tournament Tactics -> Yu Yu Hakusho: Ghost Files - Tournament Tactics
@@ -27,7 +27,7 @@ Game info refers to the metadata on each page, including the game title, develop
 
 ### Developers and Publishers
 
-- Ports and conversions should have the developer of the specific port entered. The developer of the original game may also be included.
+- Ports and conversions should have the developer of the specific port entered. The developer of the original game should not be included unless they were directly involved with creating the port.
 - When a development team or subsidiary is owned by another company, that larger company does not need to be included. For example, [Sonic the Hedgehog](https://retroachievements.org/game/1) has Sonic Team entered and does not include Sega.
 - Multiple publishers may be entered when they vary by region. This does not need to correspond with the regional versions that are actually linked to the page.
 - Abbreviations like Co, Inc, and Ltd are not included in developer or publisher names.
@@ -84,87 +84,34 @@ Game images are the displayed images on the game page, including the icon (aka m
 #### Screenshot Dimensions
 
 - Screenshots must have the same standard dimensions whenever possible.
-- Listed below are the standard image dimensions for each console ID:
-1. Genesis/Mega Drive - 320x224
-2. Nintendo 64 - 320x240
-3. SNES/Super Famicom - 256x224
-4. Game Boy - 
-5. Game Boy Advance -
-6. Game Boy Color -
-7. NES/Famicom -
-8. PC Engine/TurboGrafx-16 -
-9. Sega CD -
-10. 32X - 
-11. Master System -
-12. PlayStation -
-13. Atari Lynx -
-14. Neo Geo Pocket -
-15. Game Gear -
-16. GameCube -
-17. Atari Jaguar -
-18. Nintendo DS -
-19. Wii -
-20. Wii U - ?
-21. PlayStation 2 -
-22. Xbox - ?
-23. Magnavox Odyssey 2 - 320x235
-24. Pokemon Mini -
-25. Atari 2600 -
-26. DOS - 320x200 is common for CGA, EGA, and VGA games. 640x400 is typical for text games. SVGA games may be 640x400, 640x480, or even higher.
-27. Arcade - Varies entirely depending on the game.
-28. Virtual Boy -
-29. MSX -
-30. Commodore 64 -
-31. ZX81 - ?
-32. Oric - ?
-33. SG-1000 -
-34. VIC-10 - ?
-35. Amiga - ?
-36. Atari ST - ?
-37. Amstrad CPC -
-38. Apple II -
-39. Saturn -
-40. Dreamcast -
-41. PlayStation Portable -
-42. Philips CD-i - ?
-43. 3DO Interactive Multiplayer -
-44. ColecoVision -
-45. Intellivision -
-46. Vectrex -
-47. PC-8000/8800 -
-48. PC-9800 -
-49. PC-FX -
-50. Atari 5200 -
-51. Atari 7800 -
-52. Sharp X68000 -
-53. WonderSwan -
-54. Cassette Vision -
-55. Super Cassette Vision -
-56. Neo Geo CD -
-57. Fairchild Channel F -
-58. FM Towns -
-59. ZX Spectrum -
-60. Game & Watch -
-61. Nokia N-Gage -
-62. Nintendo 3DS -
-63. Watara Supervision -
-64. Sharp X1 - ?
-65. TIC-80 - ?
-66. Thomson TO8 - ?
-67. PC-6000 - ?
-68. Sega Pico - ?
-69. Mega Duck -
-70. Zeebo - ?
-71. Arduboy -
-72. WASM-4 -
-73. Arcadia 2001 -
-74. Interton VC 4000 -
-75. Elektor TV Games Computer -
-76. PC Engine CD/TurboGrafx-CD -
-77. Atari Jaguar CD -
-78. Nintendo DSi - 160x240
-79. TI-83 -
-80. Uzebox -
+- Listed below are the standard image dimensions for each system, along with any notes on how emulators might handle the screenshots.
+	- 96x64 - Pokemon Mini (Images are resized by 4x)
+	- 128x64 - Arduboy (Images are resized by 2x)
+	- 160x102 - Atari Lynx
+	- 160x144 - Game Boy, Game Boy Color, Game Gear, Mega Duck
+	- 160x152 - Neo Geo Pocket
+	- 160x160 - WASM-4, Watara Supervision
+	- 160x240 - Nintendo DS, Nintendo DSi
+	- 193x240 - Vectrex
+	- 200x234 - VIC-20
+	- 224x144 - WonderSwan
+	- 240x160 - Game Boy Advance
+	- 256x192 - ColecoVision, Master System, SG-1000
+	- 256x224 - NES/Famicom, SNES/Super Famicom
+	- 256x232 - PC Engine/TurboGrafx-16, PC-FX
+	- 272x240 - MSX
+	- 306x192 - Fairchild Channel F
+	- 320x180 - PlayStation Portable
+	- 320x186 - Virtual Boy
+	- 320x200 - Atari ST, Intellivision, PC-8000/8800
+	- 320x219 - Apple II
+	- 320x223 - Atari 7800
+	- 320x224 - 32X, Genesis/Mega Drive, Neo Geo CD, Sega CD
+	- 320x228 - Atari 5200
+	- 320x235 - Magnavox Odyssey 2
+	- 320x240 - 3DO Interactive Multiplayer, Dreamcast, GameCube, Nintendo 64, PlayStation, PlayStation 2, Xbox
+	- 326x240 - Atari Jaguar CD (These get scaled down and are blurry as a result)
+	- Game Dependent - Arcade, Atari 2600, Atari Jaguar, DOS, Nokia N-Gage, PC Engine CD, Sharp X68000, Uzebox
 
 ## Hubs and Related Games
 
@@ -183,8 +130,8 @@ Hubs are used to categorize game pages in a variety of ways. Related games can a
 - [Language](https://retroachievements.org/hub/7885) hubs should be linked whenever applicable.
 - [Series](https://retroachievements.org/hub/3) hubs are commonly used whenever a game is part of a broader series.
 - Hacks should be added to their respective [Hacks](https://retroachievements.org/hub/5987) hub, should one exist. This hub will automatically be displayed in the publisher field at the top of a game page.
-	- If a game doesn't have a Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018).
-	- Hacks hubs are intended to apply to one specific game. Series Hacks hubs can be used to categorize games within a broader series. These hubs do not appear in the publisher field.
+	- If a game doesn't have a Hacks hub, it can be added to a Series Hacks hub if one exists. Hacks hubs are intended to apply to one specific game, while Series Hacks hubs can collect different games in the same series. Note that Series Hacks hubs do not appear in the publisher field.
+	- If a game doesn't have a Hacks hub or Series Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018).
 - Homebrews, demos, prototypes, and unlicensed games should always be added to [Central - Homebrew](https://retroachievements.org/hub/2469), [Central - Demo](https://retroachievements.org/hub/5901), [Central - Prototypes](https://retroachievements.org/hub/7824), or [Central - Unlicensed](https://retroachievements.org/hub/5751).
 - Subsets should always be added to a [Subsets](https://retroachievements.org/hub/18903) hub. Note that there are specialized hubs for subset types such as Bonus and Multi.
 - Many other hubs exist - you can browse them [here](https://retroachievements.org/hubs).
@@ -198,7 +145,7 @@ Hubs are used to categorize game pages in a variety of ways. Related games can a
 
 ### Related Games
 
-- The list of related games should not be too long.
+- The list of related games should be limited to around 5 or 6 entries.
 - If a Series hub is linked, there shouldn't be too many games from the same series added as related games, as it would be somewhat redundant. A few can still be helpful if they're more directly related than others in the series, or if they're on the same system.
 - Related games can also include games with similar gameplay or other interesting connections, particularly if they're on the same system or in the same console generation, or if they share staff.
 - Different versions or ports of the same game are also commonly linked together, but don't link them all if there are too many ports of the game.
@@ -227,7 +174,7 @@ Users may help submit game info, images, and hubs in the **Site Cleanup Forum**,
 - Provide a link to the game page.
 - When submitting developer, publisher, and genre info, remember to link the hubs as well, if they exist.
 - Also link any additional hub or related game requests instead of simply naming them.
-- In addition to listing links to the hubs, you can provide a comma-separated list of the hub IDs (the number seen in the URL of the page).
+- In addition to listing links to the hubs, you can provide a list of the hub IDs (the number seen in the URL of the page) separated by commas or spaces.
 - Be very particular about what genre the game is - labelling a Tennis or Wrestling game as just ‘Sports’ isn’t good etiquette when hubs for those sports exist.
 - Icons can only be submitted when a game doesn't already have one. If it does, you must use the [Icon Gauntlet](/guidelines/content/achievement-set-revisions#icon-gauntlet) instead.
 	- Exceptions can be made if the icon is a simple quality upgrade. But any kind of change in color or composition requires an Icon Gauntlet vote.
@@ -240,3 +187,9 @@ Users may help submit game info, images, and hubs in the **Site Cleanup Forum**,
 - Remember to review the [Progression and Win Condition Guidelines](/guidelines/content/progression-and-win-condition-guidelines).
 - If you believe a set is incorrectly marked, or if the set's developers are still active, please send a message to [QATeam](https://retroachievements.org/user/QATeam) instead - Site Cleanup cannot handle these reports.
 - Requests for missable marking should also be sent to QATeam - Site Cleanup cannot handle these either.
+
+### Challenge League
+
+- The 2023 event Challenge League: The Top 100 included certain challenges for submitting game info and images in the Site Cleanup Forum.
+- This event continues to be available as an [Evergreen Event](https://retroachievements.org/viewtopic.php?t=25332).
+- The relevant challenges are from KingS1zzle (May) and Soulsderfuchs (August). Refer to the [original topic](https://retroachievements.org/viewtopic.php?t=19615) for more information.
