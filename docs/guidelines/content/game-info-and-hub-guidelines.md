@@ -84,7 +84,7 @@ Game images are the displayed images on the game page, including the icon (aka m
 #### Screenshot Dimensions
 
 - Screenshots must have the same standard dimensions whenever possible.
-- Listed below are the standard image dimensions for each system, along with any notes on how emulators might handle the screenshots.
+- Listed below are the standard image dimensions for each system.
 	- 96x64 - Pokemon Mini (Images are resized by 4x)
 	- 128x64 - Arduboy (Images are resized by 2x)
 	- 160x102 - Atari Lynx
@@ -150,11 +150,11 @@ Hubs are used to categorize game pages in a variety of ways. Related games can a
 - Related games can also include games with similar gameplay or other interesting connections, particularly if they're on the same system or in the same console generation, or if they share staff.
 - Different versions or ports of the same game are also commonly linked together, but don't link them all if there are too many ports of the game.
 
-## Contributing game info
+## Contributing Game Info
 
 Users may help submit game info, images, and hubs in the **Site Cleanup Forum**, one of the channels in our [Discord server](https://discord.gg/dq2E4hE).
 
-### Tagging your posts
+### Tagging Your Posts
 
 - When creating a post, you have the choice of choosing between a few tags to label your request. Each tag will indicate the type of request being made.
 	- Game Info - For editing game titles, developers, publishers, genres, and release dates. Refer to the [Game Info](/guidelines/content/game-info-and-hub-guidelines#game-info) section above.
@@ -169,7 +169,7 @@ Users may help submit game info, images, and hubs in the **Site Cleanup Forum**,
 	- Closed - Indicates that the post has been closed - you will be unable to comment on these posts.
 	- Discussion - Indicates a thread with ongoing discussion that is not expected to be closed soon.
 
-### Making a post
+### Making a Post
 
 - Provide a link to the game page.
 - When submitting developer, publisher, and genre info, remember to link the hubs as well, if they exist.
