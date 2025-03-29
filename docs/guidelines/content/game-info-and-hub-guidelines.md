@@ -22,8 +22,8 @@ Game info refers to the metadata on each page, including the game title, develop
 - Japanese games with fan translations may add the translated title, but the original Japanese title should still come first before any unofficial title. Example: [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766).
 - If a Japan-exclusive game later received an official translation, even if it was many years later, that English title should come first, followed by the original title. Examples: [EarthBound Beginnings | Mother](https://retroachievements.org/game/3814) and [Trials of Mana | Seiken Densetsu 3](https://retroachievements.org/game/1391).
 - If a title is very long, it may be preferred to drop the alternate piped titles.
-- Hacks, homebrews, demos, prototypes, test kits, and unlicensed games are signified by prefixing the game title with ~Hack~, ~Homebrew~, ~Demo~, ~Prototype~, ~Test Kit~, or ~Unlicensed~. This is a technical limitation that may change in the future.
-- Some deprecated game pages that remain on the site are prefixed with ~Z~ so they sort to the bottom of lists.
+- Hacks, homebrews, demos, prototypes, test kits, and unlicensed games are signified by prefixing the game title with `~Hack~`, `~Homebrew~`, `~Demo~`, `~Prototype~`, `~Test Kit~`, or `~Unlicensed~`. This is a technical limitation that may change in the future.
+- Some deprecated game pages that remain on the site are prefixed with `~Z~` so they sort to the bottom of lists.
 
 ### Developers and Publishers
 
