@@ -207,6 +207,14 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/naming-conventions",
         },
         {
+          text: "Game Info and Hub Guidelines",
+          link: "/guidelines/content/game-info-and-hub-guidelines",
+        },
+        {
+          text: "Genre Definitions",
+          link: "/guidelines/content/genre-definitions",
+        },
+        {
           text: "Writing Policy",
           link: "/guidelines/content/writing-policy",
         },

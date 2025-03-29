@@ -218,6 +218,14 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       link: "/pt/guidelines/content/naming-conventions",
     //     },
     //     {
+    //       text: "Game Info and Hub Guidelines",
+    //       link: "/guidelines/content/game-info-and-hub-guidelines",
+    //     },
+    //     {
+    //       text: "Genre Definitions",
+    //       link: "/guidelines/content/genre-definitions",
+    //     },
+    //     {
     //       text: "Política de Redação",
     //       link: "/pt/guidelines/content/writing-policy",
     //     },
