@@ -161,7 +161,7 @@ Users may help submit game info, images, and hubs in the **Site Cleanup Forum**,
 	- Game Images - For editing icons, box art, and screenshots. Refer to the [Game Images](/guidelines/content/game-info-and-hub-guidelines#game-images) section.
 	- Hub Updates - For editing hubs and related games. Refer to the [Hubs and Related Games](/guidelines/content/game-info-and-hub-guidelines#hubs-and-related-games) section.
 	- Achievement Type - For submitting progression plans for games that lack it, allowing the   game to grant beaten awards. Refer to the [Achievement Type](/guidelines/content/game-info-and-hub-guidelines#achievement-type) section below.
-	- Challenge League - For submissions related to the Challenge League event.
+	- Challenge League - For submissions related to the Challenge League event. Refer to the [Challenge League](/guidelines/content/game-info-and-hub-guidelines#challenge-league) section below.
 - Meta tags:
 	- Open - Indicates that the post is still ongoing and that the request hasn’t been fulfilled yet.
 	- Complete - Indicates that the post has been approved and that the changes have been made to the site.
