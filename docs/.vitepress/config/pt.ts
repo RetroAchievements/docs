@@ -180,10 +180,6 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       link: "/pt/guidelines/developers/code-of-conduct",
     //     },
     //     {
-    //       text: "Criando Entradas",
-    //       link: "/pt/guidelines/developers/creating-entries",
-    //     },
-    //     {
     //       text: "Sistema de Reivindicações",
     //       link: "/pt/guidelines/developers/claims-system",
     //     },
@@ -212,10 +208,6 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //     {
     //       text: "Plágio de Conjuntos",
     //       link: "/pt/guidelines/content/set-plagiarism",
-    //     },
-    //     {
-    //       text: "Convenções de Nomenclatura",
-    //       link: "/pt/guidelines/content/naming-conventions",
     //     },
     //     {
     //       text: "Game Info and Hub Guidelines",

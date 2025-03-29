@@ -181,10 +181,6 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/es/guidelines/developers/code-of-conduct",
         },
         // {
-        //   text: "Creación de entradas",
-        //   link: "/es/guidelines/developers/creating-entries",
-        // },
-        // {
         //   text: "Sistema de reclamaciones",
         //   link: "/es/guidelines/developers/claims-system",
         // },
@@ -213,10 +209,6 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         // {
         //   text: "Plagio de sets",
         //   link: "/es/guidelines/content/set-plagiarism",
-        // },
-        // {
-        //   text: "Convenciones de nombres",
-        //   link: "/es/guidelines/content/naming-conventions",
         // },
         // {
         //   text: "Game Info and Hub Guidelines",
