@@ -17,12 +17,22 @@ Game info refers to the metadata on a game page, including the game title, devel
 - Subtitles are usually divided by a colon rather than a hyphen. If there are multiple subtitles, a colon is used first, followed by hyphens.
 	- Atlantis - The Lost Empire -> Atlantis: The Lost Empire
 	- Yu Yu Hakusho - Ghost Files - Tournament Tactics -> Yu Yu Hakusho: Ghost Files - Tournament Tactics
-- The North American title should typically be prioritized, if it exists. European titles that differ but are well-known or helpful for searching can also be added, divided by a pipe (`|`). Japanese titles may occasionally be added for the same reason, but usually this should be avoided since the titles aren't well-known and RetroAchievements does not have a significant Japanese userbase.
+
+#### Regional Titles
+
+- The North American title should typically be prioritized, if it exists. European titles that differ but are well-known or helpful for searching can also be added, divided by a pipe (`|`). Japanese titles may occasionally be added for the same reason, but usually this should be avoided since the titles often aren't well-known and RetroAchievements does not have a significant Japanese userbase.
 	- An exception: [Dragon Quest | Dragon Warrior](https://retroachievements.org/game/1471) puts the Japanese title first because Dragon Quest is the well-known and later official title of the games internationally. This also sorts the games more conveniently in lists.
 - Japanese games with fan translations may add the translated title, but the original Japanese title should still come first before any unofficial title. Example: [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766).
 - If a Japan-exclusive game later received an official translation, even if it was many years later, that English title should come first, followed by the original title. Examples: [EarthBound Beginnings | Mother](https://retroachievements.org/game/3814) and [Trials of Mana | Seiken Densetsu 3](https://retroachievements.org/game/1391).
 - If a title is very long, it may be preferred to drop the alternate piped titles.
+
+#### Tags
+
 - Hacks, homebrews, demos, prototypes, test kits, and unlicensed games are signified by prefixing the game title with `~Hack~`, `~Homebrew~`, `~Demo~`, `~Prototype~`, `~Test Kit~`, or `~Unlicensed~`. This is a technical limitation that may change in the future.
+- In cases where `~Demo~` or `~Prototype~` are used alongside `~Hack~` or `~Homebrew~`, they are to be listed after the latter.
+	- Example: `~Homebrew~ ~Demo~ Bob's Game` instead of `~Demo~ ~Homebrew~ Bob's Game`. The reason for this is that no matter what stage the game is in, it will always be a homebrew or a hack; therefore, those tags should take priority.
+- In cases where a game is unlicensed and is actually just a hack of another game, then `~Hack~` would be used instead of `~Unlicensed~`.
+    - Example: Final Fantasy VII on NES, which is a bootleg/pirate release, but it's actually    just a hack of Final Fantasy III that was put on a cartridge. So the RA entry would be `~Hack~ Final Fantasy VII`.
 - Some deprecated game pages that remain on the site are prefixed with `~Z~` so they sort to the bottom of lists.
 
 ### Developers and Publishers
@@ -129,6 +139,7 @@ Hubs are used to categorize game pages in a variety of ways. Related games can a
 - All game pages should have their developer, publisher, and genre hubs linked, if they exist.
 - [Language](https://retroachievements.org/hub/7885) hubs should be linked whenever applicable.
 - [Series](https://retroachievements.org/hub/3) hubs are commonly used whenever a game is part of a broader series.
+	- Bootleg/pirate games and fan games should not be added to the Series hub they're based on.
 - Hacks should be added to their respective [Hacks](https://retroachievements.org/hub/5987) hub, should one exist. This hub will automatically be displayed in the publisher field at the top of a game page.
 	- If a game doesn't have a Hacks hub, it can be added to a Series Hacks hub if one exists. Hacks hubs are intended to apply to one specific game, while Series Hacks hubs can collect different games in the same series. Note that Series Hacks hubs do not appear in the publisher field.
 	- If a game doesn't have a Hacks hub or Series Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018).
