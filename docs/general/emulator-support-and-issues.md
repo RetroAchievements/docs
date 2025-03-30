@@ -249,7 +249,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 ### PlayStation Portable
 
 - ✅ Standalone emulator: **[PPSSPP](https://www.ppsspp.org/download/)**
-  - Does not support RAIntegration at this time, so achievement developers are unable to troubleshoot potential issues.
 - ✅ libretro core: **PPSSPP**
   - Loading save states too fast can cause it to crash.
   - Some games have graphical issues.
