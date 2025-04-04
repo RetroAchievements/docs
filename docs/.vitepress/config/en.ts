@@ -169,10 +169,6 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/developers/code-of-conduct",
         },
         {
-          text: "Creating Entries",
-          link: "/guidelines/developers/creating-entries",
-        },
-        {
           text: "Claims System",
           link: "/guidelines/developers/claims-system",
         },
@@ -203,8 +199,12 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/set-plagiarism",
         },
         {
-          text: "Naming Conventions",
-          link: "/guidelines/content/naming-conventions",
+          text: "Game Info and Hub Guidelines",
+          link: "/guidelines/content/game-info-and-hub-guidelines",
+        },
+        {
+          text: "Genre Definitions",
+          link: "/guidelines/content/genre-definitions",
         },
         {
           text: "Writing Policy",

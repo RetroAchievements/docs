@@ -90,7 +90,7 @@ If creating a new page, select "New Title" and write an appropriate name in the 
 ::: info
 Further reading:
 
-[Creating Entries](/guidelines/developers/creating-entries)
+[Game Title Guidelines](/guidelines/content/game-info-and-hub-guidelines#game-titles)
 
 [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks)
 
