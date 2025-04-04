@@ -83,7 +83,8 @@ This page will define all of the main genres used with game pages on RetroAchiev
 - Focuses mainly on the mechanical aspect of puzzle-solving; story elements are either secondary to the gameplay or nonexistent
 - NOT TO BE CONFUSED WITH
 	- (Action-)Adventure: In (action-)adventure games, puzzles are integrated within the story or environment; puzzle games focus specifically on the puzzle gameplay
-	- Strategy: Strategy focuses on lateral thinking, involving more complex, tactical decision- making. Puzzle games have simpler rules and mechanics, with more direct gameplay and a focus on logical thinking.
+	- Strategy: Strategy focuses on lateral thinking, involving more complex, tactical decision-making. Puzzle games have simpler rules and mechanics, with more direct gameplay and a focus on logical thinking.
+
 
 ## Racing
 
