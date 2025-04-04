@@ -78,7 +78,8 @@ This page will define all of the main genres used with game pages on RetroAchiev
 
 ## Puzzle
 
-- Games which challenges skills related to puzzle and problem-solving, such as logic and pattern recognition
+- Games which challenge skills related to puzzle and problem-solving, such as logic and pattern recognition
+
 - Focuses mainly on the mechanical aspect of puzzle-solving; story elements are either secondary to the gameplay or nonexistent
 - NOT TO BE CONFUSED WITH
 	- (Action-)Adventure: In (action-)adventure games, puzzles are integrated within the story or environment; puzzle games focus specifically on the puzzle gameplay
