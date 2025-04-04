@@ -34,6 +34,7 @@ Game info refers to the metadata on a game page, including the game title, devel
 - In cases where a game is unlicensed and is actually just a hack of another game, then `~Hack~` would be used instead of `~Unlicensed~`.
     - Example: Final Fantasy VII on NES, which is a bootleg/pirate release, but it's actually    just a hack of Final Fantasy III that was put on a cartridge. So the RA entry would be `~Hack~ Final Fantasy VII`.
 - Some deprecated game pages that remain on the site are prefixed with `~Z~` so they sort to the bottom of lists.
+- Subsets are signified by adding `[Subset - Name of Subset]` after the title.
 
 ### Developers and Publishers
 
@@ -41,7 +42,7 @@ Game info refers to the metadata on a game page, including the game title, devel
 - When a development team or subsidiary is owned by another company, that larger company does not need to be included. For example, [Sonic the Hedgehog](https://retroachievements.org/game/1) has Sonic Team entered and does not include Sega.
 - Multiple publishers may be entered when they vary by region. This does not need to correspond with the regional versions that are actually linked to the page.
 - Abbreviations like Co, Inc, and Ltd are not included in developer or publisher names.
-- When linking developer and publisher hubs to a page, they will automatically appear in the game info at the top of the page. However, this will not record them in the metadata fields. It is still preferred to manually enter them there, since the data in these fields is used for other purposes, such as in the management app. When the text is an exact match for the name of the hub, it will be overlaid without duplicating the text.
+- When linking developer and publisher hubs to a page, they will automatically appear in the game info at the top of the page. However, this will not record them in the metadata fields. It is still preferred to manually enter them there, since the data in these fields is used for other purposes, such as in the management app. When the text is an exact match for the name of the hub, the link will be overlaid without duplicating the text.
     - This also applies to genres.
     - Be careful when naming a developer, publisher, or genre hub for the first time. If it ever has to be renamed, the corresponding metadata fields on every game in the hub will need to be updated to match with it.
 

@@ -92,7 +92,7 @@ Se estiver criando uma nova página, selecione "Novo Título" e escreva um nome 
 ::: info
 Leitura adicional:
 
-[Criando Entradas](/guidelines/developers/creating-entries)
+[Criando Entradas](/guidelines/content/game-info-and-hub-guidelines#game-titles)
 
 [Conquistas para ROM Hacks](/guidelines/content/achievements-for-rom-hacks)
 
