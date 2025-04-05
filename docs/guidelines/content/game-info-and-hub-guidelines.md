@@ -13,7 +13,7 @@ Game info refers to the metadata on a game page, including the game title, devel
 
 ### Game Titles
 
-- Titles may use special/accented characters like the `é` in Pokemon. However, emojis should not be used.
+- Titles may use special/accented characters like the `é` in Pokémon. However, emojis should not be used.
 - Subtitles are usually divided by a colon rather than a hyphen. If there are multiple subtitles, a colon is used first, followed by hyphens.
 	- Atlantis - The Lost Empire -> Atlantis: The Lost Empire
 	- Yu Yu Hakusho - Ghost Files - Tournament Tactics -> Yu Yu Hakusho: Ghost Files - Tournament Tactics
