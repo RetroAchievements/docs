@@ -13,7 +13,7 @@ Game info refers to the metadata on a game page, including the game title, devel
 
 ### Game Titles
 
-- Titles may use special/accented characters like the `é` in Pokemon. However, emojis should not be used.
+- Titles may use special/accented characters like the `é` in Pokémon. However, emojis should not be used.
 - Subtitles are usually divided by a colon rather than a hyphen. If there are multiple subtitles, a colon is used first, followed by hyphens.
 	- Atlantis - The Lost Empire -> Atlantis: The Lost Empire
 	- Yu Yu Hakusho - Ghost Files - Tournament Tactics -> Yu Yu Hakusho: Ghost Files - Tournament Tactics
@@ -38,13 +38,14 @@ Game info refers to the metadata on a game page, including the game title, devel
 
 ### Developers and Publishers
 
+- Developer and publisher names should be manually entered into their metadata fields.
+	- When linking developer and publisher hubs to a page, they will automatically appear as links in the game info at the top of the page. However, this will not directly record them in the metadata fields. It is still preferred to manually enter them there, since the data in these fields is used for other purposes, such as in the management app. When the text is an exact match for the name of the hub, the link will be overlaid without duplicating the text.
+    - This also applies to genres.
+    - Be careful when naming a developer, publisher, or genre hub for the first time. If it ever has to be renamed, the corresponding metadata fields on every game in the hub will need to be updated to match with it.
 - Ports and conversions should have the developer of the specific port entered. The developer of the original game should not be included unless they were directly involved with creating the port.
 - When a development team or subsidiary is owned by another company, that larger company does not need to be included. For example, [Sonic the Hedgehog](https://retroachievements.org/game/1) has Sonic Team entered and does not include Sega.
 - Multiple publishers may be entered when they vary by region. This does not need to correspond with the regional versions that are actually linked to the page.
 - Abbreviations like Co, Inc, and Ltd are not included in developer or publisher names.
-- When linking developer and publisher hubs to a page, they will automatically appear in the game info at the top of the page. However, this will not record them in the metadata fields. It is still preferred to manually enter them there, since the data in these fields is used for other purposes, such as in the management app. When the text is an exact match for the name of the hub, the link will be overlaid without duplicating the text.
-    - This also applies to genres.
-    - Be careful when naming a developer, publisher, or genre hub for the first time. If it ever has to be renamed, the corresponding metadata fields on every game in the hub will need to be updated to match with it.
 
 ### Genres
 
@@ -98,6 +99,7 @@ Game images are the displayed images on the game page, including the icon (aka m
 - Listed below are the standard image dimensions for each system.
 	- 96x64 - Pokemon Mini (Images are resized by 4x)
 	- 128x64 - Arduboy (Images are resized by 2x)
+	- 146x240 - Arcadia 2001, Elektor TV Games Computer, Interton VC 4000
 	- 160x102 - Atari Lynx
 	- 160x144 - Game Boy, Game Boy Color, Game Gear, Mega Duck
 	- 160x152 - Neo Geo Pocket
@@ -108,7 +110,7 @@ Game images are the displayed images on the game page, including the icon (aka m
 	- 224x144 - WonderSwan
 	- 240x160 - Game Boy Advance
 	- 256x192 - ColecoVision, Master System, SG-1000
-	- 256x224 - NES/Famicom, SNES/Super Famicom
+	- 256x224 - NES/Famicom, Sega CD, SNES/Super Famicom
 	- 256x232 - PC Engine/TurboGrafx-16, PC-FX
 	- 272x240 - MSX
 	- 306x192 - Fairchild Channel F
@@ -117,7 +119,8 @@ Game images are the displayed images on the game page, including the icon (aka m
 	- 320x200 - Atari ST, Intellivision, PC-8000/8800
 	- 320x219 - Apple II
 	- 320x223 - Atari 7800
-	- 320x224 - 32X, Genesis/Mega Drive, Neo Geo CD, Sega CD
+	- 320x224 - 32X, Genesis/Mega Drive, Neo Geo CD
+	- 320x226 - Amstrad CPC
 	- 320x228 - Atari 5200
 	- 320x235 - Magnavox Odyssey 2
 	- 320x240 - 3DO Interactive Multiplayer, Dreamcast, GameCube, Nintendo 64, PlayStation, PlayStation 2, Xbox
