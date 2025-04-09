@@ -29,10 +29,13 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Some boards may not be fully exposed.
 - ✅ libretro core: **Flycast**
   - Used for Atomiswave and NAOMI 1/2.
+- ✅ Standalone emulator: **[Flycast](https://github.com/flyinghead/flycast/releases)**
+  - Used for Atomiswave and NAOMI 1/2.
 
 ### Arcadia 2001
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
+- ✅ Standalone emulator: **[DroidArcadia](https://amigan.1emu.net/releases/)**
 
 ### Arduboy
 
@@ -79,6 +82,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 ### Elektor TV Games Computer
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
+- ✅ Standalone emulator: **[DroidArcadia](https://amigan.1emu.net/releases/)**
 
 ### Fairchild Channel F
 
@@ -86,9 +90,9 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 ### Famicom Disk System
 
-- ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 - ✅ libretro core: **FCEUmm**
 - ✅ libretro core: **Mesen**
+- ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
 
 ### Game Boy
 
@@ -100,6 +104,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
 - ✅ BizHawk core: **GBHawk**
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
+- ✅ Standalone emulator: **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**
 
 ### Game Boy Color
 
@@ -111,6 +116,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ BizHawk core: **Gambatte** (Pokémon speedrunning fork)
 - ✅ BizHawk core: **GBHawk**
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
+- ✅ Standalone emulator: **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**
 
 ### Game Boy Advance
 
@@ -121,6 +127,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **VBA Next**
 - ✅ BizHawk core: **mGBA**
 - ✅ Standalone emulator: **[RAVBA](https://retroachievements.org/download.php#ravba)**
+- ✅ Standalone emulator: **[Pizza Boy A Basic & Pro](https://pizzaemulators.com/)**
 
 ### GameCube
 
@@ -133,6 +140,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **Genesis Plus GX**
 - ✅ libretro core: **Gearsystem**
+- ✅ Standalone emulator: **[Pizza Boy SC Basic & Pro](https://pizzaemulators.com/)**
 
 ### Intellivision
 
@@ -144,6 +152,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 ### Interton VC 4000
 
 - ✅ Standalone emulator: **[WinArcadia](https://amigan.1emu.net/releases/)**
+- ✅ Standalone emulator: **[DroidArcadia](https://amigan.1emu.net/releases/)**
 
 ### Magnavox Odyssey 2
 
@@ -151,10 +160,11 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 ### Master System/Mark III
 
-- ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **Gearsystem**
 - ✅ libretro core: **Genesis Plus GX**
 - ✅ libretro core: **PicoDrive**
+- ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
+- ✅ Standalone emulator: **[Pizza Boy SC Basic & Pro](https://pizzaemulators.com/)**
 
 ### Mega Duck
 
@@ -181,6 +191,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **QuickNES**
   - Does not emulate the Famicom Disk System.
 - ✅ Standalone emulator: **[RANes](https://retroachievements.org/download.php#ranes)**
+- ✅ Standalone emulator: **[Delta](https://faq.deltaemulator.com/)**
 
 ### Nintendo 64
 
@@ -189,6 +200,8 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Separated into cores for OpenGL ES 2 and 3.
 - ✅ libretro core: **ParaLLEl N64**
 - ✅ Standalone emulator: **[RAProject64](https://retroachievements.org/download.php#rap64)**
+- ✅ Standalone emulator: **[Luna Project64](https://github.com/Luna-Project64/Luna-Project64/releases)**
+- ✅ Standalone emulator: **[Delta](https://faq.deltaemulator.com/)**
 
 ### Nintendo DS
 
@@ -200,12 +213,14 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **melonDS**
 - ✅ libretro core: **melonDS DS**
 - ✅ BizHawk core: **melonDS**
+- ✅ Standalone emulator: **[melonDS Android](https://github.com/rafaelvcaetano/melonDS-android/releases)**
 
 ### Nintendo DSi
 
 - ✅ libretro core: **melonDS DS**
   - Does not support save states at this time.
 - ✅ BizHawk core: **melonDS**
+- ✅ Standalone emulator: **[melonDS Android](https://github.com/rafaelvcaetano/melonDS-android/releases)**
 
 ### PC Engine/TurboGrafx-16/SuperGrafx
 
@@ -244,15 +259,13 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 ### PlayStation 2
 
 - ✅ Standalone emulator: **[PCSX2](https://pcsx2.net/)**
-  - PCSX2 is currently **the only officially supported** option for earning achievements. We _do not_ support Aethersx2.
+- ✅ Standalone emulator: **[NetherSX2](https://github.com/Trixarian/NetherSX2-classic/releases)**
+- ✅ Standalone emulator: **[XBSX2](https://github.com/XboxEmulationHub/XBSX2/releases)**
 
 ### PlayStation Portable
 
-- ✅ Standalone emulator: **[PPSSPP](https://www.ppsspp.org/download/)**
-  - Does not support RAIntegration at this time, so achievement developers are unable to troubleshoot potential issues.
 - ✅ libretro core: **PPSSPP**
-  - Loading save states too fast can cause it to crash.
-  - Some games have graphical issues.
+- ✅ Standalone emulator: **[PPSSPP](https://www.ppsspp.org/download/)**
 
 ### Pokémon Mini
 
@@ -276,6 +289,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ libretro core: **Flycast**
   - Disable threaded rendering to properly use save states.
+- ✅ Standalone emulator: **[Flycast](https://github.com/flyinghead/flycast/releases)**
 
 ### Sega Genesis/Mega Drive
 
@@ -283,6 +297,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Most recommended.
 - ✅ libretro core: **PicoDrive**
 - ✅ BizHawk core: **Genplus-gx** (Genesis Plus GX)
+- ✅ Standalone emulator: **[Pizza Boy SC Basic & Pro](https://pizzaemulators.com/)**
 
 ### Sega Saturn
 
@@ -303,6 +318,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Most recommended.
 - ✅ libretro core: **Mesen-S**
 - ✅ Standalone emulator: **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)**
+- ✅ Standalone emulator: **[Delta](https://faq.deltaemulator.com/)**
 
 ### Uzebox
 

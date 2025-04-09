@@ -119,8 +119,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## Game Boy Color
 
-- ❌ Standalone emulator: **Pizza Boy GBC**
-  - No longer being developed. Compatibility issues can cause problems with unlocks. Devs have no means to resolve issues.
 - ❓ libretro core: **DoubleCherryGB**
 - ❓ libretro core: **Emux GB**
 - ❓ libretro core: **fixGB**
@@ -129,8 +127,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## Game Boy Advance
 
-- ❌ Standalone emulator: **Pizza Boy GBA**
-  - No longer being developed. Compatibility issues can cause problems with unlocks. Devs have no means to resolve issues.
 - ❓ libretro core: **gpSP**
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
@@ -204,9 +200,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
  
 ## Nintendo DS
 
-- ❌ Standalone Emulator: **melonDS Android**
-  - Causes numerous issues with achievements.
-  - Devs have no means to resolve issues players have.
 
 ## Nintendo DSi
 
@@ -237,8 +230,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## PC-8800
 
-- ✅ libretro core: **QUASI88**
-  - PC-88VA not supported
 
 ## PC-9800
 
@@ -278,7 +269,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❌ Standalone emulator: **AetherSX2**
   - No longer being developed, has known incompatibilities. Devs have no means to resolve issues.
-- ❌ Standalone emulator: **NetherSX2**
 - ❌ libretro core: **LRPS2**
   - Still in alpha state
   - Does not expose memory
@@ -301,9 +291,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## Sega Dreamcast
 
 - ❓ libretro core: **Flycast GLES2**
-- ❌ Standalone Emulator: **Flycast**
-    - Untested
-    - Devs have no means to resolve issues players have
 
 ## Sega Genesis / Mega Drive
 
