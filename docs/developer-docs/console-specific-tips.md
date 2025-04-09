@@ -86,6 +86,10 @@ After the BIOS completes, the block is blanked out with FF's, and repurposed for
 | On-board Working RAM (WRAMB) | 0x00008000 - 0x00047fff | 0x02000000 - 0x0203ffff | -0x01ff8000                  |
 | Game Pak SRAM (SRAM)         | 0x00048000 - 0x00057fff | 0x0e000000 - 0x0e00ffff | -0x0dfb8000                  |
 
+## Virtual Boy
+
+Virtual Boy has hardware support for IEEE-754 Single-Precision Floating Point operations. If you are having trouble locating numeric data, try filtering using the `Float` data size.
+
 ## Nintendo 64
 
 ### Using GameShark Codes for Addresses
@@ -137,6 +141,11 @@ Checks if the 8-bit value at 0x18BAB5 is equal to 0x20. This means 0x18BAB5 cont
 
 - **0xfffe00: DSi Mode String** ASCII String that identifies the DSi Game being played. Can be used to check if you are in the game rather than on the DSi home screen, etc.
 
+## GameCube
+
+- Serial is located at **0x00000000** as a string of ASCII characters. Revision Number seems to typically be stored at **0x00000007**. You can use these to determine the specific disc loaded.
+- GameCube uses a PowerPC chipset with big-endian data. Filter using `16-Bit BE`, `32-Bit BE`, `Float BE`, and `Double32 BE` for data types wider than 1 byte (8-bits). Data is typically aligned on Gamecube, so 16-Bit data is always at an even address and 32-bit data addresses at a multiple of 4, etc.
+
 ## Neo Geo
 
 ### Mandatory UniBIOS protection
@@ -172,3 +181,15 @@ B8B0 63 64 72 6F 6D 3A 5C 53 43 55 53 5F 39 34 32 2E 32 38 3B 31
 ## PlayStation Portable
 
 When working with PSP make sure to check if your game has any DLC as this form of content is able to be accessed by players without altered saves or patched versions of the game and will need to be accounted for and in some cases protected against if it provides advantages that you don't want players to exploit.
+
+## Amstrad CPC
+
+Game written in BASIC will often use Microsoft Binary Format for numeric values. This is a floating point data. You can filter against the `MBF32 LE` data size on this system to find these values.
+
+## Apple II
+
+Game written in BASIC will often use Microsoft Binary Format for numeric values. This is a floating point data. You can filter against the `MBF32` data size on this system to find these values.
+
+## PC-8000 / PC-8800
+
+Games may use Microsoft Binary Format for numeric values. This is a floating point data. You can filter against the `MBF32` data size on this system to find these values.
