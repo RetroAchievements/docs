@@ -88,7 +88,7 @@ After the BIOS completes, the block is blanked out with FF's, and repurposed for
 
 ## Virtual Boy
 
-Virtual Boy has hardware support for IEEE-754 Single-Precision Floating Point operations. If you are having trouble located numeric data, try filtering using the `Float` data size.
+Virtual Boy has hardware support for IEEE-754 Single-Precision Floating Point operations. If you are having trouble locating numeric data, try filtering using the `Float` data size.
 
 ## Nintendo 64
 
