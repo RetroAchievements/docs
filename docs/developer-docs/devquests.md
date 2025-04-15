@@ -435,9 +435,9 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 8. Revision rules apply as usual, meaning if you only clean-up the logic and don't change the achievements scope you don't need one.
 9. Devs' own sets made prior to 2024 are eligible for half the points on a Full Dust-Off. As with sets that are not pre-approved, they will need to be sent to the DevQuest team for approval.
 
-### 023 [Well of Wishes](https://retroachievements.org/game/XXXXX)
+### 023 [Well of Wishes](https://retroachievements.org/event/170-devquest-023-well-of-wishes)
 
-![DQ023](https://retroachievements.org/Images/XXXXXX.png)
+![DQ023](https://media.retroachievements.org/Images/110591.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set from the request list of a randomly chosen active user!
