@@ -447,7 +447,8 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin.
 3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
 4. List of elligible users and their current request lists will be pulled periodically.
-5. A snapshot of the user's most recently recorded request list will be made at the time of random selection. Game selections will be validated against this list only.
+5. A snapshot of the spun user's most recently recorded request list will be made at the time of random selection. Game selections will be validated against this list only.
+   - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
 
    
 ## Wheel Spin DevQuest Rules
@@ -462,6 +463,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 
 - DevQuest 006: The Unwanted
 - DevQuest 019: Wheel of Genres
+- DevQuest 023: Well of Wishes
 
 ### Respin Tasks
 
