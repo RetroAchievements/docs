@@ -463,6 +463,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 
 - DevQuest 006: The Unwanted
 - DevQuest 019: Wheel of Genres
+- DevQuest 023: Well of Wishes
 
 ### Respin Tasks
 
