@@ -449,6 +449,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 4. List of elligible users and their current request lists will be pulled periodically.
 5. A snapshot of the spun user's most recently recorded request list will be made at the time of random selection. Game selections will be validated against this list only.
    - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
+6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
 
    
 ## Wheel Spin DevQuest Rules
