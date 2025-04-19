@@ -254,7 +254,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 014 [Laudable Leaderboards](https://retroachievements.org/game/862)
 
-![DQ014](https://retroachievements.org/Images/057070.png)
+![DQ014](https://media.retroachievements.org/Images/110735.png)
 
 **Type**: Maintenance  
 **Goal**: Create leaderboards for 10 games that currently do not have any  
