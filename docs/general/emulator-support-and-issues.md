@@ -264,8 +264,8 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 ### PlayStation Portable
 
-- ✅ libretro core: **PPSSPP**
 - ✅ Standalone emulator: **[PPSSPP](https://www.ppsspp.org/download/)**
+- ✅ libretro core: **PPSSPP**
 
 ### Pokémon Mini
 

@@ -121,32 +121,60 @@ RA hash is an unique string of 32 hexadecimal numbers, to distinguish different 
 
 ### How do I request a manual unlock?
 
-- If you use [Discord](https://discord.gg/dq2E4hE), post in the [#manual-unlock](https://discord.com/channels/310192285306454017/1029858289221116104) channel a request that follows the format of [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
+#### For Discord Users (Recommended Method):
+Post your request in the [#manual-unlock](https://discord.com/channels/310192285306454017/1029858289221116104) channel following the format in [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966). This method allows for faster communication or updates when needed as well as easier ways to upload video and images for proof.
 
-- If you don't use [Discord](https://discord.gg/dq2E4hE), while signed into **RetroAchievements.org** [send a private message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
-  and a description that looks similar to this:
+#### For Website Requests:
+There are two ways you can send the request through the website.
+- Directly send a message to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
+- On an individual achievements page follow the `Report an issue` link and then click the `Request Manual Unlock` button which will automatically format a message to [RAdmin](https://retroachievements.org/user/RAdmin) for you to edit and send.
 
-  ```
-  Hi. I'm requesting a manual unlock. http://retroachievements.org/ticketmanager.php?i=9577 HARDCORE Proof: https://youtu.be/uqD-GTkZbLo
-  ```
+When sending a manual unlock request via the website your message <ins>must</ins> include all of the following details. Requests missing any of these items will be automatically denied without any follow-up:
+1. Achievement Identification:
+   - Provide a direct link to the Achievement ID(s) of the unlock(s) you’re requesting. 
+     - If your request contains more than three achievements then please also include a list of just the IDs is comma delimited format, ex. `123, 456, 789`.
+    - State whether the request is for softcore or hardcore unlocks.
 
-#### In detail how to request a manual unlock
+2. Broken Achievement Ticket: 
+   - If the issue relates to a broken achievement, include a link to the ticket you have created.
+     - Exception: If the achievement was triggered correctly in the emulator but did not sync to your profile due to a network issue, do not create a ticket. Instead, clearly state that a network issue is the culprit.
+     - Read [The Anatomy Of A Good Ticket](https://news.retroachievements.org/issues/2022-06/goodticket.html)  for a better idea of what makes tickets helpful.
 
-1. Open a ticket describing with details the problem you had with the achievement. ([How do I report a broken achievement?](#how-do-i-report-a-broken-achievement))
-   1. If the achievement wasn't registered on the site due to a network problem, you don't need to open a ticket.
-2. <a name="qualified-proof"></a>Get a proof/evidence that you completed the achievement. **Acceptable proofs**:
-   1. Screenshots that show that one is playing in HARDCORE and have completed the achievement.
-   2. **Video of such (even better)** ([perfect example of ideal proof provided by gr1nya](https://youtu.be/uqD-GTkZbLo)).
-   3. Examples of achievements you've earned that prove you've earned this achievement. Example: You got the achievement for 10k points but the one for 5k points wasn't awarded to you.
-3. If you're on our discord server, send a message on the [`#manual-unlock` channel](https://discord.gg/FswPDnu) tagging the **@manual-unlock** role; if you're not on Discord, [send a private message message](https://retroachievements.org/createmessage.php?t=RAdmin) to the [RAdmin](https://retroachievements.org/user/RAdmin) user. Your message must have:
-   1. The link to the ticket url. You can find the ticket here: http://retroachievements.org/ticketmanager.php
-   2. What mode you were playing (HARDCORE/softcore)
-   3. Link to your [qualified proof](#qualified-proof) of completion. Include proof that the achievement was earned in HARDCORE, if you were playing in HARDCORE.
+3. Proof of Completion:  
+   - General Proof Requirements:  
+     - Supply a direct, plain-text link (do not use website markdowns or embedded images) to your proof.  
+     - Use external hosting services (e.g., imgur, YouTube, or a cloud service) for screenshots or videos. Local file links or embedded images are not accepted.  
+   - Proof by Achievement Type:  
+     - Progression Achievements: A link to another unlocked progression achievement later in the game is acceptable. Otherwise an appropriate screenshot will likely suffice.
+     - Challenge Achievements: Full video evidence is required from the start of the challenge to the end. Even if the achievement has a challenge icon showing, you must provide video proof. Evidence needs to capture the triggering moment, show the active challenge icon (or when it falsely disappears), and confirm that Hardcore mode was active if it is a Hardcore request.  
+     - Other Achievements: A clear screenshot or a link to another related achievement (only possible if the requested achievement was already done) is usually sufficient. Use your best judgment if a video might be warranted.
+     - Network Issues: A clear screenshot showing the achievement unlocked in your emulator is the best proof if you notice before closing your emulator. Otherwise the above types still apply.
 
-**Note:** Manual unlocks are intended for players with proof of earning achievements that did not trigger on site due to a bug or network issue.
+4. Link Verification:  
+   - Before sending your request, use the Preview function to verify that all your links work correctly. We do not have the capacity to fix or follow up on broken/mis formatted links, and any invalid links will result in an immediate denial.
 
-They are **not** indented for, and will not be awarded to players who have played the game prior to a set being available, or on an another inherently unsupported platform (original hardware for example).
+#### A Few Important Reminders:
+- These guidelines are in place because we receive a high volume of manual unlock requests, and many are incomplete or improperly formatted. Missing or invalid information leads to denial without response.
+- Even if your submission meets all the requirements, the RA team reserves the right to deny the request if the provided proof is deemed insufficient.
+- Manual unlocks are intended for players with proof of earning achievements that did not trigger on site due to a bug or network issue. They are **not** intended for, and will not be awarded to players who have played the game prior to a set being available, or on an another inherently unsupported platform (original hardware for example), or before you started playing on RetroAchievements.
+- If you haven’t received an unlock after several days, double-check that your request adhered to these guidelines. For further clarification or if you believe your request was handled in error, please feel free to contact the Moderation team.
 
+#### In summary how to request a manual unlock
+
+1. **Open a Ticket (When Applicable):**  
+   - Report the issue by opening a ticket that clearly describes the problem with the achievement.  
+     - Note: If the achievement was triggered correctly except for a network sync issue, you do not need to open a ticket—just explain the network issue in your manual unlock request.
+
+2. **Gather Adequate Proof:**  
+   - Provide evidence that you met all the achievement requirements. Acceptable forms of proof include:  
+     - **Screenshots:** Showing you were playing in HARDCORE mode and that you met the achievement requirements.  
+     - **Videos:** Capture the critical moment when the achievement should trigger. (Especially necessary for challenge achievements and hardcore submissions.)  
+     - **Comparative Achievement Evidence:** For example, if you received a higher-tier achievement (such as a 10k points achievement) but missed out on a required lower-tier one (like 5k points).
+
+3. **Submit Your Request:**  
+   - **Discord Users:** Post a message in [#manual-unlock](https://discord.com/channels/310192285306454017/1029858289221116104) following [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966)
+   - **Website Users:** While signed into RetroAchievements.org, send a request to the RAdmin user with the required information listed above
+     
 ### What if I got an achievement I didn't earn?
 
 Same with not getting it when you should in most cases you'll want to [create a ticket report](#how-do-i-report-a-broken-achievement), leaving an explanation of what went wrong. You'll also want to reset these achievements from your earn history so you can get the satisfaction of truly earning them.

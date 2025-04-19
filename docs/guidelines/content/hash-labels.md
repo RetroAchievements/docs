@@ -23,40 +23,52 @@ The following are used for preservation groups or collections:
 
 | Image                                                                                | Label to Use  | Note                                                                   |
 | ------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------- |
-| ![no-intro-label](https://retroachievements.org/Images/labels/nointro.png)           | `nointro`     | The standard for cartridge-based games                                 |
-| ![redump-label](https://retroachievements.org/Images/labels/redump.png)              | `redump`      | The standard for disc-based games                                      |
-| ![fb-neo-label](https://retroachievements.org/Images/labels/fbneo.png)               | `fbneo`       | Mostly used for Arcade                                                 |
+| ![no-intro-label](https://retroachievements.org/assets/images/labels/nointro.png)           | `nointro`     | The standard for cartridge-based games                                 |
+| ![redump-label](https://retroachievements.org/assets/images/labels/redump.png)              | `redump`      | The standard for disc-based games                                      |
+| ![fb-neo-label](https://retroachievements.org/assets/images/labels/fbneo.png)               | `fbneo`       | Mostly used for Arcade                                                 |
 | ![wozaday-label](https://retroachievements.org/assets/images/labels/wozaday.png)     | `wozaday`     | Clean Apple II dumps                                                   |
-| ![4am-crack-label](https://retroachievements.org/Images/labels/4amcrack.png)         | `4amcrack`    | Used for Apple II.                                                     |
-| ![clean-cpc-label](https://retroachievements.org/Images/labels/cleancpc.png)         | `cleancpc`    | Amstrad preservation project                                           |
-| ![neo-kobe-label](https://retroachievements.org/Images/labels/neokobe.png)           | `neokobe`     | Used for PC-8001 and PC-8801                                           |
+| ![4am-crack-label](https://retroachievements.org/assets/images/labels/4amcrack.png)         | `4amcrack`    | Used for Apple II.                                                     |
+| ![clean-cpc-label](https://retroachievements.org/assets/images/labels/cleancpc.png)         | `cleancpc`    | Amstrad preservation project                                           |
+| ![neo-kobe-label](https://retroachievements.org/assets/images/labels/neokobe.png)           | `neokobe`     | Used for PC-8001 and PC-8801                                           |
 | ![lostlevel-label](https://retroachievements.org/assets/images/labels/lostlevel.png) | `lostlevel`   | DAT project made specifically for RetroAchievements hash verifications |
-| ![rapatches-label](https://retroachievements.org/Images/labels/rapatches.png)        | `rapatches`   | Used when the hash requires a patch hosted on RAPatches                |
-| ![mamesl-label](https://retroachievements.org/Images/labels/mamesl.png)              | `mamesl`      | MAME Software List.                                                    |
-| ![tosec-label](https://retroachievements.org/Images/labels/tosec.png)                | `tosec`       | Used for various platforms                                             |
-| ![goodtools-label](https://retroachievements.org/Images/labels/goodtools.png)        | `goodtools`   | Defunct collection that also includes bad dumps. Avoid if possible     |
-| ![nongood-label](https://retroachievements.org/Images/labels/nongood.png)            | `nongood`     | Picked up where GoodTools left off. Should also avoid if possible      |
+| ![rapatches-label](https://retroachievements.org/assets/images/labels/rapatches.png)        | `rapatches`   | Used when the hash requires a patch hosted on RAPatches                |
+| ![mamesl-label](https://retroachievements.org/assets/images/labels/mamesl.png)              | `mamesl`      | MAME Software List.                                                    |
+| ![tosec-label](https://retroachievements.org/assets/images/labels/tosec.png)                | `tosec`       | Used for various platforms                                             |
+| ![goodtools-label](https://retroachievements.org/assets/images/labels/goodtools.png)        | `goodtools`   | Defunct collection that also includes bad dumps. Avoid if possible     |
+| ![nongood-label](https://retroachievements.org/assets/images/labels/nongood.png)            | `nongood`     | Picked up where GoodTools left off. Should also avoid if possible      |
 
 The following are used for specific websites:
 
-| Image                                                                                | Label to Use  | Note                                                                   |
-| ------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------- |
-| ![atari-age-label](https://retroachievements.org/Images/labels/atariage.png)         | `atariage`    | Popular site for Homebrews                                             |
-| ![itch-io-label](https://retroachievements.org/Images/labels/itchio.png)             | `itchio`      | Popular site for Homebrews                                             |
-| ![project-egg-label](https://retroachievements.org/Images/labels/egg.png)            | `egg`         | ROMs purchased from Project Egg, typically Japanese PC games.          |
-| ![steam-label](https://retroachievements.org/Images/labels/steam.png)                | `steam`       | ROMs purchased from Steam.                                             |
-| ![smwcentral-label](https://retroachievements.org/Images/labels/smwcentral.png)      | `smwcentral`  | Popular repository for Super Mario World hacks.                        |
-| ![rhdn-label](https://retroachievements.org/Images/labels/rhdn.png)                  | `rhdn`        | Popular repository for ROM hacks                                       |
+| Image                                                                                 | Label to Use   | Note                                                                   |
+| ------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------- |
+| ![atari-age-label](https://retroachievements.org/assets/images/labels/atariage.png)          | `atariage`     | Popular site for Homebrews                                             |
+| ![baddesthacks-label](https://retroachievements.org/assets/images/labels/baddesthacks.png)   | `baddesthacks` | Site for questionable hacks                                            |
+| ![project-egg-label](https://retroachievements.org/assets/images/labels/egg.png)             | `egg`          | ROMs purchased from Project Egg, typically Japanese PC games.          |
+| ![gamebanana-label](https://retroachievements.org/assets/images/labels/gamebanana.png)       | `gamebanana`   | Site with hacks/mods for PS1, PS2, PSP, GC, etc.                       |
+| ![github-label](https://retroachievements.org/assets/images/labels/github.png)               | `github`       | Used for hacks, homebrews, etc. that are hosted on GitHub              |
+| ![gog-label](https://retroachievements.org/assets/images/labels/gog.png)                     | `gog`          | ROMs purchased from GOG.com - will likely only be used for DOS hashes  |
+| ![itch-io-label](https://retroachievements.org/assets/images/labels/itchio.png)              | `itchio`       | Popular site for Homebrews                                             |
+| ![metconst-label](https://retroachievements.org/assets/images/labels/metconst.png)           | `metconst`     | Metroid hack repository and community                                  |
+| ![moddb-label](https://retroachievements.org/assets/images/labels/moddb.png)                 | `moddb`        | Popular repository for hacks/mods for newer consoles/PCs               |
+| ![pokecommunity-label](https://retroachievements.org/assets/images/labels/pokecommunity.png) | `pokecommunity`| Pokemon hack repository and community                                  |
+| ![rhdc-label](https://retroachievements.org/assets/images/labels/rhdc.png)                   | `rhdc`         | Popular repository for Super Mario 64 hacks.                           |
+| ![romhackplaza-label](https://retroachievements.org/assets/images/labels/romhackplaza.png)   | `romhackplaza` | Newer hack repository and community                                    |
+| ![steam-label](https://retroachievements.org/assets/images/labels/steam.png)                 | `steam`        | ROMs purchased from Steam.                                             |
+| ![smwcentral-label](https://retroachievements.org/assets/images/labels/smwcentral.png)       | `smwcentral`   | Popular repository for Super Mario World hacks.                        |
+| ![rhdn-label](https://retroachievements.org/assets/images/labels/rhdn.png)                   | `rhdn`         | Popular repository for ROM hacks                                       |
 
 The following are generic labels:
 
 | Image                                                                                | Label to Use  | Note                                                                   |
 | ------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------- |
-| ![main-label](https://retroachievements.org/Images/labels/main.png)                  | `main`        | Sometimes used to show the primary ROM used by the set developer(s)    |
-| ![homebrew-label](https://retroachievements.org/Images/labels/homebrew.png)          | `homebrew`    | Generic label for Homebrews                                            |
-| ![msu-1-label](https://retroachievements.org/Images/labels/msu1.png)                 | `msu1`        | Generic label for ROMs using MSU-1 patches                             |
-| ![snes-mini-label](https://retroachievements.org/Images/labels/snesmini.png)         | `snesmini`    |                                                                        |
-| ![offline-list-label](https://retroachievements.org/Images/labels/offlinelist.png)   | `offlinelist` |                                                                        |
+| ![main-label](https://retroachievements.org/assets/images/labels/main.png)                  | `main`        | Sometimes used to show the primary ROM used by the set developer(s)    |
+| ![atomiswave-label](https://retroachievements.org/assets/images/labels/atomiswave.png)      | `atomiswave`  | Generic label for Atomiswave arcade games                              |
+| ![homebrew-label](https://retroachievements.org/assets/images/labels/homebrew.png)          | `homebrew`    | Generic label for Homebrews                                            |
+| ![mdplus-label](https://retroachievements.org/assets/images/labels/mdplus.png)              | `mdplus`      | Generic label for ROMs using MD+ patches                               |
+| ![msu-1-label](https://retroachievements.org/assets/images/labels/msu1.png)                 | `msu1`        | Generic label for ROMs using MSU-1 patches                             |
+| ![naomi-label](https://retroachievements.org/assets/images/labels/naomi.png)                | `naomi`       | Generic label for NAOMI and NAOMI 2 arcade games                       |
+| ![snes-mini-label](https://retroachievements.org/assets/images/labels/snesmini.png)         | `snesmini`    |                                                                        |
+| ![offline-list-label](https://retroachievements.org/assets/images/labels/offlinelist.png)   | `offlinelist` |                                                                        |
 
 ## Examples
 
