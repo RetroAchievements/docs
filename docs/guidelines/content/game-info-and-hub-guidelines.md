@@ -17,6 +17,12 @@ Game info refers to the metadata on a game page, including the game title, devel
 - Subtitles are usually divided by a colon rather than a hyphen. If there are multiple subtitles, a colon is used first, followed by hyphens.
 	- Atlantis - The Lost Empire -> Atlantis: The Lost Empire
 	- Yu Yu Hakusho - Ghost Files - Tournament Tactics -> Yu Yu Hakusho: Ghost Files - Tournament Tactics
+- If there's a conflict between two games with the same title on the same platform, the publisher can be added in parentheses. Example: [Renegade (Ocean Software)](https://retroachievements.org/game/26867) and [Renegade (Kuma Computers)](https://retroachievements.org/game/26732).
+- When a regional variation is approved to have a separate page, the region may be added to distinguish it. Example: [Ecco the Dolphin](https://retroachievements.org/game/8) and [Ecco the Dolphin (Japan)](https://retroachievements.org/game/4374).
+- For MSX games that have a different MSX2 version, the latter can have (MSX2) added to the title. Example: [Dragon Quest](https://retroachievements.org/game/16399) and [Dragon Quest (MSX2)](https://retroachievements.org/game/16400).
+- Games for the Famicom Disk System are currently included under NES/Famicom, but it's a convention to add (FDS) to the title. Example: [All Night Nippon Super Mario Bros. (FDS)](https://retroachievements.org/game/12852).
+- Romanization of Japanese titles can be inconsistent. When in doubt, use the most common Romanization used by Wikipedia and other sources. Examples: [Yu Yu Hakusho](https://retroachievements.org/hub/7785) instead of "Yuu Yuu Hakusho", [Cho Aniki](https://retroachievements.org/hub/18695) instead of "Chou Aniki", and [Bobobo-bo Bo-bobo](https://retroachievements.org/hub/20736) instead of "Boboboubo Boubobo".
+	- Games in the same series should use the same Romanization of the main title.
 
 #### Regional Titles
 
@@ -44,7 +50,10 @@ Game info refers to the metadata on a game page, including the game title, devel
     - Be careful when naming a developer, publisher, or genre hub for the first time. If it ever has to be renamed, the corresponding metadata fields on every game in the hub will need to be updated to match with it.
 - Ports and conversions should have the developer of the specific port entered. The developer of the original game should not be included unless they were directly involved with creating the port.
 - When a development team or subsidiary is owned by another company, that larger company does not need to be included. For example, [Sonic the Hedgehog](https://retroachievements.org/game/1) has Sonic Team entered and does not include Sega.
+- For hack developers, it's conventional to enter "Hacker - Name of Hacker" as the developer. The [Central - Hacker](https://retroachievements.org/hub/913) hubs will automatically overlay a link into the developer field.
 - Multiple publishers may be entered when they vary by region. This does not need to correspond with the regional versions that are actually linked to the page.
+- For digitally-released homebrew games, it is standard to enter "Homebrew - Name of System" as the publisher, rather than entering potentially interchangeable platforms like itch.io.
+	- Physically-released homebrew games may have their conventional publisher entered.
 - Abbreviations like Co, Inc, and Ltd are not included in developer or publisher names.
 
 ### Genres
@@ -62,7 +71,6 @@ Game info refers to the metadata on a game page, including the game title, devel
 	- https://web.archive.org/web/20140611225644/http://www.nintendo.com/consumer/downloads/nes_games.pdf - North American NES release dates.
 	- https://www.famitsu.com/search?type=game-title&q=&max=100&order=desc&platform=alldevice - Japanese Famicom release dates. Requires searching for the Japanese title.
 	- https://nescartdb.com/search/browse/a - NES release dates, including Europe.
-	- https://archive.org/details/ArcadeGameList1971-2005/page/n13/mode/1up - Japanese arcade release dates.
 	- https://archive.gamehistory.org/ - The Video Game History Foundation's Digital Archive.
 
 ## Game Images
@@ -127,9 +135,9 @@ Game images are the displayed images on the game page, including the icon (aka m
 	- 326x240 - Atari Jaguar CD (These get scaled down and are blurry as a result)
 	- Game Dependent - Arcade, Atari 2600, Atari Jaguar, DOS, Nokia N-Gage, PC Engine CD, Sharp X68000, Uzebox
 
-## Hubs and Related Games
+## Hubs and Similar Games
 
-Hubs are used to categorize game pages in a variety of ways. Related games can also be added to help navigate the site.
+Hubs are used to categorize game pages in a variety of ways. Similar games can also be added to help navigate the site.
 
 ### Creating Hubs
 
@@ -149,6 +157,7 @@ Hubs are used to categorize game pages in a variety of ways. Related games can a
 	- If a game doesn't have a Hacks hub or Series Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018).
 - Homebrews, demos, prototypes, and unlicensed games should always be added to [Central - Homebrew](https://retroachievements.org/hub/2469), [Central - Demo](https://retroachievements.org/hub/5901), [Central - Prototypes](https://retroachievements.org/hub/7824), or [Central - Unlicensed](https://retroachievements.org/hub/5751).
 - Subsets should always be added to a [Subsets](https://retroachievements.org/hub/18903) hub. Note that there are specialized hubs for subset types such as Bonus and Multi.
+	- Subsets should also inherit all hubs from their base game page.
 - Many other hubs exist - you can browse them [here](https://retroachievements.org/hubs).
 
 ### Special Hubs
@@ -158,26 +167,25 @@ Hubs are used to categorize game pages in a variety of ways. Related games can a
 - Meta|Art hubs are managed by [RAArtTeam](https://retroachievements.org/user/RAArtTeam).
 - [Meta|DevComp](https://retroachievements.org/hub/13591) hubs are managed by [DevCompliance](https://retroachievements.org/user/DevCompliance).
 
-### Related Games
+### Similar Games
 
-- The list of related games should be limited to around 5 or 6 entries.
-- If a Series hub is linked, there shouldn't be too many games from the same series added as related games, as it would be somewhat redundant. A few can still be helpful if they're more directly related than others in the series, or if they're on the same system.
-- Related games can also include games with similar gameplay or other interesting connections, particularly if they're on the same system or in the same console generation, or if they share staff.
+- The list of similar games should be limited to around 5 or 6 entries.
+- If a Series hub is linked, there shouldn't be too many games from the same series added as similar games, as it would be somewhat redundant. A few can still be helpful if they're more directly related than others in the series, or if they're on the same system.
+- Similar games can also include games that share gameplay or other interesting connections, particularly if they're on the same system or in the same console generation, or if they share staff.
 - Different versions or ports of the same game are also commonly linked together, but don't link them all if there are too many ports of the game.
 
 ## Contributing Game Info
 
-Users may help submit game info, images, and hubs in the **Site Cleanup Forum**, one of the channels in our [Discord server](https://discord.gg/dq2E4hE).
+Users may help submit game info, images, and hubs in the **Cleanup Requests forum**, one of the channels in our [Discord server](https://discord.gg/dq2E4hE).
 
 ### Tagging Your Posts
 
 - When creating a post, you have the choice of choosing between a few tags to label your request. Each tag will indicate the type of request being made.
-	- Game Info - For editing game titles, developers, publishers, genres, and release dates. Refer to the [Game Info](/guidelines/content/game-info-and-hub-guidelines#game-info) section above.
-	- Game Images - For editing icons, box art, and screenshots. Refer to the [Game Images](/guidelines/content/game-info-and-hub-guidelines#game-images) section.
-	- Hub Updates - For editing hubs and related games. Refer to the [Hubs and Related Games](/guidelines/content/game-info-and-hub-guidelines#hubs-and-related-games) section.
-	- Achievement Type - For submitting progression plans for games that lack it, allowing the game to grant beaten awards. Refer to the [Achievement Type](/guidelines/content/game-info-and-hub-guidelines#achievement-type) section below.
-
-	- Challenge League - For submissions related to the Challenge League event. Refer to the [Challenge League](/guidelines/content/game-info-and-hub-guidelines#challenge-league) section below.
+	- Game Info - For editing game titles, developers, publishers, genres, and release dates. Refer to the [Game Info](#game-info) section above.
+	- Game Images - For editing icons, box art, and screenshots. Refer to the [Game Images](#game-images) section.
+	- Hub Updates - For editing hubs and similar games. Refer to the [Hubs and Similar Games](#hubs-and-similar-games) section.
+	- Achievement Type - For submitting progression plans for games that lack it, allowing the game to grant beaten awards. Refer to the [Achievement Type](#achievement-type) section below.
+	- Challenge League - For submissions related to the Challenge League event. Refer to the [Challenge League](#challenge-league) section below.
 - Meta tags:
 	- Open - Indicates that the post is still ongoing and that the request hasn’t been fulfilled yet.
 	- Complete - Indicates that the post has been approved and that the changes have been made to the site.
@@ -199,13 +207,13 @@ Users may help submit game info, images, and hubs in the **Site Cleanup Forum**,
 
 ### Achievement Type
 
-- If a game lacks progression typing, and the developers of the set are inactive (they no longer have the Developer or Jr. Developer role), you may submit a plan to mark the set in the Site Cleanup Forum. A list of such games can be found in the [Missing Progression Typing](https://retroachievements.org/hub/25585) hub.
+- If a game lacks progression typing, and the developers of the set are inactive (they no longer have the Developer or Jr. Developer role), you may submit a plan to mark the set in the Cleanup Requests forum. A list of such games can be found in the [Missing Progression Typing](https://retroachievements.org/hub/25585) hub.
 - Remember to review the [Progression and Win Condition Guidelines](/guidelines/content/progression-and-win-condition-guidelines).
 - If you believe a set is incorrectly marked, or if the set's developers are still active, please send a message to [QATeam](https://retroachievements.org/user/QATeam) instead - Site Cleanup cannot handle these reports.
 - Requests for missable marking should also be sent to QATeam - Site Cleanup cannot handle these either.
 
 ### Challenge League
 
-- The 2023 event Challenge League: The Top 100 included certain challenges for submitting game info and images in the Site Cleanup Forum.
+- The 2023 event Challenge League: The Top 100 included certain challenges for submitting game info and images in the Cleanup Requests forum.
 - This event continues to be available as an [Evergreen Event](https://retroachievements.org/viewtopic.php?t=25332).
 - The relevant challenges are from KingS1zzle (May) and Soulsderfuchs (August). Refer to the [original topic](https://retroachievements.org/viewtopic.php?t=19615) for more information.
