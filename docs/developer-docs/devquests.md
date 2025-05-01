@@ -204,9 +204,10 @@ An English release is considered a game released in English in US, Canada, UK, o
 **Goal**: Join forces with other developers to publish two collaboration sets  
 **Repeatable**: No
 
-1. Set must have a fair share of the work done by each dev - Sets like Animal Crossing DS would not be approved.
+1. Set must have a fair share of the work done by each dev - For example, sets with extreme splits like 80%/20% would not allow credit.
 2. Must be a full set covering every aspect of the game.
 3. Each Dev must publish at least 20 achievements each.
+  - For compilations, this requirement is waived if you make a full set for one or more games in a compilation.
 4. Achievements must make sense, no fluff to fulfill requirement.
 
 ### 011 [The Genesis of RA](https://retroachievements.org/game/1280)
@@ -253,7 +254,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 014 [Laudable Leaderboards](https://retroachievements.org/game/862)
 
-![DQ014](https://retroachievements.org/Images/057070.png)
+![DQ014](https://media.retroachievements.org/Images/110735.png)
 
 **Type**: Maintenance  
 **Goal**: Create leaderboards for 10 games that currently do not have any  
@@ -434,6 +435,22 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 8. Revision rules apply as usual, meaning if you only clean-up the logic and don't change the achievements scope you don't need one.
 9. Devs' own sets made prior to 2024 are eligible for half the points on a Full Dust-Off. As with sets that are not pre-approved, they will need to be sent to the DevQuest team for approval.
 
+### 023 [Well of Wishes](https://retroachievements.org/event/170-devquest-023-well-of-wishes)
+
+![DQ023](https://media.retroachievements.org/Images/110591.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a set from the request list of a randomly chosen active user!
+**Repeatable**: No
+
+1. Games chosen should have a decent amount of content. Small games like short hacks, homebrews, and demos may be rejected at the discretion of the DevQuest Team. If in doubt, contact the DevQuest team and ask.
+2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin.
+3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
+4. List of elligible users and their current request lists will be pulled periodically.
+5. A snapshot of the spun user's most recently recorded request list will be made at the time of random selection. Game selections will be validated against this list only.
+   - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
+6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
+
    
 ## Wheel Spin DevQuest Rules
 
@@ -447,6 +464,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 
 - DevQuest 006: The Unwanted
 - DevQuest 019: Wheel of Genres
+- DevQuest 023: Well of Wishes
 
 ### Respin Tasks
 

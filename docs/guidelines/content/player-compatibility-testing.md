@@ -32,7 +32,7 @@ Players must include the following information in their first message to request
 
 - A brief explanation of why they think the hash should be added to the set.
 - A link to the patch's source.
-- Tell the set maintainer that they inted to master or complete the set.
+- Tell the set maintainer that they intend to master or complete the set.
 
 ### Step 2 - The Set Maintainer's Conditions
 If a set maintainer is interested in supporting the test, they should respond to the player with the following information:
