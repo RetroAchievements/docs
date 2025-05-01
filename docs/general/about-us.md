@@ -120,7 +120,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
-- [Raichi](https://retroachievements.org/user/Raichi)
 - [s0uth](https://retroachievements.org/user/s0uth)
 - [Searo](https://retroachievements.org/user/Searo)
 - [StingX2](https://retroachievements.org/user/StingX2)
@@ -137,16 +136,18 @@ The team responsible for investigating cheating reports.
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
+- [ASolidSnack](https://retroachievements.org/user/ASolidSnack)
 - [authorblues](https://retroachievements.org/user/authorblues)
-- [BoomEX](https://retroachievements.org/user/BoomEX)
-- [Brylefi](https://retroachievements.org/user/Brylefi)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
+- [Fridge](https://retroachievements.org/user/Fridge)
 - [Layton](https://retroachievements.org/user/Layton)
+- [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
+- [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [wolfman2000](https://retroachievements.org/user/wolfman2000)
