@@ -239,16 +239,16 @@ Revision voting is currently dev-only. While voting is exclusive to Discord, ple
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of the revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
 ## Maintainer Role Purpose and Qualification
-The achievement Maintainer role allows a developer to assume responsibility for an achievement. Future tickets and unlock credit will be assigned to achievement maintainers and maintainership is effectively a transfer of ownership. The original author does not lose authorship credit, ticket history, or unlock credit that occurred prior to the assignment of a new maintainer. The maintainer role may only be approved and assigned by the DevCompliance team.
+The achievement Maintainer role allows a developer to assume responsibility for an achievement. Future tickets and unlock credit will be assigned to achievement maintainers and maintainership is effectively a transfer of ownership. The original author does not lose authorship credit, ticket history, or unlock credit that occurred prior to the assignment of a new maintainer. If a maintainer loses or relinquishes the role, new tickets and unlocks will return to being given to the author. The maintainer role may only be approved and assigned by the DevCompliance team.
 
-Maintainership requests will be considered on a case by case basis for significant repairs. The biggest factor in consideration in approving the maintainer role will be correcting set significant instability issues.
+Maintainership requests will be considered on a case by case basis for significant repairs. Correcting set-significant instability issues is the biggest factor when considering approval of the maintainer role.
 
 ### What May Qualify for Maintainership?
 A good candidate for maintainership will meet many of the following criteria:
 
 - Set demoted for necessary repairs by QA-Maintainers.
 - Existing logic was fundamentally flawed for the set or for a category of achievements and needed to be replaced in all of the affected achievements.
-- Problems in the set were causing regular tickets or other problematic quality issue.
+- Problems in the set were causing regular tickets or other problematic quality issues.
 - Significant New RAM digging needed to be done to find replacement addresses or better addresses to use to accomplish the goals.
 - Significant logic re-work was necessary for proper functionality and stability.
 - Very few, if any logic conditions were retained in the new logic.
@@ -256,6 +256,7 @@ A good candidate for maintainership will meet many of the following criteria:
 - One-condition achievements where the final product is vastly changed.
 - Adding hash or language support requiring a rewrite that significantly changed the approach to logic.
 - Requestor has a history of fixing tickets in the set.
+- All tickets in the set have been resolved or closed.
  
 ### What Shall Not Qualify for Maintainership?
 Writing new logic for previously stable achievements is not sufficient to warrant maintainership.  Poor candidates include, but are not limited to:
