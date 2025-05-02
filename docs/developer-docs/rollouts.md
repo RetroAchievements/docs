@@ -21,7 +21,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 
 - Developers are limited to leading one set at a time, but may collaborate on as many sets as they wish. Upon completion of a set, they are to notify QA to look over their set and sign them off, which allows them to move on to their next pick, if applicable.
 
-- Rollout claims are subject to [Special Claims](/docs/guidelines/devlopers/claims-system#special-claims) rules.
+- Rollout claims are subject to [Special Claims](/docs/guidelines/devloper-docs/claims-system#special-claims) rules.
 
 - As per the Developer Code of Conduct, Developers must be free of unaddressed tickets in order to have their claims locked in. They must also have an open claim slot.
 
