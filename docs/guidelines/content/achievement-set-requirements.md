@@ -27,7 +27,7 @@ description: This guide outlines the essential requirements for creating and sub
   - In-game cheat codes;
   - Battery saves;
   - Passwords.
-  - **See also**: [Achievement Templates](/developer-docs/achievement-templates) and [Real Examples](/developer-docs/real-examples) for some well known protection techniques.
+  - **See also**: [Achievement Templates](/developer-docs/achievement-templates), [Real Examples](/developer-docs/real-examples), and [Implementing Save Protection](/developer-docs/save-and-password-protection) for some well known protection techniques.
 - **Support for unlocking achievements on *every* save slot**
    - Players must not be required to play on a specific save slot.
    - This can typically be done either through alt groups or index pointers.
