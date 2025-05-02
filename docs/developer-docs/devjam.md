@@ -15,7 +15,7 @@ A DevJam lasts three months. Some will go on longer if the situation calls for i
 ## Guidelines
 
 - Notify the event host(s) when you make a claim!
-- Sets claimed for the event will be marked as "Free Rollout" claims so they will not count against a developer's claim total. However, they will only be "free" during that quarter! Early and existing claims won't be marked as "free" until the start of the quarter. If a set isn't done in time for launch, it will become a standard claim. Also, like rollouts, devs can only have one free claim at a time! See the [Special Claims](/docs/guidelines/developers/claims-system#special-claims) rules for more detailed information.
+- Sets claimed for the event will be marked as "Free Rollout" claims so they will not count against a developer's claim total. However, they will only be "free" during that quarter! Early and existing claims won't be marked as "free" until the start of the quarter. If a set isn't done in time for launch, it will become a standard claim. Also, like rollouts, devs can only have one free claim at a time! See the [Special Claims](/guidelines/developers/claims-system#special-claims) rules for more detailed information.
 - Once a set has been signed off, it will be marked as "Release Scheduled" and is to be promoted on the launch date.
 - Event host(s) may request permission to promote your set(s) to core on the launch date in case you are unavailable.
 - If a set is promoted early, it will be disqualified from DevJam. The developer may make another submission if they wish.
