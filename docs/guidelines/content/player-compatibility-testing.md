@@ -9,12 +9,12 @@ The biggest barrier to adding additional hash support to sets is the time requir
 ## Process Overview
 Players interested in conducting new hash testing should contact the set maintainer via site direct message and request to conduct compatibility testing. A set maintainer is any active developer who is an author on a set. If all set authors are inactive, [QATeam](https://retroachievements.org/user/QATeam) is the set maintainer.
 
-If the set maintainer agrees to the compatibility testing, they will link the test hash. It will be the tester's responsibility to complete the tests required by the set maintainer.
+If the set maintainer agrees to the compatibility testing, they will link the test hash, marked it "Untested" and assigner the requestor as "Tester" so the test may commence. It will be the tester's responsibility to complete the tests required by the set maintainer.
 
-If approved for a compatibility test, the requested hash will be linked with a **COMPATIBILITY TEST - NOT FOR PLAYER USE** label. The tester will be required to master or complete the set within a time frame determined by the set maintainer. The tester should create save states before as many achievements as possible. The tester will report issues directly to the set maintainer via site message and shall not open tickets if using the test hash. When the tester masters or completes the achievement set, the test hash will be renamed to its appropriate title. Its patch will then be added to RAPatches. The hash will be considered supported.
+The tester will be required to master or complete the set within a time frame determined by the set maintainer. The tester should create save states before as many achievements as possible. The tester will report issues directly to the set maintainer via site message and shall not open tickets if using the test hash. When the tester masters or completes the achievement set, the test hash will be renamed to its appropriate title. Its patch will then be added to RAPatches. The hash will be considered supported.
 
 ## Benefits
-Because the test hashes will be linked to the set during testing, testers will keep any achievements they unlock. Testers can also earn beaten, completion and mastery credit.
+Testers will keep any achievements they unlock. Testers can also earn beaten, completion and mastery credit.
 
 ## Restrictions and Limitations
 The following restrictions and limitations apply:
@@ -23,8 +23,7 @@ The following restrictions and limitations apply:
 - The set maintainer may terminate a compatibility test at their discretion.
 - Testers must use the emulator and core that they set maintainer tells them to use.
 - The set maintainer will set a reasonable time limit for the tester to complete the set.
-- Test hashes that are not actively being tested will be unlinked, and the tests will be ended.
-- Only one tester will be approved per test hash.
+- The set maintainer has sole discretion to add additional testers.
 - The set maintainer may set additional requirements at their discretion.
 
 ### Step 1 - The Player's Request
@@ -45,13 +44,13 @@ If a set maintainer is interested in supporting the test, they should respond to
 If a player agrees to the set maintainer's terms, they tell the set maintainer that they accept the testing responsibility.
 
 ### Step 4 - The Set Maintainer Links the Test Hash
-The set maintainer will link the hash and label it **COMPATIBILITY TEST - NOT FOR PLAYER USE**. The set maintainer will tell the tester that they may begin testing.
+The set maintainer will link the hash, mark it "Untested", and assign the "Tester" role to the requestor.
 
 ### Step 5 - Testing the Hash
 Testers will do the following during the compatibility test:
 
 - Make completing the compatibility test their top priority on RetroAchievements by dedicating the majority of their play time to the test.
-- Create a save state before each achievement as much as possible.
+- Create a save state before each achievement as often as possible.
 - Attempt to earn every achievement in the set as required by the set maintainer. Set maintainer's may require mastery or completion.
 - Immediately inform the set maintainer via site message when an incompatible achievement is discovered. The player will be responsible for providing the set maintainer whatever save states they request in order to modify achievement logic necessary for compatibility.
 - The set maintainer may require more tests after updating the logic at their discretion. Testers must follow the set maintainer's directions throughout the test.
