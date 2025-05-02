@@ -79,7 +79,7 @@ Each developer is allowed four primary claims. Junior developers are allowed one
 
 - It is recommended that you post a complete plan in the forum topic. When doing so, be open to suggestions; you can get excellent input and suggestions this way.
 
-## Special Cases
+## Additional Rules for Specific Types of Sets
 
 ### Hacks
 
