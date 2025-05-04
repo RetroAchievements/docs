@@ -5,7 +5,7 @@ description: Describes how games can receive standalone support, as well as the 
 
 # Standalone Games
 
-We offer support for Standalone games, which do not use an emulator to connect to RetroAchievements. This is done by directly adding a call to rcheevos, be it through directly modifying the game or creating a mod that has the code required to connect to the RetroAchievements server. However, all Standalone support must abide strict requirements, as well as approval by the RetroAchievements Admins. Even if all the guidelines below are met, this will not guarantee we will accept your proposal. For the best chances of success, it is vital that you present a highly-detailed plan to the admins.
+We offer support for Standalone games, which do not use an emulator to connect to RetroAchievements. This is done by directly making HTTP calls to our emulator integration API (the "Connect API"), be it through directly modifying the game or creating a mod that has the code required to connect to the RetroAchievements server. However, all Standalone support must abide strict requirements, as well as approval by the RetroAchievements Admins. Even if all the guidelines below are met, this will not guarantee we will accept your proposal. For the best chances of success, it is vital that you present a highly-detailed plan to the admins.
 
 [[toc]]
 
