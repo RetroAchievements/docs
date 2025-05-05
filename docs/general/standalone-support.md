@@ -11,7 +11,7 @@ We offer support for Standalone games, which do not use an emulator to connect t
 
 ## What Are the Requirements to Work on a Standalone
 
-Standalone support cannot be proposed by just about anyone, with strict non-negotiable requirements that must be met.
+Standalone support cannot be proposed by just about anyone, as there are strict non-negotiable requirements that must be met.
 
 - The proposer must either be a Developer on RetroAchievements, or a Junior Developer with at least one published set. As these achievement sets still have to follow our global [Achievement Design](https://docs.retroachievements.org/developer-docs/achievement-design.html) rules. This is not something we can trust anyone with who has not showed us their proficiency in set design before.
    - Alternatively, the proposer may suggest a standalone without having developed a set, but must do so with the support of a RetroAchievements Developer who will be in charge of set design.
@@ -30,3 +30,5 @@ We will be listing some guidelines below as for what we are looking for. However
 ### How to Request Standalone Support
 
 Keeping all the guidelines above in mind, you must create a detailed plan that goes into your Standalone proposal. It must include at the very least a full Set Plan for the core set and potential subsets, how you are planning to address concerns about Hardcore restrictions, and how your Standalone project will connect with RetroAchievements. Once you have finished your plan, you can send it to [RAdmin](https://retroachievements.org/user/radmin), where it will be discussed. If approved, we will be in contact with you on how to proceed, including the development of a working prototype so we can gain a good understanding of how viable this Standalone support will be.
+
+We want to stress that the more complete a proof of concept is for a standalone proposal, the more weight it will have in the discussion that will be held between the administrators.
