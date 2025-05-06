@@ -1,6 +1,6 @@
 ---
 title: Standalone Support
-description: Describes how games can receive standalone support, as well as the conditions- and requirements.
+description: Guide to RetroAchievements support for standalone games, including requirements, evaluation criteria, and the proposal process for games that don't use emulators.
 ---
 
 # Standalone Games
@@ -13,14 +13,14 @@ We offer support for Standalone games, which do not use an emulator to connect t
 
 Standalone support cannot be proposed by just about anyone, as there are strict non-negotiable requirements that must be met.
 
-- The proposer must either be a Developer on RetroAchievements, or a Junior Developer with at least one published set. As these achievement sets still have to follow our global [Achievement Design](https://docs.retroachievements.org/developer-docs/achievement-design.html) rules. This is not something we can trust anyone with who has not showed us their proficiency in set design before.
+- The proposer must either be a Developer on RetroAchievements, or a Junior Developer with at least one published set, as these achievement sets still have to follow our global [Achievement Design](https://docs.retroachievements.org/developer-docs/achievement-design.html) rules. This is not something we can trust anyone with who has not showed us their proficiency in set design before.
    - Alternatively, the proposer may suggest a standalone without having developed a set, but must do so with the support of a RetroAchievements Developer who will be in charge of set design.
 - You must be able to enforce Hardcore restrictions as shown in the [Global Leaderboard and Achievement Hunting Rules](https://docs.retroachievements.org/guidelines/users/global-leaderboard-and-achievement-hunting-rules.html). Such examples include black/whitelisting other mods that reduce the challenge of achievements, or disallowing multiplayer to prevent unfair advantages. These advantages should only be reserved for Softcore players, if applicable.
-- We expect you to have knowledge of the tools required to add Standalone support to a game. This varies depending on the game you are looking at, with some delving into code languages such as C#, while others have extensive modding tools available.
+- We expect you to have knowledge of the tools required to add Standalone support to a game. This varies depending on the game you are working on, with some games requiring expertise with programming languages such as C#, while other games may require extensive modding tools available which can be leveraged for developing an achievement set.
 
 ### What Do We Look for in Standalone Support
 
-We will be listing some guidelines below as for what we are looking for. However, do keep in mind that at all times, the Admin team of RetroAchievements makes the decision as to whether we want to proceed with your proposal. A good plan- or prototype must therefore always be presented.
+We will be listing some guidelines below as for what we are looking for. However, do keep in mind that at all times, **the Admin team of RetroAchievements makes the decision as to whether we want to proceed with your proposal.** A good plan- or prototype must therefore always be presented.
 
 - It is allowed to request Standalone support for games that already have achievement sets on other platforms, such as Steam.
    - However, the set on RetroAchievements must be significantly different enough from the existing ones. Plagiarism from other platforms is not allowed, with our sets needing to offer a unique experience not present in the official sets.
