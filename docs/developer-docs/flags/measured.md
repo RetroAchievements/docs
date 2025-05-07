@@ -13,7 +13,7 @@ If placed on a condition with a required [`HitCount`](/developer-docs/hit-counts
 
 If placed on a condition without a `HitCount`, the target value is the constant on the right side of the condition and the current value is the evaluation of the left side of the condition. [`AddSource`](/developer-docs/flags/addsource) and [`SubSource`](/developer-docs/flags/subsource) can be used.
 
-If multiple conditions are marked as `Measured` and have the same target value, the current value will be the maximum of all the `Measured` conditions.
+If multiple conditions are marked as `Measured` and have the same target value, the current value will be the highest out of all the `Measured` conditions.
 
 If multiple conditions are marked as `Measured` and have different target values, a Parse Error -22 will occur.
 
