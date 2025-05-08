@@ -45,6 +45,10 @@ Any developer wanting to revise a set needs to:
 
 3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible. The community deserves a good understanding of your intent.
 
+::: danger Un-Merging Parallel Release Sets
+Games with parallel releases whose base sets are currently merged together (Example: *Pokémon Red Version | Pokemon Blue Version*) may be un-merged into separate sets, but doing so has additional requirements beyond a standard revision. Please see the full rules in the [Games With Parallel Releases](/guidelines/content/games-with-parallel-releases) document.
+:::
+
 4. **Start a Discussion** by creating a new post in `#revision-discussion-forum`.
    - Your post title should include the game name and console. Ex: "Revision proposal - Super Mario Bros. (NES)"
    
