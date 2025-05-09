@@ -85,7 +85,6 @@ Special claims are granted during a console rollout and select developer events.
 - Developers must prioritize maintenance of rollout sets during the 3 month release window following the rollout.  Tickets should be addressed within 7 days.
 - Abandoning a set after release will result in exclusion from future rollouts.  Participation and claim priority in future rollouts may be granted again at the discretion of the Rollout Team once the sets are restored to the guidelines set by the Developer Compliance team.
 - If there are extenuating circumstances that might prevent a developer from meeting these requirements, Developer Compliance may grant an extension upon request.
-- Tickets on sets included in a console rollout should be addressed or updated at least every 7 days during the 3 month release window following the rollout.
 
 ## Important Notes
 
