@@ -15,6 +15,10 @@ If you cannot figure out how to resolve a logic problem associated with a ticket
 **After a developer has published achievements, they should be prepared for bug reports.**
 A developer's top priority on RetroAchievements is to keep their work bug free by appropriately resolving tickets. A developer shall respond to all tickets as soon as possible. The sooner the response, the better, because the problem is fresh in the player's mind and their knowledge can be used to help resolve the problem.
 
+::: warning Tickets for Rollout Sets
+Tickets on sets included in a console rollout must be addressed or updated at least every 7 days during the 3 month release window following the rollout.
+:::
+
 ## New Set Claims With Open Tickets?
 
 To be allowed to make a primary or collaboration claim on a set, developers must not have any _unaddressed_ tickets.

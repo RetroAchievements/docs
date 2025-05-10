@@ -20,7 +20,7 @@ It is required for all of your achievement titles to be in English. There are so
 
 ### Capitalization
 
-For capitalization in titles, we recommend using https://capitalizemytitle.com/style/chicago/. This will capitalize every word that should be capitalized. While this may not always give perfect results on longer achievement titles, for consistency it is recommended to choose this option when unsure about which words to capitalize, with the recommended style being either Chicago or MLA for the most aesthetically pleasing results.
+For capitalization in titles, we recommend using https://capitalizemytitle.com/style/chicago/ **with the "Straight quotes" checkbox selected**. This will capitalize every word that should be capitalized, and straight quotes are necessary to be displayed correctly in every emulator. While this may not always give perfect results on longer achievement titles, for consistency it is recommended to choose this option when unsure about which words to capitalize, with the recommended style being either Chicago or MLA for the most aesthetically pleasing results.
 
 ---
 
