@@ -4,7 +4,7 @@ description: Describes the process for players to conduct compatibility testing 
 ---
 
 # Player Compatibility Testing
-The biggest barrier to adding additional hash support to sets is the time required to test them. This document explains how players may request approval to conduct hash compatibility testing.
+The biggest barrier to adding additional hash support to sets is the time required to test them. This document explains how players may request approval to conduct hash compatibility testing. All hashes linked to an set must be able to unlock all of the set's achievements.
 
 ## Process Overview
 Players interested in conducting new hash testing should contact the set maintainer via site direct message and request to conduct compatibility testing. A set maintainer is any active developer who is an author on a set. If all set authors are inactive, [QATeam](https://retroachievements.org/user/QATeam) is the set maintainer.
