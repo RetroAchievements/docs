@@ -111,10 +111,8 @@ The team responsible for the adherence and driving updates to the [Developer's C
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
 - [AmirGaris](https://retroachievements.org/user/AmirGaris)
-- [BoomEX](https://retroachievements.org/user/BoomEX)
 - [Brandovsky](https://retroachievements.org/user/Brandovsky)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
-- [DanielARP](https://retroachievements.org/user/DanielARP)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
@@ -122,7 +120,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [s0uth](https://retroachievements.org/user/s0uth)
 - [Searo](https://retroachievements.org/user/Searo)
-- [StingX2](https://retroachievements.org/user/StingX2)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
 - [tomojin](https://retroachievements.org/user/tomojin)
