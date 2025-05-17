@@ -44,7 +44,7 @@ There are two modes of play: Hardcore and Softcore.
 
 Users who have the Untracked status are omitted from all rankings. Their activity is hidden from view outside of their user page and their unlocks do not affect achievement statistics. This status is for users who share their accounts, have zero interest in hardcore and softcore rankings, are suspected of cheating, or actually are cheating. Untracked users can still earn achievements how they normally would, obtain mastery badges, etc.
 
-Voluntary untracks can be reversed by resetting all progress and contacting [RAdmin](https://retroachievements.org/user/RAdmin).
+Voluntary untracks can be requested through [RAdmin](https://retroachievements.org/user/RAdmin), and likewise can be reversed by resetting all progress and contacting the same account. Before requesting a voluntary untrack, remember that Softcore mode exists if your reasoning is that you prefer to use emulator features such as save states and emulator cheats.
 
 Involuntary untracks are done when players have violated the [Global Leaderboard](#global-leaderboard) rules. Untracked players should contact [RACheats](https://retroachievements.org/user/RACheats) for further guidance if they are involuntarily untracked and want to find out if they are eligible to be retracked.
 
