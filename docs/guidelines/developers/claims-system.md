@@ -52,6 +52,10 @@ When selecting "Complete Claim" within 24 hours of making the claim, a prompt wi
 
 ## Collaboration Claims
 
+Before entering into a collaboration, all interested participants should do research on potential partners to ensure a desired level of confidence that the collaboration has a high likelihood of success. It is prudent to check other potential partners' history with claims, sets, tickets and overall behavior before requesting a collaboration or accepting one.
+
+Additionally, as with any other claim, a developer who drops out of a collaboration forfeits any authorship and any work they leave is considered abandoned. If all collaboration developers agree, then achievements authored by a dropping developer may be promoted under their name with a remaining claimant as the assigned maintainer, at the discretion of the remaining claimants. Dev Compliance must approve another claimant to be the maintainer and assign the role before the collaboration is promoted to core.
+
 Collaboration claims are made when there is already a primary claim on a game and acts as a "child" of said primary claim. It will inherit the primary claim's expiration date. Extending or completing a collaboration claim can only be done by the developer with the primary claim.
 
 - Let others know if you welcome collaborators.
