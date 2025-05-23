@@ -165,6 +165,7 @@ Hubs are used to categorize game pages in a variety of ways. Links to similar ga
 	- If a game doesn't have a Hacks hub, it can be added to a Series Hacks hub if one exists. Hacks hubs are intended to apply to one specific game, while Series Hacks hubs can collect different games in the same series. Note that Series Hacks hubs do not appear in the publisher field.
 	- If a game doesn't have a Hacks hub or Series Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018).
 - Homebrews, demos, prototypes, and unlicensed games should always be added to [Central - Homebrew](https://retroachievements.org/hub/2469), [Central - Demo](https://retroachievements.org/hub/5901), [Central - Prototypes](https://retroachievements.org/hub/7824), or [Central - Unlicensed](https://retroachievements.org/hub/5751).
+	- Exceptions are made when an unlicensed game is in an unlicensed series hub, such as [Unlicensed - Mario](https://retroachievements.org/hub/29507). The Central hub shouldn't be redundantly added in these cases.
 - Subsets should always be added to a [Subsets](https://retroachievements.org/hub/18903) hub. Note that there are specialized hubs for subset types such as Bonus and Multi.
 	- Subsets should also inherit all hubs from their base game page.
 - Many other hubs exist - you can browse them [here](https://retroachievements.org/hubs).
