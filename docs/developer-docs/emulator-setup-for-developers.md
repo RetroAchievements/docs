@@ -15,7 +15,7 @@ Achievement development requires a Windows-only DLL file called [RAIntegration](
 - RAQUASI88
 - RASnes9x
 - RAVBA
-- WinArcadia (may encounter errors; refer to this [forum topic](https://retroachievements.org/viewtopic.php?t=22335) for tips)
+- WinArcadia
 
 ![RAIntegration download prompt in RALibRetro](/public/ralibretro-raintegration-download.png)
 
@@ -35,27 +35,41 @@ After you've done so, start `EmuHawk.exe`, then go to Tools -> RetroAchievements
 
 ![RAIntegration menu in BizHawk](/public/bizhawk-raintegration-menu.png)
 
-## DuckStation & PCSX2
+## DuckStation
 
-These two emulators behave similarly. Note that PCSX2 requires the nightly build; the stable build is currently too outdated for RetroAchievements support.
+With DuckStation, the file may be named either `RA_Integration-x64.dll` or `RA_Integration.dll`. Place it in DuckStation's main folder.
 
-Ensure the file is named `RA_Integration.dll` (without the `-x64` part) and place it in the main folder of DuckStation or PCSX2.
+![RAIntegration in DuckStation folder](/public/duckstation-raintegration-folder.png)
+
+When you run the emulator for the first time, a setup wizard will guide you through various options, including enabling and logging into RetroAchievements. Otherwise, you can find these options under Tools -> Achievements. 
+
+![Achievement settings in DuckStation](/public/duckstation-achievement-settings.png)
+
+After enabling RetroAchievements and logging in, check "Enable RAIntegration (Development Only)". A menu with RAIntegration tools will then appear.
+
+![RAIntegration menu in DuckStation](/public/duckstation-raintegration-menu.png)
+
+Note: If you have issues logging in (e.g. DuckStation freezes), try it with RAIntegration disabled. Wait until after logging in to enable it.
+
+## PCSX2
+
+PCSX2 supports RetroAchievements in its stable builds as of v2.0.0.
+
+Ensure the file is named `RA_Integration.dll` (without the `-x64` part) and place it in the main folder of PCSX2.
 
 ![RAIntegration in PCSX2 folder](/public/pcsx2-raintegration-folder.png)
 
-There are two ways to launch PCSX2 with RAIntegration enabled. For DuckStation, only the first method is recommended; the second method currently appears to be unreliable or only partially implemented.
+There are two ways to launch PCSX2 with RAIntegration enabled.
 
 ### Add a parameter
 
-The first way is to launch `duckstation-qt-x64-ReleaseLTCG.exe` or `pcsx2-qt.exe` with the parameter `-raintegration`. A convenient way to do this in Windows is to right click the .exe and create a shortcut. Then right click the shortcut and go to Properties. In the Target field under the Shortcut tab, enter `-raintegration` after the filename, and click OK.
+The first way is to launch `pcsx2-qt.exe` with the parameter `-raintegration`. A convenient way to do this in Windows is to right click the .exe and create a shortcut. Then right click the shortcut and go to Properties. In the Target field under the Shortcut tab, enter `-raintegration` after the filename, and click OK.
 
 ![RAIntegration parameter in PCSX2 shortcut](/public/pcsx2-raintegration-shortcut.png)
 
 You can then use this shortcut to launch the emulator with RAIntegration enabled.
 
 ### Edit a config file
-
-The second way can be used with PCSX2, but currently appears to be unreliable with DuckStation; the previous method is recommended in that case.
 
 This method involves editing the file `PCSX2.ini` in `C:\Users\YourUsername\Documents\PCSX2\inis`. If you don't see these directories, you may need to launch the emulator first to generate them. If you wish to keep these directories in PCSX2's main folder instead of your Documents folder, you can create an empty file called `portable.txt` in PCSX2's main folder.
 
@@ -71,7 +85,7 @@ After launching the emulator with RAIntegration enabled and logging in to your a
 
 ![RAIntegration menu in PCSX2](/public/pcsx2-raintegration-menu.png)
 
-When an update for RAIntegration is available, it will ask you if you want to upgrade when you open the emulator. However, note that this automatic upgrade is not supported by DuckStation and PCSX2 - clicking Yes will present an error. You must manually replace `RAIntegration.dll` whenever it's updated.
+When an update for RAIntegration is available, it will ask you if you want to upgrade when you open the emulator. However, note that this automatic upgrade is not supported by PCSX2 - clicking Yes will present an error. You must manually replace `RAIntegration.dll` whenever it's updated.
 
 ## PPSSPP
 
@@ -99,11 +113,17 @@ Once you've done that, restart PPSSPP and it should recognize RAIntegration succ
 
 ## Dolphin
 
-RAIntegration support in Dolphin currently requires a special build created by [LillyJade](https://retroachievements.org/user/LillyJade). The latest build can be downloaded here:
+Dolphin supports RAIntegration in its development releases as of version 2503-251.
 
-- **https://github.com/LillyJadeKatrin/dolphin-retroachievements/releases**
+The file may be named either `RA_Integration-x64.dll` or `RA_Integration.dll`. Place it in Dolphin's main folder.
 
-It should ask you to download the toolset automatically when you open it. After doing so and logging in, you can find the developer tools under Tools -> Achievement Development.
+![RAIntegration in Dolphin folder](/public/dolphin-raintegration-folder.png)
+
+Options can be found under Tools -> Achievements. Here you can enable RetroAchievements and log in.
+
+![Achievement settings in Dolphin](/public/dolphin-achievement-settings.png)
+
+When the RAIntegration file exists in Dolphin's main folder, a menu with the development tools will then automatically appear under Tools -> RetroAchievements Development.
 
 ![RAIntegration menu in Dolphin](/public/dolphin-raintegration-menu.png)
 
