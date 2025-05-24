@@ -247,6 +247,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       link: "/guidelines/content/player-compatibility-testing",
     //     },
     //     {
+    //       text: "Games With Parallel Releases",
+    //       link: "/guidelines/content/games-with-parallel-releases",
+    //     },
+    //     {
     //       text: "Conquistas para ROM Hacks",
     //       link: "/pt/guidelines/content/achievements-for-rom-hacks",
     //     },
