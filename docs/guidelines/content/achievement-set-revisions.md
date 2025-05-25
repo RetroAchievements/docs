@@ -138,7 +138,7 @@ Up until June 2019, RetroAchievements sets had a cap of 400 points, with no rest
 
 Anyone wanting to rescore a set needs to:
 
-1. **Prepare a rescore plan** that shows the original scores and the proposed scores. A quick and easy way to do this is by utilizing [this sheet](https://docs.google.com/spreadsheets/d/1iO8nWKzOwwBbu7TiyXBkXi6IRVxE2OVDahE8RDstE4M/edit?usp=sharing); you can enter the Game ID in F2 to bring up a full list of that game's achievements and scores.
+1. **Prepare a rescore plan** that shows the original scores and the proposed scores. The user [orangepeelbeef](https://retroachievements.org/user/orangepeelbeef) made a tool specifically for this, which you can find [here](https://opb.servehttp.com/rascorer/). Once you have entered in the proposed points, you can copy the "Rescoring Summary" at the bottom and paste it into your rescore proposal in the forum.
 
 2. **Contact** each active author of the set. They may have valuable insight into the chosen scores. You do not need to wait for a response.
 
