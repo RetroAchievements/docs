@@ -5,7 +5,7 @@ description: Guidelines for handling games with parallel releases on RetroAchiev
 
 # Games with Parallel Releases
 
-Some games have multiple versions that were released simultaneously in-parallel and are designed to interact with each other but offer differing play experiences while remaining at their core the same game. Ex: Mainline Pokemon games.
+Some games have multiple versions that were released simultaneously in-parallel and are designed to interact with each other, remaining at their core the same game yet offering differing play experiences. Ex: Mainline Pokemon games.
 
 ::: tip Retail Games Only
 This policy only applies to licensed retail games. Other categories of games, such as hacks, shall not have separate sets for parallel releases unless there are significant differences, subject to approval by the Developer Compliance team.
@@ -16,7 +16,8 @@ This policy only applies to licensed retail games. Other categories of games, su
 ## What Sets Can They Have?
 
 - Each version shall have its own set.
-- Each version’s set shall have a different author.
+- Each version's set shall have a different author.
+- Each version's set shall vary from each other, especially having achievements that highlight the differences between each set.
 - Sets whose versions were merged into one base set before this policy entered effect may remain merged.
 
 ## Can We Un-Merge Existing Sets?
