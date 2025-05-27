@@ -17,7 +17,7 @@ This policy only applies to licensed retail games. Other categories of games, su
 
 - Each version shall have its own set.
 - Each version's set shall have a different author.
-- Each version's set shall vary from each other, especially having achievements that highlight the differences between each set.
+- Each version's set must be unique from the others, while still covering all content available, highlighting differences between games with unique and creative achievements.
 - Sets whose versions were merged into one base set before this policy entered effect may remain merged.
 
 ## Can We Un-Merge Existing Sets?
