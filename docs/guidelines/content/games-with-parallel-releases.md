@@ -25,7 +25,7 @@ This policy only applies to licensed retail games. Other categories of games, su
 Unmerging shall be allowed if a game currently has a merged base set, under the following requirements:
 
 - The author(s) of the merged base set shall be given preference as to which version their work shall become.
-   - If no longer able to be contacted, use best judgement when presenting the unmerge plan, paying attention to any written record that may indicate preference.
+   - If no longer able to be contacted, use best judgment when presenting the unmerge plan, paying attention to any written record that may indicate preference.
 - Version-specific achievements in the merged base set shall be transferred with authorship intact to the other version upon unmerge.
 - The unmerge plan must be approved by the Developer Compliance team, with input from the QA-Maintainers team.
 - A satisfactory plan for how to handle unlocks for players that have earned the merged set achievements must be developed and approved.
