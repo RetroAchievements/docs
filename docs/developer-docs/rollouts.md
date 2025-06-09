@@ -19,7 +19,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
     - Maintaining a schedule so developers know when they are to officially claim their picks in the forum, when playtesters can start testing sets, and when the console's support will officially launch.
     - Ensuring the console ID is validated on the website when support launches, or at least be in contact with the web team to do so.
 
-- Developers are limited to leading one set at a time, but may collaborate on as many sets as they wish. Upon completion of a set, they are to notify QA to look over their set and sign them off, which allows them to move on to their next pick, if applicable.
+- Developers are limited to leading one set at a time, but may collaborate on one other set at a time as long as it's not their primary claim. Claims must be signed off by the Rollout and Writing teams, with collaboration claims requiring all parts to be finished before they can be signed off. Another claim may be requested after sign-off.
 
 - Rollout claims are subject to [Special Claims](/guidelines/developers/claims-system#special-claims) rules.
 
@@ -27,10 +27,25 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 
 - Since the overall goal of a rollout is to provide sets to launch with a console's support, developers who go inactive or otherwise end up not working on the chosen sets will have their claim lapsed. In other words, claiming a set just to sit on it will not fly and will result in a lapse.
 
+- If problematic behavior occurs during a rollout, such as refusing cooperation with the involved teams or causing issues for fellow developers, the Rollout Team may implement remediation measures. These may include lowering priority for claim selection in future rollouts, or removing claims during the current rollout.
+
 ## Rollout Process
 
-- When a previously unsupported console becomes viable to work on achievements, developers are to be asked individually if they would like to participate in a console's rollout. If they are interested, they are to pick one game as their priority pick, but may provide a list of additional games as backup.
-- The overall list is then sorted to see if there are any overlapping picks. If a priority pick is exclusive to one developer, they can be locked in for that pick. If multiple developers share the same priority pick, they will be encouraged to collaborate.
+- **Step 1: Proposal for New Integrations** - The admin team researches available cores or gets into contact with standalone emulator developers. Likewise, emulator developers can reach out to RAdmin via on-site messaging to propose support for their emulator or core. This proposal will be evaluated by the admin team, who will guide the developer(s) into building integration with RetroAchievements within their emulator if the proposal is accepted.
+- **Step 2: Build Achievement Support** - Integration developers build achievement support into their emulator, including hashing support for any new systems. This process can take months or even years.
+- **Step 3: Integration Testing** - The Rollout Team tests the new support for any issues and provides feedback to the integration developers. A public test may also occur during this step to solicit feedback from all achievement developers.
+- **Step 4: Rollout Selection** - Once the Rollout team and RAdmin are satisfied with the integration, developers are contacted privately by the Rollout Team about their interest in joining. Developers will then provide their priority pick, optional back-up picks, or no picks at all. When all selections are gathered, all developer names are put in a lottery and selected by priority, which goes as follows:
+	- 1: Developers who have participated in the previous rollout and released their set(s) on time, and (new) developers who have never participated in any rollout prior.
+	- 2: Developers who did not participate in the previous rollout, but were involved with other rollouts.
+	- 3: Developers who, in the previous rollout they participated in, received a large number of tickets or potential set demotion, or released their rollout set long beyond the rollout's end date. This priority level will be judged on a case-by-case basis.
+	- 4: Developers who have at least one open ticket with no work done on it for over a month.
+- **Step 5: Selection Planning** - The Rollout Team will evaluate the selections. If a game has multiple priority picks, the team will work with the interested developers to encourage a collaboration. Note: developers are limited to one priority claim (either solo or collaborative), but may join another developer's primary claim if they are looking for collaboration partners, one at a time.
+- **Step 6: Lock In** - Developers are informed if their priority picks are confirmed. RAdmin will add hashes for confirmed games and developers may initiate a claim. Claims will become a Free Rollout special claim for the duration of the rollout. The Rollout Team will communicate the end date of the rollout to the developers upfront for planning. This end date is intended to be the **actual release date** of the new system's/emulator's support, but if unexpected issues arise, this release date may be extended. If this happens, developers will be informed well in advance.
+- **Step 7: Set Development** - Developers start working on their claims. Developers are expected to actively work on their claims during this time, with check-in dates being communicated by the Rollout Team. If a priority pick was not provided to the Rollout Team during Step 4, developers may now reach out to the Rollout Team to request a set to work on.
+- **Step 8: Sign-Off** - Developers submit their finished claims for review by pinging the Writing Team for an initial check, who will then ping the Rollout Team. Sets are checked to ensure they adhere to the [Content Guidelines standards](/guidelines/content/writing-policy). Note: collabs can be signed off only after every collaborator has finished their part.
+- **Step 9: Additional Claims** - Developers may make a new claim once their initial claim is signed-off, or join another collab once the collaboration has been signed-off. Only one primary claim and one non-primary collaboration claim may be made at a time.
+- **Step 10: Launch Preparation** - Once the rollout is nearing completion, other teams such as RANews and the Events Team are contacted so they can make their own preparations related to the rollout.
+- **Step 11: Launch Day** - The new system is released and developers promote their sets, or RAdmin will promote the new sets if the developers are unavailable. Players may now play sets featuring the new system! Note: for developers, the sign-off period will persist for a month after launch day, meaning that sets will still need to be checked by both the Writing and Rollout teams.
 
 ## Previous Rollouts
 
