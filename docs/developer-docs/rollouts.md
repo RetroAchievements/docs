@@ -35,7 +35,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 - **Step 2: Build Achievement Support** - Integration developers build achievement support into their emulator, including hashing support for any new systems. This process can take months or even years.
 - **Step 3: Integration Testing** - The Rollout Team tests the new support for any issues and provides feedback to the integration developers. A public test may also occur during this step to solicit feedback from all achievement developers.
 - **Step 4: Rollout Selection** - Once the Rollout team and RAdmin are satisfied with the integration, developers are contacted privately by the Rollout Team about their interest in joining. Developers will then provide their priority pick, optional back-up picks, or no picks at all. When all selections are gathered, all developer names are put in a lottery and selected by priority, which goes as follows:
-	- 1: Developers who have participated in the previous rollout and release their set(s) on time, and (new) developers who have never participated in any rollout prior.
+	- 1: Developers who have participated in the previous rollout and released their set(s) on time, and (new) developers who have never participated in any rollout prior.
 	- 2: Developers who did not participate in the last rollout, but were involved with other rollouts.
 	- 3: Developers who, in the last rollout they participated in, suffered a large amount of tickets or potential set demotion, or released their rollout set long beyond the end date. This priority level will be judged on a case-by-case basis.
 	- 4: Developers who have at least one open ticket with no work done on it for over a month.
