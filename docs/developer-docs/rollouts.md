@@ -45,7 +45,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 - **Step 8: Sign Off** - Developers submit their finished claims for review by pinging the writing team for initial check, who will then ping the rollout team. Sets are checked to ensure they adhere to the Content Guidelines standards. Note: collabs can be signed off only once every collaborator has finished their part.
 - **Step 9: Additional Claims** - Developers may make a new claim once their initial claim is signed-off, or join in on another collab once the collaboration has been signed-off. Only one primary claim and one non-primary collaboration claim may be made at a time.
 - **Step 10: Launch Preparation** - Once the rollout is nearing completion, other teams such as RANews and Events Team are contacted so that they can make their own preparations related to the rollout.
-- **Step 11: Launch Day** - The new system is released and developers promote their sets, or admins will promote it for them if they are unavailable. Players may now play sets featuring the new system! Do note that for developers, the sign off period will persist for a month after launch day, meaning that sets will still need to be checked by both the writing- and rollout teams.
+- **Step 11: Launch Day** - The new system is released and developers promote their sets, or admins will promote it for them if they are unavailable. Players may now play sets featuring the new system! Note: for developers, the sign off period will persist for a month after launch day, meaning that sets will still need to be checked by both the writing- and rollout teams.
 
 ## Previous Rollouts
 
