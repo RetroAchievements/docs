@@ -27,7 +27,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 
 - Since the overall goal of a rollout is to provide sets to launch with a console's support, developers who go inactive or otherwise end up not working on the chosen sets will have their claim lapsed. In other words, claiming a set just to sit on it will not fly and will result in a lapse.
 
-- If problematic action is witnessed during a rollout, such as refusing co-operation with the involved teams or causing issues for fellow developers, the rollout team has the right to decide if any remediation measures are necessary. Such examples include gaining lower priority for claim selection during the next rollout, or being removed from claims during the ongoing rollout.
+- If problematic behavior occurs during a rollout, such as refusing cooperation with the involved teams or causing issues for fellow developers, the Rollout Team may implement remediation measures. These may include lowering priority for claim selection in future rollouts, or removing claims during the current rollout.
 
 ## Rollout Process
 
