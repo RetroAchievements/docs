@@ -93,3 +93,19 @@ Special claims are granted during a console rollout and select developer events.
 ## Important Notes
 
 - It is recommended that you post a complete plan in the forum topic. When doing so, be open to suggestions; you can get excellent input and suggestions this way.
+
+## Additional Rules for Specific Types of Sets
+
+### Hacks
+
+Refer to the [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks) document for full information.
+
+- May not make a set claim for a cosmetic hack; these can likely just be linked to the base set with proper testing.
+- May not make a set claim for a simple QOL hack that does not significantly change the gameplay.
+
+### Games with Parallel Releases
+
+Refer to the [Games With Parallel Releases](/guidelines/content/games-with-parallel-releases) document for full information.
+
+- You may not claim a merged set. Example: May not make a claim for *Pokémon Black Version | Pokemon White Version*. These releases must have separate sets.
+- You may not claim a parallel version of a game for which you've already made another set. Example: Cannot make a set for [Pokémon White](https://retroachievements.org/game/16211) if you have claim for or already made a set for [Pokémon Black](https://retroachievements.org/game/3887)
