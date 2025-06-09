@@ -19,7 +19,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
     - Maintaining a schedule so developers know when they are to officially claim their picks in the forum, when playtesters can start testing sets, and when the console's support will officially launch.
     - Ensuring the console ID is validated on the website when support launches, or at least be in contact with the web team to do so.
 
-- Developers are limited to leading one set at a time, but may collaborate on one other set at a time as long as it's not their primary claim. Claims must be signed off by the rollout and writing team, with collaboration claims requiring all parts to be finished before it can be signed off. Another claim may be requested after sign-off.
+- Developers are limited to leading one set at a time, but may collaborate on one other set at a time as long as it's not their primary claim. Claims must be signed off by the Rollout and Writing teams, with collaboration claims requiring all parts to be finished before they can be signed off. Another claim may be requested after sign-off.
 
 - Rollout claims are subject to [Special Claims](/guidelines/developers/claims-system#special-claims) rules.
 
