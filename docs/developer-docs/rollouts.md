@@ -65,7 +65,8 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 | 2023-11-15  |                          Neo Geo CD                           |              23              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24443) |
 | 2024-07-15  |                           GameCube                            |             107              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=27191) |
 |   Pending   |                              Wii                              |              ??              |                              Pending                               |
-|   Pending   |                             TI-83                             |              ??              |                              Pending                               |
-|   Pending   |                         Commodore 64                          |              ??              |                              Pending                               |
+|   Pending   |                            MS-DOS                             |              ??              |                              Pending                               |
 |   Pending   |                          ZX Spectrum                          |              ??              |                              Pending                               |
 |   Pending   |                              3DS                              |              ??              |                              Pending                               |
+|   Pending   |                         Commodore 64                          |              ??              |                              Pending                               |
+|   Pending   |                             TI-83                             |              ??              |                              Pending                               |
