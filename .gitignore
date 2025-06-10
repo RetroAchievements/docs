@@ -139,3 +139,5 @@ docs/.vitepress/dist
 /.idea
 /.fleet
 /.vscode
+
+**/.claude/settings.local.json

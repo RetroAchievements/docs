@@ -208,8 +208,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - Limited microphone support.
 - ✅ libretro core: **DeSmuME**
   - Does not emulate the DSi.
-- ✅ libretro core: **DeSmuME 2015**
-  - Does not emulate the DSi.
 - ✅ libretro core: **melonDS**
 - ✅ libretro core: **melonDS DS**
 - ✅ BizHawk core: **melonDS**

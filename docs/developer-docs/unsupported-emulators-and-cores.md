@@ -202,6 +202,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
  
 ## Nintendo DS
 
+- ❌ libretro core: **DeSmuME 2015**
 
 ## Nintendo DSi
 

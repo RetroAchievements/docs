@@ -45,6 +45,10 @@ Any developer wanting to revise a set needs to:
 
 3. **Post the plan** in the game's forum topic. **NOTE**: Be as specific as possible. The community deserves a good understanding of your intent.
 
+::: danger Un-Merging Parallel Release Sets
+Games with parallel releases whose base sets are currently merged together (Example: *Pokémon Red Version | Pokemon Blue Version*) may be un-merged into separate sets, but doing so has additional requirements beyond a standard revision. Please see the full rules in the [Games With Parallel Releases](/guidelines/content/games-with-parallel-releases) document.
+:::
+
 4. **Start a Discussion** by creating a new post in `#revision-discussion-forum`.
    - Your post title should include the game name and console. Ex: "Revision proposal - Super Mario Bros. (NES)"
    
@@ -138,7 +142,7 @@ Up until June 2019, RetroAchievements sets had a cap of 400 points, with no rest
 
 Anyone wanting to rescore a set needs to:
 
-1. **Prepare a rescore plan** that shows the original scores and the proposed scores. A quick and easy way to do this is by utilizing [this sheet](https://docs.google.com/spreadsheets/d/1iO8nWKzOwwBbu7TiyXBkXi6IRVxE2OVDahE8RDstE4M/edit?usp=sharing); you can enter the Game ID in F2 to bring up a full list of that game's achievements and scores.
+1. **Prepare a rescore plan** that shows the original scores and the proposed scores. The user [orangepeelbeef](https://retroachievements.org/user/orangepeelbeef) made a tool specifically for this, which you can find [here](https://opb.servehttp.com/rascorer/). Once you have entered in the proposed points, you can copy the "Rescoring Summary" at the bottom and paste it into your rescore proposal in the forum.
 
 2. **Contact** each active author of the set. They may have valuable insight into the chosen scores. You do not need to wait for a response.
 
@@ -238,32 +242,32 @@ Revision voting is currently dev-only. While voting is exclusive to Discord, ple
 - If you believe you may be blocked by the user, send a message to [DevCompliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Revision%20Contact%20Request%20-%20[Author%20Name]) asking them to contact the author on your behalf. The 72hr maximum wait time will begin upon sending the message to DevCompliance. When doing so, state the user's name, type of revision, and the brief description of what your revision entails as if you were contacting the author directly.
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of the revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
 
-## Reauthorship Consideration
-Reauthoring effectively hides a significant contribution of a former developer. This fact should not be taken lightly, as protecting the authorship of developers not only ensures their contributions remain recognized, but it also ensures that every developers' contributions now and in the future will also be safeguarded so long as they are serviceable.
+## Maintainer Role Purpose and Qualification
+The achievement Maintainer role allows a developer to assume responsibility for an achievement. Future tickets and unlock credit will be assigned to achievement maintainers and maintainership is effectively a transfer of ownership. The original author does not lose authorship credit, ticket history, or unlock credit that occurred prior to the assignment of a new maintainer. If a maintainer loses or relinquishes the role, new tickets and unlocks will return to being given to the author. A maintainer can be assigned to an entire set or a portion of the achievements depending on which achievements were fixed. The maintainer role may only be approved and assigned by the DevCompliance team.
 
-All work done on a revision/overhaul/repair should be promoted as soon as it is ready and not contingent upon potential reauthor consideration. Should a reauthor be approved, DevCompliance will coordinate directly with the developer on the process.
+Maintainership requests will be considered on a case by case basis for significant repairs. Correcting set-significant instability issues is the biggest factor when considering approval of the maintainer role. If a maintainer loses or leaves the role, new tickets and unlocks will return to being given to the original author until a new maintainer is assigned.
 
-### Purpose and Qualification
-The purpose of a reauthor is to directly assign maintenance responsibility to a new author, with tickets being assigned to the new author, and so potentially affecting their ability to make claims and risk falling into ticket negligence if unaddressed. Reauthoring is done when a developer significantly updates an unstable set to fix problems and wishes to become fully responsible for the affected work.
+### What May Qualify for Maintainership?
+A good candidate for maintainership will meet many of the following criteria:
 
-### What May Qualify for a Reauthor?
-A good candidate for a reauthor will meet many of the following criteria:
-
+- Set demoted for necessary repairs by QA-Maintainers.
 - Existing logic was fundamentally flawed for the set or for a category of achievements and needed to be replaced in all of the affected achievements.
-- Problems in the set were causing regular tickets or the set was demoted due to an exploit or other problematic quality issue.
+- Problems in the set were causing regular tickets or other problematic quality issues.
 - Significant New RAM digging needed to be done to find replacement addresses or better addresses to use to accomplish the goals.
 - Significant logic re-work was necessary for proper functionality and stability.
 - Very few, if any logic conditions were retained in the new logic.
 - Any retained logic conditions were not the most important piece of data for functionality.
 - One-condition achievements where the final product is vastly changed.
 - Adding hash or language support requiring a rewrite that significantly changed the approach to logic.
-- Any set demoted for necessary repairs by QA-Maintainers that is flagged as a possible reauthoring opportunity by QA-Maintainers and Developer Compliance.
+- Requestor has a history of fixing tickets in the set.
+- All tickets in the set have been resolved or closed.
  
-### What Shall Not Qualify for a Reauthor?
-Writing new logic for previously stable achievements is not sufficient to warrant reauthorship.  Poor candidates include, but are not limited to:
+### What Shall Not Qualify for Maintainership?
+Writing new logic for previously stable achievements is not sufficient to warrant maintainership.  Poor candidates include, but are not limited to:
 
 - Logic reworked that did not exhibit any issues (i.e. not prone to tickets or exploits).
 - A main change was simply adding Delta checks.
 - A main change was simply adding an in-game/in-stage, or other similar guarding condition.
 - Only added protection such as save protection, demo protection, or cheat protection.
 - Updating outdated logic of otherwise functional achievements to be in line with modern toolkit features and standards.
+- Relatively simple "drive-by" ticket fixes.

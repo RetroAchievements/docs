@@ -68,6 +68,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/emulator-support-and-issues",
         },
         {
+          text: "Standalone Support",
+          link: "/general/standalone-support",
+        },
+        {
           text: "How RA Works",
           link: "/general/how-ra-works",
         },
@@ -233,6 +237,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         {
           text: "Player Compatibility Testing",
           link: "/guidelines/content/player-compatibility-testing",
+        },
+        {
+          text: "Games With Parallel Releases",
+          link: "/guidelines/content/games-with-parallel-releases",
         },
         {
           text: "Achievements for ROM Hacks",
