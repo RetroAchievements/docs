@@ -121,7 +121,7 @@ El hash de RA es una cadena única de 32 números hexadecimales, para distinguir
 
 ### ¿Cómo solicito un desbloqueo manual?
 
-- Si usas [Discord](https://discord.gg/dq2E4hE), escribe una solicitud en el canal [#manual-unlock (desbloqueo manual)](https://discord.com/channels/310192285306454017/1029858289221116104) siguiendo el formato que hay en el [mensaje fijado de este hilo](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
+- Si usas [Discord](https://discord.gg/dq2E4hE), escribe una solicitud en el canal [#unlock-requests (desbloqueo manual)](https://discord.com/channels/310192285306454017/1029858289221116104) siguiendo el formato que hay en el [mensaje fijado de este hilo](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
 
 - Si no usas [Discord](https://discord.gg/dq2E4hE). Estando logueado en **RetroAchievements.org** [envía un mensaje privado](https://retroachievements.org/createmessage.php?t=RAdmin) al usuario [RAdmin](https://retroachievements.org/user/RAdmin) con el título: **Manual Unlock Request (Petición de desbloqueo manual)**
   y una descripción que sea similar a esta:
@@ -144,7 +144,7 @@ El hash de RA es una cadena única de 32 números hexadecimales, para distinguir
    1. Capturas de pantalla que muestren que se está jugando en HARDCORE y se ha completado el logro.
    2. **Video (aún mejor)** ([ejemplo perfecto de prueba proporcionada por gr1nya](https://youtu.be/uqD-GTkZbLo)).
    3. Ejemplos de logros que hayas conseguido que demuestren que has ganado el logro. Por ejemplo: Has conseguido el logro de 10 000 puntos, pero el de 5000 puntos no se te ha concedido.
-3. Si estás en nuestro servidor discord, envía un mensaje al canal de [#manual-unlock (desbloqueo manual)](https://discord.gg/FswPDnu) añadiendo **@manual-unlock**. Si no es el caso, [envía un mensaje privado](https://retroachievements.org/createmessage.php?t=RAdmin) al usuario [RAdmin](https://retroachievements.org/user/RAdmin). El mensaje debe contener:
+3. Si estás en nuestro servidor discord, envía un mensaje al canal de [#unlock-requests (desbloqueo manual)](https://discord.gg/FswPDnu) añadiendo **@manual-unlock**. Si no es el caso, [envía un mensaje privado](https://retroachievements.org/createmessage.php?t=RAdmin) al usuario [RAdmin](https://retroachievements.org/user/RAdmin). El mensaje debe contener:
    1. El enlace al ticket. Puedes encontrar el ticket aquí: http://retroachievements.org/ticketmanager.php
    2. En qué modo estabas jugando (HARDCORE/softcore)
    3. Enlace a la [prueba certificada](#qualified-proof) de completado. Incluye una prueba de que el logro se consiguió en HARDCORE, si estabas jugando en HARDCORE.

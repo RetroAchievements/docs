@@ -8,7 +8,7 @@ description: Guidelines for managing and resolving achievement tickets, includin
 [[toc]]
 
 ## Ticket Lifelines
-If you cannot figure out how to resolve a logic problem associated with a ticket, please seek assistance in the Discord channel `#devs-help-me` first. There are many developers willing to help! If you still are having difficulty, you may also reach out directly to [QATeam](https://retroachievements.org/messages/create?to=QATeam) and ask for assistance. They will be glad to assist in troubleshooting.
+If you cannot figure out how to resolve a logic problem associated with a ticket, please seek assistance in the Discord channel `#devs-help` first. There are many developers willing to help! If you still are having difficulty, you may also reach out directly to [QATeam](https://retroachievements.org/messages/create?to=QATeam) and ask for assistance. They will be glad to assist in troubleshooting.
 
 ## Handling Own Tickets
 

@@ -32,7 +32,7 @@ The purpose of the Set Review is to ensure Junior Developers have a solid baseli
 
 Once a set plan is approved, Junior Developers may begin work on set development.
 
-Note: New Junior Developers who had a set plan approved when requesting to join the Junior Developer may immediately begin work on the set once they are onboarded and have made a claim on the set for which their initial plan was approved. 
+Note: New Junior Developers who had a set plan approved when requesting to join the Junior Developer may immediately begin work on the set once they are onboarded and have made a claim on the set for which their initial plan was approved.
 
 ### Rules and Restrictions
 
@@ -45,25 +45,26 @@ The following rules apply to all Junior Developers:
 - Will prioritize resolving open tickets over development of a new set. For additional information on ticket handling, see [Ticket Handling](#ticket-handling), below.
 - Not eligible to participate in collaborations
 - May only [revise](/guidelines/content/achievement-set-revisions) sets where the Junior Developer is the sole author of the existing set.
-  - Must make a revision request in #jr-dev-forum detailing the revision plan. The Code Reviewer team will consider the request for approval
+  - Must make a revision request in #jr-devs-requests detailing the revision plan. The Code Reviewer team will consider the request for approval
 - May not make a claim on any GameCube set
-- May not make a claim without Code Reviewer approval on sets for the below consoles. Junior Developers must make a development request in #jr-dev-forum after at least 1 set has been published, with approval at the discretion of the Code Reviewer team
+- May not make a claim without Code Reviewer approval on sets for the below consoles. Junior Developers must make a development request in #jr-devs-requests after at least 1 set has been published, with approval at the discretion of the Code Reviewer team
   - PlayStation 2
   - PlayStation Portable
   - Any future 6th+ generation consoles, unless specifically allowed
   - Dreamcast games using the [Windows CE firmware](https://retroachievements.org/game/24833)
 - May only create a subset for games where the Junior Developer is the sole author
-  - Must make a subset request in ⁠#jr-dev-forum which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
+  - Must make a subset request in ⁠#jr-devs-requests which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
     - May request to create a subset in addition to a primary claim if both are for the same game
 - May make a maximum of 1 set for a hack during the program
 
 ### Ticket Handling
+
 Junior Developers are expected to prioritize resolving open tickets over development of a new set.
 
 - If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
-  - To put a ticket into Request status, ask the Code Reviewers, using the #jr-dev-forum, to transfer the ticket to the reporter after you have requested further information by asking the reporter using a comment on the ticket.
+  - To put a ticket into Request status, ask the Code Reviewers, using the #jr-devs-requests, to transfer the ticket to the reporter after you have requested further information by asking the reporter using a comment on the ticket.
 - Once you have fully addressed the ticket, leave a comment on the ticket describing what the cause of the issue was and what you did to resolve the issue.
-- Contact the Code Reviewers, using the #jr-dev-forum, to resolve ot close the ticket as appropriate after your comment has been made.
+- Contact the Code Reviewers, using the #jr-devs-requests, to resolve ot close the ticket as appropriate after your comment has been made.
 
 ### Code Review Requests
 

@@ -5,7 +5,7 @@ description: Welcomes newly graduated developers, teaches how to upload a set, a
 
 # Welcome to the Dev Team!
 
-Now that you’re a developer, I'm sure the first thing you want to know is how you can upload your set and what other privileges are now open to you. You'll have plenty of fancy new features on the website, emulator, and Discord server, which we will go over here. 
+Now that you’re a developer, I'm sure the first thing you want to know is how you can upload your set and what other privileges are now open to you. You'll have plenty of fancy new features on the website, emulator, and Discord server, which we will go over here.
 
 Joining the team comes with **new responsibilities and inactivity criteria** so please take the time to review the [Developers Code of Conduct](/guidelines/developers/code-of-conduct) before continuing.
 
@@ -24,6 +24,7 @@ This page is used for editing release dates as well as **drag-and-drop reorderin
 The quickest and easiest way to upload your first set is through the management page of your set. From there you can mark the achievements you want to promote and then click “Promote selected” to promote them all in a few clicks!
 
 To get to this page, go to your game’s page:
+
 1. Click on Manage
 2. Scroll down until you see the list of achievements
 3. If you’d like, you can reorder them by clicking the Start Reordering button and then dragging-and-dropping the achievements
@@ -37,7 +38,7 @@ To get to this page, go to your game’s page:
 
 Now that your set is live, it is time to announce it to everyone if you are on Discord!
 
-We have a handy bot command that you can use to auto generate a template *as long as your set is in core*. Go to #bot-spam and type in “!gan [gameid]” where [gameid] is the id of your game. 
+We have a handy bot command that you can use to auto generate a template _as long as your set is in core_. Go to #bot-spam and type in “!gan [gameid]” where [gameid] is the id of your game.
 
 The pinned messages in #devs-chat have an alternate colored template that can be used as well.
 
@@ -61,11 +62,11 @@ For details on how to propose a revision, see [Achievement Set Revisions](/guide
 
 If you are considering requesting a re-author of the set, contact DevCompliance for approval. The re-author request should not be included in the revision proposal.
 
-If you want to transfer over the earners for some/all of the previous achievements then you will need to reach out to RAdmin or #admin-site-cleanup on Discord for assistance.
+If you want to transfer over the earners for some/all of the previous achievements then you will need to reach out to RAdmin or #cleanup-admin on Discord for assistance.
 
 The request would include the Game and a full list of achievement transfers in Old ID -> New ID format
 
-Example: 
+Example:
 
 https://retroachievements.org/game/990
 
@@ -85,7 +86,7 @@ You will now have a few new privileges in the RA emulators to take advantage of.
 
 The biggest new privilege is that you can now link new hashes to games by loading the game in an RA emulator and linking it.
 
-If creating a new page, select "New Title" and write an appropriate name in the text box. Check if there are any junk pages labeled "~Z~ No Hash" which can be recycled. 
+If creating a new page, select "New Title" and write an appropriate name in the text box. Check if there are any junk pages labeled "~Z~ No Hash" which can be recycled.
 
 ::: info
 Further reading:
@@ -125,7 +126,7 @@ Developers have the ability to add games to a Want to Develop list. Sets can be 
 
 #### Creating Forum Topics
 
-When you go to claim a set, you no longer need to create a forum topic separately. The Make Claim button will automatically create a forum topic for you if one does not exist. 
+When you go to claim a set, you no longer need to create a forum topic separately. The Make Claim button will automatically create a forum topic for you if one does not exist.
 
 Keep in mind that you should NOT create forum topics without a valid reason, such as claiming a set. Otherwise, you will be the only person (besides admins) who can edit the top post, which is usually where important information such as supported game files or set notes is placed.
 
@@ -133,10 +134,11 @@ Keep in mind that you should NOT create forum topics without a valid reason, suc
 
 You now have full access to the Dev dropdown menu.
 
-- **Manage Core/Unofficial Achievements**: Promotion/demotion, typing, and ordering of achievements. 
+- **Manage Core/Unofficial Achievements**: Promotion/demotion, typing, and ordering of achievements.
 
 - **Manage Leaderboards**: Resetting entries, ordering, and deletion of leaderboards
-    - Please read [Editing Leaderboards](/guidelines/content/editing-leaderboards) before making edits or resetting entries for leaderboards that are not your own.
+
+  - Please read [Editing Leaderboards](/guidelines/content/editing-leaderboards) before making edits or resetting entries for leaderboards that are not your own.
 
 - **Manage Hashes**: Editing hash labels, Editing RAPatches URLs, and unlinking hashes
 
@@ -160,9 +162,9 @@ You will now have access to a handful of new Discord channels
 
 - **#devs-chat**
 
-- **#devs-help-me**
+- **#devs-help**
 
-- **#tickets-cleanup**
+- **#ticket-discussion**
 
 - **#ratools**
 
