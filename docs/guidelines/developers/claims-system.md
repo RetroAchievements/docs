@@ -45,7 +45,7 @@ Dropping a claim is as simple as selecting the "Drop Claim" link in the Develope
 - If a claim is dropped and resumed in within a month, the initial claim date before dropping the set will be maintained.
 
 ::: tip Exception
-Claims that are automatically extended, such as `In-Review` and `Release Scheduled`, do not need a forum post made at the time of extension. It is recommended you post in the forum when your claim is set to one of these statuses, and comment that your set is awaiting code review or its scheduled release
+Claims that are automatically extended, such as `In-Review` and `Release Scheduled`, do not need a forum post made at the time of extension. It is recommended you post in the forum when your claim is set to one of these statuses, and comment that your set is awaiting code review or its scheduled release.
 :::
 
 ## How to Complete a Claim
