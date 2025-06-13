@@ -13,6 +13,7 @@ The right to work on a set is made by utilizing the site's Claim System. This is
 - Do not claim sets that you are not actually interested in immediately working on
 - Do not claim sets in order to hold or reserve them for someone else who is unable to make the claim for any reason
 - Do not claim sets to prevent others from claiming them
+- Do not make a claim if you have an [unaddressed ticket](/guidelines/developers/code-of-conduct#ticket-negligence)
 
 ## Making a Claim
 
