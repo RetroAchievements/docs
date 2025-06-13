@@ -241,9 +241,9 @@ Results:
 
 | First Header | Second Header | Third Header |
 | :----------- | :-----------: | -----------: |
-| Left         | Center        | Right        |
-| Left         | Center        | Right        |
-| Left         | Center        | Right        |
+| Left         |    Center     |        Right |
+| Left         |    Center     |        Right |
+| Left         |    Center     |        Right |
 
 ## VitePress Components
 

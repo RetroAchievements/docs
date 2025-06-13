@@ -199,7 +199,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ⌛ BizHawk core: **Mupen64Plus**
   - Testing (there are some graphical issues that can be fixed using the angrylion plugin)
- 
+
 ## Nintendo DS
 
 - ❌ libretro core: **DeSmuME 2015**
@@ -232,7 +232,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❌ _Not supported_ - needs hashing method and memory map
 
 ## PC-8800
-
 
 ## PC-9800
 
