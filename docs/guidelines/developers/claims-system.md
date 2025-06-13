@@ -44,6 +44,10 @@ Dropping a claim is as simple as selecting the "Drop Claim" link in the Develope
 - If the renewal is denied or dropped due to no-progress, a cooldown of one month will be applied. After this period, the developer may reserve the set again, if available. Detailed progress reports will continue to be required for any further renewals.
 - If a claim is dropped and resumed in within a month, the initial claim date before dropping the set will be maintained.
 
+::: tip Exception
+Claims that are automatically extended, such as `In-Review` and `Release Scheduled`, do not need a forum post made at the time of extension. It is recommended you post in the forum when your claim is set to one of these statuses, and comment that your set is awaiting code review or its scheduled release.
+:::
+
 ## How to Complete a Claim
 
 To mark a claim as complete, you can select the "Complete Claim" link in the Developer panel. Doing so will free the claim slot and notify users who have a set request for the game, via email, that new achievements have been added for that game.
