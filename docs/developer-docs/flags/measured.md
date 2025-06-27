@@ -36,7 +36,7 @@ To summarize, use `Measured If` when:
 ### Using Pause If with Measured:
 Since [`PauseIf`](/developer-docs/flags/pauseif) has precedence over `Measured`, the `Measured` value will be captured when a group becomes paused, and the captured value will be returned until the group is unpaused and `Measured` can be evaluated again. If another `Measured` exists in a non-paused group, its value will be returned even if it is lower than the captured value.
 
-To summarize, use `Pause If` ehen:
+To summarize, use `Pause If` when:
 - You want to prevent the measurement from updating or changing
 - The scope of the measurement is valid, but the data is volatile
 - **Example**: Pause while on a loading screen where the address(es) that normally contain or determine the measurement are used for something else
