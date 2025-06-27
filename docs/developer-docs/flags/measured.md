@@ -31,7 +31,7 @@ To summarize, use `Measured If` when:
 - Multiple possible measurement sources exist and you want to restrict which one is active
 - **Example**: When using the wrong character.
 - **Example**: When on the wrong stage or in the wrong area.
-- **Example**: Measuring something during a race, but the measurement addresses are differnt between single-race mode and tournament mode.
+- **Example**: Measuring something during a race, but the measurement addresses are different between single-race mode and tournament mode.
 
 ### Using Pause If with Measured:
 Since [`PauseIf`](/developer-docs/flags/pauseif) has precedence over `Measured`, the `Measured` value will be captured when a group becomes paused, and the captured value will be returned until the group is unpaused and `Measured` can be evaluated again. If another `Measured` exists in a non-paused group, its value will be returned even if it is lower than the captured value.
