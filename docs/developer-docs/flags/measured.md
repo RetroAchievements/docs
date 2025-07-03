@@ -19,6 +19,25 @@ If multiple conditions are marked as `Measured` and have different target values
 
 Note that progress for `Measured` values is reported at the time of examination and may actually go down depending on the current value (Hit Count could be reset, or comparison value decreases).
 
+## Limiting When a Measurement Appears or Changes
+
+You will find cases where you don't want a measurement to update or where a measurement is invalid. You can use `Pause If` or `Measured If` to manage these cases.
+
+### Using Measured If with Measured:
 To limit the scope of a `Measured` condition, you can add a `MeasuredIf` condition. A `MeasuredIf` condition must be true for the `Measured` value to be non-zero (and for the achievement to trigger). You can use `MeasuredIf` to create achievements that require playing as a certain character, or just to prevent bogus data from showing up if the player is in the wrong part of the game. If any `MeasuredIf` condition in a group is false, the `Measured` value for the group is automatically 0.
 
+To summarize, use `Measured If` when:
+- Conditions are such that a measurement is invalid.
+- Multiple possible measurement sources exist and you want to restrict which one is active
+- **Example**: When using the wrong character.
+- **Example**: When on the wrong stage or in the wrong area.
+- **Example**: Measuring something during a race, but the measurement addresses are different between single-race mode and tournament mode.
+
+### Using Pause If with Measured:
 Since [`PauseIf`](/developer-docs/flags/pauseif) has precedence over `Measured`, the `Measured` value will be captured when a group becomes paused, and the captured value will be returned until the group is unpaused and `Measured` can be evaluated again. If another `Measured` exists in a non-paused group, its value will be returned even if it is lower than the captured value.
+
+To summarize, use `Pause If` when:
+- You want to prevent the measurement from updating or changing
+- The scope of the measurement is valid, but the data is volatile
+- **Example**: Pause while on a loading screen where the address(es) that normally contain or determine the measurement are used for something else
+- **Example**: Some temporary case where you don't want to count hits during a challenge (i.e. Defeat X enemies while not invincible)

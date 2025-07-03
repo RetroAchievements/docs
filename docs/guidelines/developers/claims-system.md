@@ -13,6 +13,7 @@ The right to work on a set is made by utilizing the site's Claim System. This is
 - Do not claim sets that you are not actually interested in immediately working on
 - Do not claim sets in order to hold or reserve them for someone else who is unable to make the claim for any reason
 - Do not claim sets to prevent others from claiming them
+- Do not make a claim if you have an [unaddressed ticket](/guidelines/developers/code-of-conduct#ticket-negligence)
 
 ## Making a Claim
 
@@ -43,6 +44,10 @@ Dropping a claim is as simple as selecting the "Drop Claim" link in the Develope
   - Rich Presence and Leaderboards Status (if applicable)
 - If the renewal is denied or dropped due to no-progress, a cooldown of one month will be applied. After this period, the developer may reserve the set again, if available. Detailed progress reports will continue to be required for any further renewals.
 - If a claim is dropped and resumed in within a month, the initial claim date before dropping the set will be maintained.
+
+::: tip Exception
+Claims that are automatically extended, such as `In-Review` and `Release Scheduled`, do not need a forum post made at the time of extension. It is recommended you post in the forum when your claim is set to one of these statuses, and comment that your set is awaiting code review or its scheduled release.
+:::
 
 ## How to Complete a Claim
 

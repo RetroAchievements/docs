@@ -13,7 +13,7 @@ Este documento descreve todos os passos que qualquer aspirante a desenvolvedor d
 
 ## Encontrando um Jogo para Trabalhar
 
-Siga as [diretrizes no Código de Conduta dos Desenvolvedores](/guidelines/developers/code-of-conduct#working-on-empty-sets) para encontrar um jogo. Certifique-se de que o jogo esteja em conformidade com as [Regras e Restrições](/developer-docs/jr-dev-rules#rules-and-restrictions) antes de trabalhar nas conquistas. Para reivindicar um jogo, ele deve ter um tópico no fórum. Se ainda não tiver um, você pode pedir a um Revisor de Código para criar um no `#jr-dev-forum` em nosso servidor Discord. Sinta-se à vontade para declarar seus planos de trabalhar no jogo no tópico e postar atualizações conforme prossegue.
+Siga as [diretrizes no Código de Conduta dos Desenvolvedores](/guidelines/developers/code-of-conduct#working-on-empty-sets) para encontrar um jogo. Certifique-se de que o jogo esteja em conformidade com as [Regras e Restrições](/developer-docs/jr-dev-rules#rules-and-restrictions) antes de trabalhar nas conquistas. Para reivindicar um jogo, ele deve ter um tópico no fórum. Se ainda não tiver um, você pode pedir a um Revisor de Código para criar um no `#jr-devs-requests` em nosso servidor Discord. Sinta-se à vontade para declarar seus planos de trabalhar no jogo no tópico e postar atualizações conforme prossegue.
 
 **Dica**: para seu primeiro conjunto de conquistas, é recomendado escolher um jogo que ainda não tenha conquistas **e** não seja muito popular.
 
@@ -89,7 +89,7 @@ Para se familiarizar com essas técnicas, você deve praticar. **Você pode usar
 
 ## Faça seu trabalho ser revisado
 
-Depois de criar algumas conquistas, faça o upload delas para Não oficial e então crie uma postagem em `#jr-dev-forum` em nosso servidor Discord (se você não usa Discord, envie uma mensagem para [RAdmin](http://retroachievements.org/user/RAdmin)) e peça para encontrarem alguém para revisar seu trabalho.
+Depois de criar algumas conquistas, faça o upload delas para Não oficial e então crie uma postagem em `#jr-devs-requests` em nosso servidor Discord (se você não usa Discord, envie uma mensagem para [RAdmin](http://retroachievements.org/user/RAdmin)) e peça para encontrarem alguém para revisar seu trabalho.
 
 **NÃO** peça a outro desenvolvedor para promover suas conquistas para o Core sem uma revisão adequada.
 

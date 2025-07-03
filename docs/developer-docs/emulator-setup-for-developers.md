@@ -41,7 +41,7 @@ With DuckStation, the file may be named either `RA_Integration-x64.dll` or `RA_I
 
 ![RAIntegration in DuckStation folder](/public/duckstation-raintegration-folder.png)
 
-When you run the emulator for the first time, a setup wizard will guide you through various options, including enabling and logging into RetroAchievements. Otherwise, you can find these options under Tools -> Achievements. 
+When you run the emulator for the first time, a setup wizard will guide you through various options, including enabling and logging into RetroAchievements. Otherwise, you can find these options under Tools -> Achievements.
 
 ![Achievement settings in DuckStation](/public/duckstation-achievement-settings.png)
 

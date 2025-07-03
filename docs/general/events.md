@@ -7,28 +7,28 @@ description: Explore current and past RetroAchievements events, from ongoing cha
 
 ## Current Events
 
-| Event Name                                  | Current Host(s) | Relevant Link                                                      | More Info                |
-| ------------------------------------------- | --------------- | ------------------------------------------------------------------ | ------------------------ |
-| Achievement of the Week                     | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24926) |                          |
-| AotW: Akira Toriyama Tribute                | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26722) |                          |
-| Bounty Hunters                              | s0uth           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26501) |                          |
-| Challenge League                            | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24927) |                          |
-| [DevJam](/developer-docs/devjam)            | televandalist   | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22368) | Developer Event          |
-| [DevQuests](/developer-docs/devquests)      | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=13060) | Developer Event (Series) |
-| Draw Your Pokemon                           | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21011) |                          |
-| Evergreen Events                            | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25332) |                          |
-| Final Fantasy V Four Job Fiesta             | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26862) |                          |
-| House Cleaning                              | Falcus          | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21939) |                          |
-| Leaderboard of the Month                    | drisc           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=19693) |                          |
-| On the Horizon                              | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25374) |                          |
-| Peak Streak                                 | Bendyhuman      | [Forum Topic](https://retroachievements.org/viewtopic.php?t=12108) |                          |
-| PlayJam                                     | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26319) |                          |
-| Rack It Up                                  | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24535) |                          |
-| RetroAchievements Roulette (RAWR)           | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25399) |                          |
-| [Rollouts](/developer-docs/rollouts)        |                 |                                                                    |                          |
-| Simple Monthly Master                       | JAM             | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25995) |                          |
-| The Unwanted                                | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14787) |                          |
-| VGM Contest                                 | Yunalle         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26700) |                          |
+| Event Name                             | Current Host(s) | Relevant Link                                                      | More Info                |
+| -------------------------------------- | --------------- | ------------------------------------------------------------------ | ------------------------ |
+| Achievement of the Week                | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24926) |                          |
+| AotW: Akira Toriyama Tribute           | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26722) |                          |
+| Bounty Hunters                         | s0uth           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26501) |                          |
+| Challenge League                       | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24927) |                          |
+| [DevJam](/developer-docs/devjam)       | televandalist   | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22368) | Developer Event          |
+| [DevQuests](/developer-docs/devquests) | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=13060) | Developer Event (Series) |
+| Draw Your Pokemon                      | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21011) |                          |
+| Evergreen Events                       | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25332) |                          |
+| Final Fantasy V Four Job Fiesta        | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26862) |                          |
+| House Cleaning                         | Falcus          | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21939) |                          |
+| Leaderboard of the Month               | drisc           | [Forum Topic](https://retroachievements.org/viewtopic.php?t=19693) |                          |
+| On the Horizon                         | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25374) |                          |
+| Peak Streak                            | Bendyhuman      | [Forum Topic](https://retroachievements.org/viewtopic.php?t=12108) |                          |
+| PlayJam                                | Sutarion        | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26319) |                          |
+| Rack It Up                             | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24535) |                          |
+| RetroAchievements Roulette (RAWR)      | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25399) |                          |
+| [Rollouts](/developer-docs/rollouts)   |                 |                                                                    |                          |
+| Simple Monthly Master                  | JAM             | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25995) |                          |
+| The Unwanted                           | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14787) |                          |
+| VGM Contest                            | Yunalle         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=26700) |                          |
 
 ## Past or Seasonal Events
 

@@ -63,7 +63,7 @@ Para detalhes sobre como propor uma revisão, veja [Revisões de Conjuntos de Co
 
 Se você está considerando solicitar uma re-autoria do conjunto, entre em contato com DevCompliance para aprovação. A solicitação de re-autoria não deve ser incluída na proposta de revisão.
 
-Se você quiser transferir os conquistadores de algumas/todas as conquistas anteriores, precisará entrar em contato com RAdmin ou #admin-site-cleanup no Discord para assistência.
+Se você quiser transferir os conquistadores de algumas/todas as conquistas anteriores, precisará entrar em contato com RAdmin ou #cleanup-admin no Discord para assistência.
 
 A solicitação incluiria o Jogo e uma lista completa de transferências de conquistas no formato ID Antigo -> ID Novo
 
@@ -162,9 +162,9 @@ Agora você terá acesso a vários novos canais do Discord
 
 - **#devs-chat**
 
-- **#devs-help-me**
+- **#devs-help**
 
-- **#tickets-cleanup**
+- **#ticket-discussion**
 
 - **#ratools**
 

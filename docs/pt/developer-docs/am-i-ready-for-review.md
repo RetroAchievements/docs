@@ -13,7 +13,7 @@ Percorra esta lista e verifique todas as suas condições para garantir que voc�
 
 Parece muito? Bem, a maioria dos desenvolvedores vai fazer essas coisas enquanto desenvolve conquistas, ou antes de promover seu conjunto para o core. Aborde cada parte uma por vez e avance lentamente. Sinta-se à vontade para nos fazer perguntas no `#jr-devs` sobre qualquer um dos tópicos se tiver problemas com eles.
 
-## Use o `#jr-dev-forum`
+## Use o `#jr-devs-requests`
 
 - Toda interação com a criação, aprovação e manutenção do seu conjunto deve ser tratada por você mesmo ou através dos Revisores de Código no fórum.
 - Desenvolvedores que não são Revisores de Código não podem rebaixar/promover seu trabalho ou resolver tickets para você.
@@ -23,7 +23,7 @@ Parece muito? Bem, a maioria dos desenvolvedores vai fazer essas coisas enquanto
 Leia a [Política de Escrita](/guidelines/content/writing-policy) e certifique-se de que seus títulos, descrições e outros elementos escritos estejam em conformidade.
 
 ::: tip ASSISTÊNCIA DE ESCRITA ESTÁ DISPONÍVEL
-Gramática e capitalização não são seu forte? Tendo dificuldade para criar uma descrição concisa? Passe pelo `#writing-requests-forum` no Discord e peça para eles analisarem suas conquistas enquanto você aguarda sua revisão. Eles ficarão felizes em ajudar.
+Gramática e capitalização não são seu forte? Tendo dificuldade para criar uma descrição concisa? Passe pelo `#writing-requests` no Discord e peça para eles analisarem suas conquistas enquanto você aguarda sua revisão. Eles ficarão felizes em ajudar.
 :::
 
 ## Você tem badges?

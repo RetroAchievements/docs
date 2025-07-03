@@ -207,7 +207,9 @@ An English release is considered a game released in English in US, Canada, UK, o
 1. Set must have a fair share of the work done by each dev - For example, sets with extreme splits like 80%/20% would not allow credit.
 2. Must be a full set covering every aspect of the game.
 3. Each Dev must publish at least 20 achievements each.
-  - For compilations, this requirement is waived if you make a full set for one or more games in a compilation.
+
+- For compilations, this requirement is waived if you make a full set for one or more games in a compilation.
+
 4. Achievements must make sense, no fluff to fulfill requirement.
 
 ### 011 [The Genesis of RA](https://retroachievements.org/game/1280)
@@ -427,7 +429,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 3. Misc Tasks: Update a set in order to remove it from the following QA Hubs. Doesn't stack with a Full Set Clearing.
    - [No Dynamic RP](https://retroachievements.org/game/3083)
    - [Player-Input RP](https://retroachievements.org/game/28506)
-   - [Single Save Support](https://retroachievements.org/game/28449) 
+   - [Single Save Support](https://retroachievements.org/game/28449)
 4. No collaboration allowed.
 5. This quest does not stack with other revision DevQuests. If a set would also be eligible to DQ2 or DQ13 those quests will take priority.
 6. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
@@ -451,7 +453,6 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
    - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
 6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
 
-   
 ## Wheel Spin DevQuest Rules
 
 1. You may respin 3 months after you spin. This requires and consumes your respin token for that quest

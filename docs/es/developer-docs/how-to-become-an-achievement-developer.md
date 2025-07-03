@@ -19,7 +19,7 @@ Estos requisitos también son una lista de verificación para los revisores de c
 Sigue las [directrices del código de conducta del desarrollador](/es/guidelines/developers/code-of-conduct#working-on-empty-sets) para encontrar un juego.
 Asegúrate de que el juego cumpla con las [reglas y restricciones (EN)](/developer-docs/jr-dev-rules#rules-and-restrictions) antes de trabajar en logros.
 Para reclamar un juego, debe tener un tema en el foro.
-Si no tiene uno, puedes pedir a un revisor de código que cree uno en el `#jr-dev-forum` en nuestro servidor de Discord.
+Si no tiene uno, puedes pedir a un revisor de código que cree uno en el `#jr-devs-requests` en nuestro servidor de Discord.
 Siéntete libre de declarar tus intenciones de trabajar en el juego en el tema, y publicar actualizaciones a medida que avanzas.
 
 **Consejo**: para tu primer set de logros se recomienda elegir un juego que aún no tenga logros **y** que no sea muy popular.
@@ -104,7 +104,7 @@ Para familiarizarte con estas técnicas, debes practicar. **Puedes usar cualquie
 
 ## Revise su trabajo
 
-Después de haber creado varios logros, súbelos a Unofficial y luego crea una publicación en `#jr-dev-forum` en nuestro servidor de Discord (si no usas Discord, envía un mensaje a [RAdmin](http://retroachievements.org/user/RAdmin)) y pide que alguien revise tu trabajo.
+Después de haber creado varios logros, súbelos a Unofficial y luego crea una publicación en `#jr-devs-requests` en nuestro servidor de Discord (si no usas Discord, envía un mensaje a [RAdmin](http://retroachievements.org/user/RAdmin)) y pide que alguien revise tu trabajo.
 
 **NO** pidas a otro desarrollador que promueva tus logros a Core sin una revisión adecuada.
 

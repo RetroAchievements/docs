@@ -30,7 +30,7 @@ While the main goal is to promote a bunch of a sets, there are secondary goals t
 _as of 2025-04-01 (start date)_
 
 - Current number of sets:
-  - Sega CD: 51 (47 licensed, 2 homebrews, 1 hack, and 1 prototypes)
+  - Sega CD: 51 (47 licensed, 2 homebrews, 1 hack, and 1 prototype)
   - Sega 32X: 23 (15 licensed, 2 hacks, 1 homebrew, and 5 prototypes)
 - Current number of achievements:
   - Sega CD: 2,202 worth 18,483 points
@@ -38,6 +38,19 @@ _as of 2025-04-01 (start date)_
 - Current number of leaderboards:
   - Sega CD: 192
   - Sega 32X: 172
+
+_as of 2025-06-30 (end date)_
+
+- Current number of sets:
+  - Sega CD: 79 (75 licensed, 2 homebrews, 1 hack, and 1 prototype)
+  - Sega 32X: 34 (22 licensed, 4 hacks, 3 homebrews, and 5 prototypes)
+- Current number of achievements:
+  - Sega CD: 2,983 worth 24,289 points
+  - Sega 32X: 1,118 worth 9,403 points
+- Current number of leaderboards:
+  - Sega CD: 362
+  - Sega 32X: 263
+
 
 ## See Also
 

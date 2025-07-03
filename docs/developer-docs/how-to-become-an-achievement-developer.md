@@ -19,7 +19,7 @@ Follow the [guidelines on the Developer's Code of Conduct](/guidelines/developer
 
 ## Planning your Achievement Set
 
-Once you find a game to work on you need to plan your Achievement Set. Before claiming a game on site, Junior Developers must submit a set plan for approval in the `#jr-dev-forum`. 
+Once you find a game to work on you need to plan your Achievement Set. Before claiming a game on site, Junior Developers must submit a set plan for approval in the `#jr-devs-requests`.
 
 Be sure you know enough about the game to make a good set. Check the GameFAQs, wikias, watch longplay videos and try to learn more about the game, its secrets and details.
 
@@ -31,9 +31,9 @@ It's recommended that you post your plans on the official game's forum topic, so
 
 ## Claiming a Game and Beginning Development
 
-Once a set plan has been approved by a Code Reviewer, Junior Developers may claim the game and begin development. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-dev-forum` in our Discord server.
+Once a set plan has been approved by a Code Reviewer, Junior Developers may claim the game and begin development. To claim a game, it must have a forum topic. If it doesn't have one already, you can ask a Code Reviewer to make one in the `#jr-devs-requests` in our Discord server.
 
-We recommend developing your first achievement set with a game that has 10 or fewer set requests.  This allows you to focus on the learning process and refine your skills, as initial achievement sets often benefit from iteration.  A smaller audience also helps manage initial support requests, preventing a sudden influx of tickets.
+We recommend developing your first achievement set with a game that has 10 or fewer set requests. This allows you to focus on the learning process and refine your skills, as initial achievement sets often benefit from iteration. A smaller audience also helps manage initial support requests, preventing a sudden influx of tickets.
 
 ## Required Knowledge
 
@@ -50,6 +50,7 @@ Junior Developer program graduates must demonstrate proficiency in the following
 - Producing high quality, stable sets with limited supervision
 
 Helpful initial topics to study:
+
 - [Hexadecimal notation](/developer-docs/memory-inspector#decimal-binary-and-hexadecimal-notations)
 - [Mem/Delta relationships](/developer-docs/delta-values)
 - Various memory sizes
@@ -75,7 +76,7 @@ The [Real Examples](/developer-docs/real-examples) and [Achievement Templates](/
 
 ## Requesting a Code Review
 
-After creating the achievement set, publish it to Unofficial and then create a post in `#jr-dev-forum`. Follow all of the requirements for [requesting a Code Review.](/developer-docs/jr-dev-rules.html#code-review-requests)
+After creating the achievement set, publish it to Unofficial and then create a post in `#jr-devs-requests`. Follow all of the requirements for [requesting a Code Review.](/developer-docs/jr-dev-rules.html#code-review-requests)
 
 ## When Will I Be Promoted to Developer?
 
@@ -85,6 +86,6 @@ The Code Reviewer team will consider a Junior Developer for graduation largely b
 
 - Their ability to publish work that meets or exceeds the standards of the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct)
 - The quality and complexity of their work
-    - High quality is defined as strong set design, writing, badges, code notes and achievement logic
+  - High quality is defined as strong set design, writing, badges, code notes and achievement logic
 - The time and thought they put into planning and working on achievements
 - Showing the will to use the Developer status with care and responsibility
