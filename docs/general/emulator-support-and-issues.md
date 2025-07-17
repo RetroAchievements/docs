@@ -251,7 +251,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Most recommended.
 - ✅ libretro core: **Beetle PSX**
 - ✅ libretro core: **SwanStation**
-- ✅ Standalone emulator: **[DuckStation](https://www.duckstation.org/wiki/Main_Page)**
+- ✅ Standalone emulator: **[DuckStation](https://www.duckstation.org/)**
   - There may be memory leaks and/or burn-in when using save states. This can be disruptive to softcore mode.
 
 ### PlayStation 2
