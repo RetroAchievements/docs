@@ -83,8 +83,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 ## ColecoVision
 
-- ❌ libretro core: **Gearcoleco**
-
 ## Elektronika BK-0010/0011
 
 - ❌ _Not supported_
@@ -315,9 +313,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 - ❓ libretro core: **YabaSanshiro**
 
 ## SG-1000
-
-- ❌ libretro core: **Gearsystem**
-  - Has significant unexposed memory
 
 ## Sharp X1
 
