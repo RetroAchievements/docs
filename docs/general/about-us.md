@@ -75,6 +75,7 @@ The team responsible to keep the this community a healthy place (at least for th
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
 - [LordAndrew](https://retroachievements.org/user/LordAndrew)
+- [Nepiki](https://retroachievements.org/user/Nepiki)
 - [Searo](https://retroachievements.org/user/Searo)
 - [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
@@ -111,19 +112,15 @@ The team responsible for the adherence and driving updates to the [Developer's C
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
 - [AmirGaris](https://retroachievements.org/user/AmirGaris)
-- [Brandovsky](https://retroachievements.org/user/Brandovsky)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
-- [Hotscrock](https://retroachievements.org/user/Hotscrock)
-- [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [s0uth](https://retroachievements.org/user/s0uth)
 - [Searo](https://retroachievements.org/user/Searo)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
 - [tomojin](https://retroachievements.org/user/tomojin)
-- [xnaivx](https://retroachievements.org/user/xnaivx)
 
 ### Cheat Prevention Team
 
@@ -180,7 +177,7 @@ The team that is more involved with the tech side of things, whether it be the w
 Users who oversee one of the QA sub-teams:
 
 - [Gollawiz](https://retroachievements.org/user/Gollawiz) - Art Team lead
-- [Bendyhuman](https://retroachievements.org/user/Bendyhuman) - Events Team lead
+- [Sutarion](https://retroachievements.org/user/Sutarion) - Events Team lead
 - [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
 - [Nepiki](https://retroachievements.org/user/Nepiki) - Writing Team lead
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Clean Up Team lead
