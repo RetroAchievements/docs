@@ -31,6 +31,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Used for Atomiswave and NAOMI 1/2.
 - ✅ Standalone emulator: **[Flycast](https://github.com/flyinghead/flycast/releases)**
   - Used for Atomiswave and NAOMI 1/2.
+  - Achievement developers have no way to troubleshoot issues directly, if an achievement doesn't work try using the core before opening a ticket
 
 ### Arcadia 2001
 
@@ -162,7 +163,6 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 
 - ✅ libretro core: **Gearsystem**
 - ✅ libretro core: **Genesis Plus GX**
-- ✅ libretro core: **PicoDrive**
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ Standalone emulator: **[Pizza Boy SC Basic & Pro](https://pizzaemulators.com/)**
 
@@ -274,7 +274,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ BizHawk core: **PicoDrive**
   - Most recommended.
 - ✅ libretro core: **PicoDrive**
-  - Several games are problematic, use BizHawk if an achievement shows as unsupported.
+  - Several games are problematic, use BizHawk if an achievement shows as unsupported or the game performs poorly.
   - Appears to still have unmapped RAM.
 
 ### Sega CD
@@ -288,6 +288,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ libretro core: **Flycast**
   - Disable threaded rendering to properly use save states.
 - ✅ Standalone emulator: **[Flycast](https://github.com/flyinghead/flycast/releases)**
+  - Achievement developers have no way to troubleshoot issues directly, if an achievement doesn't work try using the core before opening a ticket
 
 ### Sega Genesis/Mega Drive
 
