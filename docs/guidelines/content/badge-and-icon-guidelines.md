@@ -91,10 +91,6 @@ RAArtTeam may ask questions such as:
 
 Reports of suspected AI-generated art in public channels will be addressed promptly to prevent harassment of developers or artists.
 
-### Future Considerations
-
-As AI image generation technology improves, enforcement of this policy may become more challenging. However, this policy establishes the community's intent to prioritize human-created artwork and maintain the collaborative spirit of RetroAchievements.
-
 ## Uploading Game Icons
 
 **Developers:**
