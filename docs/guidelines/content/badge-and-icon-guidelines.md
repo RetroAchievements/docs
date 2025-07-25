@@ -61,7 +61,7 @@ Achievement badges should refer in some way to what the achievement is about - i
 ### Exceptions
 
 - If two different ports use the same key art, that art may be used for either port.
-- Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art or AI-generated art). Art by the developer of the hack may also be used, provided it is not AI-generated.
+- Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art or AI-generated art). Art by the developer of the hack may also be used.
 - Movie-Licensed/Movie Tie-In Games may use artwork that was used to promote the movie.
 
 ![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
