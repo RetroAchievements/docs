@@ -3,7 +3,7 @@ title: Emuladores e cores sem suporte
 description: Informação sobre emuladores e cores para o RetroAchievements
 ---
 
-#  Emuladores e Cores sem suporte
+# Emuladores e Cores sem suporte
 
 ## Amiga
 
@@ -26,6 +26,7 @@ description: Informação sobre emuladores e cores para o RetroAchievements
   - 4 Jun 2023 - arquivos do tipo woz não são suportados
   - 4 Jun 2023 - sem suporte para joystick. teclado tem que ser mapeado manualmente
   - 4 Jun 2023 - precisa manualmente criar e carregar bundles multi-disco para jogos com mais de um disco. discos são genéricamente identificados apenas pelo índice.
+
 ## Arcade
 
 - ❌ libretro core: **FB Alpha**
@@ -43,7 +44,7 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 - ❌ libretro core: **atari800**
   - Aparentemente funciona, mas o core causa dores de cabeça para usar.
     - A bio tem que ser configurada dentro do core (F1 > Emulator Configuration > System ROM settings)
-    - Não consegui fazer os controles funcionar -  O joystick tem que ser configurado no core também?
+    - Não consegui fazer os controles funcionar - O joystick tem que ser configurado no core também?
     - Permite carregar arquivos arbitrários pelo menu interno, o que ignora o hashing
     - ❌ libretro core: **a5200**
   - Não expõe a memória
@@ -57,7 +58,6 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 ## Casette Vision
 
 - ❌ _Não suportado_ - precisa do método de hashing e mapa de memória
-
 
 ## CHIP-8
 
@@ -130,7 +130,7 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 ## Game Boy Advance
 
 - ❌ Standalone emulator: **Pizza Boy GBA**
-  - Não está mais sendo desenvolvido. Problemas de compatibilidade podem causar problemas com desbloqueios. Os devs não tem meios para resolver esse problema. 
+  - Não está mais sendo desenvolvido. Problemas de compatibilidade podem causar problemas com desbloqueios. Os devs não tem meios para resolver esse problema.
 - ❓ libretro core: **gpSP**
 - ❓ libretro core: **Meteor**
 - ❓ libretro core: **TempGBA**
@@ -201,7 +201,7 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 
 - ⌛ BizHawk core: **Mupen64Plus**
   - Testando (existem problemas gráficos que podem ser arrumados usando o plugin angrylion)
- 
+
 ## Nintendo DS
 
 - ❌ Standalone Emulator: **melonDS Android**
@@ -268,6 +268,7 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 ## PlayStation
 
 - ❌ libretro core: **PCSX ReARMed**
+  - BIOS não é necessária para esse core, e irá zerar a RAM do Kernel
 - ❓ BizHawk core: **Octoshock** (Mednafen)
 - ❓ BizHawk core: **Nymashock** (Mednafen)
 - ❓ libretro core: **Rustation**
@@ -300,8 +301,8 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 
 - ❓ libretro core: **Flycast GLES2**
 - ❌ Standalone Emulator: **Flycast**
-    - Não testado
-    - Devs nçao tem meios para resolver problemas de usuários.
+  - Não testado
+  - Devs nçao tem meios para resolver problemas de usuários.
 
 ## Sega Genesis / Mega Drive
 
