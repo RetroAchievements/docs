@@ -261,6 +261,7 @@ description: Information about unsupported emulators and cores for RetroAchievem
 ## PlayStation
 
 - ❌ libretro core: **PCSX ReARMed**
+  - BIOS are not required for this core and will zero out the Kernel RAM.
 - ❓ BizHawk core: **Octoshock** (Mednafen)
 - ❓ BizHawk core: **Nymashock** (Mednafen)
 - ❓ libretro core: **Rustation**
