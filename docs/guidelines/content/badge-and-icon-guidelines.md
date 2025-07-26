@@ -48,6 +48,7 @@ Achievement badges should refer in some way to what the achievement is about - i
 
 - Use art from a different port
 - Use fan art sourced from external sources
+- Use AI-generated artwork created from scratch
 - Contain anything vulgar, offensive or pornographic
 
 ### Mastery Icons may
@@ -60,10 +61,35 @@ Achievement badges should refer in some way to what the achievement is about - i
 ### Exceptions
 
 - If two different ports use the same key art, that art may be used for either port.
-- Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art). Art by the developer of the hack may also be used.
+- Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art or AI-generated art). Art by the developer of the hack may also be used.
 - Movie-Licensed/Movie Tie-In Games may use artwork that was used to promote the movie.
 
 ![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
+
+## AI-Generated Art Policy
+
+### Overview
+
+AI-generated artwork created from scratch is **prohibited** for all game badges and achievement icons on RetroAchievements. This blanket policy promotes artwork quality and respect for the artistic community that supports the site.
+
+### Why This Policy Exists
+
+- We have a dedicated team of artists willing to create artwork for game badges and achievement icons.
+- Artists on RA receive incentives for completing art requests, similar to DevQuests.
+- Video games are an inherently visual medium, and most games contain rich assets that can be creatively used for badges and icons.
+
+### Enforcement Process
+
+If you believe art for game badges or achievement icons is AI-generated, you can send an on-site DM to RAArtTeam detailing your report.
+
+If there are concerns that artwork may be AI-generated, RAArtTeam will reach out privately with whomever created the asset(s) to clarify the situation. This process is designed to be respectful and avoid public accusations.
+
+RAArtTeam may ask questions such as:
+
+- What was the source of this artwork?
+- What editing tool did you use to create this image?
+
+Reports of suspected AI-generated art in public channels will be addressed promptly to prevent harassment of developers or artists.
 
 ## Uploading Game Icons
 
