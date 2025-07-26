@@ -268,8 +268,6 @@ description: Informação sobre emuladores e cores para o RetroAchievements
 ## PlayStation
 
 - ❌ libretro core: **PCSX ReARMed**
-  - BIOS não é necessária para esse core, e irá zerar a RAM do Kernel
-  - Tecnicamente suportado; não recomendado.
 - ❓ BizHawk core: **Octoshock** (Mednafen)
 - ❓ BizHawk core: **Nymashock** (Mednafen)
 - ❓ libretro core: **Rustation**
