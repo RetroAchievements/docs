@@ -79,6 +79,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
 - ✅ libretro core: **blueMSX**
 - ✅ BizHawk core: **ColecoHawk**
+- ✅ libretro core: **Gearcoleco**
 
 ### Elektor TV Games Computer
 
@@ -310,6 +311,7 @@ This page focuses on supported emulators. For extensive notes on unsupported emu
   - Most recommended.
 - ✅ libretro core: **blueMSX**
 - ✅ Standalone emulator: **[RAMeka](https://retroachievements.org/download.php#rameka)**
+- ✅ libretro core: **Gearsystem**
 
 ### SNES/Super Famicom/Satellaview/Sufami Turbo
 
