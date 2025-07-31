@@ -1,18 +1,18 @@
 ---
 title: DevQuest Team
-description: Lists responsibilities of and instructions for the RetroAchievements Dev Quest Team. 
+description: Lists responsibilities of and instructions for the RetroAchievements DevQuest Team. 
 ---
 
 # DevQuest Team
 
-The DevQuest team is responsible for processing Dev Quest requests from developers, determining what games, sets, and other actions as appropriate for the various devquests, voting on cases related to this, and for planning new Dev Quests and the rules for all Dev Quests.
+The DevQuest team is responsible for processing DevQuest requests from developers, determining what games, sets, and other actions are appropriate for the various DevQuests, voting on cases related to this, and for planning new DevQuests and the rules for all DevQuests.
 
 [[toc]]
 
 
 ## DevQuest Team Responsibilties
 
-Evertything related to DevQuests is the resposibility of the team:
+Everything related to DevQuests is the resposibility of the team:
 
 - Answering questions by developers
 - Voting on decisions related to DevQuests, which may include set elligibility, new quests, adding games to lists, etc
@@ -57,7 +57,7 @@ For most cases, follow the voting policy above.
 
 ### Ideas for DevQuests
 
-Every so often we will vote on new DevQuests. The ideas are stored in the [New DevQuest Idea Megathread](https://discord.com/channels/310192285306454017/971157393813696522). Any team member can post an idea here. Generall all ideas get pinned.  If a non-team member developer contacts the team with an idea, we will also add those.
+Every so often we will vote on new DevQuests. The ideas are stored in the [New DevQuest Idea Megathread](https://discord.com/channels/310192285306454017/971157393813696522). Any team member can post an idea here. Generally all ideas get pinned.  If a non-team member developer contacts the team with an idea, we will also add those.
 
 ### Voting for a New DevQuest
 
@@ -71,7 +71,7 @@ Once a quest is chosen, a member shall open a thread for the new quest in the te
 
 The team should also provide possible badge art ideas to provide to the art team. Final badge art shall be voted upon if there are multiple possible options.
 
-Finally, the new quest event shall be created and the rules added to the devquests document.
+Finally, the new quest event shall be created and the rules added to the DevQuests document.
 
 ## Processing DevQuests
 
@@ -80,8 +80,8 @@ Most sheets have a lot of automatically updated information.  Generally you need
 ### Wheel Spins
 
 - Copy the relevate list of random things to choose from and use a site like wheelofnames.com to build a wheel.
-- Record the wheel spin using a tool like ShareX (use Capture > Screen Recording (Gif)
-- Enter the results in the DevQuest sheet and log it in #devquest-logs
+- Record the wheel spin using a tool like ShareX (use Capture > Screen Recording (Gif))
+- Enter the results in the DevQuest sheet and log it in #DevQuest-logs
 - Share the result with the developer that requested it.
    - Tip: Surround the result item with `||` and `||` to mark it as a spoiler
    - DQ23: Well of Wishes produces very large file sizes that may require Discord Nitro to share. If you are able to edit color mode and resolution, you may be able to fit this into the 10MB limit, but you can also use imgur or a similar site as assistance to share.
@@ -93,7 +93,7 @@ If a user is claiming a set for a creation question of a maintenance quest like 
 - Update the tracking and claims sheets for the quest
 - Ensure the developer's name is entered on the overall tracking sheet for the quest, and on a new row in the claims sheet for the quest.  (Note: quests that only need one set will have a single sheet that functions as both)
 - Name should be capitalized and spell identically to the way it is one the RA website.
-- Log the claim entty in the #devquest-logs channel on discord.
+- Log the claim entty in the #DevQuest-logs channel on discord.
 
 ::: info NOT REQUIRED
 Note that this is not a requirement for the developer, but it can help for questions like Most Wanted or Wish This Set where a set can become eligible mid-development.
@@ -120,7 +120,7 @@ Note that this is not a requirement for the developer, but it can help for quest
    - Click on the command dots (far right at time of writing) and select Award
    - Enter the developer's name and submit
 5. **Log**
-   - Enter all actions taken in the #devquest-logs channel on discord.
+   - Enter all actions taken in the #DevQuest-logs channel on discord.
    
 ### Which Quests can "Stack" ?
 
@@ -130,8 +130,8 @@ Note that this is not a requirement for the developer, but it can help for quest
 
 #### Supplemental Guidance: Things that may not stack
 - Tickets resolved as part of DQ2 cannot be used for DQ1: Ticket Massacre. Resolving tickets is required to be done as part of the DQ2 repair.
-- DQ3: Singles in your area should not stack with DQ2: Retro Renovator or DQ22: This Belonged in a Museam! because both of those quests should correct one-condition achievements as part of their work.
-- DQ14: Laudable leaderboards should not stack with DQ22: This Belonged in a Museam because improving an old set by adding leaderboards fits with the dust-off theme.
+- DQ3: Singles in your area should not stack with DQ2: Retro Renovator or DQ22: This Belonged in a Museum! because both of those quests should correct one-condition achievements as part of their work.
+- DQ14: Laudable leaderboards should not stack with DQ22: This Belonged in a Museum! because improving an old set by adding leaderboards fits with the dust-off theme.
 
 ### DevQuest 001: Ticket Massacre
 
@@ -150,12 +150,12 @@ When the column is complete and a badge is earned, mark the badge row for that c
 - Ensure all tickets have been resolved.
 - Three total badges each requiring 3 sets to be repaired.
 - Check off the Badge Awarded columns as they are earned.
-- **DO NOT** for get to fill in the  *Completion Date*. This gets used by RA News to pull the correct three games for a given badge level.
+- **DO NOT** forget to fill in the  *Completion Date*. This gets used by RA News to pull the correct three games for a given badge level.
 
 ### DevQuest 003: Singles in Your Area
 
 - Verify that the old logic was backed up.
-- Verify that the new logi isn't just a single-condition achievement in disguise and that a little extra robustness was added (such as an in-game check in addition to a delta->mem check)
+- Verify that the new logic isn't just a single-condition achievement in disguise and that a little extra robustness was added (such as an in-game check in addition to a delta->mem check)
 
 ### DevQuest 004: Veteran Developer
 
@@ -220,7 +220,7 @@ Generally you don't have to worry about this one.  If you request access to the 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - Three total badges each requiring 3 sets to be updated for completion.
 - Check off the Badge Awarded columns as they are earned.
-- **DO NOT** for get to fill in the  *Completion Date*. This gets used by RA News to pull the correct three games for a given badge level.
+- **DO NOT** forget to fill in the  *Completion Date*. This gets used by RA News to pull the correct three games for a given badge level.
 
 ### DevQuest 014: Laudable Leaderboard
 
