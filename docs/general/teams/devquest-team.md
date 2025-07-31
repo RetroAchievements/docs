@@ -10,12 +10,12 @@ The DevQuest team is responsible for processing DevQuest requests from developer
 [[toc]]
 
 
-## DevQuest Team Responsibilties
+## DevQuest Team Responsibilities
 
-Everything related to DevQuests is the resposibility of the team:
+Everything related to DevQuests is the responsibility of the team:
 
 - Answering questions by developers
-- Voting on decisions related to DevQuests, which may include set elligibility, new quests, adding games to lists, etc
+- Voting on decisions related to DevQuests, which may include set eligibility, new quests, adding games to lists, etc.
 - Adding Wish This Set games to the DQ16 games list
 - Verifying games, sets, and other work for credit towards a DevQuest when pinged by a developer asking for credit.
 
@@ -27,7 +27,7 @@ After any needed discussion, voting should be done using a 3-day duration discor
 
 ## Adding Games to Lists
 
-Some DevQuests keep a list of elligibile games and will have games added by the DevQuest team:
+Some DevQuests keep a list of eligible games and will have games added by the DevQuest team:
 
 - DevQuest 002: Retro Renovator
 - DevQuest 013: complete.me
@@ -36,13 +36,13 @@ Some DevQuests keep a list of elligibile games and will have games added by the 
 
 ### How to Choose DQ2, DQ13, DQ22 ?
 
-1. If a set requires a "repair" such as adding or fixing protection (cheat, save, password, etc), fixing an exploit that renders the set trivial, or fixing widespread ticket-causing issues, this set should be assigned to DevQuest 002 - Retro Renovator
-2. If the set is missing some content that would render the set "incomplete" (missing progression, missing notable side content, etc), this set should be assigned to DevQuest 013 - complete.me.
-3. If a set needs code note clean up, rich presense improvements, and logic updates, but is otherwise stable and not missing notable content, that set should be assigned to DevQuest 022 if the amount of effort needed is significant to warrant full credit.
+1. If a set requires a "repair" such as adding or fixing protection (cheat, save, password, etc.), fixing an exploit that renders the set trivial, or fixing widespread ticket-causing issues, this set should be assigned to DevQuest 002 - Retro Renovator
+2. If the set is missing some content that would render the set "incomplete" (missing progression, missing notable side content, etc.), this set should be assigned to DevQuest 013 - complete.me.
+3. If a set needs code note clean up, rich presence improvements, and logic updates, but is otherwise stable and not missing notable content, that set should be assigned to DevQuest 022 if the amount of effort needed is significant to warrant full credit.
    - Sets that need repairs should not be assigned to DevQuest 022; a user may only use such sets for this quest if they have fully completed DevQuest 002 and then only if the non-repair-related work matches the DevQuest 022 dust-off goal.
 
 ::: tip DUAL CREDIT
-If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and recceive credit towards both. This is not considered "double-dipping" since the actions involved at distinct (repair as one action, completion as a separate action).
+If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved at distinct (repair as one action, completion as a separate action).
 :::
 
 ### Approving additions to DQ2, DQ13, DQ22
@@ -57,25 +57,25 @@ For most cases, follow the voting policy above.
 
 ### Ideas for DevQuests
 
-Every so often we will vote on new DevQuests. The ideas are stored in the [New DevQuest Idea Megathread](https://discord.com/channels/310192285306454017/971157393813696522). Any team member can post an idea here. Generally all ideas get pinned.  If a non-team member developer contacts the team with an idea, we will also add those.
+Every so often we will vote on new DevQuests. The ideas are stored in the [New DevQuest Idea Megathread](https://discord.com/channels/310192285306454017/971157393813696522). Any team member can post an idea here. Generally, all ideas get pinned.  If a non-team member developer contacts the team with an idea, we will also add those.
 
 ### Voting for a New DevQuest
 
 New Quest voting differs from the standard DevQuest team voting policy.
 
-Voting is conducted by a senior member of the team in a new thread.  The conductor of the voting will provide a list of all possible DevQuests with brief descriptions. After this, every team member shall choose their top 3 choices.  1st place is assigned 3 points, 2nd assigned 2 points, and 3rd assigned 1 points. After every member has voted, the choice with the most points is chosen.
+Voting is conducted by a senior member of the team in a new thread.  The conductor of the voting will provide a list of all possible DevQuests with brief descriptions. After this, every team member shall choose their top 3 choices.  1st place is assigned 3 points, 2nd assigned 2 points, and 3rd assigned 1 point. After every member has voted, the choice with the most points is chosen.
 
 ### Determining the Parameters of a New Quest
 
 Once a quest is chosen, a member shall open a thread for the new quest in the team channel. Discussion and voting for different aspects shall occur. Voting shall follow the standard voting policy. Once the parameters are determined, a member shall draft up the rules and a team vote will be done on that ruleset.
 
-The team should also provide possible badge art ideas to provide to the art team. Final badge art shall be voted upon if there are multiple possible options.
+The team should also provide possible badge art ideas to provide for the art team. Final badge art shall be voted upon if there are multiple possible options.
 
 Finally, the new quest event shall be created and the rules added to the DevQuests document.
 
 ## Processing DevQuests
 
-Most sheets have a lot of automatically updated information.  Generally you need only enter the user's name and the game ID and check some boxes.
+Most sheets have a lot of automatically updated information.  Generally, you need only enter the user's name and the game ID and check some boxes.
 
 ### Wheel Spins
 
@@ -91,9 +91,9 @@ Most sheets have a lot of automatically updated information.  Generally you need
 If a user is claiming a set for a creation question of a maintenance quest like DQ2, do the following.
 
 - Update the tracking and claims sheets for the quest
-- Ensure the developer's name is entered on the overall tracking sheet for the quest, and on a new row in the claims sheet for the quest.  (Note: quests that only need one set will have a single sheet that functions as both)
-- Name should be capitalized and spell identically to the way it is one the RA website.
-- Log the claim entty in the #DevQuest-logs channel on discord.
+- Ensure the developer's name is entered on the overall tracking sheet for the quest, and on a new row in the claims sheet for the quest.  (Note: DevQuests that only need one set will have a single sheet that functions as both)
+- Name should be capitalized and spelled identically to the way it is on the RA website.
+- Log the claim entry in the #DevQuest-logs channel on discord.
 
 ::: info NOT REQUIRED
 Note that this is not a requirement for the developer, but it can help for questions like Most Wanted or Wish This Set where a set can become eligible mid-development.
@@ -103,20 +103,20 @@ Note that this is not a requirement for the developer, but it can help for quest
 
 1. **Verify** the work has been done in the correct timeframe.
    - Most work cannot be credited retroactively and must have been completed within one week of the developer's request for credit.
-   - Exception can be given if the user previously notified us that the were claiming the work for the particular DevQuest
+   - Exception can be given if the user previously notified us that they were claiming the work for the particular DevQuest
    - This applies to Set-Creation DevQuests and Set-Maintenance DevQuests (DQ2, DQ13, and DQ22)
-2. **Set-Based Quests (Creation and Maintenance)**:
+2. **Set-Based DevQuests (Creation and Maintenance)**:
    - Update the tracking and claims sheets for the quest
-   - Ensure the developer's name is entered on the overall tracking sheet for the quest, and on a new row in the claims sheet for the quest.  (Note: quests that only need one set will have a single sheet that functions as both)
-   - Name should be capitalized and spell identically to the way it is one the RA website.
-   - For set-creation quests, add the set to the Sets hub for that DevQuest and check the box on the sheet.
-3. **Achievement/Ticket/Leaderboard Quests**
+   - Ensure the developer's name is entered on the overall tracking sheet for the quest, and on a new row in the claims sheet for the quest.  (Note: DevQuests that only need one set will have a single sheet that functions as both)
+   - Name should be capitalized and spelled identically to the way it is on the RA website.
+   - For set-creation DevQuests, add the set to the Sets hub for that DevQuest and check the box on the sheet.
+3. **Achievement/Ticket/Leaderboard DevQuests**
    - Check all entries on the user's column and verify them.
-   - Generally we highlight in green when acceptable, in yellow/tan if there is a question or more information needed, and in red if the work is not valid or inapplicable to the quest.
+   - Generally, we highlight in green when acceptable, in yellow/tan if there is a question or more information needed, and in red if the work is not valid or inapplicable to the quest.
 4. **Badge** If the user has done enough to earn the badge:
    - Log in to the DevQuest account
    - Navigate to the event page for the DevQuest
-   - Scroll down the the achievement for the badge
+   - Scroll down to the achievement for the badge
    - Click on the command dots (far right at time of writing) and select Award
    - Enter the developer's name and submit
 5. **Log**
@@ -125,7 +125,7 @@ Note that this is not a requirement for the developer, but it can help for quest
 ### Which Quests can "Stack" ?
 
 - DQ2: Retro Renovator and DQ13: complete.me - As long as the actions required are distinct, a developer could do both of these for a single game.
-- DQ14: Laudable Leaderboards could stack with DQ2: Retro Renovator and/or DQ13: complete me. The action of adding leaderboards is a difference action from either of those maintenance quests.
+- DQ14: Laudable Leaderboards could stack with DQ2: Retro Renovator and/or DQ13: complete me. The action of adding leaderboards is a different action from either of those maintenance quests.
 - DQ4: Veteran Developer, DQ15: Console Conqueror, and DQ20: Genre and Subgenre Conquerors overlap with everything. Pretend all other DevQuests do not know about these quests.
 
 #### Supplemental Guidance: Things that may not stack
@@ -137,7 +137,7 @@ Note that this is not a requirement for the developer, but it can help for quest
 
 When validating a ticket:
  
-- Ensure the issue in the ticket wasn't caused by a previous edit of the developer claiming credit.
+- Ensure the issue described by the ticket wasn't caused by a previous edit from the developer claiming credit.
 - Ensure the ticket isn't against one of that developer's achievements.
 - Ensure the ticket isn't a network issue.
 - Ensure the tickets weren't used by this developer for DQ2 (which requires all tickets to be resolved for that quest).
@@ -159,9 +159,9 @@ When the column is complete and a badge is earned, mark the badge row for that c
 
 ### DevQuest 004: Veteran Developer
 
-Generally you don't have to worry about this one.  If you request access to the Vet Dev tracking sheet (it is a separate document), you can add in the usernames of developers that opt-in so that tele will start tracking them.
+Generally, you don't have to worry about this one.  If you request access to the Vet Dev tracking sheet (it is a separate document), you can add in the usernames of developers that opt-in so that `tele` will start tracking them.
 
-- Sweeps are performed by tele
+- Sweeps are performed by `tele`
 - Code Reviews are performed by DevQuest team members who are also Code Review Team members.
 
 ### DevQuest 005: Trigger Happy
@@ -178,7 +178,7 @@ Generally you don't have to worry about this one.  If you request access to the 
 - System is determined by wheel spin.
 - 100 sets or 50% of the library complete is the threshold for removal
 - Systems must be 6 months past launch before eligible
-- Respins are allowed if it has been 3 months since last spin and the developer has not already used their respin token for this quest. See the DevQuests document for rules about how a developer can earn a new respin.
+- Respins are allowed if it has been 3 months since the last spin and the developer has not already used their respin token for this quest. See the DevQuests document for rules about how a developer can earn a new respin.
 
 ### DevQuest 007: Most Wanted
 
@@ -195,8 +195,8 @@ Generally you don't have to worry about this one.  If you request access to the 
 
 ### DevQuest 009 : Launch Party!
 
-- After a rollout it's a good idea to in-general ask who wants credit for this.
-- 6 month window is from launch.
+- After a rollout it's generally a good idea to ask who wants credit for this.
+- The 6 month window is from launch.
 
 ### DevQuest 010: It Takes Two
 
@@ -212,8 +212,8 @@ Generally you don't have to worry about this one.  If you request access to the 
 ### DevQuest 012: Hacker's Habit & Hack at it Again
 
 - Each "point" in this quest must be earned from a different franchise.
-   - This carries across all badges in the quest. At the time of writing there are are two badges. all four points must be different franchises
-- If a hack is tiny, but larger than a mem hack or trivial hack, award only a half point. Otherwise it is a full point.
+   - This carries across all badges in the quest. At the time of writing there are two badges. All four points must be different franchises
+- If a hack is tiny, but larger than a mem hack or trivial hack, award only a half point. Otherwise, it is a full point.
 
 ### DevQuest 013: complete.me
 
@@ -231,15 +231,15 @@ When validating a leaderboard:
 
 ### DevQuest 015: Console Conquerer
 
-- Sweeps are handled by a senior member (currently TheMysticalOne at the time of writing)
+- Sweeps are handled by a senior member (currently `TheMysticalOne` at the time of writing)
    - A specific query is run against the database by an engineering team member at the request of the member doing the sweep
 - "Speedrunning" this quest should be discouraged.
-- If a user is repeatedly submitting tiny sets for most consoles, or repeating an archetypical set (ex: Flappy Bird), may use discretion to deny credit for these.
+- If a user is repeatedly submitting tiny sets for most consoles or repeating an archetypical set (ex: Flappy Bird), may use discretion to deny credit for these.
 
 ### DevQuest 016 : Wish This Set
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
-- Two total badges each requiring 1 sets to be updated for completion.
+- Two total badges each requiring 1 set to be created for completion.
 - Check off the Badge Awarded columns as they are earned.
 - Verify that the set appeared on Wish This Set before the time of claim, or that the set was less than 50% developed when it last appeared on Wish This Set.
 - This quest benefits when the developer reports the claim at those times. If the claim is already on the sheet when they request credit, it is acceptable to give the credit (even if it might be past the one-week window after claim completion).
@@ -249,9 +249,9 @@ When validating a leaderboard:
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - Both sports must be different.
-- One sport must be identifiable as a "physical" sport (i.e. American Football, Golf, Boxing, Volleyball, etc)
+- One sport must be identifiable as a "physical" sport (i.e. American Football, Golf, Boxing, Volleyball, etc.)
    - Most or all extreme sports would qualify too.
-- Motosports are considered sports for this quest. (More realistic car racing and motorcycle racing, etc)
+- Motosports are considered sports for this quest. (More realistic car racing and motorcycle racing, etc.)
 - Collaborations are allowed
 
 ### DevQuest 018: Subset Station
@@ -265,23 +265,23 @@ When validating a leaderboard:
 
 - Verify their set matches the genre assigned.
 - Genres assigned are determined by wheel spin.
-- Respins are allowed if it has been 3 months since last spin and the developer has not already used their respin token for this quest. See the DevQuests document for rules about how a developer can earn a new respin.
+- Respins are allowed if it has been 3 months since the last spin and the developer has not already used their respin token for this quest. See the DevQuests document for rules about how a developer can earn a new respin.
 
 ### DevQuest 020: Genre Conquerer & Subgenre Conqueror
 
-- Sweeps are handled by a senior member (currently TheMysticalOne at the time of writing)
+- Sweeps are handled by a senior member (currently `TheMysticalOne` at the time of writing)
    - A specific query is run against the database by an engineering team member at the request of the member doing the sweep
 - "Speedrunning" this quest should be discouraged.
 - If a user is repeatedly submitting tiny sets for most consoles, may use discretion to deny credit for these.
 - Users must opt-in and provide a sheet with all their sets
-- Sets are recorded on a set tracking sheet (so we can check against duplicates or make credit adjustments in the future, etc)
+- Sets are recorded on a set tracking sheet (so we can check against duplicates or make credit adjustments in the future, etc.)
 - Any user verifying sets should do some research to ensure the genre matches.
-- Disputes are resolved by team vote following the standard team voting policy.
+- Disputes are resolved by a team vote following the standard team voting policy.
 
 ### DevQuest 021: Homebrew Heaven
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
-- Sets from the homebrew consoles (WASM, Arduboy, etc) are worth half credit.
+- Sets on the homebrew consoles (WASM, Arduboy, etc) are worth half credit.
 - Three sets (or six half-credit sets, or a valid combination equivalent to three sets) are needed for the badge.
 - Tiny homebrew is full credit (half credit if a homebrew console). Fun snack-sized games are part of the homebrew culture. This is also why this quest needs three.
 
@@ -294,12 +294,12 @@ When validating a leaderboard:
 
 - The overall tracking sheet is also the claims sheet.
 - Enter the game ID on the tracking sheet and it will validate the game ID against the user's list.
-- The main columns filled in here are developer name, the user name owning the assigned list, game ID, and the colon-separated list of valid games.
+- The main columns filled in here are developer name, the display name of the user owning the assigned list, the game ID, and the colon-separated list of valid games.
 - The user whose request list is assigned to the developer is chosen by wheel spin.
 - The Query Data sheet is periodically updated by MrOwnership (about once per month)
-- Use the Display Name column of the Query Data to build your wheel. This generally should be done before all wheel-spinning sessions.
+- Use the Display Name column of the Query Data to build your wheel. Check the data of last update and build a new wheel if it is different from when you last built your wheel. When in doubt, build a new wheel.
 - Find the user spun in the Query Data and copy the colon-separated list of game IDs.
-- Paste this into the tracking shee on the developer's role (be sure to add the developer if needed)
+- Paste this into the tracking sheet on the developer's role (be sure to add the developer if needed)
 - Also parse it onto the Eligible Game's lists's generator. This will generate the specific list of games with links.
 - Insert a new column (in the correct order, alphabetically, please!) if needed on the Eligible Games List sheet for the quest. Copy the generated list and paste it into that user's column.
 - Inform the user of their spin (ideally use a screen capture program like ShareX to do a gif recording of the wheel spin).
