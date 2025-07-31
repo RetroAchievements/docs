@@ -303,5 +303,5 @@ When validating a leaderboard:
 - Also parse it onto the Eligible Game's lists's generator. This will generate the specific list of games with links.
 - Insert a new column (in the correct order, alphabetically, please!) if needed on the Eligible Games List sheet for the quest. Copy the generated list and paste it into that user's column.
 - Inform the user of their spin (ideally use a screen capture program like ShareX to do a gif recording of the wheel spin).
-- Informt the user to verify the list on the Eligible Games List in case the user has updated their list since the last update.
+- Inform the user to verify the list on the Eligible Games List in case the user has updated their list since the last update.
 - When a user claims a game or asks for credit, entering the game ID on the tracking sheet with check it against the game ID list for verification.
