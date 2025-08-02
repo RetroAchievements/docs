@@ -25,7 +25,7 @@ QA's primary responsibilities include the following tasks:
   - Resolve or close inactive developer tickets
   - Ensure maintenance of leaderboards
   - Ensure maintenance of Rich Presence
-- Flag [noncompliant writing](guidelienes/writing-policy) for the writing team to address
+- Flag [noncompliant writing](guidelines/writing-policy) for the writing team to address
 - Ensure accurate type markings
 - Address other miscellaneous quality issues
 - Maintain RetroAchievements content guidelines
