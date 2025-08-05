@@ -42,7 +42,7 @@ Some DevQuests keep a list of eligible games and will have games added by the De
    - Sets that need repairs should not be assigned to DevQuest 022; a user may only use such sets for this quest if they have fully completed DevQuest 002 and then only if the non-repair-related work matches the DevQuest 022 dust-off goal.
 
 ::: tip DUAL CREDIT
-If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved at distinct (repair as one action, completion as a separate action).
+If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved are distinct (repair as one action, completion as a separate action).
 :::
 
 ### Approving additions to DQ2, DQ13, DQ22
@@ -79,7 +79,7 @@ Most sheets have a lot of automatically updated information.  Generally, you nee
 
 ### Wheel Spins
 
-- Copy the relevate list of random things to choose from and use a site like wheelofnames.com to build a wheel.
+- Copy the relevant list of random things to choose from and use a site like wheelofnames.com to build a wheel.
 - Record the wheel spin using a tool like ShareX (use Capture > Screen Recording (Gif))
 - Enter the results in the DevQuest sheet and log it in #DevQuest-logs
 - Share the result with the developer that requested it.
@@ -259,7 +259,7 @@ When validating a leaderboard:
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - Both subsets must be for different games
 - Subsets must be different types of subsets from each other
-- If the subset was worked on at the same time as the base set, ensure that no other subsets don't for this quest were the same situation.
+- If the subset was worked on at the same time as the base set, ensure that no other subsets done for this quest were the same situation.
 
 ### DevQuest 019: Wheel of Genres
 
@@ -297,11 +297,11 @@ When validating a leaderboard:
 - The main columns filled in here are developer name, the display name of the user owning the assigned list, the game ID, and the colon-separated list of valid games.
 - The user whose request list is assigned to the developer is chosen by wheel spin.
 - The Query Data sheet is periodically updated by MrOwnership (about once per month)
-- Use the Display Name column of the Query Data to build your wheel. Check the data of last update and build a new wheel if it is different from when you last built your wheel. When in doubt, build a new wheel.
+- Use the Display Name column of the Query Data to build your wheel. Check the date of the last update and build a new wheel if it is different from when you last built your wheel. When in doubt, build a new wheel.
 - Find the user spun in the Query Data and copy the colon-separated list of game IDs.
 - Paste this into the tracking sheet on the developer's role (be sure to add the developer if needed)
-- Also parse it onto the Eligible Game's lists's generator. This will generate the specific list of games with links.
+- Also parse it onto the *Eligible Game*'s sheet's list generator. This will generate the specific list of games with links.
 - Insert a new column (in the correct order, alphabetically, please!) if needed on the Eligible Games List sheet for the quest. Copy the generated list and paste it into that user's column.
 - Inform the user of their spin (ideally use a screen capture program like ShareX to do a gif recording of the wheel spin).
 - Inform the user to verify the list on the Eligible Games List in case the user has updated their list since the last update.
-- When a user claims a game or asks for credit, entering the game ID on the tracking sheet with check it against the game ID list for verification.
+- When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.
