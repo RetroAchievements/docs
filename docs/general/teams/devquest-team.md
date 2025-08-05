@@ -300,8 +300,8 @@ When validating a leaderboard:
 - Use the Display Name column of the Query Data to build your wheel. Check the date of the last update and build a new wheel if it is different from when you last built your wheel. When in doubt, build a new wheel.
 - Find the user spun in the Query Data and copy the colon-separated list of game IDs.
 - Paste this into the tracking sheet on the developer's role (be sure to add the developer if needed)
-- Also parse it onto the *Eligible Game*'s sheet's list generator. This will generate the specific list of games with links.
-- Insert a new column (in the correct order, alphabetically, please!) if needed on the Eligible Games List sheet for the quest. Copy the generated list and paste it into that user's column.
+- Also parse it onto the *Eligible Games Lists* sheet's `Games List Generator`. This will generate the specific list of games with links.
+- ON the Eligible Games sheet, insert a new column if needed (*please insert it so it is correctly alphebetized*). Copy the generated list and paste it into that user's column.
 - Inform the user of their spin (ideally use a screen capture program like ShareX to do a gif recording of the wheel spin).
-- Inform the user to verify the list on the Eligible Games List in case the user has updated their list since the last update.
+- Inform the user to verify the list on the *Eligible Games Lists* sheet in case the user has updated their list since the last update.
 - When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.
