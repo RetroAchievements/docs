@@ -90,7 +90,7 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
 
 ### Graduation Consideration
 
-Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer. The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with the Developer Code of Conduct?" This question is evaluated by considering a variety of aspects such as:
+Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer. The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with RetroAchievements' content guidelines?" This question is evaluated by considering a variety of aspects such as:
 
 - Has the Junior Developer demonstrated a consistent level of maturity and professionalism such that they can be trusted with increased site permissions?
 - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?
