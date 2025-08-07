@@ -34,6 +34,12 @@ Once a set plan is approved, Junior Developers may begin work on set development
 
 Note: New Junior Developers who had a set plan approved when requesting to join the Junior Developer may immediately begin work on the set once they are onboarded and have made a claim on the set for which their initial plan was approved.
 
+If a Junior Developer needs to extend their claim beyond 3 months, they need to make a progress report on the official forum for the game in accordance with [Claims System rules for extending a claim](/guidelines/developers/claims-system.html#extending-a-claim).
+
+Prior to a second extension (at the six-month mark) as well as further extensions, a detailed progress report must be sent to the [Code Review Team](https://retroachievements.org/messages/create?to=CodeReviewTeam) for approval before the extension is made. The team may deny the extension in cases where progress is insufficient. 
+
+When a junior set is marked as In Review, the claim will be renewed automatically when it would normally expire. While progress reports on forums are not necessary for such extensions, potential players usually appreciate the update.
+
 ### Rules and Restrictions
 
 The following rules apply to all Junior Developers:
