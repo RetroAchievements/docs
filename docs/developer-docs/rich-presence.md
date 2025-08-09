@@ -11,13 +11,13 @@ description: Overview of Rich Presence (RP), a feature showing what players are 
 
 Rich Presence (RP) is **brief** overview of what active players are currently doing in their game. To have RP in a game you need a Rich Presence script, which is created by developers. The script checks the player's game memory and reports the values of certain addresses with definitions assigned by the developer such as which stage the player is on, how many lives they have, what game mode they are playing, what the player has accomplished, etc. This information is reported back to the website once every two minutes.
 
-A good rich presence should inform other users how far into the game you are (level/town/dungeon), and give an overall sense of how the player is doing (score/remaining lives/character level). Additional details may be useful, depending on their context within the game. Do not to go overboard with the detail though. Other players don't care how many bullets you have left, or how much time is left on a timer, especially since it only updates every two minutes. Additionally, the more fluff you add to a rich presence display, the more diluted the important information becomes.
+A good rich presence should inform other users how far into the game you are (level/town/dungeon), and give an overall sense of how the player is doing (score/remaining lives/character level). Additional details may be useful, depending on their context within the game. Do not go overboard with the detail though. Other players don't care how many bullets you have left, or how much time is left on a timer, especially since it only updates every two minutes. Additionally, the more fluff you add to a rich presence display, the more diluted the important information becomes.
 
 ## Intended Audience
 
 Rich presence is written for site viewers, **NOT** the person playing the game.  It is intended to answer the question "What is this player doing?" Do not assume a context for RP when designing it. It should just report factual data that briefly explains, in general terms, what a player is doing in game.
 
- It is highly recommended to keep RP clear, concise, and consider that viewers may have little to no knowledge of the game. It is important that Rich Presence is simple and easy to understand. Emojis are often unclear, do not display consistently between platforms. They should only be used sparingly for very obvious things, if at all.
+ It is highly recommended to keep RP clear, concise, and consider that viewers may have little to no knowledge of the game. It is important that Rich Presence is simple and easy to understand. Emojis are often unclear and do not display consistently between platforms. They should only be used sparingly for very obvious things, if at all.
 
 
 **Example of RP in action:**
