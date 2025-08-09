@@ -15,7 +15,10 @@ A good rich presence should inform other users how far into the game you are (le
 
 ## Intended Audience
 
-Rich presence is written for site viewers, **NOT** the person playing the game. It is highly recommended to keep RP clear, concise, and consider that viewers may have little to no knowledge of the game. It is important that Rich Presence is simple and easy to understand. Emojis are often unclear, do not display consistently between platforms. They should only be used sparingly for very obvious things, if at all.
+Rich presence is written for site viewers, **NOT** the person playing the game.  It is intended to answer the question "What is this player doing?" Do not assume a context for RP when designing it. It should just report factual data that briefly explains, in general terms, what a player is doing in game.
+
+ It is highly recommended to keep RP clear, concise, and consider that viewers may have little to no knowledge of the game. It is important that Rich Presence is simple and easy to understand. Emojis are often unclear, do not display consistently between platforms. They should only be used sparingly for very obvious things, if at all.
+
 
 **Example of RP in action:**
 
