@@ -29,8 +29,8 @@ features:
     link: https://retroachievements.org/createaccount.php
   - icon: 🕹️
     title: Baixe um Emulador
-    details: Instale um emulador compatível e comece a ganhar conquistas.
-    link: https://retroachievements.org/download.php
+    details: Instale um emulador compatível com Hardcore e comece a ganhar conquistas.
+    link: https://retroachievements.org/downloads
   - icon: 📡
     title: Documentação da API
     details: Integre RetroAchievements em seu aplicativo, site ou front-end.

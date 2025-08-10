@@ -1,6 +1,6 @@
 ---
 title: Soporte de emuladores
-description: Guía completa de compatibilidad y soporte de emuladores para RetroAchievements, incluidos problemas específicos de cada consola y recomendaciones para distintos núcleos y emuladores.
+description: Guía completa de cumplimiento Hardcore y compatibilidad para RetroAchievements, incluidos problemas específicos de cada consola y recomendaciones para distintos núcleos y emuladores.
 ---
 
 # Soporte y problemas de los emuladores

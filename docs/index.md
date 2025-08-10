@@ -27,17 +27,14 @@ features:
     title: Sign Up
     details: Get started by making an account.
     link: https://retroachievements.org/createaccount.php
-
   - icon: 🕹️
     title: Download an Emulator
-    details: Install a supported emulator and start earning achievements.
-    link: https://retroachievements.org/download.php
-
+    details: Install a verified emulator and start earning achievements.
+    link: https://retroachievements.org/downloads
   - icon: 📡
     title: API Docs
     details: Integrate RetroAchievements into your app, website, or front-end.
     link: https://api-docs.retroachievements.org
-
   - icon: 🔧
     title: Emulator Integration Docs
     details: Integrate RetroAchievements into your emulator.
