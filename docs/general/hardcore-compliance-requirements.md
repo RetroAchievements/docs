@@ -15,8 +15,8 @@ RetroAchievements features must work as intended:
 - **Rich Presence and Leaderboards**: Must function correctly.
 - **Offline queueing**: Unlocks created while offline must be securely cached and sync to RetroAchievements when connectivity returns.
 - **Save state hit storage**: Hit counts should be stored in save states. While not strictly required, this is highly recommended as it's important for debugging complex achievement logic and ensures proper functionality in softcore mode. Without this, players may experience issues and developers will have difficulty troubleshooting.
-- **Save file compatibility**: Save files (memory cards, SRAM, EEPROM, battery saves, etc.) should use standard formats compatible with other emulators of the same system. This is highly recommended as it benefits both users (who can switch emulators without losing progress) and developers (who can validate manual unlock requests by loading saves in emulators with RAIntegration support).
 - **Toolkit support**: If you ship a Windows version of the emulator, please investigate adding [RAIntegration DLL](https://github.com/RetroAchievements/RAIntegration) support. This is not required, but if it isn't included, a subtle info blurb will be present on our Downloads page, and players will get a very loud warning when trying to open tickets.
+- **Save file compatibility**: Save files (memory cards, SRAM, EEPROM, battery saves, etc.) should use standard formats compatible with other emulators of the same system. This is highly recommended as it benefits both users (who can switch emulators without losing progress) and developers (who can validate manual unlock requests by loading saves in emulators with RAIntegration support).
 
 ## B. Hardcore Rules Enforcement
 
