@@ -5,7 +5,7 @@ description: Learn how to set up emulators for achievement development with Retr
 
 # Emulator Setup for Developers
 
-Achievement development requires a Windows-only DLL file called [RAIntegration](https://github.com/RetroAchievements/RAIntegration). In most cases, this file will be bundled with or automatically downloaded upon starting a [supported emulator](https://retroachievements.org/download.php), including the following:
+Achievement development requires a Windows-only DLL file called [RAIntegration](https://github.com/RetroAchievements/RAIntegration). In most cases, this file will be bundled with or automatically downloaded upon booting a [compliant emulator](https://retroachievements.org/download.php), including the following:
 
 - RALibRetro
 - RAMeka

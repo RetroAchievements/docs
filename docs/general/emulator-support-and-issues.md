@@ -1,12 +1,12 @@
 ---
 title: Emulator Support
-description: Comprehensive guide to emulator support and compatibility for RetroAchievements, including console-specific issues and recommendations for various cores and emulators.
+description: Comprehensive guide to hardcore compliance and compatibility for RetroAchievements, including console-specific issues and recommendations for various cores and emulators.
 ---
 
 # Emulator Support
 
 ::: info
-This page focuses on supported emulators. For extensive notes on unsupported emulators and cores, check the [unsupported emulators page](/developer-docs/unsupported-emulators-and-cores).
+This page focuses on hardcore-compliant emulators. For extensive notes on unsupported emulators and cores, check the [unsupported emulators page](/developer-docs/unsupported-emulators-and-cores).
 :::
 
 ### 3DO Interactive Multiplayer

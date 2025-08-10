@@ -6,7 +6,7 @@ Os participantes do [Placar Global](#global-leaderboard) são obrigados a ganhar
 
 Em geral, um jogador deve desbloquear conquistas:
 
-- Usando a versão mais recente de um emulador aprovado e suportado;
+- Usando a versão mais recente de um emulador aprovado e compatível com Hardcore;
 - Dentro de um jogo por ações realizadas no próprio jogo;
 - Pelo seu próprio controle;
 - Sem modificar arquivos ou códigos do jogo;
@@ -43,7 +43,7 @@ Desrastreios involuntários geralmente resultam de serem marcados por timestamps
 
 Se você notar que um jogador se tornou não rastreado: não o assedie, acuse de trapaça, faça uma cena pública, etc. Não pergunte aos moderadores ou administradores por que um usuário foi não rastreado. Não é da sua conta.
 
-**AVISO**: Desbloquear conquistas usando métodos fora dos emuladores suportados resulta em ter sua conta definida como não rastreada. Quando isso acontece, a única maneira de voltar ao placar global é fazendo uma redefinição completa de todas as conquistas em seu perfil. Não há exceções nem apelos. Casos graves disso também podem resultar em banimento.
+**AVISO**: Desbloquear conquistas usando métodos fora dos emuladores compatíveis com Hardcore resulta em ter sua conta definida como não rastreada. Quando isso acontece, a única maneira de voltar ao placar global é fazendo uma redefinição completa de todas as conquistas em seu perfil. Não há exceções nem apelos. Casos graves disso também podem resultar em banimento.
 
 ## Não Permitido
 

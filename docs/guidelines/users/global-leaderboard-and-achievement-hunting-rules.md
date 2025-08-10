@@ -11,7 +11,7 @@ Participants of the [Global Leaderboard](#global-leaderboard) are required to ea
 
 In general, a player must unlock achievements:
 
-- Using the latest release version of an approved supported emulator;
+- Using the latest release version of an approved [hardcore-compliant emulator](/general/emulator-support-and-issues);
 - Inside of a game by in-game actions;
 - By their own control;
 - Without outside-modifying game files or game code;
@@ -50,7 +50,7 @@ Involuntary untracks are done when players have violated the [Global Leaderboard
 
 If you notice a player has become untracked: do not harass them, accuse them of cheating, make a public scene, etc. Do not ask moderators or admin why a user was untracked. It is none of your business.
 
-**WARNING**: Unlocking achievements using methods outside supported emulators results in having your account set as untracked. When this happens, the only way to be on the global leaderboard again is by doing a full reset of all achievements on your profile. There are no exceptions and no appeals. Severe cases of this can also result in a ban.
+**WARNING**: Unlocking achievements using methods outside hardcore-compliant emulators results in having your account set as untracked. When this happens, the only way to be on the global leaderboard again is by doing a full reset of all achievements on your profile. There are no exceptions and no appeals. Severe cases of this can also result in a ban.
 
 ## Not Allowed
 
@@ -71,7 +71,7 @@ Even if you "should have" unlocked the achievement. Even if the game is bugged. 
 
 In the cases where you should have unlocked the achievement but it didn't trigger or it didn't get registered in the site due to a network problem, you should [follow the steps described in FAQ to request a manual unlock](/general/faq#how-do-i-request-a-manual-unlock).
 
-**NOTE**: make sure you are using the latest release version of an approved supported emulator.
+**NOTE**: make sure you are using the latest release version of an approved hardcore-compliant emulator.
 
 ### 2. Do not earn achievements in a way that contradicts what the description asks. {#not-allowed-2}
 
