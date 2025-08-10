@@ -29,7 +29,7 @@ The following rules must be enforced in Hardcore mode:
 - **Rewind is disabled** in hardcore.
 - **Slowdown and frame advance are disabled** in hardcore.
 - **Loading save states is ALWAYS blocked** in hardcore.
-- **Rich Presence and Leaderboards cannot be disabled** in hardcore.
+- **Rich Presence and Leaderboards cannot be disabled** in hardcore. Disabling leaderboard popups is okay to support for either mode.
 - If the emulator supports a **"resume/quick resume" feature**, the resumed session must drop to Softcore.
 - **Mode switching**: Switching from softcore to hardcore is not allowed mid-session. **This action must result in a full reset of the game.** Switching from hardcore to softcore is allowed mid-session.
 - Users should be allowed to create save states while in hardcore for debugging purposes, but those states cannot be loadable when hardcore mode is enabled.
