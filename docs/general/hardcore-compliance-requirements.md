@@ -11,7 +11,7 @@ This page outlines the comprehensive requirements that emulators must meet to be
 
 RetroAchievements features must work as intended:
 
-- **Achievements**: Triggers must evaluate correctly. Measured and Progress flags must work properly.
+- **Achievements**: Triggers must evaluate correctly. Measured and Trigger flags must work properly.
 - **Rich Presence and Leaderboards**: Must function correctly.
 - **Offline queueing**: Unlocks created while offline must be securely cached and sync to RetroAchievements when connectivity returns.
 - **Save state hit storage**: Hit counts should be stored in save states. While not strictly required, this is highly recommended as it's important for debugging complex achievement logic and ensures proper functionality in softcore mode. Without this, players may experience issues and developers will have difficulty troubleshooting.
