@@ -262,11 +262,12 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### NES/Famicom Disk System
 
-| Name                                                 | Type                | Notes             |
-| :--------------------------------------------------- | :------------------ | :---------------- |
-| **FCEUmm**                                           | libretro core       | Most recommended. |
-| **Mesen**                                            | libretro core       |                   |
-| **[RANes](https://retroachievements.org/downloads)** | Standalone emulator |                   |
+| Name                                                           | Type                | Notes             |
+| :------------------------------------------------------------- | :------------------ | :---------------- |
+| **FCEUmm**                                                     | libretro core       | Most recommended. |
+| **Mesen**                                                      | libretro core       |                   |
+| **[RANes](https://retroachievements.org/downloads)**           | Standalone emulator |                   |
+| **[NES RA Adapter](https://github.com/odelot/nes-ra-adapter)** | Console adapter     |                   |
 
 ### Nintendo 64
 
@@ -393,6 +394,7 @@ Appear to still have unmapped RAM.
 | **Snes9X**                                                          | libretro core       | Most recommended. |
 | **Mesen-S**                                                         | libretro core       |                   |
 | **[RASnes9x](https://retroachievements.org/download.php#rasnes9x)** | Standalone emulator |                   |
+| **[RA2Snes](https://github.com/Factor-64/RA2Snes/releases)**        | Console adapter     |                   |
 
 ### Uzebox
 
