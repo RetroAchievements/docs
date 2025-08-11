@@ -83,7 +83,7 @@ Any one of these will lead to an **automatic rejection** of the emulator for har
 - Loading save states in hardcore mode.
 - Allowing rewind/slo-mo/frame advance in hardcore mode.
 - Allowing gameplay-altering cheats in hardcore mode.
-- The Ability to switch between modes without a reset of the game.
+- The ability to switch to hardcore mode without a reset of the game.
 - Identifying the emulator to the server with a non-unique user agent.
 - Shipping non-commercial cores while any commercialization or in-app purchases exists without written permission from the necessary rightsholders.
 - Privacy policy with placeholders/contradictions (e.g., missing data warehouse location, "no third parties" while using social logins/analytics).
