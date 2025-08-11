@@ -6,7 +6,7 @@ description: Comprehensive guide to hardcore compliance and compatibility for Re
 # Emulator Support
 
 ::: info
-This page focuses on hardcore-compliant emulators. For extensive notes on unsupported emulators and cores, check the [unsupported emulators page](/developer-docs/unsupported-emulators-and-cores).
+This page focuses on hardcore-compliant emulators. For detailed compliance requirements, see the [Hardcore Compliance Requirements](/general/hardcore-compliance-requirements) page. For extensive notes on unsupported emulators and cores, check the [unsupported emulators page](/developer-docs/unsupported-emulators-and-cores).
 :::
 
 ### 3DO Interactive Multiplayer
