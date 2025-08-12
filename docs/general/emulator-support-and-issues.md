@@ -371,7 +371,7 @@ Limited microphone support.
 ### Sega CD
 
 ::: info
-Appear to still have unmapped RAM.
+These cores appear to still have unmapped RAM.
 :::
 
 | Name                | Type          | Notes |
