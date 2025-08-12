@@ -118,7 +118,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 ### Elektor TV Games Computer
 
 | Name                                                  | Type                | Notes |
-| :---------------------------------------------------- | :------------------ | :---  |
+| :---------------------------------------------------- | :------------------ | :---- |
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
