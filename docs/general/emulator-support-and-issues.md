@@ -9,7 +9,7 @@ description: Comprehensive guide to hardcore compliance and compatibility for Re
 This page focuses on hardcore-compliant emulators. For detailed compliance requirements, see the [Hardcore Compliance Requirements](/general/hardcore-compliance-requirements) page. For extensive notes on unsupported emulators and cores, check the [unsupported emulators page](/developer-docs/unsupported-emulators-and-cores).
 :::
 
-libretro cores can be played on the following hardcore-compliant frontends. You can find each of them on the [Downloads page](https://retroachievements.org/downloads), listing all cores available for them.:
+libretro cores can be played on the following hardcore-compliant frontends. You can find each of them on the [Downloads page](https://retroachievements.org/downloads), listing all cores available for them:
 
 - [RetroArch](https://www.retroarch.com/index.php?page=platforms) - Supports 45 systems.
 - [RALibRetro](https://retroachievements.org/downloads) - Supports 45 systems.
