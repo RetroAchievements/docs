@@ -11,10 +11,10 @@ This page focuses on hardcore-compliant emulators. For detailed compliance requi
 
 libretro cores can be played on the following hardcore-compliant frontends. You can find each of them on the [Downloads page](https://retroachievements.org/downloads), listing all cores available for them:
 
-- [RetroArch](https://www.retroarch.com/index.php?page=platforms) - Supports 45 systems.
-- [RALibRetro](https://retroachievements.org/downloads) - Supports 45 systems.
-- [Firelight](https://biscuitcakes.itch.io/firelight) - Supports 10 systems.
-- [Delta (iOS)](https://apps.apple.com/us/app/delta-game-emulator/id1048524688) - Supports 7 systems.
+- [RetroArch](https://www.retroarch.com/index.php?page=platforms) - Supports 40+ systems.
+- [RALibRetro](https://retroachievements.org/downloads) - Supports 40+ systems.
+- [Firelight](https://biscuitcakes.itch.io/firelight) - Supports 10+ systems.
+- [Delta (iOS)](https://apps.apple.com/us/app/delta-game-emulator/id1048524688) - Supports 5+ systems.
 
 BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). More details on BizHawk cores can be found [here](https://tasvideos.org/BizHawk).
 
@@ -174,10 +174,10 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### GameCube
 
-| Name                                                                    | Type                | Notes                                                                                                            |
-| :---------------------------------------------------------------------- | :------------------ | :--------------------------------------------------------------------------------------------------------------- |
-| **[Dolphin](https://retroachievements.org/download.php#dolphin)**       | Standalone emulator | - Must use version 2407-68 or newer.<br>- Ensure "Enable Dual Core (speedup)" is unchecked as it is unsupported. |
-| **[DolphinUWP](https://github.com/SternXD/dolphin/releases/tag/1.1.9.0) | Standalone emulator |                                                                                                                  |
+| Name                                                                      | Type                | Notes                                                                                                            |
+| :------------------------------------------------------------------------ | :------------------ | :--------------------------------------------------------------------------------------------------------------- |
+| **[Dolphin](https://retroachievements.org/download.php#dolphin)**         | Standalone emulator | - Must use version 2407-68 or newer.<br>- Ensure "Enable Dual Core (speedup)" is unchecked as it is unsupported. |
+| **[DolphinUWP](https://github.com/SternXD/dolphin/releases/tag/1.1.9.0)** | Standalone emulator |                                                                                                                  |
 
 ### Game Gear
 
@@ -253,30 +253,30 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### NES/Famicom
 
-| Name                                                 | Type                | Notes                                     |
-| :--------------------------------------------------- | :------------------ | :---------------------------------------- |
-| **FCEUmm**                                           | libretro core       | Most recommended.                         |
-| **Mesen**                                            | libretro core       |                                           |
-| **QuickNES**                                         | libretro core       | Does not emulate the Famicom Disk System. |
-| **[RANes](https://retroachievements.org/downloads)** | Standalone emulator |                                           |
+| Name                                                           | Type                | Notes                                     |
+| :---------------------------------------------------           | :------------------ | :---------------------------------------- |
+| **FCEUmm**                                                     | libretro core       | Most recommended.                         |
+| **Mesen**                                                      | libretro core       |                                           |
+| **QuickNES**                                                   | libretro core       | Does not emulate the Famicom Disk System. |
+| **[RANes](https://retroachievements.org/downloads)**           | Standalone emulator |                                           |
+| **[NES RA Adapter](https://github.com/odelot/nes-ra-adapter)** | Console adapter     |                   |
 
 ### NES/Famicom Disk System
 
-| Name                                                           | Type                | Notes             |
-| :------------------------------------------------------------- | :------------------ | :---------------- |
-| **FCEUmm**                                                     | libretro core       | Most recommended. |
-| **Mesen**                                                      | libretro core       |                   |
-| **[RANes](https://retroachievements.org/downloads)**           | Standalone emulator |                   |
-| **[NES RA Adapter](https://github.com/odelot/nes-ra-adapter)** | Console adapter     |                   |
+| Name                                                 | Type                | Notes             |
+| :--------------------------------------------------- | :------------------ | :---------------- |
+| **FCEUmm**                                           | libretro core       | Most recommended. |
+| **Mesen**                                            | libretro core       |                   |
+| **[RANes](https://retroachievements.org/downloads)** | Standalone emulator |                   |
 
 ### Nintendo 64
 
-| Name                                                                            | Type                | Notes                                                                |
-| :------------------------------------------------------------------------------ | :------------------ | :------------------------------------------------------------------- |
-| **Mupen64Plus-Next**                                                            | libretro core       | - Most recommended.<br>- Separated into cores for OpenGL ES 2 and 3. |
-| **ParaLLEl N64**                                                                | libretro core       |                                                                      |
-| **[RAProject64](https://retroachievements.org/downloads)**                      | Standalone emulator |                                                                      |
-| **[Luna Project64](https://github.com/Luna-Project64/Luna-Project64/releases)** | Standalone emulator |                                                                      |
+| Name                                                                              | Type                | Notes                                                                |
+| :-------------------------------------------------------------------------------- | :------------------ | :------------------------------------------------------------------- |
+| **Mupen64Plus-Next**                                                              | libretro core       | - Most recommended.<br>- Separated into cores for OpenGL ES 2 and 3. |
+| **ParaLLEl N64**                                                                  | libretro core       |                                                                      |
+| **[RAProject64](https://retroachievements.org/downloads)**                        | Standalone emulator |                                                                      |
+| **[Luna's Project64](https://github.com/Luna-Project64/Luna-Project64/releases)** | Standalone emulator |                                                                      |
 
 ### Nintendo DS
 
