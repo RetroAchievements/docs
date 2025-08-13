@@ -146,11 +146,11 @@ Including your "little brother" or your "cousin". You must earn your achievement
 
 ### 9. Do not control multiple games at the same time with singular inputs. {#not-allowed-9}
 
-You should not gain an unfair advantage over other players by controlling more than one game at the same time with the exact same inputs. This is not limited to multiple instances of the same game, but in general.
+You should not gain an unfair advantage over other players by controlling more than one game at the exact same time with any inputs. This is not limited to multiple instances of the same game, but in general.
 
 **Examples:**
 
-- Having multiple instances of the same game open to increase your odds at a luck-based achievement.
+- Controlling multiple instances of the same game to increase your odds at a luck-based achievement.
 - Controlling different RPG games and repeating battles for grinding purposes with the same inputs.
 
 Note that this rule does not apply to having open multiple sessions but not controlling them at the same time. For example, it is allowed to play a game, then pause it to practice the same game in a different instance or play a different game entirely, be it on the same device or another. This is allowed as long as no more than a single game is receiving inputs at the exact same time.
