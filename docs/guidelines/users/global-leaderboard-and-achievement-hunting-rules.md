@@ -118,10 +118,11 @@ Programs which can boost your powers in games, unlock debug modes, speed the gam
 
 **Examples**:
 
-- Using a trainer program for anything.
+- Using a trainer program or save editor for anything.
 - Using trained ROMs for any game (they will not be linked).
 - Using unofficial/old mods/emulators that act as trainers or debug/cheat toolsets.
 - Game Genie / Action Replay and other similar cheat tools.
+- Using the developer functions of RALibRetro or any RAIntegration capable emulator for non-development reasons.
 
 ### 7. Do not use TAS (tool-assisted speedrunning), bots, or complex scripting to gain achievements. {#not-allowed-7}
 
@@ -143,11 +144,16 @@ Including your "little brother" or your "cousin". You must earn your achievement
 - Letting someone log into your RA account to beat a difficult part of a game for you.
 - Letting your little brother work on a grindy achievement for you.
 
-### 9. Do not be abusive to developers. {#not-allowed-9}
+### 9. Do not control multiple games at the same time with singular inputs. {#not-allowed-9}
 
-Via forums, PMs, discord, email, etc. You’re allowed to complain, ask for changes, leave negative reviews/comments and other such respectful criticisms, but you give all of us in the achievement hunting community a really bad name when you harass/attack developers because of what they did to their game’s achievements.
+You should not gain an unfair advantage over other players by controlling more than one game at the same time with the exact same inputs. This is not limited to multiple instances of the same game, but in general.
 
-**Examples**: Issuing threats or flagrant insults to devs because they added achievements to their game that you do not like; using extreme/excessive rudeness while demanding a developer remove or change achievements; etc.
+**Examples:**
+
+- Having multiple instances of the same game open to increase your odds at a luck-based achievement.
+- Controlling different RPG games and repeating battles for grinding purposes with the same inputs.
+
+Note that this rule does not apply to having open multiple sessions but not controlling them at the same time. For example, it is allowed to play a game, then pause it to practice the same game in a different instance or play a different game entirely, be it on the same device or another. This is allowed as long as no more than a single game is receiving inputs at the exact same time.
 
 ### 10. Do not create or share cheating methods. {#not-allowed-10}
 
