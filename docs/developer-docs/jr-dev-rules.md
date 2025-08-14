@@ -15,7 +15,7 @@ The purpose of the Junior Developer Program is to assist interested people with 
 
 To join the Junior Developer Program, the following requirements must be met:
 
-- RetroAchievements account must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
+- RetroAchievements account must not be banned or suspended from achievement development, muted on site or discord, or involuntarily untracked from competitive leaderboards
 - Have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
 - Request the Junior Developer role in #role-request channel in the General section of the RA Discord server
   - Include your RA profile link
