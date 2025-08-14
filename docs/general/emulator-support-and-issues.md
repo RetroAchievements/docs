@@ -383,7 +383,7 @@ These cores appear to still have unmapped RAM.
 
 | Name                                                  | Type                | Notes             |
 | :---------------------------------------------------- | :------------------ | :---------------- |
-| **Genesis Plux GX**                                   | libretro core       | Most recommended. |
+| **Genesis Plus GX**                                   | libretro core       | Most recommended. |
 | **blueMSX**                                           | libretro core       |                   |
 | **[RAMeka](https://retroachievements.org/downloads)** | Standalone emulator |                   |
 
