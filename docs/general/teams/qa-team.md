@@ -19,7 +19,8 @@ Current team members can be found on the [About Us](/general/about-us#quality-as
 
 QA's primary responsibilities include the following tasks:
 
-- Conduct hash management and administering [Player Compatibility Tests](/guidelines/content/player-compatibility-testing)
+- Conduct hash management
+  - Administer [Player Compatibility Tests](/guidelines/content/player-compatibility-testing)
 - Ensure set stability across the RetroAchievements library
   - Repair or demote unstable or exploitable sets
   - Resolve or close inactive developer tickets
