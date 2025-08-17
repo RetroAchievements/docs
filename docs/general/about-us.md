@@ -116,7 +116,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [psyduck](https://retroachievements.org/user/psyduck)
-- [s0uth](https://retroachievements.org/user/s0uth)
 - [Searo](https://retroachievements.org/user/Searo)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
@@ -130,21 +129,24 @@ The team responsible for investigating cheating reports.
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
+- [AaronDobbe](https://retroachievements.org/user/AaronDobbe)
 - [ASolidSnack](https://retroachievements.org/user/ASolidSnack)
 - [authorblues](https://retroachievements.org/user/authorblues)
+- [BigDonRob](https://retroachievements.org/user/BigDonRob)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Fridge](https://retroachievements.org/user/Fridge)
+- [Homuki](https://retroachievements.org/user/Homuki)
 - [Layton](https://retroachievements.org/user/Layton)
+- [lonegraywolf2000](https://retroachievements.org/user/lonegraywolf2000)
 - [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
+- [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [Sutarion](https://retroachievements.org/user/Sutarion)
 - [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
-- [wolfman2000](https://retroachievements.org/user/wolfman2000)
 - [Yanbetari](https://retroachievements.org/user/Yanbetari)
 
 ### Tech Team
