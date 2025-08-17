@@ -143,7 +143,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [Sutarion](https://retroachievements.org/user/Sutarion)
 - [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
