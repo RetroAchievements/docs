@@ -142,6 +142,7 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
+- [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
