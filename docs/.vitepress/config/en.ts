@@ -184,6 +184,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           text: "Handling Tickets",
           link: "/guidelines/developers/handling-tickets",
         },
+        {
+          text: "Set and Achievement Contribution Credit",
+          link: "/guidelines/developers/credit",
+        },
       ],
     },
     {
