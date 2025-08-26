@@ -44,7 +44,15 @@ Achievement testing credit shall be assigned per Play Tester team guidance when 
 
 ### Writing
 Achievement writing shall be assigned per Writing Team guidance when writing updates occurs through the Writing Team process. For writing updates by non-Writing Team members, the set developer shall determine if writing credit is appropriate based upon the following guidelines:
-- Complete description rewrites
-- Description corrections that rectify significant grammatical errors
-- Description updates that remove use of unnecessary parenthesis or brackets
-- General title or description improvements deemed credit worthy by the set developer
+- Completely new titles that are not simple capitalization/grammar fixes or adding a word
+- Adding significant polish to descriptions to make them more appealing
+   - ✅ Defeat the boss in Stage 1-1 damageless => Defeat Beelzebub in stage 1-1 "The Castle" without taking damage
+   - ✅ Obtain the Boulder Badge => Defeat Brock at the Pewter City Gym and obtain the Boulder Badge
+   - ❌ Find your missing fish and clear The Waterworks => Clear Stage 1 "The Waterworks"
+- Making grammar/capitalization fixes and rewrites that are significant enough to give descriptions more clarity
+   - ✅ Defeat Stage 1 boss without die => Defeat the boss of Stage 1 without dying
+   - ✅ Beat Firemanv3 With S Rank => Defeat FireManV3 with an S rank
+   - ✅ Clear Stage 1 (Hard mode, no deaths) => Clear Stage 1 on Hard mode without dying
+   - ❌ Open all chests in Moon Boon Cavern => Open every chest in Moon Boon Cavern
+   - ❌ Defeat boss in Stage 1 => Defeat the boss in Stage 1
+   - ❌ Clear Stage 1 [Hard] => Clear Stage 1 on Hard
