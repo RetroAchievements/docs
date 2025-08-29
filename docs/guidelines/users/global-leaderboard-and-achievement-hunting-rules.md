@@ -62,7 +62,7 @@ If you notice a player has become untracked: do not harass them, accuse them of 
 6. [Do not use game files or programs known as "trainers".](#not-allowed-6)
 7. [Do not use TAS (tool-assisted speedrunning), bots, or complex scripting to gain achievements.](#not-allowed-7)
 8. [Do not allow other people to access your account and earn achievements for you.](#not-allowed-8)
-9. [Do not be abusive to developers.](#not-allowed-9)
+9. [Do not send inputs to multiple games at the same time.](#not-allowed-9)
 10. [Do not create or share cheating methods.](#not-allowed-10)
 11. [Do not use in-game cheat codes unless it is specified as allowed by the developer.](#not-allowed-11)
 
@@ -144,7 +144,7 @@ Including your "little brother" or your "cousin". You must earn your achievement
 - Letting someone log into your RA account to beat a difficult part of a game for you.
 - Letting your little brother work on a grindy achievement for you.
 
-### 9. Do not control multiple games at the same time with singular inputs. {#not-allowed-9}
+### 9. Do not send inputs to multiple games at the same time. {#not-allowed-9}
 
 You should not gain an unfair advantage over other players by controlling more than one game at the exact same time with any inputs. This is not limited to multiple instances of the same game, but in general.
 
