@@ -7,7 +7,7 @@ description: Explore a história e os papéis dentro da comunidade RetroAchievem
 
 ## Equipe RA
 
-O projeto RetroAchievements começou como um projeto pessoal de [Scott Breen](http://scottbreen.info/) e nos primeiros dias o projeto tinha apenas administradores, criadores de conquistas e usuários regulares (e ainda é assim no site). Naquela época, os administradores eram responsáveis por fazer coisas como:
+O projeto RetroAchievements começou como um projeto pessoal de [Scott Breen](http://scottbreen.info/) e nos primeiros dias o projeto tinha apenas administradores, criadores de conquistas e usuários regulares. Naquela época, os administradores eram responsáveis por fazer coisas como:
 
 - monitorar a qualidade das conquistas
 - verificar se alguém está alterando as conquistas de outras pessoas (acidental ou intencionalmente)
