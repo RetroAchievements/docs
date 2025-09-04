@@ -7,7 +7,7 @@ description: Explore the history and roles within the RetroAchievements communit
 
 ## RA Staff
 
-The RetroAchievements project started as a personal project of [Scott Breen](http://scottbreen.info/) and in the early days the project had only administrators, achievement creators, and regular users (and it's still like that on the website). At that time administrators were responsible to do things like:
+The RetroAchievements project started as a personal project of [Scott Breen](http://scottbreen.info/) and in the early days the project had only administrators, achievement creators, and regular users. At that time administrators were responsible to do things like:
 
 - keep an eye on the quality of achievements
 - keep an eye if someone is changing other people's achievements (accidentally or intentionally)
