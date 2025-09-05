@@ -62,7 +62,7 @@ The following rules apply to all Junior Developers:
   - Must make a subset request in ⁠#jr-devs-requests which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
     - May request to create a subset in addition to a primary claim if both are for the same game
 - May make a maximum of 1 set for a hack during the program
-- Developers of hacks may not work on their own game during the program
+- Developers of hacks may not work on their own games during the program
 
 ### Ticket Handling
 
