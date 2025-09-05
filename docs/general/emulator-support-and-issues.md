@@ -142,6 +142,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**   | Standalone emulator |                                         |
 | **[SkyEmu](https://github.com/skylersaleh/SkyEmu/pull/321)** | Standalone emulator |                                         |
 | **[Playback](https://www.epilogue.co/)**                     | Standalone emulator | GB Operator device required.            |
+| **[Linkboy](https://retroachievements.org/downloads)**       | Standalone emulator |                                         |
 
 ### Game Boy Color
 
@@ -157,6 +158,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**   | Standalone emulator |                                         |
 | **[SkyEmu](https://github.com/skylersaleh/SkyEmu/pull/321)** | Standalone emulator |                                         |
 | **[Playback](https://www.epilogue.co/)**                     | Standalone emulator | GB Operator device required.            |
+| **[Linkboy](https://retroachievements.org/downloads)**       | Standalone emulator |                                         |
 
 ### Game Boy Advance
 
@@ -171,6 +173,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**   | Standalone emulator |                              |
 | **[SkyEmu](https://github.com/skylersaleh/SkyEmu/pull/321)** | Standalone emulator |                              |
 | **[Playback](https://www.epilogue.co/)**                     | Standalone emulator | GB Operator device required. |
+| **[Linkboy](https://retroachievements.org/downloads)**       | Standalone emulator |                                         |
 
 ### GameCube
 
