@@ -15,7 +15,7 @@ The purpose of the Junior Developer Program is to assist interested people with 
 
 To join the Junior Developer Program, the following requirements must be met:
 
-- RetroAchievements account must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
+- RetroAchievements account must be at least 3 months old, have at least 3,000 hardcore points, must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
 - Have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
 - Request the Junior Developer role in #role-request channel in the General section of the RA Discord server
   - Include your RA profile link
@@ -62,6 +62,7 @@ The following rules apply to all Junior Developers:
   - Must make a subset request in ⁠#jr-devs-requests which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
     - May request to create a subset in addition to a primary claim if both are for the same game
 - May make a maximum of 1 set for a hack during the program
+- Developers of hacks and homebrews may not work on their own games during the program
 
 ### Ticket Handling
 
