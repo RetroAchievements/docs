@@ -72,6 +72,7 @@ The team responsible to keep the this community a healthy place (at least for th
 
 - [AuburnRDM](https://retroachievements.org/user/AuburnRDM)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
+- [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
 - [LordAndrew](https://retroachievements.org/user/LordAndrew)
