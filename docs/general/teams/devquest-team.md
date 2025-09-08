@@ -41,8 +41,8 @@ Some DevQuests keep a list of eligible games and will have games added by the De
 3. If a set needs code note clean up, rich presence improvements, and logic updates, but is otherwise stable and not missing notable content, that set should be assigned to DevQuest 022 if the amount of effort needed is significant to warrant full credit.
    - Sets that need repairs should not be assigned to DevQuest 022; a user may only use such sets for this quest if they have fully completed DevQuest 002 and then only if the non-repair-related work matches the DevQuest 022 dust-off goal.
 
-::: tip DUAL CREDIT
-If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved are distinct (repair as one action, completion as a separate action).
+::: tip MULTIPLE CREDIT
+If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved are distinct (repair as one action, completion as a separate action). Likewise, If a DQ22 dust off has actions separate from a repair or completiong, that may also be credited separately.
 :::
 
 ### Approving additions to DQ2, DQ13, DQ22
