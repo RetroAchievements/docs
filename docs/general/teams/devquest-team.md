@@ -42,7 +42,7 @@ Some DevQuests keep a list of eligible games and will have games added by the De
    - Sets that need repairs should not be assigned to DevQuest 022; a user may only use such sets for this quest if they have fully completed DevQuest 002 and then only if the non-repair-related work matches the DevQuest 022 dust-off goal.
 
 ::: tip MULTIPLE CREDIT
-If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved are distinct (repair as one action, completion as a separate action). Likewise, If a DQ22 dust off has actions separate from a repair or completiong, that may also be credited separately.
+If a set requires repairs that are appropriate for DQ2 and also has notable missing content that is appropriate for DQ13, it may appear in both lists. A developer could then do both actions and receive credit towards both. This is not considered "double-dipping" since the actions involved are distinct (repair as one action, completion as a separate action).
 :::
 
 ### Approving additions to DQ2, DQ13, DQ22
@@ -126,7 +126,7 @@ Note that this is not a requirement for the developer, but it can help for quest
 
 - DQ2: Retro Renovator and DQ13: complete.me - As long as the actions required are distinct, a developer could do both of these for a single game.
 - DQ14: Laudable Leaderboards could stack with DQ2: Retro Renovator and/or DQ13: complete me. The action of adding leaderboards is a different action from either of those maintenance quests.
-- DQ22: This Belonged in a Museum! could stack with DQ2 or DQ13 if the dust-off actions that bring the set up to modern standards are separate from the DQ2 or DQ13 actions. i.e. "Brought the set up to modern standards" + "Also added save protection" or "Brought the set up to modern standards" + "Also added achievements for a significant missing game mode."
+- DQ22: This Belonged in a Museum! Cannot stack with other revision quests. If either DQ2 or DQ13 would be applicable, they should be used instead.
 - DQ4: Veteran Developer, DQ15: Console Conqueror, and DQ20: Genre and Subgenre Conquerors overlap with everything. Pretend all other DevQuests do not know about these quests.
 
 #### Supplemental Guidance: Things that may not stack
