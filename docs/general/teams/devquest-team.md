@@ -305,3 +305,12 @@ When validating a leaderboard:
 - Inform the user of their spin (ideally use a screen capture program like ShareX to do a gif recording of the wheel spin).
 - Inform the user to verify the list on the *Eligible Games Lists* sheet in case the user has updated their list since the last update.
 - When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.
+
+### DevQuest 024: She's Got This
+
+- Has both an overall tracking and a claims sheet. Don't forget to update both.
+- We accept trans women/girls as female characters.
+- Two sets (or four half-credit sets, or a valid combination equivalent to two sets) are needed for the badge.
+- Tiny hacks/homebrew are half credit, as are any collaboration.
+- Verify that a hack's base game does **not** have its primary protagonist be female.
+- Verify that both "points" of credit have different primary protagonists.
