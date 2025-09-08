@@ -126,6 +126,7 @@ Note that this is not a requirement for the developer, but it can help for quest
 
 - DQ2: Retro Renovator and DQ13: complete.me - As long as the actions required are distinct, a developer could do both of these for a single game.
 - DQ14: Laudable Leaderboards could stack with DQ2: Retro Renovator and/or DQ13: complete me. The action of adding leaderboards is a different action from either of those maintenance quests.
+- DQ22: This Belonged in a Museum! could stack with DQ2 or DQ13 if the dust-off actions that bring the set up to modern standards are separate from the DQ2 or DQ13 actions. i.e. "Brought the set up to modern standards" + "Also added save protection" or "Brought the set up to modern standards" + "Also added achievements for a significant missing game mode."
 - DQ4: Veteran Developer, DQ15: Console Conqueror, and DQ20: Genre and Subgenre Conquerors overlap with everything. Pretend all other DevQuests do not know about these quests.
 
 #### Supplemental Guidance: Things that may not stack
