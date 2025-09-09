@@ -188,6 +188,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         //   text: "Manejo de tickets",
         //   link: "/es/guidelines/developers/handling-tickets",
         // },
+        // {
+        //  text: "Set and Achievement Contribution Credit",
+        //  link: "/guidelines/developers/credit",
+        // },
       ],
     },
     {
