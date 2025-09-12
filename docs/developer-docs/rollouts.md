@@ -27,6 +27,10 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 
 - Since the overall goal of a rollout is to provide sets to launch with a console's support, developers who go inactive or otherwise end up not working on the chosen sets will have their claim lapsed. In other words, claiming a set just to sit on it will not fly and will result in a lapse.
 
+- If a primary rollout claim is dropped during the rollout, this claim becomes temporarily unavailable. The rollout team will bring this claim up with all rollout participants, and developers interested will be put in a lottery. Of course, your current priority claim must still be finished before you are able to take this one on. Like regular claims, if there is suspicion of claim hogging with the intention to have a friend claim it, you will be removed from participating in the rollout and will be met with a penalty for the next rollout.
+
+- If one of your rollout claims is a collab, where one of the participating developers has the intention to work on one or multiple subsets while the other developer has no interest, the claim will be freed up for them once the core set has been signed off. Of course, the developer intending to work on subsets must still prioritize finishing the core set to prevent other developers from being unable to develop other games. If this is not the case, the collab partner can reach out to the rollout team.
+
 - If problematic behavior occurs during a rollout, such as refusing cooperation with the involved teams or causing issues for fellow developers, the Rollout Team may implement remediation measures. These may include lowering priority for claim selection in future rollouts, or removing claims during the current rollout.
 
 ## Rollout Process
