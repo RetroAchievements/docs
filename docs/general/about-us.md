@@ -105,7 +105,6 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
-- [tomojin](https://retroachievements.org/user/tomojin)
 - [zxmega](https://retroachievements.org/user/zxmega)
 
 ### Quality Assurance Team
@@ -113,14 +112,18 @@ The team responsible for the adherence and driving updates to the [Developer's C
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
 - [AmirGaris](https://retroachievements.org/user/AmirGaris)
+- [Cartesia](https://retroachievements.org/user/Cartesia)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
+- [Darky](https://retroachievements.org/user/Darky)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [psyduck](https://retroachievements.org/user/psyduck)
+- [Raichi](https://retroachievements.org/user/Raichi)
 - [Searo](https://retroachievements.org/user/Searo)
+- [Souzooka](https://retroachievements.org/user/Souzooka)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
-- [tomojin](https://retroachievements.org/user/tomojin)
+- [xClawz](https://retroachievements.org/user/xClawz)
 
 ### Cheat Prevention Team
 
