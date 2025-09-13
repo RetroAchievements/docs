@@ -92,9 +92,11 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
 
 - Violations of the [RA Developer Code of Conduct](/guidelines/developers/code-of-conduct) or the rules set forth within this document
 - 1 month of [inactivity](/guidelines/developers/code-of-conduct#inactivity) in either active development or RA in general
+  - This does not apply if your set is in the review backlog or under current review
   - First time inactivity removals may request immediate restoration of Junior Developer role
   - Subsequent inactivity removals may, at Code Reviewer discretion, be subject to a 30-day cool down (beginning upon demotion action) prior to being able to rejoin the program
 - Holding a claim for 1 month without progress
+  - This does not apply if your set is in the review backlog or under current review
   - You must push assets (achievements, leaderboards, rich presence, game page updates, or code notes) to the website in order for this timer to reset. Simply opening the game will not count
   - If you are removed on this basis and wish to rejoin the program, you will be required to provide a progress report and push any local assets to the website upon role request
 
