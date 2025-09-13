@@ -36,7 +36,7 @@ Note: New Junior Developers who had a set plan approved when requesting to join 
 
 If a Junior Developer needs to extend their claim beyond 3 months, they need to make a progress report on the official forum for the game in accordance with [Claims System rules for extending a claim](/guidelines/developers/claims-system.html#extending-a-claim).
 
-Prior to a second extension (at the six-month mark) as well as further extensions, a detailed progress report must be sent to the [Code Review Team](https://retroachievements.org/messages/create?to=CodeReviewTeam) for approval before the extension is made. The team may deny the extension in cases where progress is insufficient. 
+Prior to a second extension (at the six-month mark) as well as further extensions, a detailed progress report must be sent to the [Code Review Team](https://retroachievements.org/messages/create?to=CodeReviewTeam) for approval before the extension is made. The team may deny the extension in cases where progress is insufficient.
 
 When a junior set is marked as In Review, the claim will be renewed automatically when it would normally expire. While progress reports on forums are not necessary for such extensions, potential players usually appreciate the update.
 
@@ -90,10 +90,13 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 
 Participation in the Junior Developer Program is not an entitlement or right. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
 
-- Violations of the RA Developer Code of Conduct or the rules set forth within this document
+- Violations of the [RA Developer Code of Conduct](/guidelines/developers/code-of-conduct) or the rules set forth within this document
 - 1 month of [inactivity](/guidelines/developers/code-of-conduct#inactivity) in either active development or RA in general
   - First time inactivity removals may request immediate restoration of Junior Developer role
-  - Subsequent inactivity removals will be subject to a 30-day cool down, beginning upon demotion action. After cool down, must submit a full rejoin request per [Entry Requirements](#entry-requirements)
+  - Subsequent inactivity removals may, at Code Reviewer discretion, be subject to a 30-day cool down (beginning upon demotion action) prior to being able to rejoin the program
+- Holding a claim for 1 month without progress
+  - You must push assets (achievements, leaderboards, rich presence, game page updates, or code notes) to the website in order for this timer to reset. Simply opening the game will not count
+  - If you are removed on this basis and wish to rejoin the program, you will be required to provide a progress report and push any local assets to the website upon role request
 
 ### Graduation Consideration
 
