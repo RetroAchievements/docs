@@ -99,7 +99,7 @@ Participation in the Junior Developer Program is not an entitlement or right. Ju
 - Holding a claim for 1 month without progress
   - This does not apply if your set is in the review backlog or under current review
   - You must push code notes, assets, or game page updates to the website in order for this timer to reset. Simply opening the game will not count
-  - If you are removed on this basis and wish to rejoin the program, you will be required to provide a progress report and push any local work to the website upon role request
+  - If you are removed on this basis and wish to rejoin the program, you will be required to provide a progress report and either push any local work to the website or provide your `GameID-User.txt` file upon role request
 
 ### Graduation Consideration
 
