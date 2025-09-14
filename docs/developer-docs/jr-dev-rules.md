@@ -15,7 +15,8 @@ The purpose of the Junior Developer Program is to assist interested people with 
 
 To join the Junior Developer Program, the following requirements must be met:
 
-- RetroAchievements account must be at least 3 months old, have at least 3,000 hardcore points, must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
+- Must be familiar with how RetroAchievements sets are structured: this means having an account that is at least 3 months old and have at least 3,000 points. As sets must be designed with hardcore in mind, hardcore points are preferred but not obligatory
+- Cannot be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
 - Have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
 - Request the Junior Developer role in #role-request channel in the General section of the RA Discord server
   - Include your RA profile link
