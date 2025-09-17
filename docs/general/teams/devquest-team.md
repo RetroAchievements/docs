@@ -315,3 +315,4 @@ When validating a leaderboard:
 - Tiny hacks/homebrew are half credit, as are any collaboration.
 - Verify that a hack's base game does **not** have its primary protagonist be female.
 - Verify that both "points" of credit have different primary protagonists.
+- When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.

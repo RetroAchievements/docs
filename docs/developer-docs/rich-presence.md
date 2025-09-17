@@ -9,21 +9,22 @@ description: Overview of Rich Presence (RP), a feature showing what players are 
 
 ## Introduction
 
-Rich Presence (RP) is **brief** overview of what active players are currently doing in their game. To have RP in a game you need a Rich Presence script, which is created by Developers. The script checks the player's game memory and reports the values of certain addresses with definitions assigned by the Developer such as which stage the player is on, how many lives they have, if the game is paused, what game mode they are playing, what the player has accomplished, etc. This information is reported back to the website once every two minutes.
+Rich Presence (RP) is **brief** overview of what active players are currently doing in their game. To have RP in a game you need a Rich Presence script, which is created by developers. The script checks the player's game memory and reports the values of certain addresses with definitions assigned by the developer such as which stage the player is on, how many lives they have, what game mode they are playing, what the player has accomplished, etc. This information is reported back to the website once every two minutes.
 
-A good rich presence should inform other users how far into the game you are (level/town/dungeon), and give an overall sense of how the player is doing (score/remaining lives/character level). Additional details may be useful, depending on their context within the game. Try not to go overboard with the detail though. Other players don't care what you named your dog, or need to know how many bullets you have left, especially since it only updates every two minutes. Additionally, the more fluff you add to a rich presence display, the more diluted the important information becomes.
+A good rich presence should inform other users how far into the game you are (level/town/dungeon), and give an overall sense of how the player is doing (score/remaining lives/character level). Additional details may be useful, depending on their context within the game. Do not go overboard with the detail though. Other players don't care how many bullets you have left, or how much time is left on a timer, especially since it only updates every two minutes. Additionally, the more fluff you add to a rich presence display, the more diluted the important information becomes.
+
+## Intended Audience
+
+Rich presence is written for site viewers, **NOT** the person playing the game.  It is intended to answer the question "What is this player doing?" Do not assume a context for RP when designing it. It should just report factual data that briefly explains, in general terms, what a player is doing in game.
+
+ It is highly recommended to keep RP clear, concise, and consider that viewers may have little to no knowledge of the game. It is important that Rich Presence is simple and easy to understand. Emojis are often unclear and do not display consistently between platforms. They should only be used sparingly for very obvious things, if at all.
+
 
 **Example of RP in action:**
 
-![Example of RP in action](https://i.imgur.com/E5097sz.png)
+![Example of RP in action](/public/rp-sample.png)
 
-To see the RP live in a game click on the RetroAchievements menu in your emulator and then click on Rich Presence Monitor. A small window will show you your active RP. (Good for debugging)
-
-![Rich Presence Monitor](https://i.imgur.com/XkCZoLG.png)
-
-The best way to understand Rich Presence is to look at various examples in game, look at the addresses used and look at how the text is displayed in the Rich Presence Monitor and on site.
-
-### How Does it work?
+### How Does It Work?
 
 The game's Rich Presence script is downloaded with the achievement and leaderboard data for a game. As soon as the emulator validates this data, it starts a session for the user. This sets the user's 'Last Seen In' to 'Playing [game]'. 30 seconds later, the Rich Presence script will be evaluated and the result sent to the server. This will update the 'Last Seen In' for the player, which is also used in the 'Active Players' list on the front page. Every two minutes after that, the Rich Presence script will be evaluated again, and the 'Last Seen In' will be updated again. This continues until the user closes the emulator.
 
@@ -33,9 +34,9 @@ The user's 'Last Seen In' may also say 'Fixing Achievements' or 'Developing Achi
 
 The Rich Presence script for a game can be found under the development section on each game's page:
 
-![Dev click](https://i.imgur.com/sqxOjyL.png)
+![Dev click](/public/rp-dev-menu.png)
 
-![RP shown](https://i.imgur.com/e7qoaNx.png)
+![RP shown](/public/rp-site-update.png)
 
 ## Example (Super Mario Bros.)
 

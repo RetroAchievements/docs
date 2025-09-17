@@ -15,7 +15,8 @@ The purpose of the Junior Developer Program is to assist interested people with 
 
 To join the Junior Developer Program, the following requirements must be met:
 
-- RetroAchievements account must not be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
+- Must be familiar with how RetroAchievements sets are structured: this means having an account that is at least 3 months old and have at least 3,000 points. As sets must be designed with hardcore in mind, hardcore points are preferred but not obligatory
+- Cannot be banned or suspended from achievement development or involuntarily untracked from competitive leaderboards
 - Have a Discord account verified on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE)
 - Request the Junior Developer role in #role-request channel in the General section of the RA Discord server
   - Include your RA profile link
@@ -33,6 +34,12 @@ The purpose of the Set Review is to ensure Junior Developers have a solid baseli
 Once a set plan is approved, Junior Developers may begin work on set development.
 
 Note: New Junior Developers who had a set plan approved when requesting to join the Junior Developer may immediately begin work on the set once they are onboarded and have made a claim on the set for which their initial plan was approved.
+
+If a Junior Developer needs to extend their claim beyond 3 months, they need to make a progress report on the official forum for the game in accordance with [Claims System rules for extending a claim](/guidelines/developers/claims-system.html#extending-a-claim).
+
+Prior to a second extension (at the six-month mark) as well as further extensions, a detailed progress report must be sent to the [Code Review Team](https://retroachievements.org/messages/create?to=CodeReviewTeam) for approval before the extension is made. The team may deny the extension in cases where progress is insufficient.
+
+When a junior set is marked as In Review, the claim will be renewed automatically when it would normally expire. While progress reports on forums are not necessary for such extensions, potential players usually appreciate the update.
 
 ### Rules and Restrictions
 
@@ -56,6 +63,7 @@ The following rules apply to all Junior Developers:
   - Must make a subset request in ⁠#jr-devs-requests which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
     - May request to create a subset in addition to a primary claim if both are for the same game
 - May make a maximum of 1 set for a hack during the program
+- Developers of hacks and homebrews may not work on their own games during the program
 
 ### Ticket Handling
 
@@ -83,14 +91,19 @@ Junior Developers are required to ensure sets they submit for Code Review are of
 
 Participation in the Junior Developer Program is not an entitlement or right. Junior Developers are expected to take the program seriously, put forth significant effort, seek assistance when unable to figure something out, strive to make the highest quality set possible and maturely accept and apply Code Reviewer feedback. Junior developers may be temporarily or permanently removed from the program for the following reasons:
 
-- Violations of the RA Developer Code of Conduct or the rules set forth within this document
+- Violations of the [RA Developer Code of Conduct](/guidelines/developers/code-of-conduct) or the rules set forth within this document
 - 1 month of [inactivity](/guidelines/developers/code-of-conduct#inactivity) in either active development or RA in general
+  - This does not apply if your set is in the review backlog or under current review
   - First time inactivity removals may request immediate restoration of Junior Developer role
-  - Subsequent inactivity removals will be subject to a 30-day cool down, beginning upon demotion action. After cool down, must submit a full rejoin request per [Entry Requirements](#entry-requirements)
+  - Subsequent inactivity removals may, at Code Reviewer discretion, be subject to a 30-day cooldown (beginning upon demotion action) prior to being able to rejoin the program
+- Holding a claim for 1 month without progress
+  - This does not apply if your set is in the review backlog or under current review
+  - You must push code notes, assets, or game page updates to the website in order for this timer to reset. Simply opening the game will not count
+  - If you are removed on this basis and wish to rejoin the program, you will be required to provide a progress report and either push any local work to the website or provide your `GameID-User.txt` file upon role request
 
 ### Graduation Consideration
 
-Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer. The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with the Developer Code of Conduct?" This question is evaluated by considering a variety of aspects such as:
+Code Reviewers consider a variety of things when deciding whether a Junior Developer is ready to graduate and become a full developer. The driving question behind this decision is "Can the Junior Developer successfully integrate into the developer team and be trusted to produce and maintain high quality sets in accordance with RetroAchievements' content guidelines?" This question is evaluated by considering a variety of aspects such as:
 
 - Has the Junior Developer demonstrated a consistent level of maturity and professionalism such that they can be trusted with increased site permissions?
 - Has the Junior Developer demonstrated technical proficiency with a significant portion of the developer toolkit?

@@ -6,7 +6,7 @@ Os participantes do [Placar Global](#global-leaderboard) são obrigados a ganhar
 
 Em geral, um jogador deve desbloquear conquistas:
 
-- Usando a versão mais recente de um emulador aprovado e suportado;
+- Usando a versão mais recente de um emulador aprovado e compatível com Hardcore;
 - Dentro de um jogo por ações realizadas no próprio jogo;
 - Pelo seu próprio controle;
 - Sem modificar arquivos ou códigos do jogo;
@@ -43,20 +43,21 @@ Desrastreios involuntários geralmente resultam de serem marcados por timestamps
 
 Se você notar que um jogador se tornou não rastreado: não o assedie, acuse de trapaça, faça uma cena pública, etc. Não pergunte aos moderadores ou administradores por que um usuário foi não rastreado. Não é da sua conta.
 
-**AVISO**: Desbloquear conquistas usando métodos fora dos emuladores suportados resulta em ter sua conta definida como não rastreada. Quando isso acontece, a única maneira de voltar ao placar global é fazendo uma redefinição completa de todas as conquistas em seu perfil. Não há exceções nem apelos. Casos graves disso também podem resultar em banimento.
+**AVISO**: Desbloquear conquistas usando métodos fora dos emuladores compatíveis com Hardcore resulta em ter sua conta definida como não rastreada. Quando isso acontece, a única maneira de voltar ao placar global é fazendo uma redefinição completa de todas as conquistas em seu perfil. Não há exceções nem apelos. Casos graves disso também podem resultar em banimento.
 
 ## Não Permitido
 
 1. [Não use métodos que contornem o código de conquistas para desbloquear conquistas instantaneamente.](#not-allowed-1)
-2. [Não ganhe conquistas de maneira que contradiga o que a descrição pede.](#not-allowed-2)
-3. [Não use arquivos de save ou senhas que não sejam seus ou foram feitos em outras condições de jogo.](#not-allowed-3)
-4. [Não modifique os arquivos ou a memória do jogo por qualquer meio.](#not-allowed-4)
-5. [Não use arquivos de jogo ou programas conhecidos como "trainers".](#not-allowed-5)
-6. [Não use TAS (tool-assisted speedrunning), bots ou scripts complexos para ganhar conquistas.](#not-allowed-6)
-7. [Não permita que outras pessoas acessem sua conta e ganhem conquistas por você.](#not-allowed-7)
-8. [Não seja abusivo com os desenvolvedores.](#not-allowed-8)
-9. [Não crie ou compartilhe métodos de trapaça.](#not-allowed-9)
-10. [Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor.](#not-allowed-10)
+2. [Não use emuladores que não sejam compatíveis com Hardcore para desbloquear conquistas no modo Hardcore.](#not-allowed-2)
+3. [Não ganhe conquistas de maneira que contradiga o que a descrição pede.](#not-allowed-3)
+4. [Não use arquivos de save ou senhas que não sejam seus ou foram feitos em outras condições de jogo.](#not-allowed-4)
+5. [Não modifique os arquivos ou a memória do jogo por qualquer meio.](#not-allowed-5)
+6. [Não use arquivos de jogo ou programas conhecidos como "trainers".](#not-allowed-6)
+7. [Não use TAS (tool-assisted speedrunning), bots ou scripts complexos para ganhar conquistas.](#not-allowed-7)
+8. [Não permita que outras pessoas acessem sua conta e ganhem conquistas por você.](#not-allowed-8)
+9. [Não seja abusivo com os desenvolvedores.](#not-allowed-9)
+10. [Não crie ou compartilhe métodos de trapaça.](#not-allowed-10)
+11. [Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor.](#not-allowed-11)
 
 ### 1. Não use métodos que contornem o código de conquistas para desbloquear conquistas instantaneamente. {#not-allowed-1}
 
@@ -64,9 +65,17 @@ Mesmo se você "deveria ter" desbloqueado a conquista. Mesmo se o jogo estiver b
 
 Nos casos em que você deveria ter desbloqueado a conquista, mas ela não foi acionada ou não foi registrada no site devido a um problema de rede, você deve [seguir os passos descritos na FAQ para solicitar um desbloqueio manual](/general/faq#i-completed-a-hard-cheevo-but-it-didnt-trigger-can-it-be-manually-awarded-to-me).
 
-**NOTA**: certifique-se de estar usando a versão mais recente de um emulador aprovado e suportado.
+**NOTA**: certifique-se de estar usando a versão mais recente de um emulador aprovado e compatível com Hardcore.
 
-### 2. Não ganhe conquistas de maneira que contradiga o que a descrição pede. {#not-allowed-2}
+### 2. Não use emuladores que não sejam compatíveis com Hardcore para desbloquear conquistas no modo Hardcore. {#not-allowed-2}
+
+Apenas emuladores que atendem aos [Requisitos de Conformidade Hardcore](/general/hardcore-compliance-requirements) são aprovados para ganhar conquistas no modo Hardcore. Usar emuladores não compatíveis, emuladores modificados ou emuladores que não aplicam adequadamente as regras do Hardcore resultará em sua conta sendo **[Não Rastreada](#untracked)**.
+
+**Exemplos**:
+- Usar versões não oficiais ou modificadas de emuladores que contornam as restrições do Hardcore
+- Usar emuladores que permitem save states, rebobinado ou trapaças no modo Hardcore
+
+### 3. Não ganhe conquistas de maneira que contradiga o que a descrição pede. {#not-allowed-3}
 
 Se você descobrir uma maneira alternativa de desbloquear uma conquista, isso é um bug. Por favor, reporte este bug usando um relatório de ticket.
 
@@ -78,7 +87,7 @@ Veja também a [regra permitida 2](#allowed-2).
 - Você percebe que, ao ir e voltar entre duas salas, desbloqueia conquistas destinadas ao progresso no jogo.
 - Você encontrou um método de ganhar conquistas de chefes sem sofrer danos enquanto leva dano durante as lutas.
 
-### 3. Não use arquivos de save ou senhas que não sejam seus ou foram feitos em outras condições de jogo. {#not-allowed-3}
+### 4. Não use arquivos de save ou senhas que não sejam seus ou foram feitos em outras condições de jogo. {#not-allowed-4}
 
 Ocasionalmente, um desenvolvedor pode fornecer um arquivo de save ou senha para você usar para ganhar certas conquistas. Isso é apropriado de acordo com o julgamento do desenvolvedor do set.
 
@@ -89,14 +98,14 @@ Ocasionalmente, um desenvolvedor pode fornecer um arquivo de save ou senha para 
 - Carregar um arquivo de save para Hardcore que você criou enquanto jogava em um emulador não-RA.
 - Carregar um arquivo de save para Hardcore que você criou no Softcore para ganhar pontos Hardcore.
 
-### 4. Não modifique os arquivos ou a memória do jogo por qualquer meio. {#not-allowed-4}
+### 5. Não modifique os arquivos ou a memória do jogo por qualquer meio. {#not-allowed-5}
 
 **Exemplos**:
 
 - Abrir arquivos específicos do jogo com um editor de texto/hexadecimal e alterar valores para o que você deseja; editar propriedades como "somente leitura" para arquivos de jogos; etc.
 - Editar as estatísticas ou desbloqueios em um jogo e, em seguida, salvar os dados.
 
-### 5. Não use arquivos de jogo ou programas conhecidos como "trainers". {#not-allowed-5}
+### 6. Não use arquivos de jogo ou programas conhecidos como "trainers". {#not-allowed-6}
 
 Programas que podem aumentar seus poderes nos jogos, desbloquear modos de depuração, acelerar o jogo, modificar o código do jogo, etc.
 
@@ -107,7 +116,7 @@ Programas que podem aumentar seus poderes nos jogos, desbloquear modos de depura
 - Usar mods/emuladores não oficiais/antigos que atuam como trainers ou conjuntos de ferramentas de depuração/trapaça.
 - Game Genie / Action Replay e outras ferramentas de trapaça semelhantes.
 
-### 6. Não use TAS (tool-assisted speedrunning), bots ou scripts complexos para ganhar conquistas. {#not-allowed-6}
+### 7. Não use TAS (tool-assisted speedrunning), bots ou scripts complexos para ganhar conquistas. {#not-allowed-7}
 
 Estes são todos scripts avançados de um jogo muito além de tarefas simples (às vezes até sincronizados com a velocidade do relógio) para permitir que seções complexas, únicas e/ou não monótonas/repetitivas de um jogo sejam jogadas sem interação humana.
 
@@ -117,7 +126,7 @@ Estes são todos scripts avançados de um jogo muito além de tarefas simples (�
 - Usar um script complexo com funcionalidade avançada.
 - Usar scripts complexos que completam jogos inteiros ou grandes partes de jogos sem entrada humana, mas exigindo muitas ações únicas.
 
-### 7. Não permita que outros usuários acessem sua conta e ganhem conquistas por você. {#not-allowed-7}
+### 8. Não permita que outros usuários acessem sua conta e ganhem conquistas por você. {#not-allowed-8}
 
 Incluindo seu "irmãozinho" ou seu "primo". Você deve ganhar suas conquistas sozinho. Permitir que pessoas ganhem conquistas em sua conta não é permitido em geral e, se alguém trapacear ou quebrar as regras em sua conta, você ainda será responsabilizado.
 
@@ -127,13 +136,13 @@ Incluindo seu "irmãozinho" ou seu "primo". Você deve ganhar suas conquistas so
 - Permitir que alguém faça login na sua conta RA para vencer uma parte difícil de um jogo para você.
 - Deixar seu irmãozinho trabalhar em uma conquista demorada para você.
 
-### 8. Não seja abusivo com os desenvolvedores. {#not-allowed-8}
+### 9. Não seja abusivo com os desenvolvedores. {#not-allowed-9}
 
 Via fóruns, PMs, discord, email, etc. Você pode reclamar, pedir mudanças, deixar críticas/comentários negativos e outras críticas respeitosas, mas você dá um péssimo nome para todos nós na comunidade de caça às conquistas quando assedia/ataca desenvolvedores por causa do que eles fizeram às conquistas de seus jogos.
 
 **Exemplos**: Fazer ameaças ou insultos flagrantes aos desenvolvedores porque eles adicionaram conquistas ao jogo que você não gosta; usar extrema/excessiva grosseria ao exigir que um desenvolvedor remova ou mude conquistas; etc.
 
-### 9. Não crie ou compartilhe métodos de trapaça. {#not-allowed-9}
+### 10. Não crie ou compartilhe métodos de trapaça. {#not-allowed-10}
 
 **Exemplos**:
 
@@ -143,7 +152,7 @@ Via fóruns, PMs, discord, email, etc. Você pode reclamar, pedir mudanças, dei
 - Ensinar alguém a esconder trapaças.
 - Criar um script complexo não permitido e compartilhá-lo, mesmo que você nunca o use.
 
-### 10. Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor. {#not-allowed-10}
+### 11. Não use códigos de trapaça do jogo a menos que seja especificado como permitido pelo desenvolvedor. {#not-allowed-11}
 
 O outro lado da moeda para [regra permitida 2](#allowed-2). Códigos de trapaça e modos de depuração não são permitidos, a menos que o desenvolvedor tenha anotado quais e quando são permitidos. Mesmo se as conquistas forem conquistáveis com códigos de trapaça, isso geralmente é um comportamento não intencional, considerado trapaça se feito intencionalmente e deve ser relatado como um bug via sistema de tickets.
 

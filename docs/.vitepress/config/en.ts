@@ -68,6 +68,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/emulator-support-and-issues",
         },
         {
+          text: "Hardcore Compliance Requirements",
+          link: "/general/hardcore-compliance-requirements",
+        },
+        {
           text: "Standalone Support",
           link: "/general/standalone-support",
         },

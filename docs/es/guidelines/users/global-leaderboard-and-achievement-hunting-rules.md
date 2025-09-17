@@ -53,15 +53,16 @@ Así que, si quieres disfrutar de RetroAchievements pero no quieres competir en 
 ## No Permitido
 
 1. [No utilices métodos que alteren el código del logro para desbloquearlos inmediatamente.](#no-permitido-1)
-2. [No consigas logros en una manera en la que no fueron las intenciones del desarrollador del logro.](#no-permitido-2)
-3. [No utilices archivos de guardado que no sean tuyos o fueron hechos para jugar con otras condiciones.](#no-permitido-3)
-4. [De ninguna manera modifiques el(los) archivo(s) o memoria del juego.](#no-permitido-4)
-5. [No utilices archivos de juego o programas conocidos como "trainers".](#no-permitido-5)
-6. [No utilices TAS (tool-assisted speedrunning), bots, o escritura compleja para conseguir logros.](#no-permitido-6)
-7. [No permitas que otra gente acceda a tu cuenta y consiga logros por ti.](#no-permitido-7)
-8. [No seas abusivo/a con los desarrolladores.](#no-permitido-8)
-9. [No crees o compartas métodos para hacer trampa.](#no-permitido-9)
-10. [No utilices códigos dentro del juego al menos que sea permitido por el desarrollador.](#no-permitido-10)
+2. [No utilices emuladores que no sean compatibles con Hardcore para desbloquear logros en modo Hardcore.](#no-permitido-2)
+3. [No consigas logros en una manera en la que no fueron las intenciones del desarrollador del logro.](#no-permitido-3)
+4. [No utilices archivos de guardado que no sean tuyos o fueron hechos para jugar con otras condiciones.](#no-permitido-4)
+5. [De ninguna manera modifiques el(los) archivo(s) o memoria del juego.](#no-permitido-5)
+6. [No utilices archivos de juego o programas conocidos como "trainers".](#no-permitido-6)
+7. [No utilices TAS (tool-assisted speedrunning), bots, o escritura compleja para conseguir logros.](#no-permitido-7)
+8. [No permitas que otra gente acceda a tu cuenta y consiga logros por ti.](#no-permitido-8)
+9. [No seas abusivo/a con los desarrolladores.](#no-permitido-9)
+10. [No crees o compartas métodos para hacer trampa.](#no-permitido-10)
+11. [No utilices códigos dentro del juego al menos que sea permitido por el desarrollador.](#no-permitido-11)
 
 ### 1. No utilices métodos que alteren el código del logro para desbloquearlos inmediatamente. {#no-permitido-1}
 
@@ -71,7 +72,15 @@ En los casos en que el logro tuvo que haberse desbloqueado pero no paso o no se 
 
 **NOTA**: percatate de utilizar la ultima versión disponible para ese emulador.
 
-### 2. No consigas logros en una manera en la que no fueron las intenciones del desarrollador del logro. {#no-permitido-2}
+### 2. No utilices emuladores que no sean compatibles con Hardcore para desbloquear logros en modo Hardcore. {#no-permitido-2}
+
+Solo los emuladores que cumplen con los [Requisitos de Cumplimiento Hardcore](/general/hardcore-compliance-requirements) están aprobados para obtener logros en modo Hardcore. Usar emuladores no compatibles, emuladores modificados o emuladores que no aplican correctamente las reglas de Hardcore resultará en que tu cuenta sea **[No Trackeada](#no-trackeadountracked)**.
+
+**Ejemplos**:
+- Usar versiones no oficiales o modificadas de emuladores que evitan las restricciones de Hardcore
+- Usar emuladores que permiten save states, rebobinado o trucos en modo Hardcore
+
+### 3. No consigas logros en una manera en la que no fueron las intenciones del desarrollador del logro. {#no-permitido-3}
 
 Si descubres un atajo a un logro esto es un bug. Por favor reporta este bug creando un ticket de reporte.
 
@@ -83,7 +92,7 @@ Tambien mira la [regla permitida 2](#permitido-2).
 - Te diste cuenta que si entras y sales entre dos cuartos desbloqueas logros intencionados para progresión del juego.
 - Encontraste un método para conseguir logros de no recibir daño contra un jefe mientras conseguías daño en la pelea.
 
-### 3. No utilices archivos de guardado que no sean tuyos o fueron hechos para jugar con otras condiciones. {#no-permitido-3}
+### 4. No utilices archivos de guardado que no sean tuyos o fueron hechos para jugar con otras condiciones. {#no-permitido-4}
 
 Incluso si tu archivo esta perdido/corrupto o necesitas un archivo de guardado de cierta parte en el juego por que se te paso algo.
 
@@ -93,14 +102,14 @@ Incluso si tu archivo esta perdido/corrupto o necesitas un archivo de guardado d
 - Rogarle a un amigo que te mande su archivo de guardado por que se incendio tu casa y se perdieron todos tus archivos de la PC.
 - Cargar un archivo de guardado que creaste en un emulador sin soporte para RA, a uno con soporte para RA.
 
-### 4. De ninguna manera modifiques el(los) archivo(s) o memoria del juego. {#no-permitido-4}
+### 5. De ninguna manera modifiques el(los) archivo(s) o memoria del juego. {#no-permitido-5}
 
 **Ejemplos**:
 
 - Abrir los archivos del juegos con un editor de texto/hex y cambiar los valores a tu gusto; editar propiedades para archivos del juego de "solo-lectura"; etc.
 - Editar las estadísticas o desbloqueables del juego, y después guardar tu partida.
 
-### 5. No utilices archivos de juego o programas conocidos como "trainers". {#no-permitido-5}
+### 6. No utilices archivos de juego o programas conocidos como "trainers". {#no-permitido-6}
 
 Programas que pueden potenciar tus poderes en juegos, desbloquear modo de desarrollador, aumentar la velocidad del juego, modificar el código del juego, etc.
 
@@ -111,7 +120,7 @@ Programas que pueden potenciar tus poderes en juegos, desbloquear modo de desarr
 - Utilizar emuladores no-oficiales/antiguos-mods que actuan como trainers o herramientas de desarrollo/cheats.
 - Game Genie / Action Replay y cualquier otra herramienta de cheats similar.
 
-### 6. No utilices TAS (tool-assisted speedrunning), bots, o escritura compleja para conseguir logros. {#no-permitido-6}
+### 7. No utilices TAS (tool-assisted speedrunning), bots, o escritura compleja para conseguir logros. {#no-permitido-7}
 
 Estos ya es scripting avanzado que va mas alla de tareas simples (algunas veces incluso sincronizado con la velocidad de reloj del procesador) para permitir que secciones del juegos que sean jugadas de una manera compleja/única/o no-monotona/no-repetitiva y sin interacción humana alguna.
 
@@ -121,7 +130,7 @@ Estos ya es scripting avanzado que va mas alla de tareas simples (algunas veces 
 - Utilizar un script complejo con funciones avanzadas.
 - Utilizar scripts complejos que te completan un juego por completo o porciones grandes del juego sin ninguna interacción humana pero que requieren algunas acciones especiales.
 
-### 7. No permitas que otra gente acceda a tu cuenta y consiga logros por ti. {#no-permitido-7}
+### 8. No permitas que otra gente acceda a tu cuenta y consiga logros por ti. {#no-permitido-8}
 
 Incluyendo tu "hermano pequeño" o tu "primo". Tu tienes que conseguir logros por ti mismo. Permitir que otra gente consiga logros en tu cuenta no esta permitido en general y si alguien hace trampa o rompe las reglas en tu cuenta tu vas a ser el responsable por sus acciones.
 
@@ -131,13 +140,13 @@ Incluyendo tu "hermano pequeño" o tu "primo". Tu tienes que conseguir logros po
 - Permitir que alguien inicie sección en tu cuenta para que pase alguna parte complicada de un juego por ti.
 - Permitir que tu hermano pequeño trabaje en un logro de grindear por ti.
 
-### 8. No seas abusivo/a con los desarrolladores. {#no-permitido-8}
+### 9. No seas abusivo/a con los desarrolladores. {#no-permitido-9}
 
 Por medio del foro, Mensajes Privados, Discord, email, etc. Tienes permitido quejarte, solicitar cambios, dejar comentarios/reseñas negativas y otras criticas de manera respetuosa, pero tu das un nombre muy mal en la comunidad de cazadores de logros cuando hostigas/atacas a desarrolladores debido a lo que hicieron con los logros de su juego.
 
 **Ejemplos**: Mandar amenazas o insultos a desarrolladores porque agregaron logros a su juego que a ti no te gusta; utilizando una agresividad extrema/excesiva mientras exiges al desarrollador que remueva cambie los logros; etc.
 
-### 9. No crees o compartas métodos para hacer trampa. {#no-permitido-9}
+### 10. No crees o compartas métodos para hacer trampa. {#no-permitido-10}
 
 **Ejemplos**:
 
@@ -147,7 +156,7 @@ Por medio del foro, Mensajes Privados, Discord, email, etc. Tienes permitido que
 - Enseñarle a alguien como hacer trampa sin que se note.
 - Crear un script complejo no-permitido y compartirlo inclusive si tu nunca lo utilizaste personalmente.
 
-### 10. No utilices códigos dentro del juego al menos que sea permitido por el desarrollador. {#no-permitido-10}
+### 11. No utilices códigos dentro del juego al menos que sea permitido por el desarrollador. {#no-permitido-11}
 
 El otro lado de la moneda para [permitido 2](#permitido-2). Cheat codes y modos debug no están permitidos mientras el desarrollador a hecho una nota en la que dice donde y cuando es permitido. Incluso si los logros son conseguibles con cheat codes este usualmente es un comportamiento no permitido, considerando que utilizaste cheats de una manera intencional, deberías de reportarlo como un bug con el sistema de tickets.
 
