@@ -307,7 +307,7 @@ When validating a leaderboard:
 - Inform the user to verify the list on the *Eligible Games Lists* sheet in case the user has updated their list since the last update.
 - When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.
 
-### DevQuest 024: She's Got This
+### DevQuest 024: She's Got This!
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - We accept trans women/girls as female characters.
