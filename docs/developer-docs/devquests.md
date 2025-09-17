@@ -431,6 +431,8 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
    - [No Dynamic RP](https://retroachievements.org/game/3083)
    - [Player-Input RP](https://retroachievements.org/game/28506)
    - [Single Save Support](https://retroachievements.org/game/28449)
+   - [Outdated Version](https://retroachievements.org/hub/29482)
+      - If you identify a set you believe should qualify for a task like this, simply request approval from the team. Providing support to an updated version of a hack, homebrew or language patch will yield 1 point regardless of if it was tagged as outdated, provided the update required actual logic updates and/or adding achievements to cover added content.
 4. No collaboration allowed.
 5. This quest does not stack with other revision DevQuests. If a set would also be eligible to DQ2 or DQ13 those quests will take priority.
 6. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
@@ -454,9 +456,9 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
    - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
 6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
 
-### 024 [She's Got This](https://retroachievements.org/game/XXXX)
+### 024 [She's Got This](https://retroachievements.org/event/186-devquest-024-shes-got-this)
 
-![DQ024](https://retroachievements.org/Images/XXXXX.png)
+![DQ024](https://media.retroachievements.org/Images/118081.png)
 
 **Type**: Set Creation  
 **Goal**: Publish two new sets featuring a female character as the primary protagonist!  
