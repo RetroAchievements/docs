@@ -456,7 +456,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
    - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
 6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
 
-### 024 [She's Got This](https://retroachievements.org/event/186-devquest-024-shes-got-this)
+### 024 [She's Got This!](https://retroachievements.org/event/186-devquest-024-shes-got-this)
 
 ![DQ024](https://media.retroachievements.org/Images/118081.png)
 
