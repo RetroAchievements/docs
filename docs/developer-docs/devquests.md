@@ -9,25 +9,25 @@ Outside exceptions explicitely written in the individual quest rules, quests of 
 - DevQuests are not available for Junior Developers.
 - To be awarded credit towards a quest, ping the team via a Discord ping in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) or via [site message](https://retroachievements.org/messages/create?to=DevQuest) within one week of completion, with a link to the appropriate achievement page.
 - Collaborations and subsets are not allowed by default.
-- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#_007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#_016-wish-this-set). If this happens while you are *less* than halfway done, please reach out to the team to confirm eligibility.
+- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#016-wish-this-set). If this happens while you are *less* than halfway done, please reach out to the team to confirm eligibility.
 
 Type specific rules:
 
 **Set-Creation**
-- Making a set can only contribute to a single quest. For example, if you make a set for a Japan-exclusive game with a female protagonist that was featured on Wish This Set, you have to choose between [DQ8](#_008-world-traveler), [DQ16](#_016-wish-this-set) and [DQ24](#_024-she-s-got-this), you don't get all three.
+- Making a set can only contribute to a single quest. For example, if you make a set for a Japan-exclusive game with a female protagonist that was featured on Wish This Set, you have to choose between [DQ8](#008-world-traveler), [DQ16](#016-wish-this-set) and [DQ24](#024-she-s-got-this), you don't get all three.
 - Standard set quality or better is expected for DevQuest sets. If a set appears to be of insufficient effort, it may be rejected at the DevQuest team's discretion. Rich Presence is required for DevQuest sets. The DevQuest team is happy to suggest improvements for qualification.
 
 **Maintenance**
 - You cannot be an original author on the set being maintained.
 - General revision rules apply: contact the active authors on sets whose content you will update or add to. Moreover, discussions, dev votes and revision claims are required when adding new achievements to a set.
-- Every action can only contribute to a single quest. For example, if you repair a set for [DQ2](#_002-retro-renovator), resolving tickets is part of that task, so these tickets cannot be tallied up towards [DQ1](#_001-ticket-massacre).  However, some sets can benefit from different independant actions in a way that yields credits towards multiple DevQuests. If you add a rich presence, leaderboards and revise a set to cover content that was missing before, you could get credit for DQ13, DQ14 and DQ22.
-- For revision quests ([DQ2](#_002-retro-renovator), [DQ13](#_013-complete-me) and [DQ22](#_022-this-belonged-in-a-museum) Dust-offs), the game needs to be in the approved list. You may propose games you feel should qualify prior to working on them and the team will determine if it fits the quest. While [DQ13](#_013-complete-me) credit can sometimes be granted along [DQ2](#_002-retro-renovator) or [DQ22](#_022-this-belonged-in-a-museum), this is up to a team vote and should only be allowed when both the current content and missing content require significant work.
+- Every action can only contribute to a single quest. For example, if you repair a set for [DQ2](#002-retro-renovator), resolving tickets is part of that task, so these tickets cannot be tallied up towards [DQ1](#001-ticket-massacre).  However, some sets can benefit from different independant actions in a way that yields credits towards multiple DevQuests. If you add a rich presence, leaderboards and revise a set to cover content that was missing before, you could get credit for DQ13, DQ14 and DQ22.
+- For revision quests ([DQ2](#002-retro-renovator), [DQ13](#013-complete-me) and [DQ22](#022-this-belonged-in-a-museum) Dust-offs), the game needs to be in the approved list. You may propose games you feel should qualify prior to working on them and the team will determine if it fits the quest. While [DQ13](#013-complete-me) credit can sometimes be granted along [DQ2](#_002-retro-renovator) or [DQ22](#022-this-belonged-in-a-museum), this is up to a team vote and should only be allowed when both the current content and missing content require significant work.
 - When you update the logic of any asset, keep a backup of the old logic posted in the game's official forum for reference.
-- For miscellaneous maintenance quests ([DQ1](#_001-ticket-massacre), [DQ3](#_003-singles-in-your-area), [DQ5](#_005-trigger-happy) and [DQ14](#_014-laudable-leaderboards)), create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team for review only after you have completed the quest. For quests that can be repeated, one row of the column will be for which badge number you are working towards.
+- For miscellaneous maintenance quests ([DQ1](#_001-ticket-massacre), [DQ3](#003-singles-in-your-area), [DQ5](#005-trigger-happy) and [DQ14](#014-laudable-leaderboards)), create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team for review only after you have completed the quest. For quests that can be repeated, one row of the column will be for which badge number you are working towards.
 
 **Legacy**
 
-Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) and [DQ20](#_020-genre-conqueror)) are fully retroactive and are awarded for having an extensive and wide portfolio as a developer.
+Legacy quests ([DQ4](#004-veteran-developer), [DQ15](#015-console-conqueror) and [DQ20](#020-genre-conqueror)) are fully retroactive and are awarded for having an extensive and wide portfolio as a developer.
 - You may request to be tracked for these after reaching some minimum treshold as determined in the rules of each individual quests.
 - Following that first tracking request, updates are made in sweeps periodically; this means you don't have to (and shouldn't) ping the team every time you complete a new set that adds to your portfolio. Every couple months, the dev responsible for the sweeps for that particular quest will update the status of everyone being tracked and announce the progress in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002).
 
@@ -127,7 +127,6 @@ A constantly evolving toolkit means that these requirements are subject to chang
 - Atari Lynx
 - Neo Geo Pocket/Neo Geo Pocket Color
 - Atari Jaguar
-- MSX/MSX2
 - Apple II
 - 3DO Interactive Multiplayer
 - ColecoVision
@@ -259,7 +258,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 ![DQ014](https://media.retroachievements.org/Images/110735.png)
 
 **Type**: Maintenance  
-**Goal**: Create leaderboards for 10 games that currently do not have any  
+**Goal**: Create leaderboards for 10 games that currently are lacking them
 **Repeatable**: No
 
 1. Cover different game modes/difficulties when applicable.
@@ -270,7 +269,8 @@ An English release is considered a game released in English in US, Canada, UK, o
    - Minigames that track high scores or time are good candidates
    - And so on. Reach out if you have any questions about a specific game
 3. You can do your own sets for half-credit as long as they were published prior to this DevQuest (2022-03-02).
-4. You must leave comments on set page for what you added for log purposes
+4. You must leave comments on set page for what you added for log purposes.
+5. Typically covers sets without any leaderboards, but if a set has only a couple leaderboards and is clearly missing some that should be there, it is also eligible.
 
 ### 015 [Console Conqueror](https://retroachievements.org/game/809)
 
@@ -287,12 +287,11 @@ Each system ID will have an achievement associated with it. Newly supported syst
 You must have developed sets for 10 or more supported systems before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account
 :::
 
-1. This quest is awarded in sweeps; do not ping claims or completions. Any set will be counted as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
-2. Meme sets may not be counted at the discretion of the DevQuest Team.
-3. Doing the same kind of set (e.g. all Flappy Bird clones) will only be counted towards one system.
-4. The only requirement for an unlock is that you are the sole or majority developer of a set on that system ID. Collaborations require at least 20 achievements made.
-5. For the more dire systems, specific requirements are in the achievements themselves.
-6. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+1. Meme sets may not be counted at the discretion of the DevQuest Team.
+2. Doing the same kind of set (e.g. all Flappy Bird clones) will only be counted towards one system.
+3. The only requirement for an unlock is that you are the sole or majority developer of a set on that system ID. Collaborations require at least 20 achievements made.
+4. For the more dire systems, specific requirements are in the achievements themselves.
+5. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
 
 ### 016 [Wish This Set](https://retroachievements.org/game/2962)
 
@@ -362,15 +361,14 @@ You must have developed sets for 10 or more supported systems before opt-in. Opt
 You must have made sets for at least 5 genres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started
 :::
 
-1. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
-2. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
-3. Genres used for this quest are the main Genre hubs. We'll contact you to ask which genre is preferred.
-4. If a set belongs to multiple top-level genres, we will ask you which genre to count for that set; if later on you do that same genre, you may ask us to reassign the set to the other genre.
-5. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.
-6. Falsifying a genre or subgenre field will bar you from this DevQuest.
-7. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.
-8. Excluded Genres: Other and Literature.
-9. Added Genre: Party and Minigame subgenres combined as Party or Minigames Genre
+1. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+2. Genres used for this quest are the main Genre hubs. We'll contact you to ask which genre is preferred.
+3. If a set belongs to multiple top-level genres, we will ask you which genre to count for that set; if later on you do that same genre, you may ask us to reassign the set to the other genre.
+4. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.
+5. Falsifying a genre or subgenre field will bar you from this DevQuest.
+6. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.
+7. Excluded Genres: Other and Literature.
+8. Added Genre: Party and Minigame subgenres combined as Party or Minigames Genre
 
 ### 020 Subset [Subgenre Conqueror](https://retroachievements.org/game/25673)
 
@@ -383,15 +381,14 @@ You must have made sets for at least 5 genres before opt-in. To opt-in, make a c
 You must have made sets for at least 15 subgenres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started. You may use the same sheet to opt in to this and to DevQuest 020.
 :::
 
-1. This quest is awarded in sweeps; do not ping claims or completions. Any set will count as long as it meets the requirements, even if used for another DevQuest or if it was made while a Jr. Dev.
-2. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
-3. Genres used for this quest are the Subgenre hubs.
-4. If a set belongs to multiple subgenres, all will count. Exception: Compilations will only count for Subgenre - Compilation.
-5. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.
-6. Falsifying a genre or subgenre field will bar you from this DevQuest.
-7. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.
-8. Excluded subgenres: 4X, Pachinko, Specific Extreme Sports subgenres (each will count towards Subgenre - Extreme Sports), subgenres of Board Games and Card Games (Each will count towards their Board Game or Card Game subgenre parent), Literature subgenres.
-9. Subsets will not count unless approved by DevQuest. Ping DevQuest team for approval request.
+1. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
+2. Genres used for this quest are the Subgenre hubs.
+3. If a set belongs to multiple subgenres, all will count. Exception: Compilations will only count for Subgenre - Compilation.
+4. Please fill out the Genre field in all sets for you wish to be credited and also assign it to the correct hub(s). Sets with unfilled Genre fields will be skipped.
+5. Falsifying a genre or subgenre field will bar you from this DevQuest.
+6. Sole or Majority Dev will be credited. If it is a collaboration, you may also receive credit if you reach 20 achievements, even if not majority dev.
+7. Excluded subgenres: 4X, Pachinko, Specific Extreme Sports subgenres (each will count towards Subgenre - Extreme Sports), subgenres of Board Games and Card Games (Each will count towards their Board Game or Card Game subgenre parent), Literature subgenres.
+8. Subsets will not count unless approved by DevQuest. Ping DevQuest team for approval request.
 
 ### 021 [Homebrew Heaven](https://retroachievements.org/game/25677)
 
@@ -471,12 +468,12 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 6. Each point of credit (equivalent to one set) must have a different female character as the protagonist (or different ensemble of female characters)
 
 ## Wheel Spin DevQuest Rules
-[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
-- Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
-- Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
-- Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy
-- Earn a point towards [DQ2](#_002-retro-renovator) Retro Renovator or [DQ13](#_013-complete-me) complete.me
-- Make a set for [DQ16](#_016-wish-this-set) Wish This Set
+[DQ6](#006-the-unwanted), [DQ19](#019-wheel-of-genres) and [DQ23](#023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
+- Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#001-ticket-massacre) Ticket Massacre)
+- Earn [DQ3](#003-singles-in-your-area) Singles in Your Area
+- Update 10 achievements towards [DQ5](#005-trigger-happy) Trigger Happy
+- Earn a point towards [DQ2](#002-retro-renovator) Retro Renovator or [DQ13](#013-complete-me) complete.me
+- Make a set for [DQ16](#016-wish-this-set) Wish This Set
   
 Refreshing your spin this way can only be done while your spin is used up. For example, you cannot use an old Wish This Set game you made prior to spinning.
 
