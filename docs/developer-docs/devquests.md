@@ -9,8 +9,9 @@ Outside exceptions explicitely written in the individual quest rules, quests of 
 - DevQuests are not available for Junior Developers.
 - To be awarded credit towards a quest, ping the team via a Discord ping in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) or via [site message](https://retroachievements.org/messages/create?to=DevQuest) within one week of completion, with a link to the appropriate achievement page.
 - Collaborations and subsets are not allowed by default.
+- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#_007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#_016-wish-this-set). If this happens while you are *less* than halfway done, please reach out to the team to confirm eligibility.
 
-Quest type specific rules:
+Type specific rules:
 
 **Set-Creation**
 - Making a set can only contribute to a single quest. For example, if you make a set for a Japan-exclusive game with a female protagonist that was featured on Wish This Set, you have to choose between [DQ8](#_008-world-traveler), [DQ16](#_016-wish-this-set) and [DQ24](#_024-she-s-got-this), you don't get all three.
@@ -42,9 +43,8 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 
 1. Falsifying ticket closures will result in disqualification.
 2. The following do not count toward the total: Network issues, tickets for achievements you developed, tickets you opened, tickets closed on behalf of Junior Developers, and tickets closed as a result of ticket spamming.
-3. May not overlap with DevQuest 002 or with any completion requirements for DevQuest 013.
-4. Tickets for users banned from development count for double credit.
-5. Up to 10 "unsupported core/emulator" tickets may be used across DQ1 and its sequels. If you have closed 10 in this fashion, no more of this type shall count. The DQ Team shall highlight these tickets using purple on the tracking sheet.
+3. Tickets for users banned from development count for double credit.
+4. Up to 10 "unsupported core/emulator" tickets may be used across DQ1 and its sequels. If you have closed 10 in this fashion, no more of this type shall count. The DQ Team shall highlight these tickets using purple on the tracking sheet.
 
 ### 002 [Retro Renovator](https://retroachievements.org/game/15957)
 
@@ -80,10 +80,8 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 
 ![DQ004](https://retroachievements.org/Images/069722.png)
 
-**Type**: Special  
-**Goal**: Complete a set of special goals  
-**Repeatable**: No  
-**RetroActive!**
+**Type**: Legacy 
+**Goal**: Complete a set of special goals
 
 1. Has published at least 1000 achievements and worked on at least 25 sets as the sole or majority developer.
 2. Has created achievements for at least ten different system IDs.
@@ -164,8 +162,7 @@ No hacks or homebrew unless those are the only types of games left without sets.
 At the time you claim the set, it must be in Most Wanted section of the latest issue of RANews.
 :::
 
-1. If you already have one claimed when the game becomes eligible, you must be under 50% progress for it to count. Please reach out to the team to confirm eligibility when that happens.
-2. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
+1. Any games listed in the console-specific bonus section in RANews will only be eligible to be claimed in the month it was featured in, but the set doesn't need to be released in the same month.
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
 
@@ -179,13 +176,11 @@ At the time you claim the set, it must be in Most Wanted section of the latest i
 An English release is considered a game released in English in US, Canada, UK, or AU.<br>1. All claims intended for this quest must follow normal procedure.
 :::
 
-1. All claims intended for this quest must follow normal procedure.
-2. They must be full sets. Fodder for the Progression Only hub won't count.
-3. Sets intended for World Traveler do not stack with other quests based around developing new content.
-4. English translation patches will not disqualify a game from this quest.
-5. Hacks and homebrew do not count towards the quest. Unlicensed titles may count as long as they aren't blatant bootleg ports or hacks of another game. If you're unsure if a game is valid, ask!
-6. If a game was released in English on a system, but was ported to another system with no English version, half credit may be granted for the port on the system that has no English release.
-7. Games that only released in English on unsupported systems will receive full credit.
+1. They must be full sets. Fodder for the Progression Only hub won't count.
+2. English translation patches will not disqualify a game from this quest.
+3. Hacks and homebrew do not count towards the quest. Unlicensed titles may count as long as they aren't blatant bootleg ports or hacks of another game. If you're unsure if a game is valid, ask!
+4. If a game was released in English on a system, but was ported to another system with no English version, half credit may be granted for the port on the system that has no English release.
+5. Games that only released in English on unsupported systems will receive full credit.
 
 ### 009 [Launch Party!](https://retroachievements.org/game/15937)
 
@@ -200,7 +195,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 #### Current Launch Party Promotion Windows:
 
-- There are currently no eligible systems
+- Nintendo Wii
 
 ### 010 [It Takes Two](https://retroachievements.org/game/15939)
 
@@ -210,7 +205,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 **Goal**: Join forces with other developers to publish two collaboration sets  
 **Repeatable**: No
 
-1. Set must have a fair share of the work done by each dev - For example, sets with extreme splits like 80%/20% would not allow credit.
+1. Set must have a fair share of the work done by each dev - for example, sets with extreme splits like 80%/20% would not allow credit.
 2. Must be a full set covering every aspect of the game.
 3. Each Dev must publish at least 20 achievements each.
 
@@ -226,11 +221,10 @@ An English release is considered a game released in English in US, Canada, UK, o
 **Goal**: Develop a set for the Sega Genesis/Mega Drive to celebrate the anniversary of RA's first achievement  
 **Repeatable**: No
 
-1. All claims intended for this quest must follow normal procedure.
-2. Must be full sets or a major/significant revision.
-3. Sega CD and Sega 32X games are not eligible.
-4. No prototypes or hacks.
-5. Collaborations are allowed so long as the work is visibly split.
+1. Must be full sets or a major/significant revision.
+2. Sega CD and Sega 32X games are not eligible.
+3. No prototypes or hacks.
+4. Collaborations are allowed so long as the work is visibly split.
 
 ### 012 [Hacker's Habit](https://retroachievements.org/game/672), [Hack at it Again](https://retroachievements.org/game/32908)
 
@@ -272,7 +266,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 2. Try to cover leaderboards that make sense for the game. Some examples:
    - For Arcade-type games it is fine to just add High Score leaderboards, possibly highest in a single life
    - For Racing games time trials for tracks are pretty standard
-   - Speedruns for Platformers
+   - Speedruns for platformers
    - Minigames that track high scores or time are good candidates
    - And so on. Reach out if you have any questions about a specific game
 3. You can do your own sets for half-credit as long as they were published prior to this DevQuest (2022-03-02).
@@ -282,10 +276,8 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ![DQ015](https://retroachievements.org/Images/068013.png)
 
-**Type**: Special  
+**Type**: Legacy
 **Goal**: Publish a set for every supported system on RetroAchievements  
-**Repeatable**: No  
-**RetroActive!**
 
 :::info Ever-Growing
 Each system ID will have an achievement associated with it. Newly supported system IDs means new achievements!
@@ -337,7 +329,7 @@ You must have developed sets for 10 or more supported systems before opt-in. Opt
 ![DQ018](https://retroachievements.org/Images/073716.png)
 
 **Type**: Set Creation  
-**Goal**: Publish 2 Subsets  
+**Goal**: Publish 2 subsets  
 **Repeatable**: No
 
 1. Read through [Subsets](/guidelines/content/subsets) document to learn more about subsets.
@@ -363,10 +355,8 @@ You must have developed sets for 10 or more supported systems before opt-in. Opt
 
 ![DQ020](https://retroachievements.org/Images/083451.png)
 
-**Type**: Special  
+**Type**: Legacy  
 **Goal**: Publish a set for every genre!  
-**Repeatable**: No  
-**RetroActive!**
 
 ::: warning Opt-In Quest
 You must have made sets for at least 5 genres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started
@@ -386,10 +376,8 @@ You must have made sets for at least 5 genres before opt-in. To opt-in, make a c
 
 ![DQ020S](https://retroachievements.org/Images/083452.png)
 
-**Type**: Special  
+**Type**: Legacy 
 **Goal**: Publish a set for every subgenre!  
-**Repeatable**: No  
-**RetroActive!**
 
 ::: warning Opt-In Quest
 You must have made sets for at least 15 subgenres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started. You may use the same sheet to opt in to this and to DevQuest 020.
@@ -483,7 +471,7 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 6. Each point of credit (equivalent to one set) must have a different female character as the protagonist (or different ensemble of female characters)
 
 ## Wheel Spin DevQuest Rules
-[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following task:
+[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
 - Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
 - Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
 - Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy
@@ -492,8 +480,9 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
   
 Refreshing your spin this way can only be done while your spin is used up. For example, you cannot use an old Wish This Set game you made prior to spinning.
 
-## Suggestions
+## New DevQuests and suggestions
 
+- New quests will be available periodically. There is no fixed schedule for these.
 - If you have suggestions for a DevQuest, send a message to the DevQuest account with the following info:
   - **Quest Name**
   - **Award Type** - If there is one specific goal then you would want a badge-based award. If there are multiple goals then you would want an achievement-based award.
