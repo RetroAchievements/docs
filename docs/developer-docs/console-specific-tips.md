@@ -152,7 +152,7 @@ Checks if the 8-bit value at 0x18BAB5 is equal to 0x20. This means 0x18BAB5 cont
 - Gamecube has one bank of RAM, 24MB, located at `0x80000000-0x817FFFFF`, which is mapped at `0x00000000-0x017FFFFF` in the RA toolkit.
    - Therefore, pointers found will start with 0x8, and to use them, you can mask them using `0x1fffffff` to convert to RA addressing.
    - `Add Address 32-Bit BE Pointer & 0x1fffffff`
-   - Uncached mirror of the RAM exists as well at `0xC0000000`. If you happen to find pointers that begin with 0xC, the same masking sceheme will work to convert them to the RA addressing.
+   - Uncached mirror of the RAM exists as well at `0xC0000000`. If you happen to find pointers that begin with 0xC, the same masking scheme will work to convert them to the RA addressing.
 
 ## Wii
 
