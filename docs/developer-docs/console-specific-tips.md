@@ -143,8 +143,29 @@ Checks if the 8-bit value at 0x18BAB5 is equal to 0x20. This means 0x18BAB5 cont
 
 ## GameCube
 
-- Serial is located at **0x00000000** as a string of ASCII characters. Revision Number seems to typically be stored at **0x00000007**. You can use these to determine the specific disc loaded.
+- Identification of the game/disc:
+   - Serial is located at **0x00000000** as a string of ASCII characters.
+   - Disc Number (for multidisk games) is stored at **0x80000006**. (0 = Disc 1)
+   - Revision Number is stored at **0x00000007**.
+   - You can use these to determine the specific disc loaded.
 - GameCube uses a PowerPC chipset with big-endian data. Filter using `16-Bit BE`, `32-Bit BE`, `Float BE`, and `Double32 BE` for data types wider than 1 byte (8-bits). Data is typically aligned on Gamecube, so 16-Bit data is always at an even address and 32-bit data addresses at a multiple of 4, etc.
+- Gamecube has one bank of RAM, 24MB, located at `0x80000000-0x817FFFFF`, which is mapped at `0x00000000-0x017FFFFF` in the RA toolkit.
+   - Therefore, pointers found will start with 0x8, and to use them, you can mask them using `0x1fffffff` to convert to RA addressing.
+   - `Add Address 32-Bit BE Pointer & 0x1fffffff`
+   - Uncached mirror of the RAM exists as well at `0xC0000000`. If you happen to find pointers that begin with 0xC, the same masking sceheme will work to convert them to the RA addressing.
+
+## Wii
+
+- Identification of the game/disc:
+   - Serial is located at **0x00000000** as a string of ASCII characters.
+   - Disc Number (for multidisk games) is stored at **0x80000006**. (0 = Disc 1)
+   - Revision Number is stored at **0x00000007**.
+   - You can use these to determine the specific disc loaded.
+- Wii uses a PowerPC chipset with big-endian data. Filter using `16-Bit BE`, `32-Bit BE`, `Float BE`, and `Double32 BE` for data types wider than 1 byte (8-bits). Data is typically aligned on Wii, so 16-Bit data is always at an even address and 32-bit data addresses at a multiple of 4, etc.
+- Wii has two banks of RAM, 24MB called "MEM1" located at `0x80000000-0x817FFFFF`, which is mapped at `0x00000000-0x017FFFFF` in the RA toolkit, and 64MB called "MEM2" located at `0x90000000-0x93FFFFFF`, which is mapped at `0x10000000-0x13FFFFFF` in the RA toolkit.
+   - Therefore, pointers found will start with 0x8 or 0x9, and to use them, you can mask them using `0x1fffffff` to convert to RA addressing.
+   - `Add Address 32-Bit BE Pointer & 0x1fffffff`
+   - Uncached mirrors or MEM1 and MEM2 exist as well at `0xC0000000` and `0xD0000000`, respectively. If you happen to find pointers that begin with 0xC or 0xD, the same masking sceheme will work to convert them to the RA addressing.
 
 ## Neo Geo
 
