@@ -88,7 +88,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/es/general/how-ra-works",
         },
         {
-          text: "Maneras de contribuir",
+          text: "Cómo contribuir si no eres desarrollador",
           link: "/es/general/ways-to-contribute",
         },
         {
