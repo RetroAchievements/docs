@@ -1,9 +1,9 @@
 ---
-title: Maneras de contribuir
+title: Cómo contribuir si no eres desarrollador
 description: Incluso si no quieres convertirte en desarrollador de logros, pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo.
 ---
 
-# Maneras de contribuir
+# Cómo contribuir si no eres desarrollador
 
 Incluso si no quieres convertirte en desarrollador de logros pero te gustaría contribuir con RetroAchievements, hay varias formas de hacerlo:
 
@@ -19,7 +19,7 @@ Hay dos formas de informar de un logro roto: directamente en el emulador o a tra
 
 ### Reportar a través de la página web
 
-En la página de cada logro verás un enlace que dice:  `Report an issue for this achievement (reportar un fallo para este logro)`, como en la imagen de abajo:
+En la página de cada logro verás un enlace que dice: `Report an issue for this achievement (reportar un fallo para este logro)`, como en la imagen de abajo:
 
 ![abrir-un-ticket-en-el-sitio](https://user-images.githubusercontent.com/8508804/38785449-9c8abffc-40f6-11e8-8d9b-d9bac5b0d5d4.png)
 
