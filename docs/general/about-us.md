@@ -7,7 +7,7 @@ description: Explore the history and roles within the RetroAchievements communit
 
 ## RA Staff
 
-The RetroAchievements project started as a personal project of [Scott Breen](http://scottbreen.info/) and in the early days the project had only administrators, achievement creators, and regular users (and it's still like that on the website). At that time administrators were responsible to do things like:
+The RetroAchievements project started as a personal project of [Scott Breen](http://scottbreen.info/) and in the early days the project had only administrators, achievement creators, and regular users. At that time administrators were responsible to do things like:
 
 - keep an eye on the quality of achievements
 - keep an eye if someone is changing other people's achievements (accidentally or intentionally)
@@ -72,6 +72,7 @@ The team responsible to keep the this community a healthy place (at least for th
 
 - [AuburnRDM](https://retroachievements.org/user/AuburnRDM)
 - [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
+- [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
 - [LordAndrew](https://retroachievements.org/user/LordAndrew)
@@ -104,7 +105,6 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
-- [tomojin](https://retroachievements.org/user/tomojin)
 - [zxmega](https://retroachievements.org/user/zxmega)
 
 ### Quality Assurance Team
@@ -112,15 +112,18 @@ The team responsible for the adherence and driving updates to the [Developer's C
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
 - [AmirGaris](https://retroachievements.org/user/AmirGaris)
+- [Cartesia](https://retroachievements.org/user/Cartesia)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
+- [Darky](https://retroachievements.org/user/Darky)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Falcus](https://retroachievements.org/user/Falcus)
 - [psyduck](https://retroachievements.org/user/psyduck)
-- [s0uth](https://retroachievements.org/user/s0uth)
+- [Raichi](https://retroachievements.org/user/Raichi)
 - [Searo](https://retroachievements.org/user/Searo)
+- [Souzooka](https://retroachievements.org/user/Souzooka)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
-- [tomojin](https://retroachievements.org/user/tomojin)
+- [xClawz](https://retroachievements.org/user/xClawz)
 
 ### Cheat Prevention Team
 
@@ -130,21 +133,24 @@ The team responsible for investigating cheating reports.
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
+- [AaronDobbe](https://retroachievements.org/user/AaronDobbe)
 - [ASolidSnack](https://retroachievements.org/user/ASolidSnack)
 - [authorblues](https://retroachievements.org/user/authorblues)
+- [BigDonRob](https://retroachievements.org/user/BigDonRob)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Fridge](https://retroachievements.org/user/Fridge)
+- [Homuki](https://retroachievements.org/user/Homuki)
 - [Layton](https://retroachievements.org/user/Layton)
+- [lonegraywolf2000](https://retroachievements.org/user/lonegraywolf2000)
 - [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [scatter](https://retroachievements.org/user/scatter)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
+- [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [Sutarion](https://retroachievements.org/user/Sutarion)
 - [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
-- [wolfman2000](https://retroachievements.org/user/wolfman2000)
 - [Yanbetari](https://retroachievements.org/user/Yanbetari)
 
 ### Tech Team

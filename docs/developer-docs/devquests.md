@@ -37,6 +37,7 @@ DevQuests are achievement development-related quests that Developers can take pa
 2. The following do not count toward the total: Network issues, tickets for achievements you developed, tickets you opened, tickets closed on behalf of Junior Developers, and tickets closed as a result of ticket spamming.
 3. May not overlap with DevQuest 002 or with any completion requirements for DevQuest 013.
 4. Tickets for users banned from development count for double credit.
+5. Up to 10 "unsupported core/emulator" tickets may be used across DQ1 and its sequels. If you have closed 10 in this fashion, no more of this type shall count. The DQ Team shall highlight these tickets using purple on the tracking sheet.
 
 ### 002 [Retro Renovator](https://retroachievements.org/game/15957)
 
@@ -430,6 +431,8 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
    - [No Dynamic RP](https://retroachievements.org/game/3083)
    - [Player-Input RP](https://retroachievements.org/game/28506)
    - [Single Save Support](https://retroachievements.org/game/28449)
+   - [Outdated Version](https://retroachievements.org/hub/29482)
+      - If you identify a set you believe should qualify for a task like this, simply request approval from the team. Providing support to an updated version of a hack, homebrew or language patch will yield 1 point regardless of if it was tagged as outdated, provided the update required actual logic updates and/or adding achievements to cover added content.
 4. No collaboration allowed.
 5. This quest does not stack with other revision DevQuests. If a set would also be eligible to DQ2 or DQ13 those quests will take priority.
 6. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
@@ -452,6 +455,28 @@ You must have made sets for at least 15 subgenres before opt-in. To opt-in, make
 5. A snapshot of the spun user's most recently recorded request list will be made at the time of random selection. Game selections will be validated against this list only.
    - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
 6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
+
+### 024 [She's Got This!](https://retroachievements.org/event/186-devquest-024-shes-got-this)
+
+![DQ024](https://media.retroachievements.org/Images/118081.png)
+
+**Type**: Set Creation  
+**Goal**: Publish two new sets featuring a female character as the primary protagonist!  
+**Repeatable**: No
+
+1. Sets intended for this quest must be complete and encompass all notable content specific to the game.
+2. Hacks are allowed, but the original game must **not** have a female character as the primary protagonist.
+   - Sets for small hacks will be scored as a half point.
+3. Homebrew is allowed
+   - Sets for small homebrew games will be scored as a half point.
+   - Up to one point can be from homebrew.
+4. Collaborations are allowed. A set done as a collaboration will be scored as a half point for any collaborator receiving credit towards this quest.
+5. The primary protagonist must be clearly identified as a female character somewhere in the game.
+   - Games without a clear singular protagonist are allowed as long as a clear majority of the protagonists, i.e.: About 2/3 of the protagonists driving the story, plot, or game action should be clearly identified as female characters.
+   - Any characters falling into such protagonist roles should be player-controllable.
+   - Games where the player creates an avatar do not count the avatar as a female protagonist unless the avatar is required to be female.
+   - When in doubt, please reach out to the DevQuest team.
+6. Each point of credit (equivalent to one set) must have a different female character as the protagonist (or different ensemble of female characters)
 
 ## Wheel Spin DevQuest Rules
 

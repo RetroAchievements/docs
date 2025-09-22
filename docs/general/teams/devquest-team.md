@@ -126,6 +126,7 @@ Note that this is not a requirement for the developer, but it can help for quest
 
 - DQ2: Retro Renovator and DQ13: complete.me - As long as the actions required are distinct, a developer could do both of these for a single game.
 - DQ14: Laudable Leaderboards could stack with DQ2: Retro Renovator and/or DQ13: complete me. The action of adding leaderboards is a different action from either of those maintenance quests.
+- DQ22: This Belonged in a Museum! Cannot stack with other revision quests. If either DQ2 or DQ13 would be applicable, they should be used instead.
 - DQ4: Veteran Developer, DQ15: Console Conqueror, and DQ20: Genre and Subgenre Conquerors overlap with everything. Pretend all other DevQuests do not know about these quests.
 
 #### Supplemental Guidance: Things that may not stack
@@ -304,4 +305,14 @@ When validating a leaderboard:
 - ON the Eligible Games sheet, insert a new column if needed (*please insert it so it is correctly alphebetized*). Copy the generated list and paste it into that user's column.
 - Inform the user of their spin (ideally use a screen capture program like ShareX to do a gif recording of the wheel spin).
 - Inform the user to verify the list on the *Eligible Games Lists* sheet in case the user has updated their list since the last update.
+- When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.
+
+### DevQuest 024: She's Got This!
+
+- Has both an overall tracking and a claims sheet. Don't forget to update both.
+- We accept trans women/girls as female characters.
+- Two sets (or four half-credit sets, or a valid combination equivalent to two sets) are needed for the badge.
+- Tiny hacks/homebrew are half credit, as are any collaboration.
+- Verify that a hack's base game does **not** have its primary protagonist be female.
+- Verify that both "points" of credit have different primary protagonists.
 - When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.

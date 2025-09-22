@@ -91,13 +91,20 @@ When these are acceptable:
 
 - Bonus subsets or subsets specifically approved for grinding tasks are an exception to this policy and may be implemented.
 
-## Overly RNG Reliant
+## Overly RNG Reliant Without Purpose
 
-Rely entirely on randomness, especially when there are extremely low odds.
+Rely entirely on randomness and does not serve a purpose, especially when there are extremely low odds.
 
 When these are acceptable:
 
 - Games or mini-games where the randomness is a major aspect.
+
+Examples of acceptable purpose:
+
+- Rewarding an exclusive item (the item does not have to be useful to the player)
+- Awarding an in-game achievement
+- Displaying unique dialogue
+- Playing a unique cutscene
 
 ## "Secret Achievements"
 

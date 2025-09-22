@@ -7,7 +7,7 @@ description: Explora la historia y los roles dentro de la comunidad de RetroAchi
 
 ## Equipo RA
 
-El proyecto RetroAchievements comenzó como un proyecto personal de [Scott Breen](http://scottbreen.info/) y en los primeros días el proyecto solo tenía administradores, creadores de logros y usuarios regulares (y todavía es así en el sitio web). En ese momento, los administradores eran responsables de hacer cosas como:
+El proyecto RetroAchievements comenzó como un proyecto personal de [Scott Breen](http://scottbreen.info/) y en los primeros días el proyecto solo tenía administradores, creadores de logros y usuarios regulares. En ese momento, los administradores eran responsables de hacer cosas como:
 
 - Echarle un ojo en la calidad de los logros.
 - Echarle un ojo si alguien está cambiando los logros de otras personas (accidental o intencionalmente).
