@@ -55,7 +55,7 @@ Creative titles for achievements are more enjoyable for players than exact descr
 - References - References are always a fun idea for achievements, especially when you are designing achievements for a game of a bigger franchise. If the same level appears in an earlier/later game for example, using a title that emphasizes that familiarity will always be pleasing to fans of the game. Please keep in mind that references to current events in the world as well as memes are generally discouraged due to them eventually losing relevance.
 
   - Example 1: There is a zone called Default Zone in game 1, and game 2 has another variation of it. “This Looks… Familiar” could therefore be a good title.
-  - Example 2: In the animated TV series of the game you are developing for, when defeating the villain he screams ‘’This Isn’t the End!!!’’. Making that the title or a variation such as ‘’Actually, This Is the End!’’always works.
+  - Example 2: In the animated TV series of the game you are developing for, when defeating the villain he screams ‘’This Isn’t the End!!!’’. Making that the title or a variation such as ‘’Actually, This Is the End!’’ always works.
 
 - Puns - Puns can give a lot of life to an otherwise boring achievement title. To construct a pun, take a word that is related to what the player is doing to earn the achievement and combine it with another common word or phrase in a humorous way.
 
