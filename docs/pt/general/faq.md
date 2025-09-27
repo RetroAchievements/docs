@@ -73,8 +73,6 @@ Motivos:
 1. Não possui conquistas,
 2. Você possui a ROM incorreta.
 
-Para mais detalhes leia esta página: [Meu jogo não está carregando conquistas](/pt/orphaned/my-game-is-not-loading-achievements).
-
 Se você é um usuário Linux, você pode usar essa ferramenta para checar se sua ROM está OK para o RetroAchievements: [https://github.com/meleu/hascheevos](https://github.com/meleu/hascheevos)
 
 ## Esta conquista não ativou! (ou ativou em um momento errado)

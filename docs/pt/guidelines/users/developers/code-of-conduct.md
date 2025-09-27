@@ -9,8 +9,6 @@ Este documento aborda os direitos, responsabilidades e regras de conduta justa d
 
 [[toc]]
 
-**Se você não é um desenvolvedor, confira [como se tornar um desenvolvedor](/developer-docs/how-to-become-an-achievement-developer).**
-
 **Veja também**: [Código de Conduta dos Usuários](/guidelines/users/code-of-conduct).
 
 - [Regras de Ouro](#regras-de-ouro)

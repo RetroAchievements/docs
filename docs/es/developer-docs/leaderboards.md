@@ -87,8 +87,6 @@ Esto puede parecer desalentador, porque no sabes que significan esta direcciones
 
 **Tip**: el error mas común cuando creamos tablas de clasificación es olvidarnos de la `h` cuando tratamos de hacer referencia a un valor en memoria de 8-bit.
 
-**Pro-tip:** **STA**, **CAN**, y **SUB** soportan toda la logica que se encuentra disponible en el [editor de logros](/es/orphaned/achievement-logic-features). La manera mas facil es asegurarte que escribiste todo correctamente es crear logros locales que capturen estos eventos, y entonces extraer los valores ingresados en el archivo "XXX-User.txt" asociado al juego en el cual te encuentras trabajando.
-
 ### Condiciones para Cancelar
 
 **CAN**: `0xhfe13<d0xhfe13`

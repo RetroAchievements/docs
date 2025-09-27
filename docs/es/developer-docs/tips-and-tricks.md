@@ -26,13 +26,13 @@ También mira: [Conceptos No-Bievenidos](/es/guidelines/developers/code-of-condu
 
 - **~~Nunca~~ Evita utilizar solo una condición lo mas que puedas**. Cuando utilizas solo una condición el logro es muy probable que salga en el momento equivocado. Este es el **error mas común de un desarrollador**.
 
-- Si el juego tiene un **modo demo** (El CPU juega después que hubieras esperado un tiempo en la pantalla de titulo), percatate de buscar la variable para ello y agrega la condicion para que tus logros no salgan en modo demo. Tal vez necesites saber como se utiliza un [PauseIf](/es/orphaned/achievement-logic-features#pauseif) y [ResetIf](/es/orphaned/achievement-logic-features#resetif).
+- Si el juego tiene un **modo demo** (El CPU juega después que hubieras esperado un tiempo en la pantalla de titulo), percatate de buscar la variable para ello y agrega la condicion para que tus logros no salgan en modo demo. Tal vez necesites saber como se utiliza un PauseIf y ResetIf.
 
 - **`PauseIf` cheat codes**: Si el juego tiene un cheat code para incrementar vidas, seleccionar stages, etc. Percatate de encontrar las variables para ello y agregar alguna especie de protección a tus logros.
 
 - Si quieres crear un logro para **colecciona un ítem único y especifico** en el juego, agrega algunas condiciones para asegurarte que el jugador consiguió el ítem donde se supone que se tiene que conseguir, [como en este ejemplo de aquí](/es/developer-docs/achievement-templates#colecciona-un-item-en-un-nivel-en-especifico). De otra manera podría saltar utilizando un password, cargando un archivo de guardado, etc.
 
-- **Condiciones Ó**: si necesitas condiciones Ó, vas a necesitar [Alt groups](/es/orphaned/achievement-logic-features#alt-groups).
+- **Condiciones Ó**: si necesitas condiciones Ó, vas a necesitar Alt groups.
 
 - **Evita el exceso de Logros**. Si un juego tiene 100 levels, no hagas un logro por cada nivel. Haz cada 25 o parecido. Considera el tiempo en el que un jugador casual podría desbloquear esos logros. Si generalmente puedes desbloquear todos los logros de un set de progreso en medio hora y siendo un jugador casual, eso es diseño de puro relleno, y no es recomendable.
 

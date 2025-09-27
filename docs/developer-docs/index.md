@@ -1,12 +1,12 @@
 # Achievement Development
 
-If you want to be an achievement developer, check [here how to become a developer](/developer-docs/how-to-become-an-achievement-developer).
+If you want to be an achievement developer, RetroAchievements has a [Junior Developer program](/developer-docs/jr-dev-rules) to teach people how to design and create achievement sets.
 
 Every Developer must know and adhere the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
 Now a brief description some pages you'll see in this section.
 
-1. [How to Become an Achievement Developer](/developer-docs/how-to-become-an-achievement-developer): overview of the steps required in obtaining developer status
+1. [How to Become an Achievement Developer](/developer-docs/jr-dev-rules): overview of the steps required in obtaining developer status
 
 2. [Getting Started as an Achievement Developer](/developer-docs/getting-started-as-an-achievement-developer): it's for the very first contact with cheevos development tools (Memory Inspector and other Achievements dialogs). **IF YOU ARE A COMPLETE NEWBIE, START HERE!**
 

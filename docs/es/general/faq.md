@@ -10,7 +10,7 @@ Si lo que quieres es una experiencia exacta de cómo jugabas a los juegos retro 
 
 Aunque podrás conseguir logros en Softcore, jugar en modo HARDCORE es la única manera de masterizar/plantinear un juego. Además, de este modo, podrás demostrar tu habilidad y destreza a tus competidores al aparecer como maestro/platino en la página del juego, y en la tabla de clasificación principal. Jugando en HARDCORE también te permitirá establecer tiempos, puntuaciones o participar y aparecer en tablas de clasificación de diversos desafíos específicos.
 
-**Nota**: Si quieres jugar con el modo HARDCORE desactivado (también conocido como "Softcore"), es posible que tengas algunos problemas. Más detalles aquí: [Por qué no debería usar la carga de partidas guardadas](/es/orphaned/load-state-feature).
+**Nota**: Si quieres jugar con el modo HARDCORE desactivado (también conocido como "Softcore"), es posible que tengas algunos problemas.
 
 ### ¿Qué son los puntos blancos?
 

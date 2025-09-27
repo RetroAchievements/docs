@@ -46,7 +46,7 @@ The Memory Inspector can be used to find addresses in RAM for us to use. Essenti
 **NOTE: If you want a step-by-step video explanation on finding memory addresses, you can [view this updated video](https://www.youtube.com/watch?v=7ZMlBVyHl5M).**
 **For another video resource, you can [view this older video](https://www.youtube.com/watch?v=8nYb_5cgQHY)**.
 
-**See also**: [Memory Inspector Overview](/developer-docs/memory-inspector) and [Memory Digging Tips](/developer-docs/tips-and-tricks#memory-digging-tips).
+**See also**: [Memory Inspector Overview](/developer-docs/memory-inspector)
 
 To start or restart a test, click **Reset** near the top left.
 
@@ -71,8 +71,6 @@ Each time you perform 4 then 5, the number of possibilities or 'candidates' will
 - **Tip**: if you'd like to experiment with memory, try entering new values directly into the RAM viewer. This can have devastating effects on the game, or it might do exactly what you expect, (or nothing at all!) It can be useful though, to see if you can enter a value and get the result you expect. Use with caution!
 
 When you've found an address you're happy with, you can write a short note for what it is and hit **Save Note**, this will store it on database, and will be automatically restored next time you load up the memory viewer for this game, wherever you are! Note that after clicking 'Save Note', the note will be automatically stored on the database, and shared so all developers will share access to these memory notes. They will all be downloaded afresh when you load a ROM. If you try to overwrite a note, it will check with you first before submitting.
-
-You can find more useful [Memory Digging Tips here](/developer-docs/tips-and-tricks#memory-digging-tips).
 
 ## Achievement Sets
 
@@ -116,7 +114,7 @@ Next we will change these values to the following:
 
 With that set, we don't have any more conditions to add, so we return to the **Achievements Dialog**. To be safe, we should save our progress by hitting **Save Local**! This saves everything to file locally to ensure that we won't lose any progress.
 
-- **Note**: An achievement should have more than one requirement to avoid it triggering at the wrong time (i.e. playing demo mode). In this example, we are using only one requirement to simplify the explanation. See more [Achievement Creation Tips here](/developer-docs/tips-and-tricks#achievement-creation-tips).
+- **Note**: An achievement should have more than one requirement to avoid it triggering at the wrong time (i.e. playing demo mode). In this example, we are using only one requirement to simplify the explanation.
 
 ## Testing the Achievement
 
@@ -138,7 +136,7 @@ Here are some tips you have to keep in mind when creating your achievements:
 
 - **~~Never~~ Avoid making achievements with only one condition as much as you can**. Otherwise it will most likely pop at the wrong time. This is the **most common error by a developer**
 
-- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to [find the address for it](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) and add a condition so your achievements don't trigger in demo mode. You'll also need to know how to use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif).
+- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to find the address for it and add a condition so your achievements don't trigger in demo mode. You'll also need to know how to use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif).
 
 - **[PauseIf](/developer-docs/flags/pauseif) cheat codes**: If the game has a cheat code to increase lives, select stages, etc., make sure to find the addresses for it and add some kind of protection in your achievements. OK, maybe it's not a very basic topic, but you have to keep it in mind when creating an official achievement set.
 
@@ -154,8 +152,6 @@ Here are some tips you have to keep in mind when creating your achievements:
 
 - It can take a while to understand how the memory works in a game, so try spending as much time with it as you can, especially if it's your first attempt at developing achievements.
 
-You can find more in the [Tips and Tricks page](/developer-docs/tips-and-tricks).
-
 ## Next Steps
 
 Now that you know how to use the Memory Inspector, and the Achievement Editor. It's time to learn new techniques and practice:
@@ -166,6 +162,4 @@ Now that you know how to use the Memory Inspector, and the Achievement Editor. I
 
 - You can also see some generic examples in the [Achievement Templates](/developer-docs/achievement-templates) page.
 
-- Once you have learned the basic techniques, you can continue your quest to become an achievement developer by following the steps explained here: [How to Become an Achievement Developer](/developer-docs/how-to-become-an-achievement-developer)
-
-Have fun!
+- Once you have learned the basic techniques, you can continue your quest to become an achievement developer by joing the [Junior Developer Program.]](/developer-docs/jr-dev-rules)

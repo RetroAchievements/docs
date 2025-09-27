@@ -50,8 +50,6 @@ O Inspetor de Memória pode ser usado para encontrar endereços na RAM que usare
 **NOTA: Se você quiser uma explicação em vídeo passo a passo sobre como encontrar endereços de memória, você pode [ver este vídeo atualizado](https://www.youtube.com/watch?v=7ZMlBVyHl5M).**
 **Para outro recurso em vídeo, você pode [ver este vídeo mais antigo](https://www.youtube.com/watch?v=8nYb_5cgQHY). Ambos vídeos estão em inglês.**
 
-**Veja também**: [Visão Geral do Inspetor de Memória](/pt/developer-docs/memory-inspector) e [Dicas de Exploração de Memória](/pt/developer-docs/tips-and-tricks#dicas-de-escavação-de-memória).
-
 Para iniciar ou reiniciar um teste, clique em **Reset** próximo ao topo à esquerda.
 
 Para manter as coisas simples, começaremos procurando pelo endereço de memória que contém o número de anéis que coletamos. Nossas etapas serão as seguintes:
@@ -138,9 +136,9 @@ Algumas dicas ao criar suas conquistas:
 
 - **~~Nunca~~ Evite fazer conquistas com apenas uma condição**. Caso contrário, provavelmente acionará no momento errado. Este é o **erro mais comum**
 
-- Se o jogo tem **modo demo**, certifique-se de [encontrar seu endereço](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) e adicione uma condição para evitar ativação nele. Você precisará usar [PauseIf](/pt/orphaned/achievement-logic-features#pauseif) e [ResetIf](/pt/orphaned/achievement-logic-features#resetif).
+- Se o jogo tem **modo demo**, certifique-se de [encontrar seu endereço](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) e adicione uma condição para evitar ativação nele. Você precisará usar PauseIf e ResetIf.
 
-- Use **[PauseIf](/pt/orphaned/achievement-logic-features#pauseif)** para códigos de trapaça: Se o jogo tem códigos para aumentar vidas, selecionar fases etc., adicione proteções.
+- Use **PauseIf** para códigos de trapaça: Se o jogo tem códigos para aumentar vidas, selecionar fases etc., adicione proteções.
 
 - **Evite criar conquistas apenas para entrar em fases**. Prefira conquistas para completar fases, [como neste modelo](/pt/developer-docs/achievement-templates#termine-nível-n).
 
@@ -155,8 +153,6 @@ Algumas dicas ao criar suas conquistas:
 ## Próximos Passos
 
 Agora que você conhece o básico, aprenda novas técnicas:
-
-- Refine sua lógica consultando [Recursos de Lógica de Conquistas](/pt/orphaned/achievement-logic-features)
 
 - Estude [Exemplos Reais](/pt/developer-docs/real-examples) de outros desenvolvedores
 

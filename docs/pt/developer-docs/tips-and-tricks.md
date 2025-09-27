@@ -1,7 +1,5 @@
 # Dicas e Truques
 
-**Link para o texto em inglês:** [Tips and Tricks](/developer-docs/tips-and-tricks)
-
 ---
 
 ## Dicas para Convenção de Nomes
@@ -68,7 +66,7 @@ Confuso? Sim. É por isso que a maioria dos iniciantes e desenvolvedores interme
 
 - **Limitações**: Há um limite de 100 achievements, um teto de 400 pontos e um limite de caracteres para uma única conquista (tente não colocar mais de 50 condições em uma conquista, isso é mais amor do que o RetroAchievements consegue lidar!).
 
-- **Alt groups** (lado esquerdo do editor) são usados para "ou" condições. O grupo Core está sempre lá e deve sempre ser verdadeiro com pelo menos um grupo Alt sendo completamente verdadeiro para obter um achievement. O grupo inteiro é a sua condição "ou". Mais informações sobre a página [Achievement Logic Features page](/pt/orphaned/achievement-logic-features).
+- **Alt groups** (lado esquerdo do editor) são usados para "ou" condições. O grupo Core está sempre lá e deve sempre ser verdadeiro com pelo menos um grupo Alt sendo completamente verdadeiro para obter um achievement. O grupo inteiro é a sua condição "ou".
 
 - **Evite o spam de achievement**. Se um jogo tiver 100 níveis, não faça um achievement para cada nível. Faça a cada 25 ou mais. Geralmente, é avaliado pela equipe de desenvolvimento da RA para codificar esses achievements do tipo "Filler". Se você pretende criar alguns desbloqueios progressivos desta maneira - as palavras: ("Fácil", "Médio", "Difícil") ajudarão a colocá-lo em contexto. Considere o segmento de tempo que um jogador casual desbloquearia esses achievements progressivos. Se, em geral, você poderia desbloquear tudo em um conjunto progressivo de achievements desta natureza em menos de meia hora como jogador casual, design de preenchimento e não recomendado.
 
