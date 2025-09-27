@@ -114,8 +114,6 @@ Em seguida, mudaremos esses valores para:
 
 Com isso configurado, não temos mais condições para adicionar, então voltamos à **Janela de Conquistas**. Para segurança, salvamos nosso progresso clicando em **Save Local**!
 
-**Nota**: Uma conquista deve ter mais de um requisito para evitar ativação no momento errado (ex: modo demo). Neste exemplo, usamos apenas um requisito para simplificar a explicação. Veja mais [Dicas de Criação de Conquistas aqui](/pt/developer-docs/tips-and-tricks#dicas-de-criação-de-conquistas).
-
 ## Testando a Conquista
 
 Podemos 'ativar' esta conquista localmente marcando a caixa **Active** no Editor ou selecionando a conquista em Achievement Sets e clicando em **Activate Selected**. Isso começará a monitorar esses locais de memória e concederá a conquista quando todas as condições forem verdadeiras.
