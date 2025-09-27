@@ -34,7 +34,6 @@ Certifique-se de que conhece o suficiente sobre o jogo para fazer um bom conjunt
 Todo desenvolvedor deve conhecer pelo menos os conceitos e técnicas básicos mostrados nestes dois documentos:
 
 1. [Começando como Desenvolvedor de Conquistas](/pt/developer-docs/getting-started-as-an-achievement-developer)
-2. [Recursos de Lógica de Conquistas](/pt/orphaned/achievement-logic-features)
 
 Qualquer aspirante a desenvolvedor deve demonstrar compreensão dos seguintes conceitos:
 

@@ -39,8 +39,6 @@ Cuando juegas en modo hardcore los puntos que consigas valen el doble. Entonces 
 
 Los usuarios que se toman en serio las tablas de clasificación son mas probables que consigan puntos en modo hardcore.
 
-**NOTA**: cuando se juega con el modo hardcore desactivado (también conocido como "softcore"), espera tener algunos problemas. Lee en [este enlace porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature).
-
 ## No Trackeado/Untracked
 
 Una cuenta **no trackeada** no aparece en el ranking global, sus actividades no aparecen en el feed, no se muestra con todos los demás usuarios que consiguieron algún logro (en la pagina del logro) y sus entradas en las tablas de clasificaciones no son publicamente visible.
@@ -172,8 +170,6 @@ El otro lado de la moneda para [permitido 2](#permitido-2). Cheat codes y modos 
 ### 1. Fast-forward esta permitido. {#permitido-1}
 
 Incluso en modo hardcore el fast-forward esta permitido, como una conveniencia de la actualidad. Es ~~casi~~ un hecho de que el fast-forward ofrece una partida justa y por eso esta disponible para que todos lo utilicen.
-
-**NOTA**:en modo _softcore_ savestates, rewind y camara-lenta también están permitidos, pero ten en cuenta que podrias llegar a tener algunos problemas. Checa [este link de Porque no deberías de utilizar la función de cargado de estado](/es/orphaned/load-state-feature).
 
 ### 2. _Cuando dice explicitamente en la descripción de logro_, cheat codes/modo dentro del juego están permitidos y herramientas de desarrollo/debug están permitidas. {#permitido-2}
 

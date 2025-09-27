@@ -124,6 +124,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
     //      text: "Quality Assurance",
     //      link: "/general/teams/qa-team",
     //    },
+    //    {
+    //      text: "DevQuest",
+    //      link: "/general/teams/devquest-team",
+    //    },
     //  ],
     // },
     {

@@ -10,8 +10,6 @@ If you want to have a one-to-one replication of how you used to play retro games
 
 While you will still be able to get achievements in Softcore, playing on HARDCORE mode is the only way to earn a Mastery for a game, displaying your skill- and prowess to your fellow retro achievers and competitors by showing up on the game's page as a master of the game, as well as on the main leaderboard. Playing on HARDCORE will also allow you to set times, scores or participate in miscellaneous challenges on game-specific leaderboards.
 
-**Note**: If you want to play with the HARDCORE mode disabled (also known as "Softcore"), expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
-
 ### What are the white points?
 
 White points, known as RetroPoints, are secondary points based on how rare an achievement is, **however this feature is not very accurate currently**. Explained [here in detail](https://retroachievements.org/viewtopic.php?t=1015).
@@ -21,9 +19,6 @@ White points, known as RetroPoints, are secondary points based on how rare an ac
 **Short answer:** Yes, it will.
 
 **Long answer:** The only correct answer to this question is "Whenever someone with the skills and desire to code support, does just that." - Everyone here is a volunteer so additional support and features happen when they happen. In many cases support for a console is dictated by the emulator(core) developer and is outside of Retroachievement's control.
-
-For more information on specific consoles you can check here:
-[System X When?](/orphaned/system-x-wen)
 
 ### How do I request an achievement set?
 

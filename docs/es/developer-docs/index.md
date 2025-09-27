@@ -16,36 +16,34 @@ A continuación se muestra una breve descripción de algunas de las páginas que
 
 5. [Visión general del inspector de memoria](/es/developer-docs/memory-inspector): visión detallada de una de las herramientas más usadas por los desarrolladores.
 
-6. [Características en la lógica de los logros](/es/orphaned/achievement-logic-features): describe las herramientas disponibles con las que un desarrollador cuenta para trabajar la lógica de un logro, como valores deltas, hit counts, ResetIf, PauseIf, Alt groups, etc.
+6. [Ejemplos reales](/es/developer-docs/real-examples): mostrando resultados reales y desglosando su lógica. **¡RECURSO DIDÁCTICO INDISPENSABLE!**
 
-7. [Ejemplos reales](/es/developer-docs/real-examples): mostrando resultados reales y desglosando su lógica. **¡RECURSO DIDÁCTICO INDISPENSABLE!**
+7. [Plantillas de logros](/es/developer-docs/achievement-templates): algunas plantillas genéricas para inspirarse.
 
-8. [Plantillas de logros](/es/developer-docs/achievement-templates): algunas plantillas genéricas para inspirarse.
+8. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inspeccionar la memoria y crear logros.
 
-9. [Consejos y trucos](/es/developer-docs/tips-and-tricks): consejos generales y trucos sobre cómo inspeccionar la memoria y crear logros.
+9. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un set de logros.
 
-10. [Escala de dificultad y equilibrio](/es/developer-docs/difficulty-scale-and-balance): guías y sugerencias de cómo equilibrar la dificultad de un set de logros.
+10. [Diseño de logros](/es/developer-docs/achievement-design): una guía sobre cómo pensar y diseñar buenos logros, no en el lado técnico, sino el conceptual.
 
-11. [Diseño de logros](/es/developer-docs/achievement-design): una guía sobre cómo pensar y diseñar buenos logros, no en el lado técnico, sino el conceptual.
+11. [Establecer un plan de desarrollo](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
 
-12. [Establecer un plan de desarrollo](/es/developer-docs/set-development-roadmap): pasos a considerar para crear un set realmente cuidado de logros.
+12. [Revisión de los sets de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
 
-13. [Revisión de los sets de logros](/es/guidelines/content/achievement-set-revisions): información sobre revisiones, cambios en los puntos, y en los iconos.
+13. [Subsets](/es/guidelines/content/subsets): tema avanzado acerca de la creación de sets de desafíos especiales y cómo lanzarlos.
 
-14. [Subsets](/es/guidelines/content/subsets): tema avanzado acerca de la creación de sets de desafíos especiales y cómo lanzarlos.
+14. [Creación de medallas e iconos](/es/guidelines/content/badge-and-icon-guidelines): algunas guías y consejos sobre la creación de medallas/iconos.
 
-15. [Creación de medallas e iconos](/es/guidelines/content/badge-and-icon-guidelines): algunas guías y consejos sobre la creación de medallas/iconos.
+15. [Tablas de clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
 
-16. [Tablas de clasificaciones](/es/developer-docs/leaderboards): instrucciones de cómo crear clasificaciones para un juego.
+16. [Presencia enriquecida](/es/developer-docs/rich-presence): cómo crear scripts sobre presencia enriquecida.
 
-17. [Presencia enriquecida](/es/developer-docs/rich-presence): cómo crear scripts sobre presencia enriquecida.
+17. [Trabajando con la ROM adecuada](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
 
-18. [Trabajando con la ROM adecuada](/es/guidelines/content/working-with-the-right-rom): información sobre el uso correcto de ROM y hashes.
+18. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema.
 
-19. [Identificación de juegos](/es/developer-docs/game-identification): detalles sobre el método usado para el "hasheo" de cada sistema.
+19. [Soporte y problemas de los emuladores](/es/general/emulator-support-and-issues): detalles sobre los núcleos admitidos y no admitidos, avances en las pruebas, etc.
 
-20. [Soporte y problemas de los emuladores](/es/general/emulator-support-and-issues): detalles sobre los núcleos admitidos y no admitidos, avances en las pruebas, etc.
+20. [Logros para ROM hacks](/es/guidelines/content/achievements-for-rom-hacks): una guía detallada para desarrolladores en la inclusion apropiada (y la aprobación) para ROM hacks.
 
-21. [Logros para ROM hacks](/es/guidelines/content/achievements-for-rom-hacks): una guía detallada para desarrolladores en la inclusion apropiada (y la aprobación) para ROM hacks.
-
-22. [Consejos específicos por consola](/es/developer-docs/console-specific-tips): conociendo las peculiaridades de tu consola favorita puede ayudar a inspeccionar la memoria.
+21. [Consejos específicos por consola](/es/developer-docs/console-specific-tips): conociendo las peculiaridades de tu consola favorita puede ayudar a inspeccionar la memoria.
