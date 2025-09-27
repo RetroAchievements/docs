@@ -169,8 +169,6 @@ O outro lado da moeda para [regra permitida 2](#allowed-2). Códigos de trapaça
 
 Mesmo no modo hardcore, o avanço rápido é permitido, como uma conveniência moderna. É ~~quase~~ um consenso que o avanço rápido não oferece risco ao jogo justo e, portanto, está disponível para todos usarem.
 
-**NOTA**: no modo _softcore_, savestates, rewind e slow motion também são permitidos, mas espere ter alguns problemas. Leia [neste link Por que você não deve usar o recurso de load state](/orphaned/load-state-feature).
-
 ### 2. _Quando explicitamente dito na descrição da conquista_, códigos/modos de trapaça no jogo e ferramentas de depuração no jogo são permitidos. {#allowed-2}
 
 Isso é um complemento para a [regra não permitida 2](#not-allowed-2).

@@ -138,9 +138,9 @@ Here are some tips you have to keep in mind when creating your achievements:
 
 - **~~Never~~ Avoid making achievements with only one condition as much as you can**. Otherwise it will most likely pop at the wrong time. This is the **most common error by a developer**
 
-- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to [find the address for it](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) and add a condition so your achievements don't trigger in demo mode. You'll also need to know how to use [PauseIf](/orphaned/achievement-logic-features#pauseif) and [ResetIf](/orphaned/achievement-logic-features#resetif).
+- If the game has a **demo mode** (AI plays the game after you wait a while on the title screen), make sure to [find the address for it](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) and add a condition so your achievements don't trigger in demo mode. You'll also need to know how to use [PauseIf](/developer-docs/flags/pauseif) and [ResetIf](/developer-docs/flags/resetif).
 
-- **[PauseIf](/orphaned/achievement-logic-features#pauseif) cheat codes**: If the game has a cheat code to increase lives, select stages, etc., make sure to find the addresses for it and add some kind of protection in your achievements. OK, maybe it's not a very basic topic, but you have to keep it in mind when creating an official achievement set.
+- **[PauseIf](/developer-docs/flags/pauseif) cheat codes**: If the game has a cheat code to increase lives, select stages, etc., make sure to find the addresses for it and add some kind of protection in your achievements. OK, maybe it's not a very basic topic, but you have to keep it in mind when creating an official achievement set.
 
 - **Avoid creating achievements for just entering a stage.** As it can be earned by a password or a stage select cheat code. It is preferred to make achievements for finishing stages, [like in this template here](/developer-docs/achievement-templates#finish-level-n). Also, **do not create achievements for just starting a game or "starting a game with character X"**.
 
@@ -160,7 +160,7 @@ You can find more in the [Tips and Tricks page](/developer-docs/tips-and-tricks)
 
 Now that you know how to use the Memory Inspector, and the Achievement Editor. It's time to learn new techniques and practice:
 
-- In order to refine your achievement logic, you can see what features you have in the [Achievement Logic Features](/orphaned/achievement-logic-features) page.
+- In order to refine your achievement logic, you can see what features you have in the [Achievement Development Overview](//developer-docs/achievement-development-overview) page.
 
 - Another way to learn is by looking at existing achievements that other devs made with an extra explanation in the [Real Examples](/developer-docs/real-examples) page.
 

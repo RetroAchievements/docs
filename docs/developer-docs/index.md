@@ -16,34 +16,32 @@ Now a brief description some pages you'll see in this section.
 
 5. [Memory Inspector Overview](/developer-docs/memory-inspector): detailed look at one of an achievement developer's most used tools.
 
-6. [Achievement Logic Features](/orphaned/achievement-logic-features): describes the available tools a developer have in order to improve the logic behind the achievements, such as delta values, hit counts, ResetIf, PauseIf, Alt groups, etc.
+6. [Real Examples](/developer-docs/real-examples): showing real examples and breaking down the logic behind them. **AWESOME LEARNING RESOURCE!**
 
-7. [Real Examples](/developer-docs/real-examples): showing real examples and breaking down the logic behind them. **AWESOME LEARNING RESOURCE!**
+7. [Achievement Templates](/developer-docs/achievement-templates): some generic templates to get inspiration.
 
-8. [Achievement Templates](/developer-docs/achievement-templates): some generic templates to get inspiration.
+8. [Tips and Tricks](/developer-docs/tips-and-tricks): general tips and tricks about memory digging and achievement creation.
 
-9. [Tips and Tricks](/developer-docs/tips-and-tricks): general tips and tricks about memory digging and achievement creation.
+9. [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance): guidelines/suggestions on how to balance the difficulty of your achievement set.
 
-10. [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance): guidelines/suggestions on how to balance the difficulty of your achievement set.
+10. [Achievement Design](/developer-docs/achievement-design): a guide on how to think about and design good achievements, not the technical side but the conceptual.
 
-11. [Achievement Design](/developer-docs/achievement-design): a guide on how to think about and design good achievements, not the technical side but the conceptual.
+11. [Achievement Set Revisions](/guidelines/content/achievement-set-revisions): information on revisions, rescores, and the icon gauntlet.
 
-12. [Achievement Set Revisions](/guidelines/content/achievement-set-revisions): information on revisions, rescores, and the icon gauntlet.
+12. [Subsets](/guidelines/content/subsets): an advanced topic on creating special challenge sets and how to release them.
 
-13. [Subsets](/guidelines/content/subsets): an advanced topic on creating special challenge sets and how to release them.
+13. [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines): some guidelines and tips about badge/icon creation.
 
-14. [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines): some guidelines and tips about badge/icon creation.
+14. [Leaderboards](/developer-docs/leaderboards): instructions on how to create Leaderboards for a game.
 
-15. [Leaderboards](/developer-docs/leaderboards): instructions on how to create Leaderboards for a game.
+15. [Rich Presence](/developer-docs/rich-presence): how to write Rich Presence Scripts.
 
-16. [Rich Presence](/developer-docs/rich-presence): how to write Rich Presence Scripts.
+16. [Working with the Right ROM](/guidelines/content/working-with-the-right-rom): information on using correct ROMs and hashes.
 
-17. [Working with the Right ROM](/guidelines/content/working-with-the-right-rom): information on using correct ROMs and hashes.
+17. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
 
-18. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
+18. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
 
-19. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
+19. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
 
-20. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
-
-21. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.
+20. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.

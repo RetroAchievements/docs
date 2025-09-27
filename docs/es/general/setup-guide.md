@@ -26,8 +26,6 @@ Pendiente
 
 ### RALibretro
 
-Pendiente - por ahora, ver [RALibretro](/orphaned/ralibretro)
-
 ---
 
 ### RAMeka

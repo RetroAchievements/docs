@@ -182,8 +182,6 @@ The other side of the coin for [allowed 2](#allowed-2). Cheat codes and debug mo
 
 Even in hardcore mode fast-forward is allowed, as a modern convenience. It's ~~almost~~ a consensus that fast-forward offers no risk to the fairplay and then it's available for everyone to use it.
 
-**NOTE**: in _softcore_ mode savestates, rewind and slow motion are also allowed, but expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
-
 ### 2. _When explicitly said in achievement's description_, in-game cheat codes/modes and in-game debug tools are allowed. {#allowed-2}
 
 This is a complement to the [not allowed rule 3](#not-allowed-3).

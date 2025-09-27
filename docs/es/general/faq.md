@@ -22,9 +22,6 @@ Puntos blancos, conocidos como RetroPoints, son puntos secundarios basados en la
 
 **Respuesta larga:** La única respuesta correcta a esta pregunta es: "Siempre que alguien con la habilidad y el deseo de darle soporte lo haga." Todo el mundo aquí es voluntario, así que el soporte y las novedades ocurren cuando ocurren. En muchos casos el soporte para una consola viene dado por el desarrollo del emulador (núcleo) y está fuera del control de RetroAchievements.
 
-Para más información de una consola específica, puedes echarle un vistazo a:
-[¿Para cuándo X sistema? (EN)](/orphaned/system-x-wen)
-
 ### ¿Cómo puedo solicitar un set de logros?
 
 En la página de cada juego hay un enlace a "Request Set" (Solicitar set).

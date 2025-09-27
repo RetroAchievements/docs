@@ -14,8 +14,6 @@ No exemplo a seguir, **RAGens** (nossa versão personalizada do emulador Gens do
 
 O modo HARDCORE é um recurso adicional que separa os bons jogadores dos grandes jogadores! Ao habilitar esse modo, você ficará impossibilitado de carregar um arquivo de "savestate" previamente salvo, ou seja: o jogo não mais poderá ser salvo e carregado a qualquer momento. Ao habilitar o modo HARDCORE, você deverá completar o jogo assim como ele foi projetado em seu console original e ganhar as suas conquistas sem a ajuda de recursos extras. Como recompensa, toda vez que habilitar uma conquista nesse modo, duas versões da mesma conquista serão presenteadas: a sua versão normal (ou SOFTCORE) e a sua versão HARDCORE, cada uma delas somando a mesma quantidade de pontos ao seu placar totalizando o dobro de pontos que iriam ser ganhos com o modo HARDCORE desabilitado. Um jogo com um total de 400 pontos poderá lhe conferir 800 pontos caso você ganhe todas as conquistas disponíveis no modo HARCORE!
 
-**Nota**: Ao jogar no modo "SOFTCORE" e usar as opções de "savestate" para salvar e carregar o seu jogo a qualquer momento, comportamentos inesperados por parte das conquistas poderão ser observados. Para mais informações, leia o informe em: [Why you shouldn't use the load state feature](/orphaned/load-state-feature)
-
 ## Qual emulador eu preciso usar?
 
 Os emuladores oficiais do RetroAchiements.org são todos baseados em Windows. Para outros sistemas operacionais, você pode usar o RetroArch. Mais informações abaixo:
