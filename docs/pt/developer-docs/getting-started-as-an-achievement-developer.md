@@ -132,8 +132,6 @@ Algumas dicas ao criar suas conquistas:
 
 - **~~Nunca~~ Evite fazer conquistas com apenas uma condição**. Caso contrário, provavelmente acionará no momento errado. Este é o **erro mais comum**
 
-- Se o jogo tem **modo demo**, certifique-se de [encontrar seu endereço](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) e adicione uma condição para evitar ativação nele. Você precisará usar PauseIf e ResetIf.
-
 - Use **PauseIf** para códigos de trapaça: Se o jogo tem códigos para aumentar vidas, selecionar fases etc., adicione proteções.
 
 - **Evite criar conquistas apenas para entrar em fases**. Prefira conquistas para completar fases, [como neste modelo](/pt/developer-docs/achievement-templates#termine-nível-n).
