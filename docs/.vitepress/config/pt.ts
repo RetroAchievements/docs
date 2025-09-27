@@ -187,6 +187,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       text: "Tratamento de Tickets",
     //       link: "/pt/guidelines/developers/handling-tickets",
     //     },
+    //     {
+    //       text: "Set and Achievement Contribution Credit",
+    //       link: "/guidelines/developers/credit",
+    //     },
     //   ],
     // },
     // {
