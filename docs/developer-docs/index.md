@@ -20,28 +20,26 @@ Now a brief description some pages you'll see in this section.
 
 7. [Achievement Templates](/developer-docs/achievement-templates): some generic templates to get inspiration.
 
-8. [Tips and Tricks](/developer-docs/tips-and-tricks): general tips and tricks about memory digging and achievement creation.
+8. [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance): guidelines/suggestions on how to balance the difficulty of your achievement set.
 
-9. [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance): guidelines/suggestions on how to balance the difficulty of your achievement set.
+9. [Achievement Design](/developer-docs/achievement-design): a guide on how to think about and design good achievements, not the technical side but the conceptual.
 
-10. [Achievement Design](/developer-docs/achievement-design): a guide on how to think about and design good achievements, not the technical side but the conceptual.
+10. [Achievement Set Revisions](/guidelines/content/achievement-set-revisions): information on revisions, rescores, and the icon gauntlet.
 
-11. [Achievement Set Revisions](/guidelines/content/achievement-set-revisions): information on revisions, rescores, and the icon gauntlet.
+11. [Subsets](/guidelines/content/subsets): an advanced topic on creating special challenge sets and how to release them.
 
-12. [Subsets](/guidelines/content/subsets): an advanced topic on creating special challenge sets and how to release them.
+12. [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines): some guidelines and tips about badge/icon creation.
 
-13. [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines): some guidelines and tips about badge/icon creation.
+13. [Leaderboards](/developer-docs/leaderboards): instructions on how to create Leaderboards for a game.
 
-14. [Leaderboards](/developer-docs/leaderboards): instructions on how to create Leaderboards for a game.
+14. [Rich Presence](/developer-docs/rich-presence): how to write Rich Presence Scripts.
 
-15. [Rich Presence](/developer-docs/rich-presence): how to write Rich Presence Scripts.
+15. [Working with the Right ROM](/guidelines/content/working-with-the-right-rom): information on using correct ROMs and hashes.
 
-16. [Working with the Right ROM](/guidelines/content/working-with-the-right-rom): information on using correct ROMs and hashes.
+16. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
 
-17. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
+17. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
 
-18. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
+18. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
 
-19. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
-
-20. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.
+19. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.

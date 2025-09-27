@@ -72,8 +72,6 @@ Cada vez que você executa 4 e depois 5, o número de possibilidades ou 'candida
 
 Quando você encontrar um endereço com o qual está satisfeito, você pode escrever uma breve nota sobre o que é e clicar em **Save Note**, isso o armazenará no banco de dados. Note que a nota será compartilhada com todos os desenvolvedores e será baixada novamente quando você carregar uma ROM. Se você tentar sobrescrever uma nota, ela verificará com você primeiro antes de enviar.
 
-Você pode encontrar mais [Dicas de Exploração de Memória úteis aqui](/pt/developer-docs/tips-and-tricks#dicas-de-escavação-de-memória).
-
 ## Conjuntos de Conquistas
 
 O local de memória para o número de anéis está armazenado em `0xfe20` - para um não-programador, estamos lidando com o [sistema numeral hexadecimal](https://simple.wikipedia.org/wiki/Hexadecimal_numeral_system) que pode ser intimidante, mas não se preocupe, são apenas números e letras em vez de só números, e não esqueça do `0x` no início para indicar que é um local de memória em hexadecimal. Encontramos um endereço que nos interessa e o armazenamos usando **Save Note**. Agora vamos criar uma nova conquista.
