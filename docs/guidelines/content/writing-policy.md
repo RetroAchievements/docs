@@ -55,7 +55,7 @@ Creative titles for achievements are more enjoyable for players than exact descr
 - References - References are always a fun idea for achievements, especially when you are designing achievements for a game of a bigger franchise. If the same level appears in an earlier/later game for example, using a title that emphasizes that familiarity will always be pleasing to fans of the game. Please keep in mind that references to current events in the world as well as memes are generally discouraged due to them eventually losing relevance.
 
   - Example 1: There is a zone called Default Zone in game 1, and game 2 has another variation of it. “This Looks… Familiar” could therefore be a good title.
-  - Example 2: In the animated TV series of the game you are developing for, when defeating the villain he screams ‘’This Isn’t the End!!!’’. Making that the title or a variation such as ‘’Actually, This Is the End!’’always works.
+  - Example 2: In the animated TV series of the game you are developing for, when defeating the villain he screams ‘’This Isn’t the End!!!’’. Making that the title or a variation such as ‘’Actually, This Is the End!’’ always works.
 
 - Puns - Puns can give a lot of life to an otherwise boring achievement title. To construct a pun, take a word that is related to what the player is doing to earn the achievement and combine it with another common word or phrase in a humorous way.
 
@@ -95,6 +95,9 @@ In general, only the first letter of a new sentence is capitalized. In English, 
     - The level is called ‘’Level 1-1’’. Due to the game marking that as its full name, it must be capitalized as ‘’Level 1-1’’.
     - The game gives you a variation of a regular arrow called the Ice Arrow. Given its specific name, it must be capitalized as ‘’Ice Arrow’’.
     - The game contains a specific item named “Arrow’’. The game usually capitalizes this item when this is the case, and so should you.
+    
+- Difficulty/Mode names - When you are using a difficulty or mode condition in your achievement, the **name** of the difficulty or mode should always be capitalized. Note that the word "difficulty" and "mode" themselves should not be capitalized.
+   - Examples: Finish the game on **Hard difficulty**, Finish the game in **Mirror mode**.
 
 ---
 
@@ -114,7 +117,7 @@ Abbreviations should generally only be used for honorary titles or degrees such 
 
 Brackets/Parentheses (hereafter referred to as grouping symbols) in descriptions may be used by developers if required to note specific conditions of an achievement to make them stand out more from the regular conditions. While very useful, we urge you to think carefully on when to use them. If one or multiple achievements only have one specific condition, or a condition that influences your entire playthrough, we recommend to rewrite them in such a way to make them into a singular flowing sentence. Common conditions such as the difficulty setting, or objectives like taking no damage or losing less than a specified threshold or lives usually have no place within grouping symbols.
 
-**Example of how you should write the description:** "Beat the game on hard difficulty without losing a life".<br>
+**Example of how you should write the description:** "Beat the game on Hard difficulty without losing a life".<br>
 **Example of how you should NOT write the description:** "Beat the game [no lives lost, hard difficulty]".<br>
 
 Furthermore, it is also recommended to carefully consider whether a condition has a place in your description before even thinking of using grouping symbols. If an achievement can be gained on any difficulty, or the settings a player can select have no impact on unlocking an achievement, it is not necessary to be mentioned in the description--especially when there are other achievements that do have restrictions. For example, "Beat Hasty Highway on any difficulty with any starting lives" is irrelevant for the description, and can be shortened to just "Beat Hasty Highway". Likewise, if the achievement must be obtained on default settings, then mentioning just that is more than sufficient; there is no need to go in-depth on each setting, like rounds set to 3 lasting 60 seconds each, when these are the default settings and can be summed up as such.
@@ -144,8 +147,8 @@ Another welcome use of brackets specifically is at the start of a description wh
 
 Just like with brackets, symbols have been used to describe conditions but are also discouraged. The most common ones are to describe a condition being lower (< / <=) or higher (> / =>). For this, we also ask you to rewrite the text of the description with this condition in mind.
 
-**Example of how you should write the description:** ‘’Beat the game on hard mode without losing more than five lives’’.<br>
-**Example of how you should NOT write the description:** ‘’Beat the game on hard mode [lives lost <= 5]’’.<br>
+**Example of how you should write the description:** ‘’Beat the game on Hard mode without losing more than five lives’’.<br>
+**Example of how you should NOT write the description:** ‘’Beat the game on Hard mode [lives lost <= 5]’’.<br>
 
 Just like achievement titles, the usage of emojis is <u>**not allowed**</u> in descriptions.
 
@@ -169,7 +172,7 @@ As an international community, we don’t expect every developer to write with p
 
 Consistency is also preferred in the use of common words to describe an achievement. For finishing a level or boss for example, the most common words used are “beat”, “finish”, “clear”, “defeat” as well as a few others. Please only use one of them when working with multiple achievements that have the same theme - if the achievement description for finishing level 1 says “Defeat the boss of level 1”, the achievement description for level 2 shouldn’t say “Beat the boss of level 2” unless there is a good reason to use the different word. Stick to using the same words to describe the same things within a group of similar achievements.
 
-If a challenge condition, such as “on normal difficulty or higher” or “no cheats”, applies to almost every achievement in the set, it is recommended to note this condition through a zero-point achievement (usually awarded at the start of the game), a forum post, or comments rather than repeating “on normal difficulty or higher” in the description of every achievement.
+If a challenge condition, such as “on Normal difficulty or higher” or “no cheats”, applies to almost every achievement in the set, it is recommended to note this condition through a zero-point achievement (usually awarded at the start of the game), a forum post, or comments rather than repeating “on Normal difficulty or higher” in the description of every achievement.
 
 ---
 

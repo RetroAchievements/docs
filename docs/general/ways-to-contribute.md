@@ -1,9 +1,9 @@
 ---
-title: Ways to Contribute
+title: How to contribute if you're not a developer
 description: If you do not wish to become an achievement developer, but would still like to contribute to RetroAchievements, there are many ways to do so.
 ---
 
-# Ways to Contribute
+# How to contribute if you're not a developer
 
 If you do not wish to become an achievement developer, but would still like to contribute to RetroAchievements, there are many ways to do so:
 
