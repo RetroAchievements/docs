@@ -30,7 +30,7 @@ Users have control over their experience through our content filtering and warni
 ### How to Report Concerns
 
 - **User behavior concerns** (harassment, spam, Code of Conduct violations): Contact [RAdmin](https://retroachievements.org/messages/create?to=RAdmin) or reach out privately to a member of the moderation team.
-- **Game/set content concerns**: Contact [RAdmin](https://retroachievements.org/messages/create?to=RAdmin). While we don't curate based on game content, we want to hear feedback about our content warning and filtering systems.
+- **Game/set content concerns**: Contact [RAdmin](https://retroachievements.org/messages/create?to=RAdmin). While we don't curate based on game content, we welcome feedback about our content warning and filtering systems.
 
 ## Rules
 
