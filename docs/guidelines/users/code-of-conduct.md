@@ -90,7 +90,7 @@ If you have criticism, you're very welcome to say it, just be sure to be civil.
 
 ## How Moderation Works
 
-If you feel moderation is needed, ping the @moderator role on our Discord server, or direct your issues to RAdmin, a shared mod-mail account. If you prefer anonymity, reaching out to an active moderator privately is also an option.
+If you feel moderation is needed, ping the @Moderator role on our Discord server, or send an on-site DM to [RAdmin](https://retroachievements.org/messages/create?to=RAdmin), a shared mod-mail account. If you prefer anonymity, reaching out to an active moderator privately is also an option.
 
 The moderation goal is to assure all users adhere to the User's Code of Conduct. While this Code of Conduct is comprehensive, our moderators reserve the right to take action against violations that threaten a safe- and healthy community.
 
