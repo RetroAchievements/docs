@@ -94,7 +94,7 @@ If you feel moderation is needed, ping the @Moderator role on our Discord server
 
 The moderation team's goal is to ensure all users adhere to the [User's Code of Conduct](/guidelines/users/code-of-conduct). While this Code of Conduct is comprehensive, our moderators reserve the right to take action against violations that threaten a safe, healthy, and inclusive community.
 
-Our intention is always to resolve issues diplomatically, asking users to take a step back or remind them of the rules. If this is ignored, additional action will be taken that will be applied to your Discord account, as well as your RetroAchievements account.
+We prioritize resolving issues diplomatically by first asking users to step back and reminding them of our community rules. However, if these warnings are ignored, we will take enforcement action against both your Discord and RetroAchievements accounts.
 
 - If the violation is low, moderators may opt to mute the user, restricting all their social capabilities on both the Discord server and the site. This will not affect anything related to earning achievements. Likewise, you will be able to contact team accounts during this mute duration.
    - Note that once a (junior) developer breaks the Code of Conduct and receives a mute, this will double as a developer ban at the discretion of Developer Compliance or the Code Reviewer team. Moderators will inform the teams when this happens.
