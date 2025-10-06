@@ -100,7 +100,7 @@ We prioritize resolving issues diplomatically by first asking users to step back
    - Note that if a Developer or Junior Developer breaks the Code of Conduct and receives a mute, the mute also doubles as a developer suspension at the discretion of Developer Compliance or the Code Reviewer team. Moderators will inform the teams when this happens.
 - Severe violations will result in a ban on your account, removing you from the Discord server and making your RetroAchievements profile inaccessible.
 
-Note: Violations that result in mutes are shared between the Discord server and RetroAchievements site. Likewise, a ban on our site will automatically result in a ban on Discord. A ban from the Discord may lead to a RetroAchievement site ban or other restrictive action taken, depending on the severity. 
+Note: Violations that result in mutes are shared between the Discord server and RetroAchievements site. Likewise, a ban on our site will automatically result in a ban on Discord. A ban from the Discord may lead to a RetroAchievements site ban or other restrictive action taken, depending on the severity. 
 
 If you've been banned and want to appeal to have your access back, send an email to <ramodmail@gmail.com> or a Direct Message to [RAdmin](http://retroachievements.org/createmessage.php?t=RAdmin).
 
