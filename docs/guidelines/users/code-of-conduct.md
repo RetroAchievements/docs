@@ -102,7 +102,7 @@ We prioritize resolving issues diplomatically by first asking users to step back
 
 Note: Violations that result in mutes are shared between the Discord server and RetroAchievements site. Likewise, a ban on our site will automatically result in a ban on Discord. A ban from the Discord may lead to a RetroAchievements site ban or other restrictive action taken, depending on the severity. 
 
-If you've been banned and want to appeal to have your access back, send an email to <ramodmail@gmail.com> or a Direct Message to [RAdmin](http://retroachievements.org/createmessage.php?t=RAdmin).
+If you've been banned and want to appeal to have your account restored, send an email to <ramodmail@gmail.com> or a Direct Message to [RAdmin](https://retroachievements.org/messages/create?to=RAdmin).
 
 ### What to do if you think moderation is wrong
 
