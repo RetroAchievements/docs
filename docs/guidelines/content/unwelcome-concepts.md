@@ -164,10 +164,13 @@ This restriction helps in preventing inappropriate or offensive content from sho
 
 ## Banned Titles
 
-While we at RetroAchievements recognize that the content of retro video games may be divisive or out of touch with how global cultures have developed over time, we believe it's necessary to support content from all sides of gaming history and to play our part in preserving this era in video games, be it good or bad. Depending on the severity, the admin team may opt to remove point values or otherwise take action to keep troublesome content from being incentivized, but as a matter of policy, we only ban retail games from the site on the basis of preventing legal issues. Below is an incomplete list of such titles, to be updated as necessary.
+While we at RetroAchievements recognize that the content of retro video games may be divisive or out of touch with how global cultures have developed over time, we believe it's necessary to support content from all sides of gaming history and to play our part in preserving this era in video games, be it good or bad. Depending on the severity, the admin team may opt to remove point values or otherwise take action to keep troublesome content from being incentivized. Below is an incomplete list of such titles, to be updated as necessary.
 
 |                     Title                     | Year |      Platform      |
 | :-------------------------------------------: | :--: | :----------------: |
-| • Lolita Syndrome<br>• ロリータ・シンドローム | 1983 |    FM-7, PC-88     |
-|        • My Lolita<br>• マイ・ロリータ        | 1984 |    FM-7, PC-88     |
-|                • The Guy Game                 | 2004 | PS2, Xbox, Windows |
+|                  177                        | 1986 |       PC-88        |
+|             Custer's Revenge                | 1982 |     Atari 2600     |
+| Lolita Syndrome<br>ロリータ・シンドローム | 1983 |    FM-7, PC-88     |
+|        My Lolita<br>マイ・ロリータ        | 1984 |    FM-7, PC-88     |
+|              Pokemon Clover                 | 2017 |     GBA (ROM)      |
+|                The Guy Game                 | 2004 | PS2, Xbox, Windows |
