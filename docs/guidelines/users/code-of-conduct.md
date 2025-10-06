@@ -97,7 +97,7 @@ The moderation team's goal is to ensure all users adhere to the [User's Code of 
 We prioritize resolving issues diplomatically by first asking users to step back and reminding them of our community rules. However, if these warnings are ignored, we will take enforcement action against both your Discord and RetroAchievements accounts.
 
 - If the violation is minor, moderators may opt to mute the user, restricting all their social capabilities on both the Discord server and the site. This does not affect anything related to earning achievements. Likewise, the user will be able to contact team accounts during this mute duration.
-   - Note that once a (junior) developer breaks the Code of Conduct and receives a mute, this will double as a developer ban at the discretion of Developer Compliance or the Code Reviewer team. Moderators will inform the teams when this happens.
+   - Note that if a Developer or Junior Developer breaks the Code of Conduct and receives a mute, the mute also doubles as a developer suspension at the discretion of Developer Compliance or the Code Reviewer team. Moderators will inform the teams when this happens.
 - Severe violations will result in a ban on your account, removing you from the Discord server and making your RetroAchievements profile inaccessible.
 
 Note: Violations that result in mutes are shared between the Discord server and RetroAchievements site. Likewise, a ban on our site will automatically result in a ban on Discord. A ban from the Discord may lead to a RetroAchievement site ban or other restrictive action taken, depending on the severity. 
