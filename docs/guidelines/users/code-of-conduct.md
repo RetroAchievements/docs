@@ -90,21 +90,19 @@ If you have criticism, you're very welcome to say it, just be sure to be civil.
 
 ## How Moderation Works
 
-If you feel moderation is needed, ping the @mod role on our Discord server, or direct your issues to [RAdmin](http://retroachievements.org/createmessage.php?t=RAdmin), a shared mod-mail account.
+If you feel moderation is needed, ping the @moderator role on our Discord server, or direct your issues to RAdmin, a shared mod-mail account. If you prefer anonymity, reaching out to an active moderator privately is also an option.
 
-The moderation goal is to assure users adhere to the User's Code of Conduct.
+The moderation goal is to assure all users adhere to the User's Code of Conduct. While this Code of Conduct is comprehensive, our moderators reserve the right to take action against violations that threaten a safe- and healthy community.
 
-What a moderator should do after seeing a breach to the Code of Conduct:
+Our intention is always to resolve issues diplomatically, asking users to take a step back or remind them of the rules. If this is ignored, additional action will be taken that will be applied to your Discord account, as well as your RetroAchievements account.
 
-1. Formal and diplomatic warning (no sarcasm, no threatening tone).
+- If the violation is low, moderators may opt to mute the user, restricting all their social capabilities on both the Discord server and the site. This will not affect anything related to earning achievements. Likewise, you will be able to contact team accounts during this mute duration.
+   - Note that once a (junior) developer breaks the Code of Conduct and receives a mute, this will double as a developer ban at the discretion of Developer Compliance or the Code Reviewer team. Moderators will inform the teams when this happens.
+- Severe violations will result in a ban on your account, removing you from the Discord server and making your RetroAchievements profile inaccessible.
 
-2. If the warning is ignored, the offender will be kicked from our Discord server.
+Note: Violations that result in mutes are shared between the Discord server and RetroAchievements site. Likewise, a ban on our site will automatically result in a ban on Discord. A ban from the Discord may lead to a RetroAchievement site ban or other restrictive action taken, depending on the severity. 
 
-3. If the offender continues to ignore the moderation, they'll be banned from our Discord server. If the offender has the "Developer" role on the website, their privileges will be removed.
-
-**Note**: on the website there's no "kick". If the offender ignores the warning, the next step is a ban.
-
-If you've been banned and somehow want to appeal to have your access back, send an email to <ramodmail@gmail.com> or a Direct Message to [RAdmin](http://retroachievements.org/createmessage.php?t=RAdmin).
+If you've been banned and want to appeal to have your access back, send an email to <ramodmail@gmail.com> or a Direct Message to [RAdmin](http://retroachievements.org/createmessage.php?t=RAdmin).
 
 ### What to do if you think moderation is wrong
 
@@ -116,9 +114,7 @@ Admins/mods who do not follow or enforce this Code of Conduct in good faith may 
 
 ### When a member gets banned from the Discord server, are they automatically banned from the website?
 
-No.
-
-The member will still be able to use our services to play retrogames with achievements. But if the disruptive behavior continues on the website, they'll be banned from there too.
+Not always, but it may happen depending on the severity. 
 
 ### I created a Discord server because I want more freedom than what I have on the official RetroAchievements server. Can I promote my server here?
 
