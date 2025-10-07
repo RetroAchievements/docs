@@ -172,5 +172,6 @@ While we at RetroAchievements recognize that the content of retro video games ma
 |             Custer's Revenge                | 1982 |     Atari 2600     |
 | Lolita Syndrome<br>ロリータ・シンドローム | 1983 |    FM-7, PC-88     |
 |        My Lolita<br>マイ・ロリータ        | 1984 |    FM-7, PC-88     |
-|              Pokemon Clover                 | 2017 |     GBA (ROM)      |
+|              Pokemon Clover                 | 2017 |     GBA       |
+| Pokemon Periwinkle Version - Special Blobbos Edition | 2019 | GBA |
 |                The Guy Game                 | 2004 | PS2, Xbox, Windows |
