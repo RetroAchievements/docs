@@ -164,14 +164,31 @@ This restriction helps in preventing inappropriate or offensive content from sho
 
 ## Banned Titles
 
-While we at RetroAchievements recognize that the content of retro video games may be divisive or out of touch with how global cultures have developed over time, we believe it's necessary to support content from all sides of gaming history and to play our part in preserving this era in video games, be it good or bad. Depending on the severity, the admin team may opt to remove point values or otherwise take action to keep troublesome content from being incentivized. Below is an incomplete list of such titles, to be updated as necessary.
+RetroAchievements will not approve achievement sets for games that contain:
+- Illegal content. Content that is illegal to own or distribute in major jurisdictions.
+- Glorified hate speech. Content that intentionally targets individuals or groups based on race, ethnicity, religion, gender, sexual orientation, or other protected characteristics.
+- Sexual exploitation. Glorification of sexual assault, non-consensual acts, or child sexual abuse material.
+- Extreme or abhorrent content. Content that violates community standards in a way that undermines RetroAchievements’ values.
+
+Games that have been rated by official ratings boards (ESRB, PEGI, or similar organizations) are considered acceptable, as these games have undergone professional content review. The only exception is if a game contains content that is illegal to own or distribute, regardless of its rating status.
+
+Hacks, homebrew, and unlicensed games do not undergo ratings board review and will receive additional scrutiny to ensure compliance with this new policy.
+
+This policy provides guidance, but is not exhaustive. The RA team reserves the right to evaluate games on a case-by-case basis and make determinations in the best interest of maintaining a safe, legal, welcoming, and inclusive community.
+
+### Retail Releases
 
 |                     Title                     | Year |      Platform      |
 | :-------------------------------------------: | :--: | :----------------: |
-|                  177                        | 1986 |       PC-88        |
-|             Custer's Revenge                | 1982 |     Atari 2600     |
-| Lolita Syndrome<br>ロリータ・シンドローム | 1983 |    FM-7, PC-88     |
-|        My Lolita<br>マイ・ロリータ        | 1984 |    FM-7, PC-88     |
-|              Pokemon Clover                 | 2017 |     GBA       |
-| Pokemon Periwinkle Version - Special Blobbos Edition | 2019 | GB |
-|                The Guy Game                 | 2004 | PS2, Xbox, Windows |
+|                  177                          | 1986 |       PC-88        |
+|             Custer's Revenge                  | 1982 |     Atari 2600     |
+| Lolita Syndrome<br>ロリータ・シンドローム        | 1983 |    FM-7, PC-88     |
+|        My Lolita<br>マイ・ロリータ              | 1984 |    FM-7, PC-88     |
+|                The Guy Game                   | 2004 | PS2, Xbox, Windows |
+
+### Hacks, Homebrew, and Unlicensed Releases
+
+|                     Title                            | Year | Platform |
+| :--------------------------------------------------: | :--: | :------: |
+|              Pokemon Clover                          | 2017 | GBA      |
+| Pokemon Periwinkle Version - Special Blobbos Edition | 2019 | GB       |
