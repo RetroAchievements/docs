@@ -190,5 +190,5 @@ This policy provides guidance, but is not exhaustive. The RA team reserves the r
 
 |                     Title                            | Year | Platform |
 | :--------------------------------------------------: | :--: | :------: |
-|              Pokemon Clover                          | 2017 | GBA      |
+|              Pokémon Clover                          | 2017 | GBA      |
 | Pokemon Periwinkle Version - Special Blobbos Edition | 2019 | GB       |
