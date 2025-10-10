@@ -152,7 +152,9 @@ Hubs are used to categorize game pages in a variety of ways. Links to similar ga
 
 - Developers can reuse a hub from [Meta - Available Hubs](https://retroachievements.org/hub/3029) if any are available. Simply rename the hub and unlink it from the Meta hub.
 - Certain members of the Site Cleanup Team can create new hubs in the management app.
-- As a general rule of thumb, hubs should only be made if they include at least 3 games.
+- [Series](https://retroachievements.org/hub/3), [Publisher](https://retroachievements.org/hub/958), and non-homebrew [Developer](https://retroachievements.org/hub/5733) hubs should only be made if they include at least 3 games.
+	- Homebrew Developer and [Hacker](https://retroachievements.org/hub/913) hubs should have at least 5 games.
+	- Some other hub types, like [Theme](https://retroachievements.org/hub/5699), [Setting](https://retroachievements.org/hub/29405), and [Protagonist](https://retroachievements.org/hub/5743), require a significantly higher number of games and will be made very sparingly.
 - Take care not to create frivolous hubs - hub lists on game pages can already be too long as it is.
 
 ### Common Hubs
