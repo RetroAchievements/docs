@@ -80,7 +80,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           link: "/general/how-ra-works",
         },
         {
-          text: "Ways to Contribute",
+          text: "How to contribute if you're not a developer",
           link: "/general/ways-to-contribute",
         },
         {
@@ -183,6 +183,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         {
           text: "Handling Tickets",
           link: "/guidelines/developers/handling-tickets",
+        },
+        {
+          text: "Set and Achievement Contribution Credit",
+          link: "/guidelines/developers/credit",
         },
       ],
     },
