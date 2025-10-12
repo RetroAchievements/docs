@@ -80,8 +80,9 @@ Legacy quests ([DQ4](#004-veteran-developer), [DQ15](#015-console-conqueror) and
 
 ![DQ004](https://retroachievements.org/Images/069722.png)
 
-**Type**: Legacy 
-**Goal**: Complete a set of special goals
+**Type**: Legacy  
+**Goal**: Complete a set of special goals  
+**Opt-in**: Request a code review for one your set for 6. below
 
 1. Has published at least 1000 achievements and worked on at least 25 sets as the sole or majority developer.
 2. Has created achievements for at least ten different system IDs.
@@ -276,15 +277,12 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ![DQ015](https://retroachievements.org/Images/068013.png)
 
-**Type**: Legacy
+**Type**: Legacy  
 **Goal**: Publish a set for every supported system on RetroAchievements  
+**Opt-in**: Develop sets for 10 supported systems and request tracking by contacting the team
 
 :::info Ever-Growing
 Each system ID will have an achievement associated with it. Newly supported system IDs means new achievements!
-:::
-
-::: warning Opt-In Quest
-You must have developed sets for 10 or more supported systems before opt-in. Opt-In to this quest by notifying us on [`#devquest`](https://discord.com/channels/310192285306454017/310195377993416714) channel on Discord or sending a message to the DevQuest account
 :::
 
 1. Meme sets may not be counted at the discretion of the DevQuest Team.
@@ -356,10 +354,7 @@ You must have developed sets for 10 or more supported systems before opt-in. Opt
 
 **Type**: Legacy  
 **Goal**: Publish a set for every genre!  
-
-::: warning Opt-In Quest
-You must have made sets for at least 5 genres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started
-:::
+**Opt-in**: Publish sets for games of 5 different genres, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to the team
 
 1. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
 2. Genres used for this quest are the main Genre hubs. We'll contact you to ask which genre is preferred.
@@ -374,12 +369,9 @@ You must have made sets for at least 5 genres before opt-in. To opt-in, make a c
 
 ![DQ020S](https://retroachievements.org/Images/083452.png)
 
-**Type**: Legacy 
+**Type**: Legacy  
 **Goal**: Publish a set for every subgenre!  
-
-::: warning Opt-In Quest
-You must have made sets for at least 15 subgenres before opt-in. To opt-in, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to us to get started. You may use the same sheet to opt in to this and to DevQuest 020.
-:::
+**Opt-in**: Publish sets for games of 15 different subgenres, make a copy of the opt-in google sheet linked [here](https://docs.google.com/spreadsheets/u/0/d/1rqYm7q1qh0kl-5qln9SdrNnSMSmZ4TBnpxrlx3TOpJw/edit) and submit it to the team. Typically handled together with DQ20 Genre Conqueror
 
 1. This DevQuest is 100% retroactive! Potential future revisions of your work will not count against you, so no worries about losing eligibility for an unlock.
 2. Genres used for this quest are the Subgenre hubs.
