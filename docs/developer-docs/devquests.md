@@ -44,7 +44,8 @@ Legacy quests ([DQ4](#004-veteran-developer), [DQ15](#015-console-conqueror) and
 1. Falsifying ticket closures will result in disqualification.
 2. The following do not count toward the total: Network issues, tickets for achievements you developed, tickets you opened, tickets closed on behalf of Junior Developers, and tickets closed as a result of ticket spamming.
 3. Tickets for users banned from development count for double credit.
-4. Up to 10 "unsupported core/emulator" tickets may be used across DQ1 and its sequels. If you have closed 10 in this fashion, no more of this type shall count. The DQ Team shall highlight these tickets using purple on the tracking sheet.
+4. Tickets resolved as part of another maintenance quest such as DQ2 and full dust-offs for DQ22 cannot be used for DQ1.
+5. Up to 10 "unsupported core/emulator" tickets may be used across DQ1 and its sequels. If you have closed 10 in this fashion, no more of this type shall count. The DQ Team shall highlight these tickets using purple on the tracking sheet.
 
 ### 002 [Retro Renovator](https://retroachievements.org/game/15957)
 
