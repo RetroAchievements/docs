@@ -160,10 +160,11 @@ When the column is complete and a badge is earned, mark the badge row for that c
 
 ### DevQuest 004: Veteran Developer
 
-Generally, you don't have to worry about this one.  If you request access to the Vet Dev tracking sheet (it is a separate document), you can add in the usernames of developers that opt-in so that `tele` will start tracking them.
-
-- Sweeps are performed by `tele`
-- Code Reviews are performed by DevQuest team members who are also Code Review Team members.
+- To opt-in, devs must submit a set they published as sole dev, as a full developer, for review. Sets that already were reviewed in jr, or collaborations where the separation of work is not crystal clear are not allowed.
+- Add the user to the DQ4 sheet and fill in the first 6 columns.
+- Adding the set to the Vet Dev Review sheet must be done by a Code Reviewer that is also member of the DevQuest team, but any code reviewer can review the set.
+- If you did not make a review, don't touch the Vet Review or 75% of toolkit column. The code reviewer will do that.
+- No need to update values in the first 6 columns once they show up as green. The appropriate columns on the right will show up as yellow so you can award the appropriate "achievements" in the DQ4 event, and check them once awarded as usual.
 
 ### DevQuest 005: Trigger Happy
 
