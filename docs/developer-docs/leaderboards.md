@@ -55,7 +55,7 @@ The best place to start is to look at existing leaderboards and break it down to
 
 The **Title/Description** fields are quite obvious.
 
-The **Type** is "Time (Frames)". The value we're tracking updates once a frame, and the Genesis runs at 60 frames per second (see note below on [Value Definition](/developer-docs/value-definition) for systems that run at other speeds).
+The **Type** is "Time (Frames)". The value we're tracking updates once a frame, and the Genesis runs at 60 frames per second (see note below on [Value Format](/developer-docs/leaderboards#value-format) for systems that run at other speeds).
 
 The **Lower Is Better** flag is checked, then the one who makes the shortest time will be the #1.
 
