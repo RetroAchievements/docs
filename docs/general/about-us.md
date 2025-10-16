@@ -71,7 +71,6 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 The team responsible to keep the this community a healthy place (at least for those who adhere to the [User's Code of Conduct](/guidelines/users/code-of-conduct) and agree with the [RetroAchievements Manifesto](/guidelines/users/retroachievements-manifesto)):
 
 - [AuburnRDM](https://retroachievements.org/user/AuburnRDM)
-- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
 - [Hexadigital](https://retroachievements.org/user/Hexadigital)
 - [Hotscrock](https://retroachievements.org/user/Hotscrock)
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
@@ -92,7 +91,6 @@ The Community Manager helps facilitate communication between players and staff, 
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
-- [BahamutVoid](https://retroachievements.org/user/BahamutVoid)
 - [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
