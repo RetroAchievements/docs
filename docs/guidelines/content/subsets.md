@@ -112,7 +112,21 @@ The approval process and claiming of a subset will vary depending on if the subs
 
 ¹ In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
 
-² To Contact Developer Compliance, send them a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) and replace the `[Game Name]` and `[Subset Name]` in the subject line with the game name and desired subset name. **Approval requests _must_ thoroughly explain why the proposed subset content is not appropriate for the base set.** This must be described in a way that someone who is not familiar with the game can clearly and easily understand.
+² To Contact Developer Compliance, send them a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) and replace the `[Game Name]` and `[Subset Name]` in the subject line with the game name and desired subset name. **Approval requests _must_ thoroughly explain why the proposed subset content is not appropriate for the base set.** This must be described in a way that someone who is not familiar with the game can clearly and easily understand. A general set plan is also required to demonstrate the type of achievements that the subset will consist of. The following is an example of a strong subset proposal that clearly explains the purpose of the subset and informs the Developer Compliance team of the expected subset composition:
+
+```
+Hello, I'd like to make a low level subset for Zelda 2 (NES). In Zelda 2, as players gain experience they can choose 1 of 3 stats (Life, Magic, and Attack) to level up making the player significantly stronger throughout the play through.  Limiting the player to only being able to level up 1 type of stat will provide a significant handicap as the other 2 stats remain at their base levels which is very challenging to deal with toward the mid/end game. Handicapping different stats drastically changes the mid/end game approproach that players must take to complete the game and that will provide significantly different experiences for each handicapped play through.
+
+The proposed subset would be comprised of 4 full game play throughs, a play through for each stat in which only it may be increased, leaving the other 2 stats at level 1 the entire play through, and 1 true low% play through that restricts levels to the minimum required and further restricts item collection to the minimum required to beat the game.  The set plan would look like this:
+
+Life/Magic/Attack runs:
+- 1 achievement per dungeon for each run (7 dungeons total)
+- 1 achievement for obtaining the Hammer (a difficult key item to obtain)
+- 1 achievement for defeating Thunderbird, a challenging second to last boss
+
+Low% run:
+- ~30 total achievements for obtaining key items and additional progression milestones throughout the playthrough since this is an exceptionally difficult play through
+```
 
 ³ The following are pre-approved subset types and therefore do not require contacting Developer Compliance:
 
@@ -122,7 +136,6 @@ The approval process and claiming of a subset will vary depending on if the subs
 - Challenge Run: Low Level Game/No Leveling Runs
 - Challenge Run: Solo Class/Monotype Runs
 - Challenge Run: Professor Oak Challenges for official Pokemon main series releases
-
 
 ⁴ For now, an admin must be contacted via Discord or by [messaging RAdmin](https://retroachievements.org/user/RAdmin) to mark a claim as free. As a courtesy, please only request this if you actually need the claim slot or if you expect a long development period.
 
