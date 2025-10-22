@@ -59,9 +59,7 @@ The following rules apply to all Junior Developers:
   - PlayStation Portable
   - Any future 6th+ generation consoles, unless specifically allowed
   - Dreamcast games using the [Windows CE firmware](https://retroachievements.org/game/24833)
-- May only create a subset for games where the Junior Developer is the sole author
-  - Must make a subset request in ⁠#jr-devs-requests which includes a set plan. If approved, the subset is subject to [Subset Rules](/guidelines/content/subsets)
-    - May request to create a subset in addition to a primary claim if both are for the same game
+- May not work on any subset
 - May make a maximum of 1 set for a hack during the program
 - Developers of hacks and homebrews may not work on their own games during the program
 
