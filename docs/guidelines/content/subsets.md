@@ -101,20 +101,7 @@ To prevent players from getting confused, there is a specific naming scheme requ
 
 ## Approval and Claims
 
-The approval process and claiming of a subset will vary depending on if the subset type is pre-approved, your involvement with the base set, and whether or not you're a full developer or a junior developer:
-
-|Authorship¹|Approval and Claiming Process|
-|:--|:--|
-|Sole Author of Core Set|• Subset must be approved by [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) ²³<br> • Does not require a plan and revision vote<br> • Considered a free claim ⁴
-|Collaborative Author of Core Set |• Subset must be approved by [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) ²³<br> • Requires a plan and revision vote?<br> &nbsp;&nbsp;&nbsp;◦ No, if all active authors of the set approve<br> &nbsp;&nbsp;&nbsp;◦ Yes, otherwise<br> • Considered a free claim ⁴
-|No Core Set Authorship|• Subset must be approved by [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) ²³<br> • If approved, a set plan must be posted in the base set's forum topic and must go through revision voting<br> • Is **not** considered a free claim<br> • In the event that both a revision and subset plan are made for a set, both claims will count as one
-|Junior Developer|• In addition to the above cases, must first be approved by Code Reviewers and in accordance with any additional restrictions in the [Junior Developer Program](https://docs.retroachievements.org/developer-docs/jr-dev-rules.html#rules-and-restrictions)
-
-¹ In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
-
-² To Contact Developer Compliance, send them a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance&s=Subset%20Approval%20Request%20-%20[Game%20Name]%20-%20[Subset%20Name]) and replace the `[Game Name]` and `[Subset Name]` in the subject line with the game name and desired subset name. **Approval requests _must_ thoroughly explain why the proposed subset content is not appropriate for the base set.** This must be described in a way that someone who is not familiar with the game can clearly and easily understand.
-
-³ The following are pre-approved subset types and therefore do not require contacting Developer Compliance:
+The following subset types are pre-approved:
 
 - Multiplayer Cooperative
 - Glitch Showcases
@@ -123,9 +110,22 @@ The approval process and claiming of a subset will vary depending on if the subs
 - Challenge Run: Solo Class/Monotype Runs
 - Challenge Run: Professor Oak Challenges for official Pokemon main series releases
 
+Other types of subsets, including Bonus which was previously pre-approved, must be approved by Developer Compliance before claiming. To request approval, send a site message [here](https://retroachievements.org/createmessage.php?t=DevCompliance), detailing your proposal by filling up the following:
 
-⁴ For now, an admin must be contacted via Discord or by [messaging RAdmin](https://retroachievements.org/user/RAdmin) to mark a claim as free. As a courtesy, please only request this if you actually need the claim slot or if you expect a long development period.
+- _Explain why this is unfit for the base set:_
+- _Explain why this is appropriate despite being unfit for the base set :_
+- _How difficult are the achievements proposed? Explain in as much details as possible :_
+- _Present a plan that explains what every achievement in the set would look like :_
 
-### Notes
+Please answer the above in a way that is understandable for someone that is not an expert of the game. If scores or times are involved, please provide a few explicit examples of what the set would require.
 
-In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
+Moreover, adding a subset to a game is considered a revision of its base set. This means that after getting approval from [Developer Compliance](https://retroachievements.org/createmessage.php?t=DevCompliance), a revision vote might be required before claiming as detailed below:
+
+|Authorship¹|Approval and Claiming Process|
+|:--|:--|
+|Author of the base set|• If all active authors of the set approve, does not require a plan and revision vote<br> • Considered a free claim ²
+|No Core Set Authorship|• A set plan must be posted in the base set's forum topic and must go through standard revision voting<br> • Is **not** considered a free claim<br> • In the event that both a revision and subset plan are made for a set, both claims will count as one
+
+¹ In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
+
+² For now, an admin must be contacted via Discord or by [messaging RAdmin](https://retroachievements.org/user/RAdmin) to mark a claim as free. As a courtesy, please only request this if you actually need the claim slot or if you expect a long development period.
