@@ -26,7 +26,7 @@ Pending
 
 ### RALibretro
 
-Pending - for now, see [RALibretro](/orphaned/ralibretro)
+Pending
 
 ---
 

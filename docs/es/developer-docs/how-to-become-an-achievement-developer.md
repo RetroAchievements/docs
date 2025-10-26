@@ -43,7 +43,6 @@ Es recomendable que publiques tus planes en el tema oficial del juego, para que 
 Cada desarrollador debe conocer al menos los conceptos y técnicas básicas mostradas en estos dos documentos:
 
 1. [Comenzando como desarrollador de logros](/es/developer-docs/getting-started-as-an-achievement-developer)
-2. [Características de la lógica de logros](/es/orphaned/achievement-logic-features)
 
 Cualquier aspirante a desarrollador debe demostrar que comprende los siguientes conceptos:
 

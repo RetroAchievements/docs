@@ -255,7 +255,7 @@ The conditional phrase supports all of the previously mentioned address accessor
 
   if the 8-bit value at $1234 is 32 _and_ the 8-bit value at $5678 is 33 (Core Group) _and_ the 8-bit value at $2345 is 1 _or_ 2 (Alt Groups), display `and/or example`
 
-**Pro-tip:** Conditions can be created using the [achievement editor](/orphaned/achievement-logic-features). Once you have your condition defined, use the `Copy Def` button to copy the achievement definition to the clipboard so you can paste it into the rich presence script.
+**Pro-tip:** Conditions can be created using the achievement editor. Once you have your condition defined, use the `Copy Def` button to copy the achievement definition to the clipboard so you can paste it into the rich presence script.
 
 ## Limits
 

@@ -1,12 +1,12 @@
 # Achievement Development
 
-If you want to be an achievement developer, check [here how to become a developer](/developer-docs/how-to-become-an-achievement-developer).
+If you want to be an achievement developer, RetroAchievements has a [Junior Developer program](/developer-docs/jr-dev-rules) to teach people how to design and create achievement sets.
 
 Every Developer must know and adhere the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
 Now a brief description some pages you'll see in this section.
 
-1. [How to Become an Achievement Developer](/developer-docs/how-to-become-an-achievement-developer): overview of the steps required in obtaining developer status
+1. [How to Become an Achievement Developer](/developer-docs/jr-dev-rules): overview of the steps required in obtaining developer status
 
 2. [Getting Started as an Achievement Developer](/developer-docs/getting-started-as-an-achievement-developer): it's for the very first contact with cheevos development tools (Memory Inspector and other Achievements dialogs). **IF YOU ARE A COMPLETE NEWBIE, START HERE!**
 
@@ -16,34 +16,30 @@ Now a brief description some pages you'll see in this section.
 
 5. [Memory Inspector Overview](/developer-docs/memory-inspector): detailed look at one of an achievement developer's most used tools.
 
-6. [Achievement Logic Features](/orphaned/achievement-logic-features): describes the available tools a developer have in order to improve the logic behind the achievements, such as delta values, hit counts, ResetIf, PauseIf, Alt groups, etc.
+6. [Real Examples](/developer-docs/real-examples): showing real examples and breaking down the logic behind them. **AWESOME LEARNING RESOURCE!**
 
-7. [Real Examples](/developer-docs/real-examples): showing real examples and breaking down the logic behind them. **AWESOME LEARNING RESOURCE!**
+7. [Achievement Templates](/developer-docs/achievement-templates): some generic templates to get inspiration.
 
-8. [Achievement Templates](/developer-docs/achievement-templates): some generic templates to get inspiration.
+8. [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance): guidelines/suggestions on how to balance the difficulty of your achievement set.
 
-9. [Tips and Tricks](/developer-docs/tips-and-tricks): general tips and tricks about memory digging and achievement creation.
+9. [Achievement Design](/developer-docs/achievement-design): a guide on how to think about and design good achievements, not the technical side but the conceptual.
 
-10. [Difficulty Scale and Balance](/developer-docs/difficulty-scale-and-balance): guidelines/suggestions on how to balance the difficulty of your achievement set.
+10. [Achievement Set Revisions](/guidelines/content/achievement-set-revisions): information on revisions, rescores, and the icon gauntlet.
 
-11. [Achievement Design](/developer-docs/achievement-design): a guide on how to think about and design good achievements, not the technical side but the conceptual.
+11. [Subsets](/guidelines/content/subsets): an advanced topic on creating special challenge sets and how to release them.
 
-12. [Achievement Set Revisions](/guidelines/content/achievement-set-revisions): information on revisions, rescores, and the icon gauntlet.
+12. [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines): some guidelines and tips about badge/icon creation.
 
-13. [Subsets](/guidelines/content/subsets): an advanced topic on creating special challenge sets and how to release them.
+13. [Leaderboards](/developer-docs/leaderboards): instructions on how to create Leaderboards for a game.
 
-14. [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines): some guidelines and tips about badge/icon creation.
+14. [Rich Presence](/developer-docs/rich-presence): how to write Rich Presence Scripts.
 
-15. [Leaderboards](/developer-docs/leaderboards): instructions on how to create Leaderboards for a game.
+15. [Working with the Right ROM](/guidelines/content/working-with-the-right-rom): information on using correct ROMs and hashes.
 
-16. [Rich Presence](/developer-docs/rich-presence): how to write Rich Presence Scripts.
+16. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
 
-17. [Working with the Right ROM](/guidelines/content/working-with-the-right-rom): information on using correct ROMs and hashes.
+17. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
 
-18. [Game Identification](/developer-docs/game-identification): details on the hashing methods used for each system.
+18. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
 
-19. [Unsupported Emulators](/developer-docs/unsupported-emulators-and-cores): details on unsupported emulators and cores, testing progress, etc.
-
-20. [Achievements for ROM Hacks](/guidelines/content/achievements-for-rom-hacks): a detailed guide for developers on the proper inclusion (and approval) of ROM Hacks.
-
-21. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.
+19. [Console Specific Tips](/developer-docs/console-specific-tips): knowing the peculiarities of your favorite console can help you with memory digging.
