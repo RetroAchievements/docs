@@ -91,18 +91,21 @@ The Community Manager helps facilitate communication between players and staff, 
 
 The team responsible for the adherence and driving updates to the [Developer's Code of Conduct](/guidelines/developers/code-of-conduct).
 
+- [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Delmaru](https://retroachievements.org/user/Delmaru)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
 - [Fridge](https://retroachievements.org/user/Fridge)
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
 - [Hexadigital](https://retroachievements.org/user/Hexadigital)
+- [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [Layton](https://retroachievements.org/user/Layton)
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
+- [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [zxmega](https://retroachievements.org/user/zxmega)
 
 ### Quality Assurance Team
