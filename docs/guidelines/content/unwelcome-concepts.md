@@ -118,6 +118,10 @@ When these are acceptable:
 
 Achievements with restrictions or requirements that cannot be fully expressed within the description character limit. A player should be able to view achievement requirements directly within their emulator, without needing to visit the RetroAchievements website.
 
+:::tip APPLIES ONLY TO DESCRIPTIONS
+This unwelcome concept applies only to the description. If a description is clear, but the steps needed to meet the goal of the achievement are tricky, the achievement does *NOT* fall under this category.
+:::
+
 - Comments on the achievement that include additional restrictions or requirements are not allowed.
 - Required external resources like pastebin links are not allowed.
 - Overly abbreviating a description to fit, such that the description cannot be understood easily, is not allowed.
