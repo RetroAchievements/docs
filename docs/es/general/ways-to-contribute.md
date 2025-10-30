@@ -29,7 +29,7 @@ Ve a RetroAchievements -> Report Broken Achievements (Reportar logros rotos), es
 
 Véase este ejemplo:
 
-![como-reportar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif)
+![como-reportar](/public/how-to-report.webp)
 
 ## Sugiere ideas para logros
 

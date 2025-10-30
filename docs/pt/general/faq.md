@@ -85,7 +85,7 @@ Esta é uma função contruida para **apenas emuladores oficiais** (não no Retr
 
 Veja este exemplo:
 
-![Como reportar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+![Como reportar](/public/how-to-report.webp).
 
 Além disso, aqui está um video detalhado explicando como usar isto: [https://www.youtube.com/watch?v=TTHbm700Y-Y](https://www.youtube.com/watch?v=TTHbm700Y-Y) `Vídeo em inglês`
 
@@ -128,7 +128,7 @@ Aqui:
 [https://retroachievements.org/resetPassword.php](https://retroachievements.org/resetPassword.php)
 
 No site, na pagina frontal, enquanto não estiver logado
-![reset password](https://i.imgur.com/3AxGYWe.png)
+![reset password](/public/reset_password.png)
 
 ## Porque meu jogo não está carregando as conquistas?
 

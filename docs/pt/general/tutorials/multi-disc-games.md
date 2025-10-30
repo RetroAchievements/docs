@@ -46,7 +46,7 @@ Você irá encontrar a opção em "Quick Menu > Disk Control"
 
 ![](https://i.imgur.com/rnmLM9l.png)
 
-![](https://i.imgur.com/9XaMXCF.png)
+![ra-disk-options](/public/ra-disk-options.png)
 
 **Passo 1:** Selecione "Disk Cycle Tray Status" (ATENÇÃO: Se você tem a opção "Pause when menu activated" ativada, você precisará sair e entrar no menu novamente para que o jogo saiba que a tampa do disco foi aberta)
 

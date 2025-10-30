@@ -28,7 +28,7 @@ Los Iconos son imágenes **subidas por el usuario** que sirven para representar 
 
 - _Icono en Sonic the Hedgehog's_
 
-  ![Sonic the Hedgehog Icon](/public/Badge_016743.png)
+  ![Sonic the Hedgehog Icon](/public/badge_016743.png)
 
 ### Diseñando mis nuevos iconos - guía estética
 
@@ -70,7 +70,7 @@ El estilo que escoges para tus diseños ya depende de ti. Puedes romper estas re
 Los desarrolladores de logros tienen permitido cambiar iconos de juegos en entradas que no cuenten con logros. Como desarrollador si tu quieres postear un respaldo de la antigua imagen eres libre de hacerlo pero no es realmente un requisito. Mientras creas un nuevo set de logros tu eres libre de crear o escoger que icono quieres para el juego.
 
 Para cambiar el Icono de un juego primero ve a la pagina del juego y haz click en Dev tools:  
-![change game icon 1](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67)
+![change game icon 1](/public/change_game_icon_1.png)
 
 Luego haz click en el botón de choose file que se encuentra resaltado. Encuentra el archivo en tu PC, y luego presiona el botón resaltado de submit:  
 ![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
@@ -118,41 +118,41 @@ Los Iconos son almacenados en el sitio de la siguiente manera y lugar: `i.retroa
 Los Badges (Emblemas) son las imagenes creadas por el usuario para cada logro en individuo de un juego.
 
 - _Sonic the Hedgehog's primer Badge - #00199)_
-  ## ![newbie collector Badge](/public/Badge_00199.png)
+  ## ![newbie collector Badge](/public/badge_00199.png)
 
 ### Guías y Tips en la Creación de Badges
 
 - Los Badges tienen que estar relacionados con lo que se trate el logro - por ejemplo: la foto de un jefe, nivel o coleccionable que requiere que el jugador consiga.
 - Checa diseños de varios de tus juegos favoritos. Algunos usuarios ponen un gran esfuerzo en crear badges realmente atractivos:
 
-![Mega Man 64, 1](/public/Badge_59919.png)
-![Mega Man 64, 3](/public/Badge_59912.png)
-![Tiny Toons Adventures, 1](/public/Badge_72006.png)
-![Tiny Toons Adventures, 2](/public/Badge_71983.png)
-![Metal Slug 3, 1](/public/Badge_69785.png)
-![Metal Slug 3, 2](/public/Badge_69837.png)
-![Legend of Zelda, 1](/public/Badge_62755.png)
-![Legend of Zelda, 2](/public/Badge_62775.png)
-![Banjo Tooie, 1](/public/Badge_71126.png)
-![Banjo Tooie, 2](/public/Badge_71179.png)
-![Pokemon Pinball, 1](/public/Badge_58812.png)
-![Pokemon Pinball, 2](/public/Badge_58803.png)
-![ToeJam and Earl, 1](/public/Badge_76075.png)
-![ToeJam and Earl, 2](/public/Badge_76072.png)
-![Super Mario World, 1](/public/Badge_46601.png)
-![Super Mario World, 2](/public/Badge_46760.png)
-![Mario Party, 1](/public/Badge_54915.png)
-![Mario Party, 2](/public/Badge_54669.png)
-![Harry Potter and The Chamber of Secrets, 1](/public/Badge_73534.png)
-![Harry Potter and the Chamber of Secrets, 2](/public/Badge_73519.png)
-![Pokemon Prism, 1](/public/Badge_70787.png)
-![Pokemon Prism, 2](/public/Badge_70432.png)
-![Super Mario World Bonus, 1](/public/Badge_47080.png)
-![Super Mario World Bonus, 2](/public/Badge_47077.png)
-![Tails Adventure](/public/Badge_62326.png)
-![Sonic the Hedgehog Chaos](/public/Badge_64969.png)
-![Kirby's Dream Land 3, 1](/public/Badge_60799.png)
-![Kirby's Dream Land 3, 2](/public/Badge_60800.png)
+![Mega Man 64, 1](/public/badge_59919.png)
+![Mega Man 64, 3](/public/badge_59912.png)
+![Tiny Toons Adventures, 1](/public/badge_72006.png)
+![Tiny Toons Adventures, 2](/public/badge_71983.png)
+![Metal Slug 3, 1](/public/badge_69785.png)
+![Metal Slug 3, 2](/public/badge_69837.png)
+![Legend of Zelda, 1](/public/badge_62755.png)
+![Legend of Zelda, 2](/public/badge_62775.png)
+![Banjo Tooie, 1](/public/badge_71126.png)
+![Banjo Tooie, 2](/public/badge_71179.png)
+![Pokemon Pinball, 1](/public/badge_58812.png)
+![Pokemon Pinball, 2](/public/badge_58803.png)
+![ToeJam and Earl, 1](/public/badge_76075.png)
+![ToeJam and Earl, 2](/public/badge_76072.png)
+![Super Mario World, 1](/public/badge_46601.png)
+![Super Mario World, 2](/public/badge_46760.png)
+![Mario Party, 1](/public/badge_54915.png)
+![Mario Party, 2](/public/badge_54669.png)
+![Harry Potter and The Chamber of Secrets, 1](/public/badge_73534.png)
+![Harry Potter and the Chamber of Secrets, 2](/public/badge_73519.png)
+![Pokemon Prism, 1](/public/badge_70787.png)
+![Pokemon Prism, 2](/public/badge_70432.png)
+![Super Mario World Bonus, 1](/public/badge_47080.png)
+![Super Mario World Bonus, 2](/public/badge_47077.png)
+![Tails Adventure](/public/badge_62326.png)
+![Sonic the Hedgehog Chaos](/public/badge_64969.png)
+![Kirby's Dream Land 3, 1](/public/badge_60799.png)
+![Kirby's Dream Land 3, 2](/public/badge_60800.png)
 
 - Aquí esta un [tema del foro](http://retroachievements.org/viewtopic.php?t=4282&o=5) lleno de grandes tips.
 - En el caso de logros de juegos de muy baja-resolución, puede ser dificil conseguir que un badge que se mire bien y que este no se mira _tosco_ o _borroso_, en estos casos un look mas _tosco_ es mucho mas preferible, ya que las imágenes tiene esa sensación _retro_ en ellas.

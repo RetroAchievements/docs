@@ -8,11 +8,11 @@ O Estado de Presença (**RP - Rich Presence**, pela sigla em inglês), é uma br
 
 **Exemplo de RP em ação:**
 
-![](https://camo.githubusercontent.com/cc1e8cea190f192a5b3beb2e5a700f068615a342/68747470733a2f2f692e696d6775722e636f6d2f4535303937737a2e706e67)
+![Exemplo de RP em ação](/public/rp-sample.png)
 
 Para ver o RP ao vivo em um jogo, clique no menu RetroAchievements no seu emulador e clique em **Rich Presence Monitor.** Uma pequena janela mostrará seu RP ativo. (Bom para depuração)
 
-![](https://camo.githubusercontent.com/1415c78f7c231279dc6f2ea74f21973195359e96/68747470733a2f2f692e696d6775722e636f6d2f586b435a6f4c472e706e67)
+![rp window](/public/rp-window.png)
 
 A melhor maneira de entender o Estado de Presença é olhar para vários exemplos no jogo, olhar para os endereços usados e ver como o texto é exibido no Rich Presence Monitor e no site.
 
@@ -22,9 +22,9 @@ Toda vez que um jogo é iniciado, ele busca os achievements em um arquivo 'patch
 
 O RPS para cada jogo pode ser encontrado na seção de desenvolvimento na página de cada jogo:
 
-![](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67)
+![change game icon 1](/public/change_game_icon_1.png)
 
-![](https://camo.githubusercontent.com/5b5837925fd7507fd47f1e25ff000e68d568d980/68747470733a2f2f692e696d6775722e636f6d2f6537716f614e782e706e67)
+![rp update](/public/rp-update.png)
 
 ## Exemplo (Super Mario Bros.)
 
@@ -156,7 +156,7 @@ Para especificar o tamanho do endereço que você está verificando, existem vá
 
 Resumindo em uma tabela:
 
-![](https://i.imgur.com/8VbvtfJ.png)
+![rp table](/public/rp-table.png)
 
 ### Strings de exibição condicional
 

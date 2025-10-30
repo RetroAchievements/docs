@@ -79,7 +79,7 @@ There are two ways to report broken achievements. In the emulator title bar go t
 
 1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only:
 
-![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif)
+![how to report](/public/how-to-report.webp)
 
 2. For [RetroArch](#retroarch-emulators) users you can submit the report directly via website. On every achievement's page you'll see a link saying `Report an issue for this achievement`, like in the image below:
 
@@ -229,7 +229,7 @@ Right Here:
 
 On Site, front page, while not logged in:
 
-![reset password](https://i.imgur.com/3AxGYWe.png)
+![reset password](/public/reset_password.png)
 
 ### Will I have any privilege if I become a patron?
 

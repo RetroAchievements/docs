@@ -6,17 +6,17 @@ description: Learn how to resolve issues with achievements not loading for Retro
 # My game is not loading achievements
 
 Maybe you loaded up your game but you see a popup:  
-![no achievements 1](https://u.cubeupload.com/televandalist/docsnotloading1.jpg)  
+![no achievements 1](/public/docsnotloading1.jpg)  
 Then you check the overlay (typically ESC) and see:  
-![no achievements 2](https://u.cubeupload.com/televandalist/docsnotloading2.png)
+![no achievements 2](/public/docsnotloading2.png)
 
 Or maybe you got these messages:
 
-![nocheevos](https://u.cubeupload.com/televandalist/docsnotloading3.png)
+![nocheevos](/public/docsnotloading3.png)
 
 and
 
-![nocheevos2](https://u.cubeupload.com/televandalist/docsnotloading4.png)
+![nocheevos2](/public/docsnotloading4.png)
 
 When any of these situations happens, either your game doesn't have achievements yet or more likely you have the incorrect ROM.
 
@@ -49,7 +49,7 @@ It takes you to a page like this:
 
 The link for it can be found at the bottom of the achievement list on game pages OR in the More Info section. Example for [Super Mario Bros.](https://retroachievements.org/viewtopic.php?t=282&c=2233):
 
-![forum](https://i.imgur.com/5yQTEv3.png)
+![forum](/public/forum.png)
 
 ![forum 2](https://user-images.githubusercontent.com/22257325/41203650-10e3cc2a-6cd2-11e8-8749-3f98f72332b1.png)
 

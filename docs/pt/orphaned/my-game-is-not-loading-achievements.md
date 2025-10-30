@@ -1,17 +1,17 @@
 # Meu jogo não está carregando conquistas
 
 Talvez você tenha carregado seu jogo e viu um popup:  
-![sem conquistas 1](https://u.cubeupload.com/televandalist/docsnotloading1.jpg)  
+![sem conquistas 1](/public/docsnotloading1.jpg)  
 Então você verifica o overlay (geralmente ESC) e vê:  
-![sem conquistas 2](https://u.cubeupload.com/televandalist/docsnotloading2.png)
+![sem conquistas 2](/public/docsnotloading2.png)
 
 Ou talvez você tenha recebido estas mensagens:
 
-![semconquistas](https://u.cubeupload.com/televandalist/docsnotloading3.png)
+![semconquistas](/public/docsnotloading3.png)
 
 e
 
-![semconquistas2](https://u.cubeupload.com/televandalist/docsnotloading4.png)
+![semconquistas2](/public/docsnotloading4.png)
 
 Quando qualquer uma dessas situações acontecer, ou seu jogo ainda não tem conquistas ou mais provavelmente você tem a ROM incorreta.
 
@@ -45,7 +45,7 @@ Isso te leva a uma página como esta:
 
 O link para ele pode ser encontrado na parte inferior da lista de conquistas nas páginas de jogos OU na seção Mais Informações. Exemplo para [Super Mario Bros.](https://retroachievements.org/viewtopic.php?t=282&c=2233):
 
-![fórum](https://i.imgur.com/5yQTEv3.png)
+![fórum](/public/forum.png)
 
 ![fórum 2](https://user-images.githubusercontent.com/22257325/41203650-10e3cc2a-6cd2-11e8-8749-3f98f72332b1.png)
 

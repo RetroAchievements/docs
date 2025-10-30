@@ -79,7 +79,7 @@ Hay dos formas de informar de logros rotos. En la barra de título del emulador,
 
 1. Para emuladores oficiales de RetroAchievements solamente:
 
-![cómo informar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+![cómo informar](/public/how-to-report.webp).
 
 2. Los usuarios de RetroArch pueden enviar un informe directamente a través de su sitio web. En la página de cada logro verás un enlace que dice `Report an issue for this achievement ("Informar de un problema para este logro")` , como en la imagen de abajo:
 
@@ -197,7 +197,7 @@ Aquí:
 
 En la página principal, sin estar conectado:
 
-![restablecer-contrasena](https://i.imgur.com/3AxGYWe.png)
+![restablecer-contrasena](/public/reset_password.png)
 
 ### ¿Tendré algún privilegio si me hago mecenas?
 

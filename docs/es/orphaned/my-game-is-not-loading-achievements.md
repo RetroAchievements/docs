@@ -7,11 +7,11 @@ Luego miras la interfaz (usualmente con 'ESC') y ves:
 
 O tal vez obtuviste estos mensajes:
 
-![nocheevos](https://camo.githubusercontent.com/be4a9d2919e4ac631ad78c6bb125eed24218c3c0/68747470733a2f2f692e696d6775722e636f6d2f7a4a4f6d6c58432e706e67)
+![nocheevos](/public/nocheevos.png)
 
 y
 
-![nocheevos2](https://camo.githubusercontent.com/0eb5659706615243b9b0a39f82df0cbc45edc5a5/68747470733a2f2f692e696d6775722e636f6d2f463543666f74742e706e67)
+![nocheevos2](/public/nocheevos2.png)
 
 Cuando ocurre cualquiera de estas situaciones es por que, ya sea el juego aún no tiene logros, o es probable que tengas la ROM incorrecta.
 
@@ -22,7 +22,7 @@ Si el juego tiene logros pero tu ROM no está en nuestro sistema, necesitarás e
 
 **Verifica el primer post del hilo oficial del juego en el foro**. El enlace para ello se encuentra en la parte inferior de la lista de logros, en las respectivas páginas de los juegos. Ejemplo para [Super Mario Bros.](https://retroachievements.org/viewtopic.php?t=282&c=2233):
 
-![forum](https://i.imgur.com/5yQTEv3.png)
+![forum](/public/forum.png)
 
 Probablemente el primer post del hilo oficial del juego en el foro tenga una lista de ROM válidas para el juego, y también el "checksum" de las ROM.
 

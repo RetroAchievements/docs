@@ -53,7 +53,7 @@ You'll find the option in Retroarch under 'Quick Menu > Disk Control'
 
 ![](https://i.imgur.com/rnmLM9l.png)
 
-![](https://i.imgur.com/9XaMXCF.png)
+![ra-disk-options](/public/ra-disk-options.png)
 
 **Step 1:** Select 'Disk Cycle Tray Status' (Note: If you have the 'Pause when menu activated' option on, you'll need to turn the menu off and on again so that the game knows the disc tray has been opened)
 

@@ -16,7 +16,7 @@ When someone mentions badges, they could be talking about one of two things:
     - ![Amateur Collector Badge](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/00199.png)
 - Game icons, also known as mastery badges, which is a single image used to represent an achievement set.
   - _Sonic the Hedgehog's game icon_
-    - ![Sonic the Hedgehog Icon](https://retroachievements.org/Images/016743.png)
+    - ![Sonic the Hedgehog Icon](/public/badge_016743.png)
 
 ## Badge Format and Sizes
 
@@ -97,7 +97,7 @@ Reports of suspected AI-generated art in public channels will be addressed promp
 
 - Achievement Developers are allowed to change game icons freely for entries that do not have achievements. As a Developer if you'd like to post a backup of the previous image there, if there is one, or backup yours in the forum you're free to but not required. As you create a new set of achievements you are free to create or choose the image you'd like to use as the game icon.
   - To change a game icon first go to the game page and click on the Dev tools:  
-    ![change game icon 1](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67) - Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
+    ![change game icon 1](/public/change_game_icon_1.png) - Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
     ![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
 
 If a game has existing achievements, game icon changes need to go through [revision process](/guidelines/content/achievement-set-revisions).

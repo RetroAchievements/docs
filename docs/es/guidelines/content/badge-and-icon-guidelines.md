@@ -8,7 +8,7 @@ Los Iconos son imágenes **subidas por el usuario** que sirven para representar 
 
 - _Icono en Sonic the Hedgehog's_
 
-  ![Sonic the Hedgehog Icon](https://retroachievements.org/Images/016743.png)
+  ![Sonic the Hedgehog Icon](/public/badge_016743.png)
 
 ### Diseñando mis nuevos iconos - guía estética
 
@@ -50,7 +50,7 @@ El estilo que escoges para tus diseños ya depende de ti. Puedes romper estas re
 Los desarrolladores de logros tienen permitido cambiar iconos de juegos en entradas que no cuenten con logros. Como desarrollador si tu quieres postear un respaldo de la antigua imagen eres libre de hacerlo pero no es realmente un requisito. Mientras creas un nuevo set de logros tu eres libre de crear o escoger que icono quieres para el juego.
 
 Para cambiar el Icono de un juego primero ve a la pagina del juego y haz click en Dev tools:  
-![change game icon 1](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67)
+![change game icon 1](/public/change_game_icon_1.png)
 
 Luego haz click en el botón de choose file que se encuentra resaltado. Encuentra el archivo en tu PC, y luego presiona el botón resaltado de submit:  
 ![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
