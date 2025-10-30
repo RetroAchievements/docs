@@ -88,42 +88,42 @@ Icons are stored on the site in the following manner and place: `i.retroachievem
 
 Badges are the user created images for individual achievements of a game.
 
-- _Sonic the Hedgehog's first Badge - #00199)_ ![Amateur Collector Badge](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/00199.png)
+- _Sonic the Hedgehog's first Badge - #00199)_ ![Amateur Collector Badge](/public/Badge_00199.png)
 
 ### Badge creation guidelines and tips
 
 - Badges should refer in some way to what the achievement is about - i.e. a picture of the boss, level or collectible that the achievement requires the player to get to.
 - Check out the designs of some of your favorite games. Some users go to great effort to make visually appealing badges:
 
-![Mega Man 64, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/59919.png)
-![Mega Man 64, 3](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/59912.png)
-![Tiny Toons Adventures, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/72006.png)
-![Tiny Toons Adventures, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/71983.png)
-![Metal Slug 3, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/69785.png)
-![Metal Slug 3, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/69837.png)
-![Legend of Zelda, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/62775.png)
-![Banjo Tooie, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/71126.png)
-![Banjo Tooie, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/71179.png)
-![Pokemon Pinball, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/58812.png)
-![Pokemon Pinball, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/58803.png)
-![ToeJam and Earl, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/76075.png)
-![ToeJam and Earl, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/76072.png)
-![Super Mario World, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/46601.png)
-![Super Mario World, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/46760.png)
-![Mario Party, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/54915.png)
-![Mario Party, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/54669.png)
-![Harry Potter and The Chamber of Secrets, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/73534.png)
-![Harry Potter and the Chamber of Secrets, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/73519.png)
-![Pokemon Prism, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/70787.png)
-![Pokemon Prism, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/70432.png)
-![Super Mario World Bonus, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/47080.png)
-![Super Mario World Bonus, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/47077.png)
-![Tails Adventure](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/62326.png)
-![Sonic the Hedgehog Chaos](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/64969.png)
-![Kirby's Dream Land 3, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/60799.png)
-![Kirby's Dream Land 3, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/60800.png)
+![Mega Man 64, 1](/public/Badge_59919.png)
+![Mega Man 64, 3](/public/Badge_59912.png)
+![Tiny Toons Adventures, 1](/public/Badge_72006.png)
+![Tiny Toons Adventures, 2](/public/Badge_71983.png)
+![Metal Slug 3, 1](/public/Badge_69785.png)
+![Metal Slug 3, 2](/public/Badge_69837.png)
+![Legend of Zelda, 2](/public/Badge_62775.png)
+![Banjo Tooie, 1](/public/Badge_71126.png)
+![Banjo Tooie, 2](/public/Badge_71179.png)
+![Pokemon Pinball, 1](/public/Badge_58812.png)
+![Pokemon Pinball, 2](/public/Badge_58803.png)
+![ToeJam and Earl, 1](/public/Badge_76075.png)
+![ToeJam and Earl, 2](/public/Badge_76072.png)
+![Super Mario World, 1](/public/Badge_46601.png)
+![Super Mario World, 2](/public/Badge_46760.png)
+![Mario Party, 1](/public/Badge_54915.png)
+![Mario Party, 2](/public/Badge_54669.png)
+![Harry Potter and The Chamber of Secrets, 1](/public/Badge_73534.png)
+![Harry Potter and the Chamber of Secrets, 2](/public/Badge_73519.png)
+![Pokemon Prism, 1](/public/Badge_70787.png)
+![Pokemon Prism, 2](/public/Badge_70432.png)
+![Super Mario World Bonus, 1](/public/Badge_47080.png)
+![Super Mario World Bonus, 2](/public/Badge_47077.png)
+![Tails Adventure](/public/Badge_62326.png)
+![Sonic the Hedgehog Chaos](/public/Badge_64969.png)
+![Kirby's Dream Land 3, 1](/public/Badge_60799.png)
+![Kirby's Dream Land 3, 2](/public/Badge_60800.png)
 
-- Here's a [forum topic](http://retroachievements.org/viewtopic.php?t=4282&o=5) full of great tips.
+- Here's a [forum topic](https://retroachievements.org/viewtopic.php?t=4282&o=5) full of great tips.
 - In the cases of low-resolution games' achievements, it can be hard to get a Badge looking good without it looking _blocky_ or _blurry_, in these cases the _blocky_ look is often preferable, so that the images have a _retro_ feel to them.
 - You can make each Badge have little rounded borders like an actual Badge or some extra spiky corners for emphasis or a king's crown for difficult ones. Its your design. It should visually represent the achievement itself, or hint at the location in the game for secrets.
 - Matching to the game's art style works well. Google Image searches for "Sprite Sheets" is another useful tip to include some game art.
