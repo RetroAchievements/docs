@@ -118,7 +118,7 @@ Afortunadamente la parte de la data del UniBIOS parece ser reflejada en dos cade
 Para proteger tus logros del uso completo del UniBIOS lo único que necesitamos hacer es incluir una simple protección que se va resetear cuando el valor de 32-bit en `0x00fe30` no sea igual a `0`. Esto adicionalmente protege, al logro de que salte durante el proceso de diagnostico de RAM.
 
 **Así es como se debería de ver la protección (seleccionada en el Editor de Logros):**
-![unineo1](http://bit.ly/UniNeo1)
+![unineo1](/public/unibiosprotection.png)
 
 **Así es como se ve la misma región de la RAM cuando se utilizan otros BIOS (utilizando MSV):**
-![unineo2](http://bit.ly/UniNeo2)
+![unineo2](/public/unibiosp2.png)
