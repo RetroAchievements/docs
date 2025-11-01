@@ -9,7 +9,7 @@ description: Learn how to effectively use the AddAddress flag to modify memory a
 
 `AddAddress` only affects the next condition. If multiple `AddAddress` lines are chained together, each lookup in the chain will be altered; the values won't all be added to the final lookup.
 
-![image](https://user-images.githubusercontent.com/32680403/68913137-9396d780-0717-11ea-871f-150903408d5f.png)
+![AddAddress](/public/add-address.png)
 
 The 32-bit value at 0x0112F8 is a pointer to the data for the first character in the party. When the party order changes, the pointer will point at a different block of memory, but data within the block will have the same structure.
 

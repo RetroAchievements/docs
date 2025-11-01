@@ -13,7 +13,7 @@ Aqui está uma visão geral do **Inspetor de Memória**  e suas funcionalidades.
 
 ## Diálogo do Inspetor de Memória
 
-![memoryinspector-num](https://user-images.githubusercontent.com/32680403/82169863-05dfa480-9880-11ea-8bb0-7873ef2f9d53.png)
+![memoryinspector-num](/public/memoryinspector-num.png)
 
 ### 1. Nova Pesquisa
 
@@ -51,7 +51,7 @@ No lado esquerdo estão as informações sobre os resultados, incluindo o númer
 
 Abaixo das informações de resultado estão dois botões. O primeiro permite que você remova manualmente os itens selecionados do conjunto de resultados. Você pode usar Ctrl e Shift para selecionar múltiplos itens. O segundo permite criar um favorito para um item no conjunto de resultados. Ele aparecerá no diálogo de Favoritos.
 
-![memoryinspector-filter jpg](https://user-images.githubusercontent.com/32680403/82170020-7f779280-9880-11ea-84aa-ab2435f294e2.png)
+![memoryinspector-filter](/public/memoryinspector-filter.png)
 
 Os itens no conjunto de resultados mostram o endereço da correspondência, o valor atual e uma breve descrição da memória no endereço. Se existir uma nota de código para o endereço, ela será mostrada. Caso contrário, uma classificação geral do endereço será mostrada.
 
@@ -92,7 +92,7 @@ Quando o visualizador de memória está focado, um cursor estará visível. Voc�
 
 Você pode abrir o diálogo de Favoritos de Memória no menu RetroAchievements. Ele também abrirá automaticamente ao adicionar um favorito a partir de qualquer um dos botões no diálogo do Inspetor de Memória.
 
-![memoryinspector-bookmark jpg](https://user-images.githubusercontent.com/32680403/82172473-7fc75c00-9887-11ea-82f0-f1d9c7814180.png)
+![memoryinspector-bookmark](/public/memoryinspector-bookmark.png)
 
 Com isso, você pode visualizar múltiplos endereços designados de uma vez, em vez de ter que navegar pelo Inspetor. Endereços favoritados aparecerão em verde no Inspetor de Memória.
 
@@ -155,7 +155,7 @@ Mais fatos sobre as diferentes notações numéricas:
 
 A parte inferior do Inspetor de Memória é o que chamamos de Visualizador de Memória:
 
-![memviewer](https://user-images.githubusercontent.com/8508804/52494138-59127400-2bb4-11e9-9a1f-6172bba6ee9f.png)
+![memviewer](/public/memviewer.png)
 
 Você pode ver dados no Visualizador de Memória usando modos de 8, 16 ou 32 bits.
 
@@ -175,11 +175,11 @@ Antes de falarmos sobre o modo 16-bit e modo 32-bit, é importante saber sobre e
 >
 > Na ordem **Big-Endian**, o "big end" do número (valor mais significativo na sequência) é armazenado primeiro (colocado no endereço mais baixo). Na imagem abaixo, você vê o número `0x12345678` armazenado no endereço `0x100` na ordem big-endian. Observe que o byte mais significativo `0x12` está no endereço `0x100`:
 >
-> ![bigendian](https://user-images.githubusercontent.com/8508804/52626678-db43b680-2e9a-11e9-89e2-19d379359226.png)
+> ![bigendian](/public/bigendian.png)
 >
 > Na ordem **Little-Endian**, o "little end" do número (valor menos significativo na sequência) é armazenado primeiro. Na imagem abaixo, você vê o número `0x12345678` armazenado no endereço `0x100` na ordem little-endian. Observe que o byte menos significativo `0x78` está no endereço `0x100`:
 >
-> ![littleendian](https://user-images.githubusercontent.com/8508804/52626680-db43b680-2e9a-11e9-83f2-432fd46dc608.png)
+> ![littleendian](/public/littleendian.png)
 
 Valores que precisam de mais de 8-bits (em outras palavras: maiores que 255) precisam ser armazenados em múltiplos bytes. No entanto, os sistemas emulados que usamos armazenam valores multi-byte na ordem little-endian.
 
@@ -197,7 +197,7 @@ Além dos tamanhos de 8-bit, 16-bit e 32-bit descritos acima, existem tamanhos a
 
 No visualizador de memória, quando um endereço de 8-bit é selecionado, você verá algo como a imagem abaixo (na imagem: um byte com o valor `6f` está selecionado; os bits estão destacados com um círculo laranja):
 
-![bitfields](https://user-images.githubusercontent.com/8508804/52825269-39db8100-30a3-11e9-85b0-f2a2da109954.png)
+![bitfields](/public/bitfields.png)
 
 É muito comum em jogos armazenar informações importantes como um único bit. Como um bit só pode ter dois valores possíveis (`1` ou `0`), às vezes é usado para significar "sim" ou "não", "ligado" ou "desligado", "tem item" ou "não tem item", etc. Alguns jogos, especialmente aqueles com espaço de memória limitado, usam muito os switches de bits.
 

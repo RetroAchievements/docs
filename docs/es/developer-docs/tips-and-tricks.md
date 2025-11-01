@@ -18,7 +18,7 @@ También mira: [Un vistazo al Inspector de Memoria](/es/developer-docs/memory-in
 
 - **Bit fields**: Utiliza single bits para cosas que solamente cambian en un bit. En el Inspector de Memoria (Memory Inspector), cuando una variable es seleccionada, vas a encontrar `Bits: 7 6 5 4 3 2 1 0` arriba de las variables. Y abajo de esos números va a ver ya sea un `0` o un `1`, así como `0 0 1 0 0 0 1 1` en la imagen de abajo. Si `bit5` tiene un `1` arriba de el, entonces `bit3=1` para esa variable. El uso de Single bit es muy común en un juego para items/eventos/desbloqueos/etc. Tal vez suene un poco confuso , pero es muy importante que lo entiendas. Algunos juegos con espacio en memoria muy limite usan los campos de bits (Bit fields) muchísimo! Es una técnica importante de aprender.
 
-![memsizes](/public/memsizes.png)
+![memsizes](/public/mem-inspector-size-diagram.png)
 
 ## Tips en la Creación de Logros
 

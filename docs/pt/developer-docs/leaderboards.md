@@ -8,7 +8,7 @@ Atualmente Leaderboards podem ser editadas por desenvolvedores no site. É uma i
 
 Isto é como uma lista de Leaderboard de um jogo aparece no site
 
-![leaderboard_list](https://user-images.githubusercontent.com/8508804/33172797-ad9b2f22-d038-11e7-97fe-09116181ddfa.png)
+![leaderboard_list](/public/leaderboard-list.png)
 
 No centro você pode ver todas as Leaderboard feitas, e na coluna direita você pode ver as **Code Notes (Notas de Código)**. As Code Notes estão aqui para ajudar com algumas condições que veremos abaixo.
 
@@ -57,7 +57,7 @@ O Endereço de memória para STA/CAN/SUB/VAL tem o segunte formato:
 
 O melhor lugar para iniciar é olhando uma das leaderboards existentes [http://retroachievements.org/leaderboardList.php](http://retroachievements.org/leaderboardList.php) e desmontar para ver como funciona. Nós iremos usar o [Green Hill Act 1 (Sonic the Hedgehog) Leaderboard](http://retroachievements.org/leaderboardinfo.php?i=2) para este propósito. Vamos ver como fica:
 
-![new_leaderboard2](https://user-images.githubusercontent.com/8508804/33169120-90ddd7b2-d02a-11e7-8667-a659c980e7e5.png)
+![new_leaderboard2](/public/new-leaderboard2.png)
 
 Os campos **Title** e **Description** são um pouco óbvios.
 

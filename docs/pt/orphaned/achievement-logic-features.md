@@ -4,7 +4,7 @@ Link para o texto em inglês: [Achievement Logic Features](/orphaned/achievement
 
 Existem várias ferramentas e opções disponíveis para o desenvolvedor, saber como utilizá-las adequadamente melhorará a qualidade de seus sets. Essas ferramentas/opções podem ser usadas no Achievement Editor:
 
-![achievement_editor](https://user-images.githubusercontent.com/8508804/33130013-0eb07d96-cf79-11e7-8f73-6d737dfe5e16.png)
+![achievement_editor](/public/achievement-editor.png)
 
 Para ajuda sobre esses, o nosso servidor do [Discord](https://discordapp.com/invite/TdfC3r7) estará sempre aberto para ajudar.
 
@@ -56,7 +56,7 @@ Você pode ver como isso funciona no [Real Examples](/pt/developer-docs/real-exa
 
 Quando uma condição tem a flag `AddSource` o valor daquele endereço de memória é adicionado ao valor do endereço na condição logo abaixo, e a comparação é feita na condição abaixo daquela com o `AddSource`. Isso pode soar um pouco confuso, mas o exemplo a seguir vai esclarecer como funciona:
 
-![`AddSource` Example](https://user-images.githubusercontent.com/8508804/42702176-169aaf44-869f-11e8-979c-487a040e0145.png)
+![`AddSource` Example](/public/addsource-example.png)
 
 Neste exemplo o valor em `0x8010` será adicionado ao valor em `0x8020` e a comparação é se esta soma é maior ou igual a zero.
 
@@ -66,11 +66,11 @@ Se o valor em `0x8010` é `1` e o valor em `0x8020` é `2`, a comparação será
 
 Tentando resumir esta explicação com uma imagem:
 
-![`AddSource` Explained](https://user-images.githubusercontent.com/8508804/42702180-1712bca0-869f-11e8-9949-11021fa891bb.png)
+![`AddSource` Explained](/public/addsource-explained.png)
 
 **Nota**: você pode usar `AddSource` para somar mais endereços, como no exempo abaixo:
 
-![addsource1](https://user-images.githubusercontent.com/8508804/42702178-16c6d97a-869f-11e8-9c0d-84ef42ec4867.png)
+![addsource-sum](/public/addsource-sum.png)
 
 ### `SubSource`
 

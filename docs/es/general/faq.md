@@ -29,13 +29,13 @@ Para más información de una consola específica, puedes echarle un vistazo a:
 
 En la página de cada juego hay un enlace a "Request Set" (Solicitar set).
 
-![request1](https://user-images.githubusercontent.com/45054151/233339422-299490ba-58bc-45bb-a424-734d66030666.png)
+![request1](/public/request1.png)
 
 Al hacer clic, tu nombre se añadirá a la lista de usuarios que han solicitado un set para el juego. Si vuelves a hacer clic, retirarás la solicitud. Para ver otros usuarios que han solicitado el juego, haz clic en el enlace "Set Requestors" (Solicitantes del juego) que aparece debajo de la carátula del juego.
 
-![request2](https://user-images.githubusercontent.com/45054151/233339469-eeefcb42-12d7-40b2-80d3-cd4bd9b37568.png)
+![request2](/public/request2.png)
 
-![request3](https://user-images.githubusercontent.com/45054151/233339567-3df2606a-9407-4d24-beff-1d1ad2aa035c.PNG)
+![request3](/public/request3.png)
 
 El número total de solicitudes se cuenta y se muestra en la página [sets más solicitados](https://retroachievements.org/setRequestList.php), que también puede ordenarse por consola. Cuando se crea un juego, la solicitud del usuario se devuelve automáticamente para poder ser utilizada en otro juego.
 

@@ -14,7 +14,7 @@ Utlizando este [ejemplo de uso de un `AddSource`](/es/developer-docs/flags/addso
 
 `SubSource` tambien puede ser utilizado para rastrear incrementos especificos en una variable. La condicion que se muestra abajo dice que el actual valor en la variable `0x0080dc` menos el valor en el antiguo fotograma (Delta Frame) en la misma direccion deberia de ser igual a `2`. Efectivamente, esto significa que la condicion es verdadera cualquier vez que el valor en `0x0080dc` se incremente exactamente sobre dos.
 
-![subsource](https://user-images.githubusercontent.com/8508804/52924824-29c6da00-330d-11e9-9bf5-8fdcd71aaf9e.png)
+![subsource](/public/subsource.png)
 
 ## Buscando un resultado negativo
 

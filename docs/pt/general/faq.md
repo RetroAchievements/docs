@@ -8,7 +8,7 @@
 
 No exemplo a seguir, **RAGens** (nossa versão personalizada do emulador Gens do Mega Drive) está emulando o jogo **Streets of Rage 2**. Dois **leaderboards** especiais podem ser notados no canto inferior direito da tela (eles irão coletar informações especiais como a pontuação, por exemplo). Ao completar uma série de requisitos, uma conquista é desbloqueada pelo jogador que é informado sobre o evento através de um "pop-up" especial. Ao final do exemplo, um menu especial com várias informações sobre o jogo (que pode ser ativado ao pressionar a tecla ESC) aparece na tela.
 
-![sor2-cheevos](https://user-images.githubusercontent.com/8508804/32685494-854ad72a-c679-11e7-9bef-6717a5bad046.gif)
+![sor2-cheevos](/public/sor2-cheevos.gif)
 
 ## O que é o modo HARDCORE?
 
