@@ -27,7 +27,7 @@ Desde que o jogador esteja em um estágio, o grupo core é verdadeiro. Se o joga
 ## Fatos sobre Grupos Alt
 
 - Para adicionar ou remover _Grupos Alt_, clique no botão `+` ou `-` no canto inferior esquerdo do editor de conquistas.  
-  ![imagem](https://user-images.githubusercontent.com/32706333/48969436-bdf9fd00-efbb-11e8-98ab-2cc730026836.png)
+  ![Alt Groups: Add or remove](/public/alt-groups-add.png)
 
 - Se você quiser simplesmente testar **isto** `OU` **aquilo**, você pode deixar o grupo core vazio e adicionar **isto** no `Alt 01` e **aquilo** no `Alt 02`.
 

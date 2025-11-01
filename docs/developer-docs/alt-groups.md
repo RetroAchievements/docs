@@ -27,7 +27,7 @@ As long as the player is on stage. The core group is true. If the player looks u
 ## Facts about Alt Groups
 
 - To add or remove _Alt groups_ click the `+` or `-` button in the bottom left of the achievement editor.  
-  ![image](https://user-images.githubusercontent.com/32706333/48969436-bdf9fd00-efbb-11e8-98ab-2cc730026836.png)
+  ![Alt Groups: Add or remove](/public/alt-groups-add.png)
 
 - If you want to simply test for **this** `OR` **that** you can leave the core group blank and add **this** in `Alt 01`, and **that** in `Alt 02`.
 

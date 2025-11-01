@@ -6,17 +6,17 @@ description: Learn how to resolve issues with achievements not loading for Retro
 # My game is not loading achievements
 
 Maybe you loaded up your game but you see a popup:  
-![no achievements 1](/public/docsnotloading1.jpg)  
+![no achievements 1](/public/docs-not-loading1.jpg)  
 Then you check the overlay (typically ESC) and see:  
-![no achievements 2](/public/docsnotloading2.png)
+![no achievements 2](/public/docs-not-loading2.png)
 
 Or maybe you got these messages:
 
-![nocheevos](/public/docsnotloading3.png)
+![nocheevos](/public/docs-not-loading3.png)
 
 and
 
-![nocheevos2](/public/docsnotloading4.png)
+![nocheevos2](/public/docs-not-loading4.png)
 
 When any of these situations happens, either your game doesn't have achievements yet or more likely you have the incorrect ROM.
 

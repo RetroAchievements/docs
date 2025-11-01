@@ -22,7 +22,7 @@ Toda vez que um jogo é iniciado, ele busca os achievements em um arquivo 'patch
 
 O RPS para cada jogo pode ser encontrado na seção de desenvolvimento na página de cada jogo:
 
-![change game icon 1](/public/change_game_icon_1.png)
+![change game icon 1](/public/change-game-icon1.png)
 
 ![rp update](/public/rp-update.png)
 

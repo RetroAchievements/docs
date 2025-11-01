@@ -1,17 +1,17 @@
 # Meu jogo não está carregando conquistas
 
 Talvez você tenha carregado seu jogo e viu um popup:  
-![sem conquistas 1](/public/docsnotloading1.jpg)  
+![sem conquistas 1](/public/docs-not-loading1.jpg)  
 Então você verifica o overlay (geralmente ESC) e vê:  
-![sem conquistas 2](/public/docsnotloading2.png)
+![sem conquistas 2](/public/docs-not-loading2.png)
 
 Ou talvez você tenha recebido estas mensagens:
 
-![semconquistas](/public/docsnotloading3.png)
+![semconquistas](/public/docs-not-loading3.png)
 
 e
 
-![semconquistas2](/public/docsnotloading4.png)
+![semconquistas2](/public/docs-not-loading4.png)
 
 Quando qualquer uma dessas situações acontecer, ou seu jogo ainda não tem conquistas ou mais provavelmente você tem a ROM incorreta.
 

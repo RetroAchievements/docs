@@ -8,7 +8,7 @@ Los Iconos son imágenes **subidas por el usuario** que sirven para representar 
 
 - _Icono en Sonic the Hedgehog's_
 
-  ![Sonic the Hedgehog Icon](/public/badge_016743.png)
+  ![Sonic the Hedgehog Icon](/public/badge-016743.png)
 
 ### Diseñando mis nuevos iconos - guía estética
 
@@ -22,7 +22,7 @@ Cuando diseñes el nuevo icono de un juego considera los siguientes puntos: La m
 
 Utilizar diseños mas actuales (o fan art) para personajes clásicos de vídeo juegos tal vez parezca prudente. Pero varios podrían encontrar esto como _irrespetuoso al material original_.
 
-![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
+![mario time](/public/mario-time.png)
 
 #### Flexibilidad para la guía estética
 
@@ -50,10 +50,10 @@ El estilo que escoges para tus diseños ya depende de ti. Puedes romper estas re
 Los desarrolladores de logros tienen permitido cambiar iconos de juegos en entradas que no cuenten con logros. Como desarrollador si tu quieres postear un respaldo de la antigua imagen eres libre de hacerlo pero no es realmente un requisito. Mientras creas un nuevo set de logros tu eres libre de crear o escoger que icono quieres para el juego.
 
 Para cambiar el Icono de un juego primero ve a la pagina del juego y haz click en Dev tools:  
-![change game icon 1](/public/change_game_icon_1.png)
+![change game icon 1](/public/change-game-icon1.png)
 
 Luego haz click en el botón de choose file que se encuentra resaltado. Encuentra el archivo en tu PC, y luego presiona el botón resaltado de submit:  
-![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
+![change game icon 2](/public/change-game-icon2.png)
 
 Si un juego que ya cuenta con logros el cambio de Icono tiene que pasar por medio de [Icon Gauntlet](#game-icon-gauntlet).
 
@@ -150,10 +150,10 @@ Los Badges (Emblemas) son las imagenes creadas por el usuario para cada logro en
 Si te encuentras creando logros eres libre de subir badges para ellos.
 
 Los Badges se suben con las herramientas de desarrollador del emulador por medio del editor de logros:  
-![image](https://user-images.githubusercontent.com/32706333/52097132-c73cb280-2586-11e9-95ec-ea5e4dc8f9cd.png)
+![Upload Badge](/public/alt-groups-add.png)
 
 O también puedes seleccionar una imagen prefabricada o encontrar otras imágenes que haz subido por medio de la lista desglosable:  
-![image](https://user-images.githubusercontent.com/32706333/52097145-d1f74780-2586-11e9-8a22-06ceeeb82fe8.png)
+![Badge dropdown](/public/badge-dropdown.png)
 
 Subir archivos `.jpg`, `.jpg` o `.gif`. No es completamente importante el formato, pero si es completamente recomendable que la imagen sea cuadrada.
 

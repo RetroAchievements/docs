@@ -11,7 +11,7 @@ Icons are **user uploaded** images that are used throughout the site to represen
 
 - _Sonic the Hedgehog's game Icon_
 
-  ![Sonic the Hedgehog Icon](/public/badge_016743.png)
+  ![Sonic the Hedgehog Icon](/public/badge-016743.png)
 
 ### Designing New Game Icons - Styling Guide
 
@@ -45,7 +45,7 @@ Icons are **user uploaded** images that are used throughout the site to represen
 - Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art). Art by the developer of the hack may also be used.
 - Movie-Licensed/Movie Tie-In Games may use artwork that was used to promote the movie.
 
-![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
+![mario time](/public/mario-time.png)
 
 ### Other Icon Design Tips
 
@@ -63,10 +63,10 @@ Icons are **user uploaded** images that are used throughout the site to represen
 Achievement Developers are allowed to change game icons freely for entries that do not have achievements. As a Developer if you'd like to post a backup of the previous image there, if there is one, or backup yours in the forum you're free to but not required. As you create a new set of achievements you are free to create or choose the image you'd like to use as the game icon.
 
 To change a game icon first go to the game page and click on the Dev tools:  
-![change game icon 1](/public/change_game_icon_1.png)
+![change game icon 1](/public/change-game-icon1.png)
 
 Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
-![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
+![change game icon 2](/public/change-game-icon2.png)
 
 If a game has existing achievements, game icon changes need to go through [revision process](/guidelines/content/achievement-set-revisions).
 
@@ -88,40 +88,40 @@ Icons are stored on the site in the following manner and place: `i.retroachievem
 
 Badges are the user created images for individual achievements of a game.
 
-- _Sonic the Hedgehog's first Badge - #00199)_ ![Amateur Collector Badge](/public/badge_00199.png)
+- _Sonic the Hedgehog's first Badge - #00199)_ ![Amateur Collector Badge](/public/badge-00199.png)
 
 ### Badge creation guidelines and tips
 
 - Badges should refer in some way to what the achievement is about - i.e. a picture of the boss, level or collectible that the achievement requires the player to get to.
 - Check out the designs of some of your favorite games. Some users go to great effort to make visually appealing badges:
 
-![Mega Man 64, 1](/public/badge_59919.png)
-![Mega Man 64, 3](/public/badge_59912.png)
-![Tiny Toons Adventures, 1](/public/badge_72006.png)
-![Tiny Toons Adventures, 2](/public/badge_71983.png)
-![Metal Slug 3, 1](/public/badge_69785.png)
-![Metal Slug 3, 2](/public/badge_69837.png)
-![Legend of Zelda, 2](/public/badge_62775.png)
-![Banjo Tooie, 1](/public/badge_71126.png)
-![Banjo Tooie, 2](/public/badge_71179.png)
-![Pokemon Pinball, 1](/public/badge_58812.png)
-![Pokemon Pinball, 2](/public/badge_58803.png)
-![ToeJam and Earl, 1](/public/badge_76075.png)
-![ToeJam and Earl, 2](/public/badge_76072.png)
-![Super Mario World, 1](/public/badge_46601.png)
-![Super Mario World, 2](/public/badge_46760.png)
-![Mario Party, 1](/public/badge_54915.png)
-![Mario Party, 2](/public/badge_54669.png)
-![Harry Potter and The Chamber of Secrets, 1](/public/badge_73534.png)
-![Harry Potter and the Chamber of Secrets, 2](/public/badge_73519.png)
-![Pokemon Prism, 1](/public/badge_70787.png)
-![Pokemon Prism, 2](/public/badge_70432.png)
-![Super Mario World Bonus, 1](/public/badge_47080.png)
-![Super Mario World Bonus, 2](/public/badge_47077.png)
-![Tails Adventure](/public/badge_62326.png)
-![Sonic the Hedgehog Chaos](/public/badge_64969.png)
-![Kirby's Dream Land 3, 1](/public/badge_60799.png)
-![Kirby's Dream Land 3, 2](/public/badge_60800.png)
+![Mega Man 64, 1](/public/badge-59919.png)
+![Mega Man 64, 3](/public/badge-59912.png)
+![Tiny Toons Adventures, 1](/public/badge-72006.png)
+![Tiny Toons Adventures, 2](/public/badge-71983.png)
+![Metal Slug 3, 1](/public/badge-69785.png)
+![Metal Slug 3, 2](/public/badge-69837.png)
+![Legend of Zelda, 2](/public/badge-62775.png)
+![Banjo Tooie, 1](/public/badge-71126.png)
+![Banjo Tooie, 2](/public/badge-71179.png)
+![Pokemon Pinball, 1](/public/badge-58812.png)
+![Pokemon Pinball, 2](/public/badge-58803.png)
+![ToeJam and Earl, 1](/public/badge-76075.png)
+![ToeJam and Earl, 2](/public/badge-76072.png)
+![Super Mario World, 1](/public/badge-46601.png)
+![Super Mario World, 2](/public/badge-46760.png)
+![Mario Party, 1](/public/badge-54915.png)
+![Mario Party, 2](/public/badge-54669.png)
+![Harry Potter and The Chamber of Secrets, 1](/public/badge-73534.png)
+![Harry Potter and the Chamber of Secrets, 2](/public/badge-73519.png)
+![Pokemon Prism, 1](/public/badge-70787.png)
+![Pokemon Prism, 2](/public/badge-70432.png)
+![Super Mario World Bonus, 1](/public/badge-47080.png)
+![Super Mario World Bonus, 2](/public/badge-47077.png)
+![Tails Adventure](/public/badge-62326.png)
+![Sonic the Hedgehog Chaos](/public/badge-64969.png)
+![Kirby's Dream Land 3, 1](/public/badge-60799.png)
+![Kirby's Dream Land 3, 2](/public/badge-60800.png)
 
 - Here's a [forum topic](https://retroachievements.org/viewtopic.php?t=4282&o=5) full of great tips.
 - In the cases of low-resolution games' achievements, it can be hard to get a Badge looking good without it looking _blocky_ or _blurry_, in these cases the _blocky_ look is often preferable, so that the images have a _retro_ feel to them.
@@ -139,10 +139,10 @@ Badges are the user created images for individual achievements of a game.
 If you are creating new achievements you are free to upload badges for them.
 
 Badges are uploaded from within the emulator developer tools while in the achievement editor:  
-![image](https://user-images.githubusercontent.com/32706333/52097132-c73cb280-2586-11e9-95ec-ea5e4dc8f9cd.png)
+![Upload Badge](/public/alt-groups-add.png)
 
 Or you can select a prefabricated image or find other images you've uploaded in the drop down box:  
-![image](https://user-images.githubusercontent.com/32706333/52097145-d1f74780-2586-11e9-8a22-06ceeeb82fe8.png)
+![Badge dropdown](/public/badge-dropdown.png)
 
 Upload `.png` file types.
 
