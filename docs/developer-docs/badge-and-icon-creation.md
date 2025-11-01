@@ -169,11 +169,11 @@ When uploaded, your file is converted into the following:
 
 - 64x64 32-bit colour PNG. Example:
 
-  ![00136](https://user-images.githubusercontent.com/8508804/37221161-b9b0bb02-23a7-11e8-81b2-3d09fa7456af.png)
+  ![Achievement badge](/public/achievement-badge.png)
 
 - 64x64 greyscale and blurred PNG. Example:
 
-  ![00136_lock](https://user-images.githubusercontent.com/8508804/37221162-b9d7a802-23a7-11e8-9b69-3e91594c1ba4.png)
+  ![Achievement badge locked](/public/achievement-badge-locked.png)
 
 ### Badge Server Files
 

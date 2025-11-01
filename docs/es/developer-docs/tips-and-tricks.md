@@ -68,7 +68,7 @@ Después de conseguir algunas variables como resultado, por lo general el valor 
 
 Aquí un truco fácil utilizando un logro de prueba para observar si una variable tiene cambios, que es algo que tu vas a querer saber comúnmente.
 
-![](https://user-images.githubusercontent.com/32706333/51081767-dbdb0880-16b4-11e9-9672-4b39721accd3.png)
+![Dummy achievement example](/public/dummy-achievement-example.png)
 
 **Condiciones Explicadas**
 

@@ -79,7 +79,7 @@ After getting a few addresses as result, quite often the demo value will be `1` 
 
 Here's an easy trick using a dummy achievement to watch an address for any changes, which is something you'll quite often want to know.
 
-![](https://user-images.githubusercontent.com/32706333/51081767-dbdb0880-16b4-11e9-9672-4b39721accd3.png)
+![Dummy achievement example](/public/dummy-achievement-example.png)
 
 **Conditions Explained**
 

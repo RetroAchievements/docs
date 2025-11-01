@@ -30,7 +30,7 @@ E... pronto! Simples, não? A partir de agora, quando você for iniciar o jogo, 
 
 Para alterar os discos no RAlibretro, quando o jogo solicitar a troca, vá para o menu "File" e siga esses passos
 
-![](/public/mgs-disc2.png)
+![Change to disc 2 in RAlibretro](/public/mgs-disc2.png)
 
 **Passo 1:** File > CD-ROM > Open Tray
 
