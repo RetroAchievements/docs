@@ -44,9 +44,9 @@ E é isso!
 
 Você irá encontrar a opção em "Quick Menu > Disk Control"
 
-![](https://i.imgur.com/rnmLM9l.png)
+![Retroarch disk control](/public/ra-disk-control.png)
 
-![ra-disk-options](/public/ra-disk-options.png)
+![Retroarch disk options](/public/ra-disk-options.png)
 
 **Passo 1:** Selecione "Disk Cycle Tray Status" (ATENÇÃO: Se você tem a opção "Pause when menu activated" ativada, você precisará sair e entrar no menu novamente para que o jogo saiba que a tampa do disco foi aberta)
 
