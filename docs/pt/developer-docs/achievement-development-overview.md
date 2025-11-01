@@ -23,7 +23,7 @@ A página está em intenso desenvolvimento (WIP), mas o objetivo é mergulhar pr
 
 Existem várias ferramentas e opções disponíveis para um desenvolvedor. Saber como utilizá-las adequadamente melhorará a qualidade dos seus conjuntos. Estas ferramentas/opções podem ser usadas no Editor de Conquistas:
 
-![editor_de_conquistas](https://user-images.githubusercontent.com/45054151/128662028-74e64baf-46ff-4c9f-9837-3684bfb42ad8.png)
+![editor_de_conquistas](/public/achievement-editor.png)
 
 ### Flags
 

@@ -162,19 +162,19 @@ Lo mismo que si no lo obtienes cuando deberías. En la mayoría de los casos que
 Hay tres formas de hacerlo:
 
 - En la página de logros:<br>
-  ![reset-achievements-1](https://user-images.githubusercontent.com/45054151/113181800-cc095980-9217-11eb-8553-0f7a882d1b3e.png)
+  ![reset-achievements-1](/public/reset-achievements1.png)
 
 - En la página del juego (cuando quieras o necesites reiniciar todos los obtenidos de una partida):<br>
-  ![reset-achievements-2](https://user-images.githubusercontent.com/45054151/113181807-cd3a8680-9217-11eb-9f14-b6dad7077332.png)
+  ![reset-achievements-2](/public/reset-achievements2.png)
 
 - Cerca de la parte inferior de la página de configuración de usuario:<br>
-  ![reset-achievements-3](https://user-images.githubusercontent.com/45054151/113181815-cf044a00-9217-11eb-8825-c327a35fa47c.PNG)
+  ![reset-achievements-3](/public/reset-achievements3.png)
 
 ### ¿Soy el único que tiene un problema?
 
 Si un logro no funciona correctamente para ti, es muy probable que no funcione para otras personas. Puedes comprobarlo en la página del logro y buscar donde dice: "El logro tiene 'X' tickets abiertos":
 
-![foto-tickets-abiertos](https://user-images.githubusercontent.com/9311410/41203540-8f55d26e-6ca6-11e8-8683-a16e98394c18.png)
+![foto-tickets-abiertos](/public/open-tickets.png)
 
 Si el juego tiene tickets, haz clic en el enlace "open tickets" (tickets abiertos). Aparecerá una lista con los informes de logros rotos. Puedes comentar sobre ellos para añadir detalles útiles o decir que también tienes un problema con este logro.
 
@@ -197,7 +197,7 @@ Aquí:
 
 En la página principal, sin estar conectado:
 
-![restablecer-contrasena](/public/reset_password.png)
+![restablecer-contrasena](/public/reset-password.png)
 
 ### ¿Tendré algún privilegio si me hago mecenas?
 

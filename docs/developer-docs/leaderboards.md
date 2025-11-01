@@ -17,7 +17,7 @@ In the center you can see every already made Leaderboard, and in the right colum
 
 And now you can also create and edit Leaderboards through the GUI just like achievements by selecting Leaderboards from the Assets List:
 
-![image](https://user-images.githubusercontent.com/4047771/171059865-e8562b7e-225b-490e-a1b8-49945dac6483.png)
+![Leaderboards GUI](/public/leaderboards-gui.png)
 
 Here's a brief explanation of each field of a single Leaderboard:
 
@@ -65,7 +65,7 @@ Now we're going to break down the most important parts.
 
 **STA**: `0xfe10=h0000_0xhf601=h0c_d0xhf601!=h0c_0xfff0=0`
 
-![image](https://user-images.githubusercontent.com/4047771/171060330-82259da9-f1d8-4f6e-a86f-30c6a3bb6cb0.png)
+![Start conditions](/public/start-conditions.png)
 
 - `0xfe10=h0000`: If 16-bit RAM address 0xfe10 is equivalent to hex 0000,
 - `_`: AND,
@@ -89,7 +89,7 @@ This might seem daunting, because we don't know what these addresses mean. That'
 
 **CAN**: `0xhfe13<d0xhfe13`
 
-![image](https://user-images.githubusercontent.com/4047771/171060309-97a86189-dcb7-4d13-90a1-6492094f195a.png)
+![Cancel conditions](/public/cancel-conditions.png)
 
 - 0xfe13 is the number of lives.
 
@@ -99,7 +99,7 @@ The cancel section checks if the player's LIVES counter ever becomes lower. Lite
 
 **SUB**: `0xf7cc!=0_d0xf7cc=0`
 
-![image](https://user-images.githubusercontent.com/4047771/171060353-de03952b-ed25-4310-835a-aab059a5bffb.png)
+![Submit conditions](/public/submit-conditions.png)
 
 - 0xf7cc is the endlevel flag, non-interactive.
 
@@ -135,24 +135,24 @@ In games where the high score wraps around back to 0 it is actually possible to 
 
 As an example lets take a look at Balloon Fight on NES where the score wraps around after 999,990. Here is the original leaderboard:
 
-![image](https://user-images.githubusercontent.com/4047771/171064242-361165b4-cb69-4e3a-afac-8f5644146e4e.png)
+![Original leaderboard](/public/leaderboard-original.png)
 
 And an updated version which will continue tracking after each loop:
 Core needs to have a `Measured` statement in it so just put something that is never true and also a ResetIf for resetting the `MeasuredIf` statements in the Alt Groups when needed (in this case on the title screen)
 
-![image](https://user-images.githubusercontent.com/4047771/171063958-dc6ffa27-ed0f-4005-8b76-3e8708b5629f.png)
+![Leaderboard core updated](/public/leaderboard-core-updated.png)
 
 The first Alt will contain the normal logic for high score
 
-![image](https://user-images.githubusercontent.com/4047771/171063915-b0216659-c441-4b43-8577-37161213a2d3.png)
+![Leaderboard alt1](/public/leaderboard-alt1.png)
 
 The next Alt will contain a `MeasuredIf` that is true after the first loop which will allow this value to be used. You will also add an extra condition to AddSource in the total score from the first loop which will be 1,000,000 in this case. This value will now be used since `MeasuredIf` is true and the value is the highest of the Alt Groups
 
-![image](https://user-images.githubusercontent.com/4047771/171063993-04267eec-c4db-47cd-b15a-e8255b1c3f50.png)
+![Leaderboard alt2](/public/leaderboard-alt2.png)
 
 For the next Alt we increment the number of hits used in the loop detection as well as the value we multiply the total score added by for each loop
 
-![image](https://user-images.githubusercontent.com/4047771/171064115-5680050d-e9d9-477f-9070-d45b7a353dc2.png)
+![Leaderboard alt3](/public/leaderboard-alt3.png)
 
 ## Further Help
 

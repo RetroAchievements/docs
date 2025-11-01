@@ -29,13 +29,13 @@ For more information on specific consoles you can check here:
 
 On each game's page there is a link to "Request Set".
 
-![request1](https://user-images.githubusercontent.com/45054151/233339422-299490ba-58bc-45bb-a424-734d66030666.png)
+![request1](/public/request1.png)
 
 Clicking this will add your name to the list of users who have requested a set for the game. Clicking again will withdraw the request. To see other users who have requested the set, click on the "Set Requestors" link below the game's box art.
 
-![request2](https://user-images.githubusercontent.com/45054151/233339469-eeefcb42-12d7-40b2-80d3-cd4bd9b37568.png)
+![request2](/public/request2.png)
 
-![request3](https://user-images.githubusercontent.com/45054151/233339567-3df2606a-9407-4d24-beff-1d1ad2aa035c.PNG)
+![request3](/public/request3.png)
 
 The total number of requests are tallied and displayed on the [Most Requested Sets](https://retroachievements.org/setRequestList.php) page which can also be sorted by console. If and when a set is created the user request will be automatically returned to use for another game.
 
@@ -194,19 +194,19 @@ Same with not getting it when you should in most cases you'll want to [create a 
 There are three ways to do this:
 
 - On the achievement page:<br>
-  ![reset-achievements-1](https://user-images.githubusercontent.com/45054151/113181800-cc095980-9217-11eb-8553-0f7a882d1b3e.png)
+  ![reset-achievements-1](/public/reset-achievements1.png)
 
 - On the game page (when you want or need to reset all earns in a game):<br>
-  ![reset-achievements-2](https://user-images.githubusercontent.com/45054151/113181807-cd3a8680-9217-11eb-9f14-b6dad7077332.png)
+  ![reset-achievements-2](/public/reset-achievements2.png)
 
 - Near the bottom of your user settings page:<br>
-  ![reset-achievements-3](https://user-images.githubusercontent.com/45054151/113181815-cf044a00-9217-11eb-8825-c327a35fa47c.PNG)
+  ![reset-achievements-3](/public/reset-achievements3.png)
 
 ### Am I the only one with an issue?
 
 If an achievement doesn't work correctly for you, there is a very good chance it doesn't work for other people. You can check in the achievement's page and look for where it says 'The achievement has 'X' open tickets':
 
-![open-tickets-picture](https://user-images.githubusercontent.com/9311410/41203540-8f55d26e-6ca6-11e8-8683-a16e98394c18.png)
+![open-tickets-picture](/public/open-tickets.png)
 
 If the game has tickets, click on the 'open tickets' link. There will be a list to show any reports of broken achievements. You can comment on these to add helpful details or say you have a problem with this achievement too.
 
@@ -229,7 +229,7 @@ Right Here:
 
 On Site, front page, while not logged in:
 
-![reset password](/public/reset_password.png)
+![reset password](/public/reset-password.png)
 
 ### Will I have any privilege if I become a patron?
 

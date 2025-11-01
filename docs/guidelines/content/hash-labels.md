@@ -14,7 +14,7 @@ Every ROM that is linked to an achievement set must be clearly identified and la
 - RA Hash: Check [Game Identification](/developer-docs/game-identification) to learn more about these. These appear in `Manage Hashes` automatically.
 - File Name - File name should be entered as the description. These are typically automatic, but may need some adjustments.
 - Labels - You can use the labels listed below by using the filename of the image (no extension).
-- Patch URL - Link to an either .zip or .7z file in the [RAPatches](https://github.com/RetroAchievements/RAPatches) GitHub repository. 
+- Patch URL - Link to either a .zip or .7z file in the [RAPatches](https://github.com/RetroAchievements/RAPatches) GitHub repository. 
 - Resource Page URL - Link to a specific No Intro, Redump, RHDN, SMWCentral, itch.io, etc. page.
 
 ## Images
