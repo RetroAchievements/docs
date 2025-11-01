@@ -21,7 +21,7 @@ and
 When any of these situations happens, either your game doesn't have achievements yet or more likely you have the incorrect ROM.
 
 Just to be sure, search for the game name and check matching results.  
-![search](https://i.imgur.com/Z49H4eF.png)
+![search](/public/search-the-site.png)
 
 If your game has achievements but your ROM isn't in our system either you'll need to find the correct ROM or get support for your ROM.
 
@@ -63,6 +63,6 @@ Once you make a request, a developer will review it and make sure it works. Then
 
 In the menu bar `RetroAchievements` > `Get ROM Checksum`
 
-![checksum](https://i.imgur.com/cAKqUHE.png)
+![checksum](/public/rom-checksum.png)
 
 For more details about checksum and hashes, read here: https://datacrystal.romhacking.net/wiki/Hashes

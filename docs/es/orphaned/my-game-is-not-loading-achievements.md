@@ -1,9 +1,9 @@
 # Mi juego no esta cargando los logros
 
 Quizás cargaste tu juego, pero ves una ventana emergente:  
-![no achievements 1](https://i.imgur.com/i8LL73y.png)  
+![no achievements 1](/public/no-achievements1.png)
 Luego miras la interfaz (usualmente con 'ESC') y ves:  
-![no achievements 2](https://i.imgur.com/QaIJrWx.png)
+![no achievements 2](/public/no-achievements2.png)
 
 O tal vez obtuviste estos mensajes:
 
@@ -16,7 +16,7 @@ y
 Cuando ocurre cualquiera de estas situaciones es por que, ya sea el juego aún no tiene logros, o es probable que tengas la ROM incorrecta.
 
 Solo para estar seguro, busca el nombre del juego y verifica los resultados que coincidan.  
-![search](https://i.imgur.com/Z49H4eF.png)
+![search](/public/search-the-site.png)
 
 Si el juego tiene logros pero tu ROM no está en nuestro sistema, necesitarás encontrar la ROM correcta, u obtener soporte para tu ROM.
 
@@ -32,7 +32,7 @@ También verifica los últimos posts del hilo oficial del juego en el foro y los
 
 También puedes contribuir a la comunidad obteniendo soporte para tu ROM, si es que es compatible. Publica el "checksum" de tu ROM existente en el foro de ese juego y también el nombre exacto que tienes para el ROM, y un desarrollador lo revisará contigo para ver si es compatible.
 
-![checksum](https://i.imgur.com/cAKqUHE.png)  
+![checksum](/public/rom-checksum.png)
 _Como encontrar el "checksum" de tu ROM._
 
 Para obtener más información sobre el "checksum" y los hashes, puedes leer este articulo (en Inglés): https://datacrystal.romhacking.net/wiki/Hashes

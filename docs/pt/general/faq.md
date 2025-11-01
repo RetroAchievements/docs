@@ -119,7 +119,7 @@ Nos vivemos por um código de honra acima de tudo. Se você encontar evidências
 
 Mesmo que você não consiga, na maioria dos casos, você deve criar um ticket report (veja abaixo), deixando uma explicação do que foi errado. Você pode tambem remover essas conquistas de sua conta para você ter a satisfação de ganhar realmente ganhar elas.
 
-![Resetando Conquista](https://i.imgur.com/zI3VD8w.gif)  
+![Resetando Conquista](/public/reset-game-progress.gif)  
 Resetando conquistas não ganhas
 
 ## Como eu redefino minha senha? (Se eu não lembrar minha senha)

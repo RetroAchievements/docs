@@ -4,11 +4,11 @@ Rich Presence **(RP)** es un breve resumen de lo que están haciendo los jugador
 
 **Ejemplo de RP en acción:**
 
-![Example of RP in action](https://i.imgur.com/E5097sz.png)
+![Example of RP in action](/public/rp-sample.png)
 
 Para ver la RP en tiempo real haz clic en el menu de RetroAchievements en tu emulador y después en Rich Presence Monitor. Una pequeña ventana debería de mostrar tu RP actual. (Bueno para realizar pruebas)
 
-![Rich Presence Monitor](https://i.imgur.com/XkCZoLG.png)
+![Rich Presence Monitor](/public/rp-window.png)
 
 La mejor manera de entender Rich Presence es observar varios ejemplos de juegos, mira las direcciones que fueron utilizadas a mira como el texto es mostrado en el monitor y en el sitio.
 
@@ -18,9 +18,9 @@ Cada vez que un juego es lanzado, guarda los logros del juego en un archivo de '
 
 El RPS de cada juego puede ser encontrado en la sección de desarrollo en cada pagina de juego:
 
-![Dev click](https://i.imgur.com/sqxOjyL.png)
+![Dev click](/public/dev-click.png)
 
-![RP shown](https://i.imgur.com/e7qoaNx.png)
+![RP shown](/public/rp-shown.png)
 
 ## Ejemplo (Super Mario Bros.)
 

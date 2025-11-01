@@ -15,17 +15,17 @@ Changing discs on Playstation requires creating a playlist file (.m3u) for your 
 
 **Step 3:** Type the names of your .cue files _exactly_ as they're named on your files. When you're finished your text document should look something like this:
 
-![](https://i.imgur.com/cClkh4P.png)
+![Prepare .cue playlist](/public/prepare-cue-playlist.png)
 
 When you're finished save the text document in the same location as your game discs with whatever name you like.
 
 **Step 4:** Rename the document, changing the extension from .txt to .m3u
 
-![](https://i.imgur.com/bVgfM92.png)
+![Rename document](/public/rename-document.png)
 
 **NOTE:** If you can't see the .txt extension at the end of your text document title you need to change your settings to show known file extensions. In Windows 10 it's very simple, you can find that on your folder under 'View' and a checkbox reading 'File name extensions'
 
-![](https://i.imgur.com/HUljBjA.png)
+![RALibretro filename extensions](/public/ralibretro-filename-extensions.png)
 
 Now you're done! Simple, huh? From here on out, when you start the game, load it using the .m3u file you've just created.
 
@@ -37,7 +37,7 @@ Now you're done! Simple, huh? From here on out, when you start the game, load it
 
 To change discs on RAlibretro, when the game prompts you, go to the file menu and follow these steps
 
-![](https://i.imgur.com/X5aLvnt.png)
+![Change to disc 2 in RAlibretro](/public/mgs-disc2.png)
 
 **Step 1:** File > CD-ROM > Open Tray
 
@@ -51,9 +51,9 @@ And that's it!
 
 You'll find the option in Retroarch under 'Quick Menu > Disk Control'
 
-![](https://i.imgur.com/rnmLM9l.png)
+![Retroarch disk control](/public/ra-disk-control.png)
 
-![ra-disk-options](/public/ra-disk-options.png)
+![Retroarch disk options](/public/ra-disk-options.png)
 
 **Step 1:** Select 'Disk Cycle Tray Status' (Note: If you have the 'Pause when menu activated' option on, you'll need to turn the menu off and on again so that the game knows the disc tray has been opened)
 

@@ -16,7 +16,7 @@ e
 Quando qualquer uma dessas situações acontecer, ou seu jogo ainda não tem conquistas ou mais provavelmente você tem a ROM incorreta.
 
 Só para ter certeza, pesquise o nome do jogo e verifique os resultados correspondentes.  
-![pesquisa](https://i.imgur.com/Z49H4eF.png)
+![pesquisa](/public/search-the-site.png)
 
 Se o seu jogo tem conquistas, mas sua ROM não está no nosso sistema, você precisará encontrar a ROM correta ou obter suporte para sua ROM.
 
@@ -59,6 +59,6 @@ Uma vez que você fizer uma solicitação, um desenvolvedor irá revisá-la e ga
 
 Na barra de menu `RetroAchievements` > `Get ROM Checksum`
 
-![checksum](https://i.imgur.com/cAKqUHE.png)
+![checksum](/public/rom-checksum.png)
 
 Para mais detalhes sobre checksums e hashes, leia aqui: [https://datacrystal.romhacking.net/wiki/Hashes](https://datacrystal.romhacking.net/wiki/Hashes)
