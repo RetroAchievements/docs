@@ -273,7 +273,7 @@ Cuando te encuentres desarrollando Rich Presence tienes que hacegurarte que te e
 Para unicode/emojis personalizados [ShapeCatcher](http://shapecatcher.com/) es un excelente recurso, puedes ponerte a dibujarlos y la AI va a buscar resultados similares. Simplemente ten cuidado de no utilizar unicode que sea _demasiado oscuro_, ya que no se va a mostrar correctamente en todos los sistemas.
 
 Toma nota en la preferencia de la comunidad en cuanto a displays:
-![RP community display preferences](docs/public/rp-community-display-preferences.png)
+![RP community display preferences](/public/rp-community-display-preferences.png)
 
 ## Desarrollando Rich Presence
 

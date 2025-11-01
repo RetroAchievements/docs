@@ -311,7 +311,7 @@ For custom unicode/emoji [ShapeCatcher](http://shapecatcher.com/) is an excellen
 
 Take note of community display preference:
 
-![RP community display preferences](docs/public/rp-community-display-preferences.png)
+![RP community display preferences](/public/rp-community-display-preferences.png)
 
 ## Developing Rich Presence
 
