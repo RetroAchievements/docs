@@ -11,15 +11,15 @@ When using _Alt groups_, for the achievement to trigger, all the conditions in t
 
 ## Example
 
-In this dummy example for Contra (NES) the achievement requires, "While on stage look up or crouch." Lets look at what's in the _Core group_ and in the _Alt groups_:
+In this dummy example for Contra (NES) the achievement requires, "While on stage look up or crouch." Let's look at what's in the _Core group_ and in the _Alt groups_:
 
-![image](https://user-images.githubusercontent.com/32706333/48969080-7de44b80-efb6-11e8-88f2-92de405fe306.png)  
+![Alt Groups: Core](/public/alt-groups-core.png)
 In the core group: `0x18 = 5`. This checks that the player is on stage.
 
-![image](https://user-images.githubusercontent.com/32706333/48969094-9eaca100-efb6-11e8-9f8b-4d64a7aff9b0.png)  
+![Alt Groups: Alt1](/public/alt-groups-alt1.png)
 In `Alt 01`: `0xbc = 1`. This checks that the player is looking up.
 
-![image](https://user-images.githubusercontent.com/32706333/48969096-b4ba6180-efb6-11e8-9c86-2744509fbb5b.png)  
+![Alt Groups: Alt2](/public/alt-groups-alt2.png)
 In `Alt 02`: `0xbc = 2`. This checks that the player is crouching.
 
 As long as the player is on stage. The core group is true. If the player looks up, Alt 01 is true. If the player crouches, Alt 02 is true. If core + Alt 01 OR Alt 02 are true, the achievement will trigger.

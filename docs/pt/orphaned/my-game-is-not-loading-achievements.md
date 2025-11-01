@@ -35,11 +35,11 @@ NOTA: Você deve estar logado para ver os hashes vinculados.
 
 Você pode acessar essa página clicando no botão "Hashes vinculados a este jogo" na seção "Mais Informações" na página do jogo.
 
-![link para a página de hashes vinculados](https://user-images.githubusercontent.com/22257325/41203651-10faa472-6cd2-11e8-97f2-933c23fb013d.png)
+![link para a página de hashes vinculados](/public/hashes-linked-to-game.png)
 
 Isso te leva a uma página como esta:
 
-![lista de hashes vinculados](https://user-images.githubusercontent.com/22257325/41203649-10c9f0de-6cd2-11e8-9b14-be519c48c3c2.PNG)
+![lista de hashes vinculados](/public/list-of-linked-hashes.png)
 
 ### Verifique o primeiro post do tópico oficial do fórum do jogo
 
@@ -47,7 +47,7 @@ O link para ele pode ser encontrado na parte inferior da lista de conquistas nas
 
 ![fórum](/public/forum.png)
 
-![fórum 2](https://user-images.githubusercontent.com/22257325/41203650-10e3cc2a-6cd2-11e8-8749-3f98f72332b1.png)
+![fórum 2](/public/official-forum-topic.png)
 
 O primeiro post do tópico oficial do fórum do jogo geralmente tem uma lista de ROMs válidas para o respectivo jogo e também o checksum das ROMs.
 

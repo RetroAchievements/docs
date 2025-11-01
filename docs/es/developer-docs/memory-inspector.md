@@ -181,4 +181,4 @@ Ocasionalmente solo vas a estar interesado en trabajar con solo un digito hexade
 
 ### Diagrama de Tamaño de Memoria
 
-![memsizes](https://user-images.githubusercontent.com/32680403/45276439-8cbf6580-b47f-11e8-803c-7e7e391a9e55.png)
+![memsizes](/public/memsizes.png)

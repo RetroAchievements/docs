@@ -59,9 +59,9 @@ Not here. It is illegal to host or distribute copyrighted ROMs. However we have 
 
 ### Why do I get a message that some achievements are unsupported?
 
-![RetroArch Unsupported](https://user-images.githubusercontent.com/42773860/105667518-60b6aa80-5ea9-11eb-84a7-f024985c1b5a.png)
+![RetroArch Unsupported](/public/retroarch-unsupported.png)
 
-![RALibretro Unsupported](https://user-images.githubusercontent.com/32680403/105637785-72a63800-5e2c-11eb-9b88-5df51986075b.png)
+![RALibretro Unsupported](/public/ralibretro-unsupported.png)
 
 This message informs the user that some achievements cannot be activated either because their version of RetroArch and/or the core being used does not support some newer logic features, or because required areas of the RAM are not exposed for achievement processing.
 

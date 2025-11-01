@@ -59,9 +59,9 @@ Aquí no. Es ilegal almacenar o distribuir ROM con derechos de autor. Sin embarg
 
 ### ¿Por qué aparece un mensaje que indica que algunos logros no son compatibles?
 
-![RetroArch no compatible](https://user-images.githubusercontent.com/42773860/105667518-60b6aa80-5ea9-11eb-84a7-f024985c1b5a.png)
+![RetroArch no compatible](/public/retroarch-unsupported.png)
 
-![RALibretro no compatible](https://user-images.githubusercontent.com/32680403/105637785-72a63800-5e2c-11eb-9b88-5df51986075b.png)
+![RALibretro no compatible](/public/ralibretro-unsupported.png)
 
 Este mensaje informa al usuario de que algunos logros no pueden activarse porque su versión de RetroArch y/o el núcleo que está utilizando no son compatibles con algunas características lógicas más recientes, o porque las áreas necesarias de la RAM no están expuestas para el procesamiento de logros.
 

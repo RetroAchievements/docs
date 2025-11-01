@@ -39,11 +39,11 @@ Example for [Super Mario Bros.](https://retroachievements.org/linkedhashes.php?g
 
 You can access this page by clicking the "Hashes linked to this game" button in the "More Info" section on the game page.
 
-![link to linked hashes page](https://user-images.githubusercontent.com/22257325/41203651-10faa472-6cd2-11e8-97f2-933c23fb013d.png)
+![link to linked hashes page](/public/hashes-linked-to-game.png)
 
 It takes you to a page like this:
 
-![list of linked hashes](https://user-images.githubusercontent.com/22257325/41203649-10c9f0de-6cd2-11e8-9b14-be519c48c3c2.PNG)
+![list of linked hashes](/public/list-of-linked-hashes.png)
 
 ### Check the top post of the official game's forum thread
 
@@ -51,7 +51,7 @@ The link for it can be found at the bottom of the achievement list on game pages
 
 ![forum](/public/forum.png)
 
-![forum 2](https://user-images.githubusercontent.com/22257325/41203650-10e3cc2a-6cd2-11e8-8749-3f98f72332b1.png)
+![forum 2](/public/official-forum-topic.png)
 
 The first post of the official game's forum thread usually has a list of valid ROMs for the respective game and also the checksum of the ROMs.
 
