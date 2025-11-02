@@ -4,7 +4,7 @@ Cuando escavamos en memoria en estas viejas consolas ayuda saber que los creador
 
 ### Duplicado de Direcciones
 
-![NES memory mirror](/public/nes-mem-mirror-png)
+![NES memory mirror](/public/nes-mem-mirror.png)
 
 Cuando utilices el inspector de memoria para encontrar variables en juegos de NES, va a ver 4 copias de todo lo que encuentres. Si te estas preguntando "cual debería de utilizar?" o "deberia probar cada una de ellas?" no es tan complicado como parece.
 

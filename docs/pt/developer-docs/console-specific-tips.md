@@ -8,7 +8,7 @@ Ao escavar a memória desses antigos consoles, ajuda saber em primeiro lugar com
 
 ## NES (RANes)
 
-![NES memory mirror](/public/nes-mem-mirror-png)
+![NES memory mirror](/public/nes-mem-mirror.png)
 
 ## Game Boy (RAVBA)
 
