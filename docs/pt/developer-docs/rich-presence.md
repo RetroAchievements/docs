@@ -12,7 +12,7 @@ O Estado de Presença (**RP - Rich Presence**, pela sigla em inglês), é uma br
 
 Para ver o RP ao vivo em um jogo, clique no menu RetroAchievements no seu emulador e clique em **Rich Presence Monitor.** Uma pequena janela mostrará seu RP ativo. (Bom para depuração)
 
-![rp window](/public/rp-window.png)
+![RP window](/public/rp-window.png)
 
 A melhor maneira de entender o Estado de Presença é olhar para vários exemplos no jogo, olhar para os endereços usados e ver como o texto é exibido no Rich Presence Monitor e no site.
 
@@ -22,9 +22,9 @@ Toda vez que um jogo é iniciado, ele busca os achievements em um arquivo 'patch
 
 O RPS para cada jogo pode ser encontrado na seção de desenvolvimento na página de cada jogo:
 
-![change game icon 1](/public/change-game-icon1.png)
+![Change game icon 1](/public/change-game-icon1.png)
 
-![rp update](/public/rp-update.png)
+![RP update](/public/rp-update.png)
 
 ## Exemplo (Super Mario Bros.)
 
@@ -156,7 +156,7 @@ Para especificar o tamanho do endereço que você está verificando, existem vá
 
 Resumindo em uma tabela:
 
-![rp table](/public/rp-table.png)
+![RP table](/public/rp-table.png)
 
 ### Strings de exibição condicional
 
