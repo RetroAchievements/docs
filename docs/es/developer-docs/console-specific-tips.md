@@ -30,7 +30,7 @@ Para mas información mira: http://gameboy.mongenel.com/dmg/asmmemmap.html
 
 ### ECHO RAM
 
-![Echo RAM](/public/echo-ram.png)
+![Echo RAM](/public/game-boy-echo-ram.png)
 
 Similar que el NES, algunas variables tal vez se muestren mas de una vez cuando te encuentres buscando en el inspector de memoria. El segundo resultado es lo que se le conoce como ECHO RAM, que es un espejo de la memoria actual. Aunque algunos emuladores tienden a ignorar esta área o a emularla incorrectamente, se recomienda NO utilizarla para nada y siempre utilizar el primer resultado.
 
