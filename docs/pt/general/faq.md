@@ -128,7 +128,7 @@ Aqui:
 [https://retroachievements.org/resetPassword.php](https://retroachievements.org/resetPassword.php)
 
 No site, na pagina frontal, enquanto não estiver logado
-![reset password](/public/reset_password.png)
+![reset password](/public/reset-password.png)
 
 ## Porque meu jogo não está carregando as conquistas?
 
