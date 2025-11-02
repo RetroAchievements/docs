@@ -18,9 +18,9 @@ Cada vez que un juego es lanzado, guarda los logros del juego en un archivo de '
 
 El RPS de cada juego puede ser encontrado en la sección de desarrollo en cada pagina de juego:
 
-![Dev click](/public/dev-click.png)
+![Dev click](/public/change-game-icon1.png)
 
-![RP shown](/public/rp-shown.png)
+![RP update](/public/rp-update.png)
 
 ## Ejemplo (Super Mario Bros.)
 
