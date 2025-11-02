@@ -42,7 +42,7 @@ Cuando diseñes el nuevo icono de un juego considera los siguientes puntos: La m
 
 Utilizar diseños mas actuales (o fan art) para personajes clásicos de vídeo juegos tal vez parezca prudente. Pero varios podrían encontrar esto como _irrespetuoso al material original_.
 
-![mario time](/public/mario_time.png)
+![mario time](/public/mario-time.png)
 
 #### Flexibilidad para la guía estética
 
