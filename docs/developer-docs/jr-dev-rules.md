@@ -45,7 +45,8 @@ When a junior set is marked as In Review, the claim will be renewed automaticall
 
 The following rules apply to all Junior Developers:
 
-- Must remain on the Discord server
+- Must be part of the Discord server when requesting to become a Junior Developer, and will remain in the server for the entire educational period
+  - It is preferable for all contact with the (direct) Code Reviewer(s) to be through Discord
 - May only create achievements, leaderboards and Rich Presence for a set on which they have an active claim
   - This means no working on any sets that are not claimed. Failure to adhere to this rule may result in dismissal from the Junior Developer Program
   - Junior Developers may practice RAM digging games for which they do not have a claim, but shall not publish any code notes
