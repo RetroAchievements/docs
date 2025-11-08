@@ -128,9 +128,9 @@ Aqui estan algunos tips que tienes que tener en mente cuando te encuentres crean
 
 - **~~Nunca~~ Evade hacer logros con una sola condicion lo mas que puedas**. De otra manera es muy probable que el logro se dispare en una parte no deseada. Este es el **error mas comun por un desarrollador**
 
-- Si el juego tiene un **modo demo** (El CPU juega despues que esperas un tiempo en la pantalla de titulo), percatate de [encontrar el valor para eso](/es/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) y agrega una condicion para que tus logros no se disparen en modo demo. Tambien necesitas saber como utilizar [PauseIf](/es/orphaned/achievement-logic-features#pauseif) y [ResetIf](/es/orphaned/achievement-logic-features#resetif).
+- Si el juego tiene un **modo demo** (El CPU juega despues que esperas un tiempo en la pantalla de titulo), percatate de [encontrar el valor para eso](/es/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) y agrega una condicion para que tus logros no se disparen en modo demo. Tambien necesitas saber como utilizar PauseIf y ResetIf.
 
-- **[PauseIf](/es/orphaned/achievement-logic-features#pauseif) cheat codes**: Si el juego tiene un cheat para aumentar vidas, seleccionar niveles, etc. Percatate de encontrar el valor para eso y agregar algo de proteccion en tus logros. OK, talvez no es un tema muy sencillo, pero es algo que tienes que tener en cuenta cuando estes creando un set oficial de logros.
+- **PauseIf:** Si el juego tiene un cheat para aumentar vidas, seleccionar niveles, etc. Percatate de encontrar el valor para eso y agregar algo de proteccion en tus logros. OK, talvez no es un tema muy sencillo, pero es algo que tienes que tener en cuenta cuando estes creando un set oficial de logros.
 
 - **Evita crear logros de simplemente llegar a un nivel.** Esto puede ser conseguido por medio de un password o un cheat. Mejor haz logros por terminar un nivel, [como en la plantilla de aqui](/es/developer-docs/achievement-templates#finish-level-n). Tambie, **no hagas logros por simplemente empezar un juego o "empieza el juego con X personaje"**.
 
@@ -150,7 +150,7 @@ Puedes encontrar mas en la [pagina de Tips y Trucos](/es/developer-docs/tips-and
 
 Ahora que ya sabes como utilizar el Inspector de Memoria, y el Editor de Logros. Llego la hora de que aprendas nuevas tecnicas y practiques:
 
-- En orden que refines la logica de tus logros, puedes ver con que funciones cuentas en la pagina de [Funciones en la Logica de los Logros](/es/orphaned/achievement-logic-features).
+- En orden que refines la logica de tus logros, puedes ver con que funciones cuentas en la pagina de funciones en la Logica de los logros.
 
 - Puedes aprender viendo logros existentes que otros desarrolladores han hecho con una explicacion extra en la pagina de [Ejemplos Reales](/es/developer-docs/real-examples).
 

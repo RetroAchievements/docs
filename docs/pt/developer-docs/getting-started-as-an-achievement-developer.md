@@ -50,8 +50,6 @@ O Inspetor de Memória pode ser usado para encontrar endereços na RAM que usare
 **NOTA: Se você quiser uma explicação em vídeo passo a passo sobre como encontrar endereços de memória, você pode [ver este vídeo atualizado](https://www.youtube.com/watch?v=7ZMlBVyHl5M).**
 **Para outro recurso em vídeo, você pode [ver este vídeo mais antigo](https://www.youtube.com/watch?v=8nYb_5cgQHY). Ambos vídeos estão em inglês.**
 
-**Veja também**: [Visão Geral do Inspetor de Memória](/pt/developer-docs/memory-inspector) e [Dicas de Exploração de Memória](/pt/developer-docs/tips-and-tricks#dicas-de-escavação-de-memória).
-
 Para iniciar ou reiniciar um teste, clique em **Reset** próximo ao topo à esquerda.
 
 Para manter as coisas simples, começaremos procurando pelo endereço de memória que contém o número de anéis que coletamos. Nossas etapas serão as seguintes:
@@ -73,8 +71,6 @@ Cada vez que você executa 4 e depois 5, o número de possibilidades ou 'candida
 - **Dica**: Se você quiser experimentar com memória, tente inserir novos valores diretamente no visualizador de RAM. Isso pode ter efeitos devastadores no jogo, ou pode fazer exatamente o que você espera, (ou nada!). Use com cautela!
 
 Quando você encontrar um endereço com o qual está satisfeito, você pode escrever uma breve nota sobre o que é e clicar em **Save Note**, isso o armazenará no banco de dados. Note que a nota será compartilhada com todos os desenvolvedores e será baixada novamente quando você carregar uma ROM. Se você tentar sobrescrever uma nota, ela verificará com você primeiro antes de enviar.
-
-Você pode encontrar mais [Dicas de Exploração de Memória úteis aqui](/pt/developer-docs/tips-and-tricks#dicas-de-escavação-de-memória).
 
 ## Conjuntos de Conquistas
 
@@ -118,8 +114,6 @@ Em seguida, mudaremos esses valores para:
 
 Com isso configurado, não temos mais condições para adicionar, então voltamos à **Janela de Conquistas**. Para segurança, salvamos nosso progresso clicando em **Save Local**!
 
-**Nota**: Uma conquista deve ter mais de um requisito para evitar ativação no momento errado (ex: modo demo). Neste exemplo, usamos apenas um requisito para simplificar a explicação. Veja mais [Dicas de Criação de Conquistas aqui](/pt/developer-docs/tips-and-tricks#dicas-de-criação-de-conquistas).
-
 ## Testando a Conquista
 
 Podemos 'ativar' esta conquista localmente marcando a caixa **Active** no Editor ou selecionando a conquista em Achievement Sets e clicando em **Activate Selected**. Isso começará a monitorar esses locais de memória e concederá a conquista quando todas as condições forem verdadeiras.
@@ -138,9 +132,7 @@ Algumas dicas ao criar suas conquistas:
 
 - **~~Nunca~~ Evite fazer conquistas com apenas uma condição**. Caso contrário, provavelmente acionará no momento errado. Este é o **erro mais comum**
 
-- Se o jogo tem **modo demo**, certifique-se de [encontrar seu endereço](/developer-docs/tips-and-tricks#finding-the-address-for-demo-mode) e adicione uma condição para evitar ativação nele. Você precisará usar [PauseIf](/pt/orphaned/achievement-logic-features#pauseif) e [ResetIf](/pt/orphaned/achievement-logic-features#resetif).
-
-- Use **[PauseIf](/pt/orphaned/achievement-logic-features#pauseif)** para códigos de trapaça: Se o jogo tem códigos para aumentar vidas, selecionar fases etc., adicione proteções.
+- Use **PauseIf** para códigos de trapaça: Se o jogo tem códigos para aumentar vidas, selecionar fases etc., adicione proteções.
 
 - **Evite criar conquistas apenas para entrar em fases**. Prefira conquistas para completar fases, [como neste modelo](/pt/developer-docs/achievement-templates#termine-nível-n).
 
@@ -155,8 +147,6 @@ Algumas dicas ao criar suas conquistas:
 ## Próximos Passos
 
 Agora que você conhece o básico, aprenda novas técnicas:
-
-- Refine sua lógica consultando [Recursos de Lógica de Conquistas](/pt/orphaned/achievement-logic-features)
 
 - Estude [Exemplos Reais](/pt/developer-docs/real-examples) de outros desenvolvedores
 

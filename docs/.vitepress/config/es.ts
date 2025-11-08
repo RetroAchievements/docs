@@ -125,6 +125,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
     //      text: "Control de calidad",
     //      link: "/general/teams/qa-team",
     //    },
+    //    {
+    //      text: "DevQuest",
+    //      link: "/general/teams/devquest-team",
+    //    },
     //  ],
     //},
     // {
