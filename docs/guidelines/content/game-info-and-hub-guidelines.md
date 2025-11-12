@@ -17,7 +17,7 @@ Game info refers to the metadata on a game page, including the game title, relea
 - Subtitles are usually divided by a colon rather than a hyphen. If there are multiple subtitles, a colon is used first, followed by hyphens.
 	- Atlantis - The Lost Empire -> Atlantis: The Lost Empire
 	- Yu Yu Hakusho - Ghost Files - Tournament Tactics -> Yu Yu Hakusho: Ghost Files - Tournament Tactics
-- If there's a conflict between two games with the same title on the same platform, the publisher or developer (whichever is more helpful for identifying the game) can be added in parentheses. Example: [Renegade (Ocean Software)](https://retroachievements.org/game/26867) and [Renegade (Kuma Computers)](https://retroachievements.org/game/26732).
+- If there's a conflict between two games with the same title on the same platform, the publisher, developer, or year of release can be added in parentheses to distinguish them. Example: [Renegade (Ocean Software)](https://retroachievements.org/game/26867) and [Renegade (Kuma Computers)](https://retroachievements.org/game/26732).
 - When a regional variation is approved to have a separate page, the region may be added to distinguish it. Example: [Ecco the Dolphin](https://retroachievements.org/game/8) and [Ecco the Dolphin (Japan)](https://retroachievements.org/game/4374).
 - For MSX games that have a different MSX2 version, the latter can have (MSX2) added to the title. Example: [Dragon Quest](https://retroachievements.org/game/16399) and [Dragon Quest (MSX2)](https://retroachievements.org/game/16400).
 - Games for the Famicom Disk System are currently included under NES/Famicom, but it's a convention to add (FDS) to the title. Example: [All Night Nippon Super Mario Bros. (FDS)](https://retroachievements.org/game/12852).
@@ -30,7 +30,7 @@ Game info refers to the metadata on a game page, including the game title, relea
 - In cases where `~Demo~` or `~Prototype~` are used alongside `~Hack~` or `~Homebrew~`, they are to be listed after the latter.
 	- Example: `~Homebrew~ ~Demo~ Bob's Game` instead of `~Demo~ ~Homebrew~ Bob's Game`. The reason for this is that no matter what stage the game is in, it will always be a homebrew or a hack; therefore, those tags should take priority.
 - In cases where a game is unlicensed and is actually just a hack of another game, then `~Hack~` would be used instead of `~Unlicensed~`.
-    - Example: Final Fantasy VII on NES, which is a bootleg/pirate release, but it's actually    just a hack of Final Fantasy III that was put on a cartridge. So the RA entry would be `~Hack~ Final Fantasy VII`.
+    - Example: Final Fantasy VII on NES, which is a bootleg/pirate release, but it's actually just a hack of Final Fantasy III that was put on a cartridge. So the RA entry would be `~Hack~ Final Fantasy VII`.
 - Some deprecated game pages that remain on the site are prefixed with `~Z~` so they sort to the bottom of lists.
 - Subsets are signified by adding `[Subset - Name of Subset]` after the title.
 
@@ -152,7 +152,7 @@ Hubs are used to categorize game pages in a variety of ways. Links to similar ga
 
 - Developers can reuse a hub from [Meta - Available Hubs](https://retroachievements.org/hub/3029) if any are available. Simply rename the hub and unlink it from the Meta hub.
 - Certain members of the Site Cleanup Team can create new hubs in the management app.
-- [Series](https://retroachievements.org/hub/3), [Publisher](https://retroachievements.org/hub/958), and non-homebrew [Developer](https://retroachievements.org/hub/5733) hubs should only be made if they include at least 3 games.
+- [Series](https://retroachievements.org/hub/3), [Publisher](https://retroachievements.org/hub/958), non-homebrew [Developer](https://retroachievements.org/hub/5733), [Hacks](https://retroachievements.org/hub/5987), Series Hacks, [Fangames](https://retroachievements.org/hub/22202), and [Unlicensed series](https://retroachievements.org/hub/5751) hubs should only be made if they include at least 3 games.
 	- Homebrew Developer and [Hacker](https://retroachievements.org/hub/913) hubs should have at least 5 games.
 	- Some other hub types, like [Theme](https://retroachievements.org/hub/5699), [Setting](https://retroachievements.org/hub/29405), and [Protagonist](https://retroachievements.org/hub/5743), require a significantly higher number of games and will be made very sparingly.
 - Take care not to create frivolous hubs - hub lists on game pages can already be too long as it is.
@@ -164,8 +164,8 @@ Hubs are used to categorize game pages in a variety of ways. Links to similar ga
 - [Series](https://retroachievements.org/hub/3) hubs are commonly used whenever a game is part of a broader series.
 	- Bootleg/pirate games and fan games should not be added to the Series hub they're based on.
 - Hacks should be added to their respective [Hacks](https://retroachievements.org/hub/5987) hub, should one exist. This hub will automatically be displayed in the publisher field at the top of a game page.
-	- If a game doesn't have a Hacks hub, it can be added to a Series Hacks hub if one exists. Hacks hubs are intended to apply to one specific game, while Series Hacks hubs can collect different games in the same series. Note that Series Hacks hubs do not appear in the publisher field.
-	- If a game doesn't have a Hacks hub or Series Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018).
+	- Hacks can also be added to a Series Hacks hub if one exists. Hacks hubs are intended to apply to one specific game, while Series Hacks hubs can collect different games in the same series. Note that Series Hacks hubs do not appear in the publisher field.
+	- If a game doesn't have a Hacks hub, it should be added to [Uncategorized Hacks](https://retroachievements.org/hub/8018), even if it's in a Series Hacks hub.
 - Homebrews, demos, prototypes, and unlicensed games should always be added to [Central - Homebrew](https://retroachievements.org/hub/2469), [Central - Demo](https://retroachievements.org/hub/5901), [Central - Prototypes](https://retroachievements.org/hub/7824), or [Central - Unlicensed](https://retroachievements.org/hub/5751).
 	- Exceptions are made when an unlicensed game is in an unlicensed series hub, such as [Unlicensed - Mario](https://retroachievements.org/hub/29507). The Central hub shouldn't be redundantly added in these cases.
 - Subsets should always be added to a [Subsets](https://retroachievements.org/hub/18903) hub. Note that there are specialized hubs for subset types such as Bonus and Multi.
@@ -176,7 +176,6 @@ Hubs are used to categorize game pages in a variety of ways. Links to similar ga
 
 - [Meta|QA](https://retroachievements.org/hub/7582) hubs may only be managed by [QATeam](https://retroachievements.org/user/QATeam). Please send them a message if you wish to request an update to these hubs.
 	- [Misc. - LGBTQ+ Representation](https://retroachievements.org/hub/9970) is also specially managed by QATeam. Please message them for any requests.
-	- Hubs based on gaming-related influencers and entertainers are not allowed, but [Misc. - AVGN Reviewed](https://retroachievements.org/hub/9093) and [Misc. - GameCenter CX Challenge](https://retroachievements.org/hub/8742) have been permitted as exceptions by QATeam. This decision can only be revisited by QATeam vote.
 - Meta|Art hubs are managed by [RAArtTeam](https://retroachievements.org/user/RAArtTeam).
 - [Meta|DevComp](https://retroachievements.org/hub/13591) hubs are managed by [DevCompliance](https://retroachievements.org/user/DevCompliance).
 - [Theme - Mature](https://retroachievements.org/hub/7869) is to be managed by [RAdmin](https://retroachievements.org/user/RAdmin). This hub will cause a warning about adult content to display when visiting a game page.
