@@ -71,9 +71,8 @@ Some examples of AtariAge Atari 2600 homebrew:
 - [30 Years of Nintendon't](https://drludos.itch.io/30-years-of-nintendont) by [Dr. Ludos](https://itch.io/profile/drludos)
 - [Cave Story MD](https://github.com/andwn/cave-story-md/releases) by [andwn](https://github.com/andwn)
 - [Double Cooked](https://zhamul.itch.io/double-cooked) - by [Zhamul, mipelius, Miranda](https://zhamul.itch.io/)
-- [L'ABBAYE DES MORTS](https://playonretro.itch.io/labbaye-des-morts-megadrivegenesis-por-002) - by
+- [L'ABBAYE DES MORTS](https://playonretro.itch.io/labbaye-des-morts-megadrivegenesis-por-002) - by Locomalito(https://www.locomalito.com/)
 - [Mega Flappy Sis](https://harlequin.itch.io/mega-flappy-sys) - by [Lennart](https://harlequin.itch.io/)
-- [Mighty Mighty Missile](https://playonretro.itch.io/labbaye-des-morts-megadrivegenesis-por-002) - by Locomalito(https://www.locomalito.com/)
 - [Pringles Game](http://68000.web.fc2.com/pringles.html) - by MtChocolate
 - [Uwol - Quest For Money](https://shiru.untergrund.net/files/smd/uwol_quest_for_money.zip) - by [Shiru](https://shiru.untergrund.net/software.shtml)
 - [ZOOMING SECRETARY: GOING PANIC](https://playonretro.itch.io/zooming-secretary-going-panic-megadrivegenesis-por-006) - by [Playonretro](https://playonretro.itch.io/)
