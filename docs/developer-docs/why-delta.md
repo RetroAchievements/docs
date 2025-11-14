@@ -11,7 +11,7 @@ Recently, and especially with the introduction of the [AutoCR tool](https://auth
 
 The `Delta` type is just like the `Mem` type, except it checks that memory’s value on the previous frame instead of the current one. Its main use is to make sure your achievement conditions weren’t true on the last frame, along with your other conditions that check if they are true now. This is one of the **only ways** to restrict your logic to a single frame, as depicted below:
 
-![A graph showing achievement trigger conditions when using and not using `Delta`. When not using `Delta`, the conditions remain true for each frame after the conditions become true. With `Delta`, the achievement conditions are only true on the single frame the value changes.](https://i.imgur.com/nTlzpFB.png)
+![A graph showing achievement trigger conditions when using and not using `Delta`. When not using `Delta`, the conditions remain true for each frame after the conditions become true. With `Delta`, the achievement conditions are only true on the single frame the value changes.](/public/delta-trigger-condition.png)
 
 Conceptually, you should be thinking about achievement logic as a way to define _the moment when_ your conditions become true. This mindset will help you avoid false triggers and allow you to precisely control your players’ experience.
 

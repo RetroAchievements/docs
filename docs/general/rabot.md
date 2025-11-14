@@ -25,33 +25,33 @@ If you need help about a specific command use `!help command_name`.
 
 Provide links to RetroAchievements documentation.
 
-![docs](https://user-images.githubusercontent.com/8508804/51226593-1f44a980-1937-11e9-9a74-1727bebbaba7.png)
+![docs](/public/rabot-docs.png)
 
-![docs1](https://user-images.githubusercontent.com/8508804/51226592-1eac1300-1937-11e9-9eca-3939866f58c4.png)
+![docs1](/public/rabot-docs1.png)
 
 ### `!rarch`
 
 Provide basic info about RetroArch.
 
-![rarch](https://user-images.githubusercontent.com/8508804/51226589-1eac1300-1937-11e9-8673-efe646139654.png)
+![rarch](/public/rabot-rarch.png)
 
 ### `!rules`
 
 Show the rules, or a specific one.
 
-![rules](https://user-images.githubusercontent.com/8508804/51226588-1e137c80-1937-11e9-83dc-65cc2c459e18.png)
+![rules](/public/rabot-rules.png)
 
 ### `!about`
 
 Show info about the RABot.
 
-![about](https://user-images.githubusercontent.com/8508804/51226587-1e137c80-1937-11e9-9063-85f23fc92fff.png)
+![about](/public/rabot-about.png)
 
 ### `!panic`
 
 What to do when the site is down.
 
-![panic](https://user-images.githubusercontent.com/8508804/51226585-1ce24f80-1937-11e9-995b-0c909c2b74f7.png)
+![panic](/public/rabot-panic.png)
 
 ## Creating polls
 
@@ -59,13 +59,13 @@ What to do when the site is down.
 
 Creates a simple poll. People can vote adding reactions, but they can also vote with unlisted reactions. See [`!tpoll`](#tpoll) if you are interested in a more advanced and serious poll.
 
-![poll](https://user-images.githubusercontent.com/8508804/51226584-1ce24f80-1937-11e9-896e-4d4ec15c251d.png)
+![poll](/public/rabot-poll.png)
 
 ### `!tpoll`
 
 Creates a timed poll. In this kind of poll only the first reaction is considered a vote, and if people react with an unlisted reaction then the vote is voided.
 
-![tpoll](https://user-images.githubusercontent.com/8508804/51226583-1ce24f80-1937-11e9-875d-7508227f4ab2.png)
+![tpoll](/public/rabot-tpoll.png)
 
 ## Dealing with numbers
 
@@ -73,13 +73,13 @@ Creates a timed poll. In this kind of poll only the first reaction is considered
 
 Converts a non-negative integer from decimal (or binary) to hexadecimal (or vice-versa).
 
-![hex](https://user-images.githubusercontent.com/8508804/51226581-1c49b900-1937-11e9-9518-c82deb427e62.png)
+![hex](/public/rabot-hex.png)
 
 ### `!bin`
 
 Converts a non-negative integer from decimal (or hexadecimal) to binary (or vice-versa).
 
-![bin](https://user-images.githubusercontent.com/8508804/51226582-1ce24f80-1937-11e9-9ad1-92f73dbeb2f0.png)
+![bin](/public/rabot-bin.png)
 
 ### `!calculator`
 
@@ -87,7 +87,7 @@ Converts a non-negative integer from decimal (or hexadecimal) to binary (or vice
 
 Evaluates the given math expression and responds with the result.
 
-![calculator](https://user-images.githubusercontent.com/8508804/51320685-ca448880-1a47-11e9-85da-174bd8e2ae99.png)
+![calculator](/public/rabot-calculator.png)
 
 ## Getting RetroAchievements.org info/links
 
@@ -97,13 +97,13 @@ Evaluates the given math expression and responds with the result.
 
 Google for a game at RetroAchievements.org and show the link.
 
-![ragame](https://user-images.githubusercontent.com/8508804/51226568-1a7ff580-1937-11e9-9eb7-c44d4093e9b9.png)
+![ragame](/public/rabot-ragame.png)
 
 ### `!tickets`
 
 Return the URL for the open tickets page of the given game name.
 
-![tickets](https://user-images.githubusercontent.com/8508804/51226578-1c49b900-1937-11e9-96eb-c4d7c451d43f.png)
+![tickets](/public/rabot-tickets.png)
 
 ### `!whatgame`
 
@@ -111,9 +111,9 @@ Return the URL for the open tickets page of the given game name.
 
 Responds with a random game that has achievements.
 
-![whatgame](https://user-images.githubusercontent.com/8508804/51226560-18b63200-1937-11e9-992e-a5290c986a1c.png)
+![whatgame](/public/rabot-whatgame.png)
 
-![whatgame1](https://user-images.githubusercontent.com/8508804/51226559-18b63200-1937-11e9-884d-7ee9d2d5ac3a.png)
+![whatgame1](/public/rabot-whatgame1.png)
 
 ### `!whatcheevo`
 
@@ -127,7 +127,7 @@ Responds with a retrogaming fun fact.
 
 **Note**: you can suggest more fun fact entries [here](https://github.com/RetroAchievements/RABot/issues/2).
 
-![funfact](https://user-images.githubusercontent.com/8508804/51226562-194ec880-1937-11e9-87e9-80b1a63f2c3a.png)
+![funfact](/public/rabot-funfact.png)
 
 ### `!memefact`
 
@@ -137,7 +137,7 @@ Responds with a RetroAchievements meme fact.
 
 **Note**: you can suggest more meme fact entries [here](https://github.com/RetroAchievements/RABot/issues/6), but keep these 2 simple rules in mind **1)** you can't suggest your own quote; and **2)** when suggesting a quote, be sure to get an approval from the author and/or the person being mentioned.
 
-![memefact](https://user-images.githubusercontent.com/8508804/51226561-194ec880-1937-11e9-8e7a-4b65ffbc87f5.png)
+![memefact](/public/rabot-memefact.png)
 
 ## Getting gaming related info
 
@@ -147,7 +147,7 @@ Responds with a RetroAchievements meme fact.
 
 Google for a game at GameFAQs and show the link.
 
-![gamefaqs](https://user-images.githubusercontent.com/8508804/51226573-1b188c00-1937-11e9-998e-b39cb9b60bd4.png)
+![gamefaqs](/public/rabot-gamefaqs.png)
 
 ### `!longplay`
 
@@ -155,7 +155,7 @@ Google for a game at GameFAQs and show the link.
 
 Search for a longplay video on youtube and post the link.
 
-![longplay](https://user-images.githubusercontent.com/8508804/51226571-1a7ff580-1937-11e9-8f54-50a7a9a7c645.png)
+![longplay](/public/rabot-longplay.png)
 
 ### `!vgmaps`
 
@@ -163,7 +163,7 @@ Search for a longplay video on youtube and post the link.
 
 Searches vgmaps.com for a video game's map.
 
-![vgmaps](https://user-images.githubusercontent.com/8508804/51319802-35409000-1a45-11e9-8bfc-736b9247fde6.png)
+![vgmaps](/public/rabot-vgmaps.png)
 
 ### `!howlongtobeat`
 
@@ -171,7 +171,7 @@ Searches vgmaps.com for a video game's map.
 
 Google for a game at howlongtobeat.com and show the link.
 
-![howlongtobeat](https://user-images.githubusercontent.com/8508804/51226572-1b188c00-1937-11e9-85f9-ecbe6890246a.png)
+![howlongtobeat](/public/rabot-howlongtobeat.png)
 
 ## Miscellaneous
 
@@ -181,7 +181,7 @@ Google for a game at howlongtobeat.com and show the link.
 
 Defines a word.
 
-![define](https://user-images.githubusercontent.com/8508804/51226574-1b188c00-1937-11e9-97fc-1d926d7777d0.png)
+![define](/public/rabot-define.png)
 
 ### `!translate`
 
@@ -189,15 +189,15 @@ Defines a word.
 
 Translates text to a specific language. **Powered by <https://translate.yandex.com/>**
 
-![translate](https://user-images.githubusercontent.com/8508804/51320293-81400480-1a46-11e9-9075-738ac91bd7e1.png)
+![translate](/public/rabot-translate.png)
 
-![translate1](https://user-images.githubusercontent.com/8508804/51320291-81400480-1a46-11e9-9b9c-980262a8d276.png)
+![translate1](/public/rabot-translate1.png)
 
 ### `!urban`
 
 Defines a word, but with Urban Dictionary.
 
-![urban](https://user-images.githubusercontent.com/8508804/51226567-19e75f00-1937-11e9-96b6-373ac32da597.png)
+![urban](/public/rabot-urban.png)
 
 ### `!wikipedia`
 
@@ -205,7 +205,7 @@ Defines a word, but with Urban Dictionary.
 
 Searches Wikipedia for your query.
 
-![wikipedia](https://user-images.githubusercontent.com/8508804/51226566-19e75f00-1937-11e9-8cd7-ca05ad9c045a.png)
+![wikipedia](/public/rabot-wikipedia.png)
 
 ### `!youtube`
 
@@ -213,28 +213,28 @@ Searches Wikipedia for your query.
 
 Search for a video on youtube and post the first one found.
 
-![youtube](https://user-images.githubusercontent.com/8508804/51226564-194ec880-1937-11e9-8435-c48c3c5552a7.png)
+![youtube](/public/rabot-youtube.png)
 
 ### `!bulbapedia`
 
 Searches Bulbapedia for your query.
 
-![bulbapedia](https://user-images.githubusercontent.com/8508804/51226575-1bb12280-1937-11e9-8c31-58317efca4ce.png)
+![bulbapedia](/public/rabot-bulbapedia.png)
 
 ### `!movie`
 
 Searches TMDB for your query, getting movie results.
 
-![movie](https://user-images.githubusercontent.com/8508804/51226570-1a7ff580-1937-11e9-8693-b570ce538593.png)
+![movie](/public/rabot-movie.png)
 
 ### `!manga`
 
 Searches AniList for your query, getting manga results.
 
-![manga](https://user-images.githubusercontent.com/8508804/51226576-1bb12280-1937-11e9-9805-dc51c5e783bf.png)
+![manga](/public/rabot-manga.png)
 
 ### `!anime`
 
 Searches AniList for your query, getting anime results.
 
-![anime](https://user-images.githubusercontent.com/8508804/51226577-1bb12280-1937-11e9-880a-8263330199bd.png)
+![anime](/public/rabot-anime.png)

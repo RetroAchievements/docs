@@ -29,7 +29,7 @@ Go to RetroAchievements -> Report Broken Achievements, this feature is only avai
 
 See this example:
 
-![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+![how to report](/public/how-to-report.webp).
 
 ## Suggest Achievement Ideas
 
