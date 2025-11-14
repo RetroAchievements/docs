@@ -170,7 +170,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **VBA Next**                                                 | libretro core       |                              |
 | **mGBA**                                                     | BizHawk core        |                              |
 | **[RAVBA](https://retroachievements.org/downloads)**         | Standalone emulator |                              |
-| **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**   | Standalone emulator |                              |
+| **[Pizza Boy A Basic & Pro](https://pizzaemulators.com/)**   | Standalone emulator |                              |
 | **[SkyEmu](https://github.com/skylersaleh/SkyEmu/pull/321)** | Standalone emulator |                              |
 | **[Playback](https://www.epilogue.co/)**                     | Standalone emulator | GB Operator device required. |
 | **[Linkboy](https://retroachievements.org/downloads)**       | Standalone emulator |                                         |
