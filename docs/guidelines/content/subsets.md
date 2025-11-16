@@ -114,7 +114,7 @@ Other types of subsets, including Bonus which was previously pre-approved, must 
 
 - _Explain why this is unfit for the base set:_
 - _Explain why this is appropriate despite being unfit for the base set :_
-- _How difficult are the achievements proposed? Explain in as much details as possible :_
+- _How difficult are the achievements proposed? Explain in as much detail as possible :_
 - _Present a thorough set plan that explains what the set would look like :_
 
 Please answer the above in a way that is understandable for someone that is not an expert of the game. If scores or times are involved, please provide a few explicit examples of what the set would require.
