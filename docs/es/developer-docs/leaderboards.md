@@ -4,7 +4,7 @@ Actualmente las Tablas de Clasificación pueden ser editadas por desarrolladores
 
 Asi es como se ve una lista de Tablas de Clasificación de un juego en el sitio web:
 
-![leaderboard_list](https://user-images.githubusercontent.com/8508804/33172797-ad9b2f22-d038-11e7-97fe-09116181ddfa.png)
+![leaderboard_list](/public/leaderboard-list.png)
 
 En el centro puedes llegar a ver cada Tabla que a sido creada, y en la columna de la derecha puedes llegar a ver las **Notas de Código** del Juego. Las Notas están allí para ayudar en algunas de las condiciones que se encuentran aquí abajo.
 
@@ -57,7 +57,7 @@ Las direcciones de memoria para STA/CAN/SUB/VAL tienen el siguiente formato:
 
 La mejor manera de empezar es hecharle un vistazo a una de las tablas ya existentes [https://retroachievements.org/leaderboardList.php](https://retroachievements.org/leaderboardList.php) y abrirla para ver como funciona. Vamos a utilizar la tabla de [Green Hill Act 1 (Sonic the Hedgehog)](https://retroachievements.org/leaderboardinfo.php?i=2) para este ejemplo. Entonces veamos como funciona:
 
-![new_leaderboard2](https://user-images.githubusercontent.com/8508804/33169120-90ddd7b2-d02a-11e7-8667-a659c980e7e5.png)
+![new_leaderboard2](/public/new-leaderboard2.png)
 
 El **Titulo/Descripción** son algo obios.
 
