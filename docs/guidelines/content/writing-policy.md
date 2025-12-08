@@ -18,6 +18,12 @@ It is required for all of your achievement titles to be in English. There are so
 
 ---
 
+### Mature Language
+
+Mature language, such as swears or sexual innuendos, are only allowed when it fits within the context of the game. Even if the game is rated for 18 years or older, it is not allowed to make your title sexual when the game has no sexual activities taking place. Games not featuring extreme violence or explicit language should not have mature titles. **Note that slurs are under no circumstances allowed.**
+
+---
+
 ### Capitalization
 
 For capitalization in titles, we recommend using https://capitalizemytitle.com/style/chicago/ **with the "Straight quotes" checkbox selected**. This will capitalize every word that should be capitalized, and straight quotes are necessary to be displayed correctly in every emulator. While this may not always give perfect results on longer achievement titles, for consistency it is recommended to choose this option when unsure about which words to capitalize, with the recommended style being either Chicago or MLA for the most aesthetically pleasing results.
