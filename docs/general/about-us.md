@@ -112,19 +112,15 @@ The team responsible for the adherence and driving updates to the [Developer's C
 
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
-- [AmirGaris](https://retroachievements.org/user/AmirGaris)
-- [Cartesia](https://retroachievements.org/user/Cartesia)
+- [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Darky](https://retroachievements.org/user/Darky)
-- [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Falcus](https://retroachievements.org/user/Falcus)
-- [psyduck](https://retroachievements.org/user/psyduck)
 - [Raichi](https://retroachievements.org/user/Raichi)
-- [Searo](https://retroachievements.org/user/Searo)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
 - [xClawz](https://retroachievements.org/user/xClawz)
+- [Yurana](https://retroachievements.org/user/Yurana)
 
 ### Cheat Prevention Team
 
