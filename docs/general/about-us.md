@@ -112,6 +112,7 @@ The team responsible for the adherence and driving updates to the [Developer's C
 
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
+- [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [Darky](https://retroachievements.org/user/Darky)
 - [Raichi](https://retroachievements.org/user/Raichi)
