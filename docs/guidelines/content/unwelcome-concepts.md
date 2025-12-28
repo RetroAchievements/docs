@@ -46,7 +46,6 @@ Examples of this are achievements for simply starting a game, collecting a singl
 When these are acceptable:
 
 - "Disclaimer" achievements meant to inform the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
-- Not skipping an opening cinematic if it had been considered a big deal at the time.
 - Addressing something fun, historical, or interesting.
 
 ## Requires Glitches
@@ -145,6 +144,7 @@ Let's face it. There are some games, or 'games,' rather, that are not fit for ac
 - [Games That Lack Gameplay](#games-that-lack-gameplay)
 - [Compilations and Multi-Carts](#compilations-and-multi-carts)
 - [Betas, Demos, and Prototypes](#betas-demos-and-prototypes)
+- [Work in Progress Hacks and Homebrews](#work-in-progress-hacks-and-homebrews)
 
 ## Games That Lack Gameplay
 
@@ -159,6 +159,14 @@ If a compilation or multi-cart features games that share the same console, then 
 ## Betas, Demos, and Prototypes
 
 If the game ended up having an official release, then these are generally not allowed unless there is unique content. Games that only existed as betas, demos, or prototypes are typically fine, so long as they're actually playable (some prototypes barely qualify).
+
+## Work in Progress Hacks and Homebrews
+
+Hacks and homebrews that are under development are generally not allowed. 
+
+- An exception can be requested from DevCompliance when a game is feature complete, meaning an early set is able to include Progression and Win Condition achievements that would stay the same conceptually in further updates.
+- Abandonned hacks and homebrews can have sets if the developer explicitly said that no more updates would happen.
+- Abandonned hacks and homebrews may also have sets if there was no development update in over year and no game update in over 2 years.
 
 ## Rich Presence Custom Name Restriction
 
