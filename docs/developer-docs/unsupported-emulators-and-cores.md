@@ -334,13 +334,14 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❓ libretro core: **Beetle bsnes**
 - ❌ libretro core: **Beetle Supafaust**
-  - 11 Jun 2024 - does not expose memory
+  - 2024-06-11 - Does not expose memory
 - ❓ libretro core: **bsnes**
 - ❓ libretro core: **bsnes 2014 Accuracy**
 - ❓ libretro core: **bsnes 2014 Balanced**
 - ❓ libretro core: **bsnes 2014 Performance**
 - ❓ libretro core: **bsnes C++98 (v085)**
-- ❓ libretro core: **bsnes-hd beta**
+- ❌ libretro core: **bsnes-hd beta**
+  - 2025-12-29 - Memory Inspector displays nothing but zeroes. Do not use.
 - ❓ libretro core: **bsnes-mercury Accuracy**
 - ❓ libretro core: **bsnes-mercury Balanced**
 - ❓ libretro core: **bsnes-mercury Performance**
