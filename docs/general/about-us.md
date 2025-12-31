@@ -113,7 +113,7 @@ The team responsible for the adherence and driving updates to the [Developer's C
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
 - [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
-- [cdpowe](https://retroachievements.org/user/cdpowe)
+- [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [Darky](https://retroachievements.org/user/Darky)
 - [Raichi](https://retroachievements.org/user/Raichi)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
@@ -144,7 +144,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
-- [suspect15](https://retroachievements.org/user/suspect15)
 - [thatbard](https://retroachievements.org/user/thatbard)
 - [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
