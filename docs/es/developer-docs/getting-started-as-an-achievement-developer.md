@@ -32,7 +32,7 @@ Para empezar abre el ejecutable de RAGens, e inicia seccion cuando salga la vent
 
 Ahora deberias tener en tu ventana principal corriendo Sonic. Hay otras 3 ventanas que vamos a estar utilizando, que se pueden encontrar sobre la pestaña de **RetroAchievements** en el menu. Vamos a trabajar con el **Inspector de Memoria** primero:
 
-![memoryinspector](https://user-images.githubusercontent.com/8508804/38775207-485b706e-4053-11e8-9a94-842e7fd838e1.png)
+![memoryinspector](/public/memoryinspector.png)
 
 El inspector de memoria se puede utilizar para encontrar variables en la RAM que podamos utilizar. Esencialmente estas en una caseria de tesoros por encontrar los lugares en memoria - esta ventana te ayudara a examinar y filtrar la RAM del juego que se encuentra corriendo.
 
@@ -70,7 +70,7 @@ Ok asi que el valor en memoria para el numero de anillos se encuentra almacenado
 
 Ve a la pestaña de **RetroAchievements** en el menu de tu emulador, escoje **Achievement Sets** y vas a ver esta ventana:
 
-![achievement_sets](https://user-images.githubusercontent.com/8508804/43732267-8be35738-9987-11e8-9203-c5cae1221562.png)
+![achievement_sets](/public/achievement-sets.png)
 
 Aqui agrupamos todos los logros disponibles en tres sets:
 
@@ -86,7 +86,7 @@ En la venta de Logros, haz click en **Local Achievements** (superior izquierda),
 
 A si es como se ve:
 
-![achievement_editor](https://user-images.githubusercontent.com/8508804/33130013-0eb07d96-cf79-11e7-8f73-6d737dfe5e16.png)
+![achievement_editor](/public/achievement-editor.png)
 
 Esta es la ventana final en la que vamos a poner toda la informacion junta. La mayoria de los campos de arriba se explican solos, ejemplo: Titulo, Descripcion, Puntos. La principal seria la parte de 'Requisitos'
 
@@ -112,11 +112,11 @@ Con esto establecido, no necesitamos ninguna otra condicion que agregar, asi que
 
 Ahora podemos 'activar' este logro localmente presionando en **Activate** a mano derecha de la ventana. Esto va a empezar a monitoriar estos valores en memoria y va a entregar el logro una vez que todas las condiciones se hubieran cumplido de manera verdadera. Ahora podemos avanzar y probar si este logro sirve!
 
-![testing_achievements](https://user-images.githubusercontent.com/8508804/32601362-83dcb788-c529-11e7-8df9-b79038408909.png)
+![testing_achievements](/public/testing-achievements.png)
 
 Si presionamos `Esc` mientras jugamos, vas a ver como se miraria el logro desde la interfaz de RetroAchievements!
 
-![testing_achievements2](https://user-images.githubusercontent.com/8508804/32601363-83fced8c-c529-11e7-885f-97d64b0384e5.png)
+![testing_achievements2](/public/testing-achievements2.png)
 
 A pesar de que el logro funciono bien en nuestras pruebas, un logro con una logica como esa no esta listo para ser oficialmente lanzado. Primero que nada: tiene una sola condicion: "anillos coleccionados >= 15". El problema es que ese mismo valor es el mismo que se utiliza para almacenar el numero de anillos cuando el juego corre en "modo demo" (Cuando la computadora juega el juego automaticamente cuando duras mucho tiempo en la pantalla de titulo). A si que, si Sonic colecciona 15 anillos en modo demo el logro tambien saldria, que es algo que no queremos.
 
