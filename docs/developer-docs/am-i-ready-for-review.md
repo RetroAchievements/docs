@@ -68,7 +68,8 @@ Are grammar and capitalization not your strong suit? Having trouble coming up wi
 ## Achievements are ordered logically
 
 - Under the Manage tab, you can set up the order through drag and drop or manually writing values.
-- Having achievements in the desired order often helps reviewers look through your achievements more quickly, and also helps us better see the strengths of your set design.
+- This is an important part of set presentation. Grouping things up thematically or chronologically makes it much more readable for players.
+- Having achievements in the desired order also helps reviewers look through your achievements more quickly, and also helps us better see the strengths of your set design.
 
 ## Progression achievements and Win Conditions are properly idenfitied
 
