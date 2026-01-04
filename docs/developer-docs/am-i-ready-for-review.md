@@ -17,8 +17,8 @@ Tips for testing:
 Before you request a review on your set, it must be clear of bad practices. In particular, you must use [AutoCR](https://authorblues.github.io/retroachievements/AutoCR/) and go through every issue it flags. As with any automatic feedback tool, it is not perfect, and flags can sometimes be ignored. It is still invaluable to identify issues with your set, especially while you are still learning. In your Ready for Review post on #jr-devs-request, you must:
 - Have had the claim for at least 7 days
 - Explain your testing process
-- Link to the Unpublished achievement page for your game (using the Load by Game ID feature)
-- Link to the AutoCR page for the set
+- Link to the Unpublished achievement page for your game
+- Link to the AutoCR page for the set (using the Load by Game ID feature)
 - Explain why any issue flagged by AutoCR has been ignored
   
 Review requests deemed incomplete will simply be denied and you will have to make another one later. Take your time to get your set as close to publishable as you can before making that request; there's no rush! Don't hesitate to ask for help from your fellow juniors and code reviewers. Below is a list of absolute requirements before getting on the backlog:
