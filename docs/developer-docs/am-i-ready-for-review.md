@@ -14,14 +14,14 @@ Tips for testing:
 
 # Requesting a Review
 
-Before you request a review on your set, it must be clear of bad practices. In particular, you must use [AutoCR](https://authorblues.github.io/retroachievements/AutoCR/) and go through every issue it flags. As any automatic feedback tool, it is not perfect, and flags can sometimes be ignored. It is still invaluable to identify issues with your set, especially while you are still learning. In your Ready for Review post on #jr-devs-request, you must:
+Before you request a review on your set, it must be clear of bad practices. In particular, you must use [AutoCR](https://authorblues.github.io/retroachievements/AutoCR/) and go through every issue it flags. As with any automatic feedback tool, it is not perfect, and flags can sometimes be ignored. It is still invaluable to identify issues with your set, especially while you are still learning. In your Ready for Review post on #jr-devs-request, you must:
 - Have had the claim for at least 7 days
 - Explain your testing process
-- Link to the Unpublished achievement page for your game
+- Link to the Unpublished achievement page for your game (using the Load by Game ID feature)
 - Link to the AutoCR page for the set
 - Explain why any issue flagged by AutoCR has been ignored
   
-Review requests deemed incomplete will simply be denied and you will have to make another one later. Take your time to get your set as close to publishable as you can before making that request, there's no rush! Don't hesitate to ask for help from your fellow juniors and code reviewers. Below is a list of absolute requirements before getting on the backlog:
+Review requests deemed incomplete will simply be denied and you will have to make another one later. Take your time to get your set as close to publishable as you can before making that request; there's no rush! Don't hesitate to ask for help from your fellow juniors and code reviewers. Below is a list of absolute requirements before getting on the backlog:
 
 [[toc]]
 
@@ -29,7 +29,7 @@ Review requests deemed incomplete will simply be denied and you will have to mak
 Everything below should be **avoided**. If you need to make an exception, explain why.
 - Achievements without a Delta-Mem pair
 - Achievements using only a single address (even if it uses it for multiple conditions)
-- Having a hit count of (1) or higher without a way to reset hits
+- Having a hit count target of (1) or higher without a way to reset hits
 - Using ResetIf or PauseIf for negation instead of managing hits
 - Using text based addresses in general
 - Using addresses without code notes
@@ -42,8 +42,9 @@ Everything below should be **avoided**. If you need to make an exception, explai
 
 Read over the [Code Notes](/guidelines/content/code-notes) guidelines and ensure you are following all the advice.
 
-- Check that you have sizes and specific values noted (where appropriate).
-- Make sure *all* addresses used in achievements and leaderboards have a code note.
+- Check that you have a size tag on every note
+- Check that every note has specific values noted, where appropriate
+- Make sure *all* addresses used in achievements and leaderboards have a code note
 
 ## Assets have clear descriptions and unique titles with proper grammar
 
@@ -62,7 +63,7 @@ Are grammar and capitalization not your strong suit? Having trouble coming up wi
 
 - Read the [Rich Presence ](/developer-docs/rich-presence) document to learn more.
 - [Condition Syntax](/developer-docs/condition-syntax.html) will also be of help.
-- It's a good opportunity to learn to use macro and conditionals.
+- It's a good opportunity to learn to use macros and conditionals.
 
 ## Achievements are ordered logically
 
@@ -93,7 +94,7 @@ Note: This **does not** mean that achievements have to disallow passwords. It ju
 
 In most cases, cheat codes provide a benefit that makes achievements easier. And then are you really achieving anything?
 
-- Add code to your achievements to block the use of cheat codes if you are not already doing so.
+- Add logic to your achievements to block the use of cheat codes if you are not already doing so.
 - Sometimes a cheat code such as a level select makes sense to allow, especially for challenges. Examples: "Beat Level 3 without taking damage." Level select should generally be blocked for progression achievements where the game expects a normal playthrough to start at the beginning.
 
 ## Games have appropriate hubs and meta information
