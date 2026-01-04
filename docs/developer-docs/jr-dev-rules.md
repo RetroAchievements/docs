@@ -29,7 +29,7 @@ The process to work on sets as a junior follows the roadmap below. In particular
 - Submit your set plan for approval. While the set plan is not a final product, it must show a general outline of the planned set including progression, challenge, and other types of achievements. Brief descriptions and point values must be included as well. If during development significant deviations are made from the set plan, a revised set plan must be submitted for approval.
   - If this is your first set as a junior, you have to submit this set plan in the #role-request forum on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE), along with a link to your RA profile, a link to the page of the game you wish to work on, and a ping to @Code-Reviewer. 
   - If you already are in the junior program, you have to submit this set plan on #jr-devs-requests. As a junior developer with at least one set published, you may claim the game while you work on your set plan, but no work is allowed prior to having your plan approved.
-- Develop your set. This includes RAM digging, making assets, creating achievement badges, writing clear description and unique titles as well as thoroughly test your assets. Code reviewers and felow juniors are available to help in #jr-devs!
+- Once your plan is approved, develop your set. This includes RAM digging, making assets, creating achievement badges, writing clear descriptions and unique titles as well as thoroughly testing your assets. Code reviewers and fellow juniors are available to help in #jr-devs!
 - [Request a review}(/developer-docs/am-i-ready-for-review) by making a **Ready for Review** post on #jr-devs-requests. Do this only when you think your set is as close to publishable as you can get it.
   - To get approved at this step, your set must be clear of bad practices flagged by AutoCR.
   - Once approved at this step, your set is added to the review backlog, and you wait for an in-depth code review. During that time, it is highly recommended to read the reviews of other juniors and improve your own set awaiting review whenever you read feedback that could equally apply to your work.
@@ -65,7 +65,7 @@ Junior Developers are expected to prioritize resolving open tickets over develop
 - If a ticket is in Request status while waiting for information from the reporter, they may continue work on a new set, but must immediately reprioritize the ticket(s) once the reporter responds
   - To put a ticket into Request status, ask the Code Reviewers, using the #jr-devs-requests, to transfer the ticket to the reporter after you have requested further information by asking the reporter using a comment on the ticket.
 - Once you have fully addressed the ticket, leave a comment on the ticket describing what the cause of the issue was and what you did to resolve the issue.
-- Contact the Code Reviewers, using the #jr-devs-requests, to resolve or close the ticket as appropriate after your comment has been made.
+- Contact the Code Reviewers, using the #jr-devs-requests forum channel on Discord, to resolve or close the ticket as appropriate after your comment has been made.
 
 ### Removal From Junior Developer Program
 
