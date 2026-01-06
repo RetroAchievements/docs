@@ -162,11 +162,13 @@ If the game ended up having an official release, then these are generally not al
 
 ## Work in Progress Hacks and Homebrews
 
-Hacks and homebrews that are under development are generally not allowed. 
+Hacks and homebrews that are under development are generally not allowed. Some exceptions are allowed, including:
 
-- An exception can be requested from DevCompliance when a game is feature complete, meaning an early set is able to include Progression and Win Condition achievements that would stay the same conceptually in further updates.
-- Abandonned hacks and homebrews can have sets if the developer explicitly said that no more updates would happen.
-- Abandonned hacks and homebrews may also have sets if there was no development update in over year and no game update in over 2 years.
+- Games that are feature complete, meaning an early set is able to include Progression and Win Condition achievements that would stay the same conceptually in further updates.
+- Abandonned hacks and homebrews if the developer explicitly said that no more updates would happen.
+- Abandonned hacks and homebrews if there was no development update in over year and no game update in over 2 years.
+
+When in doubt, confirm eligibility with Developer Compliance.
 
 ## Rich Presence Custom Name Restriction
 
