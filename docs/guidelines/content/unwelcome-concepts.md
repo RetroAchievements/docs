@@ -46,7 +46,6 @@ Examples of this are achievements for simply starting a game, collecting a singl
 When these are acceptable:
 
 - "Disclaimer" achievements meant to inform the player about restrictions in the achievement sets. These should only exist when the player can lock themselves out of multiple achievements without even realizing it.
-- Not skipping an opening cinematic if it had been considered a big deal at the time.
 - Addressing something fun, historical, or interesting.
 
 ## Requires Glitches
@@ -145,6 +144,7 @@ Let's face it. There are some games, or 'games,' rather, that are not fit for ac
 - [Games That Lack Gameplay](#games-that-lack-gameplay)
 - [Compilations and Multi-Carts](#compilations-and-multi-carts)
 - [Betas, Demos, and Prototypes](#betas-demos-and-prototypes)
+- [Work in Progress Hacks and Homebrews](#work-in-progress-hacks-and-homebrews)
 
 ## Games That Lack Gameplay
 
@@ -159,6 +159,16 @@ If a compilation or multi-cart features games that share the same console, then 
 ## Betas, Demos, and Prototypes
 
 If the game ended up having an official release, then these are generally not allowed unless there is unique content. Games that only existed as betas, demos, or prototypes are typically fine, so long as they're actually playable (some prototypes barely qualify).
+
+## Work in Progress Hacks and Homebrews
+
+Hacks and homebrews that are under development are generally not allowed. Some exceptions are allowed, including:
+
+- Hacks and homebrews that are feature complete, meaning an early set is able to include Progression and Win Condition achievements that would stay the same conceptually in further updates.
+- Abandoned hacks and homebrews where the developer has explicitly stated no more updates by them will follow.
+- Abandoned hacks and homebrews that have not received any game update in over 2 years, and no news or updates from the developer(s) about the project in over a year.
+
+When in doubt, confirm eligibility with Developer Compliance.
 
 ## Rich Presence Custom Name Restriction
 
