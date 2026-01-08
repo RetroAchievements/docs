@@ -164,9 +164,9 @@ If the game ended up having an official release, then these are generally not al
 
 Hacks and homebrews that are under development are generally not allowed. Some exceptions are allowed, including:
 
-- Games that are feature complete, meaning an early set is able to include Progression and Win Condition achievements that would stay the same conceptually in further updates.
-- Abandonned hacks and homebrews if the developer explicitly said that no more updates would happen.
-- Abandonned hacks and homebrews if there was no development update in over year and no game update in over 2 years.
+- Hacks and homebrews that are feature complete, meaning an early set is able to include Progression and Win Condition achievements that would stay the same conceptually in further updates.
+- Abandoned hacks and homebrews where the developer has explicitly stated no more updates by them will follow.
+- Abandoned hacks and homebrews that have not received any game update in over 2 years, and no news or updates from the developer(s) about the project in over a year.
 
 When in doubt, confirm eligibility with Developer Compliance.
 
