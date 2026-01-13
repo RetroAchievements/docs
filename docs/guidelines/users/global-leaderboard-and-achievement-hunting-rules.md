@@ -216,8 +216,6 @@ This does not include when there are flaws in the achievement developer's code. 
 
 **Examples**: youtube video guides; GameFAQs; puzzle solutions; collectible lists; etc.
 
-**A note on honesty**: Using solvers for sudoku/picross is considered cheating. Unenforceable tolerated cheating but cheating nonetheless.
-
 ### 5. Playing co-op/competitive games with another player or players is allowed. {#allowed-5}
 
 Playing co-op is allowed, _however developers can code their achievements to disallow it programmatically._ It's usually mentioned in the achievement's description.
