@@ -87,7 +87,12 @@ Restrictive challenges where player units or equivalent must never be used again
 
 A bonus set is a set with a variety of achievements that do not fit into the base set of a game for various reasons. These may be extremely difficult challenges that go beyond what is welcome, painful grinds that serve no particular purpose beyond getting stronger or collecting everything, a showcase of glitches, or many other kinds of things that wouldn't be considered good achievements for the base set.
 
+- Bonus sets should **not** be named `[Subset - Bonus]`. Instead, choose a name that fits thematically with the game to which this subset belongs.
 - A good example of the variety pack nature of a bonus set is the Suikoden Bonus Set, which contains various challenge runs, rare drops, and extreme challenges within a single subset.
+
+::: warning TIP
+Choose a name that fits thematically with the game.
+:::
 
 ## Naming Scheme
 
