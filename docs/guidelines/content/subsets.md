@@ -40,7 +40,7 @@ You can control which subsets you want to play:
 
 ### Hash Compatibility
 
-Some achievement sets may be incompatible with certain game hashes (ROM versions, patches, etc). The server will automatically exclude incompatible sets from your emulator session. If you're testing hash incompatibility, you may have special access to view sets that are normally hidden for incompatible hashes.
+Some achievement sets may be incompatible with certain game hashes (ROM versions, patches, etc). The server will automatically exclude incompatible sets from your emulator session. If you're testing hash compatibility, you may have special access to view sets that are normally hidden for incompatible hashes.
 
 ## A Reminder
 
