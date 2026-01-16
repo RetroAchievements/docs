@@ -5,21 +5,54 @@ description: Learn about creating and managing subsets for RetroAchievements, in
 
 # Subsets
 
-_Advanced Developer Topic_
-
 [[toc]]
 
 ## What are Subsets?
 
 When browsing the [list of games](http://retroachievements.org/gameList.php), you will see that some games have a `[Subset]` tag in the title. Each of these contain achievements that for some reason or another, are not available in a game's base set. Subsets are typically home to specific types of challenge runs.
 
-The methods to create a subset and means to play them will change once they become a more integrated feature. As of now, they require a patch to generate a unique hash and are separate entries from the base set, so achievements must be obtained separately as well. Information on creating these patches can be obtained [here](https://github.com/RetroAchievements/RAPatches).
+Subsets are now fully integrated into RetroAchievements through the multiset system. When you load a game, the server will automatically resolve which achievement sets to include based on the game hash you're using and your personal preferences. Developers link sets together, allowing you to play multiple sets (such as a base set and its bonus content) simultaneously without needing separate patches or playthroughs.
+
+Multiset requires the latest version of your emulator:
+* RetroArch 1.22.1+
+* PCSX2 2.6+
+* DuckStation 0.1-10530+
+* Dolphin 2512-144+ (development build)
+* PPSSPP 1.19.3-1328+ (development build)
+
+## How Multiset Works
+
+### Set Types
+
+The multiset system uses four technical set types that determine how sets relate to each other:
+
+- **Base**: The primary achievement set for a game. This is loaded by default and represents the main content.
+- **Bonus**: Additional achievements linked to a base set. When you load a base set, any associated bonus sets are also available based on your preferences.
+- **Specialty**: These sets still require their own patched ROM, but also load the base set and any bonus sets automatically. These are typically used for challenge runs or alternate game modes.
+- **Exclusive**: These sets load in isolation and are not compatible with any of the other game's sets.
+
+### User Preferences
+
+You can control which subsets you want to play:
+
+- **Global Preference**: A site-wide setting to opt out of all subsets is available by default on your [settings page](https://retroachievements.org/settings). Turning off this setting disables multiset.
+- **Per-set Preferences**: You can override your global preference for individual achievement sets on a game-by-game basis. If a game has multiset enabled, on the set selection tabs on its game page, you'll find a Subset Configuration button. This lets you opt in or out of subsets for the game.
+
+### Hash Compatibility
+
+Some achievement sets may be incompatible with certain game hashes (ROM versions, patches, etc). The server will automatically exclude incompatible sets from your emulator session. If you're testing hash compatibility, you may have special access to view sets that are normally hidden for incompatible hashes.
 
 ## A Reminder
 
 Challenge achievements are base set content by default. Challenges only become appropriate for subsets when they are of an extreme nature that is far beyond what a typical challenge might be such as a full game damageless challenge. Subsets should not be used as a dumping ground for challenges that for whatever reason are not perfect fits into the base set.
 
 ## Types of Subsets
+
+The categories below describe the _content type_ of subsets. When creating a subset, you'll also need to choose the appropriate _technical subset type_ (Bonus, Specialty, or Exclusive) based on how the subset should interact with the base set:
+
+- Use **Bonus** for most subsets that can be played alongside the base set without conflicts.
+- Use **Specialty** for challenge runs or modes that benefit from their own Rich Presence script but still work alongside base set achievements.
+- Use **Exclusive** for subsets that fundamentally change gameplay in ways that would altogether conflict with base set achievements (eg: completely incompatible memory).
 
 ### Challenge Runs
 
