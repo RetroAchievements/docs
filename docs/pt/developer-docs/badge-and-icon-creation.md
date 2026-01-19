@@ -16,11 +16,11 @@ Quando carregado, seu arquivo é convertido no seguinte:
 
 - PNG em cores de 32 bits 64x64. Exemplo:
 
-![Achievement badge](/public/achievement-badge.png)
+![Achievement badge](/achievement-badge.png)
 
 - 64x64 em escala de cinza e PNG desfocado. Exemplo:
 
-![Achievement badge locked](/public/achievement-badge-locked.png)
+![Achievement badge locked](/achievement-badge-locked.png)
 
 Não é totalmente importante como o arquivo é formatado antes do upload, mas, desde que seja quadrado, o arquivo será carregado e convertido facilmente. Naturalmente, é importante não infringir nenhuma lei de direitos autorais ou fazer upload de algo vulgar, ofensivo ou pornográfico, com as possíveis consequências de ser advertido, potencialmente reportado e potencialmente removido da RetroAchievements.
 

@@ -6,13 +6,13 @@ Cuando utilizamos _Alt groups_, para que se dispare un logro, todas las condicio
 
 En este simple ejemplo para Contra (NES) el logro requiere, "En un Stage mira hacia arriba o agáchate." Veamos que hay en el _Core group_ y en los _Alt groups_:
 
-![Alt Groups: Core](/public/alt-groups-core.png)
+![Alt Groups: Core](/alt-groups-core.png)
 En el grupo core: `0x18 = 5`. Esto checa si el jugador se encuentra en un Stage.
 
-![Alt Groups: Alt1](/public/alt-groups-alt1.png)
+![Alt Groups: Alt1](/alt-groups-alt1.png)
 En `Alt 01`: `0xbc = 1`. Esto checa si el jugador esta viendo hacia arriba.
 
-![Alt Groups: Alt2](/public/alt-groups-alt2.png)
+![Alt Groups: Alt2](/alt-groups-alt2.png)
 En `Alt 02`: `0xbc = 2`. Esto checa si el jugador esta agachado.
 
 Mientras el jugador se encuentre en un stage. El grupo core es verdadero. Si el jugador mira hacia arriba, Alt 01 es verdadero. Si el jugador se agacha, Alt 02 es verdadero. Si core + Alt 01 Ó Alt 02 es verdadero, este logro se dispararia.
@@ -20,7 +20,7 @@ Mientras el jugador se encuentre en un stage. El grupo core es verdadero. Si el 
 ## Datos sobre los Alt Groups
 
 - Para añadir o remover _Alt groups_ haz click en el boton `+` o `-` en la parte inferior izquierda del editor de logros (achievement editor).  
-  ![Alt Groups: Add or remove](/public/alt-groups-add.png)
+  ![Alt Groups: Add or remove](/alt-groups-add.png)
 
 - Si quieres simplemente checar **ESTE** `O` **ESO** puedes dejar el core group en blanco y añadir **ESTE** en `Alt 01`, y **ESO** en `Alt 02`.
 

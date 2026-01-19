@@ -35,7 +35,7 @@ Possession of hammer changes from not possessed to possessed
 
 Here is what this achievement would look like in the Achievement Editor
 
-![how-ra-works-example](/public/how-ra-works-example.png)
+![how-ra-works-example](/how-ra-works-example.png)
 
 In this example, address 0x0561 is the room ID and its value is 0x15 when the player is in the room with the hammer, address 0x076e is the area ID and its value is 0x02 when in Death Mountain where the hammer is located and Bit0 of address 0x078b indicates if the player has the hammer. This bit changes from 0 to 1 when the player acquires the hammer, so the achievement checks for a frame where this bit is greater than it was the previous frame which is precisely when the hammer is obtained since bits can only be either 1 or 0. If all three conditions are true on the same frame, the achievement is awarded. This can only happen when the player obtains the hammer while in the hammer room in Death Mountain, not at some other time such as loading a save file.
 

@@ -29,13 +29,13 @@ For more information on specific consoles you can check here:
 
 On each game's page there is a link to "Request Set".
 
-![request1](/public/request1.png)
+![request1](/request1.png)
 
 Clicking this will add your name to the list of users who have requested a set for the game. Clicking again will withdraw the request. To see other users who have requested the set, click on the "Set Requestors" link below the game's box art.
 
-![request2](/public/request2.png)
+![request2](/request2.png)
 
-![request3](/public/request3.png)
+![request3](/request3.png)
 
 The total number of requests are tallied and displayed on the [Most Requested Sets](https://retroachievements.org/setRequestList.php) page which can also be sorted by console. If and when a set is created the user request will be automatically returned to use for another game.
 
@@ -59,9 +59,9 @@ Not here. It is illegal to host or distribute copyrighted ROMs. However we have 
 
 ### Why do I get a message that some achievements are unsupported?
 
-![RetroArch Unsupported](/public/retroarch-unsupported.png)
+![RetroArch Unsupported](/retroarch-unsupported.png)
 
-![RALibretro Unsupported](/public/ralibretro-unsupported.png)
+![RALibretro Unsupported](/ralibretro-unsupported.png)
 
 This message informs the user that some achievements cannot be activated either because their version of RetroArch and/or the core being used does not support some newer logic features, or because required areas of the RAM are not exposed for achievement processing.
 
@@ -79,11 +79,11 @@ There are two ways to report broken achievements. In the emulator title bar go t
 
 1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only:
 
-![how to report](/public/how-to-report.webp)
+![how to report](/how-to-report.webp)
 
 2. For [RetroArch](#retroarch-emulators) users you can submit the report directly via website. On every achievement's page you'll see a link saying `Report an issue for this achievement`, like in the image below:
 
-![open-ticket-on-site](/public/report-an-issue.png)
+![open-ticket-on-site](/report-an-issue.png)
 
 If you use the [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) you can also report problems from the website achievement page, but it is preferred that you use the method built into the emulators.
 
@@ -194,19 +194,19 @@ Same with not getting it when you should in most cases you'll want to [create a 
 There are three ways to do this:
 
 - On the achievement page:<br>
-  ![reset-achievements-1](/public/reset-achievements1.png)
+  ![reset-achievements-1](/reset-achievements1.png)
 
 - On the game page (when you want or need to reset all earns in a game):<br>
-  ![reset-achievements-2](/public/reset-achievements2.png)
+  ![reset-achievements-2](/reset-achievements2.png)
 
 - Near the bottom of your user settings page:<br>
-  ![reset-achievements-3](/public/reset-achievements3.png)
+  ![reset-achievements-3](/reset-achievements3.png)
 
 ### Am I the only one with an issue?
 
 If an achievement doesn't work correctly for you, there is a very good chance it doesn't work for other people. You can check in the achievement's page and look for where it says 'The achievement has 'X' open tickets':
 
-![open-tickets-picture](/public/open-tickets.png)
+![open-tickets-picture](/open-tickets.png)
 
 If the game has tickets, click on the 'open tickets' link. There will be a list to show any reports of broken achievements. You can comment on these to add helpful details or say you have a problem with this achievement too.
 
@@ -229,7 +229,7 @@ Right Here:
 
 On Site, front page, while not logged in:
 
-![reset password](/public/reset-password.png)
+![reset password](/reset-password.png)
 
 ### Will I have any privilege if I become a patron?
 

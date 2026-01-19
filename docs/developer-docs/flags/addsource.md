@@ -24,7 +24,7 @@ If the value in `0x8010` is `1` and the value in `0x8020` is `2`, the comparison
 
 Trying to summarize the explanation in an image:
 
-![`AddSource` Explained](/public/addsource-explained.png)
+![`AddSource` Explained](/addsource-explained.png)
 
 #### Chaining
 

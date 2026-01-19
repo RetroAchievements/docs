@@ -11,13 +11,13 @@ description: Learn how to create and manage leaderboards for RetroAchievements, 
 
 This is how a game's Leaderboard List looks like on the website:
 
-![leaderboard_list](/public/leaderboard-list.png)
+![leaderboard_list](/leaderboard-list.png)
 
 In the center you can see every already made Leaderboard, and in the right column you can see the **Code Notes** for the game. The Code Notes are here to help with some conditions we'll see below.
 
 And now you can also create and edit Leaderboards through the GUI just like achievements by selecting Leaderboards from the Assets List:
 
-![Leaderboards GUI](/public/leaderboards-gui.png)
+![Leaderboards GUI](/leaderboards-gui.png)
 
 Here's a brief explanation of each field of a single Leaderboard:
 
@@ -51,7 +51,7 @@ NOTE: Once an active leaderboard is cancelled or submitted, it cannot be reactiv
 
 The best place to start is to look at existing leaderboards and break it down to see how it works. We're going to use the [Green Hill Act 1 (Sonic the Hedgehog) Leaderboard](https://retroachievements.org/leaderboardinfo.php?i=2) for this purpose. Then let's see how it looks:
 
-![new_leaderboard2](/public/new-leaderboard2.png)
+![new_leaderboard2](/new-leaderboard2.png)
 
 The **Title/Description** fields are quite obvious.
 
@@ -65,7 +65,7 @@ Now we're going to break down the most important parts.
 
 **STA**: `0xfe10=h0000_0xhf601=h0c_d0xhf601!=h0c_0xfff0=0`
 
-![Start conditions](/public/start-conditions.png)
+![Start conditions](/start-conditions.png)
 
 - `0xfe10=h0000`: If 16-bit RAM address 0xfe10 is equivalent to hex 0000,
 - `_`: AND,
@@ -89,7 +89,7 @@ This might seem daunting, because we don't know what these addresses mean. That'
 
 **CAN**: `0xhfe13<d0xhfe13`
 
-![Cancel conditions](/public/cancel-conditions.png)
+![Cancel conditions](/cancel-conditions.png)
 
 - 0xfe13 is the number of lives.
 
@@ -99,7 +99,7 @@ The cancel section checks if the player's LIVES counter ever becomes lower. Lite
 
 **SUB**: `0xf7cc!=0_d0xf7cc=0`
 
-![Submit conditions](/public/submit-conditions.png)
+![Submit conditions](/submit-conditions.png)
 
 - 0xf7cc is the endlevel flag, non-interactive.
 
@@ -135,24 +135,24 @@ In games where the high score wraps around back to 0 it is actually possible to 
 
 As an example lets take a look at Balloon Fight on NES where the score wraps around after 999,990. Here is the original leaderboard:
 
-![Original leaderboard](/public/leaderboard-original.png)
+![Original leaderboard](/leaderboard-original.png)
 
 And an updated version which will continue tracking after each loop:
 Core needs to have a `Measured` statement in it so just put something that is never true and also a ResetIf for resetting the `MeasuredIf` statements in the Alt Groups when needed (in this case on the title screen)
 
-![Leaderboard core updated](/public/leaderboard-core-updated.png)
+![Leaderboard core updated](/leaderboard-core-updated.png)
 
 The first Alt will contain the normal logic for high score
 
-![Leaderboard alt1](/public/leaderboard-alt1.png)
+![Leaderboard alt1](/leaderboard-alt1.png)
 
 The next Alt will contain a `MeasuredIf` that is true after the first loop which will allow this value to be used. You will also add an extra condition to AddSource in the total score from the first loop which will be 1,000,000 in this case. This value will now be used since `MeasuredIf` is true and the value is the highest of the Alt Groups
 
-![Leaderboard alt2](/public/leaderboard-alt2.png)
+![Leaderboard alt2](/leaderboard-alt2.png)
 
 For the next Alt we increment the number of hits used in the loop detection as well as the value we multiply the total score added by for each loop
 
-![Leaderboard alt3](/public/leaderboard-alt3.png)
+![Leaderboard alt3](/leaderboard-alt3.png)
 
 ## Further Help
 

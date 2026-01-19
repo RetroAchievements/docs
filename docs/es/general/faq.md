@@ -29,13 +29,13 @@ Para más información de una consola específica, puedes echarle un vistazo a:
 
 En la página de cada juego hay un enlace a "Request Set" (Solicitar set).
 
-![request1](/public/request1.png)
+![request1](/request1.png)
 
 Al hacer clic, tu nombre se añadirá a la lista de usuarios que han solicitado un set para el juego. Si vuelves a hacer clic, retirarás la solicitud. Para ver otros usuarios que han solicitado el juego, haz clic en el enlace "Set Requestors" (Solicitantes del juego) que aparece debajo de la carátula del juego.
 
-![request2](/public/request2.png)
+![request2](/request2.png)
 
-![request3](/public/request3.png)
+![request3](/request3.png)
 
 El número total de solicitudes se cuenta y se muestra en la página [sets más solicitados](https://retroachievements.org/setRequestList.php), que también puede ordenarse por consola. Cuando se crea un juego, la solicitud del usuario se devuelve automáticamente para poder ser utilizada en otro juego.
 
@@ -59,9 +59,9 @@ Aquí no. Es ilegal almacenar o distribuir ROM con derechos de autor. Sin embarg
 
 ### ¿Por qué aparece un mensaje que indica que algunos logros no son compatibles?
 
-![RetroArch no compatible](/public/retroarch-unsupported.png)
+![RetroArch no compatible](/retroarch-unsupported.png)
 
-![RALibretro no compatible](/public/ralibretro-unsupported.png)
+![RALibretro no compatible](/ralibretro-unsupported.png)
 
 Este mensaje informa al usuario de que algunos logros no pueden activarse porque su versión de RetroArch y/o el núcleo que está utilizando no son compatibles con algunas características lógicas más recientes, o porque las áreas necesarias de la RAM no están expuestas para el procesamiento de logros.
 
@@ -79,11 +79,11 @@ Hay dos formas de informar de logros rotos. En la barra de título del emulador,
 
 1. Para emuladores oficiales de RetroAchievements solamente:
 
-![cómo informar](/public/how-to-report.webp).
+![cómo informar](/how-to-report.webp).
 
 2. Los usuarios de RetroArch pueden enviar un informe directamente a través de su sitio web. En la página de cada logro verás un enlace que dice `Report an issue for this achievement ("Informar de un problema para este logro")` , como en la imagen de abajo:
 
-![abrir-un-reporte-en-el-sitio](/public/report-an-issue.png)
+![abrir-un-reporte-en-el-sitio](/report-an-issue.png)
 
 Si usas los emuladores oficiales de RetroAchievements también puedes informar de los problemas desde la página de logros del sitio web, pero es preferible que utilices el método integrado en los emuladores.
 
@@ -162,19 +162,19 @@ Lo mismo que si no lo obtienes cuando deberías. En la mayoría de los casos que
 Hay tres formas de hacerlo:
 
 - En la página de logros:<br>
-  ![reset-achievements-1](/public/reset-achievements1.png)
+  ![reset-achievements-1](/reset-achievements1.png)
 
 - En la página del juego (cuando quieras o necesites reiniciar todos los obtenidos de una partida):<br>
-  ![reset-achievements-2](/public/reset-achievements2.png)
+  ![reset-achievements-2](/reset-achievements2.png)
 
 - Cerca de la parte inferior de la página de configuración de usuario:<br>
-  ![reset-achievements-3](/public/reset-achievements3.png)
+  ![reset-achievements-3](/reset-achievements3.png)
 
 ### ¿Soy el único que tiene un problema?
 
 Si un logro no funciona correctamente para ti, es muy probable que no funcione para otras personas. Puedes comprobarlo en la página del logro y buscar donde dice: "El logro tiene 'X' tickets abiertos":
 
-![foto-tickets-abiertos](/public/open-tickets.png)
+![foto-tickets-abiertos](/open-tickets.png)
 
 Si el juego tiene tickets, haz clic en el enlace "open tickets" (tickets abiertos). Aparecerá una lista con los informes de logros rotos. Puedes comentar sobre ellos para añadir detalles útiles o decir que también tienes un problema con este logro.
 
@@ -197,7 +197,7 @@ Aquí:
 
 En la página principal, sin estar conectado:
 
-![restablecer-contrasena](/public/reset-password.png)
+![restablecer-contrasena](/reset-password.png)
 
 ### ¿Tendré algún privilegio si me hago mecenas?
 

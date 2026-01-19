@@ -13,7 +13,7 @@ Here is an overview of the **Memory Inspector** and its features. This tool can 
 
 ## Memory Inspector Dialog
 
-![memoryinspector-num](/public/memoryinspector-num.png)
+![memoryinspector-num](/memoryinspector-num.png)
 
 ### 1. New Search
 
@@ -51,7 +51,7 @@ On the left side is information about the results, including the number of match
 
 Below the result information are two buttons. The first allows you to manually remove the selected items from the result set. You can use Ctrl and Shift to select multiple items. The second lets you create a bookmark for an item in the result set. It will appear in the Bookmarks dialog.
 
-![memoryinspector-filter](/public/memoryinspector-filter.png)
+![memoryinspector-filter](/memoryinspector-filter.png)
 
 The items in the result set show the address of the match, the current value, and a brief description of the memory at the address. If a code note exists for the address, it will be shown. Otherwise, a general classification of the address will be shown.
 
@@ -92,7 +92,7 @@ When the memory viewer is focused, a cursor will be visible. You can type any he
 
 You can open the Memory Bookmarks dialog from the RetroAchievements menu. It will also automatically open when adding a bookmark from either of the buttons on the Memory Inspector dialog.
 
-![memoryinspector-bookmark](/public/memoryinspector-bookmark.png)
+![memoryinspector-bookmark](/memoryinspector-bookmark.png)
 
 With this, you can view multiple designated addresses at once instead of having to shuffle around in the Inspector. Bookmarked addresses will show in the Memory Inspector as green.
 
@@ -155,7 +155,7 @@ More facts about the different number notations:
 
 The bottom part of the Memory Inspector is what we call the Memory Viewer:
 
-![memviewer](/public/memviewer.png)
+![memviewer](/memviewer.png)
 
 You can see data in Memory Viewer using 8, 16 or 32-bit modes.
 
@@ -175,11 +175,11 @@ Before we talk about 16-bit mode and 32-bit mode, it's important to know about e
 >
 > In the **Big-Endian** order the "big end" of the number (most significant value in the sequence) is stored first (placed at the lowest address). In the image below you see the number `0x12345678` stored at the address `0x100` in the big-endian order. Notice that the most significant byte `0x12` is at the address `0x100`:
 >
-> ![bigendian](/public/bigendian.png)
+> ![bigendian](/bigendian.png)
 >
 > In the **Little-Endian** order the "little end" of the number (least significant value in the sequence) is stored first. In the image below you see the number `0x12345678` stored at the address `0x100` in the little-endian order. Notice that the least significant byte `0x78` is at the address `0x100`:
 >
-> ![littleendian](/public/littleendian.png)
+> ![littleendian](/littleendian.png)
 
 Values that need more than 8-bits (in other words: larger than 255) have to be stored in multiple bytes. However, the emulated systems we use store multi-byte values in little-endian order.
 
@@ -197,7 +197,7 @@ In addition to the 8-bit, 16-bit and 32-bit sizes described above, there are add
 
 In the memory viewer when an 8-bit address is selected you will see something like the image below (in the image: a byte with the value `6f` is selected; the bits are highlighted with an orange circle):
 
-![bitfields](/public/bitfields.png)
+![bitfields](/bitfields.png)
 
 It is very common in games to store important information as a single bit. As a bit can only have two possible values (`1` or `0`), sometimes it's used to mean "yes" or "no", "on" or "off", "have item" or "no item", etc. Some games, specially those with limited memory space, use bit switches a lot.
 
@@ -226,4 +226,4 @@ Occasionally you will only be interested working with a single hexadecimal digit
 
 ### Memory Sizes Diagram
 
-![memsizes](/public/mem-inspector-size-diagram.png)
+![memsizes](/mem-inspector-size-diagram.png)

@@ -19,7 +19,7 @@ Every game has an address which is constantly increasing, it functions like a en
 - `0x2c`: Game Progression: `03`=Before Stage starts, `04`=Stage started, `08`=Stage finished
 - `0x30`: Stage ID (in this example, Stage 1)
 
-![Contra timer achievement setup in editor](/public/contra-timer-achievement-editor.png)
+![Contra timer achievement setup in editor](/contra-timer-achievement-editor.png)
 
 Link to Cheevo: [Contra Speedrun](https://retroachievements.org/achievement/65443)
 

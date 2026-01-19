@@ -13,13 +13,13 @@ When using _Alt groups_, for the achievement to trigger, all the conditions in t
 
 In this dummy example for Contra (NES) the achievement requires, "While on stage look up or crouch." Lets look at what's in the _Core group_ and in the _Alt groups_:
 
-![Alt Groups: Core](/public/alt-groups-core.png)
+![Alt Groups: Core](/alt-groups-core.png)
 In the core group: `0x18 = 5`. This checks that the player is on stage.
 
-![Alt Groups: Alt1](/public/alt-groups-alt1.png)
+![Alt Groups: Alt1](/alt-groups-alt1.png)
 In `Alt 01`: `0xbc = 1`. This checks that the player is looking up.
 
-![Alt Groups: Alt2](/public/alt-groups-alt2.png)
+![Alt Groups: Alt2](/alt-groups-alt2.png)
 In `Alt 02`: `0xbc = 2`. This checks that the player is crouching.
 
 As long as the player is on stage. The core group is true. If the player looks up, Alt 01 is true. If the player crouches, Alt 02 is true. If core + Alt 01 OR Alt 02 are true, the achievement will trigger.
@@ -27,7 +27,7 @@ As long as the player is on stage. The core group is true. If the player looks u
 ## Facts about Alt Groups
 
 - To add or remove _Alt groups_ click the `+` or `-` button in the bottom left of the achievement editor.  
-  ![Alt Groups: Add or remove](/public/alt-groups-add.png)
+  ![Alt Groups: Add or remove](/alt-groups-add.png)
 
 - If you want to simply test for **this** `OR` **that** you can leave the core group blank and add **this** in `Alt 01`, and **that** in `Alt 02`.
 

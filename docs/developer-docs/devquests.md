@@ -35,7 +35,7 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 
 ### 001 [Ticket Massacre](https://retroachievements.org/game/15940)
 
-![DQ001](/public/devquest-001.png)
+![DQ001](/devquest-001.png)
 
 **Type**: Maintenance  
 **Goal**: Resolve/close 50 tickets  
@@ -49,7 +49,7 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 
 ### 002 [Retro Renovator](https://retroachievements.org/game/15957)
 
-![DQ002](/public/devquest-002.png)
+![DQ002](/devquest-002.png)
 
 **Type**: Revision, Maintenance  
 **Goal**: Repair 3 sets from provided batch  
@@ -66,7 +66,7 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 
 ### 003 [Singles in Your Area](https://retroachievements.org/game/15953)
 
-![DQ003](/public/devquest-003.png)
+![DQ003](/devquest-003.png)
 
 **Type**: Maintenance  
 **Goal**: Tighten up the logic for 20 single-condition achievements  
@@ -79,7 +79,7 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 
 ### 004 [Veteran Developer](https://retroachievements.org/game/15947)
 
-![DQ004](/public/devquest-004.png)
+![DQ004](/devquest-004.png)
 
 **Type**: Legacy  
 **Goal**: Complete a set of special goals  
@@ -101,7 +101,7 @@ A constantly evolving toolkit means that these requirements are subject to chang
 
 ### 005 [Trigger Happy](https://retroachievements.org/game/15952)
 
-![DQ005](/public/devquest-005.png)
+![DQ005](/devquest-005.png)
 
 **Type**: Maintenance  
 **Goal**: Update 50 achievements with the Trigger and Measured flags  
@@ -115,7 +115,7 @@ A constantly evolving toolkit means that these requirements are subject to chang
 
 ### 006 [The Unwanted](https://retroachievements.org/game/15907)
 
-![DQ006](/public/devquest-006.png)
+![DQ006](/devquest-006.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set for an unpopular system assigned to you at random  
@@ -153,7 +153,7 @@ No hacks or homebrew unless those are the only types of games left without sets.
 
 ### 007 [Most Wanted](https://retroachievements.org/game/17758)
 
-![DQ007](/public/devquest-007.png)
+![DQ007](/devquest-007.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set for one of the most requested games  
@@ -167,7 +167,7 @@ At the time you claim the set, it must be in Most Wanted section of the latest i
 
 ### 008 [World Traveler](https://retroachievements.org/game/15918)
 
-![DQ008](/public/devquest-008.png)
+![DQ008](/devquest-008.png)
 
 **Type**: Set Creation  
 **Goal**: Develop two sets for games that never had an English release  
@@ -185,7 +185,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 009 [Launch Party!](https://retroachievements.org/game/15937)
 
-![DQ009](/public/devquest-009.png)
+![DQ009](/devquest-009.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set for a newly supported system within 6 months of RA support  
@@ -200,7 +200,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 010 [It Takes Two](https://retroachievements.org/game/15939)
 
-![DQ010](/public/devquest-010.png)
+![DQ010](/devquest-010.png)
 
 **Type**: Set Creation  
 **Goal**: Join forces with other developers to publish two collaboration sets  
@@ -216,7 +216,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 011 [The Genesis of RA](https://retroachievements.org/game/1280)
 
-![DQ011](/public/devquest-011.png)
+![DQ011](/devquest-011.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set for the Sega Genesis/Mega Drive to celebrate the anniversary of RA's first achievement  
@@ -229,7 +229,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 012 [Hacker's Habit](https://retroachievements.org/game/672), [Hack at it Again](https://retroachievements.org/game/32908)
 
-![DQ012](/public/devquest-012.png) ![DQ012-II](/public/devquest-012-2.png)
+![DQ012](/devquest-012.png) ![DQ012-II](/devquest-012-2.png)
 
 **Type**: Set Creation  
 **Goal**: Create two new sets for robust hacks  
@@ -244,7 +244,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 013 [complete.me](https://retroachievements.org/game/795)
 
-![DQ013](/public/devquest-013.png)
+![DQ013](/devquest-013.png)
 
 **Type**: Revision, Maintenance  
 **Goal**: Provide significant content to three sets that are progression-only or were demoted due to being incomplete  
@@ -257,7 +257,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 014 [Laudable Leaderboards](https://retroachievements.org/game/862)
 
-![DQ014](/public/devquest-014.png)
+![DQ014](/devquest-014.png)
 
 **Type**: Maintenance  
 **Goal**: Create leaderboards for 10 games that currently are lacking them
@@ -276,7 +276,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 
 ### 015 [Console Conqueror](https://retroachievements.org/game/809)
 
-![DQ015](/public/devquest-015.png)
+![DQ015](/devquest-015.png)
 
 **Type**: Legacy  
 **Goal**: Publish a set for every supported system on RetroAchievements  
@@ -294,7 +294,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 016 [Wish This Set](https://retroachievements.org/game/2962)
 
-![DQ016](/public/devquest-016.png)
+![DQ016](/devquest-016.png)
 
 **Type**: Set Creation  
 **Goal**: Publish a set for a game that has been featured in RANews' Wish This Set feature at any point in time and does not currently have a set in core  
@@ -309,7 +309,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 017 [RA World Cup](https://retroachievements.org/game/15942)
 
-![DQ017](/public/devquest-017.png)
+![DQ017](/devquest-017.png)
 
 **Type**: Set Creation  
 **Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport  
@@ -324,7 +324,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 018 [Subset Station](https://retroachievements.org/game/22564)
 
-![DQ018](/public/devquest-018.png)
+![DQ018](/devquest-018.png)
 
 **Type**: Set Creation  
 **Goal**: Publish 2 subsets  
@@ -339,7 +339,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 019 [Wheel of Genres](https://retroachievements.org/game/22565)
 
-![DQ019](/public/devquest-019.png)
+![DQ019](/devquest-019.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set from a specific genre or subgenre as determined by a spin on the Wheel of Genres!  
@@ -351,7 +351,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 020 [Genre Conqueror](https://retroachievements.org/game/25672)
 
-![DQ020](/public/devquest-020.png)
+![DQ020](/devquest-020.png)
 
 **Type**: Legacy  
 **Goal**: Publish a set for every genre!  
@@ -368,7 +368,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 020 Subset [Subgenre Conqueror](https://retroachievements.org/game/25673)
 
-![DQ020S](/public/devquest-020s.png)
+![DQ020S](/devquest-020s.png)
 
 **Type**: Legacy  
 **Goal**: Publish a set for every subgenre!  
@@ -385,7 +385,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 021 [Homebrew Heaven](https://retroachievements.org/game/25677)
 
-![DQ021](/public/devquest-021.png)
+![DQ021](/devquest-021.png)
 
 **Type**: Set Creation  
 **Goal**: Publish three new sets for homebrew games!  
@@ -399,7 +399,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 022 [This Belonged in a Museum!](https://retroachievements.org/game/25678)
 
-![DQ022](/public/devquest-022.png)
+![DQ022](/devquest-022.png)
 
 **Type**: Revision, Maintenance  
 **Goal**: Obtain 12 Points by dusting off older sets, bringing them up to current RA standards  
@@ -424,7 +424,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 023 [Well of Wishes](https://retroachievements.org/event/170-devquest-023-well-of-wishes)
 
-![DQ023](/public/devquest-023.png)
+![DQ023](/devquest-023.png)
 
 **Type**: Set Creation  
 **Goal**: Develop a set from the request list of a randomly chosen active user!
@@ -440,7 +440,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 ### 024 [She's Got This!](https://retroachievements.org/event/186-devquest-024-shes-got-this)
 
-![DQ024](/public/devquest-024.png)
+![DQ024](/devquest-024.png)
 
 **Type**: Set Creation  
 **Goal**: Publish two new sets featuring a female character as the primary protagonist!  

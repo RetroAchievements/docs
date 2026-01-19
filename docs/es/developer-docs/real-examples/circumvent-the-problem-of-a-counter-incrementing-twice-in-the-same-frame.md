@@ -27,7 +27,7 @@ Echemos un vistazo a la lógica del logro y así poder ver la explicación:
 
 Así que ahora la estructura de logro seria de esta manera:
 
-![Lógica básica del logro en el editor para Santa Claus Jr](/public/santa-jr-achievement-editor-basic.png)
+![Lógica básica del logro en el editor para Santa Claus Jr](/santa-jr-achievement-editor-basic.png)
 
 ## Condiciones
 

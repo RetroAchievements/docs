@@ -1,6 +1,6 @@
 En el Editor de Logros (Achievement Editor), el campo de hasta la derecha es el Contador de Golpes (Hit Count).
 
-![Campo de Contador de Golpes en Editor](/public/achievement-editor-hits-column.png)
+![Campo de Contador de Golpes en Editor](/achievement-editor-hits-column.png)
 
 Por default es Cero, que significa que la condicion tiene que ser verdadera para qeu el logro se dispare.
 

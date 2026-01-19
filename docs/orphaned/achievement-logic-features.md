@@ -7,7 +7,7 @@ description: There are several tools and options available to a developer. Knowi
 
 There are several tools and options available to a developer. Knowing how to properly utilize them will improve the quality of your sets. These tools/options can be used in the Achievement Editor:
 
-![achievement_editor](/public/achievement-editor.png)
+![achievement_editor](/achievement-editor.png)
 
 For more help regarding these, our [Discord server](https://discord.gg/dq2E4hE) is always open for assistance.
 

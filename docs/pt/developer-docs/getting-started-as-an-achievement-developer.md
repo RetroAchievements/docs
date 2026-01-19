@@ -43,7 +43,7 @@ Para começar, execute o RALibRetro e faça login quando solicitado. Se você nu
 
 Agora você deve ter sua janela principal rodando o Sonic. Há 3 outras janelas que usaremos, que podem ser encontradas em **RetroAchievements** no menu. Primeiro vamos lidar com o **Inspetor de Memória**:
 
-![memoryinspector](/public/meminspdocs1.png)
+![memoryinspector](/meminspdocs1.png)
 
 O Inspetor de Memória pode ser usado para encontrar endereços na RAM que usaremos. Essencialmente você está em uma caça ao tesouro por locais de memória - esta janela vai ajudá-lo a examinar e filtrar a RAM do jogo enquanto ele está rodando.
 
@@ -82,7 +82,7 @@ O local de memória para o número de anéis está armazenado em `0xfe20` - para
 
 Vá para **RetroAchievements** no menu, escolha **Achievement Sets** e você verá esta janela:
 
-![achievement_sets](/public/achlistdocs1.png)
+![achievement_sets](/achlistdocs1.png)
 
 Aqui agrupamos todas as conquistas que conhecemos em três conjuntos:
 
@@ -98,7 +98,7 @@ Na janela de Conquistas, clique em **Local Achievements** (topo à esquerda), de
 
 É assim que ele se parece:
 
-![achievement_editor](/public/acheditordocs1.png)
+![achievement_editor](/acheditordocs1.png)
 
 Esta é a janela final onde juntamos todos os dados. A maioria dos campos superiores é autoexplicativa, ou seja, Título, Descrição, Pontos. O principal é a parte de 'Requisitos'.
 
@@ -124,11 +124,11 @@ Com isso configurado, não temos mais condições para adicionar, então voltamo
 
 Podemos 'ativar' esta conquista localmente marcando a caixa **Active** no Editor ou selecionando a conquista em Achievement Sets e clicando em **Activate Selected**. Isso começará a monitorar esses locais de memória e concederá a conquista quando todas as condições forem verdadeiras.
 
-![testing_achievements](/public/achtestdocs1.png)
+![testing_achievements](/achtestdocs1.png)
 
 Se pressionarmos `Esc` no jogo, veremos a conquista aparecer como demonstração de como ficará na sobreposição do jogo!
 
-![testing_achievements2](/public/achtestdocs2.png)
+![testing_achievements2](/achtestdocs2.png)
 
 Embora a conquista funcione nos testes, uma conquista com essa lógica não está pronta para lançamento oficial. Primeiro, ela tem apenas uma condição: "anéis coletados >= 15". O problema é que o endereço de memória usado também é afetado no "modo demo" (IA jogando após esperar na tela título). Então, se Sonic coletar 15 anéis no modo demo, a conquista será ativada indevidamente.
 

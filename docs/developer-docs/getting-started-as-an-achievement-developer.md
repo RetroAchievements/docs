@@ -39,7 +39,7 @@ To begin, run the RALibRetro executable and login when prompted. If you have not
 
 You should now have your main window running Sonic. There are 3 other dialogs we'll be using, which can be found under **RetroAchievements** in the menu. We'll be dealing with the **Memory Inspector** first:
 
-![memoryinspector](/public/meminspdocs1.png)
+![memoryinspector](/meminspdocs1.png)
 
 The Memory Inspector can be used to find addresses in RAM for us to use. Essentially you are on a treasure hunt for memory locations - this dialog will help you examine and filter the game's RAM while the game is running.
 
@@ -80,7 +80,7 @@ So the memory location for the number of rings is stored at `0xfe20` - note to a
 
 Go to the **RetroAchievements** in the menu, choose **Achievement Sets** and you'll see this dialog:
 
-![achievement_sets](/public/achlistdocs1.png)
+![achievement_sets](/achlistdocs1.png)
 
 Here we group all the achievements we know about into three sets:
 
@@ -96,7 +96,7 @@ In the Achievements dialog, click **Local Achievements** (top left), then **Add 
 
 This is how it looks:
 
-![achievement_editor](/public/acheditordocs1.png)
+![achievement_editor](/acheditordocs1.png)
 
 This is the final dialog where we bring all the data together. Most of the top fields are self explanatory, I.e. Title, Description, Points. The main one is the 'Requirements' part.
 
@@ -122,11 +122,11 @@ With that set, we don't have any more conditions to add, so we return to the **A
 
 We can now 'activate' this achievement locally by checking the box next to **Active** on the right-hand side in the Achievement Editor or by selecting the achievement in Achievement Sets and clicking **Activate Selected**. This will start monitoring these memory locations and will award the achievement once all the conditions are true. Now we can go ahead and test to see if this achievement works!
 
-![testing_achievements](/public/achtestdocs1.png)
+![testing_achievements](/achtestdocs1.png)
 
 If we press `Esc` in-game, you will see the achievement show up as a demonstration of what it would look like in the in-game overlay!
 
-![testing_achievements2](/public/achtestdocs2.png)
+![testing_achievements2](/achtestdocs2.png)
 
 Although the achievement worked fine in our tests, an achievement with logic like that is not ready to be officially released. First of all, it has only one condition: "collected rings >= 15". The problem is that the memory address used to record the number of collected rings is also used when the game runs in "demo mode" (AI playing the game after you wait a while on the title screen). So, if Sonic collects 15 rings in demo mode this achievement will trigger, which is unwanted.
 

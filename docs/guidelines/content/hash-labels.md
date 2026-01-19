@@ -76,7 +76,7 @@ The following are generic labels:
 
 #### Manage Hashes
 
-![manage-hashes-dejavu](/public/manage-hashes-dejavu.png)
+![manage-hashes-dejavu](/manage-hashes-dejavu.png)
 
 - The first hash is the No Intro-verified Swedish version of the game.
 - The second hash is the USA version of the game with an Uncensored patch applied to it. The full text of the description is `Deja Vu (USA) (Uncensored) (v1.0) (usertheloset).nes`, which follows the [RAPatches naming convention](https://github.com/RetroAchievements/RAPatches#naming-convention). The labels used are `nointro` and `rapatches`.
@@ -86,23 +86,23 @@ The following are generic labels:
 On this page, supported game files are ordered lexicographically by their MD5 hashes.
 
 Each supported file can be edited individually by clicking on "Edit" on the same line:
-![edit-game-hash](/public/edit-game-hash.png)
+![edit-game-hash](/edit-game-hash.png)
 
 To see how this will look for the majority of users, go to the game entry page and click on "Supported Game Files."
 
 #### Supported Game Files
-![links-dejavu](/public/links-dejavu.png)
+![links-dejavu](/links-dejavu.png)
 
 As you can see below, `nointro` and `rapatches` were replaced with corresponding images, and the file link from the "Patch URL" string is conveniently added right below the corresponding hash. On this page, supported game files are ordered lexicographically by their filenames.
 
-![linked-hashes-dejavu](/public/supported-game-files-dejavu.png)
+![linked-hashes-dejavu](/supported-game-files-dejavu.png)
 
 ### Suikoden (PlayStation)
 
 We'll skip the manage hashes example for this one. Let's go straight to "Supported Game Files" on the game entry page:
 
-![links-suikoden](/public/links-suikoden.png)
+![links-suikoden](/links-suikoden.png)
 
 The hashes labeled with `redump`, `rhdn`, and `rapatches` require patches that are available on both romhacking.net and in the RAPatches repository.
 
-![linked-hashes-suikoden](/public/supported-game-files-suikoden.png)
+![linked-hashes-suikoden](/supported-game-files-suikoden.png)

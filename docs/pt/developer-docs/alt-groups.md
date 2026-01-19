@@ -13,13 +13,13 @@ Ao usar _Grupos Alt_, para que a conquista seja ativada, todas as condições no
 
 Neste exemplo fictício para Contra (NES), a conquista requer "Enquanto estiver em um estágio, olhe para cima ou agache". Vamos ver o que está no _Grupo Core_ e nos _Grupos Alt_:
 
-![Alt Groups: Core](/public/alt-groups-core.png)
+![Alt Groups: Core](/alt-groups-core.png)
 No grupo core: `0x18 = 5`. Isso verifica se o jogador está em um estágio.
 
-![Alt Groups: Alt1](/public/alt-groups-alt1.png)
+![Alt Groups: Alt1](/alt-groups-alt1.png)
 No `Alt 01`: `0xbc = 1`. Isso verifica se o jogador está olhando para cima.
 
-![Alt Groups: Alt2](/public/alt-groups-alt2.png)
+![Alt Groups: Alt2](/alt-groups-alt2.png)
 No `Alt 02`: `0xbc = 2`. Isso verifica se o jogador está agachado.
 
 Desde que o jogador esteja em um estágio, o grupo core é verdadeiro. Se o jogador olhar para cima, Alt 01 é verdadeiro. Se o jogador agachar, Alt 02 é verdadeiro. Se core + Alt 01 OU Alt 02 forem verdadeiros, a conquista será ativada.
@@ -27,7 +27,7 @@ Desde que o jogador esteja em um estágio, o grupo core é verdadeiro. Se o joga
 ## Fatos sobre Grupos Alt
 
 - Para adicionar ou remover _Grupos Alt_, clique no botão `+` ou `-` no canto inferior esquerdo do editor de conquistas.  
-  ![Alt Groups: Add or remove](/public/alt-groups-add.png)
+  ![Alt Groups: Add or remove](/alt-groups-add.png)
 
 - Se você quiser simplesmente testar **isto** `OU` **aquilo**, você pode deixar o grupo core vazio e adicionar **isto** no `Alt 01` e **aquilo** no `Alt 02`.
 

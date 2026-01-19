@@ -25,33 +25,33 @@ Si necesitas ayuda sobre un comando específico, usa `!help nombre_del_comando`.
 
 Proporciona enlaces a la documentación de RetroAchievements.
 
-![docs](/public/rabot-docs.png)
+![docs](/rabot-docs.png)
 
-![docs1](/public/rabot-docs1.png)
+![docs1](/rabot-docs1.png)
 
 ### `!rarch`
 
 Proporciona información básica sobre RetroArch.
 
-![rarch](/public/rabot-rarch.png)
+![rarch](/rabot-rarch.png)
 
 ### `!rules`
 
 Muestra las reglas, o una en concreto.
 
-![rules](/public/rabot-rules.png)
+![rules](/rabot-rules.png)
 
 ### `!about`
 
 Muestra información sobre el RABot.
 
-![about](/public/rabot-about.png)
+![about](/rabot-about.png)
 
 ### `!panic`
 
 Qué hacer cuando el sitio está caído.
 
-![panic](/public/rabot-panic.png)
+![panic](/rabot-panic.png)
 
 ## Crear encuestas
 
@@ -59,13 +59,13 @@ Qué hacer cuando el sitio está caído.
 
 Crea una encuesta simple. La gente puede votar añadiendo reacciones, pero también pueden votar con reacciones no listadas. Mira [`!tpoll`](#tpoll) si estás interesado en una encuesta más avanzada y seria.
 
-![poll](/public/rabot-poll.png)
+![poll](/rabot-poll.png)
 
 ### `!tpoll`
 
 Crear una encuesta cronometrada. En este tipo de encuesta, solo la primera reacción se considera un voto, y si la gente reacciona con una reacción no listada, entonces el voto se anula.
 
-![tpoll](/public/rabot-tpoll.png)
+![tpoll](/rabot-tpoll.png)
 
 ## Tratar con números
 
@@ -73,13 +73,13 @@ Crear una encuesta cronometrada. En este tipo de encuesta, solo la primera reacc
 
 Convierte un número no negativo de decimal (o binario) a hexadecimal (o viceversa).
 
-![hex](/public/rabot-hex.png)
+![hex](/rabot-hex.png)
 
 ### `!bin`
 
 Convierte un número no negativo de decimal (o hexadecimal) a binario (o viceversa).
 
-![bin](/public/rabot-bin.png)
+![bin](/rabot-bin.png)
 
 ### `!calculator`
 
@@ -87,7 +87,7 @@ Convierte un número no negativo de decimal (o hexadecimal) a binario (o vicever
 
 Evalúa la expresión matemática dada y responde con el resultado.
 
-![calculator](/public/rabot-calculator.png)
+![calculator](/rabot-calculator.png)
 
 ## Obtener información/enlaces de RetroAchievements.org
 
@@ -97,13 +97,13 @@ Evalúa la expresión matemática dada y responde con el resultado.
 
 Busca un juego en RetroAchievements.org y muestra el enlace.
 
-![ragame](/public/rabot-ragame.png)
+![ragame](/rabot-ragame.png)
 
 ### `!tickets`
 
 Devuelve el enlace de la página de tickets abiertos del nombre del juego dado.
 
-![tickets](/public/rabot-tickets.png)
+![tickets](/rabot-tickets.png)
 
 ### `!whatgame`
 
@@ -111,9 +111,9 @@ Devuelve el enlace de la página de tickets abiertos del nombre del juego dado.
 
 Responde con un juego aleatorio que tenga logros.
 
-![whatgame](/public/rabot-whatgame.png)
+![whatgame](/rabot-whatgame.png)
 
-![whatgame1](/public/rabot-whatgame1.png)
+![whatgame1](/rabot-whatgame1.png)
 
 ### `!whatcheevo`
 
@@ -127,7 +127,7 @@ Responde con un dato curioso sobre videojuegos retro.
 
 **Nota**: puedes sugerir más entradas de datos curiosos [aquí](https://github.com/RetroAchievements/RABot/issues/2).
 
-![funfact](/public/rabot-funfact.png)
+![funfact](/rabot-funfact.png)
 
 ### `!memefact`
 
@@ -137,7 +137,7 @@ Responde con un dato curioso sobre RetroAchievements en forma de meme.
 
 **Nota**: puedes sugerir más entradas de datos curiosos [aquí](https://github.com/RetroAchievements/RABot/issues/6), pero ten en cuenta estas 2 reglas simples **1)** no puedes sugerir tu propia cita; y **2)** al sugerir una cita, asegúrate de obtener la aprobación del autor y/o de la persona mencionada.
 
-![memefact](/public/rabot-memefact.png)
+![memefact](/rabot-memefact.png)
 
 ## Obtener información relacionada con los videojuegos
 
@@ -147,7 +147,7 @@ Responde con un dato curioso sobre RetroAchievements en forma de meme.
 
 Busca un juego en GameFAQs y muestra el enlace.
 
-![gamefaqs](/public/rabot-gamefaqs.png)
+![gamefaqs](/rabot-gamefaqs.png)
 
 ### `!longplay`
 
@@ -155,7 +155,7 @@ Busca un juego en GameFAQs y muestra el enlace.
 
 Busca un video de longplay en youtube y muestra el enlace.
 
-![longplay](/public/rabot-longplay.png)
+![longplay](/rabot-longplay.png)
 
 ### `!vgmaps`
 
@@ -163,7 +163,7 @@ Busca un video de longplay en youtube y muestra el enlace.
 
 Busca en vgmaps.com el mapa de un videojuego.
 
-![vgmaps](/public/rabot-vgmaps.png)
+![vgmaps](/rabot-vgmaps.png)
 
 ### `!howlongtobeat`
 
@@ -171,7 +171,7 @@ Busca en vgmaps.com el mapa de un videojuego.
 
 Busca un juego en howlongtobeat.com y muestra el enlace.
 
-![howlongtobeat](/public/rabot-howlongtobeat.png)
+![howlongtobeat](/rabot-howlongtobeat.png)
 
 ## Miscelánea
 
@@ -181,7 +181,7 @@ Busca un juego en howlongtobeat.com y muestra el enlace.
 
 Define una palabra.
 
-![define](/public/rabot-define.png)
+![define](/rabot-define.png)
 
 ### `!translate`
 
@@ -189,15 +189,15 @@ Define una palabra.
 
 Traduce un texto a un idioma específico. **Gracias a <https://translate.yandex.com/>**
 
-![translate](/public/rabot-translate.png)
+![translate](/rabot-translate.png)
 
-![translate1](/public/rabot-translate1.png)
+![translate1](/rabot-translate1.png)
 
 ### `!urban`
 
 Define una palabra, pero con Urban Dictionary.
 
-![urban](/public/rabot-urban.png)
+![urban](/rabot-urban.png)
 
 ### `!wikipedia`
 
@@ -205,7 +205,7 @@ Define una palabra, pero con Urban Dictionary.
 
 Busca en Wikipedia tu consulta.
 
-![wikipedia](/public/rabot-wikipedia.png)
+![wikipedia](/rabot-wikipedia.png)
 
 ### `!youtube`
 
@@ -213,28 +213,28 @@ Busca en Wikipedia tu consulta.
 
 Busca un video en youtube y muestra el primero que encuentre.
 
-![youtube](/public/rabot-youtube.png)
+![youtube](/rabot-youtube.png)
 
 ### `!bulbapedia`
 
 Busca en Bulbapedia tu consulta.
 
-![bulbapedia](/public/rabot-bulbapedia.png)
+![bulbapedia](/rabot-bulbapedia.png)
 
 ### `!movie`
 
 Busca en TMDB tu consulta, obteniendo resultados de películas.
 
-![movie](/public/rabot-movie.png)
+![movie](/rabot-movie.png)
 
 ### `!manga`
 
 Busca en AniList tu consulta, obteniendo resultados de manga.
 
-![manga](/public/rabot-manga.png)
+![manga](/rabot-manga.png)
 
 ### `!anime`
 
 Busca en AniList tu consulta, obteniendo resultados de anime.
 
-![anime](/public/rabot-anime.png)
+![anime](/rabot-anime.png)

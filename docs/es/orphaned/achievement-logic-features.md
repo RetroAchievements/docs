@@ -1,6 +1,6 @@
 Estas son algunas severas herramientas y opciones disponibles para el desarrollador. Saber como utilizarlas apropiadamente mejorara la calidad en tus sets. Estas herramientas/opciones pueden ser utilizadas en el Editor de Logros (Achievement Editor):
 
-![achievement_editor](/public/achievement-editor.png)
+![achievement_editor](/achievement-editor.png)
 
 Para mas ayuda relacionada con esto, nuestro [servidor de Discord](https://discord.gg/dq2E4hE) esta siempre abierto para ayuda.
 

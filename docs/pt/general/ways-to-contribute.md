@@ -14,7 +14,7 @@ Para reportar uma conquista quebrada, vá em RetroAchievements -> Report Broken 
 
 Veja este exemplo:
 
-![Como reportar](/public/how-to-report.webp).
+![Como reportar](/how-to-report.webp).
 
 Detalhes adicionais do estado do seu jogo, quando ativa/não ativa, que modo de jogo, onde você está quando aconteceu/não aconteceu, se você teve que resetar o jogo recentemente, qualquer outra coisa que você acha que pode ser relevante para a conquista. Isso é necessário para o nosso sistema, para que os desenvolvedores saibam onde está o problema.
 

@@ -35,7 +35,7 @@ Si deseas crear páginas nuevas, o trabajar en múltiples páginas, sigue estos 
 
 ### 1. Haz un "fork" del repositorio
 
-- Ve a la [página del repositorio](https://github.com/RetroAchievements/docs) y haz clic en el botón "fork" (bifurcar). ![fork button](/public/fork-button.png)
+- Ve a la [página del repositorio](https://github.com/RetroAchievements/docs) y haz clic en el botón "fork" (bifurcar). ![fork button](/fork-button.png)
 - Presiona "Create fork" (Crear bifurcación) en el formulario que aparece.
 
 ### 2. Apertura en VSCode
@@ -44,23 +44,23 @@ Si deseas crear páginas nuevas, o trabajar en múltiples páginas, sigue estos 
 - Usa el árbol de archivos de la izquierda para explorar la documentación, específicamente expandiendo la carpeta "docs".
 - Usa el atajo Ctrl+P para buscar archivos, como el "README".
 
-![buscando-el-readme](/public/readme-search.png)
+![buscando-el-readme](/readme-search.png)
 
 ### 3. Edita y previsualiza
 
 - Abre la paleta de comandos con Ctrl+Shift+P (o F1 en Firefox), busca "markdown preview" (previsualizar markdown) y selecciona "Markdown: Open Preview to the Side".
 - Usa la previsualización de markdown para ver tus cambios mientras los escribes.
 
-![previsualizacion-de-markdown](/public/markdown-preview.png)
+![previsualizacion-de-markdown](/markdown-preview.png)
 
 ### 4. Crea una rama
 
 - Haz clic en el nombre de la rama (generalmente `main`) en la esquina inferior izquierda del VSCode.
 - Haz clic en "Create branch" (crear rama), nombra tu rama, presiona intro y luego haz clic en "Switch to Branch" (Cambiar de rama).
 
-![rama-actual](/public/current-branch.png)
+![rama-actual](/current-branch.png)
 
-![cambiar-de-rama](/public/switch-to-branch.png)
+![cambiar-de-rama](/switch-to-branch.png)
 
 ### 5. Guardar y commit (confirmar)
 
@@ -68,16 +68,16 @@ Si deseas crear páginas nuevas, o trabajar en múltiples páginas, sigue estos 
 - Haz clic en el icono de Source Control (control de versiones) a la izquierda, haz clic derecho en los archivos que has cambiado y haz clic en "Stage Changes" (Añadir cambios).
 - Escribe un mensaje de commit, luego haz clic en el botón "Commit & Push" (confirmar y subir).
 
-![confirmar-cambios](/public/commit-changes.png)
+![confirmar-cambios](/commit-changes.png)
 
 ### 6. Crea un Pull Request (PR)
 
 - Abre la paleta de comandos con Ctrl+Shift+P (o F1 en Firefox) y usa el comando "Create Pull Request" (Crear solicitud de incorporación de cambios).
 - Completa el formulario con un título y una descripción, luego haz clic en "Create" (Crear).
 
-![crear-pull-request](/public/create-pull-request.png)
+![crear-pull-request](/create-pull-request.png)
 
-![formulario-pr](/public/pr-form.png)
+![formulario-pr](/pr-form.png)
 
 ## Añadiendo nuevas páginas
 
@@ -206,7 +206,7 @@ Los enlaces a imágenes deben seguir esta sintaxis:
 ```md
 ✅ BIEN
 
-![rama actual](/public/current-branch.png)
+![rama actual](/current-branch.png)
 ```
 
 Intenta no referenciar imágenes en ningún sitio externo, incluido RetroAchievements. Es peligroso referenciar imágenes que no estén dentro de _docs/public_, ya que podrían romperse en cualquier momento.

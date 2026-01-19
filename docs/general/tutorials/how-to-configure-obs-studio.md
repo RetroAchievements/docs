@@ -11,20 +11,20 @@ If you want to include the popups in your stream, you have two options: change t
 
 Add a second "Window Capture" source to the Scene. In the popup dialog, select the "TransparentOverlayWindow".
 
-![Add second "Window Capture"](/public/obs-add-second-window-capture.png)
+![Add second "Window Capture"](/obs-add-second-window-capture.png)
 
 You'll probably notice the window is pink.
 
-![Pink overlay](/public/obs-pink-overlay.png)
+![Pink overlay](/obs-pink-overlay.png)
 
 Add a filter to the second "Window Capture"
 
-![Add filter](/public/obs-add-filter.png)
+![Add filter](/obs-add-filter.png)
 
 Add a "Color Key" filter, set the Key Color Type to "Custom Color", then use the Select Color dialog to enter `#FF01FE` as the color. Decrease the similarity to 1 and the opacity to 90.
 
-![Color Key properties](/public/obs-color-key-properties.png)
+![Color Key properties](/obs-color-key-properties.png)
 
 Finally, if you still have a bit of a pink border showing up, enable a Scale Filter. They all seem to eliminate the remnant, so choose whichever you like best.
 
-![Scale Filter](/public/obs-scale-filter.png)
+![Scale Filter](/obs-scale-filter.png)

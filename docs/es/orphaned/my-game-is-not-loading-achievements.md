@@ -1,28 +1,28 @@
 # Mi juego no esta cargando los logros
 
 Quizás cargaste tu juego, pero ves una ventana emergente:  
-![no achievements 1](/public/no-achievements1.png)
+![no achievements 1](/no-achievements1.png)
 Luego miras la interfaz (usualmente con 'ESC') y ves:  
-![no achievements 2](/public/no-achievements2.png)
+![no achievements 2](/no-achievements2.png)
 
 O tal vez obtuviste estos mensajes:
 
-![nocheevos](/public/nocheevos.png)
+![nocheevos](/nocheevos.png)
 
 y
 
-![nocheevos2](/public/nocheevos2.png)
+![nocheevos2](/nocheevos2.png)
 
 Cuando ocurre cualquiera de estas situaciones es por que, ya sea el juego aún no tiene logros, o es probable que tengas la ROM incorrecta.
 
 Solo para estar seguro, busca el nombre del juego y verifica los resultados que coincidan.  
-![search](/public/search-the-site.png)
+![search](/search-the-site.png)
 
 Si el juego tiene logros pero tu ROM no está en nuestro sistema, necesitarás encontrar la ROM correcta, u obtener soporte para tu ROM.
 
 **Verifica el primer post del hilo oficial del juego en el foro**. El enlace para ello se encuentra en la parte inferior de la lista de logros, en las respectivas páginas de los juegos. Ejemplo para [Super Mario Bros.](https://retroachievements.org/viewtopic.php?t=282&c=2233):
 
-![forum](/public/forum.png)
+![forum](/forum.png)
 
 Probablemente el primer post del hilo oficial del juego en el foro tenga una lista de ROM válidas para el juego, y también el "checksum" de las ROM.
 
@@ -32,7 +32,7 @@ También verifica los últimos posts del hilo oficial del juego en el foro y los
 
 También puedes contribuir a la comunidad obteniendo soporte para tu ROM, si es que es compatible. Publica el "checksum" de tu ROM existente en el foro de ese juego y también el nombre exacto que tienes para el ROM, y un desarrollador lo revisará contigo para ver si es compatible.
 
-![checksum](/public/rom-checksum.png)
+![checksum](/rom-checksum.png)
 _Como encontrar el "checksum" de tu ROM._
 
 Para obtener más información sobre el "checksum" y los hashes, puedes leer este articulo (en Inglés): https://datacrystal.romhacking.net/wiki/Hashes

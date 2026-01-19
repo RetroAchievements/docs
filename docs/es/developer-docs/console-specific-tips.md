@@ -4,7 +4,7 @@ Cuando escavamos en memoria en estas viejas consolas ayuda saber que los creador
 
 ### Duplicado de Direcciones
 
-![NES memory mirror](/public/nes-memory-mirroring.png)
+![NES memory mirror](/nes-memory-mirroring.png)
 
 Cuando utilices el inspector de memoria para encontrar variables en juegos de NES, va a ver 4 copias de todo lo que encuentres. Si te estas preguntando "cual debería de utilizar?" o "deberia probar cada una de ellas?" no es tan complicado como parece.
 
@@ -30,7 +30,7 @@ Para mas información mira: http://gameboy.mongenel.com/dmg/asmmemmap.html
 
 ### ECHO RAM
 
-![Echo RAM](/public/game-boy-echo-ram.png)
+![Echo RAM](/game-boy-echo-ram.png)
 
 Similar que el NES, algunas variables tal vez se muestren mas de una vez cuando te encuentres buscando en el inspector de memoria. El segundo resultado es lo que se le conoce como ECHO RAM, que es un espejo de la memoria actual. Aunque algunos emuladores tienden a ignorar esta área o a emularla incorrectamente, se recomienda NO utilizarla para nada y siempre utilizar el primer resultado.
 
@@ -118,7 +118,7 @@ Afortunadamente la parte de la data del UniBIOS parece ser reflejada en dos cade
 Para proteger tus logros del uso completo del UniBIOS lo único que necesitamos hacer es incluir una simple protección que se va resetear cuando el valor de 32-bit en `0x00fe30` no sea igual a `0`. Esto adicionalmente protege, al logro de que salte durante el proceso de diagnostico de RAM.
 
 **Así es como se debería de ver la protección (seleccionada en el Editor de Logros):**
-![unineo1](/public/unibiosprotection.png)
+![unineo1](/unibiosprotection.png)
 
 **Así es como se ve la misma región de la RAM cuando se utilizan otros BIOS (utilizando MSV):**
-![unineo2](/public/unibiosp2.png)
+![unineo2](/unibiosp2.png)

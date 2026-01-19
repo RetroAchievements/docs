@@ -17,7 +17,7 @@ The web team is working on a new Management page which is where all dev related 
 
 This page is used for editing release dates as well as **drag-and-drop reordering**.
 
-![Example of a game page viewed through the Management site](/public/management-site.png)
+![Example of a game page viewed through the Management site](/management-site.png)
 
 ## Uploading your First Set!
 
@@ -32,7 +32,7 @@ To get to this page, go to your game’s page:
 5. Click Bulk promote or demote
 6. Click Promote selected
 
-![Achievements being promoted through the Management site](/public/management-achievement-promotion.png)
+![Achievements being promoted through the Management site](/management-achievement-promotion.png)
 
 ## Achievement-News Announcement
 
@@ -100,7 +100,7 @@ Further reading:
 [Working with the Right ROM](/guidelines/content/working-with-the-right-rom)
 :::
 
-![Creating a game page with an unidentified hash](/public/game-page-creation.png)
+![Creating a game page with an unidentified hash](/game-page-creation.png)
 
 ### Code Notes
 
@@ -120,7 +120,7 @@ You now have access to many more tools on the site to help you as a developer.
 
 Developers have the ability to add games to a Want to Develop list. Sets can be added through the Dev dropdown box on the game page.
 
-![Want to Develop Games button](/public/want-to-develop.png)
+![Want to Develop Games button](/want-to-develop.png)
 
 ### Game Page
 
@@ -146,13 +146,13 @@ You now have full access to the Dev dropdown menu.
 
 - **Want to Develop**: Adds/Removes the game on your Want to Develop list
 
-![Dev menu](/public/dev-menu.png)
+![Dev menu](/dev-menu.png)
 
 #### Adding Hubs and Related Games
 
 Hubs and related games can be added to game pages by entering the page IDs and clicking “Add”. Hubs managed by the DevCompliance, QA, and Art teams should not be added/removed, send a message to the corresponding team instead.
 
-![Linked hubs and related games](/public/add-related-games.png)
+![Linked hubs and related games](/add-related-games.png)
 
 ## Discord Channels
 

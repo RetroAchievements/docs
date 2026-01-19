@@ -7,7 +7,7 @@ description: Learn how to use Hit Counts in the Achievement Editor to create con
 
 In the Achievement Editor, the field on the far right side is Hit Count.
 
-![Hit Count Field in Editor](/public/achievement-editor-hits-column.png)
+![Hit Count Field in Editor](/achievement-editor-hits-column.png)
 
 The default is Zero, which means the condition must be true for the achievement to trigger.
 

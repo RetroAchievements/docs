@@ -16,7 +16,7 @@ When someone mentions badges, they could be talking about one of two things:
     - ![Amateur Collector Badge](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/00199.png)
 - Game icons, also known as mastery badges, which is a single image used to represent an achievement set.
   - _Sonic the Hedgehog's game icon_
-    - ![Sonic the Hedgehog Icon](/public/badge-016743.png)
+    - ![Sonic the Hedgehog Icon](/badge-016743.png)
 
 ## Badge Format and Sizes
 
@@ -64,7 +64,7 @@ Achievement badges should refer in some way to what the achievement is about - i
 - Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art or AI-generated art). Art by the developer of the hack may also be used.
 - Movie-Licensed/Movie Tie-In Games may use artwork that was used to promote the movie.
 
-![mario time](/public/mario-time.png)
+![mario time](/mario-time.png)
 
 ## AI-Generated Art Policy
 
@@ -97,8 +97,8 @@ Reports of suspected AI-generated art in public channels will be addressed promp
 
 - Achievement Developers are allowed to change game icons freely for entries that do not have achievements. As a Developer if you'd like to post a backup of the previous image there, if there is one, or backup yours in the forum you're free to but not required. As you create a new set of achievements you are free to create or choose the image you'd like to use as the game icon.
   - To change a game icon first go to the game page and click on the Dev tools:  
-    ![change game icon 1](/public/change-game-icon1.png) - Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
-    ![change game icon 2](/public/change-game-icon2.png)
+    ![change game icon 1](/change-game-icon1.png) - Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
+    ![change game icon 2](/change-game-icon2.png)
 
 If a game has existing achievements, game icon changes need to go through [revision process](/guidelines/content/achievement-set-revisions).
 
@@ -113,10 +113,10 @@ If a game has existing achievements, game icon changes need to go through [revis
 If you are creating new achievements you are free to upload badges for them.
 
 Badges are uploaded from within the emulator developer tools while in the achievement editor:  
-![Upload Badge](/public/alt-groups-add.png)
+![Upload Badge](/alt-groups-add.png)
 
 Or you can select a prefabricated image or find other images you've uploaded in the drop down box:  
-![Badge dropdown](/public/badge-dropdown.png)
+![Badge dropdown](/badge-dropdown.png)
 
 ## Badge Server Files
 

@@ -47,7 +47,7 @@ Toda ROM vinculada a um conjunto de conquistas deve ser claramente identificada 
 
 ### Deja Vu (NES)
 
-![manage-hashes-dejavu](/public/manage-hashes-dejavu.png)
+![manage-hashes-dejavu](/manage-hashes-dejavu.png)
 
 - O primeiro hash é a versão dos EUA do jogo com um patch Uncensored aplicado. O texto completo da descrição é `Deja Vu (USA) (Uncensored) (v1.0) (usertheloset).nes`, que segue o [esquema de nomenclatura do RAPatches](https://github.com/RetroAchievements/RAPatches#naming-scheme). Os rótulos usados são `nointro` e `rapatches`.
 - O segundo hash é a versão verificada pelo No Intro dos EUA.
@@ -55,21 +55,21 @@ Toda ROM vinculada a um conjunto de conquistas deve ser claramente identificada 
 
 Para ver como isso aparecerá para a maioria dos usuários, acesse a página de entrada do jogo e clique em "Linked Hashes."
 
-![links-dejavu](/public/links-dejavu.png)
+![links-dejavu](/links-dejavu.png)
 
 Como você pode ver abaixo, `nointro` tornou-se ![no-intro-label](https://retroachievements.org/Images/labels/nointro.png) e `rapatches` tornou-se ![rapatches-label](https://retroachievements.org/Images/labels/rapatches.png).
 
-![linked-hashes-dejavu](/public/supported-game-files-dejavu.png)
+![linked-hashes-dejavu](/supported-game-files-dejavu.png)
 
 ### Suikoden (PlayStation)
 
 Vamos pular o exemplo de gerenciamento de hashes para este caso. Vamos direto para "Linked Hashes" na página de entrada do jogo:
 
-![links-suikoden](/public/links-suikoden.png)
+![links-suikoden](/links-suikoden.png)
 
 Os hashes rotulados como `redump`, `rhdn` e `rapatches` exigem patches que estão disponíveis tanto no romhacking.net quanto no repositório RAPatches.
 
-![linked-hashes-suikoden](/public/supported-game-files-suikoden.png)
+![linked-hashes-suikoden](/supported-game-files-suikoden.png)
 
 ## Vinculando a Patches
 
@@ -87,7 +87,7 @@ ou
 [i]Checksum RA: [/i]f0c5ec0696aa2ec2d6e5b731fbe07491
 ```
 
-![forum-label-01-suikoden](/public/forum-label-01-suikoden.png)
+![forum-label-01-suikoden](/forum-label-01-suikoden.png)
 
 - Um segundo exemplo:
   Texto de entrada:
@@ -98,4 +98,4 @@ Baixe o patch do RHDN [url=https://www.romhacking.net/translations/5736/]aqui[/u
 Espelho RAPatches [url=https://github.com/RetroAchievements/RAPatches/raw/main/PS1/Translation/German/11255-Suikoden-GermanTranslation.7z]aqui[/url].
 ```
 
-![forum-label-02-suikoden](/public/forum-label-02-suikoden.png)
+![forum-label-02-suikoden](/forum-label-02-suikoden.png)

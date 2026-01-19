@@ -21,7 +21,7 @@ Hay dos formas de informar de un logro roto: directamente en el emulador o a tra
 
 En la página de cada logro verás un enlace que dice: `Report an issue for this achievement (reportar un fallo para este logro)`, como en la imagen de abajo:
 
-![abrir-un-ticket-en-el-sitio](/public/report-an-issue.png)
+![abrir-un-ticket-en-el-sitio](/report-an-issue.png)
 
 ### Reportando a través del emulador
 
@@ -29,7 +29,7 @@ Ve a RetroAchievements -> Report Broken Achievements (Reportar logros rotos), es
 
 Véase este ejemplo:
 
-![como-reportar](/public/how-to-report.webp)
+![como-reportar](/how-to-report.webp)
 
 ## Sugiere ideas para logros
 

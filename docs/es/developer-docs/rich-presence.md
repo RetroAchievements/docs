@@ -4,11 +4,11 @@ Rich Presence **(RP)** es un breve resumen de lo que están haciendo los jugador
 
 **Ejemplo de RP en acción:**
 
-![Example of RP in action](/public/rp-sample.png)
+![Example of RP in action](/rp-sample.png)
 
 Para ver la RP en tiempo real haz clic en el menu de RetroAchievements en tu emulador y después en Rich Presence Monitor. Una pequeña ventana debería de mostrar tu RP actual. (Bueno para realizar pruebas)
 
-![Rich Presence Monitor](/public/rp-window.png)
+![Rich Presence Monitor](/rp-window.png)
 
 La mejor manera de entender Rich Presence es observar varios ejemplos de juegos, mira las direcciones que fueron utilizadas a mira como el texto es mostrado en el monitor y en el sitio.
 
@@ -18,9 +18,9 @@ Cada vez que un juego es lanzado, guarda los logros del juego en un archivo de '
 
 El RPS de cada juego puede ser encontrado en la sección de desarrollo en cada pagina de juego:
 
-![Dev click](/public/change-game-icon1.png)
+![Dev click](/change-game-icon1.png)
 
-![RP update](/public/rp-update.png)
+![RP update](/rp-update.png)
 
 ## Ejemplo (Super Mario Bros.)
 
@@ -273,7 +273,7 @@ Cuando te encuentres desarrollando Rich Presence tienes que hacegurarte que te e
 Para unicode/emojis personalizados [ShapeCatcher](http://shapecatcher.com/) es un excelente recurso, puedes ponerte a dibujarlos y la AI va a buscar resultados similares. Simplemente ten cuidado de no utilizar unicode que sea _demasiado oscuro_, ya que no se va a mostrar correctamente en todos los sistemas.
 
 Toma nota en la preferencia de la comunidad en cuanto a displays:
-![RP community display preferences](/public/rp-community-display-preferences.png)
+![RP community display preferences](/rp-community-display-preferences.png)
 
 ## Desarrollando Rich Presence
 

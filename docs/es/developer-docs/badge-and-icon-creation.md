@@ -28,7 +28,7 @@ Los Iconos son imágenes **subidas por el usuario** que sirven para representar 
 
 - _Icono en Sonic the Hedgehog's_
 
-  ![Sonic the Hedgehog Icon](/public/badge-016743.png)
+  ![Sonic the Hedgehog Icon](/badge-016743.png)
 
 ### Diseñando mis nuevos iconos - guía estética
 
@@ -42,7 +42,7 @@ Cuando diseñes el nuevo icono de un juego considera los siguientes puntos: La m
 
 Utilizar diseños mas actuales (o fan art) para personajes clásicos de vídeo juegos tal vez parezca prudente. Pero varios podrían encontrar esto como _irrespetuoso al material original_.
 
-![mario time](/public/mario-time.png)
+![mario time](/mario-time.png)
 
 #### Flexibilidad para la guía estética
 
@@ -70,10 +70,10 @@ El estilo que escoges para tus diseños ya depende de ti. Puedes romper estas re
 Los desarrolladores de logros tienen permitido cambiar iconos de juegos en entradas que no cuenten con logros. Como desarrollador si tu quieres postear un respaldo de la antigua imagen eres libre de hacerlo pero no es realmente un requisito. Mientras creas un nuevo set de logros tu eres libre de crear o escoger que icono quieres para el juego.
 
 Para cambiar el Icono de un juego primero ve a la pagina del juego y haz click en Dev tools:  
-![change game icon 1](/public/change-game-icon1.png)
+![change game icon 1](/change-game-icon1.png)
 
 Luego haz click en el botón de choose file que se encuentra resaltado. Encuentra el archivo en tu PC, y luego presiona el botón resaltado de submit:  
-![change game icon 2](/public/change-game-icon2.png)
+![change game icon 2](/change-game-icon2.png)
 
 Si un juego que ya cuenta con logros el cambio de Icono tiene que pasar por medio de [Icon Gauntlet](#game-icon-gauntlet).
 
@@ -118,41 +118,41 @@ Los Iconos son almacenados en el sitio de la siguiente manera y lugar: `i.retroa
 Los Badges (Emblemas) son las imagenes creadas por el usuario para cada logro en individuo de un juego.
 
 - _Sonic the Hedgehog's primer Badge - #00199)_
-  ## ![newbie collector Badge](/public/badge-00199.png)
+  ## ![newbie collector Badge](/badge-00199.png)
 
 ### Guías y Tips en la Creación de Badges
 
 - Los Badges tienen que estar relacionados con lo que se trate el logro - por ejemplo: la foto de un jefe, nivel o coleccionable que requiere que el jugador consiga.
 - Checa diseños de varios de tus juegos favoritos. Algunos usuarios ponen un gran esfuerzo en crear badges realmente atractivos:
 
-![Mega Man 64, 1](/public/badge-59919.png)
-![Mega Man 64, 3](/public/badge-59912.png)
-![Tiny Toons Adventures, 1](/public/badge-72006.png)
-![Tiny Toons Adventures, 2](/public/badge-71983.png)
-![Metal Slug 3, 1](/public/badge-69785.png)
-![Metal Slug 3, 2](/public/badge-69837.png)
-![Legend of Zelda, 1](/public/badge-62755.png)
-![Legend of Zelda, 2](/public/badge-62775.png)
-![Banjo Tooie, 1](/public/badge-71126.png)
-![Banjo Tooie, 2](/public/badge-71179.png)
-![Pokemon Pinball, 1](/public/badge-58812.png)
-![Pokemon Pinball, 2](/public/badge-58803.png)
-![ToeJam and Earl, 1](/public/badge-76075.png)
-![ToeJam and Earl, 2](/public/badge-76072.png)
-![Super Mario World, 1](/public/badge-46601.png)
-![Super Mario World, 2](/public/badge-46760.png)
-![Mario Party, 1](/public/badge-54915.png)
-![Mario Party, 2](/public/badge-54669.png)
-![Harry Potter and The Chamber of Secrets, 1](/public/badge-73534.png)
-![Harry Potter and the Chamber of Secrets, 2](/public/badge-73519.png)
-![Pokemon Prism, 1](/public/badge-70787.png)
-![Pokemon Prism, 2](/public/badge-70432.png)
-![Super Mario World Bonus, 1](/public/badge-47080.png)
-![Super Mario World Bonus, 2](/public/badge-47077.png)
-![Tails Adventure](/public/badge-62326.png)
-![Sonic the Hedgehog Chaos](/public/badge-64969.png)
-![Kirby's Dream Land 3, 1](/public/badge-60799.png)
-![Kirby's Dream Land 3, 2](/public/badge-60800.png)
+![Mega Man 64, 1](/badge-59919.png)
+![Mega Man 64, 3](/badge-59912.png)
+![Tiny Toons Adventures, 1](/badge-72006.png)
+![Tiny Toons Adventures, 2](/badge-71983.png)
+![Metal Slug 3, 1](/badge-69785.png)
+![Metal Slug 3, 2](/badge-69837.png)
+![Legend of Zelda, 1](/badge-62755.png)
+![Legend of Zelda, 2](/badge-62775.png)
+![Banjo Tooie, 1](/badge-71126.png)
+![Banjo Tooie, 2](/badge-71179.png)
+![Pokemon Pinball, 1](/badge-58812.png)
+![Pokemon Pinball, 2](/badge-58803.png)
+![ToeJam and Earl, 1](/badge-76075.png)
+![ToeJam and Earl, 2](/badge-76072.png)
+![Super Mario World, 1](/badge-46601.png)
+![Super Mario World, 2](/badge-46760.png)
+![Mario Party, 1](/badge-54915.png)
+![Mario Party, 2](/badge-54669.png)
+![Harry Potter and The Chamber of Secrets, 1](/badge-73534.png)
+![Harry Potter and the Chamber of Secrets, 2](/badge-73519.png)
+![Pokemon Prism, 1](/badge-70787.png)
+![Pokemon Prism, 2](/badge-70432.png)
+![Super Mario World Bonus, 1](/badge-47080.png)
+![Super Mario World Bonus, 2](/badge-47077.png)
+![Tails Adventure](/badge-62326.png)
+![Sonic the Hedgehog Chaos](/badge-64969.png)
+![Kirby's Dream Land 3, 1](/badge-60799.png)
+![Kirby's Dream Land 3, 2](/badge-60800.png)
 
 - Aquí esta un [tema del foro](http://retroachievements.org/viewtopic.php?t=4282&o=5) lleno de grandes tips.
 - En el caso de logros de juegos de muy baja-resolución, puede ser dificil conseguir que un badge que se mire bien y que este no se mira _tosco_ o _borroso_, en estos casos un look mas _tosco_ es mucho mas preferible, ya que las imágenes tiene esa sensación _retro_ en ellas.
@@ -170,10 +170,10 @@ Los Badges (Emblemas) son las imagenes creadas por el usuario para cada logro en
 Si te encuentras creando logros eres libre de subir badges para ellos.
 
 Los Badges se suben con las herramientas de desarrollador del emulador por medio del editor de logros:  
-![Upload Badge](/public/alt-groups-add.png)
+![Upload Badge](/alt-groups-add.png)
 
 O también puedes seleccionar una imagen prefabricada o encontrar otras imágenes que haz subido por medio de la lista desglosable:  
-![Badge dropdown](/public/badge-dropdown.png)
+![Badge dropdown](/badge-dropdown.png)
 
 Subir archivos `.jpg`, `.jpg` o `.gif`. No es completamente importante el formato, pero si es completamente recomendable que la imagen sea cuadrada.
 
@@ -200,11 +200,11 @@ Cuando se sube, tu archivo es convertido a lo siguiente:
 
 - 64x64 PNG de 32-bit de color. Ejemplo:
 
-  ![00136](/public/achievement-badge.png)
+  ![00136](/achievement-badge.png)
 
 - 64x64 PNG borroso y con escala de grises. Ejemplo:
 
-  ![00136_lock](/public/achievement-badge-locked.png)
+  ![00136_lock](/achievement-badge-locked.png)
 
 ### Servidor de los Archivos de Badges
 

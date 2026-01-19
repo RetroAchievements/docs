@@ -4,7 +4,7 @@ Un `AddSource` puede ser seleccionado en la columna de Bandera (Flag) en el Edit
 
 Cuando una condicion tiene la bandera de `AddSource`, el valor de esa variable es añadido al valor de la variable de la condicion de abajo, y la comparacion es hecha en la condicion que se encuentra abajo de la que si tiene la bandera de `AddSource`. Puede sonar un poco confuso, pero el ejemplo de aqui abajo va a aclarar como funciona:
 
-![`AddSource` Example](/public/addsource-example.png)
+![`AddSource` Example](/addsource-example.png)
 
 En este ejemplo el valor en `0x8010` va a ser agregado a el valor en `0x8020` y la comparacion es si la suma es mas grande que cero.
 
@@ -14,8 +14,8 @@ Si el valor en `0x8010` es `1` y el valor en `0x8020` is `2`, la comparacion ser
 
 Intentando resumir la explicacion con una imagen:
 
-![`AddSource` Explained](/public/addsource-explained.png)
+![`AddSource` Explained](/addsource-explained.png)
 
 **Nota**: puedes utilizar la bandera `AddSource` para sumar mas variables, como en el siguiente ejemplo:
 
-![addsource-sum](/public/addsource-sum.png)
+![addsource-sum](/addsource-sum.png)
