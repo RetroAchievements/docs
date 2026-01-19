@@ -191,6 +191,8 @@ Links to images should follow this syntax:
 ![current branch](/current-branch.png)
 ```
 
+The `/public` should be omitted in the link, as it is not needed.
+
 Try not to reference images on any external site, including RetroAchievements itself. It is dangerous to reference images that are not within _docs/public_ as they might break at any time.
 
 ```
