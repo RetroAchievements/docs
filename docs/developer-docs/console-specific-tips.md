@@ -156,11 +156,12 @@ Checks if the 8-bit value at 0x18BAB5 is equal to 0x20. This means 0x18BAB5 cont
 
 ## Wii
 
-- Identification of the game/disc:
+- Identification of a retail game/disc:
    - Serial is located at **0x00000000** as a string of ASCII characters.
    - Disc Number (for multidisk games) is stored at **0x80000006**. (0 = Disc 1)
    - Revision Number is stored at **0x00000007**.
    - You can use these to determine the specific disc loaded.
+- WiiWare game ID is located at **0x00003180** as a 4-byte string of ASCII characters.
 - Wii uses a PowerPC chipset with big-endian data. Filter using `16-Bit BE`, `32-Bit BE`, `Float BE`, and `Double32 BE` for data types wider than 1 byte (8-bits). Data is typically aligned on Wii, so 16-Bit data is always at an even address and 32-bit data addresses at a multiple of 4, etc.
 - Wii has two banks of RAM, 24MB called "MEM1" located at `0x80000000-0x817FFFFF`, which is mapped at `0x00000000-0x017FFFFF` in the RA toolkit, and 64MB called "MEM2" located at `0x90000000-0x93FFFFFF`, which is mapped at `0x10000000-0x13FFFFFF` in the RA toolkit.
    - Therefore, pointers found will start with 0x8 or 0x9, and to use them, you can mask them using `0x1fffffff` to convert to RA addressing.
