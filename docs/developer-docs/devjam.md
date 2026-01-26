@@ -62,7 +62,8 @@ Check the links here for console-specific guidelines and info:
 |   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](/developer-docs/devjam/5-pc88)    |           25           |      40       |
 |   06   | 2024-12-01 - 2025-03-16 |      [Apple II](/developer-docs/devjam/6-appleii)      |           20           |      40       |
 |   07   | 2025-04-01 - 2025-06-30 |   [Sega CD/32X](/developer-docs/devjam/7-segacd-32x)   |           27           |      40       |
-|   08   | 2025-07-01 - 2025-09-30 |          [MSX](/developer-docs/devjam/8-msx)           |          TBA           |      TBA      |
+|   08   | 2025-07-01 - 2025-09-30 |          [MSX](/developer-docs/devjam/8-msx)           |           26           |      79       |
+|   09   | 2026-02-01 - 2025-04-30 |      [Catch-Up](/developer-docs/devjam/9-catch-up)     |           ??           |      ??       |
 
 ## Planned DevJams
 
