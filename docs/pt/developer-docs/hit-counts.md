@@ -7,7 +7,7 @@ description: Aprenda a usar Contagem de Acertos no Editor de Conquistas para cri
 
 No Editor de Conquistas, o campo no lado mais à direita é a Contagem de Acertos.
 
-![Campo de Contagem de Acertos no Editor](/public/achievement-editor-hits-column.png)
+![Campo de Contagem de Acertos no Editor](/achievement-editor-hits-column.png)
 
 O padrão é Zero, o que significa que a condição deve ser verdadeira para a conquista ser ativada.
 

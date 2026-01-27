@@ -65,7 +65,7 @@ Possession of hammer changes from not possessed to possessed
 
 Aquí está cómo se vería este logro en el editor de logros
 
-![how-ra-works-example](/public/how-ra-works-example.png)
+![how-ra-works-example](/how-ra-works-example.png)
 
 En este ejemplo, la dirección 0x0561 es el ID de la habitación y su valor es 0x15 cuando el jugador está en la habitación con el martillo, la dirección 0x076e es el ID de área y su valor es 0x02 cuando está en Death Mountain donde se encuentra el martillo y el Bit0 de la dirección 0x078b indica si el jugador tiene el martillo.
 Este bit cambia de 0 a 1 cuando el jugador adquiere el martillo, por lo que el logro se verifica en un cuadro donde este bit es mayor que en el cuadro anterior, que es precisamente cuando se obtiene el martillo, ya que los bits solo pueden ser 1 o 0.

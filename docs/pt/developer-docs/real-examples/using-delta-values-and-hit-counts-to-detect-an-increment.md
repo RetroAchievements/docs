@@ -11,7 +11,7 @@ como um caso de estudo, e o achievement [Steel Grip - Defeat 10 enemies without 
 - `0xef37`: tipo de arma
 - `0xef4e`: número de KOs (player 1)
 
-![Configuração da conquista Steel Grip de Streets of Rage 2](/public/sor2-steel-grip-achievement-editor.png)
+![Configuração da conquista Steel Grip de Streets of Rage 2](/sor2-steel-grip-achievement-editor.png)
 
 **Condições**
 

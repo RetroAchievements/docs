@@ -14,7 +14,7 @@ as a case study, and [Steel Grip - Defeat 10 enemies without dropping your weapo
 - `0xef37`: weapon type
 - `0xef4e`: number of KOs (player 1)
 
-![Streets of Rage 2 steel grip achievement configuration](/public/sor2-steel-grip-achievement-editor.png)
+![Streets of Rage 2 steel grip achievement configuration](/sor2-steel-grip-achievement-editor.png)
 
 **Conditions**
 

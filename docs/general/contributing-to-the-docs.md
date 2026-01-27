@@ -25,7 +25,7 @@ If you want to create new pages or work on multiple pages, follow these steps:
 
 ### 1. Fork the Repository
 
-- Go to the [repository's page](https://github.com/RetroAchievements/docs) and click the "Fork" button. ![fork button](/public/fork-button.png)
+- Go to the [repository's page](https://github.com/RetroAchievements/docs) and click the "Fork" button. ![fork button](/fork-button.png)
 - Press "Create fork" on the form that appears.
 
 ### 2. Open in VSCode
@@ -34,23 +34,23 @@ If you want to create new pages or work on multiple pages, follow these steps:
 - Use the file tree on the left to explore the docs, specifically by expanding the "docs" folder.
 - Use the Ctrl+P hotkey to search for files, such as "README".
 
-![readme search](/public/readme-search.png)
+![readme search](/readme-search.png)
 
 ### 3. Edit and Preview
 
 - Open the command palette with Ctrl+Shift+P (or F1 in Firefox), search for "markdown preview", and select "Markdown: Open Preview to the Side".
 - Use the Markdown preview to see your changes as you write them.
 
-![markdown preview](/public/markdown-preview.png)
+![markdown preview](/markdown-preview.png)
 
 ### 4. Create a Branch
 
 - Click the branch name (usually `main`) at the bottom left of VSCode.
 - Click "Create branch", name your branch, press Enter, and then click "Switch to Branch".
 
-![current branch](/public/current-branch.png)
+![current branch](/current-branch.png)
 
-![switch to branch](/public/switch-to-branch.png)
+![switch to branch](/switch-to-branch.png)
 
 ### 5. Save and Commit
 
@@ -58,16 +58,16 @@ If you want to create new pages or work on multiple pages, follow these steps:
 - Click the Source Control icon on the left, right-click the files you've changed, and click "Stage Changes".
 - Write a commit message, then click the "Commit & Push" button.
 
-![commit changes](/public/commit-changes.png)
+![commit changes](/commit-changes.png)
 
 ### 6. Create Pull Request
 
 - Open the command palette with Ctrl+Shift+P (or F1 in Firefox) and use the "Create Pull Request" command.
 - Fill out the form with a title and description, then click "Create".
 
-![create pull request](/public/create-pull-request.png)
+![create pull request](/create-pull-request.png)
 
-![pr form](/public/pr-form.png)
+![pr form](/pr-form.png)
 
 ## Adding New Pages
 
@@ -188,8 +188,10 @@ Links to images should follow this syntax:
 ```
 ✅ GOOD
 
-![current branch](/public/current-branch.png)
+![current branch](/current-branch.png)
 ```
+
+The `/public` should be omitted in the link, as it is not needed.
 
 Try not to reference images on any external site, including RetroAchievements itself. It is dangerous to reference images that are not within _docs/public_ as they might break at any time.
 
