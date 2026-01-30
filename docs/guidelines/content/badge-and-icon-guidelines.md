@@ -72,8 +72,7 @@ Banners are wide images used to represent games on certain pages of the site. Al
 
 ### Banners must not
 
-- Include game logos
-- Include text of any kind
+- Include text of any kind (game logos are permitted as long as they do not contain text)
 
 ### Credit Requirements
 
