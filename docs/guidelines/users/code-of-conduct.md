@@ -11,23 +11,7 @@ description: Essential guidelines for RetroAchievements users to promote a healt
 
 The RetroAchievements project aims to provide tools for creating achievements for retrogames and ways to enjoy such creations. We strive to promote a healthy and collaborative community around this hobby. Everything we produce is made available for free and we will never profit from it.
 
-## Policy Scope
-
-This Code of Conduct governs **user behavior** within RetroAchievements community spaces, including how members interact with each other on our website, forums, and our Discord server. It does not govern the content of games or ROM hacks for which we provide achievement sets.
-
-### Our Approach to Content
-
-RetroAchievements functions as an archival platform. We provide achievement sets for retro games and ROM hacks as they exist, without curating based on their themes, content, or messages. This includes:
-
-- Commercial games from various eras and regions
-- Homebrew projects
-- Community-created ROM hacks
-
-**The presence of an achievement set on our platform does not constitute endorsement** of a game's content, its developers' views, or its creators' personal beliefs.
-
-Users have control over their experience through our content filtering and warning systems. Games containing mature or potentially offensive content are marked accordingly, and users can adjust their settings to control what they see.
-
-### How to Report Concerns
+## How to Report Concerns
 
 - **User behavior concerns** (harassment, spam, Code of Conduct violations): Contact [RAdmin](https://retroachievements.org/messages/create?to=RAdmin) or reach out privately to a member of the moderation team.
 - **Game/set content concerns**: Contact [RAdmin](https://retroachievements.org/messages/create?to=RAdmin). While we don't curate based on game content, we welcome feedback about our content warning and filtering systems.
