@@ -66,6 +66,18 @@ Achievement badges should refer in some way to what the achievement is about - i
 
 ![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
 
+## Game Page Banners
+
+Banners are wide images used to represent games on certain pages of the site. All existing guidelines for game icons apply to banners as well, with the following additional restrictions:
+
+### Banners must not
+
+- Include text of any kind (game logos are permitted as long as they do not contain text)
+
+### Credit Requirements
+
+- If a banner is sourced from SteamGridDB, credit must be given to the "SteamGridDB" user.
+
 ## AI-Generated Art Policy
 
 ### Overview
