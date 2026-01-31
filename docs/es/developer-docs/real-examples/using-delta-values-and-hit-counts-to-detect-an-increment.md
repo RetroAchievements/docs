@@ -7,7 +7,7 @@ como ejemplo, y al logro [Steel Grip - Derrota a 10 enemigos sin tirar tu arma](
 - `0xef37`: tipo de arma
 - `0xef4e`: numero de KOs (jugador 1)
 
-![Configuración del logro Steel Grip de Streets of Rage 2](/public/sor2-steel-grip-achievement-editor.png)
+![Configuración del logro Steel Grip de Streets of Rage 2](/sor2-steel-grip-achievement-editor.png)
 
 **Condiciones**
 

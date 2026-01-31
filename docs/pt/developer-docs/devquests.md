@@ -29,7 +29,7 @@ DevQuests são missões relacionadas ao desenvolvimento de conquistas que os Des
 
 ### 001 [Massacre de Tickets](https://retroachievements.org/game/15940)
 
-![DQ001](https://retroachievements.org/Images/044438.png)
+![DQ001](/devquest-001.png)
 
 **Tipo**: Manutenção  
 **Objetivo**: Resolver/fechar 50 tickets  
@@ -42,7 +42,7 @@ DevQuests são missões relacionadas ao desenvolvimento de conquistas que os Des
 
 ### 002 [Renovador Retrô](https://retroachievements.org/game/15957)
 
-![DQ002](https://retroachievements.org/Images/067747.png)
+![DQ002](/devquest-002.png)
 
 **Tipo**: Revisão, Manutenção  
 **Objetivo**: Reparar 3 conjuntos do lote fornecido  
@@ -59,7 +59,7 @@ DevQuests são missões relacionadas ao desenvolvimento de conquistas que os Des
 
 ### 003 [Singles na Sua Área](https://retroachievements.org/game/15953)
 
-![DQ003](https://retroachievements.org/Images/044440.png)
+![DQ003](/devquest-003.png)
 
 **Tipo**: Manutenção  
 **Objetivo**: Apertar a lógica para 20 conquistas de condição única  
@@ -73,7 +73,7 @@ DevQuests são missões relacionadas ao desenvolvimento de conquistas que os Des
 
 ### 004 [Desenvolvedor Veterano](https://retroachievements.org/game/15947)
 
-![DQ004](https://retroachievements.org/Images/069722.png)
+![DQ004](/devquest-004.png)
 
 **Tipo**: Especial  
 **Objetivo**: Completar um conjunto de objetivos especiais  
@@ -96,7 +96,7 @@ Um conjunto de ferramentas em constante evolução significa que esses requisito
 
 ### 005 [Feliz com Trigger](https://retroachievements.org/game/15952)
 
-![DQ005](https://retroachievements.org/Images/044441.png)
+![DQ005](/devquest-005.png)
 
 **Tipo**: Manutenção  
 **Objetivo**: Atualizar 50 conquistas com as flags Trigger e Measured  
@@ -111,7 +111,7 @@ Um conjunto de ferramentas em constante evolução significa que esses requisito
 
 ### 006 [Os Indesejados](https://retroachievements.org/game/15907)
 
-![DQ006](https://retroachievements.org/Images/045565.png)
+![DQ006](/devquest-006.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Desenvolver um conjunto para um sistema impopular atribuído a você aleatoriamente  
@@ -150,7 +150,7 @@ Sem hacks ou homebrew a menos que esses sejam os únicos tipos de jogos restante
 
 ### 007 [Mais Procurados](https://retroachievements.org/game/17758)
 
-![DQ007](https://retroachievements.org/Images/046249.png)
+![DQ007](/devquest-007.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Desenvolver um conjunto para um dos jogos mais requisitados  
@@ -165,7 +165,7 @@ No momento em que você reivindicar o conjunto, ele deve estar na seção Mais P
 
 ### 008 [Viajante Mundial](https://retroachievements.org/game/15918)
 
-![DQ008](https://retroachievements.org/Images/047727.png)
+![DQ008](/devquest-008.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Desenvolver dois conjuntos para jogos que nunca tiveram um lançamento em inglês  
@@ -185,7 +185,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 009 [Festa de Lançamento!](https://retroachievements.org/game/15937)
 
-![DQ009](https://retroachievements.org/Images/048656.png)
+![DQ009](/devquest-009.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Desenvolver um conjunto para um console recém-suportado dentro de 6 meses de suporte RA  
@@ -200,7 +200,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 010 [É Preciso Dois](https://retroachievements.org/game/15939)
 
-![DQ010](https://retroachievements.org/Images/049337.png)
+![DQ010](/devquest-010.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Una forças com outros desenvolvedores para publicar dois conjuntos colaborativos  
@@ -213,7 +213,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 011 [A Gênese do RA!](https://retroachievements.org/game/1280)
 
-![DQ011](https://retroachievements.org/Images/049821.png)
+![DQ011](/devquest-011.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Desenvolver um conjunto para o Sega Genesis/Mega Drive para celebrar o aniversário da primeira conquista do RA  
@@ -227,7 +227,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 012 [Hábito de Hacker](https://retroachievements.org/game/672)
 
-![DQ012](https://retroachievements.org/Images/052519.png)
+![DQ012](/devquest-012.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Criar dois novos conjuntos para hacks robustos  
@@ -241,7 +241,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 013 [complete.me](https://retroachievements.org/game/795)
 
-![DQ013](https://retroachievements.org/Images/057676.png)
+![DQ013](/devquest-013.png)
 
 **Tipo**: Revisão, Manutenção  
 **Objetivo**: Fornecer conteúdo significativo para três conjuntos que são apenas progressão ou foram rebaixados por estarem incompletos  
@@ -254,7 +254,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 014 [Leaderboards Louváveis](https://retroachievements.org/game/862)
 
-![DQ014](https://retroachievements.org/Images/057070.png)
+![DQ014](/devquest-014.png)
 
 **Tipo**: Manutenção  
 **Objetivo**: Criar leaderboards para 10 jogos que atualmente não têm nenhuma  
@@ -272,7 +272,7 @@ Um lançamento em inglês é considerado um jogo lançado em inglês nos EUA, Ca
 
 ### 015 [Conquistador de Console](https://retroachievements.org/game/809)
 
-![DQ015](https://retroachievements.org/Images/068013.png)
+![DQ015](/devquest-015.png)
 
 **Tipo**: Especial  
 **Objetivo**: Publicar um conjunto para cada plataforma suportada no RetroAchievements  
@@ -296,7 +296,7 @@ Você deve ter desenvolvido conjuntos para 10 ou mais plataformas suportadas ant
 
 ### 016 [Queria Este Conjunto](https://retroachievements.org/game/2962)
 
-![DQ016](https://retroachievements.org/Images/058480.png)
+![DQ016](/devquest-016.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Publicar um conjunto para um jogo que foi apresentado no recurso Wish This Set da RANews em qualquer momento e que atualmente não tenha um conjunto no core  
@@ -311,7 +311,7 @@ Você deve ter desenvolvido conjuntos para 10 ou mais plataformas suportadas ant
 
 ### 017 [Copa do Mundo RA](https://retroachievements.org/game/15942)
 
-![DQ017](https://retroachievements.org/Images/062544.png)
+![DQ017](/devquest-017.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Publicar 2 Conjuntos para 2 jogos esportivos diferentes, 1 deve ser um esporte físico  
@@ -326,7 +326,7 @@ Você deve ter desenvolvido conjuntos para 10 ou mais plataformas suportadas ant
 
 ### 018 [Estação de Subconjuntos](https://retroachievements.org/game/22564)
 
-![DQ018](https://retroachievements.org/Images/073716.png)
+![DQ018](/devquest-018.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Publicar 2 Subconjuntos  
@@ -342,7 +342,7 @@ Você deve ter desenvolvido conjuntos para 10 ou mais plataformas suportadas ant
 
 ### 019 [Roda dos Gêneros](https://retroachievements.org/game/22565)
 
-![DQ019](https://retroachievements.org/Images/083449.png)
+![DQ019](/devquest-019.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Desenvolver um conjunto de um gênero ou subgênero específico determinado por um giro na Roda dos Gêneros!  
@@ -354,7 +354,7 @@ Você deve ter desenvolvido conjuntos para 10 ou mais plataformas suportadas ant
 
 ### 020 [Conquistador de Gêneros](https://retroachievements.org/game/25672)
 
-![DQ020](https://retroachievements.org/Images/083451.png)
+![DQ020](/devquest-020.png)
 
 **Tipo**: Especial  
 **Objetivo**: Publicar um conjunto para cada gênero!  
@@ -377,7 +377,7 @@ Você deve ter feito conjuntos para pelo menos 5 gêneros antes do opt-in. Para 
 
 ### 020 Subset [Conquistador de Subgêneros](https://retroachievements.org/game/25673)
 
-![DQ020S](https://retroachievements.org/Images/083452.png)
+![DQ020S](/devquest-020s.png)
 
 **Tipo**: Especial  
 **Objetivo**: Publicar um conjunto para cada subgênero!  
@@ -400,7 +400,7 @@ Você deve ter feito conjuntos para pelo menos 15 subgêneros antes do opt-in. P
 
 ### 021 [Paraíso do Homebrew](https://retroachievements.org/game/25677)
 
-![DQ021](https://retroachievements.org/Images/093270.png)
+![DQ021](/devquest-021.png)
 
 **Tipo**: Criação de Conjunto  
 **Objetivo**: Publicar três novos conjuntos para jogos homebrew!  
@@ -414,7 +414,7 @@ Você deve ter feito conjuntos para pelo menos 15 subgêneros antes do opt-in. P
 
 ### 022 [Isto Pertencia a um Museu!](https://retroachievements.org/game/25678)
 
-![DQ022](https://retroachievements.org/Images/102134.png)
+![DQ022](/devquest-022.png)
 
 **Tipo**: Revisão, Manutenção  
 **Objetivo**: Obter 12 Pontos limpando conjuntos antigos, trazendo-os aos padrões atuais do RA  

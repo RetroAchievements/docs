@@ -15,7 +15,7 @@ Vamos analisar uma conquista de [Suikoden (PlayStation)](https://retroachievemen
 - `0x1b8245`: bit0 é um tesouro no Covil do Dragão, bit1-bit5 são tesouros no Vale Seek, e bit6-7 são tesouros em Kalekka.
 - `0x1b824b`: bit0-bit1 são tesouros na Vila da Runa Escondida, bit2 não é usado, bit3-4 são tesouros na Fortaleza dos Cavaleiros do Dragão, bit5-6 são tesouros em Teien, e bit7 é um tesouro na Casa de Luiken.
 
-![Exemplo do editor de conquistas de Suikoden](/public/suikoden-achievement-editor-example.png)
+![Exemplo do editor de conquistas de Suikoden](/suikoden-achievement-editor-example.png)
 
 Esta conquista específica requer apenas tesouros da Fortaleza dos Cavaleiros do Dragão, Covil do Dragão e Vale Seek; portanto, só precisamos dos bit6-7 de `0x1b8244`, bit0-bit5 de `0x1b8245`, e bit3-bit4 de `0x1b824b`.
 

@@ -8,7 +8,7 @@ Ao escavar a memória desses antigos consoles, ajuda saber em primeiro lugar com
 
 ## NES (RANes)
 
-![](https://user-images.githubusercontent.com/33245078/32608415-e8bd2cf8-c521-11e7-8da5-22c9e09efd8c.png)
+![NES memory mirror](/nes-memory-mirroring.png)
 
 ## Game Boy (RAVBA)
 
@@ -28,7 +28,7 @@ Para mais informações, consulte: [http://gameboy.mongenel.com/dmg/asmmemmap.ht
 
 ### ECHO RAM
 
-![](https://user-images.githubusercontent.com/33245078/32610144-755a0442-c527-11e7-9bbb-eb5a4d7b8e6d.png)
+![Echo RAM](/game-boy-echo-ram.png)
 
 Similarmente ao NES, certas variáveis podem aparecer duas vezes ao pesquisar no Memory Inspector. O segundo resultado está no que é chamado de RAM ECHO, que é um espelho da memória real. Como alguns emuladores tendem a ignorar essa área ou emular incorretamente, recomenda-se NÃO usá-la e sempre usar o primeiro resultado.
 

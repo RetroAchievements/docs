@@ -8,7 +8,7 @@
 
 No exemplo a seguir, **RAGens** (nossa versão personalizada do emulador Gens do Mega Drive) está emulando o jogo **Streets of Rage 2**. Dois **leaderboards** especiais podem ser notados no canto inferior direito da tela (eles irão coletar informações especiais como a pontuação, por exemplo). Ao completar uma série de requisitos, uma conquista é desbloqueada pelo jogador que é informado sobre o evento através de um "pop-up" especial. Ao final do exemplo, um menu especial com várias informações sobre o jogo (que pode ser ativado ao pressionar a tecla ESC) aparece na tela.
 
-![sor2-cheevos](https://user-images.githubusercontent.com/8508804/32685494-854ad72a-c679-11e7-9bef-6717a5bad046.gif)
+![sor2-cheevos](/sor2-cheevos.gif)
 
 ## O que é o modo HARDCORE?
 
@@ -85,7 +85,7 @@ Esta é uma função contruida para **apenas emuladores oficiais** (não no Retr
 
 Veja este exemplo:
 
-![Como reportar](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+![Como reportar](/how-to-report.webp).
 
 Além disso, aqui está um video detalhado explicando como usar isto: [https://www.youtube.com/watch?v=TTHbm700Y-Y](https://www.youtube.com/watch?v=TTHbm700Y-Y) `Vídeo em inglês`
 
@@ -119,7 +119,7 @@ Nos vivemos por um código de honra acima de tudo. Se você encontar evidências
 
 Mesmo que você não consiga, na maioria dos casos, você deve criar um ticket report (veja abaixo), deixando uma explicação do que foi errado. Você pode tambem remover essas conquistas de sua conta para você ter a satisfação de ganhar realmente ganhar elas.
 
-![Resetando Conquista](https://i.imgur.com/zI3VD8w.gif)  
+![Resetando Conquista](/reset-game-progress.gif)  
 Resetando conquistas não ganhas
 
 ## Como eu redefino minha senha? (Se eu não lembrar minha senha)
@@ -128,7 +128,7 @@ Aqui:
 [https://retroachievements.org/resetPassword.php](https://retroachievements.org/resetPassword.php)
 
 No site, na pagina frontal, enquanto não estiver logado
-![reset password](https://i.imgur.com/3AxGYWe.png)
+![reset password](/reset-password.png)
 
 ## Porque meu jogo não está carregando as conquistas?
 

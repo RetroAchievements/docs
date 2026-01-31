@@ -11,7 +11,7 @@ Icons are **user uploaded** images that are used throughout the site to represen
 
 - _Sonic the Hedgehog's game Icon_
 
-  ![Sonic the Hedgehog Icon](https://retroachievements.org/Images/016743.png)
+  ![Sonic the Hedgehog Icon](/badge-016743.png)
 
 ### Designing New Game Icons - Styling Guide
 
@@ -45,7 +45,7 @@ Icons are **user uploaded** images that are used throughout the site to represen
 - Hacks - Most hacks use the same sprites from its source game. Other art that represents the game in a meaningful way may be used as long as it is not on the excluded list above (such as external fan art). Art by the developer of the hack may also be used.
 - Movie-Licensed/Movie Tie-In Games may use artwork that was used to promote the movie.
 
-![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
+![mario time](/mario-time.png)
 
 ### Other Icon Design Tips
 
@@ -63,10 +63,10 @@ Icons are **user uploaded** images that are used throughout the site to represen
 Achievement Developers are allowed to change game icons freely for entries that do not have achievements. As a Developer if you'd like to post a backup of the previous image there, if there is one, or backup yours in the forum you're free to but not required. As you create a new set of achievements you are free to create or choose the image you'd like to use as the game icon.
 
 To change a game icon first go to the game page and click on the Dev tools:  
-![change game icon 1](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67)
+![change game icon 1](/change-game-icon1.png)
 
 Then click the choose file button highlighted. Find the file on your PC, and then press the submit button highlighted:  
-![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
+![change game icon 2](/change-game-icon2.png)
 
 If a game has existing achievements, game icon changes need to go through [revision process](/guidelines/content/achievement-set-revisions).
 
@@ -88,42 +88,42 @@ Icons are stored on the site in the following manner and place: `i.retroachievem
 
 Badges are the user created images for individual achievements of a game.
 
-- _Sonic the Hedgehog's first Badge - #00199)_ ![Amateur Collector Badge](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/00199.png)
+- _Sonic the Hedgehog's first Badge - #00199)_ ![Amateur Collector Badge](/badge-00199.png)
 
 ### Badge creation guidelines and tips
 
 - Badges should refer in some way to what the achievement is about - i.e. a picture of the boss, level or collectible that the achievement requires the player to get to.
 - Check out the designs of some of your favorite games. Some users go to great effort to make visually appealing badges:
 
-![Mega Man 64, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/59919.png)
-![Mega Man 64, 3](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/59912.png)
-![Tiny Toons Adventures, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/72006.png)
-![Tiny Toons Adventures, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/71983.png)
-![Metal Slug 3, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/69785.png)
-![Metal Slug 3, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/69837.png)
-![Legend of Zelda, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/62775.png)
-![Banjo Tooie, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/71126.png)
-![Banjo Tooie, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/71179.png)
-![Pokemon Pinball, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/58812.png)
-![Pokemon Pinball, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/58803.png)
-![ToeJam and Earl, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/76075.png)
-![ToeJam and Earl, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/76072.png)
-![Super Mario World, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/46601.png)
-![Super Mario World, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/46760.png)
-![Mario Party, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/54915.png)
-![Mario Party, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/54669.png)
-![Harry Potter and The Chamber of Secrets, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/73534.png)
-![Harry Potter and the Chamber of Secrets, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/73519.png)
-![Pokemon Prism, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/70787.png)
-![Pokemon Prism, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/70432.png)
-![Super Mario World Bonus, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/47080.png)
-![Super Mario World Bonus, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/47077.png)
-![Tails Adventure](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/62326.png)
-![Sonic the Hedgehog Chaos](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/64969.png)
-![Kirby's Dream Land 3, 1](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/60799.png)
-![Kirby's Dream Land 3, 2](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/60800.png)
+![Mega Man 64, 1](/badge-59919.png)
+![Mega Man 64, 3](/badge-59912.png)
+![Tiny Toons Adventures, 1](/badge-72006.png)
+![Tiny Toons Adventures, 2](/badge-71983.png)
+![Metal Slug 3, 1](/badge-69785.png)
+![Metal Slug 3, 2](/badge-69837.png)
+![Legend of Zelda, 2](/badge-62775.png)
+![Banjo Tooie, 1](/badge-71126.png)
+![Banjo Tooie, 2](/badge-71179.png)
+![Pokemon Pinball, 1](/badge-58812.png)
+![Pokemon Pinball, 2](/badge-58803.png)
+![ToeJam and Earl, 1](/badge-76075.png)
+![ToeJam and Earl, 2](/badge-76072.png)
+![Super Mario World, 1](/badge-46601.png)
+![Super Mario World, 2](/badge-46760.png)
+![Mario Party, 1](/badge-54915.png)
+![Mario Party, 2](/badge-54669.png)
+![Harry Potter and The Chamber of Secrets, 1](/badge-73534.png)
+![Harry Potter and the Chamber of Secrets, 2](/badge-73519.png)
+![Pokemon Prism, 1](/badge-70787.png)
+![Pokemon Prism, 2](/badge-70432.png)
+![Super Mario World Bonus, 1](/badge-47080.png)
+![Super Mario World Bonus, 2](/badge-47077.png)
+![Tails Adventure](/badge-62326.png)
+![Sonic the Hedgehog Chaos](/badge-64969.png)
+![Kirby's Dream Land 3, 1](/badge-60799.png)
+![Kirby's Dream Land 3, 2](/badge-60800.png)
 
-- Here's a [forum topic](http://retroachievements.org/viewtopic.php?t=4282&o=5) full of great tips.
+- Here's a [forum topic](https://retroachievements.org/viewtopic.php?t=4282&o=5) full of great tips.
 - In the cases of low-resolution games' achievements, it can be hard to get a Badge looking good without it looking _blocky_ or _blurry_, in these cases the _blocky_ look is often preferable, so that the images have a _retro_ feel to them.
 - You can make each Badge have little rounded borders like an actual Badge or some extra spiky corners for emphasis or a king's crown for difficult ones. Its your design. It should visually represent the achievement itself, or hint at the location in the game for secrets.
 - Matching to the game's art style works well. Google Image searches for "Sprite Sheets" is another useful tip to include some game art.
@@ -139,10 +139,10 @@ Badges are the user created images for individual achievements of a game.
 If you are creating new achievements you are free to upload badges for them.
 
 Badges are uploaded from within the emulator developer tools while in the achievement editor:  
-![image](https://user-images.githubusercontent.com/32706333/52097132-c73cb280-2586-11e9-95ec-ea5e4dc8f9cd.png)
+![Upload Badge](/alt-groups-add.png)
 
 Or you can select a prefabricated image or find other images you've uploaded in the drop down box:  
-![image](https://user-images.githubusercontent.com/32706333/52097145-d1f74780-2586-11e9-8a22-06ceeeb82fe8.png)
+![Badge dropdown](/badge-dropdown.png)
 
 Upload `.png` file types.
 
@@ -169,11 +169,11 @@ When uploaded, your file is converted into the following:
 
 - 64x64 32-bit colour PNG. Example:
 
-  ![00136](https://user-images.githubusercontent.com/8508804/37221161-b9b0bb02-23a7-11e8-81b2-3d09fa7456af.png)
+  ![Achievement badge](/achievement-badge.png)
 
 - 64x64 greyscale and blurred PNG. Example:
 
-  ![00136_lock](https://user-images.githubusercontent.com/8508804/37221162-b9d7a802-23a7-11e8-9b69-3e91594c1ba4.png)
+  ![Achievement badge locked](/achievement-badge-locked.png)
 
 ### Badge Server Files
 

@@ -22,7 +22,7 @@ Rich presence is written for site viewers, **NOT** the person playing the game. 
 
 **Example of RP in action:**
 
-![Example of RP in action](/public/rp-sample.png)
+![Example of RP in action](/rp-sample.png)
 
 ### How Does It Work?
 
@@ -34,9 +34,9 @@ The user's 'Last Seen In' may also say 'Fixing Achievements' or 'Developing Achi
 
 The Rich Presence script for a game can be found under the development section on each game's page:
 
-![Dev click](/public/rp-dev-menu.png)
+![Dev click](/rp-dev-menu.png)
 
-![RP shown](/public/rp-site-update.png)
+![RP shown](/rp-site-update.png)
 
 ## Example (Super Mario Bros.)
 
@@ -311,7 +311,7 @@ For custom unicode/emoji [ShapeCatcher](http://shapecatcher.com/) is an excellen
 
 Take note of community display preference:
 
-![image](https://user-images.githubusercontent.com/32706333/56547116-a65a7c80-6539-11e9-951c-83b4f9930b3e.png)
+![RP community display preferences](/rp-community-display-preferences.png)
 
 ## Developing Rich Presence
 

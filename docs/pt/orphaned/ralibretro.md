@@ -112,7 +112,7 @@ Para fazer o modo de emulação AES BIOS funcionar em seu emulador:
 
 3. Certifique-se de que o `neogeo.zip` contenha pelo menos os arquivos que você pode ver aqui:
 
-![](https://dl.dropboxusercontent.com/s/68l37qbt8myts82/aesminimum.png)
+![aesminimum](/aesminimum.png)
 
 Se você mantiver apenas esses arquivos, o modo AES será automaticamente forçado para qualquer jogo NeoGeo (recomendado).
 
