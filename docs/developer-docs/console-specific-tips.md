@@ -80,11 +80,27 @@ After the BIOS completes, the block is blanked out with FF's, and repurposed for
 
 ### GBA Memory Map
 
-| Name                         | Physical Address Range  | Virtual Address Range   | Offset (Virtual to Physical) |
-| ---------------------------- | ----------------------- | ----------------------- | ---------------------------- |
-| On-chip Working RAM (WRAMC)  | 0x00000000 - 0x00007fff | 0x03000000 - 0x03007fff | -0x03000000                  |
-| On-board Working RAM (WRAMB) | 0x00008000 - 0x00047fff | 0x02000000 - 0x0203ffff | -0x01ff8000                  |
-| Game Pak SRAM (SRAM)         | 0x00048000 - 0x00057fff | 0x0e000000 - 0x0e00ffff | -0x0dfb8000                  |
+| Name                      | Physical Address Range  | Virtual Address Range   | Offset (Virtual to Physical) |
+| ------------------------- | ----------------------- | ----------------------- | ---------------------------- |
+| BIOS - System ROM         |                         | 0x00000000 - 0x00003fff |                              |
+| Unused                    |                         | 0x00004000 - 0x01ffffff |                              |
+| On-board Work RAM (WRAMB) | 0x00008000 - 0x00047fff | 0x02000000 - 0x0203ffff | -0x01ff8000                  |
+| Unused                    |                         | 0x02040000 - 0x02ffffff |                              |
+| On-chip Work RAM (WRAMC)  | 0x00000000 - 0x00007fff | 0x03000000 - 0x03007fff | -0x03000000                  |
+| Unused                    |                         | 0x03008000 - 0x03ffffff |                              |
+| I/O Registers             |                         | 0x04000000 - 0x040003fe |                              |
+| Unused                    |                         | 0x04000400 - 0x04ffffff |                              |
+| BG/OBJ Palette RAM        |                         | 0x05000000 - 0x050003ff |                              |
+| Unused                    |                         | 0x05000400 - 0x05ffffff |                              |
+| Video RAM (VRAM)          |                         | 0x06000000 - 0x06017fff |                              |
+| Unused                    |                         | 0x06018000 - 0x06ffffff |                              |
+| OBJ Attribute RAM (OAM)   |                         | 0x07000000 - 0x070003ff |                              |
+| Unused                    |                         | 0x07000400 - 0x07ffffff |                              |
+| Game Pak ROM/FlashROM     |                         | 0x08000000 - 0x0dffffff |                              |
+| Game Pak SRAM (SRAM)      | 0x00048000 - 0x00057fff | 0x0e000000 - 0x0e00ffff | -0x0dfb8000                  |
+| Unused                    |                         | 0x0e010000 - 0xffffffff |                              |
+
+Note that only memory ranges with mapped physical addresses can be read. ROM data cannot be read directly, but pointers to ROM can be safely used for equality checks.
 
 ## Virtual Boy
 
