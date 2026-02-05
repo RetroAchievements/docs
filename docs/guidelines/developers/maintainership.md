@@ -6,7 +6,7 @@ description: Description of maintainer role, role request, and approval process.
 # Maintainer Role Purpose and Qualification
 The achievement Maintainer role allows a developer to assume responsibility for an achievement. Future tickets and unlock credit will be assigned to achievement maintainers and maintainership is effectively a transfer of ownership. The original author does not lose authorship credit, ticket history, or unlock credit that occurred prior to the assignment of a new maintainer. If a maintainer loses or relinquishes the role, new tickets and unlocks will return to being given to the author. A maintainer can be assigned to an entire set or a portion of the achievements depending on the scope of work that was done. The maintainer role may only be approved and assigned by the QA team.
 
-Maintainership requests will be considered for significant repairs on a case by case basis. Correcting set-significant instability issues is the primary factor when considering approval of the maintainer role. Because the Maintainer role grants future credit to the maintainer, the work done to receive the role must amount to fixing significant instability. Poorly coded, but otherwise stable achievements are not eligible for maintainership consideration.
+Maintainership requests will be considered for significant repairs on a case by case basis. Correcting set-significant instability issues is the primary factor when considering approval of the maintainer role. Because the Maintainer role grants future credit to the maintainer, the work done to receive the role must amount to fixing significant instability. Poorly coded, but otherwise stable achievements are generally not good candidates for maintainership consideration.
 
 [[toc]]
 
