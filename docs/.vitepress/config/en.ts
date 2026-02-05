@@ -185,6 +185,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/developers/handling-tickets",
         },
         {
+          text: "Maintainership Role",
+          link: "/guidelines/developers/maintainership",
+        },
+        {
           text: "Set and Achievement Contribution Credit",
           link: "/guidelines/developers/credit",
         },

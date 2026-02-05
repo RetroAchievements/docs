@@ -189,8 +189,12 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         //   link: "/es/guidelines/developers/handling-tickets",
         // },
         // {
+        //   text: "Maintainership Role",
+        //  link: "/es/guidelines/developers/maintainership",
+        // },
+        // {
         //  text: "Set and Achievement Contribution Credit",
-        //  link: "/guidelines/developers/credit",
+        //  link: "/es/guidelines/developers/credit",
         // },
       ],
     },
