@@ -15,9 +15,10 @@ Tips for testing:
 # Requesting a Review
 
 Before you request a review on your set, it must be clear of bad practices. In particular, you must use [AutoCR](https://authorblues.github.io/retroachievements/AutoCR/) and go through every issue it flags. As with any automatic feedback tool, it is not perfect, and flags can sometimes be ignored. It is still invaluable to identify issues with your set, especially while you are still learning. In your Ready for Review post on #jr-devs-request, you must:
-- Have had the claim for at least 7 days
+- Have an approved Set Plan for at least 7 days
 - Explain your testing process
 - Link to the Unpublished achievement page for your game
+- Include a link to Set Plan Review thread
 - Link to the AutoCR page for the set (using the Load by Game ID feature)
 - Explain why any issue flagged by AutoCR has been ignored
   
