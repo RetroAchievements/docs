@@ -4,7 +4,7 @@ Aqui un vistazo del **Inspector de Memoria** y sus caracteristicas. Esta herrami
 
 ## Ventana del Inspector de Memoria
 
-![memoryinspector-num](https://user-images.githubusercontent.com/8508804/38775140-304dbdf8-4051-11e8-9388-0061222f0bc3.png)
+![memoryinspector-num](/memoryinspector-num.png)
 
 ### 1. Reset to (Resetear en)
 
@@ -20,7 +20,7 @@ Cada vez que presiones este boton, estas filtrando los valores que no concuerdan
 
 ### 4. Ventana de Resultados
 
-![memoryinspector-filter jpg](https://user-images.githubusercontent.com/8508804/38765608-c43a724c-3f9b-11e8-8ae4-676cc273fb92.png)
+![memoryinspector-filter](/memoryinspector-filter.png)
 
 Despues de haber filtrado los resultados miraras en la ventana exactamente que es lo que paso, cuantos valores has conseguido y cuantos estan fuera. Algunos puntos a tener en cuenta:
 
@@ -51,7 +51,7 @@ Si deseas remover una nota, seleccionala en el menu desglozable, y haz click en 
 
 Cuando haces click en el boton `Open Memory Bookmarker` (Abrir Marcadores de Memoria) vas a ver esta ventana:
 
-![memoryinspector-bookmark jpg](https://user-images.githubusercontent.com/8508804/38765606-c41abac4-3f9b-11e8-91a9-65a28a0dc05b.png)
+![memoryinspector-bookmark](/memoryinspector-bookmark.png)
 
 Con esto, puedes ver multiples variables designadas al mismo tiempo en vez de estar moviendote por todo el Inspector.
 
@@ -112,7 +112,7 @@ Mas datos sobre las diferentes notaciones:
 
 La parte de hasta abajo del Inspector de Memoria es lo que llamamos visor de Memoria:
 
-![memviewer](https://user-images.githubusercontent.com/8508804/52494138-59127400-2bb4-11e9-9a1f-6172bba6ee9f.png)
+![memviewer](/memviewer.png)
 
 Puedes ver la informacion en el Visor de Memoria utilizando los modos 8, 16 y 32-bit.
 
@@ -132,11 +132,11 @@ Antes de que hables del modo de 16-bit mode y 32-bit, es importante saber sobre 
 >
 > En el orden **Big-Endian** la "big end" (extremidad) de un numero (el valor mas significativo en secuencia) es almacenado primero (posicionado en la direccion mas pequeña). En la imagen de abajo puedes ver el numero `0x12345678` almacenado en la direccion `0x100` en el sistema big-endian. Ten en cuenta que el byte mas significativo `0x12` se encunetra en la direccion `0x100`:
 >
-> ![bigendian](https://user-images.githubusercontent.com/8508804/52626678-db43b680-2e9a-11e9-89e2-19d379359226.png)
+> ![bigendian](/bigendian.png)
 >
 > En el orden **Little-Endian** el "little end" (extremidad) de un numero (el valor menos significativo en secuencia) es almacenado primero (posicionado en la direccion mas grande). En la imagen de abajo puedes ver el numero `0x12345678` almacenado en la direccion `0x100` en orden little-endian. Ten en cuenta que el byte menos significativo `0x78` se encuentra en la direccion `0x100`:
 >
-> ![littleendian](https://user-images.githubusercontent.com/8508804/52626680-db43b680-2e9a-11e9-83f2-432fd46dc608.png)
+> ![littleendian](/littleendian.png)
 
 Valores que necesitan mas de 8-bits (en otras palabras: mas grandes que 255) necesitan estar almacenado en multiples bytes. Inclusive, los sistemas emulados que utilizamos almacenan valores de multiples-bytes en orden little-endian.
 
@@ -154,7 +154,7 @@ En addicion al 8-bit, 16-bit y 32-bit los tamaños descritos arriba, existen tam
 
 En el visor de memoria cuando un valor de 8-bit es seleccionado vas a ver algo como la imagen de abajo (en la imagen: un byte con valor `6f` es seleccionado; los bits estan resaltados con un circulo naranja):
 
-![bitfields](https://user-images.githubusercontent.com/8508804/52825269-39db8100-30a3-11e9-85b0-f2a2da109954.png)
+![bitfields](/bitfields.png)
 
 Es muy comun almacenar informacion importante en un solo bit. Ya que un bit solo puede tener dos posibles valores (`1` o `0`), algunas veces se utiliza para significarn "si" o "no", "encendido" o "apagado", "tiene un item" o "no item", etc. Algunos juegos, especialmente aquellos que tienen espacio muy limitado en memoria, utilizan bit como botones bastante.
 
@@ -181,4 +181,4 @@ Ocasionalmente solo vas a estar interesado en trabajar con solo un digito hexade
 
 ### Diagrama de Tamaño de Memoria
 
-![memsizes](https://user-images.githubusercontent.com/32680403/45276439-8cbf6580-b47f-11e8-803c-7e7e391a9e55.png)
+![memsizes](/mem-inspector-size-diagram.png)

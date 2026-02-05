@@ -19,7 +19,7 @@ A equipe web está trabalhando em uma nova página de Gerenciamento, que é onde
 
 Esta página é usada para editar datas de lançamento e também para **reordenação por arrastar e soltar**.
 
-![Exemplo de uma página de jogo vista através do site de Gerenciamento](/public/management-site.png)
+![Exemplo de uma página de jogo vista através do site de Gerenciamento](/management-site.png)
 
 ## Enviando seu Primeiro Conjunto!
 
@@ -33,7 +33,7 @@ Para chegar a esta página, vá até a página do seu jogo:
 5. Clique em Promoção ou demoção em massa
 6. Clique em Promover selecionados
 
-![Conquistas sendo promovidas através do site de Gerenciamento](/public/management-achievement-promotion.png)
+![Conquistas sendo promovidas através do site de Gerenciamento](/management-achievement-promotion.png)
 
 ## Anúncio Achievement-News
 
@@ -101,7 +101,7 @@ Leitura adicional:
 [Trabalhando com a ROM Correta](/guidelines/content/working-with-the-right-rom)
 :::
 
-![Criando uma página de jogo com um hash não identificado](/public/game-page-creation.png)
+![Criando uma página de jogo com um hash não identificado](/game-page-creation.png)
 
 ### Notas de Código
 
@@ -121,7 +121,7 @@ Agora você tem acesso a muito mais ferramentas no site para ajudá-lo como dese
 
 Os desenvolvedores têm a capacidade de adicionar jogos a uma lista de Quero Desenvolver. Os conjuntos podem ser adicionados através da caixa suspensa Dev na página do jogo.
 
-![Botão Quero Desenvolver Jogos](/public/want-to-develop.png)
+![Botão Quero Desenvolver Jogos](/want-to-develop.png)
 
 ### Página do Jogo
 
@@ -146,13 +146,13 @@ Agora você tem acesso total ao menu suspenso Dev.
 
 - **Quero Desenvolver**: Adiciona/Remove o jogo na sua lista de Quero Desenvolver
 
-![Menu Dev](/public/dev-menu.png)
+![Menu Dev](/dev-menu.png)
 
 #### Adicionando Hubs e Jogos Relacionados
 
 Hubs e jogos relacionados podem ser adicionados às páginas de jogos inserindo os IDs das páginas e clicando em "Adicionar". Hubs gerenciados pelas equipes DevCompliance, QA e Art não devem ser adicionados/removidos, envie uma mensagem para a equipe correspondente em vez disso.
 
-![Hubs e jogos relacionados vinculados](/public/add-related-games.png)
+![Hubs e jogos relacionados vinculados](/add-related-games.png)
 
 ## Canais do Discord
 

@@ -21,7 +21,7 @@ There are two ways to report a broken cheevo: directly in the emulator or via we
 
 On every achievement's page you see a link saying `Report an issue for this achievement`, like in the image below:
 
-![open-ticket-on-site](/public/report-an-issue.png)
+![open-ticket-on-site](/report-an-issue.png)
 
 ### Reporting Via emulator
 
@@ -29,7 +29,7 @@ Go to RetroAchievements -> Report Broken Achievements, this feature is only avai
 
 See this example:
 
-![how to report](https://media.giphy.com/media/5R2Pn8983YVpcmGWgk/giphy.gif).
+![how to report](/how-to-report.webp).
 
 ## Suggest Achievement Ideas
 

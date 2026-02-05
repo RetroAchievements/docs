@@ -16,7 +16,7 @@ Quando alguém menciona badges, podem estar falando sobre um de dois itens:
     - ![Amateur Collector Badge](https://s3-eu-west-1.amazonaws.com/i.retroachievements.org/Badge/00199.png)
 - Ícones de jogos, também conhecidos como badges de maestria, que são imagens únicas usadas para representar um conjunto de conquistas.
   - _Ícone de jogo de Sonic the Hedgehog_
-    - ![Sonic the Hedgehog Icon](https://retroachievements.org/Images/016743.png)
+    - ![Sonic the Hedgehog Icon](/badge-016743.png)
 
 ## Formato e Tamanhos de Badges
 
@@ -63,7 +63,7 @@ Os badges de conquistas devem se referir, de alguma forma, ao tema da conquista 
 - Hacks - A maioria dos hacks utiliza os mesmos sprites do jogo original. Outras artes que representem o jogo de forma significativa podem ser usadas, desde que não estejam na lista de exclusão acima (como arte de fãs externa). Arte criada pelo desenvolvedor do hack também pode ser utilizada.
 - Jogos licenciados por filmes ou vinculados a filmes podem usar arte que tenha sido usada para promover o filme.
 
-![mario time](https://user-images.githubusercontent.com/32706333/52103977-93bd5080-25a5-11e9-9226-4f1af1bbfa81.png)
+![mario time](/mario-time.png)
 
 ## Fazendo Upload de Ícones de Jogos
 
@@ -71,9 +71,9 @@ Os badges de conquistas devem se referir, de alguma forma, ao tema da conquista 
 
 - Desenvolvedores de conquistas podem alterar ícones de jogos livremente para entradas que ainda não possuem conquistas. Como desenvolvedor, você pode optar por postar um backup da imagem anterior no fórum, se houver uma, ou salvar sua própria imagem. Isso não é obrigatório. Ao criar um novo conjunto de conquistas, você pode criar ou escolher a imagem que deseja usar como ícone do jogo.
   - Para alterar um ícone de jogo, vá para a página do jogo e clique nas ferramentas de desenvolvimento:  
-    ![change game icon 1](https://camo.githubusercontent.com/cc05291f1f0da98ef8fd429fbdd6f201735c3edb/68747470733a2f2f692e696d6775722e636f6d2f7371784f6a794c2e706e67)  
+    ![change game icon 1](/change-game-icon1.png)  
     - Em seguida, clique no botão "escolher arquivo" destacado. Encontre o arquivo no seu PC e pressione o botão de envio destacado:  
-    ![change game icon 2](https://user-images.githubusercontent.com/32706333/52103542-62438580-25a3-11e9-8ede-ce5857abd7ce.png)
+    ![change game icon 2](/change-game-icon2.png)
 
 Se um jogo já tiver conquistas, mudanças no ícone do jogo precisam passar pelo [processo de revisão](/guidelines/content/achievement-set-revisions).
 
@@ -88,10 +88,10 @@ Se um jogo já tiver conquistas, mudanças no ícone do jogo precisam passar pel
 Se você está criando novas conquistas, pode fazer upload de badges para elas.
 
 Os badges podem ser enviados nas ferramentas de desenvolvedor do emulador, enquanto estiver no editor de conquistas:  
-![image](https://user-images.githubusercontent.com/32706333/52097132-c73cb280-2586-11e9-95ec-ea5e4dc8f9cd.png)
+![Upload Badge](/alt-groups-add.png)
 
 Ou você pode selecionar uma imagem pré-fabricada ou encontrar outras imagens que você já enviou no menu suspenso:  
-![image](https://user-images.githubusercontent.com/32706333/52097145-d1f74780-2586-11e9-8a22-06ceeeb82fe8.png)
+![Badge dropdown](/badge-dropdown.png)
 
 ## Arquivos no Servidor de Badges
 

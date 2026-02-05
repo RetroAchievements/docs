@@ -19,7 +19,7 @@ Todo jogo tem um endereço que está constantemente aumentando, ele funciona com
 - `0x2c`: Progressão do Jogo: `03`=Antes do Estágio começar, `04`=Estágio iniciado, `08`=Estágio finalizado
 - `0x30`: ID do Estágio (neste exemplo, Estágio 1)
 
-![Configuração da conquista do temporizador de Contra no editor](/public/contra-timer-achievement-editor.png)
+![Configuração da conquista do temporizador de Contra no editor](/contra-timer-achievement-editor.png)
 
 Link para a Conquista: [Contra Speedrun](https://retroachievements.org/achievement/65443)
 

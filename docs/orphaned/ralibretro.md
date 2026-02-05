@@ -112,7 +112,7 @@ To make AES BIOS emulation mode work in your emulator:
 
 3. Make sure the `neogeo.zip` consist of at least files you can see here:
 
-![](https://dl.dropboxusercontent.com/s/68l37qbt8myts82/aesminimum.png)
+![aesminimum](/aesminimum.png)
 
 If you keep only those files, AES mode will be automatically forced for any NeoGeo game (recommended).
 

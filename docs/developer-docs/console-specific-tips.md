@@ -13,7 +13,7 @@ When excavating the memory of these old consoles it helps to know what the origi
 
 ### Memory Mirroring
 
-![nes_mem_mirror](/public/nes-memory-mirroring.png)
+![nes_mem_mirror](/nes-memory-mirroring.png)
 
 When using the memory inspector to find variables for NES games, there will be 4 copies of everything you find. If you're wondering "which one do I use?" or "should I check for all of them?" it's not as complicated as it seems.
 
@@ -40,7 +40,7 @@ For more info see: http://gameboy.mongenel.com/dmg/asmmemmap.html
 
 ### ECHO RAM
 
-![gb_echo_ram](/public/game-boy-echo-ram.png)
+![gb_echo_ram](/game-boy-echo-ram.png)
 
 Similarly to the NES, certain variables may show up twice when searching in the Memory Inspector. The second result is in what's called the ECHO RAM, which is a mirror of the actual memory. Since some emulators tend to ignore this area or emulate it incorrectly, it's recommended to NOT use it at all and always use the first result.
 
@@ -179,10 +179,10 @@ Fortunately, part of UniBIOS data seems to be reflected in two address strings i
 To protect achievements from using UniBIOS, all we need to do is to include a simple protection which will reset when `0x00fe30` in 32-bit size is not equal to `0`. This additionally protects the achievement from unlocking during RAM diagnostic process.
 
 **Here is how the protection should look (selected in the Achievement Editor):**
-![unineo1](/public/unibiosprotection.png)
+![unineo1](/unibiosprotection.png)
 
 **Here is how the same RAM region looks when other BIOS are used (here MSV):**
-![unineo2](/public/unibiosp2.png)
+![unineo2](/unibiosp2.png)
 
 ## PlayStation
 

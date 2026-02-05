@@ -26,7 +26,7 @@ Se você quer criar novas páginas ou trabalhar em várias páginas, siga estes 
 
 ### 1. Fork do Repositório
 
-- Vá para a [página do repositório](https://github.com/RetroAchievements/docs) e clique no botão "Fork". ![fork button](/public/fork-button.png)
+- Vá para a [página do repositório](https://github.com/RetroAchievements/docs) e clique no botão "Fork". ![fork button](/fork-button.png)
 - Pressione "Create fork" no formulário que aparece.
 
 ### 2. Abra no VSCode
@@ -35,23 +35,23 @@ Se você quer criar novas páginas ou trabalhar em várias páginas, siga estes 
 - Use a árvore de arquivos à esquerda para explorar a documentação, expandindo especificamente a pasta "docs".
 - Use o atalho Ctrl+P para buscar arquivos, como "README".
 
-![readme search](/public/readme-search.png)
+![readme search](/readme-search.png)
 
 ### 3. Edite e Visualize
 
 - Abra a paleta de comandos com Ctrl+Shift+P (ou F1 no Firefox), busque "markdown preview" e selecione "Markdown: Open Preview to the Side".
 - Use a visualização de Markdown para ver suas alterações enquanto as escreve.
 
-![markdown preview](/public/markdown-preview.png)
+![markdown preview](/markdown-preview.png)
 
 ### 4. Crie um Branch
 
 - Clique no nome do branch (geralmente `main`) no canto inferior esquerdo do VSCode.
 - Clique em "Create branch", nomeie seu branch, pressione Enter e depois clique em "Switch to Branch".
 
-![current branch](/public/current-branch.png)
+![current branch](/current-branch.png)
 
-![switch to branch](/public/switch-to-branch.png)
+![switch to branch](/switch-to-branch.png)
 
 ### 5. Salve e Faça o Commit
 
@@ -59,16 +59,16 @@ Se você quer criar novas páginas ou trabalhar em várias páginas, siga estes 
 - Clique no ícone de Controle de Código-Fonte à esquerda, clique com o botão direito nos arquivos que você alterou e clique em "Stage Changes".
 - Escreva uma mensagem de commit, depois clique no botão "Commit & Push".
 
-![commit changes](/public/commit-changes.png)
+![commit changes](/commit-changes.png)
 
 ### 6. Crie um Pull Request
 
 - Abra a paleta de comandos com Ctrl+Shift+P (ou F1 no Firefox) e use o comando "Create Pull Request".
 - Preencha o formulário com um título e uma descrição, depois clique em "Create".
 
-![create pull request](/public/create-pull-request.png)
+![create pull request](/create-pull-request.png)
 
-![pr form](/public/pr-form.png)
+![pr form](/pr-form.png)
 
 ## Adicionando Novas Páginas
 
