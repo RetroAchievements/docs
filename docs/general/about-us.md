@@ -144,7 +144,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [thatbard](https://retroachievements.org/user/thatbard)
-- [TheJediSonic](https://retroachievements.org/user/TheJediSonic)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
