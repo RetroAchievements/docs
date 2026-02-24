@@ -47,7 +47,7 @@ Our user agent format has three segments:
 
 - A. **Required.** The emulator name and version. Versions must be numeric and incrementing, with the exception of an optional "v" prefix.
 - B. Optional. The operating system name and version.
-- C. Optional. The core name and version.
+- C. Optional, but **strongly advised if the emulator supports multiple cores.** The core name and version. Versions should ideally be numeric or follow semver conventions.
 
 These are examples of valid user agents:
 
@@ -87,6 +87,12 @@ Any one of these will lead to an **automatic rejection** of the emulator for har
 - Identifying the emulator to the server with a non-unique user agent.
 - Shipping non-commercial cores while any commercialization or in-app purchases exists without written permission from the necessary rightsholders.
 - Privacy policy with placeholders/contradictions (e.g., missing data warehouse location, "no third parties" while using social logins/analytics).
+
+## G. Banned Emulators
+
+The following emulators are permanently banned from hardcore verification on RetroAchievements. Tickets from these emulators will be closed, and players found to be using these emulators in hardcore mode will be untracked.
+
+- **Afterplay.** Temporarily shipped a cheat tool accessible to hardcore players, violating Section B. After a 6-month hardcore verification suspension, the emulator was modified by its developer to bypass the suspension, violating Section C and triggering auto-fail criteria under Section F.
 
 ::: warning Important
 Meeting these requirements is essential for an emulator to be listed as hardcore-compliant on RetroAchievements. We reserve the right to periodically re-evaluate compliant emulators for continued compliance. Failure to maintain compliance may result in removal from the approved emulators list and our Downloads page.
