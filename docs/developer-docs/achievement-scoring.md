@@ -50,14 +50,3 @@ Imagine you had two versions of the same set, with the same difficulty:
 Up until June 2019, RetroAchievements had a 400-point cap per set, with no restrictions on individual achievements. The set cap was removed to put less focus on set totals and more on the achievements themselves. This initiative was also meant to eliminate the misconception that a set worth 400 points is a "complete" set.
 
 As with revisions and aesthetic changes, a rescore typically requires community approval. You can find more information on rescores [here](/guidelines/content/achievement-set-revisions).
-
-## Exceptions
-
-Some games may come up as exceptions to the normal scoring tiers and will be listed here.
-
-- Picross and Sudoku achievements fall under a special scoring category as follows based on difficulty:
-  - Easy - 1 point,
-  - Medium - 2-3 points,
-  - Hard - 4-5 points
-- Picross 3D is an exception to this rule and is scored normally
-- Further exceptions can be requested by Code Reviewers and/or Admins on a case by case basis
