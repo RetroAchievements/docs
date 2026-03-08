@@ -16,8 +16,8 @@ description: 为 RetroAchievements 集中的成就分配进度和通关条件的
 
 ## 如何为成就添加类型
 
-- 对于**_单个成就_**，您可以在 RA 网站上该成就页面的开发者面板中更改类型。
-- 对于**_多个成就_**同时，在 RA 网站上游戏页面的开发者面板中选择 **Manage Core Achievements** 或 **Manage Unofficial Achievements**，然后勾选给定类型的所有成就的复选框，点击 **Set Selected to Progression** 或 **Set Selected to Win Condition**。
+- 对于***单个成就***，您可以在 RA 网站上该成就页面的开发者面板中更改类型。
+- 对于***多个成就***同时，在 RA 网站上游戏页面的开发者面板中选择 **Manage Core Achievements** 或 **Manage Unofficial Achievements**，然后勾选给定类型的所有成就的复选框，点击 **Set Selected to Progression** 或 **Set Selected to Win Condition**。
 - 截至此次更新，RA_Integration 中无法进行标注，因此无法通过模拟器完成。
 
 ## 进度类型条件
