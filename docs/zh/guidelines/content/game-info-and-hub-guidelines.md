@@ -164,7 +164,7 @@ description: 在 RetroAchievements 上贡献和编辑游戏元数据、图片和
 - 每当游戏属于更广泛系列时，通常使用 [Series](https://retroachievements.org/hub/3) 中心。
   - 盗版/盗版游戏和粉丝游戏不应添加到它们所基于的系列中心。
 - 改版应添加到相应的 [Hacks](https://retroachievements.org/hub/5987) 中心（如存在）。此中心将自动显示在游戏页面顶部的发行商字段中。
-  - 改版也可以添加到系列改版中心（如存在）。改版中心 intended 适用于特定游戏，而系列改版中心可以收集同一系列的不同游戏。注意系列改版中心不会出现在发行商字段中。
+  - 改版也可以添加到系列改版中心（如存在）。改版中心预期适用于特定游戏，而系列改版中心可以收集同一系列的不同游戏。注意系列改版中心不会出现在发行商字段中。
   - 若游戏没有改版中心，应添加到 [Uncategorized Hacks](https://retroachievements.org/hub/8018)，即使它在系列改版中心中。
 - 自制、演示、原型和未授权游戏应始终添加到 [Central - Homebrew](https://retroachievements.org/hub/2469)、[Central - Demo](https://retroachievements.org/hub/5901)、[Central - Prototypes](https://retroachievements.org/hub/7824) 或 [Central - Unlicensed](https://retroachievements.org/hub/5751)。
   - 当未授权游戏在未授权系列中心（如 [Unlicensed - Mario](https://retroachievements.org/hub/29507)）中时会有例外。在这些情况下不应冗余添加 Central 中心。

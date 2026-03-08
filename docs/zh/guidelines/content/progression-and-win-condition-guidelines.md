@@ -149,7 +149,7 @@ description: 为 RetroAchievements 集中的成就分配进度和通关条件的
   - [Final Fantasy V: Advance](https://retroachievements.org/game/764) - The True Power of the Void 未标记为进度或通关，因为它是无限游戏中的通关后内容。通关条件是 Warriors of Light。
   - [Pokemon Gold Version](https://retroachievements.org/game/576) - Battle On the Mountain 未标记为进度或通关，因为它是无限游戏中的通关后内容。通关条件是 Elite Five。
 
-## notable 类型
+## 值得注意的类型
 
 这些类型通常缺乏标准进度，因此在此有额外指南。它们也可能具有多种游戏模式；有关如何为这些标记进度，请参阅上述指南。
 

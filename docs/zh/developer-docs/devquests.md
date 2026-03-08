@@ -117,7 +117,7 @@ Legacy 任务（[DQ4](#_004-veteran-developer)、[DQ15](#_015-console-conqueror)
 1. 必须**在适当的地方使用 measured 和/或 triggered**。对游戏集中所有适用的成就进行更新。不必要使用的成就不计入。若您达到 50 个且游戏集中还有更多需要更新，您必须更新游戏集的其余部分。
 2. 您可以在**自己的游戏集**中完成成就，计半积分。将两个成就放在同一行，用 / 分隔。**链接**每个成就 ID 到成就页面。
 3. 您**必须**在游戏集页面上**留下评论**说明您所做的更改以供记录。
-4. **测试所有更改**。确保 trigger 在应该出现时出现，在不应出现时不出现。确保成就仍能在预期时触发。
+4. **测试所有更改**。确保触发器在应该出现时出现，在不应出现时不出现。确保成就仍能在预期时触发。
 5. **订阅**已更新游戏集的工单，以便捕获任何 `Trigger` 或 `Measured` 相关工单。
 
 ### 006 [The Unwanted](https://retroachievements.org/game/15907)
@@ -181,7 +181,7 @@ Legacy 任务（[DQ4](#_004-veteran-developer)、[DQ15](#_015-console-conqueror)
 **可重复**：否
 
 ::: info
-英文版指在美国、加拿大、英国或澳大利亚以英文发布的游戏。<br>1. 所有 intended 用于此任务的认领必须遵循正常流程。
+英文版指在美国、加拿大、英国或澳大利亚以英文发布的游戏。<br>1. 所有预期用于此任务的认领必须遵循正常流程。
 :::
 
 1. 必须是完整游戏集。Progression Only 中心的填充内容不计入。
@@ -243,7 +243,7 @@ Legacy 任务（[DQ4](#_004-veteran-developer)、[DQ15](#_015-console-conqueror)
 **可重复**：是（最多 2 次）
 
 1. 用于此任务的游戏集必须完整，涵盖 hack 特有的所有重要内容。
-2. 可接受的 hack 必须是彻底改变关卡设计的完整 overhaul，或引入极大改变游戏进程方式的新机制。
+2. 可接受的 hack 必须是彻底改变关卡设计的完整改造，或引入极大改变游戏进程方式的新机制。
 3. Meme hack、单关 hack 和其他小型修改不符合资格。
 4. 较小的 hack 可能仅获得半积分。
 5. 每个系列限一个完整游戏积分。例如：若您为大型 SMW hack 获得完整游戏积分，则不能为 Mario 64 hack 获得任何积分。若您做了小型 Mega Man 2 hack，则最多可为 Mega Man 3 hack 获得半积分，等等。
@@ -401,7 +401,7 @@ Legacy 任务（[DQ4](#_004-veteran-developer)、[DQ15](#_015-console-conqueror)
 1. 用于此任务的游戏集必须完整，涵盖 homebrew 游戏特有的所有重要内容。
 2. Homebrew 系统（如 WASM-4、Arduboy 和 Uzebox）的游戏集计半积分。
 3. 允许合作。仅对游戏集中有 20 个或更多成就的合作者给予积分。经 DQ 团队自行决定，过度膨胀的游戏集可能不被允许。
-4. 与您已做过的 essentially 相同的 homebrew 不计入（即多个 Flappy Bird 克隆只能获得一次积分）
+4. 与您已做过的本质上相同的 homebrew 不计入（即多个 Flappy Bird 克隆只能获得一次积分）
 5. 每个大型 homebrew 合集最多一个游戏集（即允许一个 Net Yaroze 2014 Collection 游戏集）
 
 ### 022 [This Belonged in a Museum!](https://retroachievements.org/game/25678)

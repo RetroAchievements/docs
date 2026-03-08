@@ -98,7 +98,7 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | :-------------- | :------------ | :------------------------------ |
 | **Handy**       | libretro 核心 | 最推荐。                        |
 | **Beetle Lynx** | libretro 核心 |                                 |
-| **Handy**       | BizHawk 核心  | specifically 为 Mednafen 分支。 |
+| **Handy**       | BizHawk 核心  | 特别地为 Mednafen 分支。 |
 
 ### ColecoVision
 
@@ -136,7 +136,7 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | **Gearboy**                                                  | libretro 核心 |                                    |
 | **mGBA**                                                     | libretro 核心 |                                    |
 | **VBA-M**                                                    | libretro 核心 |                                    |
-| **Gambatte**                                                 | BizHawk 核心  | specifically 为 Pokémon 速通分支。 |
+| **Gambatte**                                                 | BizHawk 核心  | 特别地为 Pokémon 速通分支。 |
 | **GBHawk**                                                   | BizHawk 核心  |                                    |
 | **[RAVBA](https://retroachievements.org/downloads)**         | 独立模拟器    |                                    |
 | **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**   | 独立模拟器    |                                    |
@@ -152,7 +152,7 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | **Gearboy**                                                  | libretro 核心 |                                    |
 | **mGBA**                                                     | libretro 核心 |                                    |
 | **VBA-M**                                                    | libretro 核心 |                                    |
-| **Gambatte**                                                 | BizHawk 核心  | specifically 为 Pokémon 速通分支。 |
+| **Gambatte**                                                 | BizHawk 核心  | 特别地为 Pokémon 速通分支。 |
 | **GBHawk**                                                   | BizHawk 核心  |                                    |
 | **[RAVBA](https://retroachievements.org/downloads)**         | 独立模拟器    |                                    |
 | **[Pizza Boy C Basic & Pro](https://pizzaemulators.com/)**   | 独立模拟器    |                                    |
@@ -252,7 +252,7 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | 名称              | 类型          | 备注                            |
 | :---------------- | :------------ | :------------------------------ |
 | **Beetle NeoPop** | libretro 核心 |                                 |
-| **NeoPop**        | BizHawk 核心  | specifically 为 Mednafen 分支。 |
+| **NeoPop**        | BizHawk 核心  | 特别地为 Mednafen 分支。 |
 
 ### NES/Famicom
 
@@ -331,7 +331,7 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | 名称             | 类型          | 备注                            |
 | :--------------- | :------------ | :------------------------------ |
 | **Beetle PC-FX** | libretro 核心 |                                 |
-| **T.S.T.**       | BizHawk 核心  | specifically 为 Mednafen 分支。 |
+| **T.S.T.**       | BizHawk 核心  | 特别地为 Mednafen 分支。 |
 
 ### PlayStation
 
@@ -417,7 +417,7 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | 名称              | 类型          | 备注                            |
 | :---------------- | :------------ | :------------------------------ |
 | **Beetle VB**     | libretro 核心 |                                 |
-| **Virtual Boyee** | BizHawk 核心  | specifically 为 Mednafen 分支。 |
+| **Virtual Boyee** | BizHawk 核心  | 特别地为 Mednafen 分支。 |
 
 ### WASM-4
 
@@ -436,4 +436,4 @@ BizHawk 核心只能在 [BizHawk](https://tasvideos.org/Bizhawk) 上运行。有
 | 名称             | 类型          | 备注                            |
 | :--------------- | :------------ | :------------------------------ |
 | **Beetle Cygne** | libretro 核心 |                                 |
-| **Cygne**        | BizHawk 核心  | specifically 为 Mednafen 分支。 |
+| **Cygne**        | BizHawk 核心  | 特别地为 Mednafen 分支。 |
