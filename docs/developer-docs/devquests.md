@@ -2,25 +2,29 @@
 
 ## What are DevQuests?
 
-DevQuests are achievement development-related quests that developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn a badge. 
+DevQuests are achievement development-related quests that developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn a badge.
 
 ## General Rules
+
 Outside exceptions explicitely written in the individual quest rules, quests of each type follow the general rules below:
+
 - DevQuests are not available for Junior Developers.
 - To be awarded credit towards a quest, ping the team via a Discord ping in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) or via [site message](https://retroachievements.org/messages/create?to=DevQuest) within one week of completion, with a link to the appropriate achievement page.
 - Collaborations and subsets are not allowed by default.
-- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#_016-wish-this-set). If this happens while you are *less* than halfway done, please reach out to the team to confirm eligibility.
+- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#_016-wish-this-set). If this happens while you are _less_ than halfway done, please reach out to the team to confirm eligibility.
 
 Type specific rules:
 
 **Set-Creation**
+
 - Making a set can only contribute to a single quest. For example, if you make a set for a Japan-exclusive game with a female protagonist that was featured on Wish This Set, you have to choose between [DQ8](#_008-world-traveler), [DQ16](#0_16-wish-this-set) and [DQ24](#_024-she-s-got-this), you don't get all three.
 - Standard set quality or better is expected for DevQuest sets. If a set appears to be of insufficient effort, it may be rejected at the DevQuest team's discretion. Rich Presence is required for DevQuest sets. The DevQuest team is happy to suggest improvements for qualification.
 
 **Maintenance**
+
 - You cannot be an original author on the set being maintained.
 - General revision rules apply: contact the active authors on sets whose content you will update or add to. Moreover, discussions, dev votes and revision claims are required when adding new achievements to a set.
-- Every action can only contribute to a single quest. For example, if you repair a set for [DQ2](#_002-retro-renovator), resolving tickets is part of that task, so these tickets cannot be tallied up towards [DQ1](#_001-ticket-massacre).  However, some sets can benefit from different independant actions in a way that yields credits towards multiple DevQuests. If you add a rich presence, leaderboards and revise a set to cover content that was missing before, you could get credit for DQ13, DQ14 and DQ22.
+- Every action can only contribute to a single quest. For example, if you repair a set for [DQ2](#_002-retro-renovator), resolving tickets is part of that task, so these tickets cannot be tallied up towards [DQ1](#_001-ticket-massacre). However, some sets can benefit from different independant actions in a way that yields credits towards multiple DevQuests. If you add a rich presence, leaderboards and revise a set to cover content that was missing before, you could get credit for DQ13, DQ14 and DQ22.
 - For revision quests ([DQ2](#_002-retro-renovator), [DQ13](#_013-complete-me) and [DQ22](#0_22-this-belonged-in-a-museum) Dust-offs), the game needs to be in the approved list. You may propose games you feel should qualify prior to working on them and the team will determine if it fits the quest. While [DQ13](#_013-complete-me) credit can sometimes be granted along [DQ2](#_002-retro-renovator) or [DQ22](#_022-this-belonged-in-a-museum), this is up to a team vote and should only be allowed when both the current content and missing content require significant work.
 - When you update the logic of any asset, keep a backup of the old logic posted in the game's official forum for reference.
 - For miscellaneous maintenance quests ([DQ1](#_001-ticket-massacre), [DQ3](#_003-singles-in-your-area), [DQ5](#_005-trigger-happy) and [DQ14](#_014-laudable-leaderboards)), create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team for review only after you have completed the quest. For quests that can be repeated, one row of the column will be for which badge number you are working towards.
@@ -28,6 +32,7 @@ Type specific rules:
 **Legacy**
 
 Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) and [DQ20](#_020-genre-conqueror)) are fully retroactive and are awarded for having an extensive and wide portfolio as a developer.
+
 - You may request to be tracked for these after reaching some minimum threshold as determined in the rules of each individual quests.
 - Following that first tracking request, updates are made in sweeps periodically; this means you don't have to (and shouldn't) ping the team every time you complete a new set that adds to your portfolio. Every couple months, the dev responsible for the sweeps for that particular quest will update the status of everyone being tracked and announce the progress in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002).
 
@@ -415,7 +420,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
    - [Player-Input RP](https://retroachievements.org/game/28506)
    - [Single Save Support](https://retroachievements.org/game/28449)
    - [Outdated Version](https://retroachievements.org/hub/29482)
-      - If you identify a set you believe should qualify for a task like this, simply request approval from the team. Providing support to an updated version of a hack, homebrew or language patch will yield 1 point regardless of if it was tagged as outdated, provided the update required actual logic updates and/or adding achievements to cover added content.
+     - If you identify a set you believe should qualify for a task like this, simply request approval from the team. Providing support to an updated version of a hack, homebrew or language patch will yield 1 point regardless of if it was tagged as outdated, provided the update required actual logic updates and/or adding achievements to cover added content.
 4. No collaboration allowed.
 5. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
 6. Badge updates must go through the Icon-Gauntlet revision process.
@@ -461,13 +466,15 @@ Each system ID will have an achievement associated with it. Newly supported syst
 6. Each point of credit (equivalent to one set) must have a different female character as the protagonist (or different ensemble of female characters)
 
 ## Wheel Spin DevQuest Rules
+
 [DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
+
 - Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
 - Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
 - Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy
 - Earn a point towards [DQ2](#_002-retro-renovator) Retro Renovator or [DQ13](#013-complete-me) complete.me
 - Make a set for [DQ16](#_016-wish-this-set) Wish This Set
-  
+
 Refreshing your spin this way can only be done while your spin is used up. For example, you cannot use an old Wish This Set game you made prior to spinning.
 
 ## New DevQuests and suggestions

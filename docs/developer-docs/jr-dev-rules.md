@@ -9,7 +9,7 @@ description: Comprehensive guidelines for the Junior Developer Program, includin
 
 ## Overview
 
-The purpose of the Junior Developer Program is to assist interested people with learning how to create and maintain high quality achievement sets for RetroAchievements.  It is for people who intend to pursue graduation and become full developers. As part of the program, junior developers create sets to show proficiency in set design, set presentation, toolkit usage and implementation. 
+The purpose of the Junior Developer Program is to assist interested people with learning how to create and maintain high quality achievement sets for RetroAchievements. It is for people who intend to pursue graduation and become full developers. As part of the program, junior developers create sets to show proficiency in set design, set presentation, toolkit usage and implementation.
 
 Junior Developers are required to understand and abide by the [Developer Code of Conduct](/guidelines/users/code-of-conduct) except where specifically addressed by this document.
 
@@ -25,9 +25,10 @@ To join the Junior Developer Program, the following requirements must be met:
 ### Developing and Publishing Sets as a Junior Developer
 
 The process to work on sets as a junior follows the roadmap below. In particular, there are 3 steps that require appproval by code reviewers before proceeding, namely the **Set Plan**, **Ready for Review** and **Code Review**:
+
 - Prepare a thorough **Set Plan**. It's recommended to start with one of our [templates](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit#gid=0), but you may adjust one to fit your needs over time.
 - Submit your set plan for approval. While the set plan is not a final product, it must show a general outline of the planned set including progression, challenge, and other types of achievements. Brief descriptions and point values must be included as well. If during development significant deviations are made from the set plan, a revised set plan must be submitted for approval.
-  - If this is your first set as a junior, you have to submit this set plan in the #role-request forum on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE), along with a link to your RA profile, a link to the page of the game you wish to work on, and a ping to @Code-Reviewer. 
+  - If this is your first set as a junior, you have to submit this set plan in the #role-request forum on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE), along with a link to your RA profile, a link to the page of the game you wish to work on, and a ping to @Code-Reviewer.
   - If you already are in the junior program, you have to submit this set plan on #jr-devs-requests. As a junior developer with at least one set published, you may claim the game while you work on your set plan, but no work is allowed prior to having your plan approved.
 - Once your plan is approved, develop your set. This includes RAM digging, making assets, creating achievement badges, writing clear descriptions and unique titles as well as thoroughly testing your assets. Code reviewers and fellow juniors are available to help in #jr-devs!
 - [Request a review](/developer-docs/am-i-ready-for-review) by making a **Ready for Review** post on #jr-devs-requests. Do this only when you think your set is as close to publishable as you can get it.
@@ -40,6 +41,7 @@ The process to work on sets as a junior follows the roadmap below. In particular
 ### Rules and Restrictions
 
 The following rules apply to all Junior Developers:
+
 - Must stay on RA's Discord server for all communication with code reviewers
 - May only create achievements, leaderboards and Rich Presence for a set on which they have an active claim
   - **This includes local work**. This means no working on any sets that are not claimed. Failure to adhere to this rule may result in dismissal from the Junior Developer Program
@@ -48,10 +50,11 @@ The following rules apply to all Junior Developers:
 - If a Junior Developer needs to extend their claim beyond 3 months, they need to make a progress report on the official forum for the game in accordance with [Claims System rules for extending a claim](/guidelines/developers/claims-system.html#extending-a-claim). Moreover, prior to a second extension (at the six-month mark) as well as any further extension, a detailed progress report must be sent to the [Code Review Team](https://retroachievements.org/messages/create?to=CodeReviewTeam) for approval before the extension is made. The team may deny the extension in cases where progress is insufficient.
 
 There are restrictions on the type of claims you can make before graduation. You cannot:
+
 - Work on subsets, collaborations or revisions (excluding your own)
 - Claim a hack if you already published a set for another hack
 - Claim a hack or homebrew you developed yourself
-- Claim any Gamecube game 
+- Claim any Gamecube game
 - Claim a game on any of the following consoles without explicit approval by code reviewers. You can request this approval as part of your set plan approval, and only if you have published another set before:
   - PlayStation 2
   - PlayStation Portable
