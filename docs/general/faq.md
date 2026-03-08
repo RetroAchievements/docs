@@ -27,17 +27,17 @@ For more information on specific consoles you can check here:
 
 ### How do I request an achievement set?
 
-On each game's page there is a link to "Request Set".
+On each game's page there is a button to "Request Set".
 
 ![request1](/request1.png)
 
-Clicking this will add your name to the list of users who have requested a set for the game. Clicking again will withdraw the request. To see other users who have requested the set, click on the "Set Requestors" link below the game's box art.
+Clicking this will add your name to the list of users who have requested a set for the game. Clicking again will withdraw the request. 
+To see other users who have requested the set, click on the "x requests" link below the "Request Set" button.
 
 ![request2](/request2.png)
 
-![request3](/request3.png)
-
-The total number of requests are tallied and displayed on the [Most Requested Sets](https://retroachievements.org/setRequestList.php) page which can also be sorted by console. If and when a set is created the user request will be automatically returned to use for another game.
+The total number of requests is tallied and displayed on the [Most Requested Sets](https://retroachievements.org/games/requests) page which can also be sorted by console.
+If and when a set is created, the user request will be automatically returned to use for another game.
 
 The number of requests available to a user is determined as follows:
 
@@ -47,7 +47,9 @@ The number of requests available to a user is determined as follows:
 - 1 for every 5k from 10k-100k
 - 1 for every 10k thereafter
 
-**Note**: All achievement developers are volunteers, requesting a set gives no guarantee that achievements will be made. The purpose of the request feature is to give developers visibility to what players want most. You might also consider making achievement suggestions on a game's forum page to help get a set off the ground.
+**Note**: All achievement developers are volunteers, requesting a set gives no guarantee that achievements will be made.
+The purpose of the request feature is to give developers visibility to what players want most.
+You might also consider making achievement suggestions on a game's forum page to help get a set off the ground.
 
 ---
 
