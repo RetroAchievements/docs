@@ -35,8 +35,6 @@ Al hacer clic, tu nombre se añadirá a la lista de usuarios que han solicitado 
 
 ![request2](/request2.png)
 
-![request3](/request3.png)
-
 El número total de solicitudes se cuenta y se muestra en la página [sets más solicitados](https://retroachievements.org/setRequestList.php), que también puede ordenarse por consola. Cuando se crea un juego, la solicitud del usuario se devuelve automáticamente para poder ser utilizada en otro juego.
 
 El número de solicitudes disponibles para un usuario se determina de la siguiente manera:
