@@ -2,6 +2,7 @@ import { type HeadConfig, defineConfig } from "vitepress";
 
 import { search as esSearch } from "./es";
 import { search as ptSearch } from "./pt";
+import { search as zhSearch } from "./zh";
 
 export const shared = defineConfig({
   // Metadata
@@ -34,7 +35,7 @@ export const shared = defineConfig({
         appId: "ZZXWI82V1J",
         apiKey: "2b510f2ef4d79811fe1f6dd437c595e1",
         indexName: "retroachievements",
-        locales: { ...esSearch, ...ptSearch },
+        locales: { ...esSearch, ...ptSearch, ...zhSearch },
       },
     },
 
