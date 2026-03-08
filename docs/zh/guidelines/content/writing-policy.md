@@ -273,7 +273,7 @@ description: 在 RetroAchievements 上撰写成就标题和排行榜的指南。
   - 示例 1：Destroy 20 boxes in Level 1.（不是 "boxs" 或 "box's"）
   - 示例 2：Defeat five mice with flame spells。（不是 "mouses" 或 "mouse's"，或 "spell's"）
 
-- *所有格*词（即表示某物的所有者）几乎总是使用撇号，以 "'s" 结尾。**注意：**所有格 "its" 拼写时没有撇号，"it's" 是 "it is" 的缩写。这是此规则的例外。
+- *所有格*词（即表示某物的所有者）几乎总是使用撇号，以 "'s" 结尾。**注意：** 所有格 "its" 拼写时没有撇号，"it's" 是 "it is" 的缩写。这是此规则的例外。
 
   - 示例 1：Return the knight's sword to the castle。（不是 "knights"）
   - 示例 2：Return the sword to its rightful owner。（不是 "it's"）
