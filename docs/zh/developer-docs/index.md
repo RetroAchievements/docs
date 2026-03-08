@@ -10,7 +10,7 @@
 
 2. [成就开发者入门](/zh/developer-docs/getting-started-as-an-achievement-developer)：面向与成就开发工具（内存检查器和其他成就对话框）的首次接触。**如果你是完完全全的新手，从这里开始！**
 
-3. [初级开发者计划规则](/zh/developer-docs/jr-dev-rules)： governing 初级开发者计划的规则集
+3. [初级开发者计划规则](/zh/developer-docs/jr-dev-rules)：管理初级开发者计划的规则集
 
 4. [成就评分](/zh/developer-docs/achievement-scoring)：决定成就总分数的指南
 
