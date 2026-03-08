@@ -58,12 +58,18 @@ PCSX/v2.5.103 (Microsoft Windows 10+)
 RALibRetro/1.8.1 (WindowsNT 10.0) fbneo_libretro/v1.0.0.03__e90b821
 ```
 
-## D. Defaults and UX
+Emulators discovered to have previously identified as another client (eg: due to inheriting a default user agent from a forked codebase), this must be disclosed when applying for compliance. 
+
+## D. Eligibility Timeline
+
+The emulator, or the parent emulator it is forked from, must have been publicly available for at least 6 months before it will be considered for hardcore compliance approval. This period begins from the emulator's first public release (not private/closed betas) and allows time to establish a track record of stability, community trust, and adherence to these requirements.
+
+## E. Defaults and UX
 
 - When users log in to their RetroAchievements accounts, **enabling hardcore by default is recommended**, but not required. If softcore is the default, enabling hardcore must be one click/tap away and clearly indicated.
 - **Hardcore state must be visibly indicated** in the UI during play. This is normally done when the player starts a game - they can see a brief informational message saying what mode they're in.
 
-## E. Transparency and Legality
+## F. Transparency and Legality
 
 The following transparency and legal requirements must be met:
 
@@ -76,7 +82,7 @@ The following transparency and legal requirements must be met:
   - Server locations/countries.
   - How the emulator satisfies GDPR compliance if any retained telemetry is in place.
 
-## F. Auto-fail Criteria
+## G. Auto-fail Criteria
 
 Any one of these will lead to an **automatic rejection** of the emulator for hardcore verification:
 
@@ -85,10 +91,11 @@ Any one of these will lead to an **automatic rejection** of the emulator for har
 - Allowing gameplay-altering cheats in hardcore mode.
 - The ability to switch to hardcore mode without a reset of the game.
 - Identifying the emulator to the server with a non-unique user agent.
+- Undisclosed history of the emulator identifying itself to RetroAchievements using another emulator's user agent.
 - Shipping non-commercial cores while any commercialization or in-app purchases exists without written permission from the necessary rightsholders.
 - Privacy policy with placeholders/contradictions (e.g., missing data warehouse location, "no third parties" while using social logins/analytics).
 
-## G. Banned Emulators
+## H. Banned Emulators
 
 The following emulators are permanently banned from hardcore verification on RetroAchievements. Tickets from these emulators will be closed, and players found to be using these emulators in hardcore mode will be untracked.
 
