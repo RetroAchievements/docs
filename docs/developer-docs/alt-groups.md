@@ -5,7 +5,7 @@ description: Learn how to use Alt Groups to create alternative requirements for 
 
 # Alt Groups
 
-Achievements can have groups added to them that allow for alternative requirements to unlock an achievement. These are called _Alt Groups_,
+Achievements can have groups added to them that allow for alternative requirements to unlock an achievement. These are called _Alt Groups_.
 
 When using _Alt groups_, for the achievement to trigger, all the conditions in the _Core group_ MUST be true. And then all the conditions of ANY _Alt group_ must be true. In other words, each _Alt group_ uses `OR` logic.
 
