@@ -122,6 +122,7 @@ Game images are the displayed images on the game page, including the icon (aka m
 	- 160x152 - Neo Geo Pocket
 	- 160x160 - WASM-4, Watara Supervision
 	- 160x240 - Nintendo DS, Nintendo DSi
+	- 192x272 - Amstrad CPC
 	- 193x240 - Vectrex
 	- 200x234 - VIC-20
 	- 224x144 - WonderSwan
@@ -130,14 +131,13 @@ Game images are the displayed images on the game page, including the icon (aka m
 	- 256x224 - NES/Famicom, Sega CD, SNES/Super Famicom
 	- 256x232 - PC Engine/TurboGrafx-16, PC-FX
 	- 272x240 - MSX
+	- 280x192 - Apple II
 	- 306x192 - Fairchild Channel F
 	- 320x180 - PlayStation Portable
 	- 320x186 - Virtual Boy
 	- 320x200 - Atari ST, Intellivision, PC-8000/8800
-	- 320x219 - Apple II
 	- 320x223 - Atari 7800
 	- 320x224 - 32X, Genesis/Mega Drive, Neo Geo CD
-	- 320x226 - Amstrad CPC
 	- 320x228 - Atari 5200
 	- 320x235 - Magnavox Odyssey 2
 	- 320x240 - 3DO Interactive Multiplayer, Dreamcast, GameCube, Nintendo 64, PlayStation, PlayStation 2, Xbox
