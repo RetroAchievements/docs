@@ -230,7 +230,7 @@ In this example we want to detect a value changing from `V1` to `V2` ten times:
 
 Conditional resets can be used for many things.
 
-Lets say you want to have a reset if a player enters a certain X and Y zone of a level:
+Let's say you want to have a reset if a player enters a certain X and Y zone of a level:
 
 **CORE**
 
