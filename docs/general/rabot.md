@@ -5,236 +5,101 @@ description: Learn about RABot, the official RetroAchievements Discord bot, and 
 
 # RABot, the RA Discord Robot
 
-RABot is the official RetroAchievements Discord robot. Therefore, to interact with him, you need to be a member of the [RA Discord server](https://discord.gg/dq2E4hE).
+RABot is the official RetroAchievements Discord robot. 
+Therefore, to interact with it, you need to be a member of the [RA Discord server](https://discord.gg/retroachievements).
 
-RABot has many cool and useful commands, and in this page you'll see some examples of how some of them can be used.
+RABot has many cool and useful commands, and on this page you'll see some examples of how some of them can be used.
 
-RABot is powered by [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [Node.js](https://nodejs.org/), [discord.js](https://discord.js.org/) and [Commando](https://discord.js.org/#/docs/commando/master/general/welcome).
+RABot is powered by [Bun](https://bun.sh/), [TypeScript](https://www.typescriptlang.org/), [discord.js](https://discord.js.org/), and [Drizzle ORM](https://orm.drizzle.team/).
 
-**Special thanks**: the [DragonFire's Xiao bot](https://github.com/dragonfire535/xiao/) is a great source of inspiration for many of the cool commands we have in RABot, like [`!bulbapedia`](#bulbapedia), [`!manga`](#manga), [`!translate`](#translate), [`!define`](#define) and others.
+RABot is open source! You can view its code on GitHub at [RetroAchievements/RABot-Next](https://github.com/RetroAchievements/RABot-Next).
+Contributions are welcome!
 
-## Getting help
+## General Commands
 
-### `!help`
+### `/topic`
 
-This command makes the RABot send a DM with the list of commands available.
+Displays the current channel topic.
 
-If you need help about a specific command use `!help command_name`.
+![topic command usage](/rabot-topic.png)
 
-### `!docs`
+### `!rule`
 
-Provide links to RetroAchievements documentation.
+Note: This command has not yet been converted to a slash command yet!
 
-![docs](/rabot-docs.png)
+Displays server rules, or a specific rule if specified.
 
-![docs1](/rabot-docs1.png)
+![rule command usage](/rabot-rule.png)
 
-### `!rarch`
+![rule command usage](/rabot-rule-2.png)
 
-Provide basic info about RetroArch.
+### `/contact`
 
-![rarch](/rabot-rarch.png)
+Shows contact information for various RA teams.
 
-### `!rules`
+![contact command usage](/rabot-contact.png)
 
-Show the rules, or a specific one.
+### `/status`
 
-![rules](/rabot-rules.png)
+Displays bot status and statistics.
 
-### `!about`
+![status command usage](/rabot-status.png)
 
-Show info about the RABot.
+## Poll Commands
 
-![about](/rabot-about.png)
+### `/poll`
 
-### `!panic`
+Creates a simple poll (up to 10 options)
 
-What to do when the site is down.
+![poll command usage](/rabot-poll.png)
 
-![panic](/rabot-panic.png)
+### `/tpoll`
 
-## Creating polls
+Creates a timed poll that automatically closes.
 
-### `!poll`
+Note that a native Discord poll might be easier and more intuitive to use, and also closed automatically.
 
-Creates a simple poll. People can vote adding reactions, but they can also vote with unlisted reactions. See [`!tpoll`](#tpoll) if you are interested in a more advanced and serious poll.
+![tpoll command usage](/rabot-tpoll.png)
 
-![poll](/rabot-poll.png)
+Example when it closes:
 
-### `!tpoll`
+![tpoll command usage](/rabot-tpoll-closed.png)
 
-Creates a timed poll. In this kind of poll only the first reaction is considered a vote, and if people react with an unlisted reaction then the vote is voided.
+## Developer Commands
 
-![tpoll](/rabot-tpoll.png)
+Developers, these are for you!
 
-## Dealing with numbers
+### `/gan <game-id>`
 
-### `!hex`
+Generates an achievement news template.
 
-Converts a non-negative integer from decimal (or binary) to hexadecimal (or vice-versa).
+![gan command usage](/rabot-gan.png)
 
-![hex](/rabot-hex.png)
+### `/gan2 <game-id>`
 
-### `!bin`
+Generates a pretty achievement news template with colors.
 
-Converts a non-negative integer from decimal (or hexadecimal) to binary (or vice-versa).
+![gan2 command usage](/rabot-gan2.png)
 
-![bin](/rabot-bin.png)
+### `!mem`
 
-### `!calculator`
+Note: This command has not yet been converted to a slash command yet!
 
-**Alias**: `!calc`
+Parses MemAddr strings and show achievement logic.
+Supply either an achievement id, achievement url, or a memaddr.
 
-Evaluates the given math expression and responds with the result.
+![mem command usage](/rabot-mem.png)
 
-![calculator](/rabot-calculator.png)
+## Fun & Tool Commands
 
-## Getting RetroAchievements.org info/links
+### `/dadjoke`
 
-### `!ragame`
+Gets a random dad joke.
 
-**Alias**: `!game`
+![dadjoke command usage](/rabot-dadjoke.png)
 
-Google for a game at RetroAchievements.org and show the link.
+### `/frames`
 
-![ragame](/rabot-ragame.png)
+Converts between time and frames at different frame rates.
 
-### `!tickets`
-
-Return the URL for the open tickets page of the given game name.
-
-![tickets](/rabot-tickets.png)
-
-### `!whatgame`
-
-**Alias**: `!wg`
-
-Responds with a random game that has achievements.
-
-![whatgame](/rabot-whatgame.png)
-
-![whatgame1](/rabot-whatgame1.png)
-
-### `!whatcheevo`
-
-Responds with a random achievement.
-
-## Random facts
-
-### `!funfact`
-
-Responds with a retrogaming fun fact.
-
-**Note**: you can suggest more fun fact entries [here](https://github.com/RetroAchievements/RABot/issues/2).
-
-![funfact](/rabot-funfact.png)
-
-### `!memefact`
-
-**Alias**: `!meme`
-
-Responds with a RetroAchievements meme fact.
-
-**Note**: you can suggest more meme fact entries [here](https://github.com/RetroAchievements/RABot/issues/6), but keep these 2 simple rules in mind **1)** you can't suggest your own quote; and **2)** when suggesting a quote, be sure to get an approval from the author and/or the person being mentioned.
-
-![memefact](/rabot-memefact.png)
-
-## Getting gaming related info
-
-### `!gamefaqs`
-
-**Aliases**: `!gamefaq`, `!gfaq`
-
-Google for a game at GameFAQs and show the link.
-
-![gamefaqs](/rabot-gamefaqs.png)
-
-### `!longplay`
-
-**Aliases**: `!lplay`, `!lp`
-
-Search for a longplay video on youtube and post the link.
-
-![longplay](/rabot-longplay.png)
-
-### `!vgmaps`
-
-**Alias**: `!vgmap`
-
-Searches vgmaps.com for a video game's map.
-
-![vgmaps](/rabot-vgmaps.png)
-
-### `!howlongtobeat`
-
-**Alias**: `!hltb`
-
-Google for a game at howlongtobeat.com and show the link.
-
-![howlongtobeat](/rabot-howlongtobeat.png)
-
-## Miscellaneous
-
-### `!define`
-
-**Aliases**: `!dictionary`, `!dict`
-
-Defines a word.
-
-![define](/rabot-define.png)
-
-### `!translate`
-
-**Alias**: `!tr`
-
-Translates text to a specific language. **Powered by <https://translate.yandex.com/>**
-
-![translate](/rabot-translate.png)
-
-![translate1](/rabot-translate1.png)
-
-### `!urban`
-
-Defines a word, but with Urban Dictionary.
-
-![urban](/rabot-urban.png)
-
-### `!wikipedia`
-
-**Alias**: `!wp`
-
-Searches Wikipedia for your query.
-
-![wikipedia](/rabot-wikipedia.png)
-
-### `!youtube`
-
-**Alias**: `!yt`
-
-Search for a video on youtube and post the first one found.
-
-![youtube](/rabot-youtube.png)
-
-### `!bulbapedia`
-
-Searches Bulbapedia for your query.
-
-![bulbapedia](/rabot-bulbapedia.png)
-
-### `!movie`
-
-Searches TMDB for your query, getting movie results.
-
-![movie](/rabot-movie.png)
-
-### `!manga`
-
-Searches AniList for your query, getting manga results.
-
-![manga](/rabot-manga.png)
-
-### `!anime`
-
-Searches AniList for your query, getting anime results.
-
-![anime](/rabot-anime.png)
+![frames command usage](/rabot-frames.png)
