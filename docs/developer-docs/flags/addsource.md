@@ -5,9 +5,7 @@ description: Learn how to effectively use the AddSource flag to manage accumulat
 
 # `AddSource`
 
-_**Note**: most likely this technique is not needed for simple games. So, it's not mandatory for jr-devs._
-
-The `AddSource` can be chosen in the Flag column of the Achievement Editor
+The `AddSource` can be chosen in the Flag column of the Achievement Editor.
 
 When a condition has the `AddSource` flag, the value on that memory address is added to the accumulator. When a condition is reached that does not modify the accumulator, the accumulator is added to value of the address on that condition before the comparison is made, and the accumulator will be reset to 0. It may sound a bit confusing, but the example below will clarify how this works:
 

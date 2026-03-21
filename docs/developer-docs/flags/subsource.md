@@ -5,9 +5,7 @@ description: Learn how to effectively use the SubSource flag to subtract values 
 
 # `SubSource`
 
-_**Note**: most likely this technique is not needed for simple games. So, it's not mandatory for jr-devs._
-
-The `SubSource` can be chosen in the Flag column of the Achievement Editor
+The `SubSource` can be chosen in the Flag column of the Achievement Editor.
 
 Works similarly to [`AddSource`](/developer-docs/flags/addsource), but the `SubSource` flag subtracts the calculated value from the accumulator.
 
