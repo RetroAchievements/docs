@@ -5,8 +5,6 @@ description: Master the use of AddHits and SubHits flags to manage hit counts in
 
 # `AddHits` and `SubHits`
 
-**NOTE**: This technique is not needed for simple games, so it is not mandatory for jr-devs.
-
 `AddHits` and `SubHits` can be chosen in the Flag column of the Achievement Editor.
 
 The `AddHits`/`SubHits` conditions do not have to be true for the achievement to trigger. They modify the [hit count](/developer-docs/hit-counts) of another condition, which does have to be true for the achievement to trigger. The sequence of conditions is referred to as a `AddHits` chain (even if it contains `SubHits`).
