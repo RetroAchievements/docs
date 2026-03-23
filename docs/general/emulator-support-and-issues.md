@@ -177,10 +177,10 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### GameCube
 
-| Name                                                                      | Type                | Notes                                                                                                            |
-| :------------------------------------------------------------------------ | :------------------ | :--------------------------------------------------------------------------------------------------------------- |
-| **[Dolphin](https://retroachievements.org/download.php#dolphin)**         | Standalone emulator | - Must use version 2407-68 or newer.<br>- Ensure "Enable Dual Core (speedup)" is unchecked as it is unsupported. |
-| **[DolphinUWP](https://github.com/SternXD/dolphin/releases/tag/1.1.9.0)** | Standalone emulator |                                                                                                                  |
+| Name                                                              | Type                | Notes                                                                                                            |
+| :---------------------------------------------------------------- | :------------------ | :--------------------------------------------------------------------------------------------------------------- |
+| **[Dolphin](https://retroachievements.org/download.php#dolphin)** | Standalone emulator | - Must use version 2407-68 or newer.<br>- Ensure "Enable Dual Core (speedup)" is unchecked as it is unsupported. |
+| **[DolphinUWP](https://github.com/SternXD/dolphin/releases)**     | Standalone emulator |                                                                                                                  |
 
 ### Game Gear
 
@@ -430,6 +430,13 @@ These cores appear to still have unmapped RAM.
 | Name        | Type          | Notes |
 | :-------    | :------------ | :---- |
 | **Potator** | libretro core |       |
+
+### Wii
+
+| Name                                                              | Type                | Notes                                                                                                                                     |
+| :---------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Dolphin](https://retroachievements.org/download.php#dolphin)** | Standalone emulator | - Must use version 2603a (stable)/2603-81 (nightly) or newer.<br>- Ensure "Enable Dual Core (speedup)" is unchecked as it is unsupported. |
+| **[DolphinUWP](https://github.com/SternXD/dolphin/releases)**     | Standalone emulator |                                                                                                                                           |
 
 ### WonderSwan (Color)
 
