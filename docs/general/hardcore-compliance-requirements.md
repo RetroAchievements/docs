@@ -99,7 +99,7 @@ Any one of these will lead to an **automatic rejection** of the emulator for har
 
 The following emulators are permanently banned from hardcore verification on RetroAchievements. Tickets from these emulators will be closed, and players found to be using these emulators in hardcore mode will be untracked.
 
-- **Afterplay.** Temporarily shipped a cheat tool accessible to hardcore players, violating Section B. After a 6-month hardcore verification suspension, the emulator was modified by its developer to bypass the suspension, violating Section C and triggering auto-fail criteria under Section F.
+- **Afterplay.** Temporarily shipped a cheat tool accessible to hardcore players, violating Section B. After a 6-month hardcore verification suspension, the emulator was modified by its developer to bypass the suspension, violating Section C and triggering auto-fail criteria under Section G.
 
 ::: warning Important
 Meeting these requirements is essential for an emulator to be listed as hardcore-compliant on RetroAchievements. We reserve the right to periodically re-evaluate compliant emulators for continued compliance. Failure to maintain compliance may result in removal from the approved emulators list and our Downloads page.
