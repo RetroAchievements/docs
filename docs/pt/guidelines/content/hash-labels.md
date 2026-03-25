@@ -1,11 +1,11 @@
 ---
 title: Rótulos de Hash
-description: Este guia abrange a rotulação de ROMs vinculadas a conjuntos de conquistas, incluindo tipos de rótulos, rótulos de imagem, exemplos e como vincular patches no fórum.
+description: Este guia abrange a rotulação de hashes vinculados a conjuntos de conquistas, incluindo tipos de rótulos, rótulos de imagem, exemplos e como vincular patches no fórum.
 ---
 
 # Rótulos de Hash
 
-Toda ROM vinculada a um conjunto de conquistas deve ser claramente identificada e rotulada. Esses rótulos ajudam os jogadores a saber quais versões de um jogo são compatíveis, bem como se há patches de tradução, correções de bugs, hacks cosméticos, melhorias de qualidade de vida, etc., que podem ser usados.
+Todo hash vinculado a um conjunto de conquistas deve ser claramente identificado e rotulado. Esses rótulos ajudam os jogadores a saber quais versões de um jogo são compatíveis, bem como se há patches de tradução, correções de bugs, hacks cosméticos, melhorias de qualidade de vida, etc., que podem ser usados.
 
 [[toc]]
 
@@ -19,7 +19,7 @@ Toda ROM vinculada a um conjunto de conquistas deve ser claramente identificada 
 
 | Imagem                                                                                   | Rótulo para Usar | Nota                                                                 |
 | --------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------- |
-| ![main-label](https://retroachievements.org/assets/images/labels/main.png)                     | `main`              | Usado para mostrar a ROM principal usada pelo(s) desenvolvedor(es) do conjunto |
+| ![main-label](https://retroachievements.org/assets/images/labels/main.png)                     | `main`              | Usado para mostrar o hash principal usado pelo(s) desenvolvedor(es) do conjunto |
 | ![RAPatches](https://retroachievements.org/assets/images/labels/rapatches.png)                 | `rapatches`         | Usado quando o hash requer um patch hospedado no RAPatches          |
 | ![no-intro-label](https://retroachievements.org/assets/images/labels/nointro.png)              | `nointro`           | O mais comum para jogos baseados em cartuchos                        |
 | ![redump-label](https://retroachievements.org/assets/images/labels/redump.png)                 | `redump`            | O mais comum para jogos baseados em discos                          |
@@ -32,13 +32,13 @@ Toda ROM vinculada a um conjunto de conquistas deve ser claramente identificada 
 | ![homebrew](https://retroachievements.org/assets/images/labels/homebrew.png)                   | `homebrew`          | Usado para Homebrews                                                |
 | ![atari-age-label](https://retroachievements.org/assets/images/labels/atariage.png)            | `atariage`          | Site popular para Homebrews                                         |
 | ![itch-io-label](https://retroachievements.org/assets/images/labels/itchio.png)                | `itchio`            | Site popular para Homebrews                                         |
-| ![msu-1-label](https://retroachievements.org/assets/images/labels/msu1.png)                    | `msu1`              | Usado para marcar ROMs do SNES com patches MSU-1                    |
+| ![msu-1-label](https://retroachievements.org/assets/images/labels/msu1.png)                    | `msu1`              | Usado para marcar hashes do SNES com patches MSU-1                  |
 | ![snes-mini](https://retroachievements.org/assets/images/labels/snesmini.png)                  | `snesmini`          |                                                                     |
-| ![project-egg-label](https://retroachievements.org/assets/images/labels/egg.png)               | `egg`               | ROMs adquiridas no Project Egg, geralmente jogos de PC japoneses    |
-| ![steam-label](https://retroachievements.org/assets/images/labels/steam.png)                   | `steam`             | ROMs adquiridas na Steam                                            |
+| ![project-egg-label](https://retroachievements.org/assets/images/labels/egg.png)               | `egg`               | Jogos adquiridos no Project Egg, geralmente jogos de PC japoneses   |
+| ![steam-label](https://retroachievements.org/assets/images/labels/steam.png)                   | `steam`             | Jogos adquiridos na Steam                                           |
 | ![mamesl-label](https://retroachievements.org/assets/images/labels/mamesl.png)                 | `mamesl`            | Lista de Software MAME                                              |
 | ![smwcentral-label](https://retroachievements.org/assets/images/labels/smwcentral.png)         | `smwcentral`        | Repositório popular de hacks do Super Mario World                   |
-| ![rhdn-label](https://retroachievements.org/assets/images/labels/rhdn.png)                     | `rhdn`              | Repositório popular para hacks de ROM                               |
+| ![rhdn-label](https://retroachievements.org/assets/images/labels/rhdn.png)                     | `rhdn`              | Repositório popular para hacks e traduções de jogos                 |
 | ![goodtools-label](https://retroachievements.org/assets/images/labels/goodtools.png)           | `goodtools`         |                                                                     |
 | ![nongood-label](https://retroachievements.org/assets/images/labels/nongood.png)               | `nongood`           |                                                                     |
 | ![offline-list-label](https://retroachievements.org/assets/images/labels/offlinelist.png)      | `offlinelist`       |                                                                     |

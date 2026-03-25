@@ -1,20 +1,20 @@
 ---
 title: Hash Labels
-description: This guide covers labeling ROMs linked to achievement sets, including label types, image labels, and examples.
+description: This guide covers labeling hashes linked to achievement sets, including label types, image labels, and examples.
 ---
 
 # Hash Labels
 
-Every ROM that is linked to an achievement set must be clearly identified and labeled. These labels help players know which versions of a game are compatible as well as if there are any translation patches, bug fixes, cosmetic hacks, quality of life hacks, etc. that they can use.
+Every hash that is linked to an achievement set must be clearly identified and labeled. These labels help players know which versions of a game are compatible as well as if there are any translation patches, bug fixes, cosmetic hacks, quality of life hacks, etc. that they can use.
 
 [[toc]]
 
-## Info for Supported Game Files
+## Info for Supported Game Hashes
 
 - RA Hash: Check [Game Identification](/developer-docs/game-identification) to learn more about these. These appear in `Manage Hashes` automatically.
-- File Name - File name should be entered as the description. These are typically automatic, but may need some adjustments.
+- Hash Description - A description should be entered to identify the hash. These are typically automatic, but may need some adjustments.
 - Labels - You can use the labels listed below by using the filename of the image (no extension).
-- Patch URL - Link to either a .zip or .7z file in the [RAPatches](https://github.com/RetroAchievements/RAPatches) GitHub repository. 
+- Patch URL - Link to either a .zip or .7z file in the [RAPatches](https://github.com/RetroAchievements/RAPatches) GitHub repository.
 - Resource Page URL - Link to a specific No Intro, Redump, RHDN, SMWCentral, itch.io, etc. page.
 
 ## Images
@@ -43,29 +43,29 @@ The following are used for specific websites:
 | ------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------- |
 | ![atari-age-label](https://retroachievements.org/assets/images/labels/atariage.png)          | `atariage`     | Popular site for Homebrews                                             |
 | ![baddesthacks-label](https://retroachievements.org/assets/images/labels/baddesthacks.png)   | `baddesthacks` | Site for questionable hacks                                            |
-| ![project-egg-label](https://retroachievements.org/assets/images/labels/egg.png)             | `egg`          | ROMs purchased from Project Egg, typically Japanese PC games.          |
+| ![project-egg-label](https://retroachievements.org/assets/images/labels/egg.png)             | `egg`          | Games purchased from Project Egg, typically Japanese PC games.         |
 | ![gamebanana-label](https://retroachievements.org/assets/images/labels/gamebanana.png)       | `gamebanana`   | Site with hacks/mods for PS1, PS2, PSP, GC, etc.                       |
 | ![github-label](https://retroachievements.org/assets/images/labels/github.png)               | `github`       | Used for hacks, homebrews, etc. that are hosted on GitHub              |
-| ![gog-label](https://retroachievements.org/assets/images/labels/gog.png)                     | `gog`          | ROMs purchased from GOG.com - will likely only be used for DOS hashes  |
+| ![gog-label](https://retroachievements.org/assets/images/labels/gog.png)                     | `gog`          | Games purchased from GOG.com - will likely only be used for DOS hashes |
 | ![itch-io-label](https://retroachievements.org/assets/images/labels/itchio.png)              | `itchio`       | Popular site for Homebrews                                             |
 | ![metconst-label](https://retroachievements.org/assets/images/labels/metconst.png)           | `metconst`     | Metroid hack repository and community                                  |
 | ![moddb-label](https://retroachievements.org/assets/images/labels/moddb.png)                 | `moddb`        | Popular repository for hacks/mods for newer consoles/PCs               |
 | ![pokecommunity-label](https://retroachievements.org/assets/images/labels/pokecommunity.png) | `pokecommunity`| Pokemon hack repository and community                                  |
 | ![rhdc-label](https://retroachievements.org/assets/images/labels/rhdc.png)                   | `rhdc`         | Popular repository for Super Mario 64 hacks.                           |
 | ![romhackplaza-label](https://retroachievements.org/assets/images/labels/romhackplaza.png)   | `romhackplaza` | Newer hack repository and community                                    |
-| ![steam-label](https://retroachievements.org/assets/images/labels/steam.png)                 | `steam`        | ROMs purchased from Steam.                                             |
+| ![steam-label](https://retroachievements.org/assets/images/labels/steam.png)                 | `steam`        | Games purchased from Steam.                                            |
 | ![smwcentral-label](https://retroachievements.org/assets/images/labels/smwcentral.png)       | `smwcentral`   | Popular repository for Super Mario World hacks.                        |
-| ![rhdn-label](https://retroachievements.org/assets/images/labels/rhdn.png)                   | `rhdn`         | Popular repository for ROM hacks                                       |
+| ![rhdn-label](https://retroachievements.org/assets/images/labels/rhdn.png)                   | `rhdn`         | Popular repository for game hacks and translations                     |
 
 The following are generic labels:
 
 | Image                                                                                | Label to Use  | Note                                                                   |
 | ------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------- |
-| ![main-label](https://retroachievements.org/assets/images/labels/main.png)                  | `main`        | Sometimes used to show the primary ROM used by the set developer(s)    |
+| ![main-label](https://retroachievements.org/assets/images/labels/main.png)                  | `main`        | Sometimes used to show the primary hash used by the set developer(s)   |
 | ![atomiswave-label](https://retroachievements.org/assets/images/labels/atomiswave.png)      | `atomiswave`  | Generic label for Atomiswave arcade games                              |
 | ![homebrew-label](https://retroachievements.org/assets/images/labels/homebrew.png)          | `homebrew`    | Generic label for Homebrews                                            |
-| ![mdplus-label](https://retroachievements.org/assets/images/labels/mdplus.png)              | `mdplus`      | Generic label for ROMs using MD+ patches                               |
-| ![msu-1-label](https://retroachievements.org/assets/images/labels/msu1.png)                 | `msu1`        | Generic label for ROMs using MSU-1 patches                             |
+| ![mdplus-label](https://retroachievements.org/assets/images/labels/mdplus.png)              | `mdplus`      | Generic label for hashes using MD+ patches                             |
+| ![msu-1-label](https://retroachievements.org/assets/images/labels/msu1.png)                 | `msu1`        | Generic label for hashes using MSU-1 patches                           |
 | ![naomi-label](https://retroachievements.org/assets/images/labels/naomi.png)                | `naomi`       | Generic label for NAOMI and NAOMI 2 arcade games                       |
 | ![snes-mini-label](https://retroachievements.org/assets/images/labels/snesmini.png)         | `snesmini`    |                                                                        |
 | ![offline-list-label](https://retroachievements.org/assets/images/labels/offlinelist.png)   | `offlinelist` |                                                                        |
@@ -83,23 +83,23 @@ The following are generic labels:
 - The third hash is the No Intro-verified Japanese version of the game.
 - The fourth hash is the No Intro-verified USA version of the game.
 
-On this page, supported game files are ordered lexicographically by their MD5 hashes.
+On this page, supported game hashes are ordered lexicographically by their MD5 values.
 
-Each supported file can be edited individually by clicking on "Edit" on the same line:
+Each supported hash can be edited individually by clicking on "Edit" on the same line:
 ![edit-game-hash](/edit-game-hash.png)
 
-To see how this will look for the majority of users, go to the game entry page and click on "Supported Game Files."
+To see how this will look for the majority of users, go to the game entry page and click on "Supported Game Hashes."
 
-#### Supported Game Files
+#### Supported Game Hashes
 ![links-dejavu](/links-dejavu.png)
 
-As you can see below, `nointro` and `rapatches` were replaced with corresponding images, and the file link from the "Patch URL" string is conveniently added right below the corresponding hash. On this page, supported game files are ordered lexicographically by their filenames.
+As you can see below, `nointro` and `rapatches` were replaced with corresponding images, and the patch link from the "Patch URL" string is conveniently added right below the corresponding hash. On this page, supported game hashes are ordered lexicographically by their descriptions.
 
 ![linked-hashes-dejavu](/supported-game-files-dejavu.png)
 
 ### Suikoden (PlayStation)
 
-We'll skip the manage hashes example for this one. Let's go straight to "Supported Game Files" on the game entry page:
+We'll skip the manage hashes example for this one. Let's go straight to "Supported Game Hashes" on the game entry page:
 
 ![links-suikoden](/links-suikoden.png)
 
