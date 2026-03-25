@@ -39,9 +39,9 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### Apple II
 
-| Name                                                     | Type                 | Notes |
-| :------------------------------------------------------- | :------------------- | :---- |
-| **[RAppleWin](https://retroachievements.org/downloads)** | Standalone emulator  |       |
+| Name                                                     | Type                | Notes |
+| :------------------------------------------------------- | :------------------ | :---- |
+| **[RAppleWin](https://retroachievements.org/downloads)** | Standalone emulator |       |
 
 ### Arcade
 
@@ -130,7 +130,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### Game Boy
 
-| Name                                                         | Type                | Notes |
+| Name                                                         | Type                | Notes                                   |
 | :----------------------------------------------------------- | :------------------ | :-------------------------------------- |
 | **Gambatte**                                                 | libretro core       | Most recommended.                       |
 | **Gearboy**                                                  | libretro core       |                                         |
@@ -146,7 +146,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### Game Boy Color
 
-| Name                                                         | Type                | Notes |
+| Name                                                         | Type                | Notes                                   |
 | :----------------------------------------------------------- | :------------------ | :-------------------------------------- |
 | **Gambatte**                                                 | libretro core       | Most recommended.                       |
 | **Gearboy**                                                  | libretro core       |                                         |
@@ -162,7 +162,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 ### Game Boy Advance
 
-| Name                                                         | Type                | Notes|
+| Name                                                         | Type                | Notes                        |
 | :----------------------------------------------------------- | :------------------ | :--------------------------- |
 | **mGBA**                                                     | libretro core       | Most recommended.            |
 | **VBA-M**                                                    | libretro core       |                              |
@@ -173,7 +173,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **[Pizza Boy A Basic & Pro](https://pizzaemulators.com/)**   | Standalone emulator |                              |
 | **[SkyEmu](https://github.com/skylersaleh/SkyEmu/pull/321)** | Standalone emulator |                              |
 | **[Playback](https://www.epilogue.co/)**                     | Standalone emulator | GB Operator device required. |
-| **[Linkboy](https://retroachievements.org/downloads)**       | Standalone emulator |                                         |
+| **[Linkboy](https://retroachievements.org/downloads)**       | Standalone emulator |                              |
 
 ### GameCube
 
@@ -210,7 +210,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 ### Interton VC 4000
 
 | Name                                                  | Type                | Notes |
-| :---------------------------------------------------- | :------------------ | :---  |
+| :---------------------------------------------------- | :------------------ | :---- |
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
@@ -257,12 +257,12 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 ### NES/Famicom
 
 | Name                                                           | Type                | Notes                                     |
-| :---------------------------------------------------           | :------------------ | :---------------------------------------- |
+| :------------------------------------------------------------- | :------------------ | :---------------------------------------- |
 | **FCEUmm**                                                     | libretro core       | Most recommended.                         |
 | **Mesen**                                                      | libretro core       |                                           |
 | **QuickNES**                                                   | libretro core       | Does not emulate the Famicom Disk System. |
 | **[RANes](https://retroachievements.org/downloads)**           | Standalone emulator |                                           |
-| **[NES RA Adapter](https://github.com/odelot/nes-ra-adapter)** | Console adapter     |                   |
+| **[NES RA Adapter](https://github.com/odelot/nes-ra-adapter)** | Console adapter     |                                           |
 
 ### NES/Famicom Disk System
 
@@ -321,17 +321,17 @@ Limited microphone support.
 
 ### PC-8000/8800
 
-| Name                                                                  | Type                | Notes |
-| :-------------------------------------------------------------------- | :------------------ | :---- |
-| **QUASI88**                                                           | libretro core       |       |
+| Name                                                     | Type                | Notes |
+| :------------------------------------------------------- | :------------------ | :---- |
+| **QUASI88**                                              | libretro core       |       |
 | **[RAQUASI88](https://retroachievements.org/downloads)** | Standalone emulator |       |
 
 ### PC-FX
 
-| Name                  | Type          | Notes                       |
-| :-------------------- | :------------ | :-------------------------- |
-| **Beetle PC-FX**      | libretro core |                             |
-| **T.S.T.**            | BizHawk core  | Mednafen fork specifically. |
+| Name             | Type          | Notes                       |
+| :--------------- | :------------ | :-------------------------- |
+| **Beetle PC-FX** | libretro core |                             |
+| **T.S.T.**       | BizHawk core  | Mednafen fork specifically. |
 
 ### PlayStation
 
@@ -428,7 +428,7 @@ These cores appear to still have unmapped RAM.
 ### Watara Supervision
 
 | Name        | Type          | Notes |
-| :-------    | :------------ | :---- |
+| :---------- | :------------ | :---- |
 | **Potator** | libretro core |       |
 
 ### Wii
