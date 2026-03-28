@@ -139,15 +139,18 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [Layton](https://retroachievements.org/user/Layton)
 - [lonegraywolf2000](https://retroachievements.org/user/lonegraywolf2000)
+- [OpheliaEngima](https://retroachievements.org/user/OpheliaEngima)
 - [Pilzkopf](https://retroachievements.org/user/Pilzkopf)
-- [RyCuLe](https://retroachievements.org/user/RyCuLe)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
+- [suspect15](https://retroachievements.org/user/suspect15)
 - [thatbard](https://retroachievements.org/user/thatbard)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
+- [WheelsAndWhirls](https://retroachievements.org/user/WheelsAndWhirls)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [Yanbetari](https://retroachievements.org/user/Yanbetari)
+- [zaydoc](https://retroachievements.org/user/zaydoc)
 
 ### Tech Team
 
