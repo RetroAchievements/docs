@@ -37,6 +37,7 @@ These roles are not yet visible on the website, but most are on Discord. On this
 
 Shared accounts used by their respective team members:
 
+- [CodeReviewTeam](https://retroachievements.org/user/CodeReviewTeam)
 - [DevCompliance](https://retroachievements.org/user/DevCompliance)
 - [DevQuest](https://retroachievements.org/user/DevQuest)
 - [QATeam](https://retroachievements.org/user/QATeam)
@@ -134,7 +135,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [CySlaytor](https://retroachievements.org/user/CySlaytor)
-- [Fridge](https://retroachievements.org/user/Fridge)
 - [Homuki](https://retroachievements.org/user/Homuki)
 - [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [Layton](https://retroachievements.org/user/Layton)
