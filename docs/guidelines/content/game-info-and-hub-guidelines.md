@@ -116,33 +116,42 @@ Game images are the displayed images on the game page, including the icon (aka m
 - Listed below are the standard image dimensions for each system.
 	- 96x64 - Pokemon Mini (Images are resized by 4x)
 	- 128x64 - Arduboy (Images are resized by 2x)
-	- 146x240 - Arcadia 2001, Elektor TV Games Computer, Interton VC 4000
 	- 160x102 - Atari Lynx
 	- 160x144 - Game Boy, Game Boy Color, Game Gear, Mega Duck
 	- 160x152 - Neo Geo Pocket
 	- 160x160 - WASM-4, Watara Supervision
+	- 160x228 - Atari 2600 (NTSC)
+	- 160x274 - Atari 2600 (PAL)
 	- 160x240 - Nintendo DS, Nintendo DSi
+	- 164x269 - Arcadia 2001, Elektor TV Games Computer, Interton VC 4000 (Taken in Narrow)
 	- 192x272 - Amstrad CPC
 	- 193x240 - Vectrex
 	- 200x234 - VIC-20
 	- 224x144 - WonderSwan
+	- 240x136 - TIC-80
 	- 240x160 - Game Boy Advance
-	- 256x192 - ColecoVision, Master System, SG-1000
-	- 256x224 - NES/Famicom, Sega CD, SNES/Super Famicom
+	- 240x224 - Oric
+	- 256x192 - ColecoVision, Master System, SG-1000, ZX-81
+	- 256x224 - Famicom Disk System, NES/Famicom, Sega CD, SNES/Super Famicom
 	- 256x232 - PC Engine/TurboGrafx-16, PC-FX
 	- 272x240 - MSX
 	- 280x192 - Apple II
 	- 306x192 - Fairchild Channel F
 	- 320x180 - PlayStation Portable
 	- 320x186 - Virtual Boy
-	- 320x200 - Atari ST, Intellivision, PC-8000/8800
+	- 320x200 - Atari ST, Intellivision, PC-8000/8800, Sharp X1
 	- 320x223 - Atari 7800
-	- 320x224 - 32X, Genesis/Mega Drive, Neo Geo CD
+	- 320x224 - 32X, Neo Geo CD, Sega Pico
 	- 320x228 - Atari 5200
 	- 320x235 - Magnavox Odyssey 2
 	- 320x240 - 3DO Interactive Multiplayer, Dreamcast, GameCube, Nintendo 64, PlayStation, PlayStation 2, Xbox
 	- 326x240 - Atari Jaguar CD (These get scaled down and are blurry as a result)
-	- Game Dependent - Arcade, Atari 2600, Atari Jaguar, DOS, Nokia N-Gage, PC Engine CD, Sharp X68000, Uzebox
+	- 384x280 - Philips CD-i
+	- 672x432 - Thomson TO8
+	- 792x900 - Super Cassette Vision
+	- Game Dependent - Arcade, Atari Jaguar, DOS, Game & Watch, Genesis/Mega Drive, Nokia N-Gage, PC Engine CD, Sharp X68000, Uzebox
+
+	- Todo: Amiga, Cassette Vision, Commodore 64, FM Towns, PC-6000, PC-9800, TI-83, Wii U, Zeebo
 
 ## Hubs and Similar Games
 
