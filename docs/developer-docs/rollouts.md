@@ -54,7 +54,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 ## Previous Rollouts
 
 | Launch Date |                            Console                            | Number of Sets on Launch Day |                           Relevant Links                           |
-| :---------: | :-----------------------------------------------------------: | :--------------------------: | :----------------------------------------------------------------: |
+|:-----------:|:-------------------------------------------------------------:|:----------------------------:|:------------------------------------------------------------------:|
 | 2019-09-07  |                          PlayStation                          |              28              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=9302)  |
 | 2021-10-01  |                     PlayStation Portable                      |              38              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=14016) |
 | 2022-02-12  |                           Dreamcast                           |              34              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=15276) |
@@ -68,7 +68,7 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 | 2023-08-12  |                            Uzebox                             |              30              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22887) |
 | 2023-11-15  |                          Neo Geo CD                           |              23              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24443) |
 | 2024-07-15  |                           GameCube                            |             107              | [Forum Topic](https://retroachievements.org/viewtopic.php?t=27191) |
-|   Pending   |                              Wii                              |              ??              |                              Pending                               |
+| 2026-03-19  |                              Wii                              |             183              |  [Forum Topic](https://retroachievements.org/forums/topic/35008)   |
 |   Pending   |                            MS-DOS                             |              ??              |                              Pending                               |
 |   Pending   |                          ZX Spectrum                          |              ??              |                              Pending                               |
 |   Pending   |                              3DS                              |              ??              |                              Pending                               |
