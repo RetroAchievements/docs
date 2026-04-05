@@ -28,7 +28,8 @@ The multiset system uses four technical set types that determine how sets relate
 
 - **Base**: The primary achievement set for a game. This is loaded by default and represents the main content.
 - **Bonus**: Additional achievements linked to a base set. When you load a base set, any associated bonus sets are also available based on your preferences.
-- **Specialty**: These sets still require their own patched ROM, but also load the base set and any bonus sets automatically. These are typically used for challenge runs or alternate game modes.
+- **Challenge**: Like bonus, does not require a patched ROM but is opt-out by default, requiring you to opt-in to play. These are typically used when you play the game in a specific way, like low-level or solo runs.
+- **Specialty**: These sets still require their own patched ROM, but also load the base set and any bonus sets automatically. These are typically used for alternate game modes or challenges that modify the game itself.
 - **Exclusive**: These sets load in isolation and are not compatible with any of the other game's sets.
 
 ### User Preferences
