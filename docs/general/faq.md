@@ -14,7 +14,7 @@ While you will still be able to get achievements in Softcore, playing on HARDCOR
 
 ### What are the white points?
 
-White points, known as RetroPoints, are secondary points based on how rare an achievement is, **however this feature is not very accurate currently**. Explained [here in detail](https://retroachievements.org/viewtopic.php?t=1015).
+White points, known as RetroPoints, are secondary points based on how rare an achievement is. Explained [here in detail](https://github.com/RetroAchievements/RAWeb/pull/4474).
 
 ### Will RetroAchievements support this or that console?
 
