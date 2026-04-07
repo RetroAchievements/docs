@@ -101,6 +101,8 @@ If you have new ideas after a plan has passed, start a new addendum revision pla
 
 - If you are adding a **similar** concept to one found in the set, where possible reuse the old concept and update it rather than make a new one. This prevents players from having to unnecessarily re-earn achievements, restricts needless changes to sets, and preserves good quality developer work and concepts.
 
+- If you are adding new achievements in which criteria can be proven by prior unlocks then prepare an Achievement Transfer request in `#cleanup-admin` to be processed once the set goes live. This helps to reduce player frustrations and the number of manual unlock requests coming through. For example: Unlock Achievement X for all users who earned Achievements Y and Z.
+
 - Since revisions vary in the amount of adjusted content, they are treated the same as an achievement set reservation. If three months have passed since your revision plan was approved, you will need to provide an update that details the current progress. Not doing so will invalidate the revision and the plan will need to be approved again with a new vote.
 
 ### No Need for Approval Vote
