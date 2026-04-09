@@ -4,26 +4,43 @@
 
 ## RetroAchievements FAQ
 
-### What is HARDCORE mode?
+### What is Hardcore mode?
 
-If you want to have a one-to-one replication of how you used to play retro games in the distant past, then HARDCORE mode is what you are looking for. This feature restricts the player from ever loading save states (creating them is allowed for practice/ticket purposes when not playing on HARDCORE), using cheats, and any speed-altering features like rewinding, slow-motion, and advancing the game one frame at a time by using the emulator's built-in functions. Note that the only exception to altering speed is fast-forward which IS allowed. Basically, you are playing the game without the game-altering enhancements emulators come with.
+This feature restricts the player from loading save states (creating them is still allowed), using cheats, and using any speed-altering features like rewinding, slow-motion, and advancing the game one frame at a time by using the emulator's built-in functions.
+Note that the only exception to altering speed is fast-forward, which is allowed.
+Essentially, you are playing the game without the game-altering enhancements emulators come with.
 
-While you will still be able to get achievements in Softcore, playing on HARDCORE mode is the only way to earn a Mastery for a game, displaying your skill- and prowess to your fellow retro achievers and competitors by showing up on the game's page as a master of the game, as well as on the main leaderboard. Playing on HARDCORE will also allow you to set times, scores or participate in miscellaneous challenges on game-specific leaderboards.
+While you will still be able to get achievements in Softcore, playing in Hardcore mode is the only way to earn a Mastery for a game, which is displayed both on your profile and on the game's page as a master of the game, as well as on the main leaderboard.
+Playing in Hardcore will also allow you to set times, scores, or participate in miscellaneous challenges on game-specific leaderboards.
+Most events also require you to earn achievements in Hardcore, unless otherwise specified on the event page.
+Completing a game with softcore will still give you a badge to show on your profile; however, there will not be a gold border, and you won't show up as a recent master of the game.
 
-**Note**: If you want to play with the HARDCORE mode disabled (also known as "Softcore"), expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
+If you want to have a one-to-one replication of how you used to play retro games in the distant past, then Hardcore mode is what you are looking for.
+
+**Note**: If you want to play with the Hardcore mode disabled (also known as "Softcore"), you might experience issues.
+See [Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
 ### What are the white points?
 
-White points, known as RetroPoints, are secondary points based on how rare an achievement is. Explained [here in detail](https://github.com/RetroAchievements/RAWeb/pull/4474).
+White points, known as RetroPoints, are secondary points based on how rare an achievement is.
+
+Generally, more points are awarded for lesser played games and for lesser earned achievements on more played games.
+
+Note that these points may fluctuate as more players earn (or don't earn) the achievement.
+
+More information about the calculations is explained [here in detail](https://github.com/RetroAchievements/RAWeb/pull/4474).
 
 ### Will RetroAchievements support this or that console?
 
 **Short answer:** Yes, it will.
 
-**Long answer:** The only correct answer to this question is "Whenever someone with the skills and desire to code support, does just that." - Everyone here is a volunteer so additional support and features happen when they happen. In many cases support for a console is dictated by the emulator(core) developer and is outside of Retroachievement's control.
+**Long answer:** The only correct answer to this question is "Whenever someone with the skills and desire to code support does so."
+Everyone here is a volunteer, so additional support and features happen when they happen.
+In many cases support for a console is dictated by the emulator/core developer and is outside RetroAchievements' control.
 
-For more information on specific consoles you can check here:
-[System X When?](/orphaned/system-x-wen)
+For more information on specific consoles, you can check here: [System X When?](/orphaned/system-x-wen)
+
+For a list of currently unsupported cores and consoles, see [Unsupported Emulators and Cores](/developer-docs/unsupported-emulators-and-cores.html).
 
 ### How do I request an achievement set?
 
@@ -37,7 +54,7 @@ To see other users who have requested the set, click on the "x requests" link be
 ![request2](/request2.png)
 
 The total number of requests is tallied and displayed on the [Most Requested Sets](https://retroachievements.org/games/requests) page which can also be sorted by console.
-If and when a set is created, the user request will be automatically returned to use for another game.
+When a set is created, the user request will be automatically returned for you to request another game.
 
 The number of requests available to a user is determined as follows:
 
@@ -47,7 +64,7 @@ The number of requests available to a user is determined as follows:
 - 1 for every 5k from 10k-100k
 - 1 for every 10k thereafter
 
-**Note**: All achievement developers are volunteers, requesting a set gives no guarantee that achievements will be made.
+**Note**: All achievement developers are volunteers. Requesting a set gives no guarantee that achievements will be made.
 The purpose of the request feature is to give developers visibility to what players want most.
 You might also consider making achievement suggestions on a game's forum page to help get a set off the ground.
 
@@ -57,7 +74,9 @@ You might also consider making achievement suggestions on a game's forum page to
 
 ### Where can I find ROMs?
 
-Not here. It is illegal to host or distribute copyrighted ROMs. However we have a page about [Free Games](/orphaned/free-games) where you can find some really cool homebrews.
+Not here. It is illegal to host or distribute copyrighted ROMs.
+However, we have a page about [Free Games](/orphaned/free-games) where you can find some really cool homebrews.
+You can also view the [Freely Available in Forum Topic hub](https://retroachievements.org/hub/22750) on-site to see games that you can download legally.
 
 ### Why do I get a message that some achievements are unsupported?
 
@@ -71,31 +90,26 @@ In most cases updating to the latest version of RetroArch will correct the probl
 
 ### What do I do when the achievement isn't working right?
 
-When problems with achievements occur, either where the achievement wasn't awarded to you or it was awarded at the wrong time, there are solutions to get the problems fixed and for proper credit to be given to you! First you'll want to [report the broken achievement](#how-do-i-report-a-broken-achievement). (This is an excellent way to contribute to the betterment of the community!) It creates a ticket report for the achievement developers who will then review the problem and look for a solution.
+When problems with achievements occur, either where the achievement wasn't awarded to you or it was awarded at the wrong time, there are solutions to get the problems fixed and for proper credit to be given to you!
+First, you'll want to [report the broken achievement](#how-do-i-report-a-broken-achievement). (This is an excellent way to contribute to the betterment of the community!)
+It creates a ticket report for the achievement developers who will then review the problem and look for a solution.
 
-If the achievement wasn't awarded, you can request a [manual-unlock](#how-do-i-request-a-manual-unlock). You'll need to [report the broken achievement](#how-do-i-report-a-broken-achievement) and provide [proof of completion](#in-detail-how-to-request-a-manual-unlock).
+If the achievement wasn't awarded, you can request a [manual-unlock](#how-do-i-request-a-manual-unlock).
+You'll need to [report the broken achievement](#how-do-i-report-a-broken-achievement) and provide [proof of completion](#in-detail-how-to-request-a-manual-unlock).
 
 ### How do I report a broken achievement?
 
-There are two ways to report broken achievements. In the emulator title bar go to **RetroAchievements** ⇒ **Report Broken Achievements**:
+There are two ways to report broken achievements.
 
-1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only:
+1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only, in the emulator title bar go to **RetroAchievements** ⇒ **Report Broken Achievements**:
 
 ![how to report](/how-to-report.webp)
 
-2. For [RetroArch](#retroarch-emulators) users you can submit the report directly via website. On every achievement's page you'll see a link saying `Report an issue for this achievement`, like in the image below:
+2. For [RetroArch](#retroarch-emulators) or other emulator users, you can submit the report directly via website. On every achievement's page you'll see a link saying `Report an issue`, like in the image below:
 
 ![open-ticket-on-site](/report-an-issue.png)
 
 If you use the [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) you can also report problems from the website achievement page, but it is preferred that you use the method built into the emulators.
-
-#### What details _I have to add_ to a broken achievement report?
-
-You have to add the following information in order for a developer to recognize an issue:
-
-- Type of issue (doesn't trigger or triggers at the wrong time)
-- Emulator you were using (and core if using RALib/Retroarch)
-- RA hash (checksum) to recognize a version of the game
 
 #### What details should I add to a broken achievement report?
 
@@ -110,22 +124,24 @@ Also add details like:
 - when you most recently died or continued;
 - what you think the problem might be or any details you think could be helpful.
 
-This is necessary so the achievement developers know where the problem is.
+This is necessary for achievement developers to know where the problem is.
 
 ### What is an RA hash?
 
-RA hash is an unique string of 32 hexadecimal numbers, to distinguish different games and versions of them, all of them have one.
+RA hash is a unique string of 32 hexadecimal numbers to distinguish different games and versions of them.
+All versions of games have one.
 
 #### How do I check the RA hash of the game I'm playing?
 
-- For Retroarch - Quick Menu ⇒ Information, then at the bottom there is "RetroAchievements Hash" which is, in fact an RA hash
-- For Standalones/RaLibretro - RetroAchievement tab at the top ⇒ Get ROM Checksum, and it shows the RA hash
+- For RetroArch - Quick Menu ⇒ Information, at the bottom there is "RetroAchievements Hash"
+- For Standalones/RALibretro - RetroAchievement tab at the top ⇒ Get ROM Checksum, and it shows the RA hash
 
 ### How do I request a manual unlock?
 
 #### For Discord Users (Recommended Method):
 
-Post your request in the [#unlock-requests](https://discord.com/channels/310192285306454017/1029858289221116104) channel following the format in [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966). This method allows for faster communication or updates when needed as well as easier ways to upload video and images for proof.
+Post your request in the [#unlock-requests](https://discord.com/channels/310192285306454017/1029858289221116104) channel following the format in [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
+This method allows for faster communication or updates when needed as well as easier ways to upload video and images for proof.
 
 #### For Website Requests:
 
@@ -151,22 +167,22 @@ When sending a manual unlock request via the website your message <ins>must</ins
 3. Proof of Completion:
 
    - General Proof Requirements:
-     - Supply a direct, plain-text link (do not use website markdowns or embedded images) to your proof.
+     - Supply a direct, plain-text link (do not use Markdown or embedded images) to your proof.
      - Use external hosting services (e.g., imgur, YouTube, or a cloud service) for screenshots or videos. Local file links or embedded images are not accepted.
    - Proof by Achievement Type:
      - Progression Achievements: A link to another unlocked progression achievement later in the game is acceptable. Otherwise an appropriate screenshot will likely suffice.
      - Challenge Achievements: Full video evidence is required from the start of the challenge to the end. Even if the achievement has a challenge icon showing, you must provide video proof. Evidence needs to capture the triggering moment, show the active challenge icon (or when it falsely disappears), and confirm that Hardcore mode was active if it is a Hardcore request.
-     - Other Achievements: A clear screenshot or a link to another related achievement (only possible if the requested achievement was already done) is usually sufficient. Use your best judgment if a video might be warranted.
-     - Network Issues: A clear screenshot showing the achievement unlocked in your emulator is the best proof if you notice before closing your emulator. Otherwise the above types still apply.
+     - Other Achievements: A clear screenshot or a link to another related achievement (only possible if the requested achievement was already done) is usually enough. Use your best judgment if a video might be warranted.
+     - Network Issues: A clear screenshot showing the achievement unlocked in your emulator is the best proof if you notice before closing your emulator. Otherwise, the above types still apply.
 
 4. Link Verification:
-   - Before sending your request, use the Preview function to verify that all your links work correctly. We do not have the capacity to fix or follow up on broken/mis formatted links, and any invalid links will result in an immediate denial.
+   - Before sending your request, use the Preview function to verify that all your links work correctly. We do not have the capacity to fix or follow up on broken/misformatted links, and any invalid links will result in an immediate denial.
 
 #### A Few Important Reminders:
 
 - These guidelines are in place because we receive a high volume of manual unlock requests, and many are incomplete or improperly formatted. Missing or invalid information leads to denial without response.
 - Even if your submission meets all the requirements, the RA team reserves the right to deny the request if the provided proof is deemed insufficient.
-- Manual unlocks are intended for players with proof of earning achievements that did not trigger on site due to a bug or network issue. They are **not** intended for, and will not be awarded to players who have played the game prior to a set being available, or on an another inherently unsupported platform (original hardware for example), or before you started playing on RetroAchievements.
+- Manual unlocks are intended for players with proof of earning achievements that did not trigger on site due to a bug or network issue. They are **not** intended for, and will not be awarded to players who have played the game prior to a set being available, or on another inherently unsupported platform (original hardware, for example), or before you started playing on RetroAchievements.
 - If you haven’t received an unlock after several days, double-check that your request adhered to these guidelines. For further clarification or if you believe your request was handled in error, please feel free to contact the Moderation team.
 
 #### In summary how to request a manual unlock
@@ -185,32 +201,38 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
 3. **Submit Your Request:**
    - **Discord Users:** Post a message in [#unlock-requests](https://discord.com/channels/310192285306454017/1029858289221116104) following [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966)
-   - **Website Users:** While signed into RetroAchievements.org, send a request to the RAdmin user with the required information listed above
+   - **Website Users:** While signed in to RetroAchievements.org, send a request to the RAdmin user with the required information listed above
 
 ### What if I got an achievement I didn't earn?
 
-Same with not getting it when you should in most cases you'll want to [create a ticket report](#how-do-i-report-a-broken-achievement), leaving an explanation of what went wrong. You'll also want to reset these achievements from your earn history so you can get the satisfaction of truly earning them.
+Same with not getting it when you should in most cases you'll want to [create a ticket report](#how-do-i-report-a-broken-achievement), leaving an explanation of what went wrong.
+You'll also want to reset these achievements from your earn history so you can get the satisfaction of truly earning them.
 
 ### How do I reset achievements?
 
+You are able to reset your progress for achievements individually or for an entire set at once.
+
 There are three ways to do this:
 
-- On the achievement page:<br>
+- On the achievement page:  
   ![reset-achievements-1](/reset-achievements1.png)
 
-- On the game page (when you want or need to reset all earns in a game):<br>
+- On the game page (when you want or need to reset all unlocks in a game), hover over the percent complete:  
   ![reset-achievements-2](/reset-achievements2.png)
 
-- Near the bottom of your user settings page:<br>
+- Near the bottom of your user settings page:  
   ![reset-achievements-3](/reset-achievements3.png)
 
 ### Am I the only one with an issue?
 
-If an achievement doesn't work correctly for you, there is a very good chance it doesn't work for other people. You can check in the achievement's page and look for where it says 'The achievement has 'X' open tickets':
+If an achievement doesn't work correctly for you, it's possible it doesn't work for others as well.
+You can check in the achievement's page and look for where it says "'X' open tickets":
 
 ![open-tickets-picture](/open-tickets.png)
 
-If the game has tickets, click on the 'open tickets' link. There will be a list to show any reports of broken achievements. You can comment on these to add helpful details or say you have a problem with this achievement too.
+If the game has tickets, click on the 'open tickets' link. This will not show up if there are no open tickets.
+Here, there will be a list to show any reports for this achievement.
+You can comment on these to add helpful details or say you have a problem with this achievement too.
 
 ---
 
@@ -218,13 +240,17 @@ If the game has tickets, click on the 'open tickets' link. There will be a list 
 
 ### Why can't I see my new profile picture?
 
-Press `Ctrl + F5` (on most browsers). Sometimes after you've changed your profile picture (also known as avatar or user pic) and you need to refresh your browser cache; in most browsers `Ctrl + F5` is the quickest way to do it.
+Press `Ctrl + F5` (on most browsers).
+Sometimes after you've changed your profile picture (also known as avatar or user pic) and you need to refresh your browser cache; in most browsers `Ctrl + F5` is the quickest way to do it.
 
 ### My welcome email has gone missing!
 
-Unfortunately sometimes the welcome email has been known to go missing. If this happens, please log in with your username/password you registered with, then visit your settings page. At the top you'll find the option to resend your registration email.
+First, check your spam folder to make sure it didn't get lost. Additionally, wait a bit just in case the email is taking a while to send.
 
-### How do I reset my password? (If I don't remember my password)
+If it still hasn't shown up, please log in with your username/password you registered with, then visit your settings page.
+At the top you'll find the option to resend your registration email.
+
+### How do I reset my password?
 
 Right Here:
 [https://retroachievements.org/resetPassword.php](https://retroachievements.org/resetPassword.php)
@@ -233,8 +259,13 @@ On Site, front page, while not logged in:
 
 ![reset password](/reset-password.png)
 
-### Will I have any privilege if I become a patron?
+### Will I gain any privileges if I become a patron?
 
-On the website you'll have a badge to mean "I helped fund RA!". On the discord server you'll have access to a dedicated channel. Although **we are all immensely grateful for the contributions of the patrons**, there is no other bonus besides those ones.
+On the website you'll have a badge to mean "I helped fund RA!".
+On the Discord server, you'll have access to a dedicated channel.
 
-Thanks to the [Patreon contributions](https://www.patreon.com/bePatron?u=5403777) the RetroAchievements project can pay for a decent server to run the website, run the discord bot and also have periodic backups (to recover data in the event of a disaster), and all this with an ad-free experience. The whole community owe a big thank you to the patrons.
+Although **we are all immensely grateful for the contributions of the patrons**, there is no other bonus besides those.
+
+Thanks to the [Patreon contributions](https://www.patreon.com/bePatron?u=5403777) the RetroAchievements project can pay for a server to run the website, run the Discord bot, and also have periodic backups (to recover data in the event of a disaster), and, most importantly, an ad-free experience.
+
+The whole community owes a big thank-you to the patrons.
