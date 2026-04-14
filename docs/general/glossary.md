@@ -78,6 +78,8 @@ A "set" is a collection of achievements for a game.
 
 Game and set are usually used interchangeably, as many games have one base set, but there are a handful of subsets.
 
+See [what is an achievement set?](how-ra-works.md#what-is-an-achievement-set) for more information.
+
 ### Multiset
 
 Multiset is a tool for subsets that allow you to earn achievements towards multiple subsets at once.
