@@ -56,10 +56,6 @@ Collecting every achievement in a [set](#set) in hardcore mode gives you a [mast
 
 See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Hardcore/Softcore mode.
 
-## Juice
-
-Sometimes used as a term for "points" an achievement has.
-
 ## Mastery
 
 This is when you collect every achievement in a game's set in [Hardcore](#hardcore) mode.
