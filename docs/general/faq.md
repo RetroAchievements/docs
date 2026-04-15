@@ -51,7 +51,10 @@ On each game's page there is a button to "Request Set".
 Clicking this will add your name to the list of users who have requested a set for the game. Clicking again will withdraw the request. 
 To see other users who have requested the set, click on the "x requests" link below the "Request Set" button.
 
-![request2](/request2.png)
+<picture>
+  <source srcset="/request2-max640px.png" media="(width <= 640px)" />
+  <img src="/request2.png" />
+</picture>
 
 The total number of requests is tallied and displayed on the [Most Requested Sets](https://retroachievements.org/games/requests) page which can also be sorted by console.
 When a set is created, the user request will be automatically returned for you to request another game.
@@ -99,26 +102,19 @@ You'll need to [report the broken achievement](#how-do-i-report-a-broken-achieve
 
 ### How do I report a broken achievement?
 
-There are two ways to report broken achievements.
-
-1. For [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) only, in the emulator title bar go to **RetroAchievements** ⇒ **Report Broken Achievements**:
-
-![how to report](/how-to-report.webp)
-
-2. For [RetroArch](#retroarch-emulators) or other emulator users, you can submit the report directly via website. On every achievement's page you'll see a link saying `Report an issue`, like in the image below:
+You can submit the report directly via the website. On every achievement's page you'll see a link saying `Report an issue`, like in the image below:
 
 ![open-ticket-on-site](/report-an-issue.png)
 
-If you use the [Official RetroAchievements emulators](#official-retroachievementsorg-emulators) you can also report problems from the website achievement page, but it is preferred that you use the method built into the emulators.
-
 #### What details should I add to a broken achievement report?
 
-If possible, in the broken achievement report **Comment** paste a link to a screenshot or video (even better) of where the problem occurred. It's recommended to post screenshots on [imgur](https://imgur.com/) and videos on [YouTube](https://www.youtube.com).
+If possible, in the broken achievement report, paste a link to a screenshot or video (even better) of where the problem occurred.
+It's recommended to post screenshots on [imgur](https://imgur.com/) and videos on [YouTube](https://www.youtube.com).
 
 Also add details like:
 
 - when it was/wasn't awarded;
-- what game mode (HARDCORE/softcore);
+- what game mode (hardcore/softcore);
 - what difficulty level or other settings you've selected;
 - how long you were playing;
 - when you most recently died or continued;
@@ -138,12 +134,12 @@ All versions of games have one.
 
 ### How do I request a manual unlock?
 
-#### For Discord Users (Recommended Method):
+#### For Discord Users (Recommended Method)
 
-Post your request in the [#unlock-requests](https://discord.com/channels/310192285306454017/1029858289221116104) channel following the format in [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966).
+Post your request in the [#unlock-requests](https://discord.com/channels/310192285306454017/1029858289221116104) channel following the format in [this stickied thread](https://discord.com/channels/310192285306454017/1029875838327463966/1029875838327463966).
 This method allows for faster communication or updates when needed as well as easier ways to upload video and images for proof.
 
-#### For Website Requests:
+#### For Website Requests
 
 There are two ways you can send the request through the website.
 
@@ -178,7 +174,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 4. Link Verification:
    - Before sending your request, use the Preview function to verify that all your links work correctly. We do not have the capacity to fix or follow up on broken/misformatted links, and any invalid links will result in an immediate denial.
 
-#### A Few Important Reminders:
+#### A Few Important Reminders
 
 - These guidelines are in place because we receive a high volume of manual unlock requests, and many are incomplete or improperly formatted. Missing or invalid information leads to denial without response.
 - Even if your submission meets all the requirements, the RA team reserves the right to deny the request if the provided proof is deemed insufficient.
@@ -217,7 +213,7 @@ There are three ways to do this:
 - On the achievement page:  
   ![reset-achievements-1](/reset-achievements1.png)
 
-- On the game page (when you want or need to reset all unlocks in a game), hover over the percent complete:  
+- On the game page (when you want or need to reset all unlocks in a game), hover or tap over the percent complete:  
   ![reset-achievements-2](/reset-achievements2.png)
 
 - Near the bottom of your user settings page:  
@@ -233,8 +229,6 @@ You can check in the achievement's page and look for where it says "'X' open tic
 If the game has tickets, click on the 'open tickets' link. This will not show up if there are no open tickets.
 Here, there will be a list to show any reports for this achievement.
 You can comment on these to add helpful details or say you have a problem with this achievement too.
-
----
 
 ## Account FAQ
 
