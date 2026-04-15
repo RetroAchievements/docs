@@ -40,11 +40,11 @@ You earn it for collecting every achievement in a game or [set](#set).
 Around the site, you'll see "developers" and sets "developed by" users of RetroAchievements.
 These are almost always users of RetroAchievements developing the achievement set, not the game.
 
-Whenever you see someone listed as a "Developer" or "Jr. Developer", they are individuals who develop sets for the site.
+Whenever you see someone listed as a "Developer" or "Jr. Developer", they are individuals who develop achievement sets for the site.
 
 ## Event
 
-An event is a set of challenges put on by the community to challenge players into doing various tasks for a badge.
+An event is a list of challenges put on by the community to challenge players into doing various tasks for a badge.
 
 See [the dedicated page](events.md) for more information and some active events you can hop into!
 
@@ -72,19 +72,19 @@ See the [FAQ entry](faq.md#what-are-the-white-points) for more information.
 
 A "set" is a collection of achievements for a game.
 
-Game and set are usually used interchangeably, as many games have one base set, but there are a handful of subsets.
+Game and set are usually used interchangeably, as many games have only one achievement set. A game may also have a handful of subsets.
 
 See [what is an achievement set?](how-ra-works.md#what-is-an-achievement-set) for more information.
 
 ### Multiset
 
-Multiset is a tool for subsets that allow you to earn achievements towards multiple subsets at once.
+Multiset is an emulator feature that allows you to earn achievements towards multiple achievement sets for a single game at once.
 
 See [the dedicated subsets page](../guidelines/content/subsets.md) for more information.
 
 ### Subset
 
-A subset is an additional set for a game, containing additional challenges or requirements that are beyond the main game's set itself.
+A subset is an additional set for a game, containing additional challenges or requirements that are beyond the requirements of the game's base set.
 
 You can see these by going to a game's page and navigating to the other icons above the achievement list.
 
@@ -108,7 +108,7 @@ Standalone games run as is, without an emulator, and require something else, lik
 
 ## Ticket
 
-A ticket is a report of an issue with an achievement. You'll see a button for this on the side of game pages.
+A ticket is a bug report for an achievement.
 
 You may also see them referred to as "reports" or "issues" with the achievements.
 
