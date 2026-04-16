@@ -26,7 +26,7 @@ To join the Junior Developer Program, the following requirements must be met:
 
 The process to work on sets as a junior follows the roadmap below. In particular, there are 3 steps that require appproval by code reviewers before proceeding, namely the **Set Plan**, **Ready for Review** and **Code Review**:
 
-- Prepare a thorough **Set Plan**. It's recommended to start with one of our [templates](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit#gid=0), but you may adjust one to fit your needs over time.
+- Prepare a thorough **Set Plan**. It's recommended to start with our [template](https://docs.google.com/spreadsheets/d/1h-nj4PNht7EYa6FqX1l7MnsaYOUo44jiiFFdb9zK6Wk/edit?gid=758167871#gid=758167871), but you may make or adjust one to fit your needs over time.
 - Submit your set plan for approval. While the set plan is not a final product, it must show a general outline of the planned set including progression, challenge, and other types of achievements. Brief descriptions and point values must be included as well. If during development significant deviations are made from the set plan, a revised set plan must be submitted for approval.
   - If this is your first set as a junior, you have to submit this set plan in the #role-request forum on the [RetroAchievements Discord server](https://discord.gg/dq2E4hE), along with a link to your RA profile, a link to the page of the game you wish to work on, and a ping to @Code-Reviewer.
   - If you already are in the junior program, you have to submit this set plan on #jr-devs-requests. As a junior developer with at least one set published, you may claim the game while you work on your set plan, but no work is allowed prior to having your plan approved.

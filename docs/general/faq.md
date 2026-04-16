@@ -230,6 +230,20 @@ If the game has tickets, click on the 'open tickets' link. This will not show up
 Here, there will be a list to show any reports for this achievement.
 You can comment on these to add helpful details or say you have a problem with this achievement too.
 
+### Can I earn achievements offline?
+
+We don't currently support a fully offline mode. You must be connected to the internet when you start a playing session.
+
+If you lose connection while playing, you must ensure your emulator stays open until you re-connect.
+Once you do, your achievements will be synced.
+
+If you close your emulator before your achievements save, you must submit a [manual unlock](#how-do-i-request-a-manual-unlock).
+If you have a screenshot or recording of you earning the achievement, this is usually sufficient evidence, so be sure
+to take a screenshot of your achievements if you notice you are offline and are unable to reconnect.
+Please do not make a ticket if you earned the achievement, follow the manual unlock process.
+
+---
+
 ## Account FAQ
 
 ### Why can't I see my new profile picture?
