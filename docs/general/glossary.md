@@ -22,12 +22,14 @@ Short for "Achievement".
 
 ## Core
 
-A core, also referred to as a libretro core, is a specific emulator used in RetroArch (or RALibretro) to play a particular game.
+A core, also referred to as a libretro core, is essentially a program that runs through emulators like RetroArch, RALibretro, and BizHawk to play a particular game.
 
 For example, you might use the DeSmuMe or MelonDS DS core for Nintendo DS games.
 
 You would manage all of this inside RetroArch and download the cores needed for the games there.
 This is why RetroArch is listed as supporting many systems.
+
+On the [Emulator Support](emulator-support-and-issues.md) page, you can see what libretro cores are supported for each system, if applicable.
 
 ## Completion
 
@@ -55,6 +57,13 @@ See [the dedicated page](events.md) for more information and some active events 
 Collecting every achievement in a [set](#set) in hardcore mode gives you a [mastery](#mastery) of the game, and a badge for your profile.
 
 See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Hardcore/Softcore mode.
+
+## Hash
+
+A game hash is a specific version of a particular game.
+This is used to verify your copy of the game to ensure it supports achievements.
+
+See [the relevant FAQ](faq.md#what-is-an-ra-hash) for more information.
 
 ## Mastery
 
