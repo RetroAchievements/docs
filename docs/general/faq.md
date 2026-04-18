@@ -20,7 +20,7 @@ If you want to have a one-to-one replication of how you used to play retro games
 **Note**: If you want to play with the Hardcore mode disabled (also known as "Softcore"), you might experience issues.
 See [Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
-### What are the white points?
+### What are the RetroPoints (white points)?
 
 White points, known as RetroPoints, are secondary points based on how rare an achievement is.
 
@@ -63,7 +63,7 @@ The number of requests available to a user is determined as follows:
 
 - 1 for every year you've had your account
 - 1 for every event badge you have earned
-- 1 for reaching 1250, 2500, 5k, 7500, 10k
+- 1 for reaching 1.25k, 2.5k, 5k, 7.5k, 10k
 - 1 for every 5k from 10k-100k
 - 1 for every 10k thereafter
 
@@ -77,7 +77,7 @@ You might also consider making achievement suggestions on a game's forum page to
 
 ### Where can I find ROMs?
 
-Not here. It is illegal to host or distribute copyrighted ROMs.
+**Not here.** It is illegal to host or distribute copyrighted ROMs.
 However, we have a page about [Free Games](/orphaned/free-games) where you can find some really cool homebrews.
 You can also view the [Freely Available in Forum Topic hub](https://retroachievements.org/hub/22750) on-site to see games that you can download legally.
 
@@ -89,7 +89,7 @@ You can also view the [Freely Available in Forum Topic hub](https://retroachieve
 
 This message informs the user that some achievements cannot be activated either because their version of RetroArch and/or the core being used does not support some newer logic features, or because required areas of the RAM are not exposed for achievement processing.
 
-In most cases updating to the latest version of RetroArch will correct the problem, alternately updating or using a different [supported core](#which-retroarch-core-should-i-use) will resolve the problem.
+In most cases, updating to the latest version of RetroArch will correct the problem. Alternatively, updating or using a different [supported core](#which-retroarch-core-should-i-use) will resolve the problem.
 
 ### What do I do when the achievement isn't working right?
 
@@ -97,8 +97,8 @@ When problems with achievements occur, either where the achievement wasn't award
 First, you'll want to [report the broken achievement](#how-do-i-report-a-broken-achievement). (This is an excellent way to contribute to the betterment of the community!)
 It creates a ticket report for the achievement developers who will then review the problem and look for a solution.
 
-If the achievement wasn't awarded, you can request a [manual-unlock](#how-do-i-request-a-manual-unlock).
-You'll need to [report the broken achievement](#how-do-i-report-a-broken-achievement) and provide [proof of completion](#in-detail-how-to-request-a-manual-unlock).
+If the achievement wasn't awarded, you can request a [manual unlock](#how-do-i-request-a-manual-unlock).
+You'll need to [report the broken achievement](#how-do-i-report-a-broken-achievement) and provide [proof of completion](#in-summary-how-to-request-a-manual-unlock).
 
 ### How do I report a broken achievement?
 
@@ -124,13 +124,13 @@ This is necessary for achievement developers to know where the problem is.
 
 ### What is an RA hash?
 
-RA hash is a unique string of 32 hexadecimal numbers to distinguish different games and versions of them.
+An RA hash is a unique string of 32 hexadecimal characters to distinguish different games and versions of them.
 All versions of games have one.
 
 #### How do I check the RA hash of the game I'm playing?
 
 - For RetroArch - Quick Menu ⇒ Information, at the bottom there is "RetroAchievements Hash"
-- For Standalones/RALibretro - RetroAchievement tab at the top ⇒ Get ROM Checksum, and it shows the RA hash
+- For Standalones/RALibretro - RetroAchievements tab at the top ⇒ Get ROM Checksum, and it shows the RA hash
 
 ### How do I request a manual unlock?
 
@@ -151,7 +151,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 1. Achievement Identification:
 
    - Provide a direct link to the Achievement ID(s) of the unlock(s) you’re requesting.
-     - If your request contains more than three achievements then please also include a list of just the IDs is comma delimited format, ex. `123, 456, 789`.
+     - If your request contains more than three achievements then please also include a list of just the IDs in comma delimited format, ex. `123, 456, 789`.
    - State whether the request is for softcore or hardcore unlocks.
 
 2. Broken Achievement Ticket:
@@ -181,7 +181,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 - Manual unlocks are intended for players with proof of earning achievements that did not trigger on site due to a bug or network issue. They are **not** intended for, and will not be awarded to players who have played the game prior to a set being available, or on another inherently unsupported platform (original hardware, for example), or before you started playing on RetroAchievements.
 - If you haven’t received an unlock after several days, double-check that your request adhered to these guidelines. For further clarification or if you believe your request was handled in error, please feel free to contact the Moderation team.
 
-#### In summary how to request a manual unlock
+#### In summary: how to request a manual unlock
 
 1. **Open a Ticket (When Applicable):**
 
@@ -201,8 +201,8 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
 ### What if I got an achievement I didn't earn?
 
-Same with not getting it when you should in most cases you'll want to [create a ticket report](#how-do-i-report-a-broken-achievement), leaving an explanation of what went wrong.
-You'll also want to reset these achievements from your earn history so you can get the satisfaction of truly earning them.
+As with not getting it when you should: in most cases you'll want to [create a ticket report](#how-do-i-report-a-broken-achievement), leaving an explanation of what went wrong.
+You'll also want to reset these achievements from your unlock history so you can get the satisfaction of truly earning them.
 
 ### How do I reset achievements?
 
@@ -222,7 +222,7 @@ There are three ways to do this:
 ### Am I the only one with an issue?
 
 If an achievement doesn't work correctly for you, it's possible it doesn't work for others as well.
-You can check in the achievement's page and look for where it says "'X' open tickets":
+You can check on the achievement's page and look for where it says "'X' open tickets":
 
 ![open-tickets-picture](/open-tickets.png)
 
@@ -240,7 +240,7 @@ Once you do, your achievements will be synced.
 If you close your emulator before your achievements save, you must submit a [manual unlock](#how-do-i-request-a-manual-unlock).
 If you have a screenshot or recording of you earning the achievement, this is usually sufficient evidence, so be sure
 to take a screenshot of your achievements if you notice you are offline and are unable to reconnect.
-Please do not make a ticket if you earned the achievement, follow the manual unlock process.
+Please do not make a ticket if you earned the achievement. Follow the manual unlock process.
 
 ---
 
@@ -249,7 +249,7 @@ Please do not make a ticket if you earned the achievement, follow the manual unl
 ### Why can't I see my new profile picture?
 
 Press `Ctrl + F5` (on most browsers).
-Sometimes after you've changed your profile picture (also known as avatar or user pic) and you need to refresh your browser cache; in most browsers `Ctrl + F5` is the quickest way to do it.
+Sometimes after you've changed your profile picture (also known as avatar or user pic), you'll need to refresh your browser cache. In most browsers `Ctrl + F5` is the quickest way to do it.
 
 ### My welcome email has gone missing!
 
@@ -260,10 +260,10 @@ At the top you'll find the option to resend your registration email.
 
 ### How do I reset my password?
 
-Right Here:
+Right here:
 [https://retroachievements.org/resetPassword.php](https://retroachievements.org/resetPassword.php)
 
-On Site, front page, while not logged in:
+On the site's home page, while not logged in:
 
 ![reset password](/reset-password.png)
 
