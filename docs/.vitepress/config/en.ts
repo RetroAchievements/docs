@@ -64,6 +64,10 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
         //   link: "/general/setup-guide",
         // },
         {
+          text: "Glossary",
+          link: "/general/glossary",
+        },
+        {
           text: "Emulator Support",
           link: "/general/emulator-support-and-issues",
         },
