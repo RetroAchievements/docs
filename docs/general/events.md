@@ -34,13 +34,6 @@ The current achievement for the week is always listed on the front page. Feel fr
 
 This event has automatic tracking. As long as you earn the achievement, you won't have to do anything else!
 
-### Challenge League
-
-Current: Challenge League 8 – Cheevomon League
-* [Forum Topic](https://retroachievements.org/forums/topic/33815)
-
-A year-long challenge with requirements that shift each year. View the forum topic and hop in!
-
 ### RA Roulette (RAWR)
 
 Current (2026):
@@ -50,7 +43,16 @@ Current (2026):
 Since 2022, each week three random achievements on the site (with limited exceptions, such as no Kaizo or MMORPGs) are rolled for users to collect.
 Earn 52 in a year for a badge!
 
-Like with Achievement of the Week, tracking is automatic. You just need to earn the achievement that week to get credit!
+Like with Achievement of the Week, tracking is automatic. You only need to earn the achievement that week to get credit!
+
+### Challenge League
+
+Current: Challenge League 8 – Cheevomon League
+* [Forum Topic](https://retroachievements.org/forums/topic/33815)
+
+A year-long challenge with requirements that shift each year. View the forum topic and hop in!
+
+Unlike with the prior events, tracking is a lot more manual.
 
 ## Ongoing Events
 
@@ -83,7 +85,7 @@ An event where you have to master one game a day every day with no interruptions
 After 30 and 100 days, you get a badge!
 
 This event is ongoing, you can start and stop your streak whenever you'd like.
-But, if you want to participate, you must use the forum for tracking.
+However, if you want to participate, you must use the forum for tracking.
 
 ### PlayJam
 
@@ -96,18 +98,36 @@ An event centered around playing games from DevJam, an event for developers that
 These are the events that are currently active, allowing you to earn them.
 However, they are timed, meaning they will expire.
 
-| Event Name                             | Current Host(s) | Relevant Links                                                                                                          | More Info                |
-|----------------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------|
-| [DevJam](/developer-docs/devjam)       | televandalist   | [Forum Topic](https://retroachievements.org/viewtopic.php?t=22368)                                                      | Developer Event          |
-| [DevQuests](/developer-docs/devquests) | Various         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=13060)                                                      | Developer Event (Series) |
-| House Cleaning                         | Falcus          | [Forum Topic](https://retroachievements.org/viewtopic.php?t=21939)                                                      |                          |
-| On the Horizon                         | AuburnRDM       | [Forum Topic](https://retroachievements.org/viewtopic.php?t=25374)                                                      |                          |
-| Rack It Up                             | StingX2         | [Forum Topic](https://retroachievements.org/viewtopic.php?t=24535)                                                      |                          |
-| [Rollouts](/developer-docs/rollouts)   |                 |                                                                                                                         |                          |
+### Wii Launch Event
 
-## Community Events
+* [Forum Topic](https://retroachievements.org/forums/topic/34940)
 
+Started on March 19, 2026, and lasting until July 19, 2026, this event coincides with the Wii rollout that occurred on March 19.
 
+Users must beat (or master) any Wii game they choose to earn +1 point for each game beaten and +1 for each game mastered.
+After 15, 25, 35, and 50 points, you earn badges!
+
+Some games have special bounties, giving you multipliers on the points you'd get for beating or mastering, either a 2x or 3x multiplier.
+
+### Pixelheart RAve: Retro Dating Adventure
+
+* [Forum Topic](https://retroachievements.org/forums/topic/34627)
+
+A "Dating Sim" inspired event where players "meet" with various characters, picking polls to raise (or lower) their affinity level with each character.
+
+The event runs from February 24 to May 4, 2026.
+
+## Community Hosted Events
+
+* [Forum Topic](https://retroachievements.org/forums/topic/33889)
+
+Started in 2026, Community Hosted Events are a framework for players to host event ideas that are smaller in scope or do not meet the criteria of an event team hosted event.
+
+Unlike other events, which are hosted by the events team, these events are proposed by members of the RetroAchievements community,
+support a wider variety of event styles, are shorter, and allow softcore participation.
+However, they do not have their own badges. Instead, you earn points towards a central "Community Events" badge.
+
+To learn more about events, be sure to join the Discord server.
 
 ## Evergreen Events
 
@@ -126,4 +146,20 @@ A few, however, are non-automated. You need to put in extra effort to do tasks b
 For these, use the forum topic to hop in and see what you have to do.
 
 Several spreadsheets exist to help you on your manual journey to the non-automated badges.
-Read the forum topic to see the up to date list of events, more links to help you out, and more information if you're interested in hopping in!
+Read the forum topic to see the up-to-date list of events, more links to help you out, and more information if you're interested in hopping in!
+
+## Developer Events
+
+If you're a set developer, we have events for you, too!
+
+### DevJam
+
+An ongoing event for developers that are inspired by rollouts but are for consoles that already exist on the platform.
+
+See [the DevJam page](../developer-docs/devjam.md) for more information.
+
+### DevQuests
+
+A bunch of achievement development-related goals for developers to complete.
+
+See [the DevQuests page](../developer-docs/devquests.md) for more information.
