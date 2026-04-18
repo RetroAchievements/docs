@@ -109,8 +109,7 @@ See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Har
 
 ## Standalone
 
-Typically, all games run on an emulator. However, some games run standalone.
-Currently, there are just Terraria and Final Fantasy XI, but more may be added in the future.
+Typically, all games run on an emulator. However, some games run standalone (e.g. Final Fantasy XI and Terraria).
 You'll see these under "Standalone" or "EXE".
 
 Standalone games run as is, without an emulator, and require something else, like a mod, to get you connected to RetroAchievements.
