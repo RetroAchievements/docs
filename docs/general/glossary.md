@@ -24,7 +24,7 @@ Short for "Achievement".
 
 A core, also referred to as a libretro core, is essentially a program that runs through emulators like RetroArch, RALibretro, and BizHawk to play a particular game.
 
-For example, you might use the DeSmuMe or MelonDS DS core for Nintendo DS games.
+For example, you might use the DeSmuME or melonDS DS core for Nintendo DS games.
 
 You would manage all of this inside RetroArch and download the cores needed for the games there.
 This is why RetroArch is listed as supporting many systems.
