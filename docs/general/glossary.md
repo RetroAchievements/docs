@@ -11,7 +11,7 @@ Below is a list of terms used around the RetroAchievements site described to hel
 
 Awards, also sometimes referred to as badges, are given for completing various tasks.
 
-There are three different types of awards
+There are three different types of awards:
 * Event Awards – Given for completing [events](events.md).
 * Game Awards – Given for [completing](#completion) or [mastering](#mastery) game sets.
 * Site Awards – Special awards given out for completing certain tasks
