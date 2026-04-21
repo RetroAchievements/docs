@@ -8,7 +8,8 @@ description: Lists responsibilities of and instructions for the RetroAchievement
 The DevQuest team is responsible for processing DevQuest requests from developers, determining what games, sets, and other actions are appropriate for the various DevQuests, voting on cases related to this, and for planning new DevQuests and the rules for all DevQuests.
 
 [[toc]]
-
+## Membership Condition
+Members must be developer that have completed 8 distinct (no sequels) DevQuests. Recruitment is handled by the team itself and the team can decide not to extend invites for any reasons.
 
 ## DevQuest Team Responsibilities
 
@@ -250,11 +251,11 @@ When validating a leaderboard:
 ### DevQuest 017: RA World Cup
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
-- Both sports must be different.
-- One sport must be identifiable as a "physical" sport (i.e. American Football, Golf, Boxing, Volleyball, etc.)
+- All four sports must be different.
+- One sport must be identifiable as a "physical" sport (i.e. American Football, Golf, Boxing, Volleyball, etc.), for each badge
    - Most or all extreme sports would qualify too.
 - Motosports are considered sports for this quest. (More realistic car racing and motorcycle racing, etc.)
-- Collaborations are allowed
+- Collaborations are allowed.
 
 ### DevQuest 018: Subset Station
 
@@ -291,6 +292,7 @@ When validating a leaderboard:
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - Before awarding a badge, verify the developer completed at least one full dust off. There is a checkbox to mark this on the overall tracking sheet.
+- Each badge require a full dust-off. Cannot use 2 full dust-off from the first badge and gather 12 points from misc. tasks
 
 ### DevQuest 023: Well of Wishes
 
