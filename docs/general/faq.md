@@ -143,8 +143,8 @@ This method allows for faster communication or updates when needed as well as ea
 
 There are two ways you can send the request through the website.
 
-- Directly send a message to the [RAdmin](https://retroachievements.org/user/RAdmin) user with the title: **Manual Unlock Request**
-- On an individual achievements page follow the `Report an issue` link and then click the `Request Manual Unlock` button which will automatically format a message to [RAdmin](https://retroachievements.org/user/RAdmin) for you to edit and send.
+- Directly send a message to the [UnlockTeam](https://retroachievements.org/user/UnlockTeam) user with the title: **Manual Unlock Request**
+- On an individual achievements page follow the `Report an issue` link and then click the `Request Manual Unlock` button which will automatically format a message to [UnlockTeam](https://retroachievements.org/user/UnlockTeam) for you to edit and send.
 
 When sending a manual unlock request via the website your message <ins>must</ins> include all of the following details. Requests missing any of these items will be automatically denied without any follow-up:
 
@@ -152,7 +152,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
    - Provide a direct link to the Achievement ID(s) of the unlock(s) you’re requesting.
      - If your request contains more than three achievements then please also include a list of just the IDs in comma delimited format, ex. `123, 456, 789`.
-   - State whether the request is for softcore or hardcore unlocks.
+   - **State whether the request is for softcore or hardcore unlocks.**
 
 2. Broken Achievement Ticket:
 
@@ -197,7 +197,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
 3. **Submit Your Request:**
    - **Discord Users:** Post a message in [#unlock-requests](https://discord.com/channels/310192285306454017/1029858289221116104) following [this stickied thread](https://discord.com/channels/310192285306454017/1029858289221116104/threads/1029875838327463966)
-   - **Website Users:** While signed in to RetroAchievements.org, send a request to the RAdmin user with the required information listed above
+   - **Website Users:** While signed in to RetroAchievements.org, send a request to the UnlockTeam user with the required information listed above
 
 ### What if I got an achievement I didn't earn?
 

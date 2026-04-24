@@ -63,7 +63,6 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 - [Scott](https://retroachievements.org/user/Scott)
 - [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
-- [tele](https://retroachievements.org/user/tele)
 - [WCopeland](https://retroachievements.org/user/WCopeland)
 - [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
@@ -94,7 +93,6 @@ The team responsible for the adherence and driving updates to the [Developer's C
 
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [DoctorV](https://retroachievements.org/user/DoctorV)
-- [Excessiveiser](https://retroachievements.org/user/Excessiveiser)
 - [Fridge](https://retroachievements.org/user/Fridge)
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
 - [Hexadigital](https://retroachievements.org/user/Hexadigital)
@@ -114,7 +112,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [Darky](https://retroachievements.org/user/Darky)
-- [Raichi](https://retroachievements.org/user/Raichi)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
@@ -144,7 +141,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [suspect15](https://retroachievements.org/user/suspect15)
-- [thatbard](https://retroachievements.org/user/thatbard)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
 - [WheelsAndWhirls](https://retroachievements.org/user/WheelsAndWhirls)
@@ -156,26 +152,16 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 
 The team that is more involved with the tech side of things, whether it be the website, emulators, Discord bots, etc.:
 
-- [AlmightyXor](https://retroachievements.org/user/AlmightyXor)
-- [amine456](https://retroachievements.org/user/amine456)
-- [clymax](https://retroachievements.org/user/clymax)
-- [DanielARP](https://retroachievements.org/user/DanielARP)
 - [drisc](https://retroachievements.org/user/drisc)
 - [Jamiras](https://retroachievements.org/user/Jamiras)
 - [KickMeElmo](https://retroachievements.org/user/KickMeElmo)
 - [Krylan](https://retroachievements.org/user/Krylan)
-- [LootusMaximus](https://retroachievements.org/user/LootusMaximus)
 - [luchaos](https://retroachievements.org/user/luchaos)
-- [meleu](https://retroachievements.org/user/meleu)
-- [mosquitobird11](https://retroachievements.org/user/mosquitobird11)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [oddgoo](https://retroachievements.org/user/oddgoo)
 - [Scott](https://retroachievements.org/user/Scott)
 - [Searo](https://retroachievements.org/user/Searo)
-- [TeddyWestside](https://retroachievements.org/user/TeddyWestside)
-- [tele](https://retroachievements.org/user/tele)
-- [WCopeland](https://retroachievements.org/user/WCopeland)
-- [Xymjak](https://retroachievements.org/user/Xymjak)
+- [wes](https://retroachievements.org/user/wes)
 
 ### Sub-Team Leads
 
