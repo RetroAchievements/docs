@@ -245,7 +245,6 @@ An English release is considered a game released in English in US, Canada, UK, o
 ![DQ013](/devquest-013.png)
 
 **Type**: Revision, Maintenance  
-**Goal**: Provide significant content to three sets that are progression-only or were demoted due to being incomplete  
 **Goal**: Add achievements to complete three sets that were missing significant game content 
 **Repeatable**: Yes (Up to 3 times)
 
@@ -311,11 +310,9 @@ Each system ID will have an achievement associated with it. Newly supported syst
 ![DQ017](/devquest-017.png) ![DQ017](/devquest-017-2.png)
 
 **Type**: Set Creation  
-**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport  
-**Repeatable**: No
+**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport
 **Repeatable**: Yes (Up to 2 times)
 
-1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games.
 1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games. The sequel requires all 4 sports to be different.
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. No Homebrew/Hacks/Unlicensed.
@@ -467,7 +464,6 @@ Each system ID will have an achievement associated with it. Newly supported syst
 - Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
 - Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
 - Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy
-- Earn a point towards [DQ2](#_002-retro-renovator) Retro Renovator or [DQ13](#013-complete-me) complete.me
 - Earn a point towards [DQ2](#_002-retro-renovator) Retro Renovator or [DQ13](#_013-complete-me) complete.me
 - Make a set for [DQ16](#_016-wish-this-set) Wish This Set
 
