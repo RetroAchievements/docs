@@ -61,6 +61,7 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.
 5. Contact the DevQuest team with any questions you have.
 6. When the set is ready mark it down on the doc under your name to be signed off by a DevQuest Member.
+7. If QA-maintainers/DevCompliance approve of a replacement set for a game with a set demoted for being broken beyond repairs, publishing such a replacement set can grant credit towards this quest like other repairs.
 
 - If you identify a set you believe should qualify for DQ2, notify the DevQuest team for addition to the list and development of a repair plan prior to claiming. All claims must be on the list.
 
