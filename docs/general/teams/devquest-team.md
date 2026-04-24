@@ -9,7 +9,7 @@ The DevQuest team is responsible for processing DevQuest requests from developer
 
 [[toc]]
 ## Membership Condition
-Members must be developer that have completed 8 distinct (no sequels) DevQuests. Recruitment is handled by the team itself and the team can decide not to extend invites for any reasons.
+Members must be developers that have completed 8 distinct (no sequels) DevQuests. Recruitment is handled by the team itself and the team can decide not to extend invites for any reasons.
 
 ## DevQuest Team Responsibilities
 
@@ -252,7 +252,7 @@ When validating a leaderboard:
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - All four sports must be different.
-- One sport must be identifiable as a "physical" sport (i.e. American Football, Golf, Boxing, Volleyball, etc.), for each badge
+- Each badge must have one sport identifiable as a "physical" sport (i.e. American Football, Golf, Boxing, Volleyball, etc.)
    - Most or all extreme sports would qualify too.
 - Motosports are considered sports for this quest. (More realistic car racing and motorcycle racing, etc.)
 - Collaborations are allowed.
