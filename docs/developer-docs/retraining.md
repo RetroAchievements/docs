@@ -5,7 +5,7 @@ description: Provides a framework to retrain developers
 
 # Retraining
 
-Developers with weaknesses in either set design or toolkit proficiency can have to go through retraining. When this happens, the Developer Compliance and Code Review teams jointly discuss and have to agree that retraining is in order for it to take place. During that discussion, the teams have to discuss if the developer has to go through the junior program again, or if they can go through retraining as described here.
+Developers with weaknesses in either set design or toolkit proficiency may have to go through retraining. When this happens, the Developer Compliance and Code Review teams jointly discuss and have to agree that retraining is in order for it to take place. During that discussion, the teams have to discuss if the developer has to go through the junior program again, or if they can go through retraining as described here.
 
 To be eligible for retraining, the developer must:
 - Be proficient in either set design or with the toolkit, but lacking in the other. Retraining is to address issues with one of the two, not both at the same time. If the team deems the developer weak in both, retraining via the junior program is mandatory.
