@@ -292,7 +292,7 @@ When validating a leaderboard:
 
 - Has both an overall tracking and a claims sheet. Don't forget to update both.
 - Before awarding a badge, verify the developer completed at least one full dust off. There is a checkbox to mark this on the overall tracking sheet.
-- Each badge require a full dust-off. Cannot use 2 full dust-off from the first badge and gather 12 points from misc. tasks
+- Each badge requires a full dust-off. Cannot use 2 full dust-off from the first badge and gather 12 points from misc. tasks
 
 ### DevQuest 023: Well of Wishes
 
