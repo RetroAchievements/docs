@@ -2,29 +2,25 @@
 
 ## What are DevQuests?
 
-DevQuests are achievement development-related quests that developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn a badge.
+DevQuests are achievement development-related quests that developers can take part in at any time. Each one has a specific goal and upon reaching that goal, the achievement developer will earn a badge. 
 
 ## General Rules
-
-Outside exceptions explicitely written in the individual quest rules, quests of each type follow the general rules below:
-
+Outside exceptions explicitly written in the individual quest rules, quests of each type follow the general rules below:
 - DevQuests are not available for Junior Developers.
 - To be awarded credit towards a quest, ping the team via a Discord ping in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002) or via [site message](https://retroachievements.org/messages/create?to=DevQuest) within one week of completion, with a link to the appropriate achievement page.
 - Collaborations and subsets are not allowed by default.
-- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#_016-wish-this-set). If this happens while you are _less_ than halfway done, please reach out to the team to confirm eligibility.
+- If you are working on a set and it becomes eligible to a DevQuest, it cannot be used if 50% of the work is already done. This can happen when new quests are introduced, when a set receives enough requests to be eligible for [DQ7](#007-most-wanted) or when a set is featured in Wish This Set, making it eligible for [DQ16](#_016-wish-this-set). If this happens while you are *less* than halfway done, please reach out to the team to confirm eligibility.
 
 Type specific rules:
 
 **Set-Creation**
-
 - Making a set can only contribute to a single quest. For example, if you make a set for a Japan-exclusive game with a female protagonist that was featured on Wish This Set, you have to choose between [DQ8](#_008-world-traveler), [DQ16](#0_16-wish-this-set) and [DQ24](#_024-she-s-got-this), you don't get all three.
 - Standard set quality or better is expected for DevQuest sets. If a set appears to be of insufficient effort, it may be rejected at the DevQuest team's discretion. Rich Presence is required for DevQuest sets. The DevQuest team is happy to suggest improvements for qualification.
 
 **Maintenance**
-
 - You cannot be an original author on the set being maintained.
 - General revision rules apply: contact the active authors on sets whose content you will update or add to. Moreover, discussions, dev votes and revision claims are required when adding new achievements to a set.
-- Every action can only contribute to a single quest. For example, if you repair a set for [DQ2](#_002-retro-renovator), resolving tickets is part of that task, so these tickets cannot be tallied up towards [DQ1](#_001-ticket-massacre). However, some sets can benefit from different independant actions in a way that yields credits towards multiple DevQuests. If you add a rich presence, leaderboards and revise a set to cover content that was missing before, you could get credit for DQ13, DQ14 and DQ22.
+- Every action can only contribute to a single quest. For example, if you repair a set for [DQ2](#_002-retro-renovator), resolving tickets is part of that task, so these tickets cannot be tallied up towards [DQ1](#_001-ticket-massacre).  However, some sets can benefit from different independant actions in a way that yields credits towards multiple DevQuests. If you add a rich presence, leaderboards and revise a set to cover content that was missing before, you could get credit for DQ13, DQ14 and DQ22.
 - For revision quests ([DQ2](#_002-retro-renovator), [DQ13](#_013-complete-me) and [DQ22](#0_22-this-belonged-in-a-museum) Dust-offs), the game needs to be in the approved list. You may propose games you feel should qualify prior to working on them and the team will determine if it fits the quest. While [DQ13](#_013-complete-me) credit can sometimes be granted along [DQ2](#_002-retro-renovator) or [DQ22](#_022-this-belonged-in-a-museum), this is up to a team vote and should only be allowed when both the current content and missing content require significant work.
 - When you update the logic of any asset, keep a backup of the old logic posted in the game's official forum for reference.
 - For miscellaneous maintenance quests ([DQ1](#_001-ticket-massacre), [DQ3](#_003-singles-in-your-area), [DQ5](#_005-trigger-happy) and [DQ14](#_014-laudable-leaderboards)), create a column in the DevQuest Remastered sheet to the left of completed entries and fill it in as you work. Contact the DevQuest team for review only after you have completed the quest. For quests that can be repeated, one row of the column will be for which badge number you are working towards.
@@ -32,7 +28,6 @@ Type specific rules:
 **Legacy**
 
 Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) and [DQ20](#_020-genre-conqueror)) are fully retroactive and are awarded for having an extensive and wide portfolio as a developer.
-
 - You may request to be tracked for these after reaching some minimum threshold as determined in the rules of each individual quests.
 - Following that first tracking request, updates are made in sweeps periodically; this means you don't have to (and shouldn't) ping the team every time you complete a new set that adds to your portfolio. Every couple months, the dev responsible for the sweeps for that particular quest will update the status of everyone being tracked and announce the progress in [`#devquest`](https://discord.com/channels/310192285306454017/842845740078334002).
 
@@ -66,6 +61,7 @@ Legacy quests ([DQ4](#_004-veteran-developer), [DQ15](#_015-console-conqueror) a
 4. Revisions must fix everything specified in the repair plan. Contact the DevQuest team for any clarifications to what is included in the repair plan.
 5. Contact the DevQuest team with any questions you have.
 6. When the set is ready mark it down on the doc under your name to be signed off by a DevQuest Member.
+7. If QA-maintainers/DevCompliance approve of a replacement set for a game with a set demoted for being broken beyond repairs, publishing such a replacement set can grant credit towards this quest like other repairs.
 
 - If you identify a set you believe should qualify for DQ2, notify the DevQuest team for addition to the list and development of a repair plan prior to claiming. All claims must be on the list.
 
@@ -130,23 +126,19 @@ A constantly evolving toolkit means that these requirements are subject to chang
 
 - PC Engine CD
 - Sega CD
-- 32X
 - Atari Lynx
 - Neo Geo Pocket/Neo Geo Pocket Color
 - Atari Jaguar
-- Apple II
 - 3DO Interactive Multiplayer
 - ColecoVision
 - Intellivision
 - PC-8800/PC-8000
-- Atari 7800
 - Wonderswan/Wonderswan Color
 - Magnavox Odyssey 2
 - PC-FX
 - Amstrad CPC
-- Arduboy
-- WASM-4
 - Nintendo DSi
+- Famicom Disk System
 
 ::: warning NOTE
 No hacks or homebrew unless those are the only types of games left without sets.
@@ -197,11 +189,12 @@ An English release is considered a game released in English in US, Canada, UK, o
 **Repeatable**: No
 
 - Must be a full set (to the extent of the games capabilities, See Watara vs PSP)
+- For bigger systems, credit will be given to developers contributing at least 40 achievements in a collaboration
 - Smaller systems may be ruled ineligible
 
 #### Current Launch Party Promotion Windows:
 
-- Nintendo Wii
+- Nintendo Wii (until September 19, 2026)
 
 ### 010 [It Takes Two](https://retroachievements.org/game/15939)
 
@@ -252,7 +245,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 ![DQ013](/devquest-013.png)
 
 **Type**: Revision, Maintenance  
-**Goal**: Provide significant content to three sets that are progression-only or were demoted due to being incomplete  
+**Goal**: Add achievements to complete three sets that were missing significant game content 
 **Repeatable**: Yes (Up to 3 times)
 
 1. Choose from a provided list or grab one from a hub, just make sure you let us know when you start so we can mark it!
@@ -312,15 +305,15 @@ Each system ID will have an achievement associated with it. Newly supported syst
 5. If you already have a set claimed at the time it becomes eligible for this DevQuest you must be under 50% progress for it to count.
 6. Once a game has been featured it remains eligible until the game gets a set.
 
-### 017 [RA World Cup](https://retroachievements.org/game/15942)
+### 017 [RA World Cup](https://retroachievements.org/game/15942), [RA World Series](https://retroachievements.org/event/211-devquest-017-ii-ra-world-series)
 
-![DQ017](/devquest-017.png)
+![DQ017](/devquest-017.png) ![DQ017](/devquest-017-2.png)
 
 **Type**: Set Creation  
-**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport  
-**Repeatable**: No
+**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport
+**Repeatable**: Yes (Up to 2 times)
 
-1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games.
+1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games. The sequel requires all 4 sports to be different.
 2. Must be full sets containing all content and challenges appropriate to the game.
 3. No Homebrew/Hacks/Unlicensed.
 4. New sets only. No multiplayer subsets or revisions.
@@ -408,19 +401,19 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 **Type**: Revision, Maintenance  
 **Goal**: Obtain 12 Points by dusting off older sets, bringing them up to current RA standards  
-**Repeatable**: No
+**Repeatable**: Yes (Up to 2 times)
 
 1. The quest is completed upon obtaining 12 points towards its goals.
    - Full Set Dust-Off = 4 Points
    - Miscellaneous Task = 1 Point
-   - At least one set dust-off required for the badge.
+   - At least one set dust-off required for each badge.
 2. Full Set Dust-Off: Clean up old code notes, update achievement logic for modern best practices (removing unnecessary Hits and Resets to use Delta checks instead, for example), update with cleaner badges, update descriptions and achievement titles, new dynamic RP.
 3. Misc Tasks: Update a set in order to remove it from the following QA Hubs. Doesn't stack with a Full Set Clearing.
    - [No Dynamic RP](https://retroachievements.org/game/3083)
    - [Player-Input RP](https://retroachievements.org/game/28506)
    - [Single Save Support](https://retroachievements.org/game/28449)
    - [Outdated Version](https://retroachievements.org/hub/29482)
-     - If you identify a set you believe should qualify for a task like this, simply request approval from the team. Providing support to an updated version of a hack, homebrew or language patch will yield 1 point regardless of if it was tagged as outdated, provided the update required actual logic updates and/or adding achievements to cover added content.
+   - If you identify a set you believe should qualify for a task like this, simply request approval from the team. Providing support to an updated version of a hack, homebrew or language patch will yield 1 point regardless of if it was tagged as outdated, provided the update required actual logic updates and/or adding achievements to cover added content.
 4. No collaboration allowed.
 5. Sets are subject to DevQuest team approval, along with a small plan on what the dust-off will be about. Sets already in the approved DQ22 list do not require approval, only notification.
 6. Badge updates must go through the Icon-Gauntlet revision process.
@@ -466,23 +459,20 @@ Each system ID will have an achievement associated with it. Newly supported syst
 6. Each point of credit (equivalent to one set) must have a different female character as the protagonist (or different ensemble of female characters)
 
 ## Wheel Spin DevQuest Rules
-
 [DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
-
 - Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
 - Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
 - Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy
-- Earn a point towards [DQ2](#_002-retro-renovator) Retro Renovator or [DQ13](#013-complete-me) complete.me
+- Earn a point towards [DQ2](#_002-retro-renovator) Retro Renovator or [DQ13](#_013-complete-me) complete.me
 - Make a set for [DQ16](#_016-wish-this-set) Wish This Set
 
 Refreshing your spin this way can only be done while your spin is used up. For example, you cannot use an old Wish This Set game you made prior to spinning.
 
-## New DevQuests and suggestions
+## New DevQuests and Suggestions
 
-- New quests will be available periodically. There is no fixed schedule for these.
-- If you have suggestions for a DevQuest, send a message to the DevQuest account with the following info:
-  - **Quest Name**
-  - **Award Type** - If there is one specific goal then you would want a badge-based award. If there are multiple goals then you would want an achievement-based award.
-  - **Game Type** - State whether hacks, homebrews, prototypes, unlicensed, and/or subsets are allowed.
-  - **Goal(s)** - A brief description of the DevQuest. Examples: "Develop a set for such-and-such system," "Develop a Holiday-Themed Set," "Create Dynamic Rich Presence for 10 Games," etc.
-  - **Rules** - List any specific guidelines and criteria that submissions must meet. Is there a minimum achievement count? Are there minor exceptions that result in half-credit? Do submissions need to be pre-approved? The more simple they are, the better!
+New quests will be available periodically. There is no fixed schedule for these. If you have suggestions for a DevQuest, send a message to the DevQuest account with the following info:
+- **Quest Name**
+- **Award Type** - If there is one specific goal then you would want a badge-based award. If there are multiple goals then you would want an achievement-based award.
+- **Game Type** - State whether hacks, homebrews, prototypes, unlicensed, and/or subsets are allowed.
+- **Goal(s)** - A brief description of the DevQuest. Examples: "Develop a set for such-and-such system," "Develop a Holiday-Themed Set," "Create Dynamic Rich Presence for 10 Games," etc.
+- **Rules** - List any specific guidelines and criteria that submissions must meet. Is there a minimum achievement count? Are there minor exceptions that result in half-credit? Do submissions need to be pre-approved? The more simple they are, the better!

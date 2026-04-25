@@ -306,6 +306,10 @@ function sidebarDeveloperDocs(): DefaultTheme.SidebarItem[] {
           link: "/developer-docs/am-i-ready-for-review",
         },
         {
+          text: "Retraining",
+          link: "/developer-docs/retraining",
+        },
+        {
           text: "Emulator Setup for Developers",
           link: "/developer-docs/emulator-setup-for-developers",
         },
