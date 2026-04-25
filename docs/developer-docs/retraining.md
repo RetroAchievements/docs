@@ -19,7 +19,7 @@ While in retraining, the developer:
 
 At the start of the process, the teams will:
 - Clearly identify at least 5 sets that require a revision, explicitly identifying issues.
-- Set a clear road map for progress towards the end of retraining. This does not need an exhaustive list of problematic sets to fix for large portfolios, but needs to be comprehensive so everyone involved can clearly identify what issues are left to handle.
+- Set a clear road map for progress towards the end of retraining. This does not need to be an exhaustive list of problematic sets to fix for large portfolios, but needs to be comprehensive so everyone involved can clearly identify what issues are left to address.
 - Set clear expectations for progress. The developer is expected to apply recommendations for one revision to the next ones, requiring less oversight as things go on.
 
 For retraining restrictions to be lifted, the developer must:
