@@ -401,7 +401,6 @@ Each system ID will have an achievement associated with it. Newly supported syst
 
 **Type**: Revision, Maintenance  
 **Goal**: Obtain 12 Points by dusting off older sets, bringing them up to current RA standards  
-**Repeatable**: No
 **Repeatable**: Yes (Up to 2 times)
 
 1. The quest is completed upon obtaining 12 points towards its goals.
