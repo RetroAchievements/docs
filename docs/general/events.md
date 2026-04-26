@@ -138,7 +138,8 @@ To learn more about events, be sure to join the Discord server.
 
 ## Evergreen Events
 
-* [Forum Topic](https://retroachievements.org/forums/topic/25332)
+* [Information Thread](https://retroachievements.org/forums/topic/35617)
+* [Forum Topic for Submissions and Discussions](https://retroachievements.org/forums/topic/25332)
 
 Evergreen events are untimed versions of concluded timed events that allow participants to delve into events of the past and be rewarded if they are up to the challenge.
 
@@ -147,13 +148,15 @@ For example, the original event may have let you do only a few achievements, whi
 
 Due to the nature of Evergreen, being untimed, you have as long as you are on RetroAchievements to complete them.
 
-Several events are automated, meaning you just need to earn all the required achievements to get the badge.
+Several events are automated, meaning you only need to earn all the required achievements to get the badge.
 
-A few, however, are non-automated. You need to put in extra effort to do tasks beyond just earning achievements, or earning non-specific achievements.
+A few, however, are non-automated. You need to put in extra effort to do tasks beyond just earning achievements or earning non-specific achievements.
 For these, use the forum topic to hop in and see what you have to do.
 
 Several spreadsheets exist to help you on your manual journey to the non-automated badges.
 Read the forum topic to see the up-to-date list of events, more links to help you out, and more information if you're interested in hopping in!
+
+To view a list of all evergreen events, use the information thread above.
 
 ## Developer Events
 
