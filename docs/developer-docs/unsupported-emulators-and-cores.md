@@ -99,6 +99,17 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❓ BizHawk core: **ChannelFHawk**
 
+## Famicom Disk System
+
+- ❌ libretro core: **FCEUmm**
+  - Does not expose extra FDS RAM
+- ❌ libretro core: **QuickNES**
+  - Does not emulate the disk system
+- ❌ libretro core: **NEStopia**
+  - Does not expose extra FDS RAM
+- ❓ libretro core: **Emux NES**
+- ❓ libretro core: **fixNES**
+
 ## FM Towns
 
 - ❌ _Not supported_ - needs hashing method and memory map
