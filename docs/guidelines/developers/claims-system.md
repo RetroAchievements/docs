@@ -115,7 +115,7 @@ Refer to the [Games With Parallel Releases](/guidelines/content/games-with-paral
 - You may not claim a merged set. Example: May not make a claim for *Pokémon Black Version | Pokemon White Version*. These releases must have separate sets.
 - You may not claim a parallel version of a game for which you've already made another set. Example: Cannot make a set for [Pokémon White](https://retroachievements.org/game/16211) if you have claim for or already made a set for [Pokémon Black](https://retroachievements.org/game/3887)
 
-### Post-Rollout Compilation Claims:
+### Post-Rollout Compilation Set Claims:
 
 Upon completion of a rollout, compilation sets for that system shall become eligible for claims. Special rules shall apply to these claims, and will proceed through the following phases:
 
@@ -135,7 +135,7 @@ Upon completion of a rollout, compilation sets for that system shall become elig
    - Collaborators may not work on a game they have already worked on in another platform.
    - After the form's time period has ended, the results will be provided to the primary claimant.
    - The primary claimant is then free to talk to the interested collaborators and determine who is working on which games in the compilation.
-4. Any cames unclaimed after this process shall revert to standard claim rules.
+4. Any games unclaimed after this process shall revert to standard claim rules.
 
 ::: info REASON FOR SPECIAL RULES
 These rules are in place to ensure a fair chance for any developer to work on these compilation sets immediately as they become available, rather than whomever happens to be awake when the rollout ends. They are designed to give everyone interested a chance to work on these sets.
