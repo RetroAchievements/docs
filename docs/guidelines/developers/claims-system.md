@@ -114,3 +114,29 @@ Refer to the [Games With Parallel Releases](/guidelines/content/games-with-paral
 
 - You may not claim a merged set. Example: May not make a claim for *Pokémon Black Version | Pokemon White Version*. These releases must have separate sets.
 - You may not claim a parallel version of a game for which you've already made another set. Example: Cannot make a set for [Pokémon White](https://retroachievements.org/game/16211) if you have claim for or already made a set for [Pokémon Black](https://retroachievements.org/game/3887)
+
+### Post-Rollout Compilation Set Claims:
+
+Upon completion of a rollout, compilation sets for that system shall become eligible for claims. Special rules shall apply to these claims, and will proceed through the following phases:
+
+1. Developer Compliance shall create a poll: "Which of these compilations are you interested in claiming as the primary claimant at this time?"
+   - The poll shall be multiple choice.
+   - For each choice, developers will mark down any they'd be willing to claim at the current time.
+   - There must be at least one game in the compilation that the dev has not worked on in order to be eligible as the primary claimant.
+   - The poll shall last 1 week.
+2. At the end of the polling period:
+   - Any games with no interest shall revert to standard claim rules.
+   - A lottery will be held for games with multiple developers interested in the primary claim. This lottery will be done live with a witness via wheel spin or other similar random method.
+   - Lottery selections will be offered the primary claims for each game that garnered interest.
+   - This process will be repeated as necessary (i.e. if a selected developer turns down the primary claim)
+   - Claims made under this special claims period must be collaborations if there are interested collaborators.
+   - Collaborators may not work on multiple games in the compilation, unless there are fewer interested developers than there are games in the compilation.
+3. For each game, interested collaborators will be given a form to fill out to poll which games in the compilation they are interested in developing, and which games in the compilation they have worked on.
+   - Collaborators may not work on a game they have already worked on in another platform.
+   - After the form's time period has ended, the results will be provided to the primary claimant.
+   - The primary claimant is then free to talk to the interested collaborators and determine who is working on which games in the compilation.
+4. Any games unclaimed after this process shall revert to standard claim rules.
+
+::: info REASON FOR SPECIAL RULES
+These rules are in place to ensure a fair chance for any developer to work on these compilation sets immediately as they become available, rather than whomever happens to be awake when the rollout ends. They are designed to give everyone interested a chance to work on these sets.
+:::

@@ -51,6 +51,13 @@ It's worth noting that these are general guidelines that apply to all rollouts. 
 - **Step 10: Launch Preparation** - Once the rollout is nearing completion, other teams such as RANews and the Events Team are contacted so they can make their own preparations related to the rollout.
 - **Step 11: Launch Day** - The new system is released and developers promote their sets, or RAdmin will promote the new sets if the developers are unavailable. Players may now play sets featuring the new system! Note: for developers, the sign-off period will persist for a month after launch day, meaning that sets will still need to be checked by both the Writing and Rollout teams.
 
+## Ineligible Sets During Rollout
+The following kinds of sets are not allowed to be claimed during rollout:
+
+- Compilations of games for other systems.
+  - Note: Special claims rules take effect for these once rollout ends. See [Post-Rollout Compilation Set Claims](/guidelines/developers/claims-system#post-rollout-compilation-set-claims) in the Claims System document.
+- Compilations of games present for the same system (disallowed by compilation rules)
+
 ## Previous Rollouts
 
 | Launch Date |                            Console                            | Number of Sets on Launch Day |                           Relevant Links                           |
