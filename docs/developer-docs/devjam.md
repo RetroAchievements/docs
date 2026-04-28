@@ -53,17 +53,18 @@ A DevJam lasts three months. Some will go on longer if the situation calls for i
 
 Check the links here for console-specific guidelines and info:
 
-| Number |          Time           |                       Console(s)                       | Number of Participants | Sets Promoted |
-| :----: | :---------------------: | :----------------------------------------------------: | :--------------------: | :-----------: |
-|   01   | 2023-07-01 - 2023-09-30 |    [Sega SG-1000](/developer-docs/devjam/1-sg1000)     |           30           |      60       |
-|   02   | 2023-10-01 - 2024-01-31 |     [Sega Saturn](/developer-docs/devjam/2-saturn)     |           28           |      56       |
-|   03   | 2024-02-01 - 2024-04-30 | [PC Engine/PC Engine CD](/developer-docs/devjam/3-pce) |           28           |      60       |
-|   04   | 2024-05-01 - 2024-08-31 |       [Arcade](/developer-docs/devjam/4-arcade)        |           33           |      80       |
-|   05   | 2024-09-01 - 2024-11-30 |    [PC-8001/PC-8801](/developer-docs/devjam/5-pc88)    |           25           |      40       |
-|   06   | 2024-12-01 - 2025-03-16 |      [Apple II](/developer-docs/devjam/6-appleii)      |           20           |      40       |
-|   07   | 2025-04-01 - 2025-06-30 |   [Sega CD/32X](/developer-docs/devjam/7-segacd-32x)   |           27           |      40       |
-|   08   | 2025-07-01 - 2025-09-30 |          [MSX](/developer-docs/devjam/8-msx)           |           26           |      79       |
-|   09   | 2026-02-01 - 2025-04-30 |     [Catch-Up](/developer-docs/devjam/9-catch-up)      |           ??           |      ??       |
+| Number |          Time           |                                 Console(s)                                 | Number of Participants | Sets Promoted |
+| :----: | :---------------------: | :------------------------------------------------------------------------: | :--------------------: | :-----------: |
+|   01   | 2023-07-01 - 2023-09-30 |              [Sega SG-1000](/developer-docs/devjam/1-sg1000)               |           30           |      60       |
+|   02   | 2023-10-01 - 2024-01-31 |               [Sega Saturn](/developer-docs/devjam/2-saturn)               |           28           |      56       |
+|   03   | 2024-02-01 - 2024-04-30 |           [PC Engine/PC Engine CD](/developer-docs/devjam/3-pce)           |           28           |      60       |
+|   04   | 2024-05-01 - 2024-08-31 |                 [Arcade](/developer-docs/devjam/4-arcade)                  |           33           |      80       |
+|   05   | 2024-09-01 - 2024-11-30 |              [PC-8001/PC-8801](/developer-docs/devjam/5-pc88)              |           25           |      40       |
+|   06   | 2024-12-01 - 2025-03-16 |                [Apple II](/developer-docs/devjam/6-appleii)                |           20           |      40       |
+|   07   | 2025-04-01 - 2025-06-30 |             [Sega CD/32X](/developer-docs/devjam/7-segacd-32x)             |           27           |      40       |
+|   08   | 2025-07-01 - 2025-09-30 |                    [MSX](/developer-docs/devjam/8-msx)                     |           26           |      79       |
+|   09   | 2026-02-01 - 2026-04-30 |               [Catch-Up](/developer-docs/devjam/9-catch-up)                |           ??           |      ??       |
+|   10   | 2026-05-01 - 2026-07-31 | [Master System/Game Gear](/developer-docs/devjam/10-mastersystem-gamegear) |           ??           |      ??       |
 
 ## Planned DevJams
 
@@ -71,10 +72,10 @@ Solo Console DevJams:
 
 - 3DO
 - Famicom Disk System
+- Nintendo DS
 
 Multi-Console DevJams:
 
-- Master System | Game Gear
 - Neo Geo Pocket | WonderSwan | Atari Lynx
 - Atari 2600 | Atari 7800 | Atari Jaguar
 - ColecoVision | Intellivision
