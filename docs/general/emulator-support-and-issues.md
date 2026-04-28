@@ -55,6 +55,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 | Name                                                  | Type                | Notes |
 | :---------------------------------------------------- | :------------------ | :---- |
+| **AmiArcadia**                                        | libretro core       |       |
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
@@ -119,6 +120,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 | Name                                                  | Type                | Notes |
 | :---------------------------------------------------- | :------------------ | :---- |
+| **AmiArcadia**                                        | libretro core       |       |
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
@@ -211,6 +213,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 
 | Name                                                  | Type                | Notes |
 | :---------------------------------------------------- | :------------------ | :---- |
+| **AmiArcadia**                                        | libretro core       |       |
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
