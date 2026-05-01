@@ -17,7 +17,7 @@ Here are golden rules of subset design:
 
 4. **Precedent should be taken with a grain of salt when it comes to subsets**. A challenge being interesting in one game *despite* going against conventional wisdom does not mean that it's reasonable elsewhere. This means that the same idea can be good in one context and bad in another, and that's ok.
 
-5. **Problematic base set achievements should be revised or demoted, not pushed to a subset.** It can be tempting to try and salvage a concept by pushing it to a subset, potentially extending or iterating on it. Revising an achievement so it is appropriate for the base set is almost always the address problems when the concept is interesting. Inclusion in a subset is not something that should be done in a rush as a half measure to avoid demotion; demote first, then consider if the idea fits into a subset that is complete and coherent.
+5. **Problematic base set achievements should be revised or demoted, not pushed to a subset.** It can be tempting to try and salvage a concept by pushing it to a subset, potentially extending or iterating on it. Revising an achievement so it is appropriate for the base set is almost always the best way to address problems when the concept is interesting. Inclusion in a subset is not something that should be done in a rush as a half measure to avoid demotion; demote first, then consider if the idea fits into a subset that is complete and coherent.
 
 The following are common subset archetypes:
 - [Multiplayer](#multiplayer)
@@ -40,7 +40,7 @@ For games where multiplayer is core to the experience, it is recommended to make
 
 Multiplayer subsets must be called `GameName [Subset - Multiplayer]`.
 
-Examples: https://retroachievements.org/game/814?set=7714 https://retroachievements.org/game/25451?set=9556
+Examples: [Kirby Super Star - Multiplayer](https://retroachievements.org/game/814?set=7714),  [Mario Party 5 - Multiplayer](https://retroachievements.org/game/25451?set=9556)
 ### Glitch Showcase
 
 Glitching can have unpredictable effects in a game's memory, which can result in unwanted behavior for some achievements, thus making them not suitable for a base set. However many glitches can add fun or interesting gameplay, effects, or just silly actions and may be worth highlighting outside of the base set.
@@ -49,7 +49,7 @@ When researching glitches, one should evaluate their feasibility. Glitches are o
 
 Glitch Showcase subsets must be called `GameName [Subset - Glitch Showcase]`.
 
-Examples: https://retroachievements.org/game/10210?set=8397 https://retroachievements.org/game/10154?set=33103
+Examples: [Banjo-Kazooie - Glitch Showcase](https://retroachievements.org/game/10210?set=8397),  [Paper Mario - Glitch Showcase](https://retroachievements.org/game/10154?set=33103)
 ### Excessive Grinds
 
 When challenges involve overly long grinds, be it due to low odds of obtaining certain items or simply because of the time involved, they can sometimes make for good subsets. Remember that these can be good ideas *despite* being overly long. You should always think about the experience of the player; what is motivating the player to complete the grind? Gaining access to a wide variety of things along the way is more enjoyable and varied than simply leveling anything one can think of to max level when there are no significant changes in the process.
@@ -58,7 +58,7 @@ Another common pitfall is removing content from the base set because it is cover
 
 When designing a grind subset, you have to evaluate the expected time it takes to master. The level of grouping as well as scoring have to reflect the time spent.
 
-Examples: https://retroachievements.org/game/788?set=32993 https://retroachievements.org/game/264?set=7250
+Examples: [Pokémon LeafGreen Version - Professor Oak Challenge](https://retroachievements.org/game/788?set=32993),  [EarthBound - Rare Drops](https://retroachievements.org/game/264?set=7250)
 
 ### Exhaustive Challenge Runs
 
@@ -66,7 +66,7 @@ A common subset structure is to have the most challenging 1-3 achievements in a 
 
 When designing this type of subset, make sure that the experience is significantly different between different characters. The series can become pointless if the same strategies can more or less be re-used for multiple characters.
 
-Examples: https://retroachievements.org/game/5853?set=35101 https://retroachievements.org/game/9602?set=37197
+Examples: [Pokémon Black Version 2 - Monotype Challenge](https://retroachievements.org/game/5853?set=35101),  [Super Smash Bros. Melee - Very Hard Runs](https://retroachievements.org/game/9602?set=37197)
 
 ### Brutal Full Game Runs
 
@@ -76,7 +76,7 @@ While frustration is expected in these types of subsets, it should come from the
 
 Strong full game run achievements are very difficult, but fair, and are not arbitrary goals. Challenges like speedruns, low level games or extremely high scores can be great, but conditions cannot be arbitrarily selected. Speedruns should be for going under community recognized barriers, or under thresholds only reachable using glitches, low level games should be at theoretical minimums, or justify why the targets have some leeway, and high scores should similarly either follow a community target or reach an actual maximum unfit for a base set. 
 
-Examples: https://retroachievements.org/game/1449?set=35581 https://retroachievements.org/game/1453?set=4345
+Examples: [Final Fantasy - Low Level Game](https://retroachievements.org/game/1449?set=35581),  [Zelda II: The Adventure of Link - Level-1 Runs](https://retroachievements.org/game/1453?set=4345)
 ### Community Recognized Challenges
 
 Community recognition is often indicative of good subset ideas. While these often fall in one of the categories above, being recognized by a community means that the concept was deemed interesting somewhere outside RA, making it a strong candidate.
@@ -85,19 +85,19 @@ Some challenges that are popular outside of RA sadly can be impossible to track 
 
 Consider requesting feedback from experts in the game's community. They often are the best people to assess the difficulty of challenges and are usually happy to help.
 
-Examples: https://retroachievements.org/game/7693?set=37503 https://retroachievements.org/game/10003?set=34377
+Examples: [Mario Kart: Double Dash!! - Hero](https://retroachievements.org/game/7693?set=37503),  [Super Mario 64 - A Button Challenge](https://retroachievements.org/game/10003?set=34377)
 
 ### RA Community Custom Content
 
 If a game has a feature that allows players to make their own content such as custom levels, then a subset featuring content made by the RA community can be a great idea. Organizing with the Event team can lead to fun community projects.
 
-Examples: https://retroachievements.org/game/8929?set=7769 https://retroachievements.org/game/2993?set=27843
+Examples: [Irritating Stick - IrRAtating Custom Courses](https://retroachievements.org/game/8929?set=7769),  [Tony Hawk's Underground - RAdical Custom Goals & Gaps](https://retroachievements.org/game/2993?set=27843)
 
 ### Expansions and Games Inside Games
 
 It is recommended to cover content from expansions, DLC, and unlocked games whenever it is reasonable to do so. When that content is either fundamentally different, very difficult to access, or too extensive to cover in the base set, a subset can be a good way to cover that content. These are for exceptional cases
 
-Examples: https://retroachievements.org/game/3154?set=21201 https://retroachievements.org/game/35305?set=38076 https://retroachievements.org/game/34685?set=37916
+Examples: [Metroid Prime - NES Metroid](https://retroachievements.org/game/3154?set=21201),  [Indiana Jones and the Staff of Kings - Fate of Atlantis](https://retroachievements.org/game/35305?set=38076),  [Guitar Hero: Warriors of Rock - DLC](https://retroachievements.org/game/34685?set=37916)
 ### Miscellaneous Extreme Challenges
 
 When there are series of challenges that are interesting, too extreme for the base set but not extensive enough to warrant a full subset individually, grouping them up to make a variety subset can be a good idea. 
@@ -106,15 +106,15 @@ One should approach the design of such a subset very carefully, and be ready to 
 
 Another risk is to lack research and understanding of the difficulty of the challenges. Thoroughly test the achievements with Hardcore in mind, and consider reaching out to experts of the game for feedback. Again, the goal is to avoid hodgepodge of arbitrary challenges that are simply not well balanced enough to be in a base set. Rebalancing the challenges so they are fit for the base set is often best.
 
-Examples: https://retroachievements.org/game/1447?set=3123 https://retroachievements.org/game/9049?set=9014
+Examples: [Contra - Bonus](https://retroachievements.org/game/1447?set=3123),  [Guitar Hero II - Expert Full Combo](https://retroachievements.org/game/9049?set=9014)
 
 ## Subset Patches
 
 In most cases, subsets are entirely accessible without any changes to the game. They are available through RetroAchievement's multiset feature, see [Subset Types and Multiset](link) for more information.
 
-In some situations, a patch can be made for quality of life improvements, or to enforce certain rules through multiple sessions. A typical example is Super Mario 64 - Lazy Lakitu, which keeps the fixed camera mode continuously activated.
+In some situations, a patch can be made for quality of life improvements, or to enforce certain rules through multiple sessions. A typical example is [Super Mario 64 - Lazy Lakitu](https://retroachievements.org/game/10003?set=8509), which keeps the fixed camera mode continuously activated.
 
-**Patches that modify the game in any way must be approved by Developer Compliance.** Changes that go beyond quality of life are rarely fit for subset but can be considered for ~Hack~ entries.  For these, make sure that you take the time to design a hack that stands on its own by providing a new experience. This should be considered carefully and ran by expert players whenever possible, especially when attempting to make the experience harder. This will help identifying exploits that you may have missed as well as assess the fairness of the extra challenge. Thorough testing the difficulty of such hacks is primordial; it should not be made on a whim. A good question to keep in mind is "Would this hack be interesting enough to interest players if RA didn't exist?"
+**Patches that modify the game in any way must be approved by Developer Compliance.** Changes that go beyond quality of life are rarely fit for subset but can be considered for `~Hack~` entries.  For these, make sure that you take the time to design a hack that stands on its own by providing a new experience. This should be considered carefully and ran by expert players whenever possible, especially when attempting to make the experience harder. This will help identifying exploits that you may have missed as well as assess the fairness of the extra challenge. Thorough testing the difficulty of such hacks is primordial; it should not be made on a whim. A good question to keep in mind is "Would this hack be interesting enough to interest players if RA didn't exist?"
 
 ## Approval and Claims
 
