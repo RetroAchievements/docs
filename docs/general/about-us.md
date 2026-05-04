@@ -112,9 +112,12 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [Darky](https://retroachievements.org/user/Darky)
+- [rgavril](https://retroachievements.org/user/rgavril)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
+- [siouxerskate](https://retroachievements.org/user/siouxerskate)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
+- [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [xClawz](https://retroachievements.org/user/xClawz)
 - [Yurana](https://retroachievements.org/user/Yurana)
 
