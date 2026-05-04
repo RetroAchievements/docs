@@ -128,7 +128,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 
 - [AaronDobbe](https://retroachievements.org/user/AaronDobbe)
 - [authorblues](https://retroachievements.org/user/authorblues)
-- [BigDonRob](https://retroachievements.org/user/BigDonRob)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [CySlaytor](https://retroachievements.org/user/CySlaytor)
@@ -144,7 +143,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
 - [WheelsAndWhirls](https://retroachievements.org/user/WheelsAndWhirls)
-- [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [Yanbetari](https://retroachievements.org/user/Yanbetari)
 - [zaydoc](https://retroachievements.org/user/zaydoc)
 
