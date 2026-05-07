@@ -106,6 +106,8 @@ One should approach the design of such a subset very carefully, and be ready to 
 
 Another risk is to lack research and understanding of the difficulty of the challenges. Thoroughly test the achievements with Hardcore in mind, and consider reaching out to experts of the game for feedback. Again, the goal is to avoid hodgepodge of arbitrary challenges that are simply not well balanced enough to be in a base set. Rebalancing the challenges so they are fit for the base set is often best.
 
+While older subsets like these were simply called "Bonus", new ones should instead use a more explicit name to avoid any confusion with the Bonus subset technical type. A thematic name is often best.
+
 Examples: [Contra - Bonus](https://retroachievements.org/game/1447?set=3123),  [Guitar Hero II - Expert Full Combo](https://retroachievements.org/game/9049?set=9014), [Metroid Prime 3: Corruption - Extra Corruption](https://retroachievements.org/game/34689?set=38075)
 
 ## Subset Patches
@@ -127,17 +129,17 @@ The following subset types are pre-approved for retail games:
 - Solo Class/Monotype Runs (Exhaustive Challenge Runs, or Brutal Full Game Run)
 - Professor Oak Challenges for official Pokémon main series releases (Excessive Grind)
 
-Every other subset must be approved before claiming. (section TBD with Design Team docs)
+Every other subset must be approved before claiming. This process can be initiated by opening a discussion thread in #design-feedback on Discord, or contacting [SetDesigners](https://retroachievements.org/user/SetDesigners), answering the following questions:
 
 - _Which archetype does this subset proposal fall under?_
-- _Why this is unfit for the base set?_
-- _Why this is appropriate despite being unfit for the base set?_
-- _How difficult are the achievements proposed? Explain in as much detail as possible :_
-- _Present a thorough set plan that explains what the set would look like :_
+- _Why is this unfit for the base set?_
+- _Why should this exist despite being unfit for the base set?_
+- _Can you explain your set plan in detail?_
 
-Please answer the above in a way that is understandable for someone that is not an expert of the game. If scores or times are involved, please provide a few explicit examples of what the set would require.
+Answer the above in a way that is understandable for someone that is not an expert of the game. If scores or times are involved, provide a few explicit examples of what the set would require.
 
-Moreover, adding a subset to a game is considered a revision of its base set. In addition to any required approval, a revision vote might be required before claiming as detailed below:
+## Revision Votes
+Finally, adding a subset to a game is considered a revision of its base set. In addition to any required approval, a revision vote might be required before claiming as detailed below:
 
 | Authorship¹            | Approval and Claiming Process                                                                                                                                                                                                                             |
 | :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
