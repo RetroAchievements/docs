@@ -11,7 +11,7 @@ Here are golden rules of subset design:
 
 1. **Subsets should not take away from base sets**. As a general rule, a well balanced version of a challenge in a base set is preferable to an extreme version in a subset. Remember that base sets are the core and most important part of RA. They should never be watered down for the benefit of side content. Consistency across sets is of utmost importance to the player experience and subsets designed to include what is included in base sets for other games is unacceptable.
 
-2. **Subsets are sets, not random assortments of achievements left on the cutting room floor**. To design means to iterate, assess, ditch and improve. Not every idea ends up being published, and that's part of the process. Subsets are part of RA's offering and are public facing, not a window into a workshop with unfinished or unrefined projects. Throwing together ideas that were scrapped from a base set leads to sets that are incoherent or generally lack set identity.
+2. **Subsets are sets, not random assortments of achievements left on the cutting room floor**. Subsets must have coherent identities. To design means to iterate, assess, ditch and improve. Not every idea ends up being published, and that's part of the process. Subsets are part of RA's offering and are public facing, not a window into a workshop with unfinished or unrefined projects. Throwing together ideas that were scrapped from a base set leads to sets that are incoherent or generally lack set identity.
 
 3. **Not every game needs a subset**. Trying to force a subset into a game where it does not arise naturally often leads to poor sets that feel arbitrary. Like the design of base sets, subset design has to complement gameplay in a purposeful and compelling way.
 
