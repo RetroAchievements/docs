@@ -24,7 +24,7 @@ The following are common subset archetypes:
 - [Glitch Showcase](#glitch-showcase)
 - [Excessive Grinds](#excessive-grinds)
 - [Exhaustive Challenge Runs](#exhaustive-challenge-runs)
-- [Brutal Full Game Run](#brutal-full-game-run)
+- [Brutal Full Game Runs](#brutal-full-game-runs)
 - [Community Recognized Challenges](#community-recognized-challenges)
 - [RA Community Custom Content](#ra-community-custom-content)
 - [Expansions and Games Inside Games](#expansions-and-games-inside-games)
@@ -62,7 +62,7 @@ Examples: [Pokémon LeafGreen Version - Professor Oak Challenge](https://retroac
 
 ### Exhaustive Challenge Runs
 
-A common subset structure is to have the most challenging 1-3 achievements in a game with multiple characters allow choosing any character for the base set, and have a subset for doing it with every character. This increases player agency in the base set, doesn't take away from the base set since the challenge is still there, and make for very challenging subsets.
+For base sets, it is common to have the hardest achievements allow the use of any character or team. Adding a subset for doing these extreme challenges with every possible character can make for an interesting experience. This increases player agency in the base set, doesn't take away from the base set since the challenge is still there, and make for very challenging subsets.
 
 When designing this type of subset, make sure that the experience is significantly different between different characters. The series can become pointless if the same strategies can more or less be re-used for multiple characters.
 
@@ -95,9 +95,9 @@ Examples: [Irritating Stick - IrRAtating Custom Courses](https://retroachievemen
 
 ### Expansions and Games Inside Games
 
-It is recommended to cover content from expansions, DLC, and unlocked games whenever it is reasonable to do so. When that content is either fundamentally different, very difficult to access, or too extensive to cover in the base set, a subset can be a good way to cover that content. These are for exceptional cases
+It is recommended to cover content from expansions, DLC, and unlocked games whenever it is reasonable to do so. When that content is either fundamentally different, very difficult to access, or too extensive to cover in the base set, a subset can be a good way to cover that content. 
 
-Examples: [Metroid Prime - NES Metroid](https://retroachievements.org/game/3154?set=21201),  [Indiana Jones and the Staff of Kings - Fate of Atlantis](https://retroachievements.org/game/35305?set=38076),  [Guitar Hero: Warriors of Rock - DLC](https://retroachievements.org/game/34685?set=37916)
+Examples: [Indiana Jones and the Staff of Kings - Fate of Atlantis](https://retroachievements.org/game/35305?set=38076),  [Guitar Hero: Warriors of Rock - DLC](https://retroachievements.org/game/34685?set=37916)
 ### Miscellaneous Extreme Challenges
 
 When there are series of challenges that are interesting, too extreme for the base set but not extensive enough to warrant a full subset individually, grouping them up to make a variety subset can be a good idea. 
@@ -106,11 +106,11 @@ One should approach the design of such a subset very carefully, and be ready to 
 
 Another risk is to lack research and understanding of the difficulty of the challenges. Thoroughly test the achievements with Hardcore in mind, and consider reaching out to experts of the game for feedback. Again, the goal is to avoid hodgepodge of arbitrary challenges that are simply not well balanced enough to be in a base set. Rebalancing the challenges so they are fit for the base set is often best.
 
-Examples: [Contra - Bonus](https://retroachievements.org/game/1447?set=3123),  [Guitar Hero II - Expert Full Combo](https://retroachievements.org/game/9049?set=9014)
+Examples: [Contra - Bonus](https://retroachievements.org/game/1447?set=3123),  [Guitar Hero II - Expert Full Combo](https://retroachievements.org/game/9049?set=9014), [Metroid Prime 3: Corruption - Extra Corruption](https://retroachievements.org/game/34689?set=38075)
 
 ## Subset Patches
 
-In most cases, subsets are entirely accessible without any changes to the game. They are available through RetroAchievement's multiset feature, see [Subset Types and Multiset](link) for more information.
+In most cases, subsets are entirely accessible without any changes to the game. They are available through RetroAchievement's multiset feature, see [Subset Types and Multiset](/guidelines/content/subsets) for more information.
 
 In some situations, a patch can be made for quality of life improvements, or to enforce certain rules through multiple sessions. A typical example is [Super Mario 64 - Lazy Lakitu](https://retroachievements.org/game/10003?set=8509), which keeps the fixed camera mode continuously activated.
 
@@ -122,6 +122,7 @@ The following subset types are pre-approved for retail games:
 
 - Multiplayer Cooperative
 - Glitch Showcases
+- RA Community Custom Content
 - Low Level Game/No Leveling Runs (Brutal Full Game Run)
 - Solo Class/Monotype Runs (Exhaustive Challenge Runs, or Brutal Full Game Run)
 - Professor Oak Challenges for official Pokémon main series releases (Excessive Grind)
@@ -140,7 +141,7 @@ Moreover, adding a subset to a game is considered a revision of its base set. In
 
 | Authorship¹            | Approval and Claiming Process                                                                                                                                                                                                                             |
 | :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Author of the base set | • If all active authors of the set approve, does not require a plan and revision vote<br> • Considered a free claim ²                                                                                                                                     |
+| Author of the base set | • If all active authors of the set approve, does not require a revision vote<br> • Considered a free claim ²                                                                                                                                     |
 | No Core Set Authorship | • A set plan must be posted in the base set's forum topic and must go through standard revision voting<br> • Is **not** considered a free claim<br> • In the event that both a revision and subset plan are made for a set, both claims will count as one |
 
 ¹ In the case of multiple revision authors, use the most restrictive ruleset in the table. Example: If there is a subset collaboration and any subset author is not a core set author, use the `No Core Set Authorship` rules.
