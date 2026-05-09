@@ -263,8 +263,12 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/achievements-for-rom-hacks",
         },
         {
-          text: "Subsets",
+          text: "Multiset and Subset Types",
           link: "/guidelines/content/subsets",
+        },
+        {
+          text: "Subset Design",
+          link: "/guidelines/content/subset_design",
         },
         {
           text: "Working with the Right ROM",

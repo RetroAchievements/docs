@@ -3,6 +3,8 @@ title: Multiset and Subset Types
 description: Learn about subset types, multiset functionality and minimum requirements
 ---
 
+# Multiset and Subset Types
+
 When browsing the [list of games](https://retroachievements.org/games), you will see that some games have a `[Subset]` tag in the title. Each of these contain achievements that for some reason or another, are not available in a game's base set. To learn more about the kind of challenges that are included in subsets, refer to the [Subset Design](./subset_design) docs.
 ## Set Types
 
