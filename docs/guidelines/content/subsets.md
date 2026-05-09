@@ -3,7 +3,7 @@ title: Multiset and Subset Types
 description: Learn about subset types, multiset functionality and minimum requirements
 ---
 
-When browsing the [list of games](http://retroachievements.org/gameList.php), you will see that some games have a `[Subset]` tag in the title. Each of these contain achievements that for some reason or another, are not available in a game's base set. To learn more about the kind of challenges that are included in subsets, refer to the [Subset Design](guidelines/content/subset_design) docs.
+When browsing the [list of games](https://retroachievements.org/games), you will see that some games have a `[Subset]` tag in the title. Each of these contain achievements that for some reason or another, are not available in a game's base set. To learn more about the kind of challenges that are included in subsets, refer to the [Subset Design](./subset_design) docs.
 ## Set Types
 
 Subsets are now fully integrated into RetroAchievements through the multiset system. When you load a game, the server will automatically resolve which achievement sets to include based on the game hash you're using and your personal preferences. Developers link sets together, allowing you to play multiple sets (such as a base set and its bonus content) simultaneously without needing separate patches or playthroughs. 
