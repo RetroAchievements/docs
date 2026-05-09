@@ -21,6 +21,12 @@ This is a feature of the NES that gave developers more ways of looking at memory
 
 This applies to RPS and leaderboards as well.
 
+## Famicom Disk System
+
+### Testing
+
+Be sure to test with the **FDS: Automatically insert disk** and **FDS: Fast forward while loading** settings both enabled and disabled. Sometimes they can affect state values, especially game state/mode that interacts with loading.
+
 ## Game Boy
 
 ### Memory Map
