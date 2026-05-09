@@ -128,6 +128,13 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | :----------- | :------------ | :---- |
 | **FreeChaF** | libretro core |       |
 
+### Famicom Disk System
+
+| Name                                                 | Type                | Notes             |
+| :--------------------------------------------------- | :------------------ | :---------------- |
+| **Mesen**                                            | libretro core       | Most recommended. |
+| **[RANes](https://retroachievements.org/downloads)** | Standalone emulator |                   |
+
 ### Game Boy
 
 | Name                                                         | Type                | Notes                                   |
@@ -260,17 +267,9 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | :------------------------------------------------------------- | :------------------ | :---------------------------------------- |
 | **FCEUmm**                                                     | libretro core       | Most recommended.                         |
 | **Mesen**                                                      | libretro core       |                                           |
-| **QuickNES**                                                   | libretro core       | Does not emulate the Famicom Disk System. |
+| **QuickNES**                                                   | libretro core       |                                           |
 | **[RANes](https://retroachievements.org/downloads)**           | Standalone emulator |                                           |
 | **[NES RA Adapter](https://github.com/odelot/nes-ra-adapter)** | Console adapter     |                                           |
-
-### NES/Famicom Disk System
-
-| Name                                                 | Type                | Notes             |
-| :--------------------------------------------------- | :------------------ | :---------------- |
-| **FCEUmm**                                           | libretro core       | Most recommended. |
-| **Mesen**                                            | libretro core       |                   |
-| **[RANes](https://retroachievements.org/downloads)** | Standalone emulator |                   |
 
 ### Nintendo 64
 
