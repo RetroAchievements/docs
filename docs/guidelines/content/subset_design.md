@@ -3,6 +3,8 @@ title: Subset Design
 description: Learn about creating and managing subsets for RetroAchievements, including design guidelines as well as approval processes
 ---
 
+# Subset Design
+
 Subsets are secondary sets attached to games that already have a base set. While RA shines through its complete sets that include challenges and make masteries satisfying, certain games are home to challenges that are poor fit for base sets yet have become of interest to the community.
 
 The design of these so-called subsets is particularly challenging. Challenges unfit for base sets are easy to come up with, simply disregarding good design practices or including unwelcome concepts will make sure of that. The challenging part is designing a subset that provides an interesting experience *despite* going against guidelines and conventional wisdom.
