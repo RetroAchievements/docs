@@ -100,7 +100,6 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
-- [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [zxmega](https://retroachievements.org/user/zxmega)
@@ -129,7 +128,6 @@ The team responsible for investigating cheating reports.
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
-- [AaronDobbe](https://retroachievements.org/user/AaronDobbe)
 - [authorblues](https://retroachievements.org/user/authorblues)
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
@@ -138,11 +136,10 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [Layton](https://retroachievements.org/user/Layton)
 - [lonegraywolf2000](https://retroachievements.org/user/lonegraywolf2000)
-- [OpheliaEngima](https://retroachievements.org/user/OpheliaEngima)
+- [OpheliaEnigma](https://retroachievements.org/user/OpheliaEnigma)
 - [Pilzkopf](https://retroachievements.org/user/Pilzkopf)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
-- [suspect15](https://retroachievements.org/user/suspect15)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
 - [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
 - [WheelsAndWhirls](https://retroachievements.org/user/WheelsAndWhirls)
