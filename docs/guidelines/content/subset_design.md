@@ -134,11 +134,19 @@ The following subset types are pre-approved for retail games:
 Every other subset must be approved before claiming. This process can be initiated by opening a discussion thread in #design-feedback on Discord, or contacting [SetDesigners](https://retroachievements.org/user/SetDesigners), answering the following questions:
 
 - _Which archetype does this subset proposal fall under?_
+- _What Subset Type would this fall under? (Bonus/Challenge/Exclusive/Specialty)_
 - _Why is this unfit for the base set?_
 - _Why should this exist despite being unfit for the base set?_
+- _What is the estimated time to master this proposed subset and, if applicable, how difficult?_
 - _Can you explain your set plan in detail?_
 
 Answer the above in a way that is understandable for someone that is not an expert of the game. If scores or times are involved, provide a few explicit examples of what the set would require.
+
+Once the discussion between the Set Design team and proposer has reached a satisfying conclusion to both parties, the team will vote internally and ping the proposer to make them aware. This vote lasts three days, and can result in one of the following:
+
+- _More than 67% vote yes, the subset proposal is approved._
+- _Between 34% and 66% vote yes, the subset proposal is brought to developers for additional input, including a @subset-discussion role ping. Once this discussion has concluded, it returns to internal vote where it must reach 67% at the very least to be approved._
+- _Less than 33% vote yes, the subset proposal is rejected._
 
 ## Revision Votes
 Finally, adding a subset to a game is considered a revision of its base set. In addition to any required approval, a revision vote might be required before claiming as detailed below:
