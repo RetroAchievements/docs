@@ -23,13 +23,6 @@ To learn more about the events, see [the forum topic](https://retroachievements.
 
 These events are only available for a limited time!
 
-### Pixelheart RAve: Retro Dating Adventure
-
-* Active until May 4th, 2026.
-* [Forum Topic](https://retroachievements.org/forums/topic/34627)
-
-A "Dating Sim" inspired event where players "meet" with various characters, picking polls to raise (or lower) their affinity level with each character.
-
 ### Wii Launch Event
 
 * Active until July 19, 2026
@@ -43,6 +36,13 @@ After 15, 25, 35, and 50 points, you earn badges!
 Some games have special bounties, giving you multipliers on the points you'd get for beating or mastering, either a 2x or 3x multiplier.
 
 Any new sets released during the event are eligible.
+
+### Collect-a-thon MaRAthon
+
+* Active until August 18th, 2026.
+* [Forum Topic](https://retroachievements.org/forums/topic/28177)
+
+The latest in our genre focused event series.  Earn collection based achievements in a handpicked list of games for points.  Three tiers of badges are available!
 
 ## Annual Events
 
