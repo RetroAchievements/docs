@@ -45,6 +45,7 @@ If the [short version](#short-version) is not clear enough for you, here's a det
 #### Unacceptable social behavior
 
 - Asking for or posting links to sites where others could download copyrighted material.
+- Discussing methods for downloading copyrighted material, or alluding to specific methods or sites.
 - Spamming messages or attempting to vandalize Discord or the website by any means.
 - Advertising products, services, or other Discord servers without approval.
 - Bigotry: This includes racism, sexism, elitism; intolerance regarding others' nationality, religion, sexual orientation, political beliefs, etc.
