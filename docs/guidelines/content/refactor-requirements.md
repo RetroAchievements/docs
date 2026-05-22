@@ -58,3 +58,7 @@ States should be collected so all achievements are easy to access and reported i
 - Prior to obtaining the last item, skill, or level for collection/power-up achievements
 - Prior to the beginning of a challenge's initial checkpoint hit
 - Periodically at sensible points throughout standard gameplay to give general access to all parts of the game
+
+# Refactor Notification
+
+Upon fully completing a refactoring, developers should notify [QATeam](https://retroachievements.org/user/QATeam) via site message. QA will confirm the set meets full refactor criteria and remove it from the Needs Refactoring hub.
