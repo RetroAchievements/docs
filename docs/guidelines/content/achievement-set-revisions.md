@@ -149,8 +149,6 @@ Anyone wanting to rescore a set needs to:
 2. **Contact** each active author of the set. They may have valuable insight into the chosen scores. You do not need to wait for a response.
 
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of this revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
-- When contacting, be clear that this contact is for an icon gauntlet.
-- When contacting, always ask if the author would like to be pinged when the vote starts. This ensures the author knows this is an option.
 
 3. **Post the plan** in the game's forum topic.
 
@@ -182,6 +180,8 @@ Any user wanting to change the game icon or badges of a set need to:
 - Doing this might also avoid needing a gauntlet vote if your icon or badges are preferred by them.
 - Ideally Both parties should work together to come to a satisfactory proposal.
 - Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of this revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
+- When contacting, be clear that this contact is for an icon gauntlet.
+- When contacting, always ask if the author would like to be pinged when the vote starts. This ensures the author knows this is an option.
 
 2. **Create** the game icon or new badges. For more info, see [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines).
 
