@@ -278,6 +278,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           text: "Hash Labels",
           link: "/guidelines/content/hash-labels",
         },
+        {
+          text: "Refactoring Requirements",
+          link: "/guidelines/content/refactoring-requirements",
+        },
       ],
     },
   ];
