@@ -274,6 +274,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         //   text: "Etiquetado de hashes",
         //   link: "/es/guidelines/content/hash-labels",
         // },
+        // {
+        //   text: "Requisitos de Refactoring",
+        //   link: "/es/guidelines/content/refactoring-requirements",
+        // },
       ],
     },
   ];
