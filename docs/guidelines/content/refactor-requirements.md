@@ -9,7 +9,7 @@ description: This guide covers the requirements for refactoring a substandard, i
 
 # Refactoring Overview
 
-Refactoring a set on RetroAchievements is the act of bringing a substandard, inactive developer sets up to modern standards. Ridding the library of poorly noted, coded, and implemented sets is the only way RetroAchievements can attain longterm stability. This doc provides guidance on what is required to bring a set up to modern standards and consider it no longer an instability risk to the project. Once a refactor is completed in accordance with these guidelines, the set can be marked by QA as "refactored" and should be considered stable in perpetuity.
+Refactoring a set on RetroAchievements is the act of bringing a substandard, inactive developer set up to modern standards. Ridding the library of poorly noted, coded, and implemented sets is the only way RetroAchievements can attain longterm stability. This doc provides guidance on what is required to bring a set up to modern standards and consider it no longer an instability risk to the project. Once a refactor is completed in accordance with these guidelines, the set can be marked by QA as "refactored" and should be considered stable in perpetuity.
 
 **A refactored set should be able to pass a code review without needing corrections.**
 
