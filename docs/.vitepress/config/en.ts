@@ -280,7 +280,7 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "Refactoring Requirements",
-          link: "/guidelines/content/refactoring-requirements",
+          link: "/guidelines/content/refactor-requirements",
         },
       ],
     },
