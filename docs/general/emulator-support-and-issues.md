@@ -14,6 +14,7 @@ libretro cores can be played on the following hardcore-compliant frontends. You 
 - [RetroArch](https://www.retroarch.com/index.php?page=platforms) - Supports 40+ systems.
 - [RALibRetro](https://retroachievements.org/downloads) - Supports 40+ systems.
 - [Firelight](https://biscuitcakes.itch.io/firelight) - Supports 10+ systems.
+- [Manic EMU (iOS)](https://github.com/Manic-EMU/ManicEMU) - Supports 10+ systems.
 - [Delta (iOS)](https://apps.apple.com/us/app/delta-game-emulator/id1048524688) - Supports 5+ systems.
 
 BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). More details on BizHawk cores can be found [here](https://tasvideos.org/BizHawk).
