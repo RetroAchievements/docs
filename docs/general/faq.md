@@ -71,6 +71,12 @@ The number of requests available to a user is determined as follows:
 The purpose of the request feature is to give developers visibility to what players want most.
 You might also consider making achievement suggestions on a game's forum page to help get a set off the ground.
 
+### How do I delete a game from my profile?
+
+To reset your progress on a game, you can head to the game's page and hover over the percentage for a pop-up to manage your progress. Alternatively, you can head to your settings page and reset a game there. This can also be done for individual achievements on the respective achievements' page.
+
+RetroAchievements cannot remove the game showing up on your profile. However, when you reset your progress, it will no longer count towards your average completion, it will no longer show up in your personal progression lists, and will disappear from your profile naturally after playing other ganmes.
+
 ---
 
 ## Emulation FAQ
@@ -266,6 +272,20 @@ Right here:
 On the site's home page, while not logged in:
 
 ![reset password](/reset-password.png)
+
+### I changed my display name, but people can still find my account through my original username!
+
+This is intentional to prevent other users from impersonating you. Your original username remains attached to your profile, and can be used to log into emulators as well as the the website. 
+
+### Can I have the username of a deleted/banned user or my alternative account?
+
+At the moment, we do not have a convenient way to transfer usernames of inactive or deleted accounts to another. Usernames of banned accounts will never be freed up.
+
+Please note that putting in a name change request or deleting your account will **NOT** free up the original username. Only display names requested after the original can be freed up when putting in a new request.
+
+### I regret deleting my account. Can it be recovered?
+
+No. Accounts that have requested deletion and did not cancel during the 14 day process can not be recovered. This is your responsibility, and only you are able to delete your own account. We at RetroAchievements cannot delete your account.
 
 ### Will I gain any privileges if I become a patron?
 
