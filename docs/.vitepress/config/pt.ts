@@ -222,6 +222,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
     //       link: "/guidelines/content/game-info-and-hub-guidelines",
     //     },
     //     {
+    //       text: "Screenshot Guidelines",
+    //       link: "/guidelines/content/screenshot-guidelines",
+    //     },
+    //     {
     //       text: "Genre Definitions",
     //       link: "/guidelines/content/genre-definitions",
     //     },
