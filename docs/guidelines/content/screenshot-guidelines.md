@@ -10,7 +10,6 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - For most systems, screenshots should be taken in RALibretro, since it automatically takes screenshots at the appropriate resolution. RetroArch should be avoided since it does not do this by default.
 - Emulators such as PCSX2 and Dolphin require configuration to have the appropriate screenshot settings. Please read the information in their sections below.
 - Never manually resize or crop a screenshot just to force a match with the required dimensions. If you're sure you have the appropriate emulator settings and the screenshots are correct for the game, but the site doesn't allow it, it may be an oversight. This can especially happen with some 3D systems like PS1 and PS2. Please report these cases in the #cleanup-requests forum in our [Discord server](https://discord.gg/dq2E4hE) if you're sure it's a mistake.
-- You may receive unusually wide screenshots with systems like Amstrad CPC and some PS1 games. Even if it looks strange, this can be the normal internal resolution for the game - the site should automatically handle these and resize them to the aspect ratio you expect. You don't have to manually resize them yourself.
 
 ## Basic Guidelines
 
@@ -20,7 +19,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - No watermarks are to be present on any images.
 - Some games lack a typical title screen. In these cases, a screenshot of the title during an opening movie or loading screen may be used. If that doesn't exist, an initial menu screen or gameplay screen may be used.
 - Completion screenshots are intended to be "The End" screens that appear after beating the game, whenever possible. If such a screen doesn't exist, creativity may be needed in taking a good screenshot during the credits, or when finishing the final level, defeating the final boss, winning the final round before looping (for arcade games), etc.
-- Game Boy screenshots should be in black-and-white.
+- Game Boy screenshots should be in black-and-white. Do not use SGB borders.
 - Emulator filters and shaders should be disabled for screenshots. For example, Game Boy Color and Game Boy Advance should not use color correction, and Apple II should not use a scanline filter.
 - Be sure to carefully look at the existing screenshots for a game before submitting more. Multiple screenshots of the same level or scene aren't that interesting - diversity is preferred (as much as the game allows). Menu screenshots should be kept to a minimum as well. Do not rush and submit several screenshots of initial menus or the first level just for the sake of submitting things.
 - Try to make screenshots interesting in general - not just characters standing in idle poses at the beginning of each level, but shots with more action and energy as well.
@@ -87,7 +86,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Philips CD-i - 384x240, 384x280
 	- Sega 32X - 320x224, 256x224, 320x240
 	- Sega CD - 320x224, 256x224, 320x240
-	- Sega Dreamcast - 320x240
+	- Sega Dreamcast - 640x480
 	- Sega Game Gear - 160x144
 	- Sega Genesis/Mega Drive - 320x224, 256x224, 320x240
 	- Sega Master System - 256x192, 256x224, 256x240
@@ -166,3 +165,41 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 ![PPSSPP Rendering Resolution setting](/ppsspp-rendering-resolution.png)
 
 - All other settings can be default.
+
+### RALibretro
+
+#### SwanStation
+
+- If you wish to increase the internal resolution to 3x here, go to Core Settings -> Enhancement Settings and set Internal Resolution Scale to 3. Leave everything else default.
+
+![RALibretro - SwanStation Internal Resolution Scale setting](/ralibretro-swanstation-internal-resolution-scale.png)
+
+#### Mupen64Plus-Next
+
+- To increase the internal resolution with this core, using the default GLideN64 plugin, go to Core Settings -> GLideN64 and set 4:3 Resolution to 960x720 (x3). Leave everything else default.
+
+![RALibretro - Mupen64Plus-Next Resolution setting](/ralibretro-mupen64plus-next-resolution.png)
+
+#### ParaLLEl N64
+
+- To increase the internal resolution here, go to Core Settings -> General and set Resolution to 960x720 (x3). Leave everything else default.
+
+![RALibretro - ParaLLEl N64 Resolution setting](/ralibretro-mupen64plus-next-resolution.png)
+
+#### Flycast
+
+- To increase the internal resolution with this core, go to Core Settings -> Video and set Internal Resolution to 1920x1440 (x3). Leave everything else default.
+
+![RALibretro - Flycast Internal Resolution setting](/ralibretro-flycast-internal-resolution.png)
+
+#### DeSmuME
+
+- To increase the internal resolution here, go to Core Settings -> Graphics and set Internal Resolution to 768x576 (x3). Leave everything else default.
+
+![RALibretro - DeSmuME Internal Resolution setting](/ralibretro-desmume-internal-resolution.png)
+
+#### PPSSPP
+
+- To increase the internal resolution here, go to Core Settings -> Video and set Rendering Resolution to 1440x816 (x3). Leave everything else default.
+
+![RALibretro - PPSSPP Rendering Resolution setting](/ralibretro-ppsspp-rendering-resolution.png)
