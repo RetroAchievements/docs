@@ -14,7 +14,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ## Basic Guidelines
 
-- File size must be under 4 MB to upload.
+- File size must be under 6 MB to upload.
 - Each game allows a maximum of 10 screenshots, including those marked as the title screen and completion screen.
 - English screenshots are encouraged unless they’re from translation patches in which case the original language is preferred.
 - No watermarks are to be present on any images.
