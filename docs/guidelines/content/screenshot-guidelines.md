@@ -184,7 +184,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 - To increase the internal resolution here, go to Core Settings -> General and set Resolution to 960x720 (x3). Leave everything else default.
 
-![RALibretro - ParaLLEl N64 Resolution setting](/ralibretro-mupen64plus-next-resolution.png)
+![RALibretro - ParaLLEl N64 Resolution setting](/ralibretro-parallel-n64-resolution.png)
 
 #### Flycast
 
