@@ -39,7 +39,7 @@ Any new sets released during the event are eligible.
 
 ### Collect-a-thon MaRAthon
 
-* Active until August 18th, 2026.
+* Active until September 18th, 2026
 * [Forum Topic](https://retroachievements.org/forums/topic/28177)
 
 The latest in our genre focused event series.  Earn collection based achievements in a handpicked list of games for points.  Three tiers of badges are available!
