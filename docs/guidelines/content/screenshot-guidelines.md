@@ -104,7 +104,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Philips CD-i - 384x240, 384x280
 	- Sega 32X - 320x224, 256x224, 320x240
 	- Sega CD - 320x224, 256x224, 320x240
-	- Sega Dreamcast - 640x480
+	- Sega Dreamcast - 640x480, 1280x480
 	- Sega Game Gear - 160x144
 	- Sega Genesis/Mega Drive - 320x224, 256x224, 320x240
 	- Sega Master System - 256x192, 256x224, 256x240
