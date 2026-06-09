@@ -12,7 +12,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - For most systems, RALibretro is recommended for taking screenshots, since it generally takes them at the appropriate resolution. RetroArch should be avoided since it generally takes screenshots based on your window size.
 - Standalone emulators such as DuckStation, PCSX2, Dolphin, and PPSSPP require configuration to have the appropriate screenshot settings. Please read the [Emulator Setup](#emulator-setup) section below.
 - You should generally never manually resize or crop a screenshot, especially if it's just to force a match with the required dimensions. If you're sure you have the appropriate emulator settings and the screenshots are correct for the game, but the site doesn't allow it, it may be an oversight. Please report these cases in the `#cleanup-requests` forum in our [Discord server](https://discord.gg/dq2E4hE) if you're sure it's a mistake.
-- Exceptions can include Amstrad CPC and some PS1 and Saturn games where the emulator may produce screenshots that look too wide. You may need to manually resize these screenshots to the game's appropriate resolution using Nearest Neighbor scaling in an image editor. Be sure you know the game's proper resolution and be sure you know how to use Nearest Neighbor scaling if you're dealing with games like this.
+- Exceptions can include games for Amstrad CPC and some other systems like PS1 and Saturn where the emulator may produce screenshots that look too wide. You may need to manually resize these screenshots to the game's appropriate resolution using Nearest Neighbor scaling in an image editor. Be sure you know the game's proper resolution and be sure you know how to use Nearest Neighbor scaling if you're dealing with games like this.
 - If a game uses multiple resolutions (e.g. title screen and in-game look different), it may also be necessary to resize them to one appropriate resolution for the game, especially for the primary screenshots displayed on the game page. Again, if you're dealing with games like this, be sure you know what the best unified resolution should be for the game and be sure to use Nearest Neighbor scaling.
 
 ## Submitting Screenshots
@@ -26,11 +26,12 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 ## General Guidelines
 
 - No watermarks are to be present on any images.
-- Be sure to carefully look at the existing screenshots for a game before submitting more. Multiple screenshots of the same level or scene aren't that interesting - diversity is preferred (as much as the game allows). Do not rush and submit several screenshots of the first level just for the sake of submitting things.
-- Screenshots of menus generally shouldn't be submitted as in-game screenshots unless there's a good reason. Screenshots of gameplay are preferred.
+- Be sure to carefully look at the existing screenshots for a game before submitting more. Multiple screenshots of the same level or scene aren't that interesting - diversity is preferred (as much as the game allows). Do not rush and submit several screenshots of the first level just for the sake of submitting things. In games with multiple playable characters, like fighting games, don't use just one character.
+- Screenshots of menus generally shouldn't be submitted as in-game screenshots unless there's a good reason. Screenshots of gameplay are preferred. Also don't add too many shots of cutscenes at the expense of gameplay.
 - Try to make screenshots interesting in general - not just characters standing in idle poses at the beginning of each level, but shots with more action and energy as well.
 - Avoid submitting screenshots of spoilers - scenes that involve plot twists, unexpected characters or unexpected boss fights later in the game, etc. Use your best judgment. (completion screenshots are an exception, of course - the site will automatically obscure them as a spoiler)
 - Don't try too hard to be funny or provocative. It may depend on the nature of the game, but in general the screenshots should be neutral - it gets old if they're all trying to be silly.
+- Avoid adding potentially controversial or NSFW content. Even if it's in the nature of the game, screenshots (like other content on game pages) should generally steer clear of it. They can be censored if there's no other option.
 - If replacing a low quality primary in-game screenshot, consider reproducing its content if you feel it's interesting, or if it depicts a particularly iconic level or scene or something else that would be missed by the additional screenshots.
 
 ## System-Specific Guidelines
@@ -40,7 +41,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - NES color palette can be whatever the default is in your emulator.
 - DS screenshots should include both screens in vertical orientation, without a gap in-between, and with both screens being the same size.
 - As mentioned above, Amstrad CPC games may produce screenshots that look too wide using the Caprice32 core in RALibretro. It's recommended that you only deal with this system if you understand how the games should be displayed. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
-- PS1 and Saturn games may also produce screenshots that look too wide in their raw internal resolution, and they may also use varying resolutions within one game (e.g. different title screen and in-game). Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
+- PS1 and Saturn games (and possibly other systems like Dreamcast and Arcade) may also produce screenshots that look too wide in their raw internal resolution, and they may use varying resolutions within one game (e.g. different title screen and in-game). Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
 
 ## Screenshot Dimensions
 
