@@ -20,7 +20,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - File size must be under 6 MB to upload.
 - Each game allows a maximum of 10 screenshots, including those marked as the title screen and completion screen. You don't have to fill all of these slots - the primary title screen and in-game screenshot and the completion screenshot are what's important.
 - Some games lack a typical title screen. In these cases, a screenshot of the title during an opening movie or loading screen may be used. If that doesn't exist, an initial menu screen or gameplay screen may be used.
-- Completion screenshots are intended to be "The End" screens that appear after beating the game, whenever possible. If such a screen doesn't exist, creativity may be needed in taking a good screenshot during the credits, or when finishing the final level, defeating the final boss, winning the final round before looping (for arcade games), etc.
+- Completion screenshots are intended to be "The End" screens that appear after beating the game, whenever possible. If such a screen doesn't exist, or if it's too uninteresting or non-distinct (i.e. pure text on a black background), creativity may be needed in taking a good screenshot during an ending scene, or when finishing the final level, defeating the final boss, winning the final round before looping (for arcade games), etc.
 - If a game currently has low quality primary screenshots for both the title screen and in-game shot, please replace both at the same time. Submitting a higher quality replacement for one while leaving the other in lower quality may be rejected.
 
 ## General Guidelines
