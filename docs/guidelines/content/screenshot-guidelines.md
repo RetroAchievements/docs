@@ -13,7 +13,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - Standalone emulators such as DuckStation, PCSX2, Dolphin, and PPSSPP require configuration to have the appropriate screenshot settings. Please read the [Emulator Setup](#emulator-setup) section below.
 - You should generally never manually resize or crop a screenshot, especially if it's just to force a match with the required dimensions. If you're sure you have the appropriate emulator settings and the screenshots are correct for the game, but the site doesn't allow it, it may be an oversight. Please report these cases in the `#cleanup-requests` forum in our [Discord server](https://discord.gg/dq2E4hE) if you're sure it's a mistake.
 - Exceptions can include games for Amstrad CPC and some other systems like PS1 and Saturn where the emulator may produce screenshots that look too wide. You may need to manually resize these screenshots to the game's appropriate resolution using Nearest Neighbor scaling in an image editor. Be sure you know the game's proper resolution and be sure you know how to use Nearest Neighbor scaling if you're dealing with games like this.
-- If a game uses multiple resolutions (e.g. title screen and in-game look different), it may also be necessary to resize them to one appropriate resolution for the game, especially for the primary screenshots displayed on the game page. Again, if you're dealing with games like this, be sure you know what the best unified resolution should be for the game and be sure to use Nearest Neighbor scaling.
+- If a game uses multiple resolutions (e.g. title screen and in-game look different), you may also want to resize them to one appropriate resolution for the game, especially for the primary screenshots displayed on the game page. Again, if you're dealing with games like this and you choose to do this, be sure you know what the best unified resolution should be for the game and be sure to use Nearest Neighbor scaling.
 
 ## Submitting Screenshots
 
@@ -41,7 +41,9 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - NES color palette can be whatever the default is in your emulator.
 - DS screenshots should include both screens in vertical orientation, without a gap in-between, and with both screens being the same size.
 - As mentioned above, Amstrad CPC games may produce screenshots that look too wide using the Caprice32 core in RALibretro. It's recommended that you only deal with this system if you understand how the games should be displayed. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
-- PS1 and Saturn games (and possibly other systems like Dreamcast and Arcade) may also produce screenshots that look too wide in their raw internal resolution, and they may use varying resolutions within one game (e.g. different title screen and in-game). Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
+- PS1 and Saturn games (and possibly other systems like Dreamcast and Arcade) may also produce screenshots that look too wide in their raw internal resolution. Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
+- PS2 games should never have widescreen enabled.
+- Wii games should always have widescreen enabled (this should already be the default in Dolphin).
 
 ## Screenshot Dimensions
 
@@ -98,7 +100,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Nintendo GameCube - 640x480, 640x448
 	- Nintendo Pokemon Mini - 96x64
 	- Nintendo Virtual Boy - 320x186, 384x224
-	- Nintendo Wii - Game-dependent. Enable widescreen when the game supports it
+	- Nintendo Wii - Game-dependent
 	- Nintendo Wii U - 1280x720
 	- Nokia N-Gage - Game-dependent
 	- Philips CD-i - 384x240, 384x280
