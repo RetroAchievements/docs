@@ -178,8 +178,6 @@ As an international community, we don’t expect every developer to write with p
 
 Consistency is also preferred in the use of common words to describe an achievement. For finishing a level or boss for example, the most common words used are “beat”, “finish”, “clear”, “defeat” as well as a few others. Please only use one of them when working with multiple achievements that have the same theme - if the achievement description for finishing level 1 says “Defeat the boss of level 1”, the achievement description for level 2 shouldn’t say “Beat the boss of level 2” unless there is a good reason to use the different word. Stick to using the same words to describe the same things within a group of similar achievements.
 
-If a challenge condition, such as “on Normal difficulty or higher” or “no cheats”, applies to almost every achievement in the set, it is recommended to note this condition through a zero-point achievement (usually awarded at the start of the game), a forum post, or comments rather than repeating “on Normal difficulty or higher” in the description of every achievement.
-
 ---
 
 ### The Description Itself
