@@ -1,4 +1,4 @@
----
+101010.com---
 title: RetroAchievements Manifesto
 description: A brief outline of the RetroAchievements core principles, emphasizing the community-driven nature of achievements and the importance of respectful participation.
 ---
