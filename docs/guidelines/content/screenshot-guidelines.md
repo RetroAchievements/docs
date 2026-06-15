@@ -8,7 +8,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 ## Taking Screenshots
 
 - Screenshots should be taken directly from an emulator's screenshot capture function, using the game's natural resolution. Do not use external screenshot tools and do not take screenshots of an upscaled window or full screen display. 2D games should be pixel perfect and 3D games should be their natural resolution.
-- If possible, 3D games can have their internal resolution upscaled by 2x or 3x. Note that this is a special emulator setting, not just resizing the window while it's at 1x internal resolution. This should only be done when the result looks good - it may not be desirable if the high quality 3D graphics clash too much with low quality upscaled 2D assets. If used, 3x is preferred over 2x. Never submit 4x or higher.
+- If possible, 3D games can have their internal resolution upscaled by 2x or 3x. Note that this is a special emulator setting, not just resizing the window while it's at 1x internal resolution. This should only be done for 3D games, and only when the result looks good - it may not be desirable if the high quality 3D graphics clash too much with low quality upscaled 2D assets, and it shouldn't be done if the game is purely 2D. If used, 3x is preferred over 2x. Never submit 4x or higher.
 - For most systems, RALibretro is recommended for taking screenshots, since it generally takes them at the appropriate resolution. RetroArch should be avoided since it generally takes screenshots based on your window size.
 - Standalone emulators such as DuckStation, PCSX2, Dolphin, and PPSSPP require configuration to have the appropriate screenshot settings. Please read the [Emulator Setup](#emulator-setup) section below.
 - You should generally never manually resize or crop a screenshot, especially if it's just to force a match with the required dimensions. If you're sure you have the appropriate emulator settings and the screenshots are correct for the game, but the site doesn't allow it, it may be an oversight. Please report these cases in the `#cleanup-requests` forum in our [Discord server](https://discord.gg/dq2E4hE) if you're sure it's a mistake.
@@ -32,7 +32,8 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - Avoid submitting screenshots of spoilers - scenes that involve plot twists, unexpected characters or unexpected boss fights later in the game, etc. Use your best judgment. (completion screenshots are an exception, of course - the site will automatically obscure them as a spoiler)
 - Don't try too hard to be funny or provocative. It may depend on the nature of the game, but in general the screenshots should be neutral - it gets old if they're all trying to be silly.
 - Avoid adding potentially controversial or NSFW content. Even if it's in the nature of the game, screenshots (like other content on game pages) should generally steer clear of it. They can be censored if there's no other option.
-- If replacing a low quality primary in-game screenshot, consider reproducing its content if you feel it's interesting, or if it depicts a particularly iconic level or scene or something else that would be missed by the additional screenshots.
+- If named characters or other forms of user input are present in screenshots, using the canonical character names is recommended if possible, or using "RA", or at least normal-sounding names. Don't use nonsense like "AAAAAA" and don't input anything offensive.
+- If replacing a low quality primary in-game screenshot, consider reproducing its content if you feel it's interesting, or if it depicts a particularly iconic level or scene or something else that would be missed by the additional screenshots. This is not necessary, but it's something to consider.
 
 ## System-Specific Guidelines
 
@@ -42,8 +43,11 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - DS screenshots should include both screens in vertical orientation, without a gap in-between, and with both screens being the same size.
 - As mentioned above, Amstrad CPC games may produce screenshots that look too wide using the Caprice32 core in RALibretro. It's recommended that you only deal with this system if you understand how the games should be displayed. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
 - PS1 and Saturn games (and possibly other systems like Dreamcast and Arcade) may also produce screenshots that look too wide in their raw internal resolution. Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
+- For PS1, DuckStation can use its aspect corrected Internal Resolution screenshot option to deal with games that come out too wide - but this may not be desirable to leave enabled for every game, such as 2D pixel games in 256x224 that would be stretched out to 4:3.
+- For PS2, GameCube, and Wii, you may want to use the aspect corrected screenshot option rather than aspect uncorrected if it looks better for the game.
 - PS2 games should never have widescreen enabled.
 - Wii games should always have widescreen enabled (this should already be the default in Dolphin).
+- For PC-88, avoid using Skip Line or Interlace modes (this should already be the default in RAQUASI88).
 
 ## Screenshot Dimensions
 
@@ -97,7 +101,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Nintendo Game Boy - 160x144
 	- Nintendo Game Boy Advance - 240x160
 	- Nintendo Game Boy Color - 160x144
-	- Nintendo GameCube - 640x480, 640x448
+	- Nintendo GameCube - 640x480, 640x448, 512x464, 512x480
 	- Nintendo Pokemon Mini - 96x64
 	- Nintendo Virtual Boy - 320x186, 384x224
 	- Nintendo Wii - Game-dependent
@@ -106,12 +110,12 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Philips CD-i - 384x240, 384x280
 	- Sega 32X - 320x224, 256x224, 320x240
 	- Sega CD - 320x224, 256x224, 320x240
-	- Sega Dreamcast - 640x480, 1280x480
+	- Sega Dreamcast - 640x480
 	- Sega Game Gear - 160x144
 	- Sega Genesis/Mega Drive - 320x224, 256x224, 320x240
 	- Sega Master System - 256x192, 256x224, 256x240
 	- Sega Pico - 320x224, 256x224, 320x240
-	- Sega Saturn - 320x224, 352x224, 320x240, 352x240, 320x256, 352x256, 640x224, 704x224, 640x240, 704x240, 640x448, 704x448, 640x480, 704x480, 330x224, 660x224
+	- Sega Saturn - 320x224, 352x224, 320x240, 352x240, 320x256, 352x256, 640x448, 704x448, 640x480, 704x480, 330x224
 	- Sega SG-1000 - 256x192
 	- Sharp X1 - 320x200
 	- Sharp X68000 - Game-dependent
@@ -119,8 +123,8 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Sinclair ZX81 - 256x192
 	- SNK Neo Geo CD - 320x224
 	- SNK Neo Geo Pocket - 160x152
-	- Sony PlayStation - 320x240, 256x240, 368x240, 512x240, 640x240, 320x480, 256x480, 368x480, 512x480, 640x480, 320x224, 512x268, 320x268, 640x224, 512x384, 512x224
-	- Sony PlayStation 2 - 640x480, 640x448, 640x512, 596x447, 682x512
+	- Sony PlayStation - 320x240, 256x240, 368x240, 320x480, 256x480, 368x480, 512x480, 640x480, 320x224, 320x268, 512x384
+	- Sony PlayStation 2 - 640x480, 640x448, 640x512, 596x447, 682x512, 512x448
 	- Sony PlayStation Portable - 480x272
 	- Super Nintendo Entertainment System/Famicom - 256x224, 256x240, 512x224
 	- TCS Oric - 240x224
@@ -136,11 +140,11 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ### DuckStation
 
-- Go to Settings -> Capture and under Screenshots, set Screenshot Size to Internal Resolution (Aspect Uncorrected).
+- Go to Settings -> Capture and under Screenshots, set Screenshot Size to Internal Resolution (Aspect Uncorrected). If you have reason to believe it's better for the game, you can also use the normal Internal Resolution option (which gives corrected aspect ratio). This can fix screenshots that come out too wide when uncorrected, but may be undesirable for other games, such as 2D pixel games in 256x224 that would be stretched out to 4:3.
 
 ![DuckStation Screenshot Size setting](/duckstation-screenshot-size.png)
 
-- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Rendering tab -> Internal Resolution. If you choose to do this, 3x Native is preferred for screenshots.
+- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Rendering tab -> Internal Resolution. If you choose to do this, 3x Native is preferred for screenshots. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![DuckStation Internal Resolution setting](/duckstation-internal-resolution.png)
 
@@ -148,11 +152,11 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ### PCSX2
 
-- Go to Settings -> Graphics -> Media Capture tab and under Screenshot Capture Setup, set Resolution to Internal Resolution (No Aspect Correction).
+- Go to Settings -> Graphics -> Media Capture tab and under Screenshot Capture Setup, set Resolution to Internal Resolution (No Aspect Correction). If you have reason to believe it's better for the game, you can also use the Internal Resolution (Aspect Corrected) option.
 
 ![PCSX2 Screenshot Resolution setting](/pcsx2-screenshot-resolution.png)
 
-- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Rendering tab -> Internal Resolution. If you choose to do this, 3x Native is preferred for screenshots.
+- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Rendering tab -> Internal Resolution. If you choose to do this, 3x Native is preferred for screenshots. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![PCSX2 Internal Resolution setting](/pcsx2-internal-resolution.png)
 
@@ -160,7 +164,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ### Dolphin
 
-- Go to Settings -> Graphics -> Advanced tab and under Frame Dumping, set Resolution Type to Raw Internal Resolution.
+- Go to Settings -> Graphics -> Advanced tab and under Frame Dumping, set Resolution Type to Raw Internal Resolution. If you have reason to believe it's better for the game, you can also use the Aspect Ratio Corrected Internal Resolution option. This may especially be the case for widescreen Wii games.
 
 ![Dolphin Screenshot Resolution Type setting](/dolphin-screenshot-resolution-type.png)
 
@@ -168,7 +172,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ![Dolphin Wii Aspect Ratio setting](/dolphin-wii-aspect-ratio.png)
 
-- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Enhancements tab -> Internal Resolution. If you choose to do this, 3x Native is preferred for screenshots.
+- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Enhancements tab -> Internal Resolution. If you choose to do this, 3x Native is preferred for screenshots. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![Dolphin Internal Resolution setting](/dolphin-internal-resolution.png)
 
@@ -180,7 +184,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ![PPSSPP Screenshot Mode setting](/ppsspp-screenshot-mode.png)
 
-- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Rendering Mode -> Rendering Resolution. If you choose to do this, 3x PSP is preferred for screenshots. Please note if this setting is set to Auto, the internal resolution will correspond with your Window Size setting.
+- To increase the internal resolution by 2x or 3x, go to Settings -> Graphics -> Rendering Mode -> Rendering Resolution. If you choose to do this, 3x PSP is preferred for screenshots.  Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled. Also note if this setting is set to Auto, the internal resolution will correspond with your Window Size setting.
 
 ![PPSSPP Rendering Resolution setting](/ppsspp-rendering-resolution.png)
 
@@ -190,36 +194,36 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 #### SwanStation
 
-- If you wish to increase the internal resolution to 3x here, go to Core Settings -> Enhancement Settings and set Internal Resolution Scale to 3. Leave everything else default.
+- If you wish to increase the internal resolution to 3x here, go to Core Settings -> Enhancement Settings and set Internal Resolution Scale to 3. Leave everything else default. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![RALibretro - SwanStation Internal Resolution Scale setting](/ralibretro-swanstation-internal-resolution-scale.png)
 
 #### Mupen64Plus-Next
 
-- To increase the internal resolution with this core, using the default GLideN64 plugin, go to Core Settings -> GLideN64 and set 4:3 Resolution to 960x720 (x3). Leave everything else default.
+- To increase the internal resolution with this core, using the default GLideN64 plugin, go to Core Settings -> GLideN64 and set 4:3 Resolution to 960x720 (x3). Leave everything else default. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![RALibretro - Mupen64Plus-Next Resolution setting](/ralibretro-mupen64plus-next-resolution.png)
 
 #### ParaLLEl N64
 
-- To increase the internal resolution here, go to Core Settings -> General and set Resolution to 960x720 (x3). Leave everything else default.
+- To increase the internal resolution here, go to Core Settings -> General and set Resolution to 960x720 (x3). Leave everything else default. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![RALibretro - ParaLLEl N64 Resolution setting](/ralibretro-parallel-n64-resolution.png)
 
 #### Flycast
 
-- To increase the internal resolution with this core, go to Core Settings -> Video and set Internal Resolution to 1920x1440 (x3). Leave everything else default.
+- To increase the internal resolution with this core, go to Core Settings -> Video and set Internal Resolution to 1920x1440 (x3). Leave everything else default. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![RALibretro - Flycast Internal Resolution setting](/ralibretro-flycast-internal-resolution.png)
 
 #### DeSmuME
 
-- To increase the internal resolution here, go to Core Settings -> Graphics and set Internal Resolution to 768x576 (x3). Leave everything else default.
+- To increase the internal resolution here, go to Core Settings -> Graphics and set Internal Resolution to 768x576 (x3). Leave everything else default. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![RALibretro - DeSmuME Internal Resolution setting](/ralibretro-desmume-internal-resolution.png)
 
 #### PPSSPP
 
-- To increase the internal resolution here, go to Core Settings -> Video and set Rendering Resolution to 1440x816 (x3). Leave everything else default.
+- To increase the internal resolution here, go to Core Settings -> Video and set Rendering Resolution to 1440x816 (x3). Leave everything else default. Please only do this for 3D games, and only if the result looks good. 2D games shouldn't be upscaled.
 
 ![RALibretro - PPSSPP Rendering Resolution setting](/ralibretro-ppsspp-rendering-resolution.png)
