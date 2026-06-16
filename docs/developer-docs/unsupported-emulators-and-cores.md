@@ -3,443 +3,487 @@ title: Unsupported Emulators and Cores
 description: Information about unsupported emulators and cores for RetroAchievements.
 ---
 
-# Unsupported Emulators and Cores
+- ❌: Deprecated or confirmed to be problematic. Unusable for achievements.
+- ❓ : Either untested or the issues haven't been narrowed down and documented. Not recommended.
+- ⌛ : Currently being looked into or testing.
 
-## Amiga
+# Unsupported Emulators and Cores (Supported Consoles)
 
-- ❓ libretro core: **FS-UAE**
-- ❌ libretro core: **P-UAE**
-  - Needs memory map to see exposed memory
-  - Locks disk files so they can't be opened for hashing
-  - Hard disk support?
-- ❓ libretro core: **PUAE 2021**
-- ❓ libretro core: **UAE4ARM**
+::: info
+This is a list of emulators and cores that have either been confirmed to not work with achievements or have had little to no documented testing.
+:::
+
+## 3DO
+
+| Name          | Type          | Status  | Notes          |
+| :------------ | :------------ | :-----: | :------------- |
+| **4DO**       | libretro core | ❓       |               |
 
 ## Amstrad CPC
 
-- ❌ libretro core: **CrocoDS**
+| Name          | Type          | Status  | Notes    |
+| :------------ | :------------ | :-----: | :------- |
+| **CrocoDS**   | libretro core | ❓     |               |
 
 ## Apple II
 
-- ⌛ BizHawk core: **Virtu**
-  - Testing
-  - 4 Jun 2023 - woz files are not supported
-  - 4 Jun 2023 - joystick not supported. keyboard has to be manually mapped.
-  - 4 Jun 2023 - have to manually create and load a multi-disk bundle for games with multiple disks. disks are generically labelled by index only.
+| Name          | Type          | Status  | Notes                                                                                                                                                     |
+| :------------ | :------------ | :-----: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Virtu**     | BizHawk core  | ❓      | - woz files are not supported (2023-06-04)<br>- joystick not supported. keyboard has to be manually mapped (2023-06-04)<br>- have to manually create and load a multi-disk bundle for games with multiple disks. disks are generically labelled by index only (2023-06-04) |
 
 ## Arcade
 
-- ❌ libretro core: **FB Alpha**
-  - Deprecated
-- ❌ libretro core: **MAME**
-- ❌ BizHawk core: **MAME**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **FB Alpha**      | libretro core | ❌ | Deprecated core that should not be used |
+| **FB Alpha 2012** | libretro core | ❌ | Deprecated core that should not be used |
+| **MAME**          | libretro core | ❌ | Includes all variants: HBMAME, 2003, 2003 Midway, 2003-Plus, 2009, 2010, 2015, 2016 |
+| **MAME**          | BizHawk core  | ❌ | |
 
-## Atari 2600
+## Atari Lynx
 
-- ❓ libretro core: **Stella 2014**
-
-## Atari 5200
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **atari800**
-  - Appears to work fine, but the core is a bit of a headache to use.
-    - The BIOS has to be configured within the core (F1 > Emulator Configuration > System ROM settings)
-    - Couldn't figure out controls - does the joystick need to be configured within the core too?
-    - Allows loading arbitrary files from the internal menu, which bypasses hashing
-- ❌ libretro core: **a5200**
-  - Does not expose memory
-
-## Atari ST
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **Hatari**
-  - Memory not exposed
-
-## Casette Vision
-
-- ❌ _Not supported_ - needs hashing method and memory map
-
-## CHIP-8
-
-- ❌ _Not supported_ - needs console ID, hashing method and memory map
-- ❌ libretro core: **Emux CHIP-8**
-- ❌ libretro core: **JAXE**
-  - 16 Apr 22 - Seems ready when we are
-  - May need settings blacklist to prevent lowering speed
-
-## Commodore 128
-
-- ❌ _Not supported_
-- ❌ libretro core: **VICE x128**
-
-## Commodore 64
-
-- ❌ libretro core: **vice_x64**
-  - NOTE: Joystick is in port 2 by default. Use JOY button on virtual keyboard (select) to switch it to port 1.
-  - 1 May 2022 - Reset does not autorun game
-- ⌛ BizHawk core: C64Hawk
-  - Testing
-- ❓ libretro core: **Frodo**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Gearlynx**      | libretro core | ❓ | |
+| **Holani**        | libretro core | ❓ | |
 
 ## ColecoVision
 
-- ❌ libretro core: **Gearcoleco**
-
-## Elektronika BK-0010/0011
-
-- ❌ _Not supported_
-- ❌ libretro core: **M**
-
-## Enterprise 128
-
-- ❌ _Not supported_
-- ❌ libretro core: **ep128emu**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Gearcoleco**    | libretro core | ❓ | |
 
 ## Fairchild Channel-F
 
-- ❓ BizHawk core: **ChannelFHawk**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **ChannelFHawk**  | BizHawk core | ❓ | |
 
 ## Famicom Disk System
 
-- ❌ libretro core: **FCEUmm**
-  - Does not expose extra FDS RAM
-- ❌ libretro core: **QuickNES**
-  - Does not emulate the disk system
-- ❌ libretro core: **NEStopia**
-  - Does not expose extra FDS RAM
-- ❓ libretro core: **Emux NES**
-- ❓ libretro core: **fixNES**
-
-## FM Towns
-
-- ❌ _Not supported_ - needs hashing method and memory map
-
-## Game & Watch
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **gw**
-  - Does not expose memory
-
-## Game Boy
-
-- ❌ libretro core: **DoubleCherryGB**
-  - Does not expose all memory, some achievements will show up as unsupported
-- ❓ libretro core: **Emux GB**
-- ❓ libretro core: **fixGB**
-- ❓ libretro core: **SameBoy**
-- ❓ libretro core: **TGB Dual**
-
-## Game Boy Color
-
-- ❓ libretro core: **DoubleCherryGB**
-  - Does not expose all memory, some achievements will show up as unsupported.
-- ❓ libretro core: **Emux GB**
-- ❓ libretro core: **fixGB**
-- ❓ libretro core: **SameBoy**
-- ❓ libretro core: **TGB Dual**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **FCEUmm**        | libretro core | ❌     | Does not expose extra FDS RAM        |
+| **QuickNES**      | libretro core | ❌     | Does not emulate the disk system     |
+| **NEStopia**      | libretro core | ❌     | Does not expose extra FDS RAM        |
+| **Emux NES**      | libretro core | ❓      |                                      |
+| **fixNES**        | libretro core | ❓      |                                      |
 
 ## Game Boy Advance
 
-- ❓ libretro core: **gpSP**
-- ❓ libretro core: **Meteor**
-- ❓ libretro core: **TempGBA**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **gpSP**          | libretro core | ❌ | |
+| **Meteor**        | libretro core | ❓ | |
+| **TempGBA**       | libretro core | ❓ | |
+
+## Game Boy/Game Boy Color
+
+| Name               | Type          | Status  | Notes                               |
+| :----------------- | :------------ | :-----: | :---------------------------------- |
+| **DoubleCherryGB** | libretro core | ❌ | Does not expose all memory, some achievements will show up as unsupported |
+| **Emux GB**        | libretro core | ❓ | |
+| **fixGB**          | libretro core | ❓ | |
+| **SameBoy**        | libretro core | ❓ | |
+| **TGB Dual**       | libretro core | ❌ | |
+
+## Game Gear
+
+| Name               | Type          | Status  | Notes                               |
+| :----------------- | :------------ | :-----: | :---------------------------------- |
+| **PicoDrive**      | libretro core | ❓ | |
+| **SMS Plus GX**    | libretro core | ❓ | |
 
 ## GameCube
 
-- ⌛ libretro core: **Dolphin**
-  - Testing
-
-## J2ME
-
-- ❌ _Not supported_ - needs console ID, hashing method and memory map
-- ❌ libretro core: **freej2me**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Dolphin**       | libretro core | ❌ | |
+| **Ishiiruka**     | libretro core | ❌ | |
 
 ## Magnavox Odyssey 2
 
-- ❓ BizHawk core: **O2Hawk**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **O2Hawk**          | BizHawk core | ❓ | |
 
 ## Master System / Mark III
 
-- ❓ BizHawk core: **SMSHawk**
-- ❓ libretro core: **Emux SMS**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **SMS Plus GX**   | libretro core | ❓ | |
+| **Emux SMS**      | libretro core | ❓ | |
+| **PicoDrive**     | libretro core | ❓ | |
+| **SMSHawk**       | BizHawk core  | ❓ | |
 
-## MicroW8
+## MSX/MSX2/MSX2+
 
-- ❌ _Not supported_
-- ❌ libretro core: **MicroW8**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **fMSX**          | libretro core | ❌ | |
 
-## MS-DOS
+## Neo Geo Pocket/Color
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **dosbox-core**
-- ❌ libretro core: **dosbox-SVN**
-- ❌ libretro core: **dosbox-pure**
-  - Needs a way to prevent launching with user-specified command line parameters
-  - Needs a way to prevent TSRs
-  - Needs a way to deactivate achievements if game drops to command prompt
-
-## MSX
-
-- ❓ libretro core: **fMSX**
-
-## Neo Geo Pocket
-
-- ❓ libretro core: **RACE**
-
-## Neo Geo Pocket Color
-
-- ❓ libretro core: **RACE**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **RACE**          | libretro core | ❓ | |
 
 ## NES / Famicom
 
-- ❌ libretro core: **NEStopia**
-  - Does not map SRAM
-- ❓ libretro core: **Emux NES**
-- ❓ libretro core: **fixNES**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **NEStopia**      | libretro core | ❌ | - Does not map SRAM |
+| **Emux NES**      | libretro core | ❓ | |
+| **fixNES**        | libretro core | ❓ | |
+| **bnes**          | libretro core | ❓ | |
 
 ## Nintendo 3DS
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **Citra**
-  - Only exposes 64MB of memory - documentation suggests there should be 128MB.
-  - Does not support save states
-- ❌ libretro core: **Citra 2018**
-- ❌ libretro core: **Citra Canary**
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Citra**         | libretro core | ❌ | - Only exposes 64MB of memory - documentation suggests there should be 128MB<br>- Does not support save states |
+| **Citra 2018**    | libretro core | ❌ | |
+| **Citra Canary**  | libretro core | ❌ | |
 
 ## Nintendo 64
 
-- ⌛ BizHawk core: **Mupen64Plus**
-  - Testing (there are some graphical issues that can be fixed using the angrylion plugin)
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Mupen64Plus-Next GLES2** | libretro core | ❓ | |
+| **Mupen64Plus-Next GLES3** | libretro core | ❓ | |
+| **Mupen64Plus**            | BizHawk core  | ❓ | There are some graphical issues that can be fixed using the angrylion plugin |
 
 ## Nintendo DS
 
-- ❌ libretro core: **DeSmuME 2015**
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **DeSmuME 2015**           | libretro core | ❌      | |
+| **melonDS 2021**           | libretro core | ❓       | |
 
 ## Nintendo DSi
 
-- ❌ libretro core: **DeSmuME**
-- ❌ libretro core: **melonDS**
-
-## Nokia N-Gage
-
-- ❌ _Not supported_ - needs hashing method and memory map
-
-## Oric
-
-- ❌ _Not supported_
-
-## Palm OS
-
-- ❌ _Not supported_
-- ❌ libretro core: **Mu**
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **DeSmuME**                | libretro core | ❌ | |
+| **melonDS**                | libretro core | ❌ | |
 
 ## PC Engine CD / TurboGrafx-CD
 
-- ❌ libretro core: **Beetle PCE**
-  - Does not expose RAM needed for PC Engine CD
-
-## PC-6001
-
-- ❌ _Not supported_ - needs hashing method and memory map
-
-## PC-8800
-
-## PC-9800
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **Neko Project II Kai**
-  - Memory is not exposed.
-    - It appears to be exposed in some games depending on the RAM size selected, but it seems like the machine RAM and not actually related to the game.
-- ❌ libretro core: **Neko Project II**
-
-## Philips CD-i
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **CDi 2015**
-- ❌ libretro core: **SAME CDi**
-
-## Philips P2000
-
-- ❌ _Not supported_
-- ❌ libretro core: **M2000**
-
-## Pico-8
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **FAKE-08**
-- ❌ libretro core: **Retro8**
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Beetle PCE**             | libretro core | ❌ | Does not expose RAM needed for PC Engine CD |
+| **Geargrafx**              | libretro core | ❌ | |
 
 ## PlayStation
 
-- ❌ libretro core: **PCSX ReARMed**
-  - BIOS are not required for this core and will zero out the Kernel RAM.
-- ❓ BizHawk core: **Octoshock** (Mednafen)
-- ❓ BizHawk core: **Nymashock** (Mednafen)
-- ❓ libretro core: **Rustation**
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **PCSX ReARMed**           | libretro core | ❌ | BIOS are not required for this core and will zero out the Kernel RAM |
+| **Rustation**              | libretro core | ❓ | |
+| **Octoshock**              | BizHawk core  | ❓ | |
+| **Nymashock**              | BizHawk core  | ❓ | |
+| **DuckStation**            | libretro core | ❌ | |
 
 ## PlayStation 2
 
-- ❌ Standalone emulator: **AetherSX2**
-  - No longer being developed, has known incompatibilities. Devs have no means to resolve issues.
-- ❌ libretro core: **LRPS2**
-  - Still in alpha state
-  - Does not expose memory
-- ❌ libretro core: **Play!**
-  - Low compatibility with most commercial games
-  - Black screen with stuttering sound
-
-## PocketStation
-
-- ❌ _Not supported_ - needs console ID, hashing method and memory map
-- ❌ libretro core: **pockystation**
-  - Core doesn't seem functional, even in RetroArch
-
-## SAM Coupé
-
-- ❌ _Not supported_
-- ❌ libretro core: **SimCoupe**
-  - Still in alpha state
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **AetherSX2**              | Standalone emulator | ❌ | No longer being developed, has known incompatibilities. Devs have no means to resolve issues. |
+| **LRPS2**                  | libretro core | ❌ | - Still in alpha state<br> - Does not expose memory. |
+| **Play!**                  | libretro core | ❌ | - Low compatibility with most commercial games.<br>- Black screen with stuttering sound. |
 
 ## Sega Dreamcast
 
-- ❓ libretro core: **Flycast GLES2**
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Flycast GLES2**          | libretro core | ❓ | |
 
 ## Sega Genesis / Mega Drive
 
-- ❌ libretro core: **Blastem**
-  - While some achievements may work, the core has issues with the Game RAM portion of memory.
-
-## Sega Pico
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **picodrive**
-  - Needs controls related to turning pages in the attached books
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Blastem**                | libretro core | ❌ | While some achievements may work, the core has issues with the Game RAM portion of memory. |
+| **ClownMDEmu**             | libretro core | ❓ | |
 
 ## Sega Saturn
 
-- ❌ libretro core: **Yabause**
-  - Technically supported; not recommended.
-- ❌ libretro core: **Kronos**
-  - Saving and loading states often locks up the UI in RALibretro
-  - Technically supported; not recommended.
-- ❓ libretro core: **YabaSanshiro**
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Yabause**                | libretro core | ❌ | Technically supported; not recommended.         |
+| **Kronos**                 | libretro core | ❓ | Saving and loading states often locks up the UI in RALibretro<br>- Technically supported; not recommended. |
+| **YabaSanshiro**           | libretro core | ❓ | |
 
 ## SG-1000
 
-- ❌ libretro core: **Gearsystem**
-  - Has significant unexposed memory
-
-## Sharp X1
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **X1 Millennium**
-  - 16 Apr 2022 - Disk writes modify source media, which breaks hashing
-
-## Sharp X68K
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **px68k**
-  - Crashes RALibretro upon loading a game
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Gearsystem**             | libretro core | ❌ | Has significant unexposed memory |
 
 ## SNES / Super Famicom / Satellaview / Sufami Turbo
 
-- ❓ libretro core: **Beetle bsnes**
-- ❌ libretro core: **Beetle Supafaust**
-  - 2024-06-11 - Does not expose memory
-- ❓ libretro core: **bsnes**
-- ❓ libretro core: **bsnes 2014 Accuracy**
-- ❓ libretro core: **bsnes 2014 Balanced**
-- ❓ libretro core: **bsnes 2014 Performance**
-- ❓ libretro core: **bsnes C++98 (v085)**
-- ❌ libretro core: **bsnes-hd beta**
-  - 2025-12-29 - Memory Inspector displays nothing but zeroes. Do not use.
-- ❓ libretro core: **bsnes-mercury Accuracy**
-- ❓ libretro core: **bsnes-mercury Balanced**
-- ❓ libretro core: **bsnes-mercury Performance**
-- ❓ libretro core: **higan Accuracy**
-- ❓ libretro core: **nSide Balanced**
-- ❓ libretro core: **Snes9x 2002**
-- ❓ libretro core: **Snes9x 2005**
-- ❓ libretro core: **Snes9x 2005+**
-- ❌ libretro core: **Snes9x 2010**
-  - PLEASE STOP USING THIS FOR ACHIEVEMENTS!!!!
-- ❓ BizHawk core: **BSNES**
-- ❓ BizHawk core: **BSNESv115+**
-
-## SpectraVideo SVI 318/328
-
-- ❌ _Not supported_
-- ❌ libretro core: **blueMSX**
-
-## Super Casette Vision
-
-- ❌ libretro core: **EmuSCV**
-  - Unfinished according to [libretro docs](https://docs.libretro.com/library/emuscv/).
-  - Does not expose memory. Appears to [export a save state](https://gitlab.com/MaaaX-EmuSCV/libretro-emuscv/-/blob/master/src/libretro.cpp#L223-229) via the RETRO_MEMORY_SAVE_RAM interface, which we try to shoehorn into $E000 as that's what's flagged as Cartridge RAM for the system.
-
-## Thomson TO8/TO8D
-
-- ❌ _Not supported_ - needs hashing method
-- ❌ libretro core: **Theodore**
-  - Seems to work
-  - Uncertain how core handles writing to disk/tape. May affect hashing.
-
-## TI-83
-
-- ⌛ libretro core: **Numero**
-  - Testing
-- ⌛ BizHawk core: **TI83Hawk**
-  - Testing
-
-## TIC-80
-
-- ❌ _Not supported_ - needs hashing method
-- ❌ libretro core: **TIC-80**
-  - Doesn't export memory correctly. Can only see 8 bytes.
-
-## VIC-20
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **VICE xvic**
-
-## VMU
-
-- ❌ _Not supported_ - needs console ID, hashing method, and memory map
-- ❌ libretro core: **VeMUlator**
+| Name                             | Type          | Status  | Notes                               |
+| :------------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Beetle bsnes**                 | libretro core | ❌ | - |
+| **Beetle Supafaust**             | libretro core | ❌ | Does not expose memory (2024-06-11) |
+| **fixNES**                       | libretro core | ❓ | |
+| **bnes**                         | libretro core | ❓ | |
+| **bnes 2014 Accuracy**           | libretro core | ❓ | |
+| **bnes 2014 Balanced**           | libretro core | ❓ | |
+| **bnes 2014 Performance**        | libretro core | ❓ | |
+| **bnes C++98 (v085)**            | libretro core | ❓ | |
+| **bnes-hd beta**                 | libretro core | ❓ | Memory Inspector displays nothing but zeroes. Do not use. (2025-12-29) |
+| **bnes-jg**                      | libretro core | ❓ | |
+| **bnes-mercury Accuracy**        | libretro core | ❓ | |
+| **bnes-mercury Balanced**        | libretro core | ❓ | |
+| **bnes-mercury Performance**     | libretro core | ❓ | |
+| **Snes9x 2002**                  | libretro core | ❌ | |
+| **Snes9x 2005**                  | libretro core | ❌ | |
+| **Snes9x 2005+**                 | libretro core | ❌ | |
+| **Snes9x 2010**                  | libretro core | ❌ | PLEASE STOP USING THIS FOR ACHIEVEMENTS!!! |
+| **higan Accuracy**               | libretro core | ❓ | |
+| **nSide Balanced**               | libretro core | ❓ | |
+| **BSNES**                        | BizHawk core  | ❓ | |
+| **BSNESv115+**                   | BizHawk core  | ❓ | |
 
 ## Wii
 
-- ⌛ Standalone emulator: **Dolphin**
-  - Testing
-- ⌛ libretro core: **Dolphin**
-  - Testing
+| Name                       | Type          | Status  | Notes                               |
+| :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **Dolphin**                | libretro core | ❌      |                                     |
 
-## Wii U
+# Unsupported Emulators and Cores (Unsupported Consoles)
 
-- ❌ _Not supported_ - needs hashing method and memory map
+## Acorn BBC Micro
+
+| Name          | Type          | Status  | Notes         |
+| :------------ | :------------ | :-----: | :------------- |
+| **b2**        | libretro core | ❓ | Testing needed |
+
+## Amiga
+
+| Name          | Type          | Status  | Notes         |
+| :------------ | :------------ | :-----: | :------------- |
+| **FS-UAE**    | libretro core | ❓ | Testing needed |
+| **P-UAE**     | libretro core | ❓ | - Needs memory map to see exposed memory<br>- Locks disk files so they can't be opened for hashing<br>- Unknown hard disk support |
+| **PUAE 2021** | libretro core | ❓ | Testing needed |
+| **UAE4ARM**   | libretro core | ❓ | Testing needed |
+
+## Atari 5200
+
+| Name           | Type          | Status  | Notes                                                                                                                                                     |
+| :------------- | :------------ | :-----: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **atari800**   | libretro core | ❌ | Appears to work fine, but the core is a bit of a headache to use<br>- The BIOS has to be configured within the core (F1 -> Emulator Configuration -> System ROM settings<br>- Couldn't figure out controls - does the joystick need to be configured within the core too?<br>- Allows loading arbitrary files from the internal menu, which bypasses hashing |
+| **a5200**      | libretro core | ❌ | Does not expose memory |
+
+## Atari ST/STE/TT/Falcon
+
+| Name          | Type          | Status  | Notes             |
+| :------------ | :------------ | :-----: | :---------------- |
+| **Hatari**    | libretro core | ❌ | Does not expose memory |
+
+## Cassette Vision
+
+| Name             | Type          | Status  | Notes             |
+| :--------------- | :------------ | :-----: | :---------------- |
+| **PD777**        | libretro core | ❌ | |
+
+## CHIP-8
+
+- Needs console ID, hashing method, and memory map
+
+| Name            | Type          | Status  | Notes             |
+| :-------------- | :------------ | :-----: | :---------------- |
+| **Emux CHIP-8** | libretro core | ❌ | |
+| **JAXE**        | libretro core | ❌ | - May need settings blacklist to prevent lowering speed |
+
+## Commodore 64
+
+| Name             | Type          | Status  | Notes             |
+| :--------------- | :------------ | :-----: | :---------------- |
+| **Frodo**        | libretro core | ❌ | |
+| **VICE x64**     | libretro core | ❌ | - Joystick is in port 2 by default. Use JOY button on virtual keyboard (select) to switch it to port 1<br>- Reset does not autorun game (2022-05-01) |
+| **VICE x64SC**   | libretro core | ❌ | |
+| **VICE xscpu64** | libretro core | ❌ | |
+| **VICE x64tv**   | libretro core | ❌ | |
+| **VICE xcbm5x0** | libretro core | ❌ | |
+| **VICE xcbm2**   | libretro core | ❌ | |
+| **C64Hawk**      | BizHawk core  | ❌ | |
+
+## Commodore 128
+
+| Name          | Type          | Status  | Notes         |
+| :------------ | :------------ | :-----: | :------------- |
+| **VICE x128** | libretro core | ❌ | |
+
+## Commodore PET
+
+| Name             | Type          | Status  | Notes             |
+| :--------------- | :------------ | :-----: | :---------------- |
+| **VICE xpet**    | libretro core | ❌ | |
+
+## Commodore Plus/4
+
+| Name             | Type          | Status  | Notes             |
+| :--------------- | :------------ | :-----: | :---------------- |
+| **VICE xplus4**  | libretro core | ❌ | |
+
+## Commodore VIC-20
+
+| Name             | Type          | Status  | Notes             |
+| :--------------- | :------------ | :-----: | :---------------- |
+| **VICE xvic**    | libretro core | ❌ | |
+
+## DOS
+
+| Name            | Type          | Status  | Notes         |
+| :-------------- | :------------ | :-----: | :------------- |
+| **DOSBox**      | libretro core | ❌ | |
+| **DOSBox Core** | libretro core | ❌ | |
+| **DOSBox SVN**  | libretro core | ❌ | |
+| **DOSBox Pure** | libretro core | ⌛ | |
+
+## Elektronika BK-0010/0011
+
+| Name            | Type          | Status  | Notes         |
+| :-------------- | :------------ | :-----: | :------------- |
+| **BK**          | libretro core | ❌ | |
+
+## Enterprise 64/128
+
+| Name            | Type          | Status  | Notes         |
+| :-------------- | :------------ | :-----: | :------------- |
+| **ep128emu**    | libretro core | ❌ | |
+
+## Game & Watch
+
+| Name            | Type          | Status  | Notes         |
+| :-------------- | :------------ | :-----: | :------------- |
+| **gw**          | libretro core | ❌ | - Does not expose memory |
+
+## J2ME
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **FreeJ2ME**      | libretro core | ❌ | |
+
+## MicroW8
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **MicroW8**       | libretro core | ❌ | |
+
+## PC-9800
+
+| Name                    | Type          | Status  | Notes                               |
+| :---------------------- | :------------ | :-----: | :---------------------------------- |
+| **Neko Project II**     | libretro core | ❌ | |
+| **Neko Project II Kai** | libretro core | ❌ | - Memory appears to be exposed in some games depending on the RAM size selected, but it seems like the machine RAM and not actually related to the game. |
+
+## Philips CD-i
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **CDi 2015**      | libretro core | ❌ | |
+| **SAME CDi**      | libretro core | ❌ | |
+
+## Philips P2000
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **M2000**         | libretro core | ❌ | |
+
+## Pico-8
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **FAKE-08**       | libretro core | ❌ | |
+| **Retro8**        | libretro core | ❌ | |
+
+## PocketStation
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **pockystation**  | libretro core | ❌ | Core doesn't seem functional, even in RetroArch |
+
+## SAM Coupé
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **SimCoupe**      | libretro core | ❌ | Still in alpha state |
+
+## Sega Pico
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **PicoDrive**     | libretro core | ❌ | Needs controls related to turning pages in the attached books |
+
+## Sharp X1
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **X1 Millennium** | libretro core | ❌ | Disk writes modify source media, which breaks hashing (2022-04-16) |
+
+## Sharp X68K
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **px68k**         | libretro core | ❌ | Crashes RALibretro upon loading a game |
+
+## Sharp ZX81
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **EightyOne**     | libretro core | ❌ | Memory not exposed |
+
+## Super Casette Vision
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **EmuSCV**        | libretro core | ❌ | - Unfinished according to [libretro docs](https://docs.libretro.com/library/emuscv/).<br>- Does not expose memory. Appears to [export a save state](https://gitlab.com/MaaaX-EmuSCV/libretro-emuscv/-/blob/master/src/libretro.cpp#L223-229) via the RETRO_MEMORY_SAVE_RAM interface, which we try to shoehorn into $E000 as that's what's flagged as Cartridge RAM for the system. |
+
+## Thomson TO8/TO8D
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Theodore**      | libretro core | ❌ | Uncertain how core handles writing to disk/tape. May affect hashing. |
+
+## TI-83
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Numero**        | libretro core | ❌ | |
+| **TI83Hawk**      | BizHawk core | ❌ | |
+
+## TIC-80
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **TIC-80**        | libretro core | ❌ | Doesn't export memory correctly. Can only see 8 bytes |
+
+## VMU
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **VeMUlator**     | libretro core | ❌ | |
 
 ## Xbox
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **DirectXbox**
-  - Still in alpha state
-
-## Zeebo
-
-- ❌ _Not supported_ - needs hashing method and memory map
-
-## ZX81
-
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **EightyOne**
-  - Memory not exposed
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **DirectXbox**    | libretro core | ❌ | Still in alpha state |
 
 ## ZX Spectrum
 
-- ❌ _Not supported_ - needs hashing method and memory map
-- ❌ libretro core: **FUSE**
-  - Requires ability to map keyboard to port 3
-  - Uncertain about save support. Cannot seem to insert save disk
-- ⌛ - BizHawk core: **ZXHawk**
-  - Hashing needs to be corrected
-  - Testing
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **FUSE**          | libretro core | ❌      | - Requires ability to map keyboard to port 3<br>- Uncertain about save support. Cannot seem to insert save disk |
+| **ZXHawk**        | BizHawk core  | ❌      | Hashing needs to be corrected |
+
+## Others
+
+- FM Towns
+- Nokia N-Gage
+- Oric
+- PC-6001
+- Wii U
+- Zeebo

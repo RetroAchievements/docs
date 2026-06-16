@@ -71,6 +71,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | Name              | Type          | Notes                                                                                                        |
 | :---------------- | :------------ | :----------------------------------------------------------------------------------------------------------- |
 | **Stella**        | libretro core |                                                                                                              |
+| **Stella 2014**   | libretro core |                                                                                                              |
 | **Atari2600Hawk** | BizHawk core  | Achievements that require emulator resets do not work. Please open a ticket so the achievement can be fixed. |
 
 ### Atari 7800
@@ -224,7 +225,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
-### Magnavox Odyssey 2
+### Magnavox Odyssey2/Philips Videopac+
 
 | Name     | Type          | Notes |
 | :------- | :------------ | :---- |
