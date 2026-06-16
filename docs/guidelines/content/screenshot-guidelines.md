@@ -11,9 +11,9 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - If possible, 3D games can have their internal resolution upscaled by 2x or 3x. Note that this is a special emulator setting, not just resizing the window while it's at 1x internal resolution. This should only be done for 3D games, and only when the result looks good - it may not be desirable if the high quality 3D graphics clash too much with low quality upscaled 2D assets, and it shouldn't be done if the game is purely 2D. If used, 3x is preferred over 2x. Never submit 4x or higher.
 - For most systems, RALibretro is recommended for taking screenshots, since it generally takes them at the appropriate resolution. RetroArch should be avoided since it generally takes screenshots based on your window size.
 - Standalone emulators such as DuckStation, PCSX2, Dolphin, and PPSSPP require configuration to have the appropriate screenshot settings. Please read the [Emulator Setup](#emulator-setup) section below.
-- You should generally never manually resize or crop a screenshot, especially if it's just to force a match with the required dimensions. If you're sure you have the appropriate emulator settings and the screenshots are correct for the game, but the site doesn't allow it, it may be an oversight. Please report these cases in the `#cleanup-requests` forum in our [Discord server](https://discord.gg/dq2E4hE) if you're sure it's a mistake.
+- You should generally never manually resize or crop a screenshot, especially if it's just to force a match with the required dimensions. If you're sure you have the appropriate emulator settings and the screenshots are correct for the game, but the site doesn't allow it, it may be an oversight. Please report these cases in the `#cleanup-requests` forum or `#screenshot-help` channel in our [Discord server](https://discord.gg/dq2E4hE) if you're sure it's a mistake.
 - Exceptions can include games for Amstrad CPC and some other systems like PS1 and Saturn where the emulator may produce screenshots that look too wide. You may need to manually resize these screenshots to the game's appropriate resolution using Nearest Neighbor scaling in an image editor. Be sure you know the game's proper resolution and be sure you know how to use Nearest Neighbor scaling if you're dealing with games like this.
-- If a game uses multiple resolutions (e.g. title screen and in-game look different), you may also want to resize them to one appropriate resolution for the game, especially for the primary screenshots displayed on the game page. Again, if you're dealing with games like this and you choose to do this, be sure you know what the best unified resolution should be for the game and be sure to use Nearest Neighbor scaling.
+- If a game uses multiple resolutions (e.g. title screen and in-game look different), it may be necessary to resize them to one appropriate resolution for the game, especially for the primary screenshots displayed on the game page. Again, if you're dealing with games like this, be sure you know what the best unified resolution should be for the game and be sure to use Nearest Neighbor scaling.
 
 ## Submitting Screenshots
 
@@ -26,8 +26,9 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 ## General Guidelines
 
 - No watermarks are to be present on any images.
+- The English language version of the game should be used for screenshots if it exists and it's supported.
 - Be sure to carefully look at the existing screenshots for a game before submitting more. Multiple screenshots of the same level or scene aren't that interesting - diversity is preferred (as much as the game allows). Do not rush and submit several screenshots of the first level just for the sake of submitting things. In games with multiple playable characters, like fighting games, don't use just one character.
-- Screenshots of menus generally shouldn't be submitted as in-game screenshots unless there's a good reason. Screenshots of gameplay are preferred. Also don't add too many shots of cutscenes at the expense of gameplay.
+- Screenshots of menus generally shouldn't be submitted as in-game screenshots unless there's a good reason. Screenshots of gameplay are preferred. Also don't add too many shots of cutscenes at the expense of gameplay (unless it's an especially cutscene-focused game, or something like a VN).
 - Try to make screenshots interesting in general - not just characters standing in idle poses at the beginning of each level, but shots with more action and energy as well.
 - Avoid submitting screenshots of spoilers - scenes that involve plot twists, unexpected characters or unexpected boss fights later in the game, etc. Use your best judgment. (completion screenshots are an exception, of course - the site will automatically obscure them as a spoiler)
 - Don't try too hard to be funny or provocative. It may depend on the nature of the game, but in general the screenshots should be neutral - it gets old if they're all trying to be silly.
@@ -37,14 +38,17 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ## System-Specific Guidelines
 
-- Game Boy screenshots should be in black-and-white. Do not use SGB borders.
+- Game Boy screenshots should be in black-and-white. Do not use SGB borders. There can be occasional exceptions in color like Pokémon Yellow and certain homebrew games and hacks that are technically Game Boy Color games, but classified as Game Boy on the site.
 - Emulator filters and shaders should be disabled for screenshots. For example, Game Boy Color and Game Boy Advance should not use color correction, and Apple II should not use a scanline filter.
 - NES color palette can be whatever the default is in your emulator.
 - DS screenshots should include both screens in vertical orientation, without a gap in-between, and with both screens being the same size.
 - As mentioned above, Amstrad CPC games may produce screenshots that look too wide using the Caprice32 core in RALibretro. It's recommended that you only deal with this system if you understand how the games should be displayed. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
-- PS1 and Saturn games (and possibly other systems like Dreamcast and Arcade) may also produce screenshots that look too wide in their raw internal resolution. Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
+- Uzebox games may also produce produce screenshots in improper resolutions using the Uzem core in RALibretro. Be sure you know the proper resolution for the game (it can be different for each game) and use Nearest Neighbour scaling to resize the screenshots after taking them.
+- PS1, Saturn, Dreamcast, Arcade, and possibly other systems may also produce screenshots that look too wide in their raw internal resolution. Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
 - For PS1, DuckStation can use its aspect corrected Internal Resolution screenshot option to deal with games that come out too wide - but this may not be desirable to leave enabled for every game, such as 2D pixel games in 256x224 that would be stretched out to 4:3.
-- For PS2, GameCube, and Wii, you may want to use the aspect corrected screenshot option rather than aspect uncorrected if it looks better for the game.
+- PS1 in particular can produce different resolutions for the title screen and in-game, sometimes in the same aspect ratio (e.g. 640x480 and 512x384). It may be necessary to resize one to match the other (using Nearest Neighbour scaling) to ensure they match on the page.
+- Genesis, Sega CD, Amstrad CPC, and possibly other older systems may have occasional exceptions where the resolution doesn't match between title screen and in-game, but you may not want to resize them and distort the pixels.
+- For PS2, GameCube, and Wii, you may want to use the aspect corrected screenshot option rather than aspect uncorrected if it looks better for the game. This can especially be the case for widescreen Wii games.
 - PS2 games should never have widescreen enabled.
 - Wii games should always have widescreen enabled (this should already be the default in Dolphin).
 - For PC-88, avoid using Skip Line or Interlace modes (this should already be the default in RAQUASI88).
@@ -52,7 +56,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 ## Screenshot Dimensions
 
 - Listed below are the standard image dimensions for each system. Some systems may differ depending on the game.
-- A reminder: in general, please do not manually resize or crop your screenshots to match with these dimensions. They should be produced automatically by the emulator with appropriate settings, with rare exceptions that may be explained elsewhere on this page. If you believe an error has been made, please report it in the `#cleanup-requests` forum as explained above.
+- A reminder: in general, please do not manually resize or crop your screenshots to match with these dimensions. They should be produced automatically by the emulator with appropriate settings, with rare exceptions that may be explained elsewhere on this page. If you believe an error has been made, please report it in the `#cleanup-requests` forum or `#screenshot-help` channel as explained above.
 - This list may not always be up to date with the site's configuration if a change is made there without editing this page yet.
 	- 3DO Interactive Multiplayer - 320x240
 	- Amstrad CPC - 192x272, 384x272
@@ -94,14 +98,14 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- NEC PC-FX - 256x232, 256x240, 341x240
 	- Nintendo 3DS - 400x240, 320x240, 720x480
 	- Nintendo 64 - 320x240
-	- Nintendo DS - 256x384, 256x192
-	- Nintendo DSi - 256x384, 256x192
+	- Nintendo DS - 256x384, 384x256
+	- Nintendo DSi - 256x384, 384x256
 	- Nintendo Entertainment System/Famicom - 256x224, 256x240
 	- Nintendo Game & Watch - Game-dependent
 	- Nintendo Game Boy - 160x144
 	- Nintendo Game Boy Advance - 240x160
 	- Nintendo Game Boy Color - 160x144
-	- Nintendo GameCube - 640x480, 640x448, 512x464, 512x480
+	- Nintendo GameCube - 640x480, 640x448, 512x464, 512x480, 640x532, 512x448
 	- Nintendo Pokemon Mini - 96x64
 	- Nintendo Virtual Boy - 320x186, 384x224
 	- Nintendo Wii - Game-dependent
@@ -123,8 +127,8 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Sinclair ZX81 - 256x192
 	- SNK Neo Geo CD - 320x224
 	- SNK Neo Geo Pocket - 160x152
-	- Sony PlayStation - 320x240, 256x240, 368x240, 320x480, 256x480, 368x480, 512x480, 640x480, 320x224, 320x268, 512x384
-	- Sony PlayStation 2 - 640x480, 640x448, 640x512, 596x447, 682x512, 512x448
+	- Sony PlayStation - 320x240, 256x240, 320x480, 256x480, 368x480, 512x480, 640x480, 320x224, 320x268, 512x384, 368x240
+	- Sony PlayStation 2 - 640x480, 640x448, 640x512, 596x447, 682x512, 512x448, 512x446
 	- Sony PlayStation Portable - 480x272
 	- Super Nintendo Entertainment System/Famicom - 256x224, 256x240, 512x224
 	- TCS Oric - 240x224
