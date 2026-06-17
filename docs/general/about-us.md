@@ -140,6 +140,7 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [Pilzkopf](https://retroachievements.org/user/Pilzkopf)
 - [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
 - [Prims](https://retroachievements.org/user/Prims)
+- [Raeyene](https://retroachievements.org/user/Raeyene)
 - [Salva64bits](https://retroachievements.org/user/Salva64bits)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
