@@ -72,14 +72,7 @@ Rich Presence must be dynamic and free of useless information. Unclear emojis an
 
 # Save States
 
-Collecting save states during the refactoring process will make future maintenance significantly easier. Eventually on site storage may be available, so collecting complete sets of save states is highly desired during the refactoring process. Save states should use the most [recommended core](https://docs.retroachievements.org/general/emulator-support-and-issues.html) and its most current version.
-
-States should be collected so all achievements are easy to access and reported issues should be easily repeatable. In general, the following are the states that should be collected:
-
-- Prior to any boss fights that have associated achievements for progression, collection, or challenge
-- Prior to obtaining the last item, skill, or level for collection/power-up achievements
-- Prior to the beginning of a challenge's initial checkpoint hit
-- Periodically at sensible points throughout standard gameplay to give general access to all parts of the game
+While conducting a refactor, if an achievement set does not already have a complete set of save states archived, the refactoring developer should collect a full set of states and submit them to the repository in accordance with INSERT LINK TO FUTURE SAVE DOC.
 
 # Refactor Notification
 
