@@ -35,9 +35,6 @@ The documentation is organized into several main sections:
 - `/docs/developer-docs/` - Documentation for achievement developers
 - `/docs/general/` - General information about RetroAchievements
 - `/docs/guidelines/` - Guidelines for users, developers, and content
-- `/docs/es/`, `/docs/pt/` - Translations in Spanish and Portuguese
-
-The documentation supports multiple languages (English, Spanish, Portuguese) with parallel directory structures.
 
 ## Contribution Process
 

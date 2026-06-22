@@ -30,6 +30,6 @@ We appreciate your interest in contributing. Whether you're new to Git or a seas
 
 ## DocSearch
 
-Search is powered by Algolia DocSearch and is only specific to your currently-selected language.
+Search is powered by Algolia DocSearch.
 
 New pages and content may take some time to appear in the search results. Algolia only crawls the site once a week, usually on weekends.

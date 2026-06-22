@@ -9,8 +9,3 @@ The docs are currently under heavy construction so be sure to check back often! 
 - **Achievement Development**: Extensive information on both the conceptual and technical aspects of making achievements.
 
 We encourage all community members to join our [Discord Server](https://discord.gg/dq2E4hE); we use this for most communication.
-
-Translations
-
-- [Portuguese](/pt/general/index)
-- [Spanish](/es/general/index)
