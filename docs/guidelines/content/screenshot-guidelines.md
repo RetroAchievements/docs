@@ -52,7 +52,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - Genesis, Sega CD, and possibly other older systems can also have occasional games where the resolution doesn't match between title screen and in-game, or even changes in-game, but it's currently fine to submit them without resizing them and distorting the pixels.
 - For PS2, GameCube, and Wii, you may want to use the aspect corrected screenshot option rather than aspect uncorrected if it looks better for the game. This can especially be the case for widescreen Wii games.
 - PS2 games should never have widescreen enabled.
-- Wii games should generally have widescreen enabled (this should already be the default in Dolphin). However, 4:3 screenshots can be submitted if widescreen isn't supported by the game or doesn't appear right.
+- Wii games should generally have widescreen enabled (this should already be the default in Dolphin). However, non-widescreen screenshots can be submitted if widescreen isn't supported by the game or doesn't appear right.
 - For PC-88, avoid using Skip Line or Interlace modes (this should already be the default in RAQUASI88).
 - For Apple II in RAppleWin, disable the 50% Scan Lines option and set Video Mode to Color (Composite Idealized) or Color (RGB Card/Monitor) (may depend on the game). Use Shift + Print Screen to take a 280x192 screenshot (generally preferred), or Print Screen alone to take a 560x384 screenshot (may be required for certain games like text adventures). The screenshot will be in BMP format in the same folder as the game you launched, and it must be converted to PNG format using an image editor before uploading.
 
