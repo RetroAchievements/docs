@@ -275,6 +275,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/subset_design",
         },
         {
+          text: "Refactoring Requirements",
+          link: "/guidelines/content/refactor-requirements",
+        },
+        {
           text: "Working with the Right ROM",
           link: "/guidelines/content/working-with-the-right-rom",
         },

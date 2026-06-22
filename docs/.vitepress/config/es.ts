@@ -270,6 +270,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           text: "Subsets",
           link: "/es/guidelines/content/subsets",
         },
+        // {
+        //  text: "Refactoring Requirements",
+        //  link: "/guidelines/content/refactor-requirements",
+        // },
         {
           text: "Trabajando con la ROM adecuada",
           link: "/es/guidelines/content/working-with-the-right-rom",
