@@ -231,7 +231,7 @@ This is a list of emulators and cores that have either been confirmed to not wor
 | **bnes 2014 Balanced**           | libretro core | ❓ | |
 | **bnes 2014 Performance**        | libretro core | ❓ | |
 | **bnes C++98 (v085)**            | libretro core | ❓ | |
-| **bnes-hd beta**                 | libretro core | ❓ | Memory Inspector displays nothing but zeroes. Do not use. (2025-12-29) |
+| **bnes-hd beta**                 | libretro core | ❌ | Memory Inspector displays nothing but zeroes. Do not use. (2025-12-29) |
 | **bnes-jg**                      | libretro core | ❓ | |
 | **bnes-mercury Accuracy**        | libretro core | ❓ | |
 | **bnes-mercury Balanced**        | libretro core | ❓ | |
