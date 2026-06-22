@@ -82,15 +82,6 @@ For example, if your new Markdown file is _docs/general/my-file.md_, add this to
 }
 ```
 
-It is also a best practice to add this to the configs of the other languages to keep them in sync, even if it's commented out:
-
-```js
-// {
-//     text: "My New Page",
-//     link: "/general/my-file",
-// }
-```
-
 ## Running the Docs Site Locally
 
 To run the docs site on your computer:
