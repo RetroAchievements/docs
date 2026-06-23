@@ -3,6 +3,7 @@ import { type HeadConfig, defineConfig } from "vitepress";
 export const shared = defineConfig({
   // Metadata
   title: "RetroAchievements",
+  titleTemplate: ":title | RetroAchievements Docs",
 
   // SEO
   head: getHeadTags(),
@@ -45,12 +46,20 @@ export const shared = defineConfig({
       },
     ],
   },
+
+  transformHead: (context) => {
+    const tags: HeadConfig[] = [
+      ["meta", { name: "twitter:title", content: context.title }],
+      ["meta", { name: "twitter:description", content: context.description }],
+    ];
+
+    return tags;
+  }
 });
 
 function getHeadTags(): HeadConfig[] {
   const tags: HeadConfig[] = [
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["meta", { name: "twitter:title", content: "RetroAchievements Docs" }],
     ["meta", { name: "twitter:site", content: "@RetroCheevos" }],
   ];
 
