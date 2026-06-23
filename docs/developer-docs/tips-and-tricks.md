@@ -31,7 +31,7 @@ See also: [Memory Inspector Overview](/developer-docs/memory-inspector).
 
 ## Achievement Creation Tips
 
-See also: [Unwelcome Concepts](/guidelines/developers/code-of-conduct#unwelcome-concepts) and [Achievement Design](/developer-docs/achievement-design).
+See also: [Unwelcome Concepts](/guidelines/content/unwelcome-concepts) and [Achievement Design](/developer-docs/achievement-design).
 
 - **~~Never~~ Avoid using only one condition as much as you can**. When using only one condition the achievement will most likely pop at the wrong time. This is the **most common error by a developer**.
 
