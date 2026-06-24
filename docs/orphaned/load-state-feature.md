@@ -1,17 +1,17 @@
 ---
 title: Why You Shouldn't Use the Load State Feature
-description: Using load states in RetroAchievements can disrupt achievement tracking, especially in softcore mode. This happens because progress resets when reloading, affecting challenges like no-damage or no-password runs.
+description: Using load states in RetroAchievements can disrupt achievement tracking, especially in casual mode. This happens because progress resets when reloading, affecting challenges like no-damage or no-password runs.
 ---
 
 # Why You Shouldn't Use the Load State Feature
 
 **Note**: currently the issue described here happens only on DuckStation standalone and RetroArch versions older than 1.9.1.
 
-## Hardcore/Softcore
+## Hardcore/Casual Mode
 
-Some users like to use the save/load state feature to save their progress in a game. As you may know, this feature isn't allowed when playing with hardcore mode. But some users aren't hardcore gamers and prefer to keep hardcore mode disabled (let's call this mode softcore).
+Some users like to use the save/load state feature to save their progress in a game. As you may know, this feature isn't allowed when playing with hardcore mode. But some users aren't hardcore gamers and prefer to keep hardcore mode disabled (let's call this casual mode).
 
-From time to time some users [report](/general/faq#how-do-i-report-a-broken-achievement) that an achievement isn't triggering, and when asked they say they were playing in softcore.
+From time to time some users [report](/general/faq#how-do-i-report-a-broken-achievement) that an achievement isn't triggering, and when asked they say they were playing in casual mode.
 
 One thing you all have to keep in mind is:
 
@@ -39,7 +39,7 @@ Examples of conditions:
 - starting the boss fight
 - the game is paused
 
-The problem with softcore is that when you load a saved state you can ruin the logic behind an achievement.
+The problem with casual mode is that when you load a saved state you can ruin the logic behind an achievement.
 
 ## Examples
 
@@ -62,7 +62,7 @@ When you are at stage 1, the emulator memorizes it, the same thing for all other
 
 Now imagine this scenario:
 
-- a softcore player started the game and played stages 1, 2 and 3
+- a casual mode player started the game and played stages 1, 2 and 3
 - they needed to stop playing when at stage 4 and then they saved a state to continue later
 - they closed the emulator
 - later they could play again, started the game, and loaded the state they saved

@@ -16,6 +16,14 @@ There are three different types of awards:
 * Game Awards – Given for [completing](#completion) or [mastering](#mastery) game sets.
 * Site Awards – Special awards given out for completing certain tasks
 
+## Casual
+
+Casual, formerly known as Softcore, is a mode for achievement collecting that allows you to use all of an emulator's features.
+
+Collecting every achievement in a set, in either hardcore or casual, gives you a [Completion](#completion) of the game, and a [badge](#award-badge) for your profile.
+
+See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Hardcore/Casual mode.
+
 ## Cheevo
 
 Short for "Achievement".
@@ -33,7 +41,7 @@ On the [Emulator Support](emulator-support-and-issues.md) page, you can see what
 
 ## Completion
 
-Completion is the [softcore](#softcore) version of a [mastery](#mastery).
+Completion is the [casual mode](#casual) version of a [mastery](#mastery).
 
 You earn it for collecting every achievement in a game or [set](#set).
 
@@ -56,7 +64,7 @@ See [the dedicated page](events.md) for more information and some active events 
 
 Collecting every achievement in a [set](#set) in hardcore mode gives you a [mastery](#mastery) of the game, and a badge for your profile.
 
-See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Hardcore/Softcore mode.
+See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Hardcore/Casual mode.
 
 ## Hash
 
@@ -98,14 +106,6 @@ A subset is an additional set for a game, containing additional challenges or re
 You can see these by going to a game's page and navigating to the other icons above the achievement list.
 
 See [the dedicated subsets page](../guidelines/content/subsets.md) for more information.
-
-## Softcore
-
-"Softcore" is a mode for achievement collecting that allows you to use all of an emulator's features. 
-
-Collecting every achievement in a set, in either hardcore or softcore, gives you a [Completion](#completion) of the game, and a [badge](#award-badge) for your profile.
-
-See the [FAQ entry](faq.md#what-is-hardcore-mode) for more information about Hardcore/Softcore mode.
 
 ## Standalone
 

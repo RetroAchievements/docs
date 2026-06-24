@@ -10,14 +10,14 @@ This feature restricts the player from loading save states (creating them is sti
 Note that the only exception to altering speed is fast-forward, which is allowed.
 Essentially, you are playing the game without the game-altering enhancements emulators come with.
 
-While you will still be able to get achievements in Softcore, playing in Hardcore mode is the only way to earn a Mastery for a game, which is displayed both on your profile and on the game's page as a master of the game, as well as on the main leaderboard.
+While you will still be able to get achievements in Casual mode, playing in Hardcore mode is the only way to earn a Mastery for a game, which is displayed both on your profile and on the game's page as a master of the game, as well as on the main leaderboard.
 Playing in Hardcore will also allow you to set times, scores, or participate in miscellaneous challenges on game-specific leaderboards.
 Most events also require you to earn achievements in Hardcore, unless otherwise specified on the event page.
-Completing a game with softcore will still give you a badge to show on your profile; however, there will not be a gold border, and you won't show up as a recent master of the game.
+Completing a game in casual mode will still give you a badge to show on your profile; however, there will not be a gold border, and you won't show up as a recent master of the game.
 
 If you want to have a one-to-one replication of how you used to play retro games in the distant past, then Hardcore mode is what you are looking for.
 
-**Note**: If you want to play with the Hardcore mode disabled (also known as "Softcore"), you might experience issues.
+**Note**: If you want to play with the Hardcore mode disabled (also known as "Casual"), you might experience issues.
 See [Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
 ### What are the RetroPoints (white points)?
@@ -120,7 +120,7 @@ It's recommended to post screenshots on [imgur](https://imgur.com/) and videos o
 Also add details like:
 
 - when it was/wasn't awarded;
-- what game mode (hardcore/softcore);
+- what game mode (hardcore/casual);
 - what difficulty level or other settings you've selected;
 - how long you were playing;
 - when you most recently died or continued;
@@ -158,7 +158,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
    - Provide a direct link to the Achievement ID(s) of the unlock(s) you’re requesting.
      - If your request contains more than three achievements then please also include a list of just the IDs in comma delimited format, ex. `123, 456, 789`.
-   - **State whether the request is for softcore or hardcore unlocks.**
+   - **State whether the request is a casual or hardcore unlock.**
 
 2. Broken Achievement Ticket:
 
