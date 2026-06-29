@@ -128,7 +128,12 @@ For more information on the value format, see [Value Definition](/developer-docs
 
 ## Instant Submission Leaderboards
 
-Leaderboards can sometimes get pretty spammy and take up a lot of screen space when starting or depending on how many are active at once. It is generally good practice to try and eliminate this as much as possible when you can.  
+An active leaderboard will display the current progress in the bottom corner. However, if multiple leaderboards are active at the same time the interface can become quite difficult to read and thus get spammy.  
+It is generally good practice to try and eliminate this as much as possible when you can.
+
+Instant Submission Leaderboards are especially useful when some information is already visible on screen.
+For example there is no reason to display the current time spent in the bottom corner in a racing game which already displays the time spent.
+
 You can do this by taking advantage of the fact that you can start and submit a leaderboard on the same frame by setting the start condition to what you would normally use as the submit and then setting the submit condition so something that is always true like 1=1.  
 
 For example in this leaderboard for a racing game the `Start` group is true for a single frame once a race has been completed in a specific mode:
