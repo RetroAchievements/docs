@@ -152,7 +152,7 @@ When making bitfield notes, it is assumed that a bit value of 0 is off/no/false;
 Good examples here will specify each bit as well as what they represent.
 
 ```
-[8-bit bitset] Bonuses Unlocked
+[8-bit] Bonuses Unlocked
 Bit0 = All Replay Items
 Bit1 = Unlimited Ammo (Mission 1)
 Bit2 = Silver Bullets (Mission 3)
@@ -164,7 +164,7 @@ Bit7 = Achilles Head (Mission 6)
 ```
 
 ```
-[8-bit bitset] Treasure Flags 03
+[8-bit] Treasure Flags 03
 Bit0=[Altair - Rebel Hideout] Potion
 Bit1=[Fynn - Pub Basement] Scott's Ring
 Bit2=[Castle Deist 1F - South Treasure Room] Stun Tome
@@ -176,7 +176,7 @@ Bit7=[Castle Deist 1F - NW Treasure Room] Gold Needle
 ```
 
 ```
-[8-bit bitset] Chapters Completed
+[8-bit] Chapters Completed
 Bit0 = Chapter 1 - Inverted
 Bit1 = Chapter 2 - Inverted
 Bit2 = Chapter 3
@@ -206,7 +206,16 @@ Pointers are more commonly found in newer consoles and their notes typically inc
 Good examples here will include various address offsets, each of which including details and size of the address being pointed to.
 
 ```
-[32-bit pointer] Pointer to Data
+[32-bit BE] Pointer to progress data
++0x24
+++0x04
++++0x21 = [8-bit] Levels unlocked
+...Bit0 = Level 5-9
+...Bit1 = Level 5-10
+```
+
+```
+[32-bit] Pointer to Data
 +0x638 | Pointer to pointer to smells pointer
 ++0x6d0 | Pointer to woofs
 +++0xb8 | Total Woofs [32-bit]
@@ -227,11 +236,11 @@ Good examples here will include various address offsets, each of which including
 [32-bit] *US* Pointer
 
 --Player Kratos--
-+0x97898= [32-bit Float] Health
++0x97898= [Float] Health
 +0x6f570= [32-bit] Combo
-+0x977a0= [32-bit Float] Coordinates Y
-+0x977a4= [32-bit Float] Coordinates Z
-+0x977a8= [32-bit Float] Coordinates X
++0x977a0= [Float] Coordinates Y
++0x977a4= [Float] Coordinates Z
++0x977a8= [Float] Coordinates X
 
 --Unlockables (Alternative)--
 +0x6f594= [Bit0] Poseidon's Trident
@@ -240,15 +249,6 @@ Good examples here will include various address offsets, each of which including
 +0x6f5a0= [Bit0] Zeus' Fury
 +0x6f5a4= [Bit0] Army of Hades
 +0x6f5a8= [Bit0] Blade of Artemis
-```
-
-```
-[32-bit BE] Pointer to progress data
-+0x24
-++0x04
-+++0x21=[8-bit]Levels unlocked
-...Bit0=Level 5-9
-...Bit1=Level 5-10
 ```
 
 #### Bad Example
