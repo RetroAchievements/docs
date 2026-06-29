@@ -27,7 +27,7 @@ We will be listing some guidelines below as for what we are looking for. However
 
 - It is allowed to request Standalone support for games that already have achievement sets on other platforms, such as Steam.
   - However, the set on RetroAchievements must be significantly different enough from the existing ones. Plagiarism from other platforms is not allowed, with our sets needing to offer a unique experience not present in the official sets.
-  - The official achievement set (or lack of one) for a game will affect the likelyhood of approval. Games with comprehensive official sets are less likely to be approved, while games without official achievements are given higher consideration for approval.
+  - The official achievement set (or lack of one) for a game will affect the likelihood of approval. Games with comprehensive official sets are less likely to be approved, while games without official achievements are given higher consideration for approval.
 - Official support for MMO private servers must be proposed in collaboration with the host(s) of the server, as these will likely have to built within the code of the server, barring rare exceptions.
 - Fangames are allowed, but do beware that we will not be hosting these within our own community to prevent potential legality issues. You must ensure that the user has access to everything necessary without being reliant on our community.
 
