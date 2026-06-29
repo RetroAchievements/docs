@@ -106,7 +106,7 @@ Chapter II
 0x2c - Inn main room (Day 1)
 ```
 
-````
+```
 [16-bit] Current screen
 0x0020 = Car / Map select
 0x0017 = Main Menu
