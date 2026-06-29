@@ -106,6 +106,17 @@ Chapter II
 0x2c - Inn main room (Day 1)
 ```
 
+````
+[16-bit] Current screen
+0x0020 = Car / Map select
+0x0017 = Main Menu
+0x0025 = Title and Demo, Rankings
+0x00cf = Dev logos
+0xffff = Loading
+0x004d = Championship exclusive menus
+0x0033 = Ghost Car select, Memory Card, Race End Menu, Replay
+```
+
 #### Bad Example
 
 ```
@@ -134,17 +145,6 @@ Good examples here will specify the size, which digits of the score are being re
 10 - 99   = Peasent
 100 - 999 = Prosperous
 1000+     = Professional
-```
-
-````
-[16-bit] Current screen
-0x0020 = Car / Map select
-0x0017 = Main Menu
-0x0025 = Title and Demo, Rankings
-0x00cf = Dev logos
-0xffff = Loading
-0x004d = Championship exclusive menus
-0x0033 = Ghost Car select, Memory Card, Race End Menu, Replay
 ```
 
 #### Bad Example
