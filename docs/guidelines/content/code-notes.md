@@ -130,10 +130,21 @@ Good examples here will specify the size, which digits of the score are being re
 
 ```
 [24-bit BE BCD] Score - Determines Rank
-0x000 through 0x009 = Pauper
-0x00A through 0x063 = Peasent
-0x064 through 0x3E7 = Prosperous
-0x3E8 and higher    = Professional
+0 - 9     = Pauper
+10 - 99   = Peasent
+100 - 999 = Prosperous
+1000+     = Professional
+```
+
+````
+[16-bit] Current screen
+0x0020 = Car / Map select
+0x0017 = Main Menu
+0x0025 = Title and Demo, Rankings
+0x00cf = Dev logos
+0xffff = Loading
+0x004d = Championship exclusive menus
+0x0033 = Ghost Car select, Memory Card, Race End Menu, Replay
 ```
 
 #### Bad Example
