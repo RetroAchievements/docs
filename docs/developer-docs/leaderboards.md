@@ -11,11 +11,16 @@ description: Learn how to create and manage leaderboards for RetroAchievements, 
 
 This is how a game's Leaderboard List looks like on the website:
 
-![leaderboard_list](/leaderboard-list.png)
+![leaderboard_list](/new-lb-list.png)
 
-In the center you can see every already made Leaderboard, and in the right column you can see the **Code Notes** for the game. The Code Notes are here to help with some conditions we'll see below.
+Here you can see the different leaderboards that exist for a game title.  
+By selecting any leaderboard you can view its logic in detail.
 
-And now you can also create and edit Leaderboards through the GUI just like achievements by selecting Leaderboards from the Assets List:
+![leaderboard_edit_web](/new-lb-web-detail.png)
+
+Here you are also able to view specific conditions or review what Code Note an address it related to.
+
+Leaderboards can be created just like an achievement using the Assets List:
 
 ![Leaderboards GUI](/leaderboards-gui.png)
 
@@ -121,11 +126,41 @@ For more information on the value format, see [Value Definition](/developer-docs
 
 **NOTE**: If you're using a system that doesn't run at 60Hz, you have to use "Time (Centiseconds)" and multiply by some value to do the conversion yourself (50Hz = `*2` [100/50], 60Hz = `*1.666666` [100/60], 75Hz =`*1.333333` [100/75]).
 
-## Design Tips
+## Instant Submission Leaderboards
 
-Leaderboards can sometimes get pretty spammy and take up a lot of screen space when starting or depending on how many are active at once. It is generally good practice to try and eliminate this as much as possible when you can. You can do this by taking advantage of the fact that you can start and submit a leaderboard on the same frame by setting the start condition to what you would normally use as the submit and then setting the submit condition so something that is always true like 1=1.
+Leaderboards can sometimes get pretty spammy and take up a lot of screen space when starting or depending on how many are active at once. It is generally good practice to try and eliminate this as much as possible when you can.  
+You can do this by taking advantage of the fact that you can start and submit a leaderboard on the same frame by setting the start condition to what you would normally use as the submit and then setting the submit condition so something that is always true like 1=1.  
 
-If a game tracks a score or time that you are using to directly call for your value then consider starting and submitting the leaderboard on the same frame so that only one popup is called (for the submission) and the screen won't have extra clutter. There are still cases where it can be useful for players to have the values up on display if they are hidden in menus so use your best judgement.
+For example in this leaderboard for a racing game the `Start` group is true for a single frame once a race has been completed in a specific mode:
+
+### Start
+```
+  1: AddAddress  Mem   32-bit 0x003d03d8 
+  2:             Mem   32-bit 0x00000040 >   Value        0          (0)
+  3:             Mem   8-bit  0x0030f016 =   Value        49         (0)
+  4:             Mem   32-bit 0x00379f6c =   Value        150        (0)
+  5:             Mem   32-bit 0x0037a820 =   Value        0          (0)
+  6: AddAddress  Mem   32-bit 0x003d03d8 
+  7:             Mem   32-bit 0x00000034 =   Value        1          (0)
+  8: AddAddress  Mem   32-bit 0x003d03d8 
+  9:             Delta 32-bit 0x00000034 =   Value        0          (0)
+```
+
+The `Cancel` group is always false. Since the leadeboard UI never shows up we do not need to cancel it either:
+
+### Cancel
+```
+  1:             Value 0 =   Value 1 (0)
+```
+
+Finally, `Submit` is always true. The moment the `Start` group is true the leaderbord will submit whatever is defined in the `Value` group:
+
+### Submit
+```
+  1:             Value 1 =   Value 1 (0)
+```
+
+If a game tracks a score or time that you are using to directly call for your value then consider starting and submitting the leaderboard on the same frame so that only one popup is called (for the submission) and the screen won't have extra clutter. There are still cases where it can be useful for players to have the values up on display if they are hidden in menus so use your best judgement.  
 
 In games where levels are short and retries are quick you really don't want to have it start/cancel/submit repeatedly after each start/retry when you can help it as the popups can start stacking together and clutter the screen well past the actual attempts are over. These are a prime candidate for starting and submitting on the same frame when possible.
 
