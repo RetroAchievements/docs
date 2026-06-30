@@ -158,7 +158,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
    - Provide a direct link to the Achievement ID(s) of the unlock(s) you’re requesting.
      - If your request contains more than three achievements then please also include a list of just the IDs in comma delimited format, ex. `123, 456, 789`.
-   - **State whether the request is a casual or hardcore unlock.**
+   - **State whether the request is for a casual or hardcore unlock.**
 
 2. Broken Achievement Ticket:
 
