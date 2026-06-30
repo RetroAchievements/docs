@@ -344,7 +344,7 @@ Limited microphone support.
 | **Beetle PSX HW**                               | libretro core       | Most recommended.                                                                                         |
 | **Beetle PSX**                                  | libretro core       |                                                                                                           |
 | **SwanStation**                                 | libretro core       |                                                                                                           |
-| **[DuckStation](https://www.duckstation.org/)** | Standalone emulator | There may be memory leaks and/or burn-in when using save states. This can be disruptive to softcore mode. |
+| **[DuckStation](https://www.duckstation.org/)** | Standalone emulator | There may be memory leaks and/or burn-in when using save states. This can be disruptive to casual mode. |
 
 ### PlayStation 2
 
