@@ -14,3 +14,24 @@ The `ResetNextIf` Flag is a special version of the `ResetIf` Flag that only rese
 `AndNext` and `OrNext` are combining logical conditions and will have their hit counts reset, as well as whatever condition follows them.
 
 All other condition flags, including `AddHits` and `SubHits`, will cause processing of the `ResetNextIf` behavior to stop.
+
+## Example
+
+```
+  1:             Mem   8-bit  0x00065980 !=  Value        1          (0)
+  2:             Mem   8-bit  0x000a35a0 =   Value        3          (0)
+  3:             Mem   8-bit  0x0007536c =   Value        3          (0)
+  4: Trigger     Mem   32-bit 0x001bf958 >=  Value        1500000    (0)
+  5: Trigger     Delta 32-bit 0x001bf958 <=  Value        1500000    (0)
+  6:             Mem   16-bit 0x001bf9ac <   Value        10         (0)
+  7: AndNext     Mem   8-bit  0x000a2774 =   Value        1          (0)
+  8: ResetNextIf Delta 8-bit  0x000a2774 =   Value        0          (0)
+  9: PauseIf     Delta 8-bit  0x000a22e8 >   Mem   8-bit  0x000a22e8 (1)
+ 10:             Mem   8-bit  0x000a2774 =   Value        1          (0)
+```
+
+In this achievement we want players to complete an objective without using a special item. The amount of items the player has is tracked in 0x000a22e8.  
+Once an item has been used condition 9 with the `PauseIf` will be true and prevent the achievement from unlocking.
+
+In order to be able to reattempt the challenge both condition 7 and 8 must be true. Since ResetNextIf is used the PauseIf will then properly be reset.  
+Other hit counts would not be affected by this.
