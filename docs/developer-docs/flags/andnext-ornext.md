@@ -29,7 +29,7 @@ ResetIf F = 1
 Represents the following logical statement:
 
 ```
-reset if (((((A = 1 and B = 1) or C = 1) and D = 1) or E = 1) and F = 1)
+ResetIf (((((A = 1 and B = 1) or C = 1) and D = 1) or E = 1) and F = 1)
 ```
 
 [Alt Groups](/developer-docs/alt-groups) are still preferred over `OrNext` for most use cases. They allow for multiple conditions to be present in each clause of the OR, and support more than two clauses.

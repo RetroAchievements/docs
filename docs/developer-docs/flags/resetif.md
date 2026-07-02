@@ -21,7 +21,7 @@ A `ResetIf` condition with a hit count will only trigger when the hit count targ
 
 It is very common to use a condition with a hit count of 1 as a start marker for an achievement, and use a `ResetIf` to cancel the achievement before the end condition is met. A common example is a damageless achievement:  
 
-"From start of (level/battle), reset if damage taken, trigger at end of (level/battle)".  
+"From start of (level/battle), ResetIf damage taken, trigger at end of (level/battle)".  
 
 When the start condition is true, a hit count is captured. If it's still set when the end condition is true, the achievement triggers. If the `ResetIf` condition triggers, the hit count on the start condition is set back to zero, which makes the condition false when evaluating the state when the end condition is true, and the achievement will not trigger.
 
