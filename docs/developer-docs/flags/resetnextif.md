@@ -24,8 +24,8 @@ All other condition flags, including `AddHits` and `SubHits`, will cause process
   4: Trigger     Mem   32-bit 0x001bf958 >=  Value        1500000    (0)
   5: Trigger     Delta 32-bit 0x001bf958 <=  Value        1500000    (0)
   6:             Mem   16-bit 0x001bf9ac <   Value        10         (0)
-  7: AndNext     Delta 8-bit  0x000a2774 =   Value        0          (0)
-  8: ResetNextIf Mem   8-bit  0x000a2774 =   Value        1          (0)
+  7: AndNext     Mem   8-bit  0x000a2774 =   Value        1          (0)
+  8: ResetNextIf Delta 8-bit  0x000a2774 =   Value        0          (0)
   9: PauseIf     Delta 8-bit  0x000a22e8 >   Mem   8-bit  0x000a22e8 (1)
  10:             Mem   8-bit  0x000a2774 =   Value        1          (0)
 ```

@@ -35,8 +35,8 @@ When the start condition is true, a hit count is captured. If it's still set whe
   5:             Mem   8-bit  0x000a35a0 !=  Value        7          (0)
   6: AndNext     Delta 32-bit 0x000b0c00 =   Value        2          (0)
   7:             Mem   32-bit 0x000b0c00 =   Value        1          (2)
-  8: AndNext     Delta 32-bit 0x001eed30 =   Value        0          (0)
-  9: ResetIf     Mem   32-bit 0x001eed30 =   Value        1          (0)
+  8: AndNext     Mem   32-bit 0x001eed30 =   Value        1          (0)
+  9: ResetIf     Delta 32-bit 0x001eed30 =   Value        0          (0)
 ```
 
 In this achievement we want players to witness a special event twice in one round. The event is tracked using the address 0x000b0c00 - once the value jumps from 2 to 1 the event took place once.
