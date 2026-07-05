@@ -275,7 +275,7 @@ On the site's home page, while not logged in:
 
 ### I changed my display name, but people can still find my account through my original username!
 
-This is intentional to prevent other users from impersonating you. Your original username remains attached to your profile, and can be used to log into emulators as well as the the website. 
+This is intentional to prevent other users from impersonating you. Your original username remains attached to your profile, and can be used to log into emulators as well as the website. 
 
 ### Can I have the username of a deleted/banned user or my alternative account?
 
