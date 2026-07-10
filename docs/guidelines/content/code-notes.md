@@ -141,10 +141,10 @@ Good examples here will specify the size, which digits of the score are being re
 
 ```
 [24-bit BE BCD] Score - Determines Rank
-0x00 - 0x09   = Pauper
-0x10 - 0x99   = Peasent
-0x100 - 0x999 = Prosperous
-0x1000+       = Professional
+0 - 9     = Pauper
+10 - 99   = Peasent
+100 - 999 = Prosperous
+1000+     = Professional
 ```
 
 #### Bad Example
