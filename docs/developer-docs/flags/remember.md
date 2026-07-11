@@ -53,69 +53,69 @@ In this example it uses the stored value and compares it to a constant value of 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val | Hits  |
 | --- | -------- | ------ | ------ | ------ | --- | ----- | ------ | ------- | ----- |
 | 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1224  |       |
-| 2   | And Next | Recall |        |        | =   | Value |        | 0x05    |       |
-| 3   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
-| 4   | And Next | Recall |        |        | =   | Value |        | 0x14    |       |
-| 5   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
-| 6   | And Next | Recall |        |        | =   | Value |        | 0x64    |       |
-| 7   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
+| 2   | AndNext | Recall |        |        | =   | Value |        | 0x05    |       |
+| 3   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
+| 4   | AndNext | Recall |        |        | =   | Value |        | 0x14    |       |
+| 5   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
+| 6   | AndNext | Recall |        |        | =   | Value |        | 0x64    |       |
+| 7   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03    | 1 (0) |
 | 8   | Measured | Value  |        | 0x00   | =   | Value |        | 0x00    | 3 (0) |
 
-In this example, we are using the stored value in multiple chains within an Add Hits chain without having to recalculate the value each time. Here we are looking for specific increases of `0x1234` to occur while the value of `0x1000` is equal to 3. Perhaps `0x1234` is money, `0x1000` is the current level, and you want to make sure the player collects a gem worth 5 units of money, one worth 20, and one worth 100 in level 3. `Recall` is used here to check all these values of the difference between Mem and Delta without having to recalculate it each time. See the [`Add Hits`](/developer-docs/flags/addhits-subhits) document for more information about how that condition works.
+In this example, we are using the stored value in multiple chains within an AddHits chain without having to recalculate the value each time. Here we are looking for specific increases of `0x1234` to occur while the value of `0x1000` is equal to 3. Perhaps `0x1234` is money, `0x1000` is the current level, and you want to make sure the player collects a gem worth 5 units of money, one worth 20, and one worth 100 in level 3. `Recall` is used here to check all these values of the difference between Mem and Delta without having to recalculate it each time. See the [`AddHits`](/developer-docs/flags/addhits-subhits) document for more information about how that condition works.
 
 ::: info
 `Recall` retrieves the value stored in the recall accumulator.
 :::
 
-## Interaction with Pause If
+## Interaction with PauseIf
 
-Because `Pause If` logic is processed before other logic, `Pause If` logic can only recall values that have been remembered by pause logic. Values remembered during `Pause If` logic continue to be remembered during the remaining logic processing.
+Because `PauseIf` logic is processed before other logic, `PauseIf` logic can only recall values that have been remembered by pause logic. Values remembered during `PauseIf` logic continue to be remembered during the remaining logic processing.
 
-See the [`Pause If`](/developer-docs/flags/pauseif) document for more information about how that condition works.
+See the [`PauseIf`](/developer-docs/flags/pauseif) document for more information about how that condition works.
 
-### Example of Use with Pause If
+### Example of Use with PauseIf
 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val    | Hits  |
 | --- | -------- | ------ | ------ | ------ | --- | ----- | ------ | ---------- | ----- |
 | 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1234     |       |
-| 2   | Pause If | Recall |        |        | >=  | Value |        | 0x80000000 | 1 (0) |
-| 3   | And Next | Recall |        |        | =   | Value |        | 0x05       |       |
-| 4   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
-| 5   | And Next | Recall |        |        | =   | Value |        | 0x14       |       |
-| 6   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
-| 7   | And Next | Recall |        |        | =   | Value |        | 0x64       |       |
-| 8   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
+| 2   | PauseIf | Recall |        |        | >=  | Value |        | 0x80000000 | 1 (0) |
+| 3   | AndNext | Recall |        |        | =   | Value |        | 0x05       |       |
+| 4   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
+| 5   | AndNext | Recall |        |        | =   | Value |        | 0x14       |       |
+| 6   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
+| 7   | AndNext | Recall |        |        | =   | Value |        | 0x64       |       |
+| 8   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03       | 1 (0) |
 | 9   | Measured | Value  |        | 0x00   | =   | Value |        | 0x00       | 3 (0) |
 
-This example extends the previous [Using the Stored Value](#using-the-stored-value) example by adding a `Pause If` lock if the player loses money\*. Because `Remember` is a combining condition, it links with the following `Pause If` to form a chain and is processed as part of the pause processing, allowing the value to be used by the `Pause If`. The remembered value is available to the remaining logic and can therefore be used by the Add Hits chain.
+This example extends the previous [Using the Stored Value](#using-the-stored-value) example by adding a `PauseIf` lock if the player loses money\*. Because `Remember` is a combining condition, it links with the following `PauseIf` to form a chain and is processed as part of the pause processing, allowing the value to be used by the `PauseIf`. The remembered value is available to the remaining logic and can therefore be used by the AddHits chain.
 
 Notes:
 
-- \* Due to the way unsigned math works, the subtraction will underflow back to 0xfffffff at negative one, so any value greater or equal to 0x80000000 is treated as negative).
-- Because pause processing happens first, you _could_ put conditions 1-2 at the end of the logic and it will still work! The value remembered by the pause logic will still be available to the Add Hits chain. However because this may be a confusing effect, we recommend putting your pause logic at the beginning when using it with `Remember` and `Recall`.
+- Due to the way unsigned math works, the subtraction will underflow back to 0xfffffff at negative one, so any value greater or equal to 0x80000000 is treated as negative.
+- Because pause processing happens first, you _could_ put conditions 1-2 at the end of the logic and it will still work! The value remembered by the pause logic will still be available to the AddHits chain. However because this may be a confusing effect, we recommend putting your pause logic at the beginning when using it with `Remember` and `Recall`.
 
 ::: tip
 To avoid unexpected behavior with `Remember` and `Recall`, place pause logic that uses these features at the top of the group.
 :::
 
-### Example of Incorrect Usage with Pause If
+### Example of Incorrect Usage with PauseIf
 
 | ID  | Flag     | Type   | Size   | Memory | Cmp | Type  | Size   | Mem/Val   | Hits  |
 | --- | -------- | ------ | ------ | ------ | --- | ----- | ------ | --------- | ----- |
 | 1   | Remember | Mem    | 16-bit | 0x1234 | -   | Delta | 16-Bit | 0x1234    |       |
-| 2   | And Next | Recall |        |        | =   | Value |        | 0x05      |       |
-| 3   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
-| 4   | And Next | Recall |        |        | =   | Value |        | 0x14      |       |
-| 5   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
-| 6   | And Next | Recall |        |        | =   | Value |        | 0x64      |       |
-| 7   | Add Hits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
+| 2   | AndNext | Recall |        |        | =   | Value |        | 0x05      |       |
+| 3   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
+| 4   | AndNext | Recall |        |        | =   | Value |        | 0x14      |       |
+| 5   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
+| 6   | AndNext | Recall |        |        | =   | Value |        | 0x64      |       |
+| 7   | AddHits | Mem    | 8-Bit  | 0x1000 | =   | Value |        | 0x03      | 1 (0) |
 | 8   | Measured | Value  |        | 0x00   | =   | Value |        | 0x00      | 3 (0) |
-| 9   | Pause If | Recall |        |        | >=  | Value |        | 0x8000000 | 1 (0) |
+| 9   | PauseIf | Recall |        |        | >=  | Value |        | 0x8000000 | 1 (0) |
 
-In this example, the `Remember` condition is not chained with the `Pause If`. Because of this, the `Pause If` condition will read a value of 0 from the `Recall` operand and never be paused, as a consequence of the pause logic being processed first. Fear not though, as the validation is smart enough to recognize this and will generate a warning on condition 9 that `Recall` is being used in a `Pause If` without a value being remembered in a `Pause If`.
+In this example, the `Remember` condition is not chained with the `PauseIf`. Because of this, the `PauseIf` condition will read a value of 0 from the `Recall` operand and never be paused, as a consequence of the pause logic being processed first. Fear not though, as the validation is smart enough to recognize this and will generate a warning on condition 9 that `Recall` is being used in a `PauseIf` without a value being remembered in a `PauseIf`.
 
 ::: danger
-When using the `Recall` type operator in Pause If logic, be sure that the `Remember` condition that sets the value you wish to use is in the same `Pause If` chain or an earlier `Pause If` chain. Otherwise the recalled value with be 0!
+When using the `Recall` type operator in PauseIf logic, be sure that the `Remember` condition that sets the value you wish to use is in the same `PauseIf` chain or an earlier `PauseIf` chain. Otherwise the recalled value with be 0!
 :::
 
 ## Using `Recall` within a `Remember` Condition
@@ -146,12 +146,12 @@ Notes:
 
 In this example, let's say you have an address that points to a table of data, but in order to know where in the table you want to go, you have to calculate the offset from another source. `0x1234` will be used as the pointer to the table of data. `0x0789` will be the index in the table. The size of data for table entries is `0x60` bytes. And finally, the data we care about is `0x08` bytes into the data's structure. Perhaps this is "Player Health" and the index we are calculating is the index in the table where the "Player Data" exists and we need to check if this value is greater than 0.
 
-See the [`Add Address`](/developer-docs/flags/addaddress) document for more information about how that condition works.
+See the [`AddAddress`](/developer-docs/flags/addaddress) document for more information about how that condition works.
 
 Breakdown of Conditions:
 
 1. Scales the index by the size of the data structure. Now it represents how far from the beginning of the table the data is located.
-2. Uses the address for the start of the table and adds to it the stored value. Now this Add Address points to the start of the "Player Data" in the table.
+2. Uses the address for the start of the table and adds to it the stored value. Now this AddAddress points to the start of the "Player Data" in the table.
 3. Offsets from the Address by `0x08`, where it reads the current memory value for the Player's Health with 16-bit size, then uses a comparison to check if it is greater than zero.
 
 ## Deeper Chaining of `Remember` Conditions
@@ -160,22 +160,22 @@ Breakdown of Conditions:
 | --- | ---------- | ---- | ------ | ------ | --- | ------ | ---- | ------- | ----- |
 | 1   | Remember   | Mem  | 8-bit  | 0x0789 | \*  | Value  |      | 0x60    |       |
 | 2   | AddAddress | Mem  | 32-bit | 0x1234 | +   | Recall |      |         |       |
-| 3   | And Next   | Mem  | 16-bit | 0x08   | <   | Delta  |      | 0x08    | 0 (0) |
+| 3   | AndNext   | Mem  | 16-bit | 0x08   | <   | Delta  |      | 0x08    | 0 (0) |
 | 4   | AddAddress | Mem  | 32-bit | 0x1234 | +   | Recall |      |         |       |
-| 5   | And Next   | Mem  | 8-bit  | 0x24   | !=  | Value  |      | 0xff    | 0 (0) |
+| 5   | AndNext   | Mem  | 8-bit  | 0x24   | !=  | Value  |      | 0xff    | 0 (0) |
 | 6   | AddAddress | Mem  | 32-bit | 0x1234 | +   | Recall |      |         |       |
 | 7   | Remember   | Mem  | 16-bit | 0x24   | \*  | Value  |      | 0x60    |       |
 | 8   | AddAddress | Mem  | 32-bit | 0x1234 | +   | Recall |      |         |       |
-| 9   | Reset If   | Mem  | 8-bit  | 0x00   | =   | Value  |      | 0xa7    | 0 (0) |
+| 9   | ResetIf   | Mem  | 8-bit  | 0x00   | =   | Value  |      | 0xa7    | 0 (0) |
 
-This example shows how using `Remember` continues the chain of And Next conditions and how you can remember new values during the chain without affecting earlier parts of the chain or breaking the chain.
+This example shows how using `Remember` continues the chain of `AndNext` conditions and how you can remember new values during the chain without affecting earlier parts of the chain or breaking the chain.
 
-In this example, we build on the previous `Add Address` example by chaining it with other conditions. Pretend this is a challenge that fails if the player loses health while holding a certain object. Suppose the player data stores the index of the object at offset `0x24` (the value of which is `0xff` if no object is held). Suppose that index is an index into the same table that holds the player data. This example shows the reset chain that accomplishes this. Suppose that offset `0x00` of object data holds the 8-bit ID of the object.
+In this example, we build on the previous `AddAddress` example by chaining it with other conditions. Pretend this is a challenge that fails if the player loses health while holding a certain object. Suppose the player data stores the index of the object at offset `0x24` (the value of which is `0xff` if no object is held). Suppose that index is an index into the same table that holds the player data. This example shows the reset chain that accomplishes this. Suppose that offset `0x00` of object data holds the 8-bit ID of the object.
 
 Breakdown of Conditions:
 
 1. Scales the index by the size of the data structure. Now it represents how far from the beginning of the table the data is located.
-2. Uses the address for the start of the table and adds to it the stored value. Now this Add Address points to the start of the "Player Data" in the table.
+2. Uses the address for the start of the table and adds to it the stored value. Now this AddAddress points to the start of the "Player Data" in the table.
 3. Checks if the player lost health, using the offset for health established in the previous example.
 4. Re-uses the address for the start of the player data
 5. Checks the offset of the held object and makes sure it's not 0xff.

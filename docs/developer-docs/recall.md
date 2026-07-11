@@ -17,7 +17,7 @@ Examples of how it can be used:
 
 - Recall a calculated value for multiple uses in logic.
 - Continuous operation on remembered values to perform more complicated math than `Add Source` and `Sub Source` can accomplish.
-- Recall a calculated address+offset for use in `Add Address`
+- Recall a calculated address+offset for use in `AddAddress`
 
 To use a remembered value, specify the `Recall` operator as the Type of operand:
 

@@ -39,7 +39,7 @@ To begin, run the RALibRetro executable and login when prompted. If you have not
 
 You should now have your main window running Sonic. There are 3 other dialogs we'll be using, which can be found under **RetroAchievements** in the menu. We'll be dealing with the **Memory Inspector** first:
 
-![memoryinspector](/meminspdocs1.png)
+![memoryinspector](/new-mem-insp.png)
 
 The Memory Inspector can be used to find addresses in RAM for us to use. Essentially you are on a treasure hunt for memory locations - this dialog will help you examine and filter the game's RAM while the game is running.
 
@@ -48,19 +48,19 @@ The Memory Inspector can be used to find addresses in RAM for us to use. Essenti
 
 **See also**: [Memory Inspector Overview](/developer-docs/memory-inspector) and [Memory Digging Tips](/developer-docs/tips-and-tricks#memory-digging-tips).
 
-To start or restart a test, click **Reset** near the top left.
+To start or restart a test, click **New Search** near the top left.
 
 To keep things simple, we'll start by looking for the memory address which holds the number of rings we have collected. Our steps will be the following:
 
 1. Load the ROM and start a new game.
 
-2. Reset the memory dialog: click **Reset**.
+2. Reset the memory dialog: click **New Search**.
 
 3. Run the first filter: click **Filter Once**.
 
 4. Return to the game and change the number of rings in memory. For example, collect a ring.
 
-5. In the memory dialog, we now want to filter for values that are 'greater than previous values' (symbol `>`). We select this, then hit **Filter** again.
+5. In the memory dialog, we now want to filter for values that are 'greater than previous values' (symbol `>`). We select this, then hit **Filter Once** again.
 
 Each time you perform 4 then 5, the number of possibilities or 'candidates' will get smaller. We will continue doing this until the number of candidates reaches a very small number (as few as possible), it can take several attempts. Next we can click in the results window, and monitor the memory address in the memory viewer at the bottom. Continue using the game and you should see the values in memory change as you collect rings. If you don't, or if something doesn't look right, try another value. With the first Sonic the Hedgehog, the memory address for the number of rings should be `0xfe20`.
 
@@ -80,7 +80,7 @@ So the memory location for the number of rings is stored at `0xfe20` - note to a
 
 Go to the **RetroAchievements** in the menu, choose **Achievement Sets** and you'll see this dialog:
 
-![achievement_sets](/achlistdocs1.png)
+![achievement_sets](/new-asset-list.png)
 
 Here we group all the achievements we know about into three sets:
 
@@ -96,22 +96,23 @@ In the Achievements dialog, click **Local Achievements** (top left), then **Add 
 
 This is how it looks:
 
-![achievement_editor](/acheditordocs1.png)
+![achievement_editor](/new-ach-editor.png)
 
 This is the final dialog where we bring all the data together. Most of the top fields are self explanatory, I.e. Title, Description, Points. The main one is the 'Requirements' part.
 
-Let's say we want to add an achievement for collecting a certain number of rings. Let's say 15 rings for simplicity. After filling out the fields at the top and selecting a suitable icon (in this example we used the gold trophy badge (00136), but you can upload a new one), we need to fill out Requirements. We have one requirement, **that the number of rings is at least 15**. Next click is **Add New Requirement**.
+Let's say we want to add an achievement for collecting a certain number of rings. Let's say 20 rings for simplicity. After filling out the fields at the top and selecting a suitable icon we need to fill out Requirements.
+We have one requirement, **that the number of rings is at least 20**. Next click is **Add New Requirement**.
 
-Clicking this button will add several default values to the Requirements list. These defaults just ensure that something relatively sensible is added to the list. For now, ignoring the field 'Special?'. When we clicked create, the default memory value will be whatever value you last left in the memory dialog.
+Clicking this button will add several default values to the Requirements list. These defaults just ensure that something relatively sensible is added to the list. When we clicked create, the default memory value will be whatever value you last left in the memory dialog.
 
 Next we will change these values to the following:
 
 - **Size**: `16-bit` - we're using 16-bit because the value _can_ exceed 255 (which is 0xff in hex)
 - **Memory**: `0xfe20`
-- **Cmp**: `>=` - this is the comparison to make. We could have any comparison here, but it's sensible to have "greater than or equal to". This is important because if we get 10 rings then a super ring box to have 20, we would miss out having _exactly_ 15 rings.
-- **Type**: `Value` - we're comparing this memory value to a fixed value: 15
+- **Cmp**: `>=` - this is the comparison to make. We could have any comparison here, but it's sensible to have "greater than or equal to". This is important because if we get 15 rings then a super ring box to have 25, we would miss out having _exactly_ 20 rings.
+- **Type**: `Value` - we're comparing this memory value to a fixed value: 20
 - **Size**: `Empty` - this is only relevant when comparing memory to memory
-- **Mem/Val**: `15` - the number of rings required: the value we are comparing the memory to
+- **Mem/Val**: `20` - the number of rings required: the value we are comparing the memory to
 - **Hit Count**: `0` - ignore this for now, its useful for when something needs to happen a certain number of times
 
 With that set, we don't have any more conditions to add, so we return to the **Achievements Dialog**. To be safe, we should save our progress by hitting **Save Local**! This saves everything to file locally to ensure that we won't lose any progress.
@@ -122,13 +123,13 @@ With that set, we don't have any more conditions to add, so we return to the **A
 
 We can now 'activate' this achievement locally by checking the box next to **Active** on the right-hand side in the Achievement Editor or by selecting the achievement in Achievement Sets and clicking **Activate Selected**. This will start monitoring these memory locations and will award the achievement once all the conditions are true. Now we can go ahead and test to see if this achievement works!
 
-![testing_achievements](/achtestdocs1.png)
+![testing_achievements](/new-pause-menu.png)
 
 If we press `Esc` in-game, you will see the achievement show up as a demonstration of what it would look like in the in-game overlay!
 
-![testing_achievements2](/achtestdocs2.png)
+![testing_achievements2](/new-unlocked.png)
 
-Although the achievement worked fine in our tests, an achievement with logic like that is not ready to be officially released. First of all, it has only one condition: "collected rings >= 15". The problem is that the memory address used to record the number of collected rings is also used when the game runs in "demo mode" (AI playing the game after you wait a while on the title screen). So, if Sonic collects 15 rings in demo mode this achievement will trigger, which is unwanted.
+Although the achievement worked fine in our tests, an achievement with logic like that is not ready to be officially released. First of all, it has only one condition: "collected rings >= 20". The problem is that the memory address used to record the number of collected rings is also used when the game runs in "demo mode" (AI playing the game after you wait a while on the title screen). So, if Sonic collects 20 rings in demo mode this achievement will trigger, which is unwanted.
 
 Check the tips in the next section below to know how to improve the logic of your achievement and then make it acceptable to be officially released.
 

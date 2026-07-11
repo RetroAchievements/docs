@@ -11,20 +11,27 @@ description: Learn how to create and manage leaderboards for RetroAchievements, 
 
 This is how a game's Leaderboard List looks like on the website:
 
-![leaderboard_list](/leaderboard-list.png)
+![leaderboard_list](/new-lb-list.png)
 
-In the center you can see every already made Leaderboard, and in the right column you can see the **Code Notes** for the game. The Code Notes are here to help with some conditions we'll see below.
+Here you can see the different leaderboards that exist for a game title.  
+By selecting any leaderboard you can view its logic in detail.
 
-And now you can also create and edit Leaderboards through the GUI just like achievements by selecting Leaderboards from the Assets List:
+![leaderboard_edit_web](/new-lb-web-detail.png)
 
-![Leaderboards GUI](/leaderboards-gui.png)
+Here you are also able to view specific conditions or review what Code Note an address it related to.
+
+Leaderboards can be created just like an achievement using the Assets List:
+
+![Leaderboards_assets_list](/new-lb-assets-list.png)
+
+![Leaderboards_editor](/new-lb-editor.png)
 
 Here's a brief explanation of each field of a single Leaderboard:
 
 - **Title**: the leaderboard's title.
 - **Description**: the leaderboard's description.
 - **Format**: specifies how the value should be displayed.
-- **"LowerIsBetter" checkbox**: determines how the list should be sorted. When checked, lower value appear as higher ranks in the leaderboard. Time-based leaderboards usually honor faster times (lower), whereas score-based leaderboards favor higher values.
+- **"Lower is Better" checkbox**: determines how the list should be sorted. When checked, lower value appear as higher ranks in the leaderboard. Time-based leaderboards usually honor faster times (lower), whereas score-based leaderboards favor higher values.
 - **Start**: start conditions, aka **STA**.
 - **Cancel**: cancel conditions, aka **CAN**.
 - **Submit**: submit conditions, aka **SUB**.
@@ -49,67 +56,76 @@ NOTE: Once an active leaderboard is cancelled or submitted, it cannot be reactiv
 
 ## Example
 
-The best place to start is to look at existing leaderboards and break it down to see how it works. We're going to use the [Green Hill Act 1 (Sonic the Hedgehog) Leaderboard](https://retroachievements.org/leaderboardinfo.php?i=2) for this purpose. Then let's see how it looks:
+The best place to start is to look at existing leaderboards and break it down to see how it works. We're going to use the [The Wizard](https://retroachievements.org/leaderboardinfo.php?i=22955) leaderboard from Super Mario Bros. 3 for this purpose. Let's take a look:
 
-![new_leaderboard2](/new-leaderboard2.png)
+![new_leaderboard_metadata](/new-mario3-ex1.png)
 
-The **Title/Description** fields are quite obvious.
+The **Title / Description** fields are quite obvious.
 
-The **Type** is "Time (Frames)". The value we're tracking updates once a frame, and the Genesis runs at 60 frames per second (see note below on [Value Format](/developer-docs/leaderboards#value-format) for systems that run at other speeds).
+The **Format** is "Score". For more information on the different options see the documentation on [Value Formats](/developer-docs/leaderboards#value-format).
 
-The **Lower Is Better** flag is checked, then the one who makes the shortest time will be the #1.
+The **Lower Is Better** flag is unchecked so whoever scores the highest amount of points is in first place.
 
 Now we're going to break down the most important parts.
 
 ### Start Conditions
 
-**STA**: `0xfe10=h0000_0xhf601=h0c_d0xhf601!=h0c_0xfff0=0`
+![Start conditions](/new-mario3-ex2.png)
 
-![Start conditions](/start-conditions.png)
+This leaderboard will start once
 
-- `0xfe10=h0000`: If 16-bit RAM address 0xfe10 is equivalent to hex 0000,
-- `_`: AND,
-- `0xhf601=h0c`: If 8-bit RAM address 0xf601 is equivalent to hex 0c,
-- `_`: AND,
-- `d0xhf601!=h0c`: If the previous 8-bit RAM address 0xf601 is NOT equivalent to hex 0c,
-- `_`: AND,
-- `0xfff0=0` If 16-bit RAM address 0xfff0 is equivalent to 0.
+- The 16-bit RAM address 0x7dfc is equivalent to hex 0x00,
+- AND,
+- The 8-bit RAM address 0x072b is equivalent to hex 0x00,
+- AND
+- The fourth bit in the address 0x0017 was set to 0 in the previous frame (Delta),
+- AND,
+- The fourth bit in the address 0x0017 is set to 0 in the current frame (Mem),
+- AND,
+- The 8-bit RAM address 0x0209 is equivalent to hex 0xe5
 
-This might seem daunting, because we don't know what these addresses mean. That's why the **Code Notes** in the right column are pretty handy! You can see how these addresses are labeled in memory. In our example we have:
+This might seem daunting, because we don't know what these addresses mean. That's why the **Code Notes** are pretty handy! You can see how these addresses are labeled in memory by hovering over an address.
 
-- `0xfe10` is the level, and is expected to be `0` (the first level).
-- `0xf601` is an 8-bit memory address, and we use the prefix `0xh` instead of `0x` to signify this. The `0xf601` is the screen mode. The second and third parts of the start statement are saying "the current mode should be _ingame_ (`0c`), and the mode on the previous frame should NOT be _ingame_". **Note**: that `d` prefix on the address represents delta, or "the previous frame's value". **Summing up:** trigger this if we've JUST arrived in a level (the start of the level, when we want to start testing their time).
-- Finally we also expect `0xfff0` to be equivalent to `0`, because this address is used for demo mode, and we don't want to award a leaderboard entry when the demo is active!
+![Hover example](/new-mario3-ex3.png)
 
-**Tip**: the most common mistake when creating leaderboards through the site editor is forgetting the `h` when trying to reference an 8-bit memory address.
 
-**Note**: You can use `HitCount`s in the Start/Submit/Cancel triggers, but you are responsible for resetting them. These triggers are evaluated every frame, and the state of the leaderboard is dependent on which ones are true. As such, the `HitCount` will increment even when the leaderboard is not active unless you have an explicit ResetIf condition.
+In our example we have:
+
+- `0x7dfc` is the current screen the player is on. 0x00 is equivalent to the Title Screen.
+- `0x072b` is the amount of players selected. 0x00 is equivalent to Single Player mode.
+- `0x0017` tracks the currently pressed buttons. Once the player presses the Start button and starts the game the fourth bit will be set to 1.
+- `0x0209` checks if the Player Select screen is visible.
+
+**Note**: You can use `Hit Count`s in the Start/Submit/Cancel triggers, but you are responsible for resetting them. These triggers are evaluated every frame, and the state of the leaderboard is dependent on which ones are true. As such, the `Hit Count` will increment even when the leaderboard is not active unless you have an explicit ResetIf condition.
 
 ### Cancel Conditions
 
-**CAN**: `0xhfe13<d0xhfe13`
+![Cancel conditions](/new-mario3-ex4.png)
 
-![Cancel conditions](/cancel-conditions.png)
+`0x7dfc`, as previously noted, is the current screen the player is on.
 
-- 0xfe13 is the number of lives.
-
-The cancel section checks if the player's LIVES counter ever becomes lower. Literally, it says "Cancel if the CURRENT value at 0xfe13 is less than the PREVIOUS value at 0xfe13". We want to do this because you could reach the final checkpoint and run out of time, resetting your timer to 0:00. We don't want to allow this, because it's not the correct way of completing the level. So if the player dies, we reset their leaderboard progress. Finally, if you connect two cancel conditions with `s`, the leaderboard will cancel when either one of them are true.
+Should the player lose all their lives or end the game early they are sent back to the title screen.
+Thus, if the player dies or otherwise gives up the challenge, we reset their leaderboard progress
 
 ### Submit Conditions
 
-**SUB**: `0xf7cc!=0_d0xf7cc=0`
+![Submit conditions](/new-mario3-ex5.png)
 
-![Submit conditions](/submit-conditions.png)
+The first condition checks if the Value 1 is equivalent to 1. Obviously this is always the case - so after the leaderboard has started for every frame in the game this condition earns a single hit.  
+The amount of currently accumulated hits is shown in the bracket on the far right of the editor.  
+Once a total of 3600 hits are collected the condition is true and the leaderboard will complete successfully.
 
-- 0xf7cc is the endlevel flag, non-interactive.
+The second condition will reset the amount of hits we accumulated in case the player returns to the title screen.
 
-The submit section checks if the current frame has the 'endlevel' flag set to true (or `!=0`, 'nonzero'), and the previous frame (delta) has it set to false (or `=0`, 'zero'). This suggests that the player has reached the end of the level, and has proven to be a fairly sturdy benchmark.
-
-**Tip**: it can be useful to watch these values in memory to see how they perform, and what sort of values they end up at in different circumstances.
+**Tip**: It can be useful to watch these values in memory to see how they perform, and what sort of values they end up at in different circumstances.
 
 ### Value
 
-Finally, value. Once the player has reached the start condition, they will be shown a popup which remains on-screen, showing their progress so far. If it's a time leaderboard, it will be a clock, and if it's a score, it will just be the value. If they fulfill the cancel condition, they will be told that they have failed, and the popup will be removed. If they successfully reach the submit condition, the current value will be taken and submitted as their score, and on successful submission, an in game popup will inform the player of the leaderboard so far, and their position in the leaderboard.
+Finally, the value. Once the player has reached the start condition, they will be shown a popup which remains on-screen, showing their progress so far. If it's a time leaderboard, it will be a clock, and if it's a score, it will just be the value. If they fulfill the cancel condition, they will be told that they have failed, and the popup will be removed. If they successfully reach the submit condition, the current value will be taken and submitted as their score, and on successful submission, an in game popup will inform the player of the leaderboard so far, and their position in the leaderboard.  
+
+To choose the condition that will determine what score is submitted, use the `Measured` flag.
+
+![Value conditions](/new-mario3-ex6.png)
 
 For more information on the value format, see [Value Definition](/developer-docs/value-definition).
 
@@ -121,11 +137,46 @@ For more information on the value format, see [Value Definition](/developer-docs
 
 **NOTE**: If you're using a system that doesn't run at 60Hz, you have to use "Time (Centiseconds)" and multiply by some value to do the conversion yourself (50Hz = `*2` [100/50], 60Hz = `*1.666666` [100/60], 75Hz =`*1.333333` [100/75]).
 
-## Design Tips
+## Instant Submission Leaderboards
 
-Leaderboards can sometimes get pretty spammy and take up a lot of screen space when starting or depending on how many are active at once. It is generally good practice to try and eliminate this as much as possible when you can. You can do this by taking advantage of the fact that you can start and submit a leaderboard on the same frame by setting the start condition to what you would normally use as the submit and then setting the submit condition so something that is always true like 1=1.
+An active leaderboard will display the current progress in the bottom corner. However, if multiple leaderboards are active at the same time the interface can become quite difficult to read and thus get spammy.  
+It is generally good practice to try and eliminate this as much as possible when you can.
 
-If a game tracks a score or time that you are using to directly call for your value then consider starting and submitting the leaderboard on the same frame so that only one popup is called (for the submission) and the screen won't have extra clutter. There are still cases where it can be useful for players to have the values up on display if they are hidden in menus so use your best judgement.
+Instant Submission Leaderboards are especially useful when some information is already visible on screen.
+For example there is no reason to display the current time spent in the bottom corner in a racing game which already displays the time spent.
+
+You can do this by taking advantage of the fact that you can start and submit a leaderboard on the same frame by setting the start condition to what you would normally use as the submit and then setting the submit condition so something that is always true like 1=1.  
+
+For example in this leaderboard for a racing game the `Start` group is true for a single frame once a race has been completed in a specific mode:
+
+### Start
+```
+  1: AddAddress  Mem   32-bit 0x003d03d8 
+  2:             Mem   32-bit 0x00000040 >   Value        0          (0)
+  3:             Mem   8-bit  0x0030f016 =   Value        49         (0)
+  4:             Mem   32-bit 0x00379f6c =   Value        150        (0)
+  5:             Mem   32-bit 0x0037a820 =   Value        0          (0)
+  6: AddAddress  Mem   32-bit 0x003d03d8 
+  7:             Mem   32-bit 0x00000034 =   Value        1          (0)
+  8: AddAddress  Mem   32-bit 0x003d03d8 
+  9:             Delta 32-bit 0x00000034 =   Value        0          (0)
+```
+
+The `Cancel` group is always false. Since the leaderboard UI never shows up we do not need to cancel it either:
+
+### Cancel
+```
+  1:             Value 0 =   Value 1 (0)
+```
+
+Finally, `Submit` is always true. The moment the `Start` group is true the leaderboard will submit whatever is defined in the `Value` group:
+
+### Submit
+```
+  1:             Value 1 =   Value 1 (0)
+```
+
+If a game tracks a score or time that you are using to directly call for your value then consider starting and submitting the leaderboard on the same frame so that only one popup is called (for the submission) and the screen won't have extra clutter. There are still cases where it can be useful for players to have the values up on display if they are hidden in menus so use your best judgement.  
 
 In games where levels are short and retries are quick you really don't want to have it start/cancel/submit repeatedly after each start/retry when you can help it as the popups can start stacking together and clutter the screen well past the actual attempts are over. These are a prime candidate for starting and submitting on the same frame when possible.
 
