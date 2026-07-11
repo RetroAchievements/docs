@@ -84,7 +84,7 @@ This leaderboard will start once
 - AND,
 - The 8-bit RAM address 0x0209 is equivalent to hex 0xe5
 
-This might seem daunting, because we don't know what these addresses mean. That's why the **Code Notes** are pretty handy! You can see how these addresses are labeled in memory by hoving over an address.
+This might seem daunting, because we don't know what these addresses mean. That's why the **Code Notes** are pretty handy! You can see how these addresses are labeled in memory by hovering over an address.
 
 ![Hover example](/new-mario3-ex3.png)
 
@@ -117,7 +117,7 @@ Once a total of 3600 hits are collected the condition is true and the leaderboar
 
 The second condition will reset the amount of hits we accumulated in case the player returns to the title screen.
 
-**Tip**: Tt can be useful to watch these values in memory to see how they perform, and what sort of values they end up at in different circumstances.
+**Tip**: It can be useful to watch these values in memory to see how they perform, and what sort of values they end up at in different circumstances.
 
 ### Value
 
@@ -169,7 +169,7 @@ The `Cancel` group is always false. Since the leaderboard UI never shows up we d
   1:             Value 0 =   Value 1 (0)
 ```
 
-Finally, `Submit` is always true. The moment the `Start` group is true the leaderbord will submit whatever is defined in the `Value` group:
+Finally, `Submit` is always true. The moment the `Start` group is true the leaderboard will submit whatever is defined in the `Value` group:
 
 ### Submit
 ```
