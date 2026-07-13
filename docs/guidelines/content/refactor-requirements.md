@@ -37,14 +37,15 @@ Static addresses shall be formatted as follows:
 - Bracketed size at the beginning of every note, may include BE or BCD as appropriate [16-bit BE], [16-bit BCD], [16-bit BE BCD]
 - Bitflags shall not be bracketed, but may be included in the note description, not required though as seeing values as bits makes it clear that the address contains bitflags
 - Address description in clear, concise verbiage - may expand as needed, but should not unnecessarily expand description
-- Values listed either in hex or float depending on address type. Should be increasing in order unless out of order makes sense for something like Map ID progression where the IDs are not ordered sequentially
+- Values listed either in hex or float depending on address type. BCD addresses may use decimal to describe values. Should be increasing in order unless out of order makes sense for something like Map ID progression where the IDs are not ordered sequentially
 - Values must use an = sign, however spacing is optional: no spaces, space before/after =, or on both sides
 
 ```
 [16-bit BE BCD] Description
-0x0000=Value 1
+1=Value 1
+2=Value 2
 ...
-0x000X=Value X
+XXX=Value X
 ```
 ```
 [8-bit] Event bitflags
