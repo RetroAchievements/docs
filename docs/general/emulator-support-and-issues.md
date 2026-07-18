@@ -350,8 +350,8 @@ Limited microphone support.
 
 | Name                                                                     | Type                | Notes |
 | :----------------------------------------------------------------------- | :------------------ | :---- |
+| **[ARMSX2](https://armsx2.net/)**                                        | Standalone emulator |       |
 | **[PCSX2](https://pcsx2.net/)**                                          | Standalone emulator |       |
-| **[NetherSX2](https://github.com/Trixarian/NetherSX2-classic/releases)** | Standalone emulator |       |
 | **[XBSX2](https://github.com/XboxEmulationHub/XBSX2/releases)**          | Standalone emulator |       |
 
 ### PlayStation Portable
