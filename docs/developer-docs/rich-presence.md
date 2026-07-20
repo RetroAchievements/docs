@@ -201,9 +201,9 @@ It is built by replacing any macros in the display string with text from a Looku
 
 This means use the Lookup or Format that's called `Powerup`, and give it whatever 8-bit value is in the address 0x756. After converting, put the result in between "Using " and "!".
 
-**NOTE**: Lookup/Format names are case sensitive and must exactly match the usage in the Display string: `@test(0x1234)` will not find `Format:Test`
+**NOTE**: Lookup/Format names are case-sensitive and must exactly match the usage in the Display string: `@test(0x1234)` will not find `Format:Test`
 
-**NOTE**: Lookup/Format definitions cannot contain spaces before or after the name. `@test(0x1234)` will not find `Format:test   ` or `Format:   test`
+**NOTE**: Lookup/Format definitions cannot contain spaces before or after the name. `@test(0x1234)` will not find `Format:test `&nbsp;or `Format: test`
 
 ### Example Lookup Breakdown
 
