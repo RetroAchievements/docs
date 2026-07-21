@@ -28,17 +28,18 @@ The following aspects of a set must all be up to modern standards in order to be
 
 ## Code Notes
 
-Refactored sets will follow a strict format standard that must be adhered to. Code notes must, at a minimum, contain the address's size, a description of what the address does or why it is used in the achievement code, and enumerated bit, hex, or float values only and their associated definitions.
+Refactored sets will follow a strict format standard that must be adhered to. Code notes must, at a minimum, contain the address's size, a description of what the address does or why it is used in the achievement code, and enumerated bit, hex, or float values only and their associated definitions.  In cases where some discretion is afforded such as in the placement of address size, the entire set must follow the same style and may not differ note to note.
 
 **Static addresses**
 
 Static addresses shall be formatted as follows:
 
-- Bracketed size at the beginning of every note, may include BE or BCD as appropriate [16-bit BE], [16-bit BCD], [16-bit BE BCD]
-- Bitflags shall not be bracketed, but may be included in the note description, not required though as seeing values as bits makes it clear that the address contains bitflags
+- Bracketed size on the description line of every note, may include BE or BCD as appropriate [16-bit BE], [16-bit BCD], [16-bit BE BCD]
+- "Bitflags" shall not be bracketed, but may be included in the note description, not required though as seeing values as bits makes it clear that the address contains bitflags
 - Address description in clear, concise verbiage - may expand as needed, but should not unnecessarily expand description
 - Values listed either in hex or float depending on address type. BCD addresses may use decimal to describe values. Should be increasing in order unless out of order makes sense for something like Map ID progression where the IDs are not ordered sequentially
-- Values must use an = sign, however spacing is optional: no spaces, space before/after =, or on both sides
+- Values must use an = sign, however spacing is optional: no spaces, space before/after =, or on both sides are all acceptable
+- Treat consecutive bitfields as stand alone 8-bit addresses. Do not note anything as Bit8, Bit21, etc
 
 ```
 [16-bit BE BCD] Description
@@ -52,6 +53,29 @@ XXX=Value X
 Bit0 = Something occurred
 ...
 Bit7 = Something else occurred
+```
+
+**Dynamic addresses**
+
+Dynamic addresses accessed via pointers shall follow all static address requirements, plus the following:
+
+- Root pointer note must indicate it is a pointer in the address description
+- Use + signs to indicate offsets and chained nodes
+- Indent values associated with nodes using the same number of . as + in the node
+- Nodes and values must use = signs, do not use colons
+
+```
+[32-bit BE] Pointer
++0x4= [32-bit BE] Pointer 
+++0x5bc= [32-bit BE]Pointer
++++0x0= [32-bit BE]Pointer to player data
+++++0x10= [32-bit BE]Position in race
+++++0x14= [32-bit BE]Laps left in race
+....0x00000000=Last lap
+....0xffffffff=Race complete
+++++0x34= [Float BE] Speed in meters/sec
+++++0x38= [Float BE]East/West coordinates
+....1000.0=Starting line
 ```
 
 ## Achievement Logic
