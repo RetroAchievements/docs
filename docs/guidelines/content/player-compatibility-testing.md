@@ -6,6 +6,9 @@ description: Describes the process for players to conduct compatibility testing 
 # Player Compatibility Testing
 The biggest barrier to adding additional hash support to sets is the time required to test them. This document explains how players may request approval to conduct hash compatibility testing. All hashes linked to a set must be able to unlock all of the set's achievements.
 
+## Hashes Appropriate for Compatibility Testing
+The primary goal of the Player Compatibility Testing program is to test and hopefully validate additional language translation patches to achievement sets so more people can enjoy them in their native languages. Other types of patches may be good testing candidates such as photosensitivity removal patches, significant quality of life patches that do not impact core gameplay such as widescreen patches, or expanded save slots. Graphical overhauls or cosmetic patches will not be tested for compatibility.
+
 ## Process Overview
 Players interested in conducting new hash testing should contact the set maintainer via site direct message and request to conduct compatibility testing. A set maintainer is any active developer who is an author on a set. If all set authors are inactive, [QATeam](https://retroachievements.org/user/QATeam) is the set maintainer.
 
