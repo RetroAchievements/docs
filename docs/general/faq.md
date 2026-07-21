@@ -214,16 +214,13 @@ You'll also want to reset these achievements from your unlock history so you can
 
 You are able to reset your progress for achievements individually or for an entire set at once.
 
-There are three ways to do this:
+There are two ways to do this:
 
 - On the achievement page:  
   ![reset-achievements-1](/reset-achievements1.png)
 
 - On the game page (when you want or need to reset all unlocks in a game), hover or tap over the percent complete:  
   ![reset-achievements-2](/reset-achievements2.png)
-
-- Near the bottom of your user settings page:  
-  ![reset-achievements-3](/reset-achievements3.png)
 
 ### Am I the only one with an issue?
 
