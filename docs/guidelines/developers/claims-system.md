@@ -140,3 +140,17 @@ Upon completion of a rollout, compilation sets for that system shall become elig
 ::: info REASON FOR SPECIAL RULES
 These rules are in place to ensure a fair chance for any developer to work on these compilation sets immediately as they become available, rather than whomever happens to be awake when the rollout ends. They are designed to give everyone interested a chance to work on these sets.
 :::
+
+### Claiming Multiple Ports of the Same Game
+
+Letting other developers work on other ports of a game is encouraged. For this reason, developers cannot hold claims for two ports of the same game at the same time. 
+
+Moreover, for the 6 months following the publication of a set for a game, developers have to make sure no other developers are interested before making a claim on a port of the same game. This is done as described below:
+
+  1. Contact DevCompliance and express your interest in claiming a second port.
+  2. DevCompliance will privately reach out to developers that have the game on their Want to Dev list on-site.
+  3. The other potentially interested developers will explain how likely they are to claim the game before the cooldown finishes. For example, if 4 months have passed, they will say how likely they are to claim in the remaining 2 months.
+
+Note that collaborations are exempt from this cooldown as long as the repeat dev does not do a majority of the work.
+
+For the sake of this rule, different ports of a game are releases on different platforms where the gameplay is largely replicated. Differences in presentation, theme or license is not enough to be considered different games. Content being cut in one port due to technical limitations such as lack of space doesn't make them different games either. When in doubt, contact DevCompliance before claiming.
