@@ -145,7 +145,7 @@ These rules are in place to ensure a fair chance for any developer to work on th
 
 Letting other developers work on other ports of a game is encouraged. For this reason, developers cannot hold claims for two ports of the same game at the same time. 
 
-Moreover, for the 6 months following the publication of a set for a game, developers shall ensure no other developers are interested before making a claim on a port of the same game. This is done as described below:
+Moreover, for the 6 months following the publication of their set for a game, developers shall ensure no other developers are interested before making a claim on a port of the same game. This is done as described below:
 
   1. Contact DevCompliance and express your interest in claiming a second port.
   2. DevCompliance will privately reach out to developers that have the game on their Want to Dev list on-site.
