@@ -137,14 +137,6 @@ This is a list of emulators and cores that have either been confirmed to not wor
 | **fixNES**        | libretro core | ❓ | |
 | **bnes**          | libretro core | ❓ | |
 
-## Nintendo 3DS
-
-| Name              | Type          | Status  | Notes                               |
-| :---------------- | :------------ | :-----: | :---------------------------------- |
-| **Citra**         | libretro core | ❌ | - Only exposes 64MB of memory - documentation suggests there should be 128MB<br>- Does not support save states |
-| **Citra 2018**    | libretro core | ❌ | |
-| **Citra Canary**  | libretro core | ❌ | |
-
 ## Nintendo 64
 
 | Name                       | Type          | Status  | Notes                               |
@@ -371,6 +363,14 @@ This is a list of emulators and cores that have either been confirmed to not wor
 | Name              | Type          | Status  | Notes                               |
 | :---------------- | :------------ | :-----: | :---------------------------------- |
 | **MicroW8**       | libretro core | ❌ | |
+
+## Nintendo 3DS
+
+| Name              | Type          | Status  | Notes                               |
+| :---------------- | :------------ | :-----: | :---------------------------------- |
+| **Citra**         | libretro core | ❌ | - Only exposes 64MB of memory - documentation suggests there should be 128MB<br>- Does not support save states |
+| **Citra 2018**    | libretro core | ❌ | |
+| **Citra Canary**  | libretro core | ❌ | |
 
 ## PC-9800
 
