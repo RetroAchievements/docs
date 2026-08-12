@@ -192,7 +192,7 @@ Any user wanting to change the game icon or badges of a set need to:
 5. **Start a vote** by posting links to the old icon/badges and their contenders in the [`#icon-gauntlet`](https://discord.com/channels/310192285306454017/527943666812321795) channel on Discord.
 
 - Whomever creates the vote must ping `@icon-gauntlet`. Ping active authors that did not respond to contact. Ping active authors that requested a ping at vote start after the contact.
-- Use the one of the templates to create the poll:
+- Use one of the templates to create the poll:
 ::: details Discord Templates
 **Icon gauntlet with 1 contender:**
 ```
