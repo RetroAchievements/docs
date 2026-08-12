@@ -229,8 +229,8 @@ option5: Contender 4
 ```
 /poll question: [GameName (System)](RAPageLink)
 option1: Current LinkToCollageOfCurrentBadges
-option2: Contender 1 LinkToCollageOfCondenter1Badges
-option3: Contender 2 LinkToCollageOfCondenter2Badges
+option2: Contender 1 LinkToCollageOfContender1Badges
+option3: Contender 2 LinkToCollageOfContender2Badges
 ```
 :::
 
