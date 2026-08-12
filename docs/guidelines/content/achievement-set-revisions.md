@@ -192,19 +192,47 @@ Any user wanting to change the game icon or badges of a set need to:
 5. **Start a vote** by posting links to the old icon/badges and their contenders in the [`#icon-gauntlet`](https://discord.com/channels/310192285306454017/527943666812321795) channel on Discord.
 
 - Whomever creates the vote must ping `@icon-gauntlet`. Ping active authors that did not respond to contact. Ping active authors that requested a ping at vote start after the contact.
-- Use the a template to create the poll:
-     <details>
-     <summary>Discord Templates</summary>
-     📊 1 vs. 1 proposal:<br>
-     `?quickpoll (game/hub page link) | Current (current icon/badges link) | Contender (contender icon/badges link)`<br>
-     <br>
-     📊 1 vs. 2 or 3 proposal:<br>
-     `?quickpoll (game/hub page link) | Current (current icon link) | Contender 1 (contender 1 icon link) | Contender 2 (contender 2 icon link) | Contender 3 (contender 3 icon link)`<br>
-     <br>
-     Discord only embeds 4 images at maximum in a single post (current icon vs. 3 contenders), so if there's at least 5 images required (current icon vs. 4+ contenders), you'll have to do a montage with all icons:<br><br>
-     📊 1 vs. 4+ proposal:<br>
-     `?quickpoll (game/hub page link) | Current | Contender 1 | Contender 2 | Contender 3 | Contender 4 | Contender 5 | Contender 6 (single image montage link with all icons)`<br>
-     </details>
+- Use the one of the templates to create the poll:
+::: details Discord Templates
+**Icon gauntlet with 1 contender:**
+```
+/poll question: [GameName (System)](RAPageLink)
+option1: Current: LinkToCurrent
+option2: Contender: LinkToContender
+```
+<br>
+
+**Icon gauntlet with 2 or 3 contenders:**
+```
+/poll question: [GameName (System)](RAPageLink)
+option1: Current: LinkToCurrent
+option2: Contender 1: LinkToContender1
+option3: Contender 2: LinkToContender2
+option4: Contender 3: LinkToContender3
+```
+<br>
+
+**Icon gauntlet with 4+ contenders:**<br>
+> Discord only embeds 4 images at maximum in a single post (current icon vs. 3 contenders), so if there's at least 5 images required (current icon vs. 4+ contenders), you'll have to do a montage with all icons.<br>
+```
+/poll question: [GameName (System)](RAPageLink)
+option1: Current LinkToCollageIncludingCurrentIconAnd4Contenders
+option2: Contender 1
+option3: Contender 2
+option4: Contender 3
+option5: Contender 4
+```
+<br>
+
+**Achievement badge gauntlet:**<br>
+> Similar to the icon gauntlet with 4+ contenders, you'll have to create a collage of the current badges and of your contenders.<br>
+```
+/poll question: [GameName (System)](RAPageLink)
+option1: Current LinkToCollageOfCurrentBadges
+option2: Contender 1 LinkToCollageOfCondenter1Badges
+option3: Contender 2 LinkToCollageOfCondenter2Badges
+```
+:::
 
 6. Voting will be active for 24 hours.
 
