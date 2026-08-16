@@ -5,11 +5,6 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 # Unsupported Emulators and Cores
 
-
-## Acorn - BBC Micro
-
-- ❓ libretro core: **b2**
-
 ## Amiga
 
 - ❓ libretro core: **FS-UAE**
@@ -58,6 +53,12 @@ description: Information about unsupported emulators and cores for RetroAchievem
 
 - ❌ _Not supported_ - needs hashing method and memory map
 - ❌ libretro core: **Hatari**
+  - Memory not exposed
+
+## BBC Micro
+
+- ❌ _Not supported_ - needs console ID, hashing method, and memory map
+- ❌ libretro core: **b2**
   - Memory not exposed
 
 ## Casette Vision
