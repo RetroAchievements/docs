@@ -66,7 +66,7 @@ When these are acceptable:
 
 - `[Subset - Multi]` sets.
 
-## Requires Complete Perfection
+## Requires Complete Perfection Over a Long Session
 
 Achievements that require a **long task** where the slightest mistake will end in failing the challenge. Especially challenges where randomness and other variation in game behavior makes anticipating actions extra difficult.
 
