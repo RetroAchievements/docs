@@ -41,9 +41,11 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - Emulator filters and shaders should be disabled for screenshots. For example, Game Boy Color and Game Boy Advance should not use color correction, and Apple II should not use a scanline filter.
 - NES color palette can be whatever the default is in your emulator.
 - NES screenshots can be either 256x224 (default in FCEUmm core in RALibretro) or 256x240 (default in Mesen core). The latter may be preferred for some games if it shows more detail. FCEUmm can produce this size by changing its top and bottom overscan crop settings to 0.
+- Nintendo 64 and Saturn screenshots often have black borders. While not ideal, it's fine to submit these as they are rather than dealing with the various issues from cropping them.
 - DS screenshots should include both screens in vertical orientation, without a gap in-between, and with both screens being the same size. Book-style games can have horizontal orientation instead.
+- 3DS screenshots should also include both screens in vertical orientation, without a gap in-between. However, the bottom screen will be smaller than the top, and have black space at the sides.
 - Atari 2600 screenshots taken in a narrow resolution will automatically have their width doubled to the proper display when uploaded.
-- For Amstrad CPC in RALibretro, Caprice32's status bar should be disabled, and the crop borders setting should be enabled.
+- For Amstrad CPC in RALibretro, Caprice32's status bar should be disabled. The crop borders setting can be enabled for some games to remove the excessive border, but this removes part of the display for other games, so be careful with this setting.
 - As mentioned above, Amstrad CPC games may produce screenshots that look too wide using the Caprice32 core in RALibretro. It's recommended that you only deal with this system if you understand how the games should be displayed. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
 - Uzebox games may also produce produce screenshots in improper resolutions using the Uzem core in RALibretro. Be sure you know the proper resolution for the game (it can be different for each game) and use Nearest Neighbour scaling to resize the screenshots after taking them.
 - PS1, Saturn, Dreamcast, Arcade, and possibly other systems may also produce screenshots that look too wide or too narrow in their uncorrected internal resolution. Again, it's recommended that you only submit screenshots for these systems if you understand the game well and what the best resolution may be. Be sure to use Nearest Neighbor scaling if you have to resize the screenshots in an image editor.
@@ -63,45 +65,45 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 - A reminder: in general, please do not manually resize or crop your screenshots to match with these dimensions. They should be produced automatically by the emulator with appropriate settings, with some exceptions explained elsewhere on this page. If you believe an error has been made or a proper resolution can be added to the list, please report it in the `#cleanup-requests` forum or `#screenshot-help` channel as explained above.
 - This list may not always be up to date with the site's configuration if a change is made there without editing this page yet.
 	- 3DO Interactive Multiplayer - 320x240
-	- Amstrad CPC - 160x240, 320x240
+	- Amstrad CPC - 320x240, 384x272
 	- Apple II - 280x192, 560x384
 	- Arcade - Game-dependent
-	- Arcadia 2001 - 164x269 (Taken in narrow)
+	- Arcadia 2001 - 328x269
 	- Arduboy - 128x64
 	- Atari 2600 - 160x228 (NTSC), 160x274 (PAL) (Will automatically be doubled in width when uploaded)
 	- Atari 5200 - 320x228, 336x240
 	- Atari 7800 - 320x223, 320x272, 320x240, 160x240
 	- Atari Jaguar - Game-dependent
 	- Atari Jaguar CD - Game-dependent
-	- Atari Lynx - 160x102
+	- Atari Lynx - 160x102, 102x160
 	- Atari ST - 320x200
 	- Bandai WonderSwan - 224x144, 144x224
-	- ColecoVision - 256x192
+	- ColecoVision - 256x192, 272x240
 	- Commodore 64 - Game-dependent
 	- Commodore Amiga - Game-dependent
 	- Commodore VIC-20 - 200x234
 	- DOS - Game-dependent
-	- Elektor TV Games Computer - 164x269 (Taken in narrow)
+	- Elektor TV Games Computer - 328x269
 	- Epoch Co. Cassette Vision - 128x192
 	- Epoch Co. Super Cassette Vision - 198x225
 	- Fairchild Channel F - 306x192
 	- Famicom Disk System - 256x224, 256x240
 	- Fujitsu FM Towns - Game-dependent
-	- GCE Vectrex - 193x240, 360x480
-	- Interton VC 4000 - 164x269 (Taken in narrow)
-	- Magnavox Odyssey 2 - 320x235
-	- Mattel Intellivision - 320x200
+	- GCE Vectrex - 824x1024
+	- Interton VC 4000 - 328x269
+	- Magnavox Odyssey 2 - 340x250
+	- Mattel Intellivision - 352x224, 352x208
 	- Mega Duck - 160x144
-	- Microsoft MSX - 272x240, 544x480
+	- Microsoft MSX - 272x240, 544x480, 256x192
 	- Microsoft Xbox - 640x480
-	- NEC PC Engine CD/TurboGrafx-CD - 256x232, 256x239, 336x239, 512x243
-	- NEC PC Engine/TurboGrafx-16 - 256x232, 256x239, 336x239, 512x243
+	- NEC PC Engine CD/TurboGrafx-CD - 256x232, 256x239, 336x239, 352x240, 512x480
+	- NEC PC Engine/TurboGrafx-16 - 256x232, 256x239, 336x239, 352x240, 320x240, 512x480
 	- NEC PC-6000 - Game-dependent
-	- NEC PC-8000/8800 - 320x200
+	- NEC PC-8000/8800 - 640x400
 	- NEC PC-9800 - 640x400
 	- NEC PC-FX - 256x232, 256x240, 341x240
-	- Nintendo 3DS - 400x240, 320x240, 720x480
-	- Nintendo 64 - 320x240
+	- Nintendo 3DS - 400x480
+	- Nintendo 64 - 320x240, 320x237, 624x460
 	- Nintendo DS - 256x384, 384x256
 	- Nintendo DSi - 256x384, 384x256
 	- Nintendo Entertainment System/Famicom - 256x224, 256x240
@@ -109,21 +111,21 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Nintendo Game Boy - 160x144
 	- Nintendo Game Boy Advance - 240x160
 	- Nintendo Game Boy Color - 160x144
-	- Nintendo GameCube - 640x480, 640x448, 512x464, 512x480, 640x532, 512x448, 640x528, 576x448, 722x528
-	- Nintendo Pokemon Mini - 96x64
+	- Nintendo GameCube - 640x480, 640x448, 512x464, 512x480, 640x532, 512x448, 640x528, 576x448, 722x528, 640x491, 583x448, 640x456, 640x500, 640x468, 778x480, 640x464, 640x494, 640x527, 640x568, 700x568, 608x448, 608x449, 608x464, 608x469, 583x480, 640x444, 640x487, 640x512, 700x512, 512x512, 934x512, 640x524, 700x524, 640x446, 640x474, 480x480, 512x450, 583x450, 640x574, 640x484
+	- Nintendo Pokemon Mini - 96x64, 64x96
 	- Nintendo Virtual Boy - 320x186, 384x224
 	- Nintendo Wii - Game-dependent
 	- Nintendo Wii U - 1280x720
-	- Nokia N-Gage - Game-dependent
+	- Nokia N-Gage - 176x208, 320x240
 	- Philips CD-i - 384x240, 384x280
 	- Sega 32X - 320x224, 256x224, 320x240
 	- Sega CD - 320x224, 256x224, 320x240
-	- Sega Dreamcast - 640x480
-	- Sega Game Gear - 160x144
+	- Sega Dreamcast - 640x480, 320x240
+	- Sega Game Gear - 160x144, 256x192, 256x224
 	- Sega Genesis/Mega Drive - 320x224, 256x224, 320x240
 	- Sega Master System - 256x192, 256x224, 256x240
 	- Sega Pico - 320x224, 256x224, 320x240
-	- Sega Saturn - 320x224, 352x224, 320x240, 352x240, 320x256, 352x256, 640x448, 704x448, 640x480, 704x480, 330x224
+	- Sega Saturn - 320x224, 352x224, 320x240, 352x240, 320x256, 352x256, 640x448, 704x448, 640x480, 704x480, 330x224, 660x448
 	- Sega SG-1000 - 256x192
 	- Sharp X1 - 320x200
 	- Sharp X68000 - Game-dependent
@@ -131,9 +133,11 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 	- Sinclair ZX81 - 256x192
 	- SNK Neo Geo CD - 320x224
 	- SNK Neo Geo Pocket - 160x152
-	- Sony PlayStation - 320x240, 256x240, 320x480, 256x480, 368x480, 512x480, 640x480, 320x224, 320x268, 512x384, 368x240, 640x416, 320x208, 256x224, 299x224, 365x224, 640x448, 640x512, 320x256, 640x536, 715x536, 358x268, 598x448
-	- Sony PlayStation 2 - 640x480, 640x448, 640x512, 596x447, 682x512, 512x448, 512x446, 597x448, 512x512, 512x384, 711x480, 711x533, 512x445, 593x445
-	- Sony PlayStation Portable - 480x272
+	- Sony PlayStation - 320x240, 256x240, 320x480, 256x480, 368x480, 512x480, 640x480, 320x224, 320x268, 512x384, 365x274, 368x240, 640x416, 320x208, 256x224, 299x224, 365x224, 640x448, 640x512, 320x256, 640x536, 715x536, 358x268, 598x448, 512x448, 597x448
+	- Sony PlayStation 2 - 640x480, 640x448, 640x512, 596x447, 682x512, 512x448, 512x446, 597x448, 512x512, 512x384, 711x480, 711x533, 512x445, 593x445, 640x511, 681x511, 640x447, 640x446, 639x448, 639x479, 512x416, 554x416, 512x417, 556x417, 638x448, 683x512, 512x447, 512x480, 640x481, 512x444
+	- Sony PlayStation 3 - 1280x720, 1920x1080
+	- Sony PlayStation Portable - 480x272, 272x480
+	- Standalone - Game-dependent
 	- Super Nintendo Entertainment System/Famicom - 256x224, 256x240, 512x448
 	- TCS Oric - 240x224
 	- Texas Instruments TI-83 - 96x64
@@ -200,7 +204,7 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ![PPSSPP Rendering Resolution setting](/ppsspp-rendering-resolution.png)
 
-- All other settings can be default.
+- All other settings can generally be default, but note that changing the Texture Filtering to Nearest may help for some games.
 
 ### RAppleWin
 
@@ -258,6 +262,6 @@ description: Guidelines for contributing game screenshots to RetroAchievements. 
 
 ![RALibretro - Caprice32 Status Bar setting](/ralibretro-caprice32-status-bar.png)
 
-- To crop the excessive borders, go to Core Settings -> Video and set Crop Screen Borders to Enabled. This will cause games to display at 320x240.
+- To crop the excessive borders for some games, go to Core Settings -> Video and set Crop Screen Borders to Enabled. This will cause games to display at 320x240. However, it may crop too far into the display for some games, so be careful with this setting.
 
 ![RALibretro - Caprice32 Crop Screen Borders setting](/ralibretro-caprice32-crop-screen-borders.png)
