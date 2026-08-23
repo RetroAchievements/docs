@@ -13,8 +13,9 @@ description: This guide outlines the essential requirements for creating and sub
    - Do not just link Publisher, Developer, and Genre hubs: fill out the fields in the dev panel or manage app so that this information appears on all lists that display it.
 - **All game images uploaded**
    - Box art for homebrew and hacks are exempt when the game or hack's creator does not provide any.
-- **Game Badges for each achievement**
-   - They don't need to be distinct from each other, just don't leave them blank.
+- **Unique titles for achievements across all sets on the same game page**
+- **New sets must have unique badges for each achievement, across all of RA**
+  - Legacy sets with duplicated badges are added to the [Stock/Recycled Badges](https://retroachievements.org/hub/2369) hub. Please update them when possible.
 - **Content covering up to completion** so long as the game can be beaten. Whether it be defeating the final boss, completing a first loop, or completing all puzzles, achievement sets that do not cover at least beating the game are deemed unfinished and therefore subject to demotion.
   - Endless games where the focus is on high scores (such as Pac-Man and Crystal Castles) are exempt from this rule.
   - Regarding compilation games, such as [Intellivision Classic Games (PlayStation)](https://retroachievements.org/game/13908), it is not required for every game in the compilation to have achievements. However, those that do have achievements must adhere to the above policy.
