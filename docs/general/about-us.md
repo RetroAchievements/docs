@@ -108,8 +108,8 @@ The team responsible for the adherence and driving updates to the [Developer's C
 
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
-- [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
+- [Cnat](https://retroachievements.org/user/Cnat)
 - [Darky](https://retroachievements.org/user/Darky)
 - [rgavril](https://retroachievements.org/user/rgavril)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
@@ -118,7 +118,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [Sutarion](https://retroachievements.org/user/Sutarion)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [xClawz](https://retroachievements.org/user/xClawz)
-- [Yurana](https://retroachievements.org/user/Yurana)
 
 ### Cheat Prevention Team
 
@@ -177,7 +176,7 @@ Users who oversee one of the QA sub-teams:
 
 The RetroAchievements project was created by **[Scott Breen](http://scottbreen.info/)** in [2012](https://web.archive.org/web/20121121150009/http://www.retroachievements.org/). He hacked some open source emulators to add the RetroAchievements feature and coded all the backend/website mostly alone.
 
-By January 2014, there were 4 RA emulators, over 5000 achievements to earn (thanks to the devotion of many [passionate achievement developers](http://retroachievements.org/developerstats.php)) and over 1000 players registered. After a couple of years Scott was called by the real life the website development went into a period of hiatus with just a few sporadic improvements (the achievement developers were continually working on more and more games, though).
+By January 2014, there were 4 RA emulators, over 5,000 achievements to earn (thanks to the devotion of many [passionate achievement developers](http://retroachievements.org/developerstats.php)) and over 1000 players registered. After a couple of years Scott was called by the real life the website development went into a period of hiatus with just a few sporadic improvements (the achievement developers were continually working on more and more games, though).
 
 In late 2015 **[leiradel](https://github.com/leiradel)** started to work to integrate the RetroAchievements feature into [RetroArch](https://retroarch.com/). And, as RetroArch is able to run on a wide variety of platforms (such as Mac and Linux) and devices (such as Android phones and Raspberry pi), it helped a lot to increase the popularity of the RetroAchievements project.
 
