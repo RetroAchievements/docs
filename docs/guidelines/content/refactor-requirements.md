@@ -30,7 +30,7 @@ The following aspects of a set must all be up to modern standards in order to be
 
 Refactored sets will follow a strict format standard that must be adhered to. Code notes must, at a minimum, contain the address's size, a description of what the address does or why it is used in the achievement code, and enumerated bit, hex, or float values only and their associated definitions.  In cases where some discretion is afforded such as in the placement of address size, the entire set must follow the same style and may not differ note to note.
 
-**Static addresses**
+### Static addresses
 
 Static addresses shall be formatted as follows:
 
@@ -55,7 +55,7 @@ Bit0 = Something occurred
 Bit7 = Something else occurred
 ```
 
-**Dynamic addresses**
+### Dynamic addresses & Pointers
 
 Dynamic addresses accessed via pointers shall follow all static address requirements, plus the following:
 
@@ -76,6 +76,38 @@ Dynamic addresses accessed via pointers shall follow all static address requirem
 ++++0x34= [Float BE] Speed in meters/sec
 ++++0x38= [Float BE]East/West coordinates
 ....1000.0=Starting line
+```
+
+### Arrays, Structs, and Other Regions
+
+Regions of memory should be noted as precisely as possible depending on how they are used to support achievement logic. Arrays should specify the how many times an element is repeated whereas a struct simply needs to note its size. Both arrays and structs should be noted as bytes, with arrays noting the number and size of each element within the array.
+
+- Use [X bytes] for struct or other regions and [XxY bytes] for arrays
+- Use + signs to indicate offsets within regions
+- Indent values associated with offsets using the same number of . as + in the offset
+- Offsets and values must use = signs, do not use colons
+
+Array note example where noted region is a total of 160 bytes, comprised of 10 16-byte elements:
+```
+[10x16 bytes] Enemy object array
++0x00= [32-bit] ID
+.0x00= Monster A
+.0x01= Monster B
+.0x02= Monster C
++0x04= [32-bit] Health
++0x08= [Float] X position
++0x0c= [Float] Y Position
+```
+**This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
+
+Struct example:
+```
+[16 bytes] Player data struct
++0x00= [32-bit] ID
+.0xff=Player ID
++0x04= [32-bit] Health
++0x08= [Float] X position
++0x0c= [Float] Y Position
 ```
 
 ## Achievement Logic
