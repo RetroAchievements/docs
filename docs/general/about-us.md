@@ -167,7 +167,7 @@ Users who oversee one of the QA sub-teams:
 - [Gollawiz](https://retroachievements.org/user/Gollawiz) - Art Team lead
 - [Sutarion](https://retroachievements.org/user/Sutarion) - Events Team lead
 - [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
-- [Nepiki](https://retroachievements.org/user/Nepiki) and [Jazerus](https://retroachievements.org/user/Jazerus) - Writing Team lead
+- [Nepiki](https://retroachievements.org/user/Nepiki) and [Jazerus](https://retroachievements.org/user/Jazerus) - Writing Team co-leads
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Clean Up Team lead
 
 ## Short History
