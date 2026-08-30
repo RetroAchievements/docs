@@ -64,7 +64,6 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 - [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [WCopeland](https://retroachievements.org/user/WCopeland)
-- [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
 ### Moderators
 
@@ -95,8 +94,8 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Fridge](https://retroachievements.org/user/Fridge)
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
+- [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [Layton](https://retroachievements.org/user/Layton)
-- [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [starlite](https://retroachievements.org/user/starlite)
@@ -139,7 +138,6 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [Pilzkopf](https://retroachievements.org/user/Pilzkopf)
 - [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
 - [Prims](https://retroachievements.org/user/Prims)
-- [Raeyene](https://retroachievements.org/user/Raeyene)
 - [Salva64bits](https://retroachievements.org/user/Salva64bits)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
@@ -169,7 +167,7 @@ Users who oversee one of the QA sub-teams:
 - [Gollawiz](https://retroachievements.org/user/Gollawiz) - Art Team lead
 - [Sutarion](https://retroachievements.org/user/Sutarion) - Events Team lead
 - [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
-- [Nepiki](https://retroachievements.org/user/Nepiki) - Writing Team lead
+- [Nepiki](https://retroachievements.org/user/Nepiki) and [Jazerus](https://retroachievements.org/user/Jazerus) - Writing Team co-leads
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Clean Up Team lead
 
 ## Short History
