@@ -136,28 +136,28 @@ FormatType=VALUE
 
 Begin with `Format:`, then the name of the Format converter. On the next line, give `FormatType=`, then one of the following:
 
-|   FormatType   |        Name         |    0     |    1     |    12345     | Description                                                                  |
-| :------------: | :-----------------: | :------: | :------: | :----------: | ---------------------------------------------------------------------------- |
-|    `SCORE`     |        Score        |  000000  |  000001  |    012345    | Generic value, padded with leading 0s to 6 digits                            |
-|    `FRAMES`    |    Time (Frames)    | 0:00.00  | 0:00.01  |   3:25.75    | Number of frames elapsed (assuming 60 fps). Will be turned into MIN:SEC.CENT |
-|  `MILLISECS`   | Time (Centiseconds) | 0:00.00  | 0:00.01  |   2:03.45    | Number of hundredths of a second elapsed. Will be turned into MIN:SEC.CENT   |
-|     `SECS`     |   Time (Seconds)    |   0:00   |   0:01   |   3h25:45    | Number of seconds elapsed. Will be turned into MIN:SEC                       |
-|   `MINUTES`    |   Time (Minutes)    |   0h00   |   0h01   |    205h45    | Number of minutes elapsed. Will be turned into HRShMIN                       |
-| `SECS_AS_MINS` |   Time (Seconds)    |   0h00   |   0h00   |   3h25:45    | Number of seconds elapsed. Will be turned into HRShMIN                       |
-|    `VALUE`     |        Value        |    0     |    1     |    12345     | Generic value (signed)                                                       |
-|   `UNSIGNED`   |  Value (Unsigned)   |    0     |    1     |    12345     | Generic value (unsigned)                                                     |
-|     `TENS`     |    Value (Tens)     |    0     |    10    |    123450    | Generic value with an appended 0 (if non-zero)                               |
-|   `HUNDREDS`   |  Value (Hundreds)   |    0     |   100    |   1234500    | Generic value with two appended 0s (if non-zero)                             |
-|  `THOUSANDS`   |  Value (Thousands)  |    0     |   1000   |   12345000   | Generic value with three appended 0s (if non-zero)                           |
-|    `FIXED1`    |   Value (Fixed1)    |   0.0    |   0.1    |    1234.5    | Generic value with a decimal point inserted one character from the end       |
-|    `FIXED2`    |   Value (Fixed2)    |   0.00   |   0.01   |    123.45    | Generic value with a decimal point inserted two characters from the end      |
-|    `FIXED3`    |   Value (Fixed3)    |  0.000   |  0.001   |    12.345    | Generic value with a decimal point inserted three characters from the end    |
-|    `FLOAT1`    |   Value (Float1)    |   0.0    |   1.0    |   12345.0    | Decimal value with one digit after the decimal (Rich Presence only)          |
-|    `FLOAT2`    |   Value (Float2)    |   0.00   |   1.00   |   12345.00   | Decimal value with two digits after the decimal (Rich Presence only)         |
-|    `FLOAT3`    |   Value (Float3)    |  0.000   |  1.000   |  12345.000   | Decimal value with three digits after the decimal (Rich Presence only)       |
-|    `FLOAT4`    |   Value (Float4)    |  0.0000  |  1.0000  |  12345.0000  | Decimal value with four digits after the decimal (Rich Presence only)        |
-|    `FLOAT5`    |   Value (Float5)    | 0.00000  | 1.00000  | 12345.00000  | Decimal value with five digits after the decimal (Rich Presence only)        |
-|    `FLOAT6`    |   Value (Float6)    | 0.000000 | 1.000000 | 12345.000000 | Decimal value with six digits after the decimal (Rich Presence only)         |
+|   FormatType   |        Name         |    0     |    1     |     12345     | Description                                                                  |
+| :------------: | :-----------------: | :------: | :------: | :-----------: | ---------------------------------------------------------------------------- |
+|    `SCORE`     |        Score        |  000000  |  000001  |     012345    | Generic value, padded with leading 0s to 6 digits                            |
+|    `FRAMES`    |    Time (Frames)    | 0:00.00  | 0:00.01  |    3:25.75    | Number of frames elapsed (assuming 60 fps). Will be turned into MIN:SEC.CENT |
+|  `MILLISECS`   | Time (Centiseconds) | 0:00.00  | 0:00.01  |    2:03.45    | Number of hundredths of a second elapsed. Will be turned into MIN:SEC.CENT   |
+|     `SECS`     |   Time (Seconds)    |   0:00   |   0:01   |    3h25:45    | Number of seconds elapsed. Will be turned into MIN:SEC                       |
+|   `MINUTES`    |   Time (Minutes)    |   0h00   |   0h01   |     205h45    | Number of minutes elapsed. Will be turned into HRShMIN                       |
+| `SECS_AS_MINS` |   Time (Seconds)    |   0h00   |   0h00   |    3h25:45    | Number of seconds elapsed. Will be turned into HRShMIN                       |
+|    `VALUE`     |        Value        |    0     |    1     |     12,345    | Generic value (signed)                                                       |
+|   `UNSIGNED`   |  Value (Unsigned)   |    0     |    1     |     12,345    | Generic value (unsigned)                                                     |
+|     `TENS`     |    Value (Tens)     |    0     |    10    |    123,450    | Generic value with an appended 0 (if non-zero)                               |
+|   `HUNDREDS`   |  Value (Hundreds)   |    0     |   100    |   1,234,500   | Generic value with two appended 0s (if non-zero)                             |
+|  `THOUSANDS`   |  Value (Thousands)  |    0     |   1000   |  12,345,000   | Generic value with three appended 0s (if non-zero)                           |
+|    `FIXED1`    |   Value (Fixed1)    |   0.0    |   0.1    |    1,234.5    | Generic value with a decimal point inserted one character from the end       |
+|    `FIXED2`    |   Value (Fixed2)    |   0.00   |   0.01   |     123.45    | Generic value with a decimal point inserted two characters from the end      |
+|    `FIXED3`    |   Value (Fixed3)    |  0.000   |  0.001   |     12.345    | Generic value with a decimal point inserted three characters from the end    |
+|    `FLOAT1`    |   Value (Float1)    |   0.0    |   1.0    |   12,345.0    | Decimal value with one digit after the decimal (Rich Presence only)          |
+|    `FLOAT2`    |   Value (Float2)    |   0.00   |   1.00   |   12,345.00   | Decimal value with two digits after the decimal (Rich Presence only)         |
+|    `FLOAT3`    |   Value (Float3)    |  0.000   |  1.000   |  12,345.000   | Decimal value with three digits after the decimal (Rich Presence only)       |
+|    `FLOAT4`    |   Value (Float4)    |  0.0000  |  1.0000  |  12,345.0000  | Decimal value with four digits after the decimal (Rich Presence only)        |
+|    `FLOAT5`    |   Value (Float5)    | 0.00000  | 1.00000  | 12,345.00000  | Decimal value with five digits after the decimal (Rich Presence only)        |
+|    `FLOAT6`    |   Value (Float6)    | 0.000000 | 1.000000 | 12,345.000000 | Decimal value with six digits after the decimal (Rich Presence only)         |
 
 Notes:
 
@@ -173,8 +173,9 @@ As of the 1.0 version of the DLL, you can use predefined macros for the most com
 
 |       Macro       | FormatType  | Description                                                                                                           |
 | :---------------: | :---------: | --------------------------------------------------------------------------------------------------------------------- |
-|    `@Number()`    |   `VALUE`   | A generic value with no leading zeroes (-2147483648 - 2147483647)                                                     |
-|   `@Unsigned()`   | `UNSIGNED`  | A generic value with no leading zeroes (0 - 4294967295)                                                               |
+|    `@Number()`    |   `VALUE`   | A generic value with no leading zeroes (-2,147,483,648 - 2,147,483,647)                                               |
+|   `@Unsigned()`   | `UNSIGNED`  | A generic value with no leading zeroes (0 - 4,294,967,295)                                                            |
+| `@Unformatted()`  |     n/a     | A generic value with no leading zeroes and no commas (0 - 4294967295)                                                 |
 |    `@Score()`     |   `SCORE`   | A generic value, padded with leading zeroes to six digits                                                             |
 | `@Centiseconds()` | `MILLISECS` | The number of hundredths of a second elapsed, and will be formatted as `00:00.00`                                     |
 |   `@Seconds()`    |   `SECS`    | The number of seconds elapsed, and will be formatted as `00:00`                                                       |
@@ -190,6 +191,28 @@ As of the 1.0 version of the DLL, you can use predefined macros for the most com
 |    `@Float6()`    |  `FLOAT6`   | A floating point number, formatted with six digits after the decimal                                                  |
 |  `@ASCIIChar()`   |     n/a     | Converts a value from 0x20-0x7F into a character using the ASCII character map. Other values will be converted to `?` |
 | `@UnicodeChar()`  |     n/a     | Converts a value into a character using the 16-bit Unicode character map. Unknown values will be converted to `�`     |
+
+#### Using ASCIIChar and UnicodeChar for null-terminated strings
+
+Both `@ASCIIChar` and `@UnicodeChar` will stop processing if they are placed next to each other in a display string and the memory read is 0.
+
+```
+Display:
+My name is @ASCIIChar(0x1000)@ASCIIChar(0x1001)@ASCIIChar(0x1002)@ASCIIChar(0x1003).
+```
+
+Will display an ASCII string up to 4 characters long. If the second address contains a 0, only the first character will be displayed, regardless of what's in the third or fourth addresses.
+
+#### Using Unformatted in a backwards-compatible way
+
+In rcheevos 12.0 (Jun 2025), commas were added to all number formats. To display a number without commas, like a year, use the `@Unformatted` built-in macro and define an `Unformatted=VALUE` formatter. Older runtimes will map the alias to `VALUE` formatting and newer runtimes will use the implicit macro.
+```
+Format:Unformatted
+FormatType=VALUE
+
+Display:
+The year is @Unformatted(0x 1234).
+```
 
 ## Display
 
