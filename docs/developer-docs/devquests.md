@@ -458,8 +458,20 @@ Each system ID will have an achievement associated with it. Newly supported syst
    - When in doubt, please reach out to the DevQuest team.
 6. Each point of credit (equivalent to one set) must have a different female character as the protagonist (or different ensemble of female characters)
 
+### 025 [Year We Go!](https://retroachievements.org/event/227-devquest-025-year-we-go)
+
+![DQ025](/devquest-025.png)
+
+**Type**: Set Creation  
+**Goal**: Develop a base set for a retail game whose earliest release on the set's system matches a year randomly assigned to you
+**Repeatable**: No
+
+1. Assigned year must match the earliest release date regardless of region for the game on the set's specific system.
+2. Hacks, homebrews, demos, prototypes, unlicensed, and aftermarket games are not allowed. This also means that homebrew systems such as Arduboy and WASM-4 are not allowed.
+3. You receive one respin token for free. See the Wheel Spin Rules for more details.
+
 ## Wheel Spin DevQuest Rules
-[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
+[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres), [DQ23](#_023-well-of-wishes), and [DQ25](#_025-year-we-go) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
 - Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
 - Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
 - Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy

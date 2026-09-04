@@ -319,3 +319,11 @@ When validating a leaderboard:
 - Verify that a hack's base game does **not** have its primary protagonist be female.
 - Verify that both "points" of credit have different primary protagonists.
 - When a user claims a game or asks for credit, entering the game ID on the tracking sheet will check it against the game ID list for verification.
+
+### DevQuest 025: Year We Go!
+
+- Verify that the set is a base set for a retail game. Hacks, homebrews, demos, prototypes, unlicensed, and aftermarket games are not allowed.
+- The game's earliest release date on the set's system regardless of region must match the year assigned.
+- The set should be a solo developer effort with no collaborations.
+- The year assigned must be within the range of 1980-2010 and is determined by wheel spin.
+- Developers start with one free respin token for this quest. See the Wheel Spin Rules section of the DevQuests document for full wheel spin rules.
