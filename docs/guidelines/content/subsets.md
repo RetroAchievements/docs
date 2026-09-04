@@ -24,7 +24,12 @@ Multiset requires the latest version of your emulator:
 * PCSX2 2.6+
 * DuckStation 0.1-10530+
 * Dolphin 2512-144+ (development build)
+* RetroArch 1.22.1+
+* PCSX2 2.6+
+* DuckStation 0.1-10530+
+* Dolphin 2512-144+ (development build)
 * PPSSPP 1.19.3-1328+ (development build)
+* Manic EMU 2.0.0+
 
 ### User Preferences
 
