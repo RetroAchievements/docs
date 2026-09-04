@@ -471,7 +471,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 3. You receive one respin token for free. See the Wheel Spin Rules for more details.
 
 ## Wheel Spin DevQuest Rules
-[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres) and [DQ23](#_023-well-of-wishes) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
+[DQ6](#_006-the-unwanted), [DQ19](#_019-wheel-of-genres), [DQ23](#_023-well-of-wishes), and [DQ25](#_025-year-we-go) use wheels to give random goals. You are allowed to spin again to change your random goal **three months** after spinning. The first and second spins for each quest are free. If you want to keep on spinning, you will need to earn a new respin token by doing one of the following tasks:
 - Resolve (Not close) 10 tickets from inactive devs (can be used towards [DQ1](#_001-ticket-massacre) Ticket Massacre)
 - Earn [DQ3](#_003-singles-in-your-area) Singles in Your Area
 - Update 10 achievements towards [DQ5](#_005-trigger-happy) Trigger Happy
