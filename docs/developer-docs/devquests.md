@@ -463,7 +463,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 ![DQ025](/devquest-025.png)
 
 **Type**: Set Creation  
-**Goal**: Develop a base set for a retail game with its original release date being a year randomly assigned to you
+**Goal**: Develop a base set for a retail game whose earliest release on the set's system matches a year randomly assigned to you
 **Repeatable**: No
 
 1. Assigned year must match the earliest release date regardless of region for the game on the set's specific system.
