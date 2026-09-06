@@ -1,0 +1,134 @@
+---
+title: Refactoring Requirements
+description: This guide covers the requirements for refactoring a substandard, inactive developer's set.
+---
+
+# Refactoring Substandard Sets
+
+[[toc]]
+
+# Refactoring Overview
+
+Refactoring a set on RetroAchievements is the act of bringing a substandard, inactive developer set up to modern standards. Ridding the library of poorly noted, coded, and implemented sets is the only way RetroAchievements can attain longterm stability. This doc provides guidance on what is required to bring a set up to modern standards and consider it no longer an instability risk to the project. Once a refactor is completed in accordance with these guidelines, the set can be marked by QA as "refactored" and should be considered stable in perpetuity.
+
+**A refactored set should be able to pass a code review without needing corrections.**
+
+# Finding a Set to Refactor
+
+Only sets that are in the [Needs Refactoring hub](https://retroachievements.org/hub/3389) are eligible to be refactored.
+
+# The Refactoring Process
+
+The following aspects of a set must all be up to modern standards in order to be considered refactored and no longer in need of additional improvement:
+- Code Notes
+- Achievement Logic
+- Leaderboard Function and Logic
+- Title and Description Writing
+- Rich Presence
+
+## Code Notes
+
+Refactored sets will follow a strict format standard that must be adhered to. Code notes must, at a minimum, contain the address's size, a description of what the address does or why it is used in the achievement code, and enumerated bit, hex, or float values only and their associated definitions.  In cases where some discretion is afforded such as in the placement of address size, the entire set must follow the same style and may not differ note to note.
+
+### Static addresses
+
+Static addresses shall be formatted as follows:
+
+- Bracketed size on the description line of every note, may include BE or BCD as appropriate [16-bit BE], [16-bit BCD], [16-bit BE BCD]
+- "Bitflags" shall not be bracketed, but may be included in the note description, not required though as seeing values as bits makes it clear that the address contains bitflags
+- Address description in clear, concise verbiage - may expand as needed, but should not unnecessarily expand description
+- Values listed either in hex or float depending on address type. BCD addresses may use decimal to describe values. Should be increasing in order unless out of order makes sense for something like Map ID progression where the IDs are not ordered sequentially
+- Values must use an = sign, however spacing is optional: no spaces, space before/after =, or on both sides are all acceptable
+- Treat consecutive bitfields as stand alone 8-bit addresses. Do not note anything as Bit8, Bit21, etc
+
+```
+[16-bit BE BCD] Description
+1=Value 1
+2=Value 2
+...
+XXX=Value X
+```
+```
+[8-bit] Event bitflags
+Bit0 = Something occurred
+...
+Bit7 = Something else occurred
+```
+
+### Dynamic addresses & Pointers
+
+Dynamic addresses accessed via pointers shall follow all static address requirements, plus the following:
+
+- Root pointer note must indicate it is a pointer in the address description
+- Use + signs to indicate offsets and chained nodes
+- Indent values associated with nodes using the same number of . as + in the node
+- Nodes and values must use = signs, do not use colons
+
+```
+[32-bit BE] Pointer
++0x4= [32-bit BE] Pointer 
+++0x5bc= [32-bit BE]Pointer
++++0x0= [32-bit BE]Pointer to player data
+++++0x10= [32-bit BE]Position in race
+++++0x14= [32-bit BE]Laps left in race
+....0x00000000=Last lap
+....0xffffffff=Race complete
+++++0x34= [Float BE] Speed in meters/sec
+++++0x38= [Float BE]East/West coordinates
+....1000.0=Starting line
+```
+
+### Arrays, Structs, and Other Regions
+
+Regions of memory should be noted as precisely as possible depending on how they are used to support achievement logic. Arrays should specify the how many times an element is repeated whereas a struct simply needs to note its size. Both arrays and structs should be noted as bytes, with arrays noting the number and size of each element within the array.
+
+- Use [X bytes] for structs or other regions and [XxY bytes] for arrays where X is the count of elements and Y is the size of each element
+- Use | symbols to indicate offsets within regions
+- Indent values associated with offsets using the same number of . as | in the offset
+- Offsets and values must use = signs, do not use colons
+
+Array note example where noted region is a total of 120 bytes, comprised of 10 12-byte elements:
+```
+[32-bit] pointer to enemy object array
++0x00= [10x12 bytes] Enemy object array
++|0x00= [32-bit] ID
+..0x00= Monster A
+..0x01= Monster B
+..0x02= Monster C
++|0x04= [32-bit] Health
++|0x08= [32-bit] Model Pointer
++|+0x04= [Float] Position X
++|+0x08= [Float] Position Y
+```
+**This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
+
+Struct example:
+```
+[16 bytes] Player data struct
+|0x00= [32-bit] ID
+.0xff=Player ID
+|0x04= [32-bit] Health
+|0x08= [Float] X position
+|0x0c= [Float] Y Position
+```
+
+## Achievement Logic
+
+Achievement logic must be free of bad practices such as lack of Mem/Delta checks, unnecessary use of hits, resets, and pauses, and unnecessarily complex or extraneous logic.
+- Many older sets were inadequately RAM dug and will likely benefit from or require additional RAM digging in order to ensure proper addresses are used
+
+## Leaderboard Function and Logic
+
+Any leaderboard that submits a value tracked in-game should be instantaneous, not primed, unless there is an exceptionally compelling reason. Instantaneous leaderboards reduce screen clutter and are much more simple to code and maintain. Leaderboard logic is held to the same expectations as achievement logic.
+
+## Title and Description Writing
+
+At a minimum, gross errors such as miscapitalization, unnecessary parentheticals, and grammar mistakes should be corrected. If writing is generally poor, the set should be referred to the [WritingTeam](https://retroachievements.org/user/WritingTeam) so they can put it into the [Noncompliant Writing hub](https://retroachievements.org/hub/24397).
+
+## Rich Presence
+
+Rich Presence must be dynamic and free of useless information. Unclear emojis and superfluous language should be removed to ensure RP is clear, concise, and understandable by site viewers who may not be particularly familiar with the game.
+
+# Refactor Notification
+
+Upon fully completing a refactoring, developers should notify [QATeam](https://retroachievements.org/user/QATeam) via site message. QA will confirm the set meets full refactor criteria and remove it from the Needs Refactoring hub.
