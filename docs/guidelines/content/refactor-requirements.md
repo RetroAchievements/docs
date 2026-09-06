@@ -97,8 +97,8 @@ Array note example where noted region is a total of 120 bytes, comprised of 10 1
 ..0x02= Monster C
 +|0x04= [32-bit] Health
 +|0x08= [32-bit] Model Pointer
-+|+0x4= [Float] Position X
-+|+0x8= [Float] Position Y
++|+0x04= [Float] Position X
++|+0x08= [Float] Position Y
 ```
 **This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
 
