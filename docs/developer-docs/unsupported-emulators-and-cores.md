@@ -249,7 +249,7 @@ This is a list of emulators and cores that have either been confirmed to not wor
 
 | Name          | Type          | Status  | Notes         |
 | :------------ | :------------ | :-----: | :------------- |
-| **b2**        | libretro core | ❓ | Testing needed |
+| **b2**        | libretro core | ❓ | - Needs console ID, hashing method and memory map<br>- Memory not exposed |
 
 ## Amiga
 
