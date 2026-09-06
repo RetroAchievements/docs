@@ -56,6 +56,7 @@ If the [short version](#short-version) is not clear enough for you, here's a det
 - Posting pornography, as in images or descriptions of erotic behavior intended to cause sexual excitement.
 - Posting gruesome or gory images intended to cause disgust.
 - Publishing others' private information, such as a photos of them or their physical or electronic address, without explicit permission.
+- Making blind accusations regarding another person's usage of AI or harassing them for their stance. Shared projects must disclose if AI was involved and to what degree.
 
 #### Behavior strongly frowned upon
 
