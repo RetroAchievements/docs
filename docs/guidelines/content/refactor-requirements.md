@@ -129,10 +129,6 @@ At a minimum, gross errors such as miscapitalization, unnecessary parentheticals
 
 Rich Presence must be dynamic and free of useless information. Unclear emojis and superfluous language should be removed to ensure RP is clear, concise, and understandable by site viewers who may not be particularly familiar with the game.
 
-# Save States
-
-While conducting a refactor, if an achievement set does not already have a complete set of save states archived, the refactoring developer should collect a full set of states and submit them to the repository in accordance with INSERT LINK TO FUTURE SAVE DOC.
-
 # Refactor Notification
 
 Upon fully completing a refactoring, developers should notify [QATeam](https://retroachievements.org/user/QATeam) via site message. QA will confirm the set meets full refactor criteria and remove it from the Needs Refactoring hub.
