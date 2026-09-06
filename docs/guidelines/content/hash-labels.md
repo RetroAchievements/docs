@@ -21,16 +21,17 @@ Every hash that is linked to an achievement set must be clearly identified and l
 
 The following are used for preservation groups or collections:
 
-| Image                                                                                | Label to Use  | Note                                                                   |
-| ------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------- |
+| Image                                                                                       | Label to Use  | Note                                                                   |
+| ------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------- |
 | ![no-intro-label](https://retroachievements.org/assets/images/labels/nointro.png)           | `nointro`     | The standard for cartridge-based games                                 |
 | ![redump-label](https://retroachievements.org/assets/images/labels/redump.png)              | `redump`      | The standard for disc-based games                                      |
 | ![fb-neo-label](https://retroachievements.org/assets/images/labels/fbneo.png)               | `fbneo`       | Mostly used for Arcade                                                 |
-| ![wozaday-label](https://retroachievements.org/assets/images/labels/wozaday.png)     | `wozaday`     | Clean Apple II dumps                                                   |
+| ![wozaday-label](https://retroachievements.org/assets/images/labels/wozaday.png)            | `wozaday`     | Clean Apple II dumps                                                   |
 | ![4am-crack-label](https://retroachievements.org/assets/images/labels/4amcrack.png)         | `4amcrack`    | Used for Apple II.                                                     |
 | ![clean-cpc-label](https://retroachievements.org/assets/images/labels/cleancpc.png)         | `cleancpc`    | Amstrad preservation project                                           |
+| ![geolith-label](https://retroachievements.org/assets/images/labels/geolith.png)            | `geolith`     | Used for specific Neo Geo ".neo" dumps                                 |
 | ![neo-kobe-label](https://retroachievements.org/assets/images/labels/neokobe.png)           | `neokobe`     | Used for PC-8001 and PC-8801                                           |
-| ![lostlevel-label](https://retroachievements.org/assets/images/labels/lostlevel.png) | `lostlevel`   | DAT project made specifically for RetroAchievements hash verifications |
+| ![lostlevel-label](https://retroachievements.org/assets/images/labels/lostlevel.png)        | `lostlevel`   | DAT project made specifically for RetroAchievements hash verifications |
 | ![rapatches-label](https://retroachievements.org/assets/images/labels/rapatches.png)        | `rapatches`   | Used when the hash requires a patch hosted on RAPatches                |
 | ![mamesl-label](https://retroachievements.org/assets/images/labels/mamesl.png)              | `mamesl`      | MAME Software List.                                                    |
 | ![tosec-label](https://retroachievements.org/assets/images/labels/tosec.png)                | `tosec`       | Used for various platforms                                             |
@@ -39,8 +40,8 @@ The following are used for preservation groups or collections:
 
 The following are used for specific websites:
 
-| Image                                                                                 | Label to Use   | Note                                                                   |
-| ------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------- |
+| Image                                                                                        | Label to Use   | Note                                                                   |
+| -------------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------- |
 | ![atari-age-label](https://retroachievements.org/assets/images/labels/atariage.png)          | `atariage`     | Popular site for Homebrews                                             |
 | ![baddesthacks-label](https://retroachievements.org/assets/images/labels/baddesthacks.png)   | `baddesthacks` | Site for questionable hacks                                            |
 | ![project-egg-label](https://retroachievements.org/assets/images/labels/egg.png)             | `egg`          | Games purchased from Project Egg, typically Japanese PC games.         |
@@ -59,8 +60,8 @@ The following are used for specific websites:
 
 The following are generic labels:
 
-| Image                                                                                | Label to Use  | Note                                                                   |
-| ------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------- |
+| Image                                                                                       | Label to Use  | Note                                                                   |
+| ------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------- |
 | ![main-label](https://retroachievements.org/assets/images/labels/main.png)                  | `main`        | Sometimes used to show the primary hash used by the set developer(s)   |
 | ![atomiswave-label](https://retroachievements.org/assets/images/labels/atomiswave.png)      | `atomiswave`  | Generic label for Atomiswave arcade games                              |
 | ![homebrew-label](https://retroachievements.org/assets/images/labels/homebrew.png)          | `homebrew`    | Generic label for Homebrews                                            |

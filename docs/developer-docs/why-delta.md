@@ -29,7 +29,7 @@ _See also: [Save and Password Protection](/developer-docs/save-and-password-prot
 
 It’s usually not actually enough to say “are these conditions true now?” to trigger an achievement. Often there are many ways to reach those conditions in a way that shouldn’t trigger the achievement, and loading a save file is one of them. A `Delta` condition _alone_ may not be sufficient for save protection, since the values in memory are still changing whenever you load a save, but they will often be a part of it.
 
-Even if your game doesn’t have save files or passwords, keep in mind that a lot of people play in Softcore where they can save and load states at any time, and ideally you’ll protect against that as well. So even games that you might not think benefit from this still can!
+Even if your game doesn’t have save files or passwords, keep in mind that a lot of people play in Casual mode where they can save and load states at any time, and ideally you’ll protect against that as well. So even games that you might not think benefit from this still can!
 
 _(Note: If the above paragraph makes you ask, “how could `Delta` prevent save states from triggering achievements, when those memory addresses would still be changing when you load a state?”, the technical answer is that save states also save the `Delta` state for conditions that read it, so loading a save state will not activate `Delta` conditions based on the pre-load state.)_
 
@@ -82,6 +82,6 @@ Mem   8-bit 0x<state> =  0xFF
 
 ### I don’t need `Delta` because there is no situation where the current frame conditions are true and the achievement shouldn’t trigger.
 
-First of all, this can never be true - see the above paragraph about save protection. Even games that don’t have a save system can be save stated in Softcore.
+First of all, this can never be true - see the above paragraph about save protection. Even games that don’t have a save system can be save stated in Casual mode.
 
 Even if you think you have the one achievement that doesn’t benefit at all from using `Delta` - well, even if that were true, adding it couldn’t hurt. It’s important to get into the habit of using it everywhere - it prevents false triggers often enough that it’s always a good decision to add, just in case.

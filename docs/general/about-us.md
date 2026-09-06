@@ -64,7 +64,6 @@ A group of dedicated and trusted users with varied responsibilities, the heavies
 - [SnowPin](https://retroachievements.org/user/SnowPin)
 - [SporyTike](https://retroachievements.org/user/SporyTike)
 - [WCopeland](https://retroachievements.org/user/WCopeland)
-- [WilHiteWarrior](https://retroachievements.org/user/WilHiteWarrior)
 
 ### Moderators
 
@@ -95,8 +94,8 @@ The team responsible for the adherence and driving updates to the [Developer's C
 - [DoctorV](https://retroachievements.org/user/DoctorV)
 - [Fridge](https://retroachievements.org/user/Fridge)
 - [Gollawiz](https://retroachievements.org/user/Gollawiz)
+- [KiwiTaco](https://retroachievements.org/user/KiwiTaco)
 - [Layton](https://retroachievements.org/user/Layton)
-- [LogicalFallacy](https://retroachievements.org/user/LogicalFallacy)
 - [MrOwnership](https://retroachievements.org/user/MrOwnership)
 - [psyduck](https://retroachievements.org/user/psyduck)
 - [starlite](https://retroachievements.org/user/starlite)
@@ -108,8 +107,8 @@ The team responsible for the adherence and driving updates to the [Developer's C
 
 The team responsible for ensuring the overall quality of achievement sets: including logic, correct titles and descriptions, working leaderboards, working rich presence and hash compatibility:
 
-- [BiPolarScientist](https://retroachievements.org/user/BiPolarScientist)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
+- [Cnat](https://retroachievements.org/user/Cnat)
 - [Darky](https://retroachievements.org/user/Darky)
 - [rgavril](https://retroachievements.org/user/rgavril)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
@@ -118,7 +117,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [Sutarion](https://retroachievements.org/user/Sutarion)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [xClawz](https://retroachievements.org/user/xClawz)
-- [Yurana](https://retroachievements.org/user/Yurana)
 
 ### Cheat Prevention Team
 
@@ -132,14 +130,17 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [cdpowe](https://retroachievements.org/user/cdpowe)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [CySlaytor](https://retroachievements.org/user/CySlaytor)
+- [Goodbite](https://retroachievements.org/user/Goodbite)
 - [Homuki](https://retroachievements.org/user/Homuki)
 - [Layton](https://retroachievements.org/user/Layton)
 - [lonegraywolf2000](https://retroachievements.org/user/lonegraywolf2000)
 - [OpheliaEnigma](https://retroachievements.org/user/OpheliaEnigma)
 - [Pilzkopf](https://retroachievements.org/user/Pilzkopf)
+- [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
+- [Prims](https://retroachievements.org/user/Prims)
+- [Salva64bits](https://retroachievements.org/user/Salva64bits)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
-- [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
 - [WheelsAndWhirls](https://retroachievements.org/user/WheelsAndWhirls)
 - [Yanbetari](https://retroachievements.org/user/Yanbetari)
 - [zaydoc](https://retroachievements.org/user/zaydoc)
@@ -166,14 +167,14 @@ Users who oversee one of the QA sub-teams:
 - [Gollawiz](https://retroachievements.org/user/Gollawiz) - Art Team lead
 - [Sutarion](https://retroachievements.org/user/Sutarion) - Events Team lead
 - [TimeCrush](https://retroachievements.org/user/TimeCrush) - Play Tester Team lead
-- [Nepiki](https://retroachievements.org/user/Nepiki) - Writing Team lead
+- [Nepiki](https://retroachievements.org/user/Nepiki) and [Jazerus](https://retroachievements.org/user/Jazerus) - Writing Team co-leads
 - [Excessiveiser](https://retroachievements.org/user/Excessiveiser) - Clean Up Team lead
 
 ## Short History
 
 The RetroAchievements project was created by **[Scott Breen](http://scottbreen.info/)** in [2012](https://web.archive.org/web/20121121150009/http://www.retroachievements.org/). He hacked some open source emulators to add the RetroAchievements feature and coded all the backend/website mostly alone.
 
-By January 2014, there were 4 RA emulators, over 5000 achievements to earn (thanks to the devotion of many [passionate achievement developers](http://retroachievements.org/developerstats.php)) and over 1000 players registered. After a couple of years Scott was called by the real life the website development went into a period of hiatus with just a few sporadic improvements (the achievement developers were continually working on more and more games, though).
+By January 2014, there were 4 RA emulators, over 5,000 achievements to earn (thanks to the devotion of many [passionate achievement developers](http://retroachievements.org/developerstats.php)) and over 1000 players registered. After a couple of years Scott was called by the real life the website development went into a period of hiatus with just a few sporadic improvements (the achievement developers were continually working on more and more games, though).
 
 In late 2015 **[leiradel](https://github.com/leiradel)** started to work to integrate the RetroAchievements feature into [RetroArch](https://retroarch.com/). And, as RetroArch is able to run on a wide variety of platforms (such as Mac and Linux) and devices (such as Android phones and Raspberry pi), it helped a lot to increase the popularity of the RetroAchievements project.
 

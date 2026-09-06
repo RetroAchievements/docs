@@ -69,7 +69,8 @@ Good examples here include size, description, and different values or affects on
 
 ```
 [16-bit] Player Health
-Max health is 0x1200, each hit reduces it by 0x8
+0x08 = 1 Health
+0x1200 = Maximum
 ```
 
 #### Bad Examples
@@ -105,6 +106,17 @@ Chapter II
 0x2c - Inn main room (Day 1)
 ```
 
+```
+[16-bit] Current screen
+0x0020 = Car / Map select
+0x0017 = Main Menu
+0x0025 = Title and Demo, Rankings
+0x00cf = Dev logos
+0xffff = Loading
+0x004d = Championship exclusive menus
+0x0033 = Ghost Car select, Memory Card, Race End Menu, Replay
+```
+
 #### Bad Example
 
 ```
@@ -120,19 +132,19 @@ There are numerous way a game can store the players scores with memory, as such 
 Good examples here will specify the size, which digits of the score are being represented, how the on screen score is calculated from the value in memory, Binary Coded Decimal (BCD) notation if applicable, as well as any other important details.
 
 ```
-[1 byte] 1P display score, digits 0000XX00 in BCD
+[8-bit BCD] 1P Score - Thousands and Hundreds
 ```
 
 ```
-[16bit][DEC] P2 Score XXXX0000
+[16-bit BCD] P2 Score XXXX0000
 ```
 
 ```
-Score [24-Bit BE BCD] (Determines Rank)
-0-9=Pauper
-0-99=Peasant
-100-999=Prosperous
-1000+=Professional
+[24-bit BE BCD] Score - Determines Rank
+0 - 9     = Pauper
+10 - 99   = Peasant
+100 - 999 = Prosperous
+1000+     = Professional
 ```
 
 #### Bad Example
@@ -143,37 +155,27 @@ Player 1 score
 
 ### Bits
 
-It's very common to run into games that need to store event or item flags. Often these will be stored as individual bits rather than taking up an entire byte per flag. It's assumed that a bit value of 0 is off/no/false, if this is not the case then that should be noted.
+It's very common to run into games that need to store event or item flags. Often these will be stored as individual bits rather than taking up an entire byte per flag.
+When making bitfield notes, it is assumed that a bit value of 0 is off/no/false; if this is not the case, it should be noted as "inverted".
 
 #### Good Examples
 
 Good examples here will specify each bit as well as what they represent.
 
 ```
-[Bitflags] Requests completed
-Bit1 = No. 01 - Retrieve 1 Beetle Shell.
-Bit2 = No. 02 - Retrieve the first old document.
-Bit3 = No. 03 - I'd like to sip a Muscle Drink.
-Bit4 = No. 04 - Retrieve 3 Old Lanterns.
-Bit5 = No. 05 - Retrieve the second old document.
-Bit6 = No. 06 - Create Jack Frost with Dia.
-Bit7 = No. 07 - Retrieve 1 Lead Metal.
+[8-bit] Bonuses Unlocked
+Bit0 = All Replay Items
+Bit1 = Unlimited Ammo (Mission 1)
+Bit2 = Silver Bullets (Mission 3)
+Bit3 = Bullet Shield (Mission 4)
+Bit4 = Rubber Grenades
+Bit5 = Men With Hats (Mission 5)
+Bit6 = Always Sniper
+Bit7 = Achilles Head (Mission 6)
 ```
 
 ```
-Bonuses Unlocked
-bit0 - All Replay Items
-bit1 - Unlimited Ammo (Mission 1)
-bit2 - Silver Bullets (Mission 3)
-bit3 - Bullet Shield (Mission 4)
-bit4 - Rubber Grenades
-bit5 - Men With Hats (Mission 5)
-bit6 - Always Sniper
-bit7 - Achilles Head (Mission 6)
-```
-
-```
-[Treasure Flags 03]
+[8-bit] Treasure Flags 03
 Bit0=[Altair - Rebel Hideout] Potion
 Bit1=[Fynn - Pub Basement] Scott's Ring
 Bit2=[Castle Deist 1F - South Treasure Room] Stun Tome
@@ -182,6 +184,14 @@ Bit4=[Castle Deist 1F - South Treasure Room] Curse Tome
 Bit5=[Cave of Mysidia B4 - Treasure Room] Bell of Silence
 Bit6=[Castle Deist 1F] Phoenix Down
 Bit7=[Castle Deist 1F - NW Treasure Room] Gold Needle
+```
+
+```
+[8-bit] Chapters Completed
+Bit0 = Chapter 1 - Inverted
+Bit1 = Chapter 2 - Inverted
+Bit2 = Chapter 3
+Bit3 = Chapter 4
 ```
 
 #### Bad Example
@@ -207,14 +217,16 @@ Pointers are more commonly found in newer consoles and their notes typically inc
 Good examples here will include various address offsets, each of which including details and size of the address being pointed to.
 
 ```
-Pointer to P1 Data [16-Bit]
-+0x68 P1 Character ID [8-Bit]
-+0xba P1 Health [8-Bit]
-+0xc4 P1 Move ID [16-Bit]
+[32-bit BE] Pointer to progress data
++0x24
+++0x04
++++0x21 = [8-bit] Levels unlocked
+...Bit0 = Level 5-9
+...Bit1 = Level 5-10
 ```
 
 ```
-[32-bit] Data Pointer
+[32-bit] Pointer to Data
 +0x638 | Pointer to pointer to smells pointer
 ++0x6d0 | Pointer to woofs
 +++0xb8 | Total Woofs [32-bit]
@@ -232,22 +244,22 @@ Pointer to P1 Data [16-Bit]
 ```
 
 ```
-*US* Pointer [32-bits]
+[32-bit] *US* Pointer
 
 --Player Kratos--
-+0x97898=Health [Float]
-+0x6f570=Combo [32-bits]
-+0x977a0=Coordinates Y [Float]
-+0x977a4=Coordinates Z [Float]
-+0x977a8=Coordinates X [Float]
++0x97898= [Float] Health
++0x6f570= [32-bit] Combo
++0x977a0= [Float] Coordinates Y
++0x977a4= [Float] Coordinates Z
++0x977a8= [Float] Coordinates X
 
 --Unlockables (Alternative)--
-+0x6f594=Poseidon's Trident [Bit0]
-+0x6f598=Poseidon's Rage [Bit0]
-+0x6f59c=Medusa's Gaze [Bit0]
-+0x6f5a0=Zeus' Fury [Bit0]
-+0x6f5a4=Army of Hades [Bit0]
-+0x6f5a8=Blade of Artemis [Bit0]
++0x6f594= [Bit0] Poseidon's Trident
++0x6f598= [Bit0] Poseidon's Rage
++0x6f59c= [Bit0] Medusa's Gaze
++0x6f5a0= [Bit0] Zeus' Fury
++0x6f5a4= [Bit0] Army of Hades
++0x6f5a8= [Bit0] Blade of Artemis
 ```
 
 #### Bad Example

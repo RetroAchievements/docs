@@ -32,19 +32,19 @@ The RetroAchievements global leaderboard is the main official community competit
 
 What is considered fair and legitimate play versus unfair (cheating) on the global leaderboard has been shaped continually by the community since it's inception. The rules below are what we expect from every player who would like to participate in the ranking system. Any indication of a player's failure to follow the rules herein may lose use of the global leaderboard, also known as **[Untracked](#untracked)** status.
 
-## Hardcore vs Softcore
+## Hardcore Mode vs Casual Mode
 
-There are two modes of play: Hardcore and Softcore.
+There are two modes of play: Hardcore and Casual.
 
 - Hardcore mode is a feature where the emulator disables save state loading, rewind and slow motion. The [fast-forward feature is the only accepted exception](#allowed-1). Users who take the global leaderboard seriously will most likely earn achievements in hardcore. Also, events will almost always require achievements to be earned in Hardcore.
-  - Note: Creating save states is allowed in hardcore and can be done to help practice an area later on in softcore, or help developers resolve tickets.
-- Softcore mode allows for emulator features such as save states, rewind, slow motion, emulator cheats, etc. This mode is much less competitive and is geared toward players who just want to do their own thing. This mode can be somewhat problematic when it comes to achievement processing; therefore, error reports are often taken with a grain of salt.
+  - Note: Creating save states is allowed in hardcore and can be done to help practice an area later on in casual mode, or help developers resolve tickets.
+- Casual mode allows for emulator features such as save states, rewind, slow motion, emulator cheats, etc. This mode is much less competitive and is geared toward players who just want to do their own thing. This mode can be somewhat problematic when it comes to achievement processing; therefore, error reports are often taken with a grain of salt.
 
 ## Untracked
 
-Users who have the Untracked status are omitted from all rankings. Their activity is hidden from view outside of their user page and their unlocks do not affect achievement statistics. This status is for users who share their accounts, have zero interest in hardcore and softcore rankings, are suspected of cheating, or actually are cheating. Untracked users can still earn achievements how they normally would, obtain mastery badges, etc.
+Users who have the Untracked status are omitted from all rankings. Their activity is hidden from view outside of their user page and their unlocks do not affect achievement statistics. This status is for users who share their accounts, have zero interest in hardcore and casual rankings, are suspected of cheating, or actually are cheating. Untracked users can still earn achievements how they normally would, obtain mastery badges, etc.
 
-Voluntary untracks can be requested through [RAdmin](https://retroachievements.org/user/RAdmin), and likewise can be reversed by resetting all progress and contacting the same account. Before requesting a voluntary untrack, remember that Softcore mode exists if your reasoning is that you prefer to use emulator features such as save states and emulator cheats.
+Voluntary untracks can be requested through [RAdmin](https://retroachievements.org/user/RAdmin), and likewise can be reversed by resetting all progress and contacting the same account. Before requesting a voluntary untrack, remember that Casual mode exists if your reasoning is that you prefer to use emulator features such as save states and emulator cheats.
 
 Involuntary untracks are done when players have violated the [Global Leaderboard](#global-leaderboard) rules. Untracked players should contact [RACheats](https://retroachievements.org/user/RACheats) for further guidance if they are involuntarily untracked and want to find out if they are eligible to be retracked.
 
@@ -103,7 +103,7 @@ Occasionally a developer might provide a save file or password for you to use to
 - Downloading a clicker game save online.
 - Begging a friend to send you his save file because your house burned down and you lost all your PC files.
 - Loading a save file for Hardcore you created while playing on a non-RA emulator.
-- Loading a save file for Hardcore you created in Softcore in order to gain Hardcore points.
+- Loading a save file for Hardcore you created in Casual mode in order to gain Hardcore points.
 
 ### 5. Do not modify the game's file(s) or memory by any means. {#not-allowed-5}
 
@@ -182,7 +182,7 @@ The other side of the coin for [allowed 2](#allowed-2). Cheat codes and debug mo
 
 Even in hardcore mode fast-forward is allowed, as a modern convenience. It's ~~almost~~ a consensus that fast-forward offers no risk to the fairplay and then it's available for everyone to use it.
 
-**NOTE**: in _softcore_ mode savestates, rewind and slow motion are also allowed, but expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
+**NOTE**: in _casual_ mode savestates, rewind and slow motion are also allowed, but expect to have some issues. Read in [this link Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
 ### 2. _When explicitly said in achievement's description_, in-game cheat codes/modes and in-game debug tools are allowed. {#allowed-2}
 

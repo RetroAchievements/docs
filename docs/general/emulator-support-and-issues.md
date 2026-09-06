@@ -72,6 +72,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | Name              | Type          | Notes                                                                                                        |
 | :---------------- | :------------ | :----------------------------------------------------------------------------------------------------------- |
 | **Stella**        | libretro core |                                                                                                              |
+| **Stella 2014**   | libretro core |                                                                                                              |
 | **Atari2600Hawk** | BizHawk core  | Achievements that require emulator resets do not work. Please open a ticket so the achievement can be fixed. |
 
 ### Atari 7800
@@ -225,7 +226,7 @@ BizHawk cores can only be played on [BizHawk](https://tasvideos.org/Bizhawk). Mo
 | **[WinArcadia](https://amigan.1emu.net/releases/)**   | Standalone emulator |       |
 | **[DroidArcadia](https://amigan.1emu.net/releases/)** | Standalone emulator |       |
 
-### Magnavox Odyssey 2
+### Magnavox Odyssey2/Philips Videopac+
 
 | Name     | Type          | Notes |
 | :------- | :------------ | :---- |
@@ -343,14 +344,14 @@ Limited microphone support.
 | **Beetle PSX HW**                               | libretro core       | Most recommended.                                                                                         |
 | **Beetle PSX**                                  | libretro core       |                                                                                                           |
 | **SwanStation**                                 | libretro core       |                                                                                                           |
-| **[DuckStation](https://www.duckstation.org/)** | Standalone emulator | There may be memory leaks and/or burn-in when using save states. This can be disruptive to softcore mode. |
+| **[DuckStation](https://www.duckstation.org/)** | Standalone emulator | There may be memory leaks and/or burn-in when using save states. This can be disruptive to casual mode. |
 
 ### PlayStation 2
 
 | Name                                                                     | Type                | Notes |
 | :----------------------------------------------------------------------- | :------------------ | :---- |
+| **[ARMSX2](https://armsx2.net/)**                                        | Standalone emulator |       |
 | **[PCSX2](https://pcsx2.net/)**                                          | Standalone emulator |       |
-| **[NetherSX2](https://github.com/Trixarian/NetherSX2-classic/releases)** | Standalone emulator |       |
 | **[XBSX2](https://github.com/XboxEmulationHub/XBSX2/releases)**          | Standalone emulator |       |
 
 ### PlayStation Portable

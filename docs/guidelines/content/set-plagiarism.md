@@ -21,7 +21,9 @@ Achievement titles should be unique from other sets. This may not always be poss
 
 ### Design
 
-The design of an achievement is open to the community. You can use an idea from other sets so long as the achievement badge and title differ. However, an exact copy of the achievement list from another set is prohibited.
+The design of an achievement is open to the community. You can use an idea from other sets so long as the achievement badge and title differ. 
+
+When working on a set for a game that already has a set for another port, developers should put effort into differentiating the sets. While progression can often be similar between sets, one should use different challenges and different set structures whenever possible. For some games, the possibilities to differentiate sets are limited, and the design can end up fairly similar despite the developer's best efforts. Before releasing a set that is not clearly distinct from one of another port, consider requesting feedback from other developers or set designer, and if the design remains very similar, run the plan by DevCompliance for approval.
 
 ## Acceptable Copying
 
@@ -37,10 +39,6 @@ Copying Rich Presence and Leaderboards are allowed. When copying a Rich Presence
 ### Logic
 
 Copying the logic of another achievement is acceptable. Developers are encouraged to look at how other sets are coded and incorporate it into their own sets.
-
-### Self-Plagiarism
-
-You are allowed to copy anything you created from one set to another set. However, it is preferable to let another developer work on a port for a set you have already created.
 
 ### In-Game Achievements
 

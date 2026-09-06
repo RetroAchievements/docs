@@ -13,7 +13,7 @@ Here is an overview of the **Memory Inspector** and its features. This tool can 
 
 ## Memory Inspector Dialog
 
-![memoryinspector-num](/memoryinspector-num.png)
+![memoryinspector-num](/new-editor-overview.png)
 
 ### 1. New Search
 
@@ -23,7 +23,7 @@ The first drop down allows you to quick select All memory, System RAM, or Cartri
 
 The second drop down specifies the size of the data you're interested in finding.
 
-The `Reset` button clears out any previously captured results (part 3 of the dialog) and captures the current memory state.
+The `New Search` button clears out any previously captured results (part 3 of the dialog) and captures the current memory state.
 
 ### 2. Filter
 
@@ -155,7 +155,7 @@ More facts about the different number notations:
 
 The bottom part of the Memory Inspector is what we call the Memory Viewer:
 
-![memviewer](/memviewer.png)
+![memviewer](/new-mem-view.png)
 
 You can see data in Memory Viewer using 8, 16 or 32-bit modes.
 

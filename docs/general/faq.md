@@ -10,14 +10,14 @@ This feature restricts the player from loading save states (creating them is sti
 Note that the only exception to altering speed is fast-forward, which is allowed.
 Essentially, you are playing the game without the game-altering enhancements emulators come with.
 
-While you will still be able to get achievements in Softcore, playing in Hardcore mode is the only way to earn a Mastery for a game, which is displayed both on your profile and on the game's page as a master of the game, as well as on the main leaderboard.
+While you will still be able to get achievements in Casual mode, playing in Hardcore mode is the only way to earn a Mastery for a game, which is displayed both on your profile and on the game's page as a master of the game, as well as on the main leaderboard.
 Playing in Hardcore will also allow you to set times, scores, or participate in miscellaneous challenges on game-specific leaderboards.
 Most events also require you to earn achievements in Hardcore, unless otherwise specified on the event page.
-Completing a game with softcore will still give you a badge to show on your profile; however, there will not be a gold border, and you won't show up as a recent master of the game.
+Completing a game in casual mode will still give you a badge to show on your profile; however, there will not be a gold border, and you won't show up as a recent master of the game.
 
 If you want to have a one-to-one replication of how you used to play retro games in the distant past, then Hardcore mode is what you are looking for.
 
-**Note**: If you want to play with the Hardcore mode disabled (also known as "Softcore"), you might experience issues.
+**Note**: If you want to play with the Hardcore mode disabled (also known as "Casual"), you might experience issues.
 See [Why you shouldn't use the load state feature](/orphaned/load-state-feature).
 
 ### What are the RetroPoints (white points)?
@@ -120,7 +120,7 @@ It's recommended to post screenshots on [imgur](https://imgur.com/) and videos o
 Also add details like:
 
 - when it was/wasn't awarded;
-- what game mode (hardcore/softcore);
+- what game mode (hardcore/casual);
 - what difficulty level or other settings you've selected;
 - how long you were playing;
 - when you most recently died or continued;
@@ -158,7 +158,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
    - Provide a direct link to the Achievement ID(s) of the unlock(s) you’re requesting.
      - If your request contains more than three achievements then please also include a list of just the IDs in comma delimited format, ex. `123, 456, 789`.
-   - **State whether the request is for softcore or hardcore unlocks.**
+   - **State whether the request is for a casual or hardcore unlock.**
 
 2. Broken Achievement Ticket:
 
@@ -214,16 +214,13 @@ You'll also want to reset these achievements from your unlock history so you can
 
 You are able to reset your progress for achievements individually or for an entire set at once.
 
-There are three ways to do this:
+There are two ways to do this:
 
 - On the achievement page:  
   ![reset-achievements-1](/reset-achievements1.png)
 
 - On the game page (when you want or need to reset all unlocks in a game), hover or tap over the percent complete:  
   ![reset-achievements-2](/reset-achievements2.png)
-
-- Near the bottom of your user settings page:  
-  ![reset-achievements-3](/reset-achievements3.png)
 
 ### Am I the only one with an issue?
 
@@ -275,7 +272,7 @@ On the site's home page, while not logged in:
 
 ### I changed my display name, but people can still find my account through my original username!
 
-This is intentional to prevent other users from impersonating you. Your original username remains attached to your profile, and can be used to log into emulators as well as the the website. 
+This is intentional to prevent other users from impersonating you. Your original username remains attached to your profile, and can be used to log into emulators as well as the website. 
 
 ### Can I have the username of a deleted/banned user or my alternative account?
 

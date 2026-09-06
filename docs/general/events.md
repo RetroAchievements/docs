@@ -131,7 +131,7 @@ An event centered around playing games from DevJam, an event for developers that
 Started in 2026, Community Hosted Events are a framework for players to host event ideas that are smaller in scope or do not meet the criteria of an event team hosted event.
 
 Unlike other events, which are hosted by the events team, these events are proposed by members of the RetroAchievements community,
-support a wider variety of event styles, are shorter, and allow softcore participation.
+support a wider variety of event styles, are shorter, and allow casual mode participation.
 However, they do not have their own badges. Instead, you earn points towards a central "Community Events" badge.
 
 To learn more about events, be sure to join the Discord server.

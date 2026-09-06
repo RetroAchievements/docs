@@ -12,7 +12,7 @@ RABot has many cool and useful commands, and on this page you'll see some exampl
 
 RABot is powered by [Bun](https://bun.sh/), [TypeScript](https://www.typescriptlang.org/), [discord.js](https://discord.js.org/), and [Drizzle ORM](https://orm.drizzle.team/).
 
-RABot is open source! You can view its code on GitHub at [RetroAchievements/RABot-Next](https://github.com/RetroAchievements/RABot-Next).
+RABot is open source! You can view its code on GitHub at [RetroAchievements/RABot](https://github.com/RetroAchievements/RABot).
 Contributions are welcome!
 
 ## General Commands
@@ -23,19 +23,23 @@ Displays the current channel topic.
 
 ![topic command usage](/rabot-topic.png)
 
-### `!rule`
+### `/rules`
 
-Note: This command has not yet been converted to a slash command yet!
-
-Displays server rules, or a specific rule if specified.
+Displays server rules.
 
 ![rule command usage](/rabot-rule.png)
+
+Optionally, provide a specific rule number to display.
+
+![rule command usage](/rabot-rule-usage.png)
 
 ![rule command usage](/rabot-rule-2.png)
 
 ### `/contact`
 
 Shows contact information for various RA teams.
+
+Note that this response is ephemeral, meaning only you will see it.
 
 ![contact command usage](/rabot-contact.png)
 
@@ -57,7 +61,7 @@ Creates a simple poll (up to 10 options)
 
 Creates a timed poll that automatically closes.
 
-Note that a native Discord poll might be easier and more intuitive to use, and also closed automatically.
+Note that a native Discord poll might be easier and more intuitive to use, and also closes automatically.
 
 ![tpoll command usage](/rabot-tpoll.png)
 
@@ -81,12 +85,10 @@ Generates a pretty achievement news template with colors.
 
 ![gan2 command usage](/rabot-gan2.png)
 
-### `!mem`
-
-Note: This command has not yet been converted to a slash command yet!
+### `/mem <input>`
 
 Parses MemAddr strings and show achievement logic.
-Supply either an achievement id, achievement url, or a memaddr.
+Supply either an achievement ID, achievement URL, or a MemAddr string.
 
 ![mem command usage](/rabot-mem.png)
 

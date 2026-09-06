@@ -15,7 +15,7 @@ RetroAchievements features must work as intended:
 - **Achievements**: Triggers must evaluate correctly. Measured and Trigger flags must work properly. Both must be visible in the achievement list as well as displayed during gameplay when appropriate conditions are met.
 - **Rich Presence and Leaderboards**: Must function correctly.
 - **Offline queueing**: Unlocks created while offline must be securely cached and sync to RetroAchievements when connectivity returns.
-- **Save state hit storage**: Hit counts should be stored in save states. While not strictly required, this is highly recommended as it's important for debugging complex achievement logic and ensures proper functionality in softcore mode. Without this, players may experience issues and developers will have difficulty troubleshooting.
+- **Save state hit storage**: Hit counts should be stored in save states. While not strictly required, this is highly recommended as it's important for debugging complex achievement logic and ensures proper functionality in casual mode. Without this, players may experience issues and developers will have difficulty troubleshooting.
 - **Toolkit support**: If you ship a Windows version of the emulator, please investigate adding [RAIntegration DLL](https://github.com/RetroAchievements/RAIntegration) support. This is not required, but if it isn't included, a subtle info blurb will be present on our Downloads page, and players will get a very loud warning when trying to open tickets.
 - **Save file compatibility**: Save files (memory cards, SRAM, EEPROM, battery saves, etc.) should use standard formats compatible with other emulators of the same system. This is highly recommended as it benefits both users (who can switch emulators without losing progress) and developers (who can validate manual unlock requests by loading saves in emulators with RAIntegration support).
 
@@ -31,8 +31,8 @@ The following rules must be enforced in Hardcore mode:
 - **Slowdown and frame advance are disabled** in hardcore.
 - **Loading save states is ALWAYS blocked** in hardcore.
 - **Rich Presence and Leaderboards cannot be disabled** in hardcore. Disabling leaderboard popups is okay to support for either mode.
-- If the emulator supports a **"resume/quick resume" feature**, the resumed session must drop to Softcore.
-- **Mode switching**: Switching from softcore to hardcore is not allowed mid-session. **This action must result in a full reset of the game.** Switching from hardcore to softcore is allowed mid-session.
+- If the emulator supports a **"resume/quick resume" feature**, the resumed session must drop to Casual mode.
+- **Mode switching**: Switching from casual mode to hardcore mode is not allowed mid-session. **This action must result in a full reset of the game.** Switching from hardcore mode to casual mode is allowed mid-session.
 - Users should be allowed to create save states while in hardcore for debugging purposes, but those states cannot be loadable when hardcore mode is enabled.
 - Memory editors, debuggers, and/or scripting/TAS/recorded input playback are strictly prohibited.
 
@@ -67,7 +67,7 @@ The emulator, or the parent emulator it is forked from, must have been publicly 
 
 ## E. Defaults and UX
 
-- When users log in to their RetroAchievements accounts, **enabling hardcore by default is recommended**, but not required. If softcore is the default, enabling hardcore must be one click/tap away and clearly indicated.
+- When users log in to their RetroAchievements accounts, **enabling hardcore by default is recommended**, but not required. If casual mode is the default, enabling hardcore must be one click/tap away and clearly indicated.
 - **Hardcore state must be visibly indicated** in the UI during play. This is normally done when the player starts a game - they can see a brief informational message saying what mode they're in.
 
 ## F. Transparency and Legality
