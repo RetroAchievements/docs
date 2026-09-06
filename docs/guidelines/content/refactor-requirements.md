@@ -82,7 +82,7 @@ Dynamic addresses accessed via pointers shall follow all static address requirem
 
 Regions of memory should be noted as precisely as possible depending on how they are used to support achievement logic. Arrays should specify the how many times an element is repeated whereas a struct simply needs to note its size. Both arrays and structs should be noted as bytes, with arrays noting the number and size of each element within the array.
 
-- Use [X bytes] for struct or other regions and [XxY bytes] for arrays
+- Use [X bytes] for structs or other regions and [XxY bytes] for arrays where X is the count of elements and Y is the size of each element
 - Use | symbols to indicate offsets within regions
 - Indent values associated with offsets using the same number of . as | in the offset
 - Offsets and values must use = signs, do not use colons
@@ -92,9 +92,9 @@ Array note example where noted region is a total of 120 bytes, comprised of 10 1
 [32-bit] pointer to enemy object array
 +0x00= [10x12 bytes] Enemy object array
 +|0x00= [32-bit] ID
-.0x00= Monster A
-.0x01= Monster B
-.0x02= Monster C
+..0x00= Monster A
+..0x01= Monster B
+..0x02= Monster C
 +|0x04= [32-bit] Health
 +|0x08= [32-bit] Model Pointer
 +|+0x4= [Float] Position X
