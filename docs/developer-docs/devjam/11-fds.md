@@ -11,7 +11,7 @@
 
 Max Earnable Points: 6
 
-This table details earnable points for the Master System/Game Gear DevJam:
+This table details earnable points for the Famicom Disk System DevJam:
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
