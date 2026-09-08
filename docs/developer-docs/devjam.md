@@ -63,15 +63,15 @@ Check the links here for console-specific guidelines and info:
 |   06   | 2024-12-01 - 2025-03-16 |                [Apple II](/developer-docs/devjam/6-appleii)                |           20           |      40       |
 |   07   | 2025-04-01 - 2025-06-30 |             [Sega CD/32X](/developer-docs/devjam/7-segacd-32x)             |           27           |      40       |
 |   08   | 2025-07-01 - 2025-09-30 |                    [MSX](/developer-docs/devjam/8-msx)                     |           26           |      79       |
-|   09   | 2026-02-01 - 2026-04-30 |               [Catch-Up](/developer-docs/devjam/9-catch-up)                |           ??           |      ??       |
-|   10   | 2026-05-01 - 2026-07-31 | [Master System/Game Gear](/developer-docs/devjam/10-mastersystem-gamegear) |           ??           |      ??       |
+|   09   | 2026-02-01 - 2026-04-30 |               [Catch-Up](/developer-docs/devjam/9-catch-up)                |           18           |      40       |
+|   10   | 2026-05-01 - 2026-07-31 | [Master System/Game Gear](/developer-docs/devjam/10-mastersystem-gamegear) |           36           |      76       |
+|   11   | 2026-08-01 - 2026-10-31 |           [Famicom Disk System](/developer-docs/devjam/11-fds)             |           ??           |      ??       |
 
 ## Planned DevJams
 
 Solo Console DevJams:
 
 - 3DO
-- Famicom Disk System
 - Nintendo DS
 
 Multi-Console DevJams:
@@ -82,7 +82,6 @@ Multi-Console DevJams:
 
 End of the Line for Console-Specific DevJams:
 
-- "Bottom of the Barrel" (Pokemon Mini, Virtual Boy, Magnavox Odyssey2, PC-FX)
 - "The Magnificent Seven" (Mega Drive, Nintendo 64, SNES, Game Boy, Game Boy Advance, Game Boy Color, NES)
 
 ## See Also
