@@ -110,7 +110,6 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [Cnat](https://retroachievements.org/user/Cnat)
 - [Darky](https://retroachievements.org/user/Darky)
-- [rgavril](https://retroachievements.org/user/rgavril)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [siouxerskate](https://retroachievements.org/user/siouxerskate)
 - [suspect15](https://retroachievements.org/user/suspect15)
