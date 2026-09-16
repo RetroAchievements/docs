@@ -5,7 +5,7 @@ description: A deep dive into why Delta conditions are almost always a good idea
 
 # Do I _Really_ Need to Use `Delta`?
 
-Recently, and especially with the introduction of the [AutoCR tool](https://authorblues.github.io/retroachievements/AutoCR/), a lot of people have been asking questions about [`Delta` conditions](/developer-docs/delta-values) and whether they’re really as necessary as people say they are.
+Recently, and especially with the introduction of the [AutoCR tool](https://retroachievements.github.io/AutoCR/), a lot of people have been asking questions about [`Delta` conditions](/developer-docs/delta-values) and whether they’re really as necessary as people say they are.
 
 **Short answer: Yes.**
 
