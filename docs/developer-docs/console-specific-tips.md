@@ -210,6 +210,11 @@ B8B0 63 64 72 6F 6D 3A 5C 53 43 55 53 5F 39 34 32 2E 32 38 3B 31
 
 When working with PSP make sure to check if your game has any DLC as this form of content is able to be accessed by players without altered saves or patched versions of the game and will need to be accounted for and in some cases protected against if it provides advantages that you don't want players to exploit.
 
+- PlayStation Portable has 32MB RAM, addressed at `0x08000000-0x09FFFFFF`, which is mapped at `0x00000000-0x01ffffff` in the RA toolkit.
+  - Therefore, PSP pointers, which are 32-Bit sized will start with 0x08 or 0x09, and to use them, you can mask them using `0x01ffffff` to convert to RA addressing.
+  - `AddAddress 32-Bit Pointer & 0x01ffffff`
+  - Since addressing this requires 25 bits, you cannot use a 24-Bit pointer size in your logic if you want to reliably resolve the resulting address.
+
 ## Amstrad CPC
 
 Game written in BASIC will often use Microsoft Binary Format for numeric values. This is a floating point data. You can filter against the `MBF32 LE` data size on this system to find these values.
