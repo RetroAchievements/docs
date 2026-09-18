@@ -13,10 +13,6 @@ Great place to find game guides, finding almost all you could want to know about
 
 Thousands of maps/screenshots of your favourite video games.
 
-## https://tcrf.net/
-
-It is a site dedicated to unearthing and researching unused and cut content from video games. From debug menus, to unused music, graphics, enemies, or levels, many games have content never meant to be seen by anybody but the developers — or even meant for everybody, but cut due to time/budget constraints.
-
 ## [Cumulative Probability Calculator](https://www.danielsoper.com/statcalc/calculator.aspx?id=71)
 
 When working with achievements with an RNG factor you will often want to know the probability of success for players given a number of attempts. (see [unwelcome concepts, achievements with low odds](/guidelines/developers/code-of-conduct#unwelcome-concepts)). Use it to calculate P(X>=1), assuming the player needs to succeed only once across several attempts, to estimate how many attempts an might require for less lucky players.
@@ -28,10 +24,6 @@ Simple utility to calculate frames out of time given and the other way around.
 ## https://www.romhacking.net
 
 The biggest repository of patches to hack ROMs.
-
-## http://datacrystal.romhacking.net/wiki/Hashes
-
-Explains what hashes are. If you don't know what they are you should probably read this.
 
 ## https://emn178.github.io/online-tools/crc32_checksum.html
 

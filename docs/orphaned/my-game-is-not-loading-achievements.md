@@ -64,5 +64,3 @@ Once you make a request, a developer will review it and make sure it works. Then
 In the menu bar `RetroAchievements` > `Get ROM Checksum`
 
 ![checksum](/rom-checksum.png)
-
-For more details about checksum and hashes, read here: https://datacrystal.romhacking.net/wiki/Hashes
