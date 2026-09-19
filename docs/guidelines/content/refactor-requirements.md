@@ -66,15 +66,15 @@ Dynamic addresses accessed via pointers shall follow all static address requirem
 
 ```
 [32-bit BE] Pointer
-+0x4= [32-bit BE] Pointer 
-++0x5bc= [32-bit BE]Pointer
-+++0x0= [32-bit BE]Pointer to player data
-++++0x10= [32-bit BE]Position in race
-++++0x14= [32-bit BE]Laps left in race
++0x4=[32-bit BE] Pointer 
+++0x5bc=[32-bit BE] Pointer
++++0x0=[32-bit BE] Pointer to player data
+++++0x10=[32-bit BE] Position in race
+++++0x14=[32-bit BE] Laps left in race
 ....0x00000000=Last lap
 ....0xffffffff=Race complete
-++++0x34= [Float BE] Speed in meters/sec
-++++0x38= [Float BE]East/West coordinates
+++++0x34=[Float BE] Speed in meters/sec
+++++0x38=[Float BE] East/West coordinates
 ....1000.0=Starting line
 ```
 
@@ -87,29 +87,58 @@ Regions of memory should be noted as precisely as possible depending on how they
 - Indent values associated with offsets using the same number of . as | in the offset
 - Offsets and values must use = signs, do not use colons
 
-Array note example where noted region is a total of 120 bytes, comprised of 10 12-byte elements:
+Array note example where noted region is a total of 24 bytes, comprised of 6 4-byte elements in static memory:
 ```
-[32-bit] pointer to enemy object array
-+0x00= [10x12 bytes] Enemy object array
-+|0x00= [32-bit] ID
-..0x00= Monster A
-..0x01= Monster B
-..0x02= Monster C
-+|0x04= [32-bit] Health
-+|0x08= [32-bit] Model Pointer
-+|+0x04= [Float] Position X
-+|+0x08= [Float] Position Y
+[6x4 bytes] Enemy object array
+|0x00=Enemy ID [8-bit]
+.0x00=Slime
+.0x01=Ghost
+.0x02=Wolf
+|0x01=Enemy max HP [8-bit]
+|0x02=Enemy current HP [8-bit]
+|0x03=Enemy level [8-bit]
+```
+
+Array note example where noted region is a total of 120 bytes, comprised of 10 12-byte elements and accessed by a pointer:
+```
+[32-bit] Pointer to enemy object array
++0x00=[10x12 bytes] Enemy object array
++|0x00=[32-bit] ID
+..0x00=Slime
+..0x01=Ghost
+..0x02=Wolf
++|0x04=[32-bit] Health
++|0x08=[32-bit] Model Pointer
++|+0x04=[Float] Position X
++|+0x08=[Float] Position Y
 ```
 **This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
 
 Struct example:
 ```
 [16 bytes] Player data struct
-|0x00= [32-bit] ID
+|0x00=[32-bit] ID
 .0xff=Player ID
-|0x04= [32-bit] Health
-|0x08= [Float] X position
-|0x0c= [Float] Y Position
+|0x04=[32-bit] Health
+|0x08=[Float] X position
+|0x0c=[Float] Y Position
+```
+
+### General Game Note
+
+Occasionally, in order to more easily understand how a game functions, some general game notes are useful to inform maintainers. In cases where the refactorer feels a general game note will added significant benefit, it may be made on address 0x00000000 using the header **[General game notes]**.
+::: info
+In the event that address is also used in logic, the general game note, including header, should be placed below the note describing the address for purposes of logic reference.
+:::
+
+General game note example:
+```
+[General game notes]
+NOTE: The game initializes a lot of pointer types as the value 0x16a43 in initialized memory, so some pointers may have to be checked against both null and 0x16a43.
+
+Additionally, this is a game with weird memory management; code node entries at very high addresses are consistent and static and not accessed with a pointer unless otherwise stated.
+
+The Japanese version of the game, Hard Luck, has debug symbols which may help maintainers.
 ```
 
 ## Achievement Logic
