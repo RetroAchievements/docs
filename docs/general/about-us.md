@@ -125,9 +125,8 @@ The team responsible for investigating cheating reports.
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
-- [authorblues](https://retroachievements.org/user/authorblues)
-- [cdpowe](https://retroachievements.org/user/cdpowe)
 - [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
+- [coyoacan](https://retroachievements.org/user/coyoacan)
 - [CySlaytor](https://retroachievements.org/user/CySlaytor)
 - [Goodbite](https://retroachievements.org/user/Goodbite)
 - [Homuki](https://retroachievements.org/user/Homuki)
@@ -138,11 +137,14 @@ The team responsible for helping Jr. Devs learn how to make achievements sets an
 - [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
 - [Prims](https://retroachievements.org/user/Prims)
 - [Salva64bits](https://retroachievements.org/user/Salva64bits)
+- [Siallus](https://retroachievements.org/user/Siallus)
 - [Souzooka](https://retroachievements.org/user/Souzooka)
 - [TheMysticalOne](https://retroachievements.org/user/TheMysticalOne)
+- [TheXIIIthX](https://retroachievements.org/user/TheXIIIthX)
 - [WheelsAndWhirls](https://retroachievements.org/user/WheelsAndWhirls)
 - [Yanbetari](https://retroachievements.org/user/Yanbetari)
 - [zaydoc](https://retroachievements.org/user/zaydoc)
+- [ZintheDestroyr](https://retroachievements.org/user/ZintheDestroyr)
 
 ### Tech Team
 
