@@ -32,4 +32,4 @@ QA's primary responsibilities include the following tasks:
 
 QA has the inherent authority to rectify quality related issues in RetroAchievements sets. For any quality issue pertaining to content with an active developer, QA shall first contact the active developer to notify them of the issue and establish a resolution timeframe with one exception - QA may demote content that suffers from significant instability or exploitability prior to establishing two-way communication with an active developer.
 
-QA may add any sets to applicable Meta|QA hubs.
+QA may add any sets to applicable QA hubs.
