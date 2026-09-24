@@ -81,8 +81,8 @@ There are several ways to view claim information:
 Each developer is allowed four primary claims. Junior developers are allowed one primary claim. However, the following claim types can be marked as free claims and therefore will not take up a slot:
 
 - Special Claims, such as claims made during rollouts. This is due to the unpredictable nature of rollouts as well as a way to reduce stress/pressure on developers.
-- If a developer makes a revision or subset claim, the claim can be set to "Own Revision" depending on criteria I haven't copy-pasted into this section yet.
-- Collaboration claims.
+- Collaboration claims after the developer's part has been completed. To request a free claim on a completed collaboration claim, the lead of the collaboration sends a message to DevCompliance when they agree that the work of one of the collaborators is ready for release. This includes having serviceable badges.
+- Own revision claims upon request, including subset claims where the developer is the author or claimant of the base set.
 
 ## Special Claims
 
