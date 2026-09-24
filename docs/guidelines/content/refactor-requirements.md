@@ -112,8 +112,9 @@ Array note example where noted region is a total of 120 bytes, comprised of 10 1
 +|+0x04=[Float] Position X
 +|+0x08=[Float] Position Y
 ```
-**This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
-
+::: warning
+This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
+:::
 Struct example:
 ```
 [16 bytes] Player data struct
@@ -126,7 +127,7 @@ Struct example:
 
 ### General Game Note
 
-Occasionally, in order to more easily understand how a game functions, some general game notes are useful to inform maintainers. In cases where the refactorer feels a general game note will added significant benefit, it may be made on address 0x00000000 using the header **[General game notes]**.
+Occasionally, in order to more easily understand how a game functions, some general game notes are useful to inform maintainers. In cases where the refactorer feels a general game note will add significant benefit, it may be made on address 0x00000000 using the header **[General game notes]**.
 ::: info
 In the event that address is also used in logic, the general game note, including header, should be placed below the note describing the address for purposes of logic reference.
 :::
@@ -136,7 +137,7 @@ General game note example:
 [General game notes]
 NOTE: The game initializes a lot of pointer types as the value 0x16a43 in initialized memory, so some pointers may have to be checked against both null and 0x16a43.
 
-Additionally, this is a game with weird memory management; code node entries at very high addresses are consistent and static and not accessed with a pointer unless otherwise stated.
+Additionally, this is a game with weird memory management; code note entries at very high addresses are consistent and static and not accessed with a pointer unless otherwise stated.
 
 The Japanese version of the game, Hard Luck, has debug symbols which may help maintainers.
 ```
