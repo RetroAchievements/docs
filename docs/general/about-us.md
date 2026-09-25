@@ -43,7 +43,7 @@ Shared accounts used by their respective team members:
 - [QATeam](https://retroachievements.org/user/QATeam)
 - [RAArtTeam](https://retroachievements.org/user/RAArtTeam)
 - [RAdmin](https://retroachievements.org/user/RAdmin)
-- [RACheats](https://retroachievements.org/user/RCheats)
+- [RACheats](https://retroachievements.org/user/RACheats)
 - [RAEvents](https://retroachievements.org/user/RAEvents)
 - [RANews](https://retroachievements.org/user/RANews)
 - [TheUnwanted](https://retroachievements.org/user/TheUnwanted)
