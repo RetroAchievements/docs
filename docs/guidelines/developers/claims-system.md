@@ -78,7 +78,7 @@ There are several ways to view claim information:
 
 ## Claim Allotment
 
-Each developer is allowed four primary claims. Junior developers are allowed one primary claim. However, the following claim types can be marked as free claims and therefore will not take up a slot:
+Each developer is allowed four claims. Junior developers are allowed one claim. However, the following claim types can be marked as free claims and therefore will not take up a slot:
 
 - Special Claims, such as claims made during rollouts. This is due to the unpredictable nature of rollouts as well as a way to reduce stress/pressure on developers.
 - Collaboration claims after the developer's part has been completed. To request a free claim on a completed collaboration claim, the lead of the collaboration sends a message to DevCompliance when they agree that the work of one of the collaborators is ready for release. This includes having serviceable badges.
