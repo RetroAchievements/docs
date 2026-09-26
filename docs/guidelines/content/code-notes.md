@@ -33,7 +33,7 @@ There are multiple ways to specify a memory address that will be recognized by t
 
 - `[Lower4]`, `[Upper4]`
 - `[8-bit]`, `[16-bit]`, `[24-bit BE]`, `[32-bit]`, `[Float]`
-- `[1 byte]`, `[2 bytes]`, `[4 bytes]`, `[8-bytes]`
+- `[1 byte]`, `[2 bytes]`, `[4 bytes]`, `[8 bytes]`
 - `[128 bits]`, `[78 bytes]`, `[428 bits]`, `[1024 bytes]`
 
 ### Bit Fields and Bit Flags

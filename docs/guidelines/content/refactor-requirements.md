@@ -113,7 +113,7 @@ Array note example where noted region is a total of 120 bytes, comprised of 10 1
 +|+0x08=[Float] Position Y
 ```
 ::: warning
-This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.**
+This notation style is not currently supported by RAIntegration, but is on the roadmap and is expected to be supported in the future.
 :::
 Struct example:
 ```
