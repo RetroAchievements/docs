@@ -245,6 +245,8 @@ Any user wanting to change the game icon or badges of a set need to:
 
  - In this case, even if an icon has been gauntleted before, the current claimer is free to change it.
 
+7. You are the developer unmerging a game from the [Meta - Merged-Game Sets (Hub).](https://retroachievements.org/hub/27441)
+
 ## Voting and Discussion
 
 Revision voting is currently dev-only. While voting is exclusive to Discord, please remember that anyone can express their comments, questions, concerns, criticisms, etc. in the forum thread in which the plan was posted. The issues regarding Discord exclusivity will be addressed in a future version of the website.
