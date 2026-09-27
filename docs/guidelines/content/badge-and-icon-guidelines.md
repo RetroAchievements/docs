@@ -111,7 +111,7 @@ If a game already has a set, icon changes must go through the [icon gauntlet rev
 **Non-Developers:**
 
 - Non-developers cannot upload banners nor push them through the icon gauntlet revision process. Non-developers can, however, communicate with developers of the set or Art Team members to possibly add a banner of their making to a game page, keeping in mind that the developer or Art Team member has the final say on if the banner will be added or not, and will not be beholden to a community vote.
-- Non-developers must go through the "cleanup-requests" process on the Retroachievements official discord to upload mastery icons to iconless sets. For sets that already have a set and an icon, non-developers must go through the [icon gauntlet revision process](/public/guidelines/content/achievement-set-revisions) for either the mastery icon or any achievement icons that they may wish to change.
+- Non-developers must go through the "cleanup-requests" process on the Retroachievements official discord to upload mastery icons to iconless sets. For sets that already have a set and an icon, non-developers must go through the [icon gauntlet revision process](/guidelines/content/achievement-set-revisions) for either the mastery icon or any achievement icons that they may wish to change.
 
 ## Badge Server Files
 
