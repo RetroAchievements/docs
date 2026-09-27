@@ -13,10 +13,10 @@ When someone mentions badges, they could be talking about one of two things:
 
 - Achievement badges, which are user-created images associated with the individual achievements of a set.
   - _Sonic the Hedgehog's first achievement icon_
-    - ![Amateur Collector Badge](https://github.com/Capivaraguy/docs/blob/patch-1/docs/public/badge-00199.png)
+    - ![Amateur Collector Badge](/badge-00199.png)
 - Game icons, also known as mastery badges, which is a single image used to represent an achievement set.
   - _Sonic the Hedgehog's first mastery icon_
-    - ![Sonic the Hedgehog Icon](https://github.com/Capivaraguy/docs/blob/patch-1/docs/public/badge-016743.png)
+    - ![Sonic the Hedgehog Icon](/badge-016743.png)
 
 ## Badge Format and Sizes
 
@@ -77,7 +77,7 @@ Banners are wide images used to represent games on certain pages of the site.
 - Banners must be 3.56:1 (3000x900 recommended, 1920x540 minimum).
 - Banners should ideally be designed and optimized for all Desktop, Mobile and Ultrawide views, according to the following representation:
 
-![banner visual](https://github.com/Capivaraguy/docs/blob/patch-1/docs/public/banner-visual.png)
+![banner visual](/banner-visual.png)
 
 All existing guidelines for game icons apply to banners as well, with the following additional restrictions:
 
@@ -96,15 +96,15 @@ All existing guidelines for game icons apply to banners as well, with the follow
 - Achievement developers are allowed to add mastery badges freely for entries that do not have achievements nor a mastery badge. As a claimant for a set without achievements, developers are free to change the mastery icon, the achievement icons and the banner.
  - To change the set's media content, first go to the game page and click on "Manage":
 
-   ![change_game_icon_1](https://github.com/Capivaraguy/docs/blob/patch-1/docs/public/change_game_icon1.png)
+   ![change_game_icon_1](/change_game_icon1.png)
    
  - Next, click on "Media":
    
-   ![change game icon 2](https://github.com/Capivaraguy/docs/blob/patch-1/docs/public/change_game_icon2.png)
+   ![change game icon 2](/change_game_icon2.png)
    
  - On this page, you're able to change the mastery icon, the banner and the achievement icons for any achievements present on the set:
    
-   ![change game icon 3](https://github.com/Capivaraguy/docs/blob/patch-1/docs/public/change_game_icon3.png)
+   ![change game icon 3](/change_game_icon3.png)
 
 If a game already has a set, icon changes must go through the [icon gauntlet revision process](https://github.com/Capivaraguy/docs/tree/patch-1/docs/public/guidelines/content/achievement-set-revisions).
 
