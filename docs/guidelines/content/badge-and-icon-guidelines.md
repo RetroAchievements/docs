@@ -74,7 +74,7 @@ Achievement badges should focus on certain goals:
 Banners are wide images used to represent games on certain pages of the site.
 
 - Banners cannot go through a community gauntlet process, and can only be changed by authors that currently hold claim or have developed for that particular set, or by art team members.
-- Banners must be 3.56:1 (3000x900 recommended, 1920x540 minimum).
+- Banners must be 3000x900 (1920x540 minimum).
 - Banners should ideally be designed and optimized for all Desktop, Mobile and Ultrawide views, according to the following representation:
 
 ![banner visual](/banner-visual.png)
