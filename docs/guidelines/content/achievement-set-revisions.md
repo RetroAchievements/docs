@@ -222,7 +222,7 @@ Any user wanting to change the game icon or badges of a set need to:
 
 - **Games without sets** cannot be gauntleted.
 - **Sets currently claimed** cannot be gauntleted without the express permission of the current claimant.
-- Badges that have been gauntleted will enter a cooldown period of **72 hours** where they **cannot be gauntleted again**.
+- Game icons and badges that have been gauntleted will enter a cooldown period of **72 hours** where they **cannot be gauntleted again**.
   - Polls deletions and remakes will only be allowed for genuine mistakes, and not for the purpose of evading the 72 hour cooldown.
 - If you are not active on Discord, you may have someone else post the vote on your behalf.
 - [Collager](https://github.com/FamilyManP/Collager/releases/tag/v2) is a useful tool for grouping all achievement icons before a gauntlet.
