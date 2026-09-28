@@ -229,23 +229,23 @@ Any user wanting to change the game icon or badges of a set need to:
 
 ### No Need for Approval Vote
 
-1. The game does not have an achievement set, nor is it claimed or reserved by a developer.
-
-2. The entry has no game icon or badges.
+1. The game does not have an achievement set and no game icon, nor is it claimed or reserved by a developer.
 
 - In this case, developers can add the game icon themselves, and users may go through `@cleanup-requests` and follow the process there to upload a new icon.
 
-3. The new icon/badge(s) display the same content, but are of better quality. Users can ask for the help of Art Team to get these uploaded directly. It is up to the discretion of Art Team to decide if the changes are small enough and up to quality standards to not require a gauntlet.
+2. The new icon/badge(s) display the same content, but are of better quality.
 
-4. You are the existing set's sole developer and no other developer has changed the icon/badge(s) nor have the icon/badge(s) gone through a gauntlet before.
+- Users can ask for the help of Art Team to get these uploaded directly. It is up to the discretion of Art Team to decide if the changes are small enough and up to quality standards to not require a gauntlet.
 
-5. You are one of the existing set's original developers as part of a collaborative set, all parties agree to the change, and no other developer has changed the icon/badge(s) nor have the icon/badge(s) gone through a gauntlet before.
+3. You are the existing set's sole developer and no other developer has changed the icon/badge(s) nor have the icon/badge(s) gone through a gauntlet before.
 
-6. You currently hold the claim for a game without a released set.
+4. You are one of the existing set's original developers as part of a collaborative set, all parties agree to the change, and no other developer has changed the icon/badge(s) nor have the icon/badge(s) gone through a gauntlet before.
+
+5. You currently hold the claim for a game without a released set.
 
  - In this case, even if an icon has been gauntleted before, the current claimer is free to change it.
 
-7. You are the developer unmerging a game from the [Meta - Merged-Game Sets (Hub).](https://retroachievements.org/hub/27441)
+6. You are the developer unmerging a game from the [Meta - Merged-Game Sets (Hub).](https://retroachievements.org/hub/27441)
 
 ## Voting and Discussion
 
