@@ -174,7 +174,7 @@ The Icon Gauntlet is used to vote for new game icons or new badges for a set. Wi
 
 Any user wanting to change the game icon or badges of a set need to:
 
-1. **Create** the game icon or new badges. For more info, see [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines).
+1. **Create** the game icon or new badges. For more info, see [Banner, Badge, and Icon Guidelines](/guidelines/content/badge-and-icon-guidelines).
 
 2. **Upload** the work on an image sharing site or shareable direct image link.
 
@@ -221,6 +221,7 @@ Any user wanting to change the game icon or badges of a set need to:
 **Notes:**
 
 - **Games without sets** cannot be gauntleted.
+  - Only a developer who claims the set can change its icon.
 - **Sets currently claimed** cannot be gauntleted without the express permission of the current claimant.
 - Game icons and badges that have been gauntleted will enter a cooldown period of **72 hours** where they **cannot be gauntleted again**.
   - Polls deletions and remakes will only be allowed for genuine mistakes, and not for the purpose of evading the 72 hour cooldown.

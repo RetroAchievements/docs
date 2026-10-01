@@ -5,7 +5,17 @@ description: Learn how to design and upload game icons and achievement badges, i
 
 # Badge and Icon Creation
 
-See [Badge and Icon Guidelines](https://docs.retroachievements.org/guidelines/content/badge-and-icon-guidelines.html) and [achievement set revisions](https://docs.retroachievements.org/guidelines/content/achievement-set-revisions.html#icon-gauntlet) for more information on icon creation and changing current achievement icons.
+See [Banner, Badge and Icon Guidelines](/guidelines/content/badge-and-icon-guidelines) and [achievement set revisions](/guidelines/content/achievement-set-revisions#icon-gauntlet) for more information on icon creation and changing current achievement icons.
+
+## Uploading Badges in the Emulator
+
+When you create new achievements, you can upload their badges from the Asset Editor in the emulator's developer tools:
+
+![Upload Badge](/alt-groups-add.png)
+
+You can also pick an image you uploaded before from the dropdown box:
+
+![Badge dropdown](/badge-dropdown.png)
 
 ## Where you'll see Badges and Icons are displayed
 
