@@ -296,7 +296,7 @@ Limited microphone support.
 | **DeSmuME**                                                                       | libretro core       | Does not emulate the DSi. |
 | **melonDS**                                                                       | libretro core       |                           |
 | **melonDS DS**                                                                    | libretro core       |                           |
-| **melonDS**                                                                       | BizHawk core        |                           |
+| **melonDS**                                                                       | BizHawk core        | Most recommended.         |
 | **[melonDS Android](https://github.com/rafaelvcaetano/melonDS-android/releases)** | Standalone emulator |                           |
 
 ### Nintendo DSi
@@ -304,7 +304,7 @@ Limited microphone support.
 | Name                                                                              | Type                | Notes                                      |
 | :-------------------------------------------------------------------------------- | :------------------ | :----------------------------------------- |
 | **melonDS DS**                                                                    | libretro core       | Does not support save states at this time. |
-| **melonDS**                                                                       | BizHawk core        |                                            |
+| **melonDS**                                                                       | BizHawk core        | Most recommended.                          |
 | **[melonDS Android](https://github.com/rafaelvcaetano/melonDS-android/releases)** | Standalone emulator |                                            |
 
 ### PC Engine/TurboGrafx-16/SuperGrafx
@@ -407,7 +407,7 @@ These cores appear to still have unmapped RAM.
 
 | Name       | Type          | Notes |
 | :--------- | :------------ | :---- |
-| **Uzebox** | libretro core |       |
+| **Uzem**   | libretro core |       |
 | **Uzem**   | BizHawk core  |       |
 
 ### Vectrex
@@ -444,7 +444,7 @@ These cores appear to still have unmapped RAM.
 
 ### WonderSwan (Color)
 
-| Name             | Type          | Notes                       |
-| :--------------- | :------------ | :-------------------------- |
-| **Beetle Cygne** | libretro core |                             |
-| **Cygne**        | BizHawk core  | Mednafen fork specifically. |
+| Name                  | Type          | Notes                       |
+| :-------------------- | :------------ | :-------------------------- |
+| **Beetle Wonderswan** | libretro core |                             |
+| **Cygne**             | BizHawk core  | Mednafen fork specifically. |
