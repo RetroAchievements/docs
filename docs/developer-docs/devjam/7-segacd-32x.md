@@ -1,17 +1,13 @@
-# DevJam VII (Sega CD/32X)
+# DevJam VII (Sega CD / 32X)
 
-[[toc]]
+Max Qualifying Points: 6
 
-## Time and Duration
+## Event Period
 
 - Start Date: 2025-04-01
 - Launch Date: 2025-06-30
 
-## Point System
-
-Max Earnable Points: 6
-
-This table details earnable points for the Sega CD/32X DevJam:
+## Set Point Values
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -21,40 +17,37 @@ This table details earnable points for the Sega CD/32X DevJam:
 |   2    |                Late Submissions (Licensed Games)               |
 |   1    |                Late Submissions (Others)                       |
 
-## Quarterly Goals (WIP)
+## Secondary Goals
 
-While the main goal is to promote a bunch of a sets, there are secondary goals that we can work on as a group. If a goal is met, bonus points will be applied _to those who helped reach it_. Goals that are focused on getting the number of sets to a certain number will grant bonus points to everyone who does a set, even after that goal is met. See the Sega CD/32X goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBjCQIp7tKJVLVjy7E8vKB5EX8QrhNoewPube5mPgaofdmdmGOrVUBSn1znasRfU55KhsYAC8XhRyi/pubhtml?gid=1501088985&single=true).
+See the Sega CD/32X goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBjCQIp7tKJVLVjy7E8vKB5EX8QrhNoewPube5mPgaofdmdmGOrVUBSn1znasRfU55KhsYAC8XhRyi/pubhtml?gid=1501088985&single=true).
 
 ## Stats
 
-_as of 2025-04-01 (start date)_
+_2025-04-01 (start date)_
 
-- Current number of sets:
-  - Sega CD: 51 (47 licensed, 2 homebrews, 1 hack, and 1 prototype)
-  - Sega 32X: 23 (15 licensed, 2 hacks, 1 homebrew, and 5 prototypes)
-- Current number of achievements:
-  - Sega CD: 2,202 worth 18,483 points
-  - Sega 32X: 820 worth 7,177 points
-- Current number of leaderboards:
-  - Sega CD: 192
-  - Sega 32X: 172
+- Sega CD:
+  - 51 sets (47 licensed, 2 homebrews, 1 hack, and 1 prototype)
+  - 2,202 achievements worth 18,483 points
+  - 192 leaderboards
 
-_as of 2025-06-30 (end date)_
+- Sega 32X:
+  - 23 sets (15 licensed, 2 hacks, 1 homebrew, and 5 prototypes)
+  - 820 achievements worth 7,177 points
+  - 172 leaderboards
 
-- Current number of sets:
-  - Sega CD: 79 (75 licensed, 2 homebrews, 1 hack, and 1 prototype)
-  - Sega 32X: 34 (22 licensed, 4 hacks, 3 homebrews, and 5 prototypes)
-- Current number of achievements:
-  - Sega CD: 2,983 worth 24,289 points
-  - Sega 32X: 1,118 worth 9,403 points
-- Current number of leaderboards:
-  - Sega CD: 362
-  - Sega 32X: 263
+_2025-06-30 (end date)_
+
+- Sega CD:
+  - 79 sets (75 licensed, 2 homebrews, 1 hack, and 1 prototype)
+  - 2,983 achievements worth 24,289 points
+  - 362 leaderboards
+
+- Sega 32X:
+  - 34 sets (22 licensed, 4 hacks, 3 homebrews, and 5 prototypes)
+  - 1,118 achievements worth 9,403 points
+  - 263 leaderboards
 
 
 ## See Also
 
 - [Main DevJam Page](/developer-docs/devjam)
-- [DevJam Vol. 1 Event Entry](https://retroachievements.org/game/20000)
-- [DevJam Vol. 2 Event Entry](https://retroachievements.org/game/30000)
-- [DevJam Forum Topic](https://retroachievements.org/viewtopic.php?t=22368)
