@@ -296,7 +296,7 @@ Limited microphone support.
 | **DeSmuME**                                                                       | libretro core       | Does not emulate the DSi. |
 | **melonDS**                                                                       | libretro core       |                           |
 | **melonDS DS**                                                                    | libretro core       |                           |
-| **melonDS**                                                                       | BizHawk core        | Most recommended.         |
+| **melonDS**                                                                       | BizHawk core        |                           |
 | **[melonDS Android](https://github.com/rafaelvcaetano/melonDS-android/releases)** | Standalone emulator |                           |
 
 ### Nintendo DSi
@@ -304,7 +304,7 @@ Limited microphone support.
 | Name                                                                              | Type                | Notes                                      |
 | :-------------------------------------------------------------------------------- | :------------------ | :----------------------------------------- |
 | **melonDS DS**                                                                    | libretro core       | Does not support save states at this time. |
-| **melonDS**                                                                       | BizHawk core        | Most recommended.                          |
+| **melonDS**                                                                       | BizHawk core        |                                            |
 | **[melonDS Android](https://github.com/rafaelvcaetano/melonDS-android/releases)** | Standalone emulator |                                            |
 
 ### PC Engine/TurboGrafx-16/SuperGrafx
