@@ -431,9 +431,9 @@ Each system ID will have an achievement associated with it. Newly supported syst
 1. Games chosen should have a decent amount of content. Small games like short hacks, homebrews, and demos may be rejected at the discretion of the DevQuest Team. If in doubt, contact the DevQuest team and ask.
 2. You may respin one time. Respins cannot occur until three months have passed since a wheel spin.
 3. Tasks are available to restore your respin. See the [Wheel Spin DevQuest Rules](#wheel-spin-devquest-rules) for more details.
-4. List of elligible users and their current request lists will be pulled periodically.
+4. List of eligible users and their current request lists will be pulled periodically.
 5. A snapshot of the spun user's most recently recorded request list will be made at the time of random selection. Game selections will be validated against this list only.
-   - You can see this list on the `Quest23: Elligible Games Lists` sheet within the DevQuest Sheets document.
+   - You can see this list on the `Quest23: Eligible Games Lists` sheet within the DevQuest Sheets document.
 6. You may swap lists with other participants. All participants must confirm the swap before it is performed. Muti-way swaps (three or more developers) are allowed. Swapping will reset your three-month respin timer.
 
 ### 024 [She's Got This!](https://retroachievements.org/event/186-devquest-024-shes-got-this)
