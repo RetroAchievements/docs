@@ -407,7 +407,7 @@ These cores appear to still have unmapped RAM.
 
 | Name       | Type          | Notes |
 | :--------- | :------------ | :---- |
-| **Uzebox** | libretro core |       |
+| **Uzem**   | libretro core |       |
 | **Uzem**   | BizHawk core  |       |
 
 ### Vectrex
@@ -444,7 +444,7 @@ These cores appear to still have unmapped RAM.
 
 ### WonderSwan (Color)
 
-| Name             | Type          | Notes                       |
-| :--------------- | :------------ | :-------------------------- |
-| **Beetle Cygne** | libretro core |                             |
-| **Cygne**        | BizHawk core  | Mednafen fork specifically. |
+| Name                  | Type          | Notes                       |
+| :-------------------- | :------------ | :-------------------------- |
+| **Beetle Wonderswan** | libretro core |                             |
+| **Cygne**             | BizHawk core  | Mednafen fork specifically. |

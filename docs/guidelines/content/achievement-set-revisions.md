@@ -174,88 +174,79 @@ The Icon Gauntlet is used to vote for new game icons or new badges for a set. Wi
 
 Any user wanting to change the game icon or badges of a set need to:
 
-1. **Contact** each active author or claimant of the set. **Wait** for a response (after 72hours have passed, you may proceed without a response).
+1. **Create** the game icon or new badges. For more info, see [Banner, Badge, and Icon Guidelines](/guidelines/content/badge-and-icon-guidelines).
 
-- They may have design considerations for the icon or badges to best fit the set.
-- Doing this might also avoid needing a gauntlet vote if your icon or badges are preferred by them.
-- Ideally Both parties should work together to come to a satisfactory proposal.
-- Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true). If the author is listed as opting out of this revision type, they do not need to be contacted. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
-- When contacting, be clear that this contact is for an icon gauntlet.
-- When contacting, always ask if the author would like to be pinged when the vote starts. This ensures the author knows this is an option.
+2. **Upload** the work on an image sharing site or shareable direct image link.
 
-2. **Create** the game icon or new badges. For more info, see [Badge and Icon Creation](/guidelines/content/badge-and-icon-guidelines).
+3. **Contact** each active author or claimant of the set. **Wait** for a response (after 72 hours have passed, you may proceed without a response).
 
-3. **Upload** the work on an image sharing site.
+- An author is considered *active* if their account on the website still has the role of **Developer** or **Junior Developer**
+- If a set has been developed by multiple authors, **every single author** must be contacted.
+- They may have design considerations for the icon or badges to best fit the set. Ideally both parties should work together to come to a satisfactory proposal.
+  - Doing this might also avoid needing a gauntlet vote if your icon or badges are preferred by them.
+- Some authors opt out of requiring contact. Check the [Public Opt-Out Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRSNI9R-ezC0ma7x2BoU2JiZgMu26iht-sIPc56otfJa2sd_8QQCO-V4JXbfsfSUbrl54wib68-Pjp/pubhtml?gid=1195161231&single=true) before starting a gauntlet or contacting the author. To update your own Opt-Out information, use [this form](https://forms.gle/mgzv7RHbJEPCrxc77).
+  - If an author is marked as *Opted-out* for Mastery Icons or Achievement Badges, they do not need to be contacted before a gauntlet.
+  - If an author is marked as *Notify-Only* for Mastery Icons or Achievement Badges, contact is still required but there's no need to wait for a response or feedback.
+- When contacting, be clear that this contact is for an icon gauntlet and offer to ping them when the vote starts. Ensure the author knows this is an option and encourage receiving their feedback before the gauntlet.
 
 4. **Consider** sharing samples of your badges or icons in [`#gauntlet-discussion`](https://discord.com/channels/310192285306454017/650851861590573077) prior to starting the revision vote. This will help polish any issues and avoid multiple updates to the gauntlet.
 
 5. **Start a vote** by posting links to the old icon/badges and their contenders in the [`#icon-gauntlet`](https://discord.com/channels/310192285306454017/527943666812321795) channel on Discord.
 
 - Whomever creates the vote must ping `@icon-gauntlet`. Ping active authors that did not respond to contact. Ping active authors that requested a ping at vote start after the contact.
-- Use one of the templates to create the poll:
-::: details Discord Templates
-**Icon gauntlet with 1 contender:**
-```
-/poll question: [GameName (System)](RAPageLink)
-option1: Current: LinkToCurrent
-option2: Contender: LinkToContender
-```
-<br>
-
-**Icon gauntlet with 2 or 3 contenders:**
-```
-/poll question: [GameName (System)](RAPageLink)
-option1: Current: LinkToCurrent
-option2: Contender 1: LinkToContender1
-option3: Contender 2: LinkToContender2
-option4: Contender 3: LinkToContender3
-```
-<br>
-
-**Icon gauntlet with 4+ contenders:**<br>
-> Discord only embeds 4 images at maximum in a single post (current icon vs. 3 contenders), so if there's at least 5 images required (current icon vs. 4+ contenders), you'll have to do a montage with all icons.<br>
-```
-/poll question: [GameName (System)](RAPageLink)
-option1: Current LinkToCollageIncludingCurrentIconAnd4Contenders
-option2: Contender 1
-option3: Contender 2
-option4: Contender 3
-option5: Contender 4
-```
-<br>
-
-**Achievement badge gauntlet:**<br>
-> Similar to the icon gauntlet with 4+ contenders, you'll have to create a collage of the current badges and of your contenders.<br>
-```
-/poll question: [GameName (System)](RAPageLink)
-option1: Current LinkToCollageOfCurrentBadges
-option2: Contender 1 LinkToCollageOfContender1Badges
-option3: Contender 2 LinkToCollageOfContender2Badges
-```
-:::
+- Use the template provided on discord to create the poll.
+- When pinging `@icon-gauntlet`, also write a small summary: explain why you're making the change, give the necessary context and any technical change that you feel should be explained. Try your best to be concise. Quality related commentary should be objective and respectful. Point out if the developer has responded/did not respond in time/is inactive.
+  - Acceptable examples:
+    - "@icon-gauntlet Developer contacted. I think Knuckles is a better representation for the icon than Gex because he is the titular main character, whereas Gex is from a completely different franchise"
+    - "@icon-gauntlet Dev inactive. I have updated the sprite-art used to be properly scaled"
+    - "@icon-gauntlet dev did not respond in three days, remaking the icon with a different render"
+  - Unacceptable examples:
+    - "Changing because current is bad"
+    - "Do I even need to say anything?"
+    - "Dev approved. Current looks boring, wanted to improve it."
+    - "Current looks like a messy boxart crop"
+    - "Changing the badge so we have more options to choose from in the history"
+- When gauntleting achievement icons, make sure to have both the current and contender icons organized and all clearly shown for voting, with the current and contender images showing a collage of all icons being revisioned.
+- Make sure to link the icon image directly instead of linking the image host site.
+- Polls that do not follow the provided directions are subject to deletion.
 
 6. Voting will be active for 24 hours.
 
+- A contender must win with 60% of the total votes. This is also valid for gauntlets with multiple contenders.
+- If the voting is overwhelming in one direction or another, the Art Team or Gauntlet Helpers may choose to end the voting earlier.
 - If the voting passes, the Art Team or Gauntlet Helpers will handle replacing the images and logging the change.
-- If you created a badge set, upload the badge set to [`#icon-gauntlet-uploads`](https://discord.com/channels/310192285306454017/1050524964597547049)
-  - Badges should be named using numbers (1.png, 2.png, 3.png, etc) based on the order of the achievements in the set, _or_ named using the achievement titles
+- If you created an achievement badge set, upload the badge set to [`#icon-gauntlet-uploads`](https://discord.com/channels/310192285306454017/1050524964597547049)
+  - Badges should be named using numbers (for example 001.png, 002.png, 003.png, etc) based on the order of the achievements in the set, _or_ named using the achievement titles
 
 **Notes:**
 
-- In cases where there are several designs, the contender list can be extended. **Remember to add the letter emojis, in alphabetical order, as soon as you post the proposal so people can vote by clicking on them.**
+- **Games without sets** cannot be gauntleted.
+  - Only a developer who claims the set can change its icon.
+- **Sets currently claimed** cannot be gauntleted without the express permission of the current claimant.
+- Game icons and badges that have been gauntleted will enter a cooldown period of **72 hours** where they **cannot be gauntleted again**.
+  - Polls deletions and remakes will only be allowed for genuine mistakes, and not for the purpose of evading the 72 hour cooldown.
 - If you are not active on Discord, you may have someone else post the vote on your behalf.
+- [Collager](https://github.com/FamilyManP/Collager/releases/tag/v2) is a useful tool for grouping all achievement icons before a gauntlet.
 
 ### No Need for Approval Vote
 
-1. The game does not have an achievement set, nor is it reserved by a developer.
+1. The game does not have an achievement set and no game icon, nor is it claimed or reserved by a developer.
 
-2. The entry has no game icon or badges.
+- In this case, developers can add the game icon themselves, and users may go through `@cleanup-requests` and follow the process there to upload a new icon.
 
-3. The new icon/badge(s) display the same content, but are of better quality.
+2. The new icon/badge(s) display the same content, but are of better quality.
 
-4. You are the existing set's sole developer and no other developer has changed the icon/badge(s).
+- Users can ask for the help of Art Team to get these uploaded directly. It is up to the discretion of Art Team to decide if the changes are small enough and up to quality standards to not require a gauntlet.
 
-5. You are one of the existing set's original developers as part of a collaborative set, all parties agree to the change, and no other developer has changed the icon/badge(s).
+3. You are the existing set's sole developer and no other developer has changed the icon/badge(s) nor have the icon/badge(s) gone through a gauntlet before.
+
+4. You are one of the existing set's original developers as part of a collaborative set, all parties agree to the change, and no other developer has changed the icon/badge(s) nor have the icon/badge(s) gone through a gauntlet before.
+
+5. You currently hold the claim for a game without a released set.
+
+ - In this case, even if an icon has been gauntleted before, the current claimer is free to change it.
+
+6. You are the developer unmerging a game from the [Meta - Merged-Game Sets (Hub).](https://retroachievements.org/hub/27441)
 
 ## Voting and Discussion
 

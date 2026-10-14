@@ -115,6 +115,7 @@ The team responsible for ensuring the overall quality of achievement sets: inclu
 - [siouxerskate](https://retroachievements.org/user/siouxerskate)
 - [suspect15](https://retroachievements.org/user/suspect15)
 - [Sutarion](https://retroachievements.org/user/Sutarion)
+- [Verros](https://retroachievements.org/user/Verros)
 - [Whithbrin](https://retroachievements.org/user/Whithbrin)
 - [xClawz](https://retroachievements.org/user/xClawz)
 

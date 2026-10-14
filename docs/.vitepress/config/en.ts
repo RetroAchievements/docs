@@ -235,7 +235,7 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/content/writing-policy",
         },
         {
-          text: "Badge and Icon Guidelines",
+          text: "Banner, Badge, and Icon Guidelines",
           link: "/guidelines/content/badge-and-icon-guidelines",
         },
         {
