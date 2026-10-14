@@ -9,7 +9,7 @@ Max Qualifying Points: 6
 
 ## Eligible Consoles
 
-- [Famicom Disk System](https://retroachievements.org/system/81/games)
+- [Nintendo Famicom Disk System](https://retroachievements.org/system/81/games)
 
 ## Set Point Values
 
