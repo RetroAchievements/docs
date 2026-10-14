@@ -9,16 +9,16 @@ Max Qualifying Points: 6 or the number of points you are away from 50 total qual
 
 ## Eligible Consoles
 
-- Apple II
-- Arcade
-- MSX
-- PC-8001/PC-8801
-- PC Engine
-- PC Engine CD
-- Sega 32X
-- Sega CD
-- Sega Saturn
-- Sega SG-1000
+- [Apple II](https://retroachievements.org/system/38/games)
+- [Arcade](https://retroachievements.org/system/27/games)
+- [MSX](https://retroachievements.org/system/29/games)
+- [PC-8001/PC-8801](https://retroachievements.org/system/47/games)
+- [PC Engine](https://retroachievements.org/system/8/games)
+- [PC Engine CD](https://retroachievements.org/system/76/games)
+- [Sega 32X](https://retroachievements.org/system/10/games)
+- [Sega CD](https://retroachievements.org/system/9/games)
+- [Sega Saturn](https://retroachievements.org/system/39/games)
+- [Sega SG-1000](https://retroachievements.org/system/33/games)
 
 ## Set Point Values
 
