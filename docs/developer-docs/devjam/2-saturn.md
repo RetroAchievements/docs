@@ -7,6 +7,10 @@ Max Qualifying Points: 6
 - Start Date: 2023-10-01
 - Launch Date: 2024-01-31
 
+## Eligible Consoles
+
+- [Sega Saturn](https://retroachievements.org/system/39/games)
+
 ## Set Point Values
 
 | Points |                                                Set Submission                                                |
