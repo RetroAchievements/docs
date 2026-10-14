@@ -7,6 +7,10 @@ Max Qualifying Points: 6
 - Start Date: 2025-07-01
 - Launch Date: 2025-09-30
 
+## Eligible Consoles
+
+- [MSX](https://retroachievements.org/system/29/games)
+
 ## Set Point Values
 
 | Points |                   Set Submission                               |
