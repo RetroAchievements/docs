@@ -7,6 +7,10 @@ Max Qualifying Points: 6
 - Start Date: 2024-12-01
 - Launch Date: 2025-02-28, extended to 2025-03-16
 
+## Eligible Consoles
+
+- [Apple II](https://retroachievements.org/system/38/games)
+
 ## Set Point Values
 
 | Points |                                                        Set Submission                                                         |
