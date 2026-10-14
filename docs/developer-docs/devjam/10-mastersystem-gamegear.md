@@ -7,12 +7,17 @@ Max Qualifying Points: 6
 - Start Date: 2026-05-01
 - Launch Date: 2026-07-31
 
+## Eligible Consoles
+
+- [Sega Game Gear](https://retroachievements.org/system/15/games)
+- [Sega Master System](https://retroachievements.org/system/11/games)
+
 ## Set Point Values
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
 |   3    |                Licensed Games                                  |
-|   2    |                Homebrews/Hacks                                 |
+|   2    |                Homebrews, Hacks                                |
 |   2    |                Collaborations                                  |
 |   2    |                Late Submissions (Licensed Games)               |
 |   1    |                Late Submissions (Others)                       |
