@@ -7,6 +7,11 @@ Max Qualifying Points: 6
 - Start Date: 2024-02-01
 - Launch Date: 2024-04-30
 
+## Eligible Consoles
+
+- [PC Engine / TurboGrafx-16](https://retroachievements.org/system/8/games)
+- [PC Engine CD / TurboGrafx-CD](https://retroachievements.org/system/76/games)
+
 ## Set Point Values
 
 | Points |                                                Set Submission                                                |
