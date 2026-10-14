@@ -7,6 +7,10 @@ Max Qualifying Points: 6
 - Start Date: 2024-05-01
 - Launch Date: 2024-08-31
 
+## Eligible Consoles
+
+- [Arcade](https://retroachievements.org/system/27/games)
+
 ## Set Point Values
 
 | Points |                                                        Set Submission                                                         |
