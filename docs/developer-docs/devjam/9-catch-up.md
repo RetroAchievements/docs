@@ -7,7 +7,7 @@ Max Qualifying Points: 6 or the number of points you are away from 50 total qual
 - Start Date: 2026-02-01
 - Launch Date: 2026-04-30
 
-## Eligible Platforms
+## Eligible Consoles
 
 - Apple II
 - Arcade
