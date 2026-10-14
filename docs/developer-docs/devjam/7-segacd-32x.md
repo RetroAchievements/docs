@@ -7,6 +7,11 @@ Max Qualifying Points: 6
 - Start Date: 2025-04-01
 - Launch Date: 2025-06-30
 
+## Eligible Consoles
+
+- [Sega 32X](https://retroachievements.org/system/10/games)
+- [Sega CD](https://retroachievements.org/system/9/games)
+
 ## Set Point Values
 
 | Points |                   Set Submission                               |
