@@ -30,15 +30,13 @@ See the Sega Saturn goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-
 
 _2023-10-01 (start date)_
 
-- 65 sets
-  - 61 licensed games, 1 subset, 2 homebrews, and 1 demo
+- 65 sets (61 licensed games, 1 subset, 2 homebrews, and 1 demo)
 - 3,505 achievements worth 29,853 points
 - 348 leaderboards
 
 _2024-01-31 (end date)_
 
-- 128 sets
-  - 117 licensed games, 7 subsets, 2 homebrews, 1 prototype, and 1 demo
+- 128 sets (117 licensed games, 7 subsets, 2 homebrews, 1 prototype, and 1 demo)
 - 6,370 achievements worth 53,047 points
 - 869 leaderboards
 
