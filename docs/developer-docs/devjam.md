@@ -15,8 +15,8 @@ Each DevJam has a sister event called PlayJam that runs concurrently. A PlayJam 
 ## Goals
 
 The primary goal of DevJam events is to create and simultaneously release a bunch of sets for consoles that need more developer attention. In addition to this goal, there are 2 types of secondary goals unique to each Jam that jammers can work toward as a group:
-- General goals are simple objectives without a specific game list.
-- Special goals ⭐ each have a specific list of games. Completing these goals requires sets being available for every game in the list when the Jam launches.
+- **General goals** are simple objectives without a specific game list.
+- **Special goals** ⭐ each have a specific list of games. Completing these goals requires sets being available for every game in the list when the Jam launches.
 
 ## General Rules
 
@@ -36,9 +36,9 @@ The primary goal of DevJam events is to create and simultaneously release a bunc
    - Look at the DevJam sheet to see secondary goals unique to the current Jam and group progress toward completing them.
 2. Develop sets
    - Claim a game lacking a set for one of the consoles in the current Jam.
-   - Lock in: Post your intention to lock in your claim toward the Jam in the DevJam “Lock Ins and Sign Offs” Discord channel. You can lock in multiple games at once, but you only get one free special claim slot for a lock in at a time.
+   - *Lock in*: Post your intention to lock in your claim toward the Jam in the DevJam “Lock Ins and Sign Offs” Discord channel. You can lock in multiple games at once, but you only get one free special claim slot for a lock in at a time.
    - Develop the set, but do not release it! The achievements must remain unpromoted and the claim incomplete until the DevJam launch.
-   - Sign off: When you have finished developing your set, post that you are signing off the set in the DevJam “Lock Ins and Sign Offs” Discord channel using an unpublished achievements link for the set to confirm the set is ready to be released. You will then be eligible for a free special claim for another lock in.
+   - *Sign off*: When you have finished developing your set, post that you are signing off the set in the DevJam “Lock Ins and Sign Offs” Discord channel using an unpublished achievements link for the set to confirm the set is ready to be released. You will then be eligible for a free special claim for another lock in.
     - Repeat the above process for any other games and sets you wish to contribute to the DevJam.
 3. Launch all sets for the Jam as a group
     - All of the sets created for the event are released at the same time at the event’s conclusion at a predetermined launch date and time. You will complete claims and post in the “Achievement News” Discord channel for all of your Jam sets at this time like you would for any normal set.
