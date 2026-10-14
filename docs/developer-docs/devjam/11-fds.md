@@ -7,13 +7,16 @@ Max Qualifying Points: 6
 - Start Date: 2026-08-01
 - Launch Date: 2026-10-31
 
+## Eligible Consoles
+
+- [Famicom Disk System](https://retroachievements.org/system/81/games)
+
 ## Set Point Values
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
 |   3    |                Licensed Games                                  |
-|   2    |                Homebrews/Hacks                                 |
-|   2    |                Prototypes/Unlicensed                           |
+|   2    |                Homebrews, Hacks, Prototypes, Unlicensed        |
 |   1    |                Subsets                                         |
 |   2    |                Collaborations                                  |
 |   2    |                Late Submissions (Licensed Games)               |
