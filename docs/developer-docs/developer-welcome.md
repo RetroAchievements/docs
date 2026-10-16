@@ -86,7 +86,7 @@ You will now have a few new privileges in the RA emulators to take advantage of.
 
 The biggest new privilege is that you can now link new hashes to games by loading the game in an RA emulator and linking it.
 
-If creating a new page, select "New Title" and write an appropriate name in the text box. Check if there are any junk pages labeled "~Z~ No Hash" which can be recycled.
+If creating a new page, select "New Title" and write an appropriate name in the text box.
 
 ::: info
 Further reading:
