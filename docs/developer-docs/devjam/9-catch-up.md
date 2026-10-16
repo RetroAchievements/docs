@@ -1,17 +1,26 @@
-# DevJam IX (Catch-Up)
+# DevJam IX (Catch-up from Volumes 1-2)
 
-[[toc]]
+Max Qualifying Points: 6 or the number of points you are away from 50 total qualifying points (depending on which is smaller)
 
-## Time and Duration
+## Event Period
 
 - Start Date: 2026-02-01
 - Launch Date: 2026-04-30
 
-## Point System
+## Eligible Consoles
 
-Max Earnable Points: 6, or the number of points you are away from 50, depending on which is smaller.
+- [Apple II](https://retroachievements.org/system/38/games)
+- [Arcade](https://retroachievements.org/system/27/games)
+- [MSX](https://retroachievements.org/system/29/games)
+- [PC-8001 / PC-8801](https://retroachievements.org/system/47/games)
+- [PC Engine / TurboGrafx-16](https://retroachievements.org/system/8/games)
+- [PC Engine CD / TurboGrafx-CD](https://retroachievements.org/system/76/games)
+- [Sega 32X](https://retroachievements.org/system/10/games)
+- [Sega CD](https://retroachievements.org/system/9/games)
+- [Sega Saturn](https://retroachievements.org/system/39/games)
+- [Sega SG-1000](https://retroachievements.org/system/33/games)
 
-This table details earnable points for the Catch-Up DevJam:
+## Set Point Values
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -29,26 +38,10 @@ This table details earnable points for the Catch-Up DevJam:
 |   1    |                Collaborations (2-point games)                  |
 |   1    |                Late Submissions                                |
 
-## Quarterly Goals
+## Secondary Goals
 
-This DevJam, as a catch-up period, does not have any special goals.
-
-The list of eligible platforms is as follows:
-
-- Apple II
-- Arcade
-- MSX
-- PC-8001/PC-8801
-- PC Engine
-- PC Engine CD
-- Sega 32X
-- Sega CD
-- Sega Saturn
-- Sega SG-1000
+This DevJam does not have any secondary goals.
 
 ## See Also
 
 - [Main DevJam Page](/developer-docs/devjam)
-- [DevJam Vol. 1 Event Entry](https://retroachievements.org/game/20000)
-- [DevJam Vol. 2 Event Entry](https://retroachievements.org/game/30000)
-- [DevJam Forum Topic](https://retroachievements.org/viewtopic.php?t=22368)
