@@ -2,7 +2,7 @@
 
 ## What are DevJams?
 
-DevJams are a regular series of developer events managed by the DevQuest team. Jams typically run every calendar quarter (3 months), and participants earn points toward site badge awards by creating sets in each event. These events operate in a similar manner to console rollouts but can focus on one or more consoles. Participation currently requires being active in the RetroAchievements Discord server.
+DevJams are a regular series of developer events managed by the DevQuest team. Jams typically run every calendar quarter (3 months), and participants earn points toward site badge awards by creating sets in each event. These events operate in a similar manner to console rollouts but can focus on one or more consoles.
 
 There are 2 types of DevJams:
 - **Standard Jams** feature supported consoles that never received a rollout nor appeared in a previous Jam.
@@ -21,6 +21,7 @@ The primary goal of DevJam events is to create and simultaneously release a bunc
 ## General Rules
 
 - DevJams are not available for junior developers.
+- Participation currently requires being active in the RetroAchievements Discord server.
 - Participating jammers are developers who receive credit for at least one set in a particular DevJam.
 - Only new sets for the consoles listed in a DevJam qualify for credit.
 - Sets must be both locked in and signed off to qualify for credit.
