@@ -245,7 +245,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 ![DQ013](/devquest-013.png)
 
 **Type**: Revision, Maintenance  
-**Goal**: Add achievements to complete three sets that were missing significant game content 
+**Goal**: Add achievements to complete three sets that were missing significant game content  
 **Repeatable**: Yes (Up to 3 times)
 
 1. Choose from a provided list or grab one from a hub, just make sure you let us know when you start so we can mark it!
@@ -258,7 +258,7 @@ An English release is considered a game released in English in US, Canada, UK, o
 ![DQ014](/devquest-014.png)
 
 **Type**: Maintenance  
-**Goal**: Create leaderboards for 10 games that currently are lacking them
+**Goal**: Create leaderboards for 10 games that currently are lacking them  
 **Repeatable**: No
 
 1. Cover different game modes/difficulties when applicable.
@@ -310,7 +310,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 ![DQ017](/devquest-017.png) ![DQ017](/devquest-017-2.png)
 
 **Type**: Set Creation  
-**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport
+**Goal**: Publish 2 Sets for 2 different sports games, 1 must be a physical sport  
 **Repeatable**: Yes (Up to 2 times)
 
 1. That means both sets must be DIFFERENT SPORTS. You cannot do two baseball games, or two soccer games. The sequel requires all 4 sports to be different.
@@ -425,7 +425,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 ![DQ023](/devquest-023.png)
 
 **Type**: Set Creation  
-**Goal**: Develop a set from the request list of a randomly chosen active user!
+**Goal**: Develop a set from the request list of a randomly chosen active user!  
 **Repeatable**: No
 
 1. Games chosen should have a decent amount of content. Small games like short hacks, homebrews, and demos may be rejected at the discretion of the DevQuest Team. If in doubt, contact the DevQuest team and ask.
@@ -463,7 +463,7 @@ Each system ID will have an achievement associated with it. Newly supported syst
 ![DQ025](/devquest-025.png)
 
 **Type**: Set Creation  
-**Goal**: Develop a base set for a retail game whose earliest release on the set's system matches a year randomly assigned to you
+**Goal**: Develop a base set for a retail game whose earliest release on the set's system matches a year randomly assigned to you  
 **Repeatable**: No
 
 1. Assigned year must match the earliest release date regardless of region for the game on the set's specific system.
