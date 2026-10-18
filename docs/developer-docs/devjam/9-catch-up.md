@@ -1,6 +1,6 @@
 # DevJam IX (Catch-up from Volumes 1-2)
 
-Max Qualifying Points: 6 or the number of points you are away from 50 total qualifying points (depending on which is smaller)
+Max Qualifying Points: 6 or the number of points you are away from 48 total qualifying points (depending on which is smaller)
 
 ## Event Period
 
