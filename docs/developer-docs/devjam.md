@@ -47,7 +47,7 @@ The primary goal of DevJam events is to create and simultaneously release a bunc
 4. Receive event badges when you earn enough qualifying points!
 
 ::: warning Special Claims
-DevJam uses special claims for jammers so that sets involved will not count against a developer's primary claim total while waiting for a Jam’s launch day. All sets signed off and one set locked in will be marked as special claims. Early and existing claims toward a Jam won't be marked as a special claim until the start of a DevJam. If a set isn't completed in time for a Jam’s launch, the set will revert to a primary claim. See the Special Claims rules for more detailed information.
+DevJam uses special claims for jammers so that sets involved will not count against a developer's primary claim total while waiting for a Jam’s launch day. All sets signed off and one set locked in will be marked as special claims. Early and existing claims toward a Jam won't be marked as a special claim until the start of a DevJam. If a set isn't completed in time for a Jam’s launch, the set will revert to a primary claim. See the [Special Claims](/guidelines/developers/claims-system#special-claims) rules for more detailed information.
 :::
 
 ## The Point System
@@ -64,7 +64,7 @@ The maximum points you may earn for each Jam has a limit (usually 6). This cap a
 Total qualifying points are limited to the sum of point caps across all completed Standard DevJams. This limit to qualifying points will increase with each Standard DevJam until all 4 DevJam badges are available to earn. Catch-up Jams do not increase the qualifying point limit.
 
 ::: warning Late Submissions
-Late submissions are considered sets released for a Jam at least 24 hours after a Jam’s launch day but before the start of the next Jam. Sets are ineligible for credit for a previous Jam once the next Jam begins. Late submissions are worth 1 less point than the set would earn otherwise, and these submissions are not eligible for bonus points or catch-up points. Check the individual Jam page for normal set point values.
+Late submissions are considered sets released for a Jam at least 24 hours after a Jam’s launch day but before the start of the next Jam. Sets are ineligible for credit for a previous Jam once the next Jam begins. Starting with Volume 3, late submissions are worth 1 less point than the set would earn otherwise, and these submissions are not eligible for bonus points or catch-up points. Check the individual Jam page for normal set point values.
 :::
 
 ## Badges
