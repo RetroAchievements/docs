@@ -1,17 +1,17 @@
 # DevJam VI (Apple II)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2024-12-01
-- Launch Date: 2025-02-28, extended to 2025-03-16
+- **Start Date:** 2024-12-01
+- **Launch Date:** 2025-03-16 *(originally scheduled for 2025-02-28 but later extended)*
 
 ## Eligible Consoles
 
 - [Apple II](https://retroachievements.org/system/38/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                                                        Set Submission                                                         |
 | :----: | :---------------------------------------------------------------------------------------------------------------------------: |
@@ -27,13 +27,13 @@ See the Apple II goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT
 
 ## Stats
 
-_2024-12-01 (start date)_
+### Start Date
 
 - 56 sets
 - 1,283 achievements worth 8,191 points
 - 47 leaderboards
 
-_2025-03-16 (end date)_
+### Launch Date
 
 - 96 sets
 - 2,082 achievements worth 12,731 points
