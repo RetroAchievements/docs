@@ -1,17 +1,17 @@
 # DevJam XI (Famicom Disk System)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2026-08-01
-- Launch Date: 2026-10-31
+- **Start Date:** 2026-08-01
+- **Launch Date:** 2026-10-31
 
 ## Eligible Consoles
 
 - [Nintendo Famicom Disk System](https://retroachievements.org/system/81/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -37,7 +37,7 @@ You can see the list of games and progress of each goal [here](https://docs.goog
 
 ## Stats
 
-_2026-08-01 (start date)_
+### Start Date
 
 - 36 sets (1 hack, 1 prototype, 2 unlicensed)
 - 1,254 achievements
