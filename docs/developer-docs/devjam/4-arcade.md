@@ -1,17 +1,17 @@
 # DevJam IV (Arcade)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2024-05-01
-- Launch Date: 2024-08-31
+- **Start Date:** 2024-05-01
+- **Launch Date:** 2024-08-31
 
 ## Eligible Consoles
 
 - [Arcade](https://retroachievements.org/system/27/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                                                        Set Submission                                                         |
 | :----: | :---------------------------------------------------------------------------------------------------------------------------: |
@@ -27,13 +27,13 @@ See the Arcade goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQby
 
 ## Stats
 
-_2024-02-01 (start date)_
+### Start Date
 
 - 323 sets
 - 13,023 achievements worth 133,339 points
 - 1,576 leaderboards
 
-_2024-08-31 (end date)_
+### Launch Date
 
 - 407 sets
 - 14,973 achievements worth 150,808 points
