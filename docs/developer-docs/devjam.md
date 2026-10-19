@@ -8,7 +8,7 @@ There are 2 types of DevJams:
 - **Standard Jams** feature supported consoles that never received a rollout nor appeared in a previous Jam.
 - **Catch-up Jams** feature a mixture of consoles that appeared in previous Jams.
 
-::: warning Playjam
+::: warning PlayJam
 Each DevJam has a sister event called PlayJam that runs concurrently. A PlayJam features the sets released from the previous quarter’s DevJam event.
 :::
 
@@ -82,27 +82,34 @@ The event badges consist of 24 achievements each with these achievements represe
 
 Each volume of DevJams consists of 4 Standard Jams. Starting with Volume 2, we also feature Catch-up Jams for interludes. Check the links below for more info for each individual Jam.
 
+
+### Volume 1
 | Number |   Type   |                                 Console(s)                                 | Number of Participants | Sets Promoted |      Event Period       |
 | :----: | :------: | :------------------------------------------------------------------------: | :--------------------: | :-----------: | :---------------------: |
-| **Volume 1** |
 |  DJ01  | Standard |              [Sega SG-1000](/developer-docs/devjam/1-sg1000)               |           30           |      60       | 2023-07-01 - 2023-09-30 |
 |  DJ02  | Standard |               [Sega Saturn](/developer-docs/devjam/2-saturn)               |           28           |      56       | 2023-10-01 - 2024-01-31 |
 |  DJ03  | Standard |           [PC Engine / PC Engine CD](/developer-docs/devjam/3-pce)           |           28           |      60       | 2024-02-01 - 2024-04-30 |
 |  DJ04  | Standard |                 [Arcade](/developer-docs/devjam/4-arcade)                  |           33           |      80       | 2024-05-01 - 2024-08-31 |
-| **Volume 2** |
+### Volume 2
+| Number |   Type   |                                 Console(s)                                 | Number of Participants | Sets Promoted |      Event Period       |
+| :----: | :------: | :------------------------------------------------------------------------: | :--------------------: | :-----------: | :---------------------: |
 |  DJ05  | Standard |              [PC-8001 / PC-8801](/developer-docs/devjam/5-pc88)              |           25           |      40       | 2024-09-01 - 2024-11-30 |
 |  DJ06  | Standard |                [Apple II](/developer-docs/devjam/6-appleii)                |           20           |      40       | 2024-12-01 - 2025-03-16 |
 |  DJ07  | Standard |             [Sega CD / 32X](/developer-docs/devjam/7-segacd-32x)             |           27           |      40       | 2025-04-01 - 2025-06-30 |
 |  DJ08  | Standard |                    [MSX](/developer-docs/devjam/8-msx)                     |           26           |      79       | 2025-07-01 - 2025-09-30 |
 |  DJ09  | Catch-up |               [Consoles from Volumes 1-2](/developer-docs/devjam/9-catch-up)                |           18           |      40       | 2026-02-01 - 2026-04-30 |
-| **Volume 3** |
+### Volume 3
+| Number |   Type   |                                 Console(s)                                 | Number of Participants | Sets Promoted |      Event Period       |
+| :----: | :------: | :------------------------------------------------------------------------: | :--------------------: | :-----------: | :---------------------: |
 |  DJ10  | Standard | [Game Gear / Master System](/developer-docs/devjam/10-mastersystem-gamegear) |           36           |      76       | 2026-05-01 - 2026-07-31 |
 |  DJ11  | Standard |           [Famicom Disk System](/developer-docs/devjam/11-fds)             |           ??           |      ??       | 2026-08-01 - 2026-10-31 |
 |  DJ12  | Catch-up |           Consoles from Volume 1            |           ??           |      ??       | TBD |
 |  DJ13  | Standard |           TBD            |           ??           |      ??       | TBD |
 |  DJ14  | Standard |           TBD            |           ??           |      ??       | TBD |
 |  DJ15  | Catch-up |           Consoles from Volume 3            |           ??           |      ??       | TBD |
-| **Volume 4** |
+### Volume 4
+| Number |   Type   |                                 Console(s)                                 | Number of Participants | Sets Promoted |      Event Period       |
+| :----: | :------: | :------------------------------------------------------------------------: | :--------------------: | :-----------: | :---------------------: |
 |  DJ16  | Standard |           TBD            |           ??           |      ??       | TBD |
 |  DJ17  | Standard |           TBD            |           ??           |      ??       | TBD |
 |  DJ18  | Catch-up |           Consoles from Volume 2            |           ??           |      ??       | TBD |
@@ -114,7 +121,7 @@ Each volume of DevJams consists of 4 Standard Jams. Starting with Volume 2, we a
 
 Shortly before a new Standard DevJam begins, the console(s) for it are determined randomly by a wheel spin. After the spin is complete and the result announced, the slots for the winning console(s) are removed from the wheel while every other slot remains.
 
-Each participant of a Jam who reaches the point cap is allowed to make a selection from the solo or multi-console lists below. Each of these selections is then added as a slot to the wheel. Developers may choose the same selection over multiple Jams if they wish to add more slots for that selection and increase its odds of winning in a future wheel spin.
+Each participant who reaches the point cap of a Standard DevJam is allowed to make a selection from the solo or multi-console lists below. Each of these selections is then added as a slot to the wheel. Developers may choose the same selection over multiple Jams if they wish to add more slots for that selection and increase its odds of winning in a future wheel spin.
 
 **Solo Consoles:**
 
