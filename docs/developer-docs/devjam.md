@@ -61,7 +61,9 @@ Points can be obtained in 3 ways during each DevJam:
 
 The maximum points you may earn for each Jam has a limit (usually 6). This cap affects points received from sets and general goals (bonus points). If a jammer has excess catch-up points beyond this cap, those extra catch-up points are converted directly into qualifying points as long as the jammer hasn't reached the qualifying point limit.
 
-Total qualifying points are limited to the sum of point caps across all completed Standard DevJams. This limit to qualifying points will increase with each Standard DevJam until all 4 DevJam badges are available to earn. Catch-up Jams do not increase the qualifying point limit.
+The total number of qualifying points a jammer may earn is limited to the sum of point caps across all completed Standard DevJams. This limit to qualifying points will increase with each Standard DevJam until all 4 DevJam badges are available to earn. Catch-up Jams do not increase the qualifying point limit.
+
+**Current Qualifying Point Limit:** 60
 
 ::: warning Late Submissions
 Late submissions are considered sets released for a Jam at least 24 hours after a Jam’s launch day but before the start of the next Jam. Sets are ineligible for credit for a previous Jam once the next Jam begins. Starting with Volume 3, late submissions are worth 1 less point than the set would earn otherwise, and these submissions are not eligible for bonus points or catch-up points. Check the individual Jam page for normal set point values.
