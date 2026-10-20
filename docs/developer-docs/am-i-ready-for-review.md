@@ -77,7 +77,7 @@ Are grammar and capitalization not your strong suit? Having trouble coming up wi
 - This is an important part of set presentation. Grouping things up thematically or chronologically makes it much more readable for players.
 - Having achievements in the desired order also helps reviewers look through your achievements more quickly, and also helps us better see the strengths of your set design.
 
-## Progression achievements and Win Conditions are properly idenfitied
+## Progression achievements and Win Conditions are properly identified
 
 - Achievements for beating a game are marked as Win Condition.
 - Achievements that must be earned before earning any Win Condition are marked as Progression
