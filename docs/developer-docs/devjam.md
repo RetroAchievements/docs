@@ -8,7 +8,7 @@ There are 2 types of DevJams:
 - **Standard Jams** feature supported consoles that never received a rollout nor appeared in a previous Jam.
 - **Catch-up Jams** feature a mixture of consoles that appeared in previous Jams.
 
-::: warning PlayJam
+::: tip PlayJam
 Each DevJam has a sister event called PlayJam that runs concurrently. A PlayJam features the sets released from the previous quarter’s DevJam event.
 :::
 
@@ -84,6 +84,7 @@ The event badges consist of 24 achievements each with these achievements represe
 
 Each volume of DevJams consists of 4 Standard Jams. Starting with Volume 2, we also feature Catch-up Jams for interludes. Check the links below for more info for each individual Jam.
 
+**Current DevJam's Sheet:** [DJ11](https://docs.google.com/spreadsheets/d/1EBMW7nO95wvbsOAIfgm2XFnCCez2a14jRfYAnt-uqvo/edit?gid=1251711278#gid=1251711278)
 
 ### Volume 1
 | Number |   Type   |                                 Console(s)                                 | Number of Participants | Sets Promoted |      Event Period       |
