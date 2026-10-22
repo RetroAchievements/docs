@@ -127,14 +127,10 @@ The team responsible for investigating cheating reports.
 
 The team responsible for helping Jr. Devs learn how to make achievements sets and review their work to ensure their understanding is enough to make sets on their own:
 
-- [ChaoticAdventure](https://retroachievements.org/user/ChaoticAdventure)
 - [coyoacan](https://retroachievements.org/user/coyoacan)
-- [CySlaytor](https://retroachievements.org/user/CySlaytor)
-- [Goodbite](https://retroachievements.org/user/Goodbite)
 - [Homuki](https://retroachievements.org/user/Homuki)
 - [Layton](https://retroachievements.org/user/Layton)
 - [lonegraywolf2000](https://retroachievements.org/user/lonegraywolf2000)
-- [OpheliaEnigma](https://retroachievements.org/user/OpheliaEnigma)
 - [Pilzkopf](https://retroachievements.org/user/Pilzkopf)
 - [pinguupinguu](https://retroachievements.org/user/pinguupinguu)
 - [Prims](https://retroachievements.org/user/Prims)
