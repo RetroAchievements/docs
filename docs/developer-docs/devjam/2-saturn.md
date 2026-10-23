@@ -1,17 +1,17 @@
 # DevJam II (Sega Saturn)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2023-10-01
-- Launch Date: 2024-01-31
+- **Start Date:** 2023-10-01
+- **Launch Date:** 2024-01-31
 
 ## Eligible Consoles
 
 - [Sega Saturn](https://retroachievements.org/system/39/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                                                Set Submission                                                |
 | :----: | :----------------------------------------------------------------------------------------------------------: |
@@ -28,13 +28,13 @@ See the Sega Saturn goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-
 
 ## Stats
 
-_2023-10-01 (start date)_
+### Start Date
 
 - 65 sets (61 licensed games, 1 subset, 2 homebrews, and 1 demo)
 - 3,505 achievements worth 29,853 points
 - 348 leaderboards
 
-_2024-01-31 (end date)_
+### Launch Date
 
 - 128 sets (117 licensed games, 7 subsets, 2 homebrews, 1 prototype, and 1 demo)
 - 6,370 achievements worth 53,047 points

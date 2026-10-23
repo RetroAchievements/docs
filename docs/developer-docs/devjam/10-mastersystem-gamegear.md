@@ -1,11 +1,9 @@
 # DevJam X (Game Gear / Master System)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2026-05-01
-- Launch Date: 2026-07-31
+- **Start Date:** 2026-05-01
+- **Launch Date:** 2026-07-31
 
 ## Eligible Consoles
 
@@ -13,6 +11,8 @@ Max Qualifying Points: 6
 - [Sega Master System](https://retroachievements.org/system/11/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -28,7 +28,7 @@ See the Game Gear / Master System goals [here](https://docs.google.com/spreadshe
 
 ## Stats
 
-_2026-05-01 (start date)_
+### Start Date
 
 - Game Gear:
   - 119 sets

@@ -1,18 +1,18 @@
 # DevJam VII (Sega CD / 32X)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2025-04-01
-- Launch Date: 2025-06-30
+- **Start Date:** 2025-04-01
+- **Launch Date:** 2025-06-30
 
 ## Eligible Consoles
 
-- [Sega 32X](https://retroachievements.org/system/10/games)
 - [Sega CD](https://retroachievements.org/system/9/games)
+- [Sega 32X](https://retroachievements.org/system/10/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -28,7 +28,7 @@ See the Sega CD/32X goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-
 
 ## Stats
 
-_2025-04-01 (start date)_
+### Start Date
 
 - Sega CD:
   - 51 sets (47 licensed, 2 homebrews, 1 hack, and 1 prototype)
@@ -40,7 +40,7 @@ _2025-04-01 (start date)_
   - 820 achievements worth 7,177 points
   - 172 leaderboards
 
-_2025-06-30 (end date)_
+### Launch Date
 
 - Sega CD:
   - 79 sets (75 licensed, 2 homebrews, 1 hack, and 1 prototype)
@@ -51,7 +51,6 @@ _2025-06-30 (end date)_
   - 34 sets (22 licensed, 4 hacks, 3 homebrews, and 5 prototypes)
   - 1,118 achievements worth 9,403 points
   - 263 leaderboards
-
 
 ## See Also
 
