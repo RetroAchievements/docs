@@ -1,4 +1,4 @@
-# DevJam IX (Catch-up from Volumes 1-2)
+# DevJam IX (Volumes 1-2 Catch-up)
 
 ## Event Period
 
@@ -20,7 +20,7 @@
 
 ## Set Point Values
 
-Points Cap: 6 or the number of points you are away from the total qualifying points limit (depending on which is smaller)
+Points Cap: 6 or the number of points you are away from the current qualifying point limit (depending on which is smaller)
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
