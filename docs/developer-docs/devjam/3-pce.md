@@ -1,11 +1,9 @@
 # DevJam III (PC-Engine)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2024-02-01
-- Launch Date: 2024-04-30
+- **Start Date:** 2024-02-01
+- **Launch Date:** 2024-04-30
 
 ## Eligible Consoles
 
@@ -13,6 +11,8 @@ Max Qualifying Points: 6
 - [PC Engine CD / TurboGrafx-CD](https://retroachievements.org/system/76/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                                                Set Submission                                                |
 | :----: | :----------------------------------------------------------------------------------------------------------: |
@@ -28,7 +28,7 @@ See the PC Engine and PC Engine CD goals [here](https://docs.google.com/spreadsh
 
 ## Stats
 
-_2024-02-01 (start date)_
+### Start Date
 
 - PC Engine:
   - 94 sets (85 licensed games, 1 unlicensed game, 2 subsets, and 6 homebrews)
@@ -40,7 +40,7 @@ _2024-02-01 (start date)_
   - 1,782 achievements worth 15,663 points
   - 91 leaderboards
 
-_2024-04-30 (end date)_
+### Launch Date
 
 - PC Engine:
   - 130 sets (116 licensed games, 2 unlicensed games, 4 subsets, and 8 homebrews)

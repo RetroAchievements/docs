@@ -1,17 +1,17 @@
 # DevJam VIII (MSX)
 
-Max Qualifying Points: 6
-
 ## Event Period
 
-- Start Date: 2025-07-01
-- Launch Date: 2025-09-30
+- **Start Date:** 2025-07-01
+- **Launch Date:** 2025-09-30
 
 ## Eligible Consoles
 
 - [MSX](https://retroachievements.org/system/29/games)
 
 ## Set Point Values
+
+Points Cap: 6
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -30,7 +30,7 @@ See the MSX goals [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTTr2fh
 
 ## Stats
 
-_2025-07-01 (start date)_
+### Start date
 
 - 53 sets (35 licensed, 15 homebrew, and 3 unlicensed)
 - 1,443 achievements worth 11,901 points

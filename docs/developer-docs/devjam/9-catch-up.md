@@ -1,11 +1,9 @@
-# DevJam IX (Catch-up from Volumes 1-2)
-
-Max Qualifying Points: 6 or the number of points you are away from 48 total qualifying points (depending on which is smaller)
+# DevJam IX (Volumes 1-2 Catch-up)
 
 ## Event Period
 
-- Start Date: 2026-02-01
-- Launch Date: 2026-04-30
+- **Start Date:** 2026-02-01
+- **Launch Date:** 2026-04-30
 
 ## Eligible Consoles
 
@@ -21,6 +19,8 @@ Max Qualifying Points: 6 or the number of points you are away from 48 total qual
 - [Sega SG-1000](https://retroachievements.org/system/33/games)
 
 ## Set Point Values
+
+Points Cap: 6 or the number of points you are away from 48 total qualifying points (depending on which is smaller)
 
 | Points |                   Set Submission                               |
 | :----: | :------------------------------------------------------------: |
@@ -40,7 +40,7 @@ Max Qualifying Points: 6 or the number of points you are away from 48 total qual
 
 ## Secondary Goals
 
-This DevJam does not have any secondary goals.
+Catch-up Jams do not have any secondary goals.
 
 ## See Also
 
