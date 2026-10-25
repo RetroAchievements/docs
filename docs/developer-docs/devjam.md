@@ -24,7 +24,7 @@ The primary goal of DevJam events is to create and simultaneously release a bunc
 - Participation currently requires being active in the RetroAchievements Discord server.
 - Developers must receive credit for at least one set in the active DevJam to be considered a participating jammer.
 - Only new sets for the consoles listed in a DevJam qualify for credit.
-- Sets must be confirmed as signed off and promoted on launch day to qualify for credit.
+- With the exception of late submissions, sets must be confirmed as signed off and promoted on launch day to qualify for credit.
 - Releasing a set before the DevJam’s launch date and time will disqualify the set.
 - Sets that you started developing before a DevJam begins qualify for credit as long as those sets remain unreleased prior to the Jam’s launch date.
 - Sets submitted for DevJam credit are permitted to double-dip for credit with DevQuests and other events as long as those other events allow it.
