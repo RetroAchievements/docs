@@ -40,7 +40,7 @@ Points Cap: 6 or the number of points you are away from the current qualifying p
 
 ## Secondary Goals
 
-This DevJam does not have any secondary goals.
+Catch-up Jams do not have any secondary goals.
 
 ## See Also
 
