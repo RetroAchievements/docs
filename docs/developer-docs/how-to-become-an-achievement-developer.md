@@ -9,7 +9,7 @@ The purpose of this document is to provide guidance on how to [join the Junior D
 
 **Anyone can become a RetroAchievements developer if they put in the effort.**
 
-Junior Developers are **required** to join the RetroAchievements Discord server. The server is where the Junior Developer program is administered. If you already know what game you want to work on, go ahead and ask for the `Jr-Dev` role in `#role-request` forum by creating a post tagged as `Jr-Dev`, posting your set plan for the game (you can use one of these [templates](https://docs.google.com/spreadsheets/d/1VC2phJ9AUcZK5Ll4bVuMpJXED8QdM_nw8OdSAuLc3bI/edit)), and pinging `@Code-Reviewer` role for set plan approval and Junior Developer program indoc.
+Junior Developers are **required** to join the RetroAchievements Discord server. The server is where the Junior Developer program is administered. If you already know what game you want to work on, go ahead and ask for the `Jr-Dev` role in `#role-request` forum by creating a post tagged as `Jr-Dev`, posting your set plan for the game (you can use one of these [templates](https://docs.google.com/spreadsheets/d/1h-nj4PNht7EYa6FqX1l7MnsaYOUo44jiiFFdb9zK6Wk/edit?gid=758167871#gid=758167871)), and pinging `@Code-Reviewer` role for set plan approval and Junior Developer program indoc.
 
 Make sure to first get your account verified by following instructions in `#welcome` if you haven't already.
 
