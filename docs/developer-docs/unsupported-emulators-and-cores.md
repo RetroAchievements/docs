@@ -150,12 +150,12 @@ This is a list of emulators and cores that have either been confirmed to not wor
 | Name                       | Type          | Status  | Notes                               |
 | :------------------------- | :------------ | :-----: | :---------------------------------- |
 | **DeSmuME 2015**           | libretro core | ❌      | |
-| **melonDS 2021**           | libretro core | ❓       | |
 
 ## Nintendo DSi
 
 | Name                       | Type          | Status  | Notes                               |
 | :------------------------- | :------------ | :-----: | :---------------------------------- |
+| **DeSmuME 2015**           | libretro core | ❌ | |
 | **DeSmuME**                | libretro core | ❌ | |
 | **melonDS**                | libretro core | ❌ | |
 
