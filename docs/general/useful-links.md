@@ -37,6 +37,10 @@ An online ROM patcher utility.
 
 Excellent for viewing raw achievements
 
+## https://jsonviewertool.com/
+
+Another browser-based option for viewing and formatting raw achievements.
+
 ## http://gamehacking.org
 
 Provides many Pro Action, Game Genie, and Game Shark codes which can be converted to RAW addresses on the site.
