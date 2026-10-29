@@ -58,13 +58,14 @@ When these are acceptable:
   - Achievements including approved glitches must require the player to perform some feat using the glitch. Simply causing the glitch to occur without purpose is insufficient unless activating the glitch itself is a meaningful task.
 - A `[Subset - Glitch Showcase]` or `[Subset - Bonus]`.
 
-## Requires Two Players
+## Requires Multiple Players
 
-Achievements that require input from at least one other player are not allowed in a base set.
+Achievements that require input from more than one player are not allowed in a base set.
 
 When these are acceptable:
 
-- `[Subset - Multi]` sets.
+- `[Subset - Multiplayer]` sets.
+- Games that can only be played with more than one player, such as MMORPGs
 
 ## Requires Complete Perfection Over a Long Session
 
