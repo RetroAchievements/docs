@@ -85,7 +85,7 @@ The event badges consist of 24 achievements each with these achievements represe
 
 Each volume of DevJams consists of 4 Standard Jams. Starting with Volume 2, we also feature Catch-up Jams for interludes. Check the links below for more info for each individual Jam.
 
-**Current DevJam's Sheet:** [DJ11](https://docs.google.com/spreadsheets/d/1EBMW7nO95wvbsOAIfgm2XFnCCez2a14jRfYAnt-uqvo/edit?gid=1251711278#gid=1251711278)
+**Current DevJam's Sheet:** DJ12 (N/A for Catch-up Jams)
 
 ### Volume 1
 | Number |   Type   |                                 Console(s)                                 |      Event Period       | Number of Participants | Sets Promoted |
