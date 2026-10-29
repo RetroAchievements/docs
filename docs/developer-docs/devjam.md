@@ -26,7 +26,7 @@ The primary goal of DevJam events is to create and simultaneously release a bunc
 - Only new sets for the consoles listed in a DevJam qualify for credit.
 - With the exception of late submissions, sets must be confirmed as signed off and promoted on launch day to qualify for credit.
 - Releasing a set before the DevJam’s launch date and time will disqualify the set.
-- Sets are ineligible for credit for a previous DevJam once the next Jam begins.
+- Sets are ineligible for late submission credit for a DevJam once the following DevJam launches.
 - Sets that you started developing before a DevJam begins qualify for credit as long as those sets remain unreleased prior to the Jam’s launch date.
 - Sets submitted for DevJam credit are permitted to double-dip for credit with DevQuests and other events as long as those other events allow it.
 
@@ -67,7 +67,7 @@ The maximum points you may earn for each DevJam has a limit (usually 6). This ca
 The total number of qualifying points a jammer may earn is limited to the sum of point caps across all completed Standard DevJams. This limit to qualifying points will increase with each Standard DevJam until all 4 DevJam badges are available to earn. Catch-up Jams do not increase the qualifying point limit.
 
 ::: warning Late Submissions
-Late submissions are considered sets released for a DevJam at least 24 hours after a Jam’s launch day but before the start of the next Jam. Starting with Volume 3, late submissions are worth 1 less point than the set would earn otherwise, and these submissions are not eligible for bonus points or catch-up points. Check the individual Jam page for normal set point values.
+Late submissions are considered sets released for a DevJam at least 24 hours after a Jam’s launch day but before the launch of the following Jam. Starting with Volume 3, late submissions are worth 1 less point than the set would earn otherwise, and these submissions are not eligible for bonus points or catch-up points. Check the individual Jam page for normal set point values.
 :::
 
 ## Badges
@@ -85,7 +85,7 @@ The event badges consist of 24 achievements each with these achievements represe
 
 Each volume of DevJams consists of 4 Standard Jams. Starting with Volume 2, we also feature Catch-up Jams for interludes. Check the links below for more info for each individual Jam.
 
-**Current DevJam's Sheet:** DJ12 (N/A for Catch-up Jams)
+**Current DevJam's Goals:** (N/A for Catch-up Jams)
 
 ### Volume 1
 | Number |   Type   |                                 Console(s)                                 |      Event Period       | Number of Participants | Sets Promoted |
