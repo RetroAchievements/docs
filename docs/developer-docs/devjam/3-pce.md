@@ -1,4 +1,4 @@
-# DevJam III (PC-Engine)
+# DevJam III (PC Engine / PC Engine CD)
 
 ## Event Period
 
@@ -17,9 +17,9 @@ Points Cap: 6
 | Points |                                                Set Submission                                                |
 | :----: | :----------------------------------------------------------------------------------------------------------: |
 |   3    |                                                Licensed Games                                                |
-|   2    |                      Collaborations                    |
+|   2    |                                                Collaborations                                                |
 |   2    |                        Hacks, Prototypes, Demos, Subsets, Homebrews, Unlicensed Games                        |
-|   2    | Late Submissions (Licensed Games) |
+|   2    |                                       Late Submissions (Licensed Games)                                      |
 |   1    |             Late Submissions (Collabs, Hacks, Prototypes, Demos, Subsets, Homebrews, Unlicensed)             |
 
 ## Secondary Goals
