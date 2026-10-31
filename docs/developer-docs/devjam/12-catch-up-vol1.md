@@ -25,7 +25,7 @@ Points Cap: 6 or the number of points you are away from the current qualifying p
 |   3    |                Atomiswave and Sega NAOMI games                 |
 |   2    |                Other Licensed Games                            |
 |   2    |                Homebrews, Hacks, etc.                          |
-|   2    |                Collaborations (3-point games)                  |
+|   2    |                Collaborations (3 and 4-point games)            |
 |   1    |                Collaborations (2-point games)                  |
 
 ## Secondary Goals
