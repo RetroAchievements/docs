@@ -1,3 +1,7 @@
+---
+title: DevJam
+description: Describes goals and rules of the developer events called DevJams
+---
 # DevJam
 
 ## What are DevJams?
