@@ -1,4 +1,18 @@
----
+Olá! Tenho uma versão traduzida para português brasileiro de Final Fantasy II: 20th Anniversary Edition (PSP), região USA, serial ULUS-10263.
+
+A versão original é reconhecida pelo RetroAchievements, com o hash:
+
+`b3ea52273baaee4f5af083ea814c5583`
+
+Porém, a versão traduzida apresenta este hash:
+
+`3aef8d8469187ced19a12fbd909dde09`
+
+Gostaria de solicitar uma análise para verificar a possibilidade de adicionar esse hash como uma versão compatível com o conjunto de conquistas.
+
+A tradução altera os arquivos necessários para inserir o português, mas a intenção é preservar a jogabilidade e as condições das conquistas.
+
+Seria possível testar e avaliar a inclusão desse hash?---
 title: Player Compatibility Testing
 description: Describes the process for players to conduct compatibility testing for additional hashes to primary achievement sets on RetroAchievements.
 ---
