@@ -74,7 +74,7 @@ Achievement badges should focus on certain goals:
 Banners are wide images used to represent games on certain pages of the site.
 
 - Banners cannot go through a community gauntlet process, and can only be changed by authors that currently hold claim or have developed for that particular set, or by art team members.
-- Banners must be 3000x900 (1920x540 minimum).
+- Banners must be 3200x900 (1920x540 minimum).
 - Banners should ideally be designed and optimized for all Desktop, Mobile and Ultrawide views, according to the following representation:
 
 ![banner visual](/banner-visual.png)
@@ -91,7 +91,9 @@ All existing guidelines for game icons apply to banners as well, with the follow
 
 ## Uploading Mastery Icons, Achievement Icons and Banners
 
-**Developers:**
+### Developers:
+
+**Uploading badges on the website**
 
 - Achievement developers are allowed to add mastery badges freely for entries that do not have achievements nor a mastery badge. As a claimant for a set without achievements, developers are free to change the mastery icon, the achievement icons and the banner.
  - To change the set's media content, first go to the game page and click on "Manage":
@@ -108,7 +110,17 @@ All existing guidelines for game icons apply to banners as well, with the follow
 
 If a game already has a set, icon changes must go through the [icon gauntlet revision process](/guidelines/content/achievement-set-revisions).
 
-**Non-Developers:**
+**Uploading Badges in the Emulator**
+
+When you create new achievements, you can upload their badges from the Asset Editor in the emulator's developer tools:
+
+![Upload Badge](/alt-groups-add.png)
+
+You can also pick an image you uploaded before from the dropdown box:
+
+![Badge dropdown](/badge-dropdown.png)
+
+### Non-Developers:
 
 - Non-developers cannot upload banners nor push them through the icon gauntlet revision process. Non-developers can, however, communicate with developers of the set or Art Team members to possibly add a banner of their making to a game page, keeping in mind that the developer or Art Team member has the final say on if the banner will be added or not, and will not be beholden to a community vote.
 - Non-developers must go through the "cleanup-requests" process on the Retroachievements official discord to upload mastery icons to iconless sets. For sets that already have a set and an icon, non-developers must go through the [icon gauntlet revision process](/guidelines/content/achievement-set-revisions) for either the mastery icon or any achievement icons that they may wish to change.
