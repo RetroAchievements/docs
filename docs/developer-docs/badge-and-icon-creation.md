@@ -7,6 +7,23 @@ description: Learn how to design and upload game icons and achievement badges, i
 
 See [Banner, Badge and Icon Guidelines](/guidelines/content/badge-and-icon-guidelines) and [achievement set revisions](/guidelines/content/achievement-set-revisions#icon-gauntlet) for more information on icon creation and changing current achievement icons.
 
+## Uploading Mastery Icons, Achievement Icons and Banners
+
+- Achievement developers are allowed to add mastery badges freely for entries that do not have achievements nor a mastery badge. As a claimant for a set without achievements, developers are free to change the mastery icon, the achievement icons and the banner.
+ - To change the set's media content, first go to the game page and click on "Manage":
+
+   ![change_game_icon_1](/change_game_icon1.png)
+   
+ - Next, click on "Media":
+   
+   ![change game icon 2](/change_game_icon2.png)
+   
+ - On this page, you're able to change the mastery icon, the banner and the achievement icons for any achievements present on the set:
+   
+   ![change game icon 3](/change_game_icon3.png)
+
+If a game already has a set, icon changes must go through the [icon gauntlet revision process](/guidelines/content/achievement-set-revisions).
+
 ## Uploading Badges in the Emulator
 
 When you create new achievements, you can upload their badges from the Asset Editor in the emulator's developer tools:

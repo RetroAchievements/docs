@@ -74,7 +74,7 @@ Achievement badges should focus on certain goals:
 Banners are wide images used to represent games on certain pages of the site.
 
 - Banners cannot go through a community gauntlet process, and can only be changed by authors that currently hold claim or have developed for that particular set, or by art team members.
-- Banners must be 3000x900 (1920x540 minimum).
+- Banners must be 3200x900 (1920x540 minimum).
 - Banners should ideally be designed and optimized for all Desktop, Mobile and Ultrawide views, according to the following representation:
 
 ![banner visual](/banner-visual.png)
@@ -107,6 +107,16 @@ All existing guidelines for game icons apply to banners as well, with the follow
    ![change game icon 3](/change_game_icon3.png)
 
 If a game already has a set, icon changes must go through the [icon gauntlet revision process](/guidelines/content/achievement-set-revisions).
+
+## Uploading Badges in the Emulator
+
+When you create new achievements, you can upload their badges from the Asset Editor in the emulator's developer tools:
+
+![Upload Badge](/alt-groups-add.png)
+
+You can also pick an image you uploaded before from the dropdown box:
+
+![Badge dropdown](/badge-dropdown.png)
 
 **Non-Developers:**
 
