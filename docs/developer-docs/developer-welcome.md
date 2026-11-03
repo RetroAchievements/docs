@@ -38,7 +38,7 @@ To get to this page, go to your game’s page:
 
 Now that your set is live, it is time to announce it to everyone if you are on Discord!
 
-We have a handy bot command that you can use to auto generate a template _as long as your set is in core_. Go to #bot-spam and type in “!gan [gameid]” where [gameid] is the id of your game.
+We have a handy bot command that you can use to auto generate a template _as long as your set is in core_. Go to #bot-spam and type in `/gan [gameid]`, replacing `[gameid]` with the id of your game. `/gan2` is also available as an option as an alternative template.
 
 The pinned messages in #devs-chat have an alternate colored template that can be used as well.
 
