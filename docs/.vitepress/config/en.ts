@@ -189,6 +189,10 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
           link: "/guidelines/developers/handling-tickets",
         },
         {
+          text: "Refactoring Requirements",
+          link: "/guidelines/developers/refactor-requirements",
+        },
+        {
           text: "Maintainership Role",
           link: "/guidelines/developers/maintainership",
         },
@@ -273,10 +277,6 @@ function sidebarGuidelines(): DefaultTheme.SidebarItem[] {
         {
           text: "Subset Design",
           link: "/guidelines/content/subset_design",
-        },
-        {
-          text: "Refactoring Requirements",
-          link: "/guidelines/content/refactor-requirements",
         },
         {
           text: "Working with the Right ROM",
