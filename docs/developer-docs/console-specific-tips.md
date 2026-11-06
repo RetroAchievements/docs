@@ -206,6 +206,12 @@ B8B0 63 64 72 6F 6D 3A 5C 53 43 55 53 5F 39 34 32 2E 32 38 3B 31
       c  d  r  o  m  :  \  S  C  U  S  _  9  4  2  .  2  8  ;  1
 ```
 
+## PlayStation 2
+
+PlayStation 2 physical RAM is addressed at `0x00000000-0x01ffffff`, which matches the mapping RA uses.  You do not usually need to mask or do any tricks to adapt pointers. Just use them straight with `Add Address`.
+
+However, the system also has an uncached alias for its physical RAM addressed at `0x20000000–0x21FFFFFF` which mirrors this physical RAM. You may rarely find a game that needs to use such a pointer. When using them, mask them with 0x01ffffff: `Add Address Mem MyPointer & 0x01ffffff`.
+
 ## PlayStation Portable
 
 When working with PSP make sure to check if your game has any DLC as this form of content is able to be accessed by players without altered saves or patched versions of the game and will need to be accounted for and in some cases protected against if it provides advantages that you don't want players to exploit.
