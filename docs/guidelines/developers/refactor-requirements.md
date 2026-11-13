@@ -125,14 +125,36 @@ Struct example:
 |0x0c=[Float] Y Position
 ```
 
-### General Game Note
+### Noting Multiple Game Files on a Set
+
+Multidisc games or sets that support multiple versions with differing RAM addresses shall annotate for which game file or region a note is for immediately after the size.
+
+```
+[8-bit] Disc 1 - Event flags
+Bit0=Opened cave door
+Bit1=Opened chest in cave entry room
+Bit2=Opened chest in boss room
+```
+```
+[8-bit] US - Lives
+```
+
+Additionally, if the same address is used for different purposes on different game files, the address note must contain a full note for each game file.
+
+```
+[8-bit] US - Lives
+
+[8-bit] EU - Continues
+```
+
+### General Game Notes
 
 Occasionally, in order to more easily understand how a game functions, some general game notes are useful to inform maintainers. In cases where the refactorer feels a general game note will add significant benefit, it may be made on address 0x00000000 using the header **[General game notes]**.
 ::: info
 In the event that address is also used in logic, the general game note, including header, should be placed below the note describing the address for purposes of logic reference.
 :::
 
-General game note example:
+General game note examples:
 ```
 [General game notes]
 NOTE: The game initializes a lot of pointer types as the value 0x16a43 in initialized memory, so some pointers may have to be checked against both null and 0x16a43.
@@ -140,6 +162,10 @@ NOTE: The game initializes a lot of pointer types as the value 0x16a43 in initia
 Additionally, this is a game with weird memory management; code note entries at very high addresses are consistent and static and not accessed with a pointer unless otherwise stated.
 
 The Japanese version of the game, Hard Luck, has debug symbols which may help maintainers.
+```
+```
+[General game notes]
+NOTE: Notes are for the US version, EU version addresses are all offset by 0x1234. All logic uses this offset for PAL region support.
 ```
 
 ## Achievement Logic
