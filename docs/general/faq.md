@@ -189,7 +189,7 @@ When sending a manual unlock request via the website your message <ins>must</ins
 
 #### In summary: how to request a manual unlock
 
-1. **Open a Ticket (When Applicable):**
+1. **ONLY IF THE ACHIEVEMENT HAS A REAL BUG, open a ticket:**
 
    - Report the issue by opening a ticket that clearly describes the problem with the achievement.
      - Note: If the achievement was triggered correctly except for a network sync issue, you do not need to open a ticket—just explain the network issue in your manual unlock request.
